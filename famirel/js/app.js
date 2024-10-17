@@ -78,7 +78,12 @@
                 bodyLockToggle();
                 document.documentElement.classList.toggle("menu-open");
             }
+            if (e.target.closest(".menu__link")) functions_menuClose();
         }));
+    }
+    function functions_menuClose() {
+        bodyUnlock();
+        document.documentElement.classList.remove("menu-open");
     }
     function functions_FLS(message) {
         setTimeout((() => {

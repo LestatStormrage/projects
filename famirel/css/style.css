@@ -302,7 +302,8 @@ body {
 }
 .slide-category__body {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+  max-width: 50rem
 }
 .slide-category__info {
   display: flex;
@@ -393,8 +394,7 @@ body {
   flex-direction: column;
   z-index: 500;
   position: relative;
-  background-color: var(--background);
-  overflow-y: auto
+  background-color: var(--background)
 }
 .slide-category.fullscreen-slide .slide-category__container * {
   text-align: start
@@ -458,7 +458,7 @@ body {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 50;
+  z-index: 150;
   background-color: rgba(223,204,194,.7058823529)
 }
 .header__container {
@@ -2007,6 +2007,11 @@ button.swiper-pagination-bullet {
   }
   .hautpflege__container {
     padding-bottom: 2.5rem
+  }
+}
+@media (max-width:62.5em) {
+  .slide-category__body {
+    max-width: 25rem
   }
 }
 @media (max-width:61.99875em) {
