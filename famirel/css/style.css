@@ -2863,10 +2863,6 @@ button.swiper-pagination-bullet {
     height: 12.5rem;
     padding-top: 4.375rem
   }
-  .slide-category.fullscreen-slide .slide-category__image {
-    max-height: 90%;
-    padding-top: 7.5rem
-  }
   .contact-us__background::before {
     content: "";
     background: linear-gradient(90deg,rgba(0,0,0,.6) 0,rgba(0,0,0,.2) 100%);
