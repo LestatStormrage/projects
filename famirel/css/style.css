@@ -2949,10 +2949,6 @@ button.swiper-pagination-bullet {
     height: 12.5rem;
     padding-top: 4.375rem
   }
-  .product.fullscreen-item .product__image {
-    max-height: 90%;
-    padding-top: 7.5rem
-  }
 }
 @media (max-width:47.99875em)and (max-width:20em) {
   .menu__body {
