@@ -5409,27 +5409,6 @@
             }
         }
     }));
-    function handlePopup(openBtnId, popupContainerId, closeBtnId) {
-        const openPopupBtn = document.getElementById(openBtnId);
-        const popupContainer = document.getElementById(popupContainerId);
-        const closePopupBtn = document.getElementById(closeBtnId);
-        if (openPopupBtn && popupContainer && closePopupBtn) {
-            openPopupBtn.addEventListener("click", (e => {
-                e.stopPropagation();
-                popupContainer.style.display = "flex";
-            }));
-            closePopupBtn.addEventListener("click", (() => {
-                popupContainer.style.display = "none";
-            }));
-            popupContainer.addEventListener("click", (e => {
-                if (e.target === popupContainer) popupContainer.style.display = "none";
-            }));
-        } else console.warn(`One or more elements are missing for popup: ${popupContainerId}`);
-    }
-    handlePopup("openTOS", "TOSContainer", "closeTOS");
-    handlePopup("openPrivacy", "PrivacyContainer", "closePrivacy");
-    handlePopup("openPopup3", "Popup3Container", "closePopup3");
-    handlePopup("openPopup4", "Popup4Container", "closePopup4");
     document.addEventListener("DOMContentLoaded", (function() {
         const form = document.getElementById("form");
         form.addEventListener("submit", formSend);
