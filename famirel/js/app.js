@@ -5424,8 +5424,6 @@
             if (e.target === popupContainer) popupContainer.style.display = "none";
         }));
     }
-    handlePopup("openTOS", "TOSContainer", "closeTOS");
-    handlePopup("openPrivacy", "PrivacyContainer", "closePrivacy");
     handlePopup("openPopup3", "Popup3Container", "closePopup3");
     handlePopup("openPopup4", "Popup4Container", "closePopup4");
     document.addEventListener("DOMContentLoaded", (function() {
