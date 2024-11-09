@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20241108155848">
+	<link rel="stylesheet" href="css/style.min.css?_v=20241109233030">
 	<link rel="shortcut icon" href="favicon.ico?">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -40,7 +40,7 @@
 				<div class="catalogue__container">
 					<div class="catalogue__filter filter-catalogue">
 						<div class="filter-catalogue__body">
-							<button data-filter="all" class="filter-catalogue__item" type="button">Alles anzeigen</button>
+							<button id="show-all" data-filter="all" class="filter-catalogue__item" type="button">Alles anzeigen</button>
 							<input class="filter-catalogue__checkbox" type="checkbox" name="filter-one" id="filter-one">
 							<details open class="filter-catalogue__series filter-catalogue__spoiler">
 								<summary class="filter-catalogue__title">
@@ -1649,7 +1649,7 @@
 
 						<a href="#catalogue" data-category="intimate-hygiene, intimate" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/intimate-hygiene.webp" alt=""> -->
+								<img class="product__background" src="img/banners/intimate-hygiene.webp" alt="">
 								<img class="product__image" src="img/products/intimate-hygiene/1.webp" alt="Aloe Vera Mousse Intimate Wash">
 							</div>
 							<div class="product__content">
@@ -1680,7 +1680,7 @@
 
 						<a href="#catalogue" data-category="intimate-hygiene, intimate" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/intimate-hygiene.webp" alt=""> -->
+								<img class="product__background" src="img/banners/intimate-hygiene.webp" alt="">
 								<img class="product__image" src="img/products/intimate-hygiene/2.webp" alt="Calendula Mousse Intimate Wash">
 							</div>
 							<div class="product__content">
@@ -1712,7 +1712,7 @@
 
 						<a href="#catalogue" data-category="intimate-hygiene, intimate" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/intimate-hygiene.webp" alt=""> -->
+								<img class="product__background" src="img/banners/intimate-hygiene.webp" alt="">
 								<img class="product__image" src="img/products/intimate-hygiene/3.webp" alt="Chamomilla Mousse Intimate Wash for girls">
 							</div>
 							<div class="product__content">
@@ -2147,7 +2147,7 @@
 
 						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/1.webp" alt="Perfumed Shower Gel Intensive Hydrating Essence №1">
 							</div>
 							<div class="product__content">
@@ -2177,7 +2177,7 @@
 						</a>
 						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/2.webp" alt="Perfumed Shower Gel Intensive Hydrating Essence №2">
 							</div>
 							<div class="product__content">
@@ -2207,7 +2207,7 @@
 						</a>
 						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/3.webp" alt="Perfumed Shower Gel Intensive Hydrating Essence №3">
 							</div>
 							<div class="product__content">
@@ -2237,7 +2237,7 @@
 						</a>
 						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/4.webp" alt="Perfumed Shower Gel Intensive Hydrating Essence №4">
 							</div>
 							<div class="product__content">
@@ -2267,7 +2267,7 @@
 						</a>
 						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/5.webp" alt="Perfumed Shower Gel Intensive Hydrating Essence №5">
 							</div>
 							<div class="product__content">
@@ -2298,7 +2298,7 @@
 
 						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/6.webp" alt="Perfumed Body Cream Softening Essence №1">
 							</div>
 							<div class="product__content">
@@ -2328,7 +2328,7 @@
 						</a>
 						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/7.webp" alt="Perfumed Body Cream Softening Essence №2">
 							</div>
 							<div class="product__content">
@@ -2358,7 +2358,7 @@
 						</a>
 						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/8.webp" alt="Perfumed Body Cream Softening Essence №3">
 							</div>
 							<div class="product__content">
@@ -2388,7 +2388,7 @@
 						</a>
 						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/9.webp" alt="Perfumed Body Cream Softening Essence №4">
 							</div>
 							<div class="product__content">
@@ -2418,7 +2418,7 @@
 						</a>
 						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/10.webp" alt="Perfumed Body Cream Softening Essence №5">
 							</div>
 							<div class="product__content">
@@ -2449,7 +2449,7 @@
 
 						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/11.webp" alt="Silky Body Mist Refreshing Mood Essence №1">
 							</div>
 							<div class="product__content">
@@ -2478,7 +2478,7 @@
 						</a>
 						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/12.webp" alt="Silky Body Mist Refreshing Mood Essence №2">
 							</div>
 							<div class="product__content">
@@ -2507,7 +2507,7 @@
 						</a>
 						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/13.webp" alt="Silky Body Mist Refreshing Mood Essence №3">
 							</div>
 							<div class="product__content">
@@ -2536,7 +2536,7 @@
 						</a>
 						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/14.webp" alt="Silky Body Mist Refreshing Mood Essence №4">
 							</div>
 							<div class="product__content">
@@ -2565,7 +2565,7 @@
 						</a>
 						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/15.webp" alt="Silky Body Mist Refreshing Mood Essence №5">
 							</div>
 							<div class="product__content">
@@ -2595,7 +2595,7 @@
 
 						<a href="#catalogue" data-category="perfume-series, hands" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/16.webp" alt="Perfumed Hand Cream Velvety-smoothing Essence №1">
 							</div>
 							<div class="product__content">
@@ -2626,7 +2626,7 @@
 						</a>
 						<a href="#catalogue" data-category="perfume-series, hands" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/17.webp" alt="Perfumed Hand Cream Velvety-smoothing Essence №2">
 							</div>
 							<div class="product__content">
@@ -2657,7 +2657,7 @@
 						</a>
 						<a href="#catalogue" data-category="perfume-series, hands" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/18.webp" alt="Perfumed Hand Cream Velvety-smoothing Essence №3">
 							</div>
 							<div class="product__content">
@@ -2688,7 +2688,7 @@
 						</a>
 						<a href="#catalogue" data-category="perfume-series, hands" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/19.webp" alt="Perfumed Hand Cream Velvety-smoothing Essence №4">
 							</div>
 							<div class="product__content">
@@ -2719,7 +2719,7 @@
 						</a>
 						<a href="#catalogue" data-category="perfume-series, hands" class="catalogue__item product">
 							<div class="product__media">
-								<!-- <img class="product__background" src="img/banners/perfume-series.webp" alt=""> -->
+								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/20.webp" alt="Perfumed Hand Cream Velvety-smoothing Essence №5">
 							</div>
 							<div class="product__content">
@@ -4178,7 +4178,7 @@
 				<div class="contact-us__form">
 					<!-- <form class="contact-us__body" action="files/sendmail/sendmail.php" method="POST"> -->
 					<form id="form" class="contact-us__body" action="#">
-						<h2 class="contact-us__title title">Dealer werden</h2>
+						<h2 class="contact-us__title title title--mid">Dealer werden</h2>
 						<div class="contact-us__item">
 							<div class="contact-us__label">Anrede *:</div>
 							<select class="contact-us__select _req" name="anrede" data-class-modif="form">
@@ -4209,7 +4209,7 @@
 								<input id="contactUsAgreement" data-error="Error" class="checkbox-contact-us__input input _req" type="checkbox" value="1" name="agreement">
 								<label for="contactUsAgreement" class="checkbox-contact-us__label"><span class="checkbox-contact-us__text">Ich erkläre
 										meine Einwilligung zur Erhebung, Verarbeitung oder Nutzung meiner personenbezogenen Daten gemäß der
-										<a href="">Datenschutzerklärung</a>. *</span>
+										<a href="datenschutz.html">Datenschutzerklärung</a>. *</span>
 								</label>
 							</div>
 						</div>
@@ -4278,7 +4278,7 @@
 					</ul>
 					<div class="footer__back back-footer">
 						<div class="back-footer__text">Zurück zum </div>
-						<a href="#" class="back-footer__link buy"><span>Seitenanfang</span></a>
+						<a href="#" id="back-to-top" class="back-footer__link buy"><span>Seitenanfang</span></a>
 					</div>
 				</div>
 
@@ -4286,7 +4286,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20241108155848"></script>
+	<script src="js/app.min.js?_v=20241109233030"></script>
 </body>
 
 </html>

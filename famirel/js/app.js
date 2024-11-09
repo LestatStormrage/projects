@@ -5379,6 +5379,15 @@
     }
     const da = new DynamicAdapt("max");
     da.init();
+    document.addEventListener("DOMContentLoaded", (function() {
+        const cookieConsentPopup = document.getElementById("cookieConsent");
+        const consentAccepted = localStorage.getItem("cookieConsent");
+        if (!consentAccepted) cookieConsentPopup.style.display = "block";
+        document.getElementById("acceptCookies").onclick = function() {
+            localStorage.setItem("cookieConsent", "true");
+            cookieConsentPopup.style.display = "none";
+        };
+    }));
     document.querySelectorAll(".catalogue__item").forEach((function(element) {
         element.addEventListener("click", (function(event) {
             const isFullscreen = this.classList.toggle("fullscreen-item");
@@ -5402,7 +5411,7 @@
         if (window.isFullscreenActive) {
             const fullscreenItem = document.querySelector(".fullscreen-item");
             if (fullscreenItem) {
-                fullscreenItem.classList.remove("fullscreen-item");
+                if (fullscreenItem) fullscreenItem.classList.remove("fullscreen-item");
                 document.body.style.overflow = "";
                 window.isFullscreenActive = false;
                 history.replaceState({}, "", window.location.pathname + (window.previousFragment || ""));
@@ -5411,7 +5420,7 @@
     }));
     document.addEventListener("DOMContentLoaded", (function() {
         const form = document.getElementById("form");
-        form.addEventListener("submit", formSend);
+        if (form) form.addEventListener("submit", formSend);
         async function formSend(e) {
             e.preventDefault();
             let error = formValidate(form);
@@ -5557,6 +5566,24 @@
                 item.style.transition = "";
             }), 300);
         }
+    }));
+    const backToTopButton = document.getElementById("back-to-top");
+    if (backToTopButton) backToTopButton.addEventListener("click", (function(event) {
+        event.preventDefault();
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }));
+    document.querySelectorAll('a[href^="#form"]').forEach((link => {
+        link.addEventListener("click", (function(event) {
+            event.preventDefault();
+            const targetID = this.getAttribute("href").substring(1);
+            const targetElement = document.getElementById(targetID);
+            if (targetElement) targetElement.scrollIntoView({
+                behavior: "smooth"
+            });
+        }));
     }));
     window["FLS"] = true;
     isWebp();

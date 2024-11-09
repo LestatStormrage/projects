@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20241108155848">
+	<link rel="stylesheet" href="css/style.min.css?_v=20241109233030">
 	<link rel="shortcut icon" href="favicon.ico?">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -35,6 +35,9 @@
 
 
 		<main class="main-page">
+			<div class="cookie-consent" id="cookieConsent" style="display: none;">
+				<p>Diese Website verwendet Cookies, um Ihre Erfahrungen zu verbessern. <button class="buy" id="acceptCookies"><span>Akzeptieren</span></button></p>
+			</div>
 
 
 			<section id="famirel" data-prlx-parent data-watch class="main-page__famirel famirel">
@@ -133,7 +136,7 @@
 								<div class="main-section__body">
 									<div data-prlx data-coefficient="4" class="main-section__header">
 										<h3 class="main-section__subtitle title">Famirel</h3>
-										<h2 class="main-section__title title">BOTODERM ACTION</h2>
+										<h2 class="main-section__title title  title--mid">BOTODERM ACTION</h2>
 									</div>
 									<div data-prlx data-coefficient="3" class="main-section__footer">
 										<div class="main-section__description text">
@@ -1340,7 +1343,7 @@
 				<div class="contact-us__form">
 					<!-- <form class="contact-us__body" action="files/sendmail/sendmail.php" method="POST"> -->
 					<form id="form" class="contact-us__body" action="#">
-						<h2 class="contact-us__title title">Dealer werden</h2>
+						<h2 class="contact-us__title title title--mid">Dealer werden</h2>
 						<div class="contact-us__item">
 							<div class="contact-us__label">Anrede *:</div>
 							<select class="contact-us__select _req" name="anrede" data-class-modif="form">
@@ -1371,7 +1374,7 @@
 								<input id="contactUsAgreement" data-error="Error" class="checkbox-contact-us__input input _req" type="checkbox" value="1" name="agreement">
 								<label for="contactUsAgreement" class="checkbox-contact-us__label"><span class="checkbox-contact-us__text">Ich erkläre
 										meine Einwilligung zur Erhebung, Verarbeitung oder Nutzung meiner personenbezogenen Daten gemäß der
-										<a href="">Datenschutzerklärung</a>. *</span>
+										<a href="datenschutz.html">Datenschutzerklärung</a>. *</span>
 								</label>
 							</div>
 						</div>
@@ -1441,7 +1444,7 @@
 					</ul>
 					<div class="footer__back back-footer">
 						<div class="back-footer__text">Zurück zum </div>
-						<a href="#" class="back-footer__link buy"><span>Seitenanfang</span></a>
+						<a href="#" id="back-to-top" class="back-footer__link buy"><span>Seitenanfang</span></a>
 					</div>
 				</div>
 
@@ -1449,7 +1452,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20241108155848"></script>
+	<script src="js/app.min.js?_v=20241109233030"></script>
 </body>
 
 </html>
