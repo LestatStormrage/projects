@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20241110000342">
+	<link rel="stylesheet" href="css/style.min.css?_v=20241111002231">
 	<link rel="shortcut icon" href="favicon.ico?">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -14,6 +14,8 @@
 
 <body>
 	<div class="wrapper">
+
+
 		<header class="header">
 			<div class="header__container">
 				<div class="header__menu menu">
@@ -29,12 +31,16 @@
 					</nav>
 				</div>
 				<a href="index.html" class="header__logo"><img src="img/logo.svg" alt="Image"></a>
-				<a href="#form" class="header__buy buy"><span>Dealer werden</span></a>
 			</div>
 		</header>
 
 
+
 		<main class="datenschutz">
+			<div class="cookie-consent" id="cookieConsent" style="display: none;">
+				<p>Diese Website verwendet Cookies, um Ihre Erfahrungen zu verbessern. <button class="button-default" id="acceptCookies"><span>Akzeptieren</span></button></p>
+			</div>
+
 			<div class="datenschutz__container">
 				<div class="datenschutz__body">
 					<h1 class="datenschutz__main-title title">Datenschutzerklärung</h1>
@@ -452,7 +458,7 @@
 					</ul>
 					<div class="footer__back back-footer">
 						<div class="back-footer__text">Zurück zum </div>
-						<a href="#" id="back-to-top" class="back-footer__link buy"><span>Seitenanfang</span></a>
+						<a href="#" id="back-to-top" class="back-footer__link button-default"><span>Seitenanfang</span></a>
 					</div>
 				</div>
 
@@ -460,7 +466,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20241110000342"></script>
+	<script src="js/app.min.js?_v=20241111002231"></script>
 </body>
 
 </html>

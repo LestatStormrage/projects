@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20241110000342">
+	<link rel="stylesheet" href="css/style.min.css?_v=20241111002231">
 	<link rel="shortcut icon" href="favicon.ico?">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -29,12 +29,13 @@
 					</nav>
 				</div>
 				<a href="index.html" class="header__logo"><img src="img/logo.svg" alt="Image"></a>
-				<a href="#form" class="header__buy buy"><span>Dealer werden</span></a>
+				<a href="#form" class="header__button button-default"><span>Dealer werden</span></a>
 			</div>
 		</header>
-
-
 		<main class="page">
+			<div class="cookie-consent" id="cookieConsent" style="display: none;">
+				<p>Diese Website verwendet Cookies, um Ihre Erfahrungen zu verbessern. <button class="button-default" id="acceptCookies"><span>Akzeptieren</span></button></p>
+			</div>
 			<section id="catalogue" class="page__catalogue catalogue">
 				<h1 class="catalogue__title title title--big">Katalog</h1>
 				<div class="catalogue__container">
@@ -96,11 +97,11 @@
 						<!-- argan oil -->
 						<!-- argan oil -->
 
-
-						<a href="#catalogue" data-category="argan-oil, head" class="catalogue__item product">
+						<div data-category="argan-oil, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/argan-oil.webp" alt="">
 								<img class="product__image" src="img/products/argan-oil/1.webp" alt="Shampoo Renovation & Protection">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Shampoo Renovation & Protection</div>
@@ -128,11 +129,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="argan-oil, head" class="catalogue__item product">
+						</div>
+						<div data-category="argan-oil, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/argan-oil.webp" alt="Image">
 								<img class="product__image" src="img/products/argan-oil/2.webp" alt="Image">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Conditioner Renovation & Protection</div>
@@ -159,11 +161,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="argan-oil, head" class="catalogue__item product">
+						</div>
+						<div data-category="argan-oil, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/argan-oil.webp" alt="Image">
 								<img class="product__image" src="img/products/argan-oil/3.webp" alt="Image">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Mask Renovation & Protection</div>
@@ -189,11 +192,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="argan-oil, head" class="catalogue__item product">
+						</div>
+						<div data-category="argan-oil, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/argan-oil.webp" alt="Image">
 								<img class="product__image" src="img/products/argan-oil/4.webp" alt="Image">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Serum Renovation & Protection</div>
@@ -217,11 +221,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="argan-oil, head" class="catalogue__item product">
+						</div>
+						<div data-category="argan-oil, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/argan-oil.webp" alt="Image">
 								<img class="product__image" src="img/products/argan-oil/5.webp" alt="Image">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Scalp Scrub Renovation & Protection</div>
@@ -247,7 +252,7 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
 
 
@@ -256,10 +261,11 @@
 
 
 
-						<a href="#catalogue" data-category="black-caviar, face" class="catalogue__item product">
+						<div data-category="black-caviar, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/black-caviar.webp" alt="Image">
 								<img class="product__image" src="img/products/black-caviar/1.webp" alt="Anti-Wrinkle Moisturizing Cream SPF-15">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Anti-Wrinkle Moisturizing Cream SPF-15</div>
@@ -292,12 +298,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="black-caviar, face" class="catalogue__item product">
+						<div data-category="black-caviar, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/black-caviar.webp" alt="Image">
 								<img class="product__image" src="img/products/black-caviar/2.webp" alt="Moisturizing Cream SPF-15">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Moisturizing Cream SPF-15</div>
@@ -330,13 +337,14 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
 
-						<a href="#catalogue" data-category="black-caviar, eyes" class="catalogue__item product">
+						<div data-category="black-caviar, eyes" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/black-caviar.webp" alt="Image">
 								<img class="product__image" src="img/products/black-caviar/3.webp" alt="Ultra-Intensive Eye Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Ultra-Intensive Eye Cream</div>
@@ -362,12 +370,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="black-caviar, face" class="catalogue__item product">
+						<div data-category="black-caviar, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/black-caviar.webp" alt="Image">
 								<img class="product__image" src="img/products/black-caviar/4.webp" alt="Nourishing Night Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Nourishing Night Cream</div>
@@ -393,12 +402,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="black-caviar, face" class="catalogue__item product">
+						<div data-category="black-caviar, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/black-caviar.webp" alt="Image">
 								<img class="product__image" src="img/products/black-caviar/5.webp" alt="Ultra-Lifting Care Serum">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Ultra-Lifting Care Serum</div>
@@ -423,12 +433,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="black-caviar, face" class="catalogue__item product">
+						<div data-category="black-caviar, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/black-caviar.webp" alt="Image">
 								<img class="product__image" src="img/products/black-caviar/6.webp" alt="Ultra-Intensive Facial Mask">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Ultra-Intensive Facial Mask</div>
@@ -457,12 +468,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="black-caviar, head" class="catalogue__item product">
+						<div data-category="black-caviar, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/black-caviar.webp" alt="Image">
 								<img class="product__image" src="img/products/black-caviar/7.webp" alt="Hair-Repair Shampoo For Oily Hair">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Hair-Repair Shampoo For Oily Hair</div>
@@ -489,13 +501,14 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
 
-						<a href="#catalogue" data-category="black-caviar, head" class="catalogue__item product">
+						<div data-category="black-caviar, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/black-caviar.webp" alt="Image">
 								<img class="product__image" src="img/products/black-caviar/8.webp" alt="Hair-Repair Shampoo For Dry Hair">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Hair-Repair Shampoo For Dry Hair</div>
@@ -523,12 +536,14 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="black-caviar, head" class="catalogue__item product">
+						<div data-category="black-caviar, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/black-caviar.webp" alt="Image">
 								<img class="product__image" src="img/products/black-caviar/9.webp" alt="Hair-Repair Shampoo For Curly Hair">
+								<div class="product__hint">Zurück</div>
+
 							</div>
 							<div class="product__content">
 								<div class="product__title">Hair-Repair Shampoo For Curly Hair</div>
@@ -554,12 +569,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="black-caviar, head" class="catalogue__item product">
+						<div data-category="black-caviar, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/black-caviar.webp" alt="Image">
 								<img class="product__image" src="img/products/black-caviar/10.webp" alt="Hair-Repair Shampoo Anti-Dandruff Treatment">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Hair-Repair Shampoo Anti-Dandruff Treatment</div>
@@ -588,12 +604,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="black-caviar, head" class="catalogue__item product">
+						<div data-category="black-caviar, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/black-caviar.webp" alt="Image">
 								<img class="product__image" src="img/products/black-caviar/11.webp" alt="Hair-Repair Conditioner Intensive Care">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Hair-Repair Conditioner Intensive Care</div>
@@ -620,12 +637,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="black-caviar, head" class="catalogue__item product">
+						<div data-category="black-caviar, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/black-caviar.webp" alt="Image">
 								<img class="product__image" src="img/products/black-caviar/12.webp" alt="Hair Mask For Damaged and Colored Hair">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Hair Mask For Damaged and Colored Hair</div>
@@ -654,13 +672,14 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
 
-						<a href="#catalogue" data-category="black-caviar, body" class="catalogue__item product">
+						<div data-category="black-caviar, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/black-caviar.webp" alt="Image">
 								<img class="product__image" src="img/products/black-caviar/13.webp" alt="Shower Gel Macadamia & Argan">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Shower Gel Macadamia & Argan</div>
@@ -684,12 +703,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="black-caviar, body" class="catalogue__item product">
+						<div data-category="black-caviar, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/black-caviar.webp" alt="Image">
 								<img class="product__image" src="img/products/black-caviar/14.webp" alt="Famirel Black Caviar Body Exfoliator Sorbet Macadamia & Argan">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Famirel Black Caviar Body Exfoliator Sorbet Macadamia & Argan</div>
@@ -715,7 +735,7 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
 
 						<!-- black caviar -->
@@ -730,7 +750,7 @@
 						<!-- black caviar -->
 
 
-						<a href="#catalogue" data-category="botoderm-action, face" class="catalogue__item product">
+						<div data-category="botoderm-action, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/botoderm-action-banner.webp" alt="Image">
 								<img class="product__image" src="img/products/botoderm-action/1.webp" alt="Action Day Cream">
@@ -761,12 +781,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="botoderm-action, eyes" class="catalogue__item product">
+						<div data-category="botoderm-action, eyes" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/botoderm-action-banner.webp" alt="Image">
 								<img class="product__image" src="img/products/botoderm-action/3.webp" alt="Action Eye Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Action Eye Cream</div>
@@ -790,12 +811,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="botoderm-action, face" class="catalogue__item product">
+						<div data-category="botoderm-action, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/botoderm-action-banner.webp" alt="Image">
 								<img class="product__image" src="img/products/botoderm-action/5.webp" alt="Action Night Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Action Night Cream</div>
@@ -821,12 +843,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="botoderm-action, face" class="catalogue__item product">
+						<div data-category="botoderm-action, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/botoderm-action-banner.webp" alt="Image">
 								<img class="product__image" src="img/products/botoderm-action/7.webp" alt="Famirel Botoderm Action Serum">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Famirel Botoderm Action Serum</div>
@@ -851,7 +874,7 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
 
 
@@ -869,10 +892,11 @@
 						<!-- castor-oil -->
 
 
-						<a href="#catalogue" data-category="castor-oil, head" class="catalogue__item product">
+						<div data-category="castor-oil, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/castor-oil.webp" alt="Image">
 								<img class="product__image" src="img/products/castor-oil/1.webp" alt="Shampoo Growth & Recovery">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Shampoo Growth & Recovery</div>
@@ -899,12 +923,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="castor-oil, head" class="catalogue__item product">
+						<div data-category="castor-oil, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/castor-oil.webp" alt="Image">
 								<img class="product__image" src="img/products/castor-oil/2.webp" alt="Conditioner Growth & Recovery">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Conditioner Growth & Recovery</div>
@@ -930,12 +955,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="castor-oil, head" class="catalogue__item product">
+						<div data-category="castor-oil, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/castor-oil.webp" alt="Image">
 								<img class="product__image" src="img/products/castor-oil/3.webp" alt="Hair Mask Growth & Recovery">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Hair Mask Growth & Recovery</div>
@@ -962,12 +988,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="castor-oil, head" class="catalogue__item product">
+						<div data-category="castor-oil, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/castor-oil.webp" alt="Image">
 								<img class="product__image" src="img/products/castor-oil/4.webp" alt="Oil Scalp Scrub Growth & Recovery">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Oil Scalp Scrub Growth & Recovery</div>
@@ -992,12 +1019,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="castor-oil, head" class="catalogue__item product">
+						<div data-category="castor-oil, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/castor-oil.webp" alt="Image">
 								<img class="product__image" src="img/products/castor-oil/5.webp" alt="Hair Serum Growth & Recovery">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Hair Serum Growth & Recovery</div>
@@ -1021,7 +1049,7 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
 
 
@@ -1042,10 +1070,11 @@
 
 
 
-						<a href="#catalogue" data-category="collagen, face" class="catalogue__item product">
+						<div data-category="collagen, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/collagen.webp" alt="Image">
 								<img class="product__image" src="img/products/collagen/1.webp" alt="Moisturizing Day Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Moisturizing Day Cream</div>
@@ -1071,12 +1100,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="collagen, eyes" class="catalogue__item product">
+						<div data-category="collagen, eyes" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/collagen.webp" alt="Image">
 								<img class="product__image" src="img/products/collagen/1.webp" alt="Rehydration Eye Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Rehydration Eye Cream</div>
@@ -1101,12 +1131,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="collagen, face" class="catalogue__item product">
+						<div data-category="collagen, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/collagen.webp" alt="Image">
 								<img class="product__image" src="img/products/collagen/1.webp" alt="Nourishing Night Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Nourishing Night Cream</div>
@@ -1132,12 +1163,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="collagen, face" class="catalogue__item product">
+						<div data-category="collagen, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/collagen.webp" alt="Image">
 								<img class="product__image" src="img/products/collagen/1.webp" alt="Serum">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Serum</div>
@@ -1161,7 +1193,7 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
 
 
@@ -1177,10 +1209,11 @@
 						<!-- copper-peptide -->
 
 
-						<a href="#catalogue" data-category="copper-peptide, face" class="catalogue__item product">
+						<div data-category="copper-peptide, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/copper-peptide.webp" alt="Image">
 								<img class="product__image" src="img/products/copper-peptide/1.webp" alt="Active Lifting Day Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Active Lifting Day Cream</div>
@@ -1207,12 +1240,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="copper-peptide, eyes" class="catalogue__item product">
+						<div data-category="copper-peptide, eyes" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/copper-peptide.webp" alt="Image">
 								<img class="product__image" src="img/products/copper-peptide/2.webp" alt="Active Lifting Eye Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Active Lifting Eye Cream</div>
@@ -1238,12 +1272,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="copper-peptide, face" class="catalogue__item product">
+						<div data-category="copper-peptide, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/copper-peptide.webp" alt="Image">
 								<img class="product__image" src="img/products/copper-peptide/3.webp" alt="Active Lifting Night Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Active Lifting Night Cream</div>
@@ -1270,12 +1305,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="copper-peptide, face" class="catalogue__item product">
+						<div data-category="copper-peptide, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/copper-peptide.webp" alt="Image">
 								<img class="product__image" src="img/products/copper-peptide/4.webp" alt="Active Lifting Serum">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Active Lifting Serum</div>
@@ -1301,7 +1337,7 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
 
 
@@ -1318,10 +1354,11 @@
 
 
 
-						<a href="#catalogue" data-category="daily-use, hands" class="catalogue__item product">
+						<div data-category="daily-use, hands" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/daily-use.webp" alt="Image">
 								<img class="product__image" src="img/products/daily-use/1.webp" alt="Moisturizing Hand Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Moisturizing Hand Cream</div>
@@ -1344,12 +1381,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="daily-use, hands" class="catalogue__item product">
+						<div data-category="daily-use, hands" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/daily-use.webp" alt="Image">
 								<img class="product__image" src="img/products/daily-use/2.webp" alt="Collagen Hand Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Collagen Hand Cream</div>
@@ -1372,12 +1410,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="daily-use, hands" class="catalogue__item product">
+						<div data-category="daily-use, hands" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/daily-use.webp" alt="Image">
 								<img class="product__image" src="img/products/daily-use/3.webp" alt="Restoring Hand Cream with Dead Sea Mud">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Restoring Hand Cream with Dead Sea Mud</div>
@@ -1402,12 +1441,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="daily-use, hands" class="catalogue__item product">
+						<div data-category="daily-use, hands" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/daily-use.webp" alt="Image">
 								<img class="product__image" src="img/products/daily-use/4.webp" alt="Nourishing Multivitamin Hand & Nail Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Nourishing Multivitamin Hand & Nail Cream</div>
@@ -1431,12 +1471,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="daily-use, legs" class="catalogue__item product">
+						<div data-category="daily-use, legs" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/daily-use.webp" alt="Image">
 								<img class="product__image" src="img/products/daily-use/5.webp" alt="Restoring Foot Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Restoring Foot Cream</div>
@@ -1462,12 +1503,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="daily-use, legs" class="catalogue__item product">
+						<div data-category="daily-use, legs" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/daily-use.webp" alt="Image">
 								<img class="product__image" src="img/products/daily-use/6.webp" alt="Nourishing & Moisturizing Foot Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Nourishing & Moisturizing Foot Cream</div>
@@ -1493,7 +1535,7 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
 
 
@@ -1510,10 +1552,11 @@
 						<!-- hyaluronic-acid -->
 
 
-						<a href="#catalogue" data-category="hyaluronic-acid, face" class="catalogue__item product">
+						<div data-category="hyaluronic-acid, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/hyaluronic-acid.webp" alt="Image">
 								<img class="product__image" src="img/products/hyaluronic-acid/1.webp" alt="Extra Hydration Day Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Extra Hydration Day Cream</div>
@@ -1539,12 +1582,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="hyaluronic-acid, eyes" class="catalogue__item product">
+						<div data-category="hyaluronic-acid, eyes" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/hyaluronic-acid.webp" alt="Image">
 								<img class="product__image" src="img/products/hyaluronic-acid/2.webp" alt="Extra Hydration Eye Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Extra Hydration Eye Cream</div>
@@ -1570,12 +1614,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="hyaluronic-acid, face" class="catalogue__item product">
+						<div data-category="hyaluronic-acid, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/hyaluronic-acid.webp" alt="Image">
 								<img class="product__image" src="img/products/hyaluronic-acid/3.webp" alt="Extra Hydration Night Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Extra Hydration Night Cream</div>
@@ -1601,12 +1646,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="hyaluronic-acid, face" class="catalogue__item product">
+						<div data-category="hyaluronic-acid, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/hyaluronic-acid.webp" alt="Image">
 								<img class="product__image" src="img/products/hyaluronic-acid/4.webp" alt="Extra Hydration Serum">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Extra Hydration Serum</div>
@@ -1631,7 +1677,7 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
 
 
@@ -1647,10 +1693,11 @@
 						<!-- intimate-hygiene -->
 
 
-						<a href="#catalogue" data-category="intimate-hygiene, intimate" class="catalogue__item product">
+						<div data-category="intimate-hygiene, intimate" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/intimate-hygiene.webp" alt="">
 								<img class="product__image" src="img/products/intimate-hygiene/1.webp" alt="Aloe Vera Mousse Intimate Wash">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Aloe Vera Mousse Intimate Wash Delicate & Soothing</div>
@@ -1676,12 +1723,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="intimate-hygiene, intimate" class="catalogue__item product">
+						<div data-category="intimate-hygiene, intimate" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/intimate-hygiene.webp" alt="">
 								<img class="product__image" src="img/products/intimate-hygiene/2.webp" alt="Calendula Mousse Intimate Wash">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Calendula Mousse Intimate Wash Delicate & Soothing</div>
@@ -1707,13 +1755,14 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
 
-						<a href="#catalogue" data-category="intimate-hygiene, intimate" class="catalogue__item product">
+						<div data-category="intimate-hygiene, intimate" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/intimate-hygiene.webp" alt="">
 								<img class="product__image" src="img/products/intimate-hygiene/3.webp" alt="Chamomilla Mousse Intimate Wash for girls">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Chamomilla Mousse Intimate Wash for girls Delicate & Soothing</div>
@@ -1739,7 +1788,7 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
 
 
@@ -1756,10 +1805,11 @@
 						<!-- marula-oil -->
 
 
-						<a href="#catalogue" data-category="marula-oil, head" class="catalogue__item product">
+						<div data-category="marula-oil, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/marula-oil.webp" alt="">
 								<img class="product__image" src="img/products/marula-oil/1.webp" alt="Shampoo Scalp Hygiene">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Shampoo Scalp Hygiene</div>
@@ -1786,11 +1836,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="marula-oil, head" class="catalogue__item product">
+						</div>
+						<div data-category="marula-oil, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/marula-oil.webp" alt="">
 								<img class="product__image" src="img/products/marula-oil/2.webp" alt="Shampoo For Colored And Dried Hair">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Shampoo For Colored And Dried Hair</div>
@@ -1819,11 +1870,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="marula-oil, head" class="catalogue__item product">
+						</div>
+						<div data-category="marula-oil, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/marula-oil.webp" alt="">
 								<img class="product__image" src="img/products/marula-oil/3.webp" alt="Shampoo For Normal Hair">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Shampoo For Normal Hair</div>
@@ -1850,11 +1902,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="marula-oil, head" class="catalogue__item product">
+						</div>
+						<div data-category="marula-oil, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/marula-oil.webp" alt="">
 								<img class="product__image" src="img/products/marula-oil/4.webp" alt="Shampoo For Thin Hair">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Shampoo For Thin Hair</div>
@@ -1881,11 +1934,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="marula-oil, head" class="catalogue__item product">
+						</div>
+						<div data-category="marula-oil, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/marula-oil.webp" alt="">
 								<img class="product__image" src="img/products/marula-oil/5.webp" alt="Conditioner with Flax Oil">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Conditioner with Flax Oil</div>
@@ -1912,11 +1966,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="marula-oil, head" class="catalogue__item product">
+						</div>
+						<div data-category="marula-oil, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/marula-oil.webp" alt="">
 								<img class="product__image" src="img/products/marula-oil/6.webp" alt="Hair Mask">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Hair Mask</div>
@@ -1941,11 +1996,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="marula-oil, head" class="catalogue__item product">
+						</div>
+						<div data-category="marula-oil, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/marula-oil.webp" alt="">
 								<img class="product__image" src="img/products/marula-oil/7.webp" alt="Scalp Scrub">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Scalp Scrub</div>
@@ -1973,11 +2029,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="marula-oil, head" class="catalogue__item product">
+						</div>
+						<div data-category="marula-oil, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/marula-oil.webp" alt="">
 								<img class="product__image" src="img/products/marula-oil/8.webp" alt="Hair Serum">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Hair Serum</div>
@@ -2005,11 +2062,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="marula-oil, body" class="catalogue__item product">
+						</div>
+						<div data-category="marula-oil, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/marula-oil.webp" alt="">
 								<img class="product__image" src="img/products/marula-oil/9.webp" alt="Shower Gel Camellia">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Shower Gel Camellia</div>
@@ -2036,11 +2094,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="marula-oil, body" class="catalogue__item product">
+						</div>
+						<div data-category="marula-oil, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/marula-oil.webp" alt="">
 								<img class="product__image" src="img/products/marula-oil/10.webp" alt="Shower Gel Ginger & Bergamot">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Shower Gel Ginger & Bergamot</div>
@@ -2067,11 +2126,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="marula-oil, body" class="catalogue__item product">
+						</div>
+						<div data-category="marula-oil, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/marula-oil.webp" alt="">
 								<img class="product__image" src="img/products/marula-oil/11.webp" alt="Shower Gel Magnolia">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Shower Gel Magnolia</div>
@@ -2098,11 +2158,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="marula-oil, body" class="catalogue__item product">
+						</div>
+						<div data-category="marula-oil, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/marula-oil.webp" alt="">
 								<img class="product__image" src="img/products/marula-oil/12.webp" alt="Shower Gel Ylang-ylang">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Shower Gel Ylang-ylang</div>
@@ -2129,7 +2190,7 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
 
 
@@ -2145,10 +2206,11 @@
 
 
 
-						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
+						<div data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/1.webp" alt="Perfumed Shower Gel Intensive Hydrating Essence №1">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Perfumed Shower Gel Intensive Hydrating Essence №1</div>
@@ -2174,11 +2236,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
+						</div>
+						<div data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/2.webp" alt="Perfumed Shower Gel Intensive Hydrating Essence №2">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Perfumed Shower Gel Intensive Hydrating Essence №2</div>
@@ -2204,11 +2267,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
+						</div>
+						<div data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/3.webp" alt="Perfumed Shower Gel Intensive Hydrating Essence №3">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Perfumed Shower Gel Intensive Hydrating Essence №3</div>
@@ -2234,11 +2298,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
+						</div>
+						<div data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/4.webp" alt="Perfumed Shower Gel Intensive Hydrating Essence №4">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Perfumed Shower Gel Intensive Hydrating Essence №4</div>
@@ -2264,11 +2329,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
+						</div>
+						<div data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/5.webp" alt="Perfumed Shower Gel Intensive Hydrating Essence №5">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Perfumed Shower Gel Intensive Hydrating Essence №5</div>
@@ -2294,12 +2360,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
+						<div data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/6.webp" alt="Perfumed Body Cream Softening Essence №1">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Perfumed Body Cream Softening Essence №1</div>
@@ -2325,11 +2392,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
+						</div>
+						<div data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/7.webp" alt="Perfumed Body Cream Softening Essence №2">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Perfumed Body Cream Softening Essence №2</div>
@@ -2355,11 +2423,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
+						</div>
+						<div data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/8.webp" alt="Perfumed Body Cream Softening Essence №3">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Perfumed Body Cream Softening Essence №3</div>
@@ -2385,11 +2454,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
+						</div>
+						<div data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/9.webp" alt="Perfumed Body Cream Softening Essence №4">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Perfumed Body Cream Softening Essence №4</div>
@@ -2415,11 +2485,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
+						</div>
+						<div data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/10.webp" alt="Perfumed Body Cream Softening Essence №5">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Perfumed Body Cream Softening Essence №5</div>
@@ -2445,12 +2516,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
+						<div data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/11.webp" alt="Silky Body Mist Refreshing Mood Essence №1">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Silky Body Mist Refreshing Mood Essence №1</div>
@@ -2475,11 +2547,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
+						</div>
+						<div data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/12.webp" alt="Silky Body Mist Refreshing Mood Essence №2">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Silky Body Mist Refreshing Mood Essence №2</div>
@@ -2504,11 +2577,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
+						</div>
+						<div data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/13.webp" alt="Silky Body Mist Refreshing Mood Essence №3">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Silky Body Mist Refreshing Mood Essence №3</div>
@@ -2533,11 +2607,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
+						</div>
+						<div data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/14.webp" alt="Silky Body Mist Refreshing Mood Essence №4">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Silky Body Mist Refreshing Mood Essence №4</div>
@@ -2562,11 +2637,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="perfume-series, body" class="catalogue__item product">
+						</div>
+						<div data-category="perfume-series, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/15.webp" alt="Silky Body Mist Refreshing Mood Essence №5">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Silky Body Mist Refreshing Mood Essence №5</div>
@@ -2591,12 +2667,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="perfume-series, hands" class="catalogue__item product">
+						<div data-category="perfume-series, hands" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/16.webp" alt="Perfumed Hand Cream Velvety-smoothing Essence №1">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Perfumed Hand Cream Velvety-smoothing Essence №1</div>
@@ -2623,11 +2700,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="perfume-series, hands" class="catalogue__item product">
+						</div>
+						<div data-category="perfume-series, hands" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/17.webp" alt="Perfumed Hand Cream Velvety-smoothing Essence №2">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Perfumed Hand Cream Velvety-smoothing Essence №2</div>
@@ -2654,11 +2732,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="perfume-series, hands" class="catalogue__item product">
+						</div>
+						<div data-category="perfume-series, hands" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/18.webp" alt="Perfumed Hand Cream Velvety-smoothing Essence №3">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Perfumed Hand Cream Velvety-smoothing Essence №3</div>
@@ -2685,11 +2764,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="perfume-series, hands" class="catalogue__item product">
+						</div>
+						<div data-category="perfume-series, hands" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/19.webp" alt="Perfumed Hand Cream Velvety-smoothing Essence №4">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Perfumed Hand Cream Velvety-smoothing Essence №4</div>
@@ -2716,11 +2796,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="perfume-series, hands" class="catalogue__item product">
+						</div>
+						<div data-category="perfume-series, hands" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/perfume-series.webp" alt="">
 								<img class="product__image" src="img/products/perfume-series/20.webp" alt="Perfumed Hand Cream Velvety-smoothing Essence №5">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Perfumed Hand Cream Velvety-smoothing Essence №5</div>
@@ -2747,7 +2828,7 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
 
 						<!-- super-food -->
@@ -2763,10 +2844,11 @@
 
 
 
-						<a href="#catalogue" data-category="super-food, face" class="catalogue__item product">
+						<div data-category="super-food, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/1.webp" alt="Perfumed Shower Gel Intensive Hydrating Essence №1">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Wash Gel For All Skin Types </div>
@@ -2815,11 +2897,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="super-food, face" class="catalogue__item product">
+						</div>
+						<div data-category="super-food, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/2.webp" alt="Face Wash For Problematic Skin">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Face Wash For Problematic Skin</div>
@@ -2853,11 +2936,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="super-food, face" class="catalogue__item product">
+						</div>
+						<div data-category="super-food, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/3.webp" alt="Deep Cleansing Foam with Acides Sea Buckthorn">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Deep Cleansing Foam with Acides Sea Buckthorn</div>
@@ -2892,12 +2976,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, face" class="catalogue__item product">
+						<div data-category="super-food, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/4.webp" alt="Dual Phase Make Up Remover">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Dual Phase Make Up Remover</div>
@@ -2931,12 +3016,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, face" class="catalogue__item product">
+						<div data-category="super-food, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/5.webp" alt="Face Wash Gel Cucumber, Moringa, Fresh Mint">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Face Wash Gel Cucumber, Moringa, Fresh Mint</div>
@@ -2968,12 +3054,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, face" class="catalogue__item product">
+						<div data-category="super-food, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/6.webp" alt="Deep Cleansing Foam Centella & Rice">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Deep Cleansing Foam Centella & Rice</div>
@@ -3003,12 +3090,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, face" class="catalogue__item product">
+						<div data-category="super-food, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/7.webp" alt="Facial Tonic Jasmine & Rice">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Facial Tonic Jasmine & Rice</div>
@@ -3039,11 +3127,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
-						<a href="#catalogue" data-category="super-food, face" class="catalogue__item product">
+						</div>
+						<div data-category="super-food, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/8.webp" alt="Facial Tonic for Problematic Skin">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Facial Tonic for Problematic Skin</div>
@@ -3085,12 +3174,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, face" class="catalogue__item product">
+						<div data-category="super-food, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/9.webp" alt="Facial Tonic for All Skin Types">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Facial Tonic for All Skin Types</div>
@@ -3122,12 +3212,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, face" class="catalogue__item product">
+						<div data-category="super-food, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/10.webp" alt="Facial Tonic Sea Buckthorn">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Facial Tonic Sea Buckthorn</div>
@@ -3162,12 +3253,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, eyes" class="catalogue__item product">
+						<div data-category="super-food, eyes" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/11.webp" alt="Eye Cream Anti-aging & Anti-wrinkle">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Eye Cream Anti-aging & Anti-wrinkle</div>
@@ -3197,12 +3289,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, eyes" class="catalogue__item product">
+						<div data-category="super-food, eyes" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/12.webp" alt="Eye Cream Anti-aging & Anti-wrinkle">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Eye Cream Anti-aging & Anti-wrinkle</div>
@@ -3236,12 +3329,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, face" class="catalogue__item product">
+						<div data-category="super-food, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/13.webp" alt="Anti-Aging Cream with Peptide and Niacinamide">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Anti-Aging Cream with Peptide and Niacinamide</div>
@@ -3278,12 +3372,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, face" class="catalogue__item product">
+						<div data-category="super-food, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/14.webp" alt="Moisturizing Cream Delicate & Hydro Intensive">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Moisturizing Cream Delicate & Hydro Intensive</div>
@@ -3319,12 +3414,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, face" class="catalogue__item product">
+						<div data-category="super-food, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/15.webp" alt="Nourishing Cream with Vitamins and Minerals">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Nourishing Cream with Vitamins and Minerals</div>
@@ -3357,12 +3453,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, face" class="catalogue__item product">
+						<div data-category="super-food, face" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/16.webp" alt="Night Nourishing Mask">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Night Nourishing Mask</div>
@@ -3404,12 +3501,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, hands" class="catalogue__item product">
+						<div data-category="super-food, hands" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/17.webp" alt="Collagen and Elastin Hand Cream Mask">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Collagen and Elastin Hand Cream Mask</div>
@@ -3437,12 +3535,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, hands" class="catalogue__item product">
+						<div data-category="super-food, hands" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/18.webp" alt="Protective Hand Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Protective Hand Cream</div>
@@ -3474,12 +3573,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, hands" class="catalogue__item product">
+						<div data-category="super-food, hands" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/19.webp" alt="Multivitamin Hand Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Multivitamin Hand Cream</div>
@@ -3515,12 +3615,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, hands" class="catalogue__item product">
+						<div data-category="super-food, hands" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/20.webp" alt="Nourishing Hand Cream">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Nourishing Hand Cream</div>
@@ -3547,12 +3648,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, body" class="catalogue__item product">
+						<div data-category="super-food, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/21.webp" alt="Men Shower Gel 3in1">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Men Shower Gel 3in1</div>
@@ -3602,12 +3704,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, body" class="catalogue__item product">
+						<div data-category="super-food, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/22.webp" alt="Men Shower Gel 3in1">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Men Shower Gel 3in1</div>
@@ -3645,12 +3748,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, body" class="catalogue__item product">
+						<div data-category="super-food, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/23.webp" alt="Men Shower Gel 3in1 Winter Power">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Men Shower Gel 3in1 Winter Power</div>
@@ -3687,12 +3791,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, head" class="catalogue__item product">
+						<div data-category="super-food, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/24.webp" alt="Shampoo for Oily Scalp Caffeine and Mint">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Shampoo for Oily Scalp Caffeine and Mint</div>
@@ -3730,12 +3835,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, head" class="catalogue__item product">
+						<div data-category="super-food, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/25.webp" alt="Shampoo for All Hair Types Macadamia Oil">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Shampoo for All Hair Types Macadamia Oil</div>
@@ -3780,12 +3886,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, head" class="catalogue__item product">
+						<div data-category="super-food, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/26.webp" alt="Shampoo for Dry and Weakened Hair">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Shampoo for Dry and Weakened Hair</div>
@@ -3831,12 +3938,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, head" class="catalogue__item product">
+						<div data-category="super-food, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/27.webp" alt="Shampoo for Dry and Dyed Hair">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Shampoo for Dry and Dyed (Colored) Hair</div>
@@ -3873,12 +3981,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, head" class="catalogue__item product">
+						<div data-category="super-food, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/28.webp" alt="Hair Treatment Shampoo">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Hair Treatment Shampoo</div>
@@ -3913,12 +4022,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, head" class="catalogue__item product">
+						<div data-category="super-food, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/29.webp" alt="Hair Conditioner">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Hair Conditioner</div>
@@ -3956,12 +4066,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, head" class="catalogue__item product">
+						<div data-category="super-food, head" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/30.webp" alt="Mud Scalp Scrub">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Mud Scalp Scrub</div>
@@ -3984,12 +4095,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, body" class="catalogue__item product">
+						<div data-category="super-food, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/31.webp" alt="Shower Gel with Papain">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Shower Gel with Papain</div>
@@ -4028,12 +4140,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, body" class="catalogue__item product">
+						<div data-category="super-food, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/32.webp" alt="Shower Gel with Acai Extract">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Shower Gel with Acai Extract</div>
@@ -4068,12 +4181,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, body" class="catalogue__item product">
+						<div data-category="super-food, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/33.webp" alt="Shower Gel Sea Buckthorn">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Shower Gel Sea Buckthorn</div>
@@ -4113,12 +4227,13 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
-						<a href="#catalogue" data-category="super-food, body" class="catalogue__item product">
+						<div data-category="super-food, body" class="catalogue__item product">
 							<div class="product__media">
 								<img class="product__background" src="img/banners/super-food.webp" alt="">
 								<img class="product__image" src="img/products/super-food/34.webp" alt="Shower Gel Olive Oil & Honey">
+								<div class="product__hint">Zurück</div>
 							</div>
 							<div class="product__content">
 								<div class="product__title">Shower Gel Olive Oil & Honey</div>
@@ -4162,7 +4277,7 @@
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 
 
 					</div>
@@ -4216,10 +4331,11 @@
 						<div class="contact-us__required">
 							<p>* Pflichtfelder</p>
 						</div>
-						<button type="submit" class="contact-us__button buy"><span>Absenden</span></button>
+						<button type="submit" class="contact-us__button button-default"><span>Absenden</span></button>
 					</form>
 				</div>
 			</section>
+
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
@@ -4278,7 +4394,7 @@
 					</ul>
 					<div class="footer__back back-footer">
 						<div class="back-footer__text">Zurück zum </div>
-						<a href="#" id="back-to-top" class="back-footer__link buy"><span>Seitenanfang</span></a>
+						<a href="#" id="back-to-top" class="back-footer__link button-default"><span>Seitenanfang</span></a>
 					</div>
 				</div>
 
@@ -4286,7 +4402,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20241110000342"></script>
+	<script src="js/app.min.js?_v=20241111002231"></script>
 </body>
 
 </html>
