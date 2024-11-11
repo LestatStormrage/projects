@@ -1220,6 +1220,54 @@ textarea.input {
   border-radius: 50%;
   overflow: hidden
 }
+._watcher-view .famirel__circle-image {
+  -webkit-animation: circle 1.5s 1 ease-out;
+  animation: circle 1.5s 1 ease-out
+}
+@-webkit-keyframes circle {
+  0% {
+    -webkit-transform: rotate(30deg) scale(0);
+    transform: rotate(30deg) scale(0)
+  }
+  30% {
+    -webkit-transform: rotate(30deg) scale(0);
+    transform: rotate(30deg) scale(0)
+  }
+  65% {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1)
+  }
+  80% {
+    -webkit-transform: rotate(-2deg) scale(.9);
+    transform: rotate(-2deg) scale(.9)
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1)
+  }
+}
+@keyframes circle {
+  0% {
+    -webkit-transform: rotate(30deg) scale(0);
+    transform: rotate(30deg) scale(0)
+  }
+  30% {
+    -webkit-transform: rotate(30deg) scale(0);
+    transform: rotate(30deg) scale(0)
+  }
+  65% {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1)
+  }
+  80% {
+    -webkit-transform: rotate(-2deg) scale(.9);
+    transform: rotate(-2deg) scale(.9)
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1)
+  }
+}
 .famirel__text {
   opacity: 0;
   -webkit-transform: translate(-100%,0);
@@ -2406,54 +2454,6 @@ button.swiper-pagination-bullet {
   }
   .famirel__circle-image {
     margin-left: -4.0625rem
-  }
-  ._watcher-view .famirel__circle-image {
-    -webkit-animation: circle 1.5s 1 ease-out;
-    animation: circle 1.5s 1 ease-out
-  }
-  @-webkit-keyframes circle {
-    0% {
-      -webkit-transform: rotate(30deg) scale(0);
-      transform: rotate(30deg) scale(0)
-    }
-    30% {
-      -webkit-transform: rotate(30deg) scale(0);
-      transform: rotate(30deg) scale(0)
-    }
-    65% {
-      -webkit-transform: rotate(0) scale(1);
-      transform: rotate(0) scale(1)
-    }
-    80% {
-      -webkit-transform: rotate(-2deg) scale(.9);
-      transform: rotate(-2deg) scale(.9)
-    }
-    100% {
-      -webkit-transform: rotate(0) scale(1);
-      transform: rotate(0) scale(1)
-    }
-  }
-  @keyframes circle {
-    0% {
-      -webkit-transform: rotate(30deg) scale(0);
-      transform: rotate(30deg) scale(0)
-    }
-    30% {
-      -webkit-transform: rotate(30deg) scale(0);
-      transform: rotate(30deg) scale(0)
-    }
-    65% {
-      -webkit-transform: rotate(0) scale(1);
-      transform: rotate(0) scale(1)
-    }
-    80% {
-      -webkit-transform: rotate(-2deg) scale(.9);
-      transform: rotate(-2deg) scale(.9)
-    }
-    100% {
-      -webkit-transform: rotate(0) scale(1);
-      transform: rotate(0) scale(1)
-    }
   }
   .famirel__text {
     padding-top: 4.375rem;
