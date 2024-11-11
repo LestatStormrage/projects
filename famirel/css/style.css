@@ -1473,7 +1473,7 @@ textarea.input {
 }
 .catalogue__items {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(300px,400px));
+  grid-template-columns: repeat(auto-fit,minmax(18.75rem,25rem));
   align-content: start;
   justify-items: center;
   justify-content: start;
@@ -3047,6 +3047,12 @@ button.swiper-pagination-bullet {
   }
   .product.fullscreen-item .product__hint {
     font-size: .75rem
+  }
+}
+@media (max-width:67.1875em) {
+  .catalogue__items {
+    grid-template-columns: repeat(auto-fit,minmax(12.5rem,15.625rem));
+    justify-content: center
   }
 }
 @media (max-width:62.625em) {
