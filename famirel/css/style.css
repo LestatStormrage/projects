@@ -1476,7 +1476,7 @@ textarea.input {
   grid-template-columns: repeat(auto-fit,minmax(18.75rem,25rem));
   align-content: start;
   justify-items: center;
-  justify-content: start;
+  justify-content: center;
   gap: .9375rem;
   flex-shrink: 0;
   flex-grow: 1
@@ -3051,8 +3051,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width:67.1875em) {
   .catalogue__items {
-    grid-template-columns: repeat(auto-fit,minmax(12.5rem,15.625rem));
-    justify-content: center
+    grid-template-columns: repeat(auto-fit,minmax(12.5rem,15.625rem))
   }
 }
 @media (max-width:62.625em) {
