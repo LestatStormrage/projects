@@ -1531,7 +1531,6 @@ textarea.input {
 .filter-catalogue__spoiler {
   cursor: pointer;
   display: flex;
-  gap: 1.25rem;
   flex-wrap: wrap;
   max-width: 12.5rem;
   transition: max-height .4s ease-out;
@@ -2558,9 +2557,7 @@ button.swiper-pagination-bullet {
   }
   .filter-catalogue__spoiler {
     justify-content: flex-start;
-    flex-direction: column;
-    align-self: flex-start;
-    top: 5.9375rem
+    align-self: flex-start
   }
   .filter-catalogue__label::before {
     margin-left: .5rem
@@ -3226,8 +3223,11 @@ button.swiper-pagination-bullet {
   }
   .filter-catalogue__body {
     display: grid;
-    grid-template-columns: auto;
-    justify-items: center
+    grid-template-columns: auto
+  }
+  .filter-catalogue__spoiler {
+    justify-items: center;
+    justify-content: center
   }
   .filter-catalogue__label {
     justify-content: center
