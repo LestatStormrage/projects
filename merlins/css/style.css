@@ -1748,32 +1748,22 @@ body {
   56%,
   59%,
   83% {
-    opacity: 1;
-    -webkit-filter: brightness(1);
-    filter: brightness(1)
+    opacity: 1
   }
   20%,
   24%,
   55% {
-    opacity: .8;
-    -webkit-filter: brightness(.8);
-    filter: brightness(.8)
+    opacity: .8
   }
   22%,
   57% {
-    opacity: .5;
-    -webkit-filter: brightness(.5);
-    filter: brightness(.5)
+    opacity: .5
   }
   84% {
-    opacity: .6;
-    -webkit-filter: brightness(.6);
-    filter: brightness(.6)
+    opacity: .6
   }
   100% {
-    opacity: .6;
-    -webkit-filter: brightness(.6);
-    filter: brightness(.6)
+    opacity: .6
   }
 }
 @keyframes flicker-test {
@@ -1786,32 +1776,22 @@ body {
   56%,
   59%,
   83% {
-    opacity: 1;
-    -webkit-filter: brightness(1);
-    filter: brightness(1)
+    opacity: 1
   }
   20%,
   24%,
   55% {
-    opacity: .8;
-    -webkit-filter: brightness(.8);
-    filter: brightness(.8)
+    opacity: .8
   }
   22%,
   57% {
-    opacity: .5;
-    -webkit-filter: brightness(.5);
-    filter: brightness(.5)
+    opacity: .5
   }
   84% {
-    opacity: .6;
-    -webkit-filter: brightness(.6);
-    filter: brightness(.6)
+    opacity: .6
   }
   100% {
-    opacity: .6;
-    -webkit-filter: brightness(.6);
-    filter: brightness(.6)
+    opacity: .6
   }
 }
 .list-vitamin-aqua-category__item {
