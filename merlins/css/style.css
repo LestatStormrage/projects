@@ -782,7 +782,9 @@ body {
 .media-categories__item.active-item .media-categories__image {
   opacity: 0;
   -webkit-animation: shake .5s 1 linear forwards;
-  animation: shake .5s 1 linear forwards
+  animation: shake .5s 1 linear forwards;
+  -webkit-animation: bounce-in-from-top 1.2s 1 linear forwards;
+  animation: bounce-in-from-top 1.2s 1 linear forwards
 }
 .media-categories__item.active-item .media-categories__image:nth-child(1) {
   -webkit-animation-delay: .2s;
@@ -1154,6 +1156,144 @@ body {
     transform: scale(1);
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out
+  }
+}
+@-webkit-keyframes bounce-in-from-top {
+  0% {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+    -webkit-transform: translate(0,-300%);
+    transform: translate(0,-300%);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0
+  }
+  35% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out
+  }
+  55% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 1
+  }
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out
+  }
+  80% {
+    -webkit-transform: scale(1.24);
+    transform: scale(1.24);
+    -webkit-transform: translate(0,-20%);
+    transform: translate(0,-20%);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in
+  }
+  90% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out
+  }
+  95% {
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+    -webkit-transform: translate(0,-4%);
+    transform: translate(0,-4%);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1
+  }
+}
+@keyframes bounce-in-from-top {
+  0% {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+    -webkit-transform: translate(0,-300%);
+    transform: translate(0,-300%);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0
+  }
+  35% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out
+  }
+  55% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 1
+  }
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out
+  }
+  80% {
+    -webkit-transform: scale(1.24);
+    transform: scale(1.24);
+    -webkit-transform: translate(0,-20%);
+    transform: translate(0,-20%);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in
+  }
+  90% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out
+  }
+  95% {
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+    -webkit-transform: translate(0,-4%);
+    transform: translate(0,-4%);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1
   }
 }
 .placeholder {
@@ -1739,6 +1879,52 @@ body {
   color: var(--secondary);
   text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-mg),0 0 70px var(--main-color-mg),0 0 80px var(--main-color-mg),0 0 100px var(--main-color-mg),0 0 150px var(--main-color-mg)
 }
+.list-vitamin-aqua-category__item {
+  transition: opacity .3s
+}
+.list-vitamin-aqua-category__item:nth-child(1) .list-vitamin-aqua-category__button {
+  -webkit-animation-delay: .2s;
+  animation-delay: .2s
+}
+.list-vitamin-aqua-category__item:nth-child(2) .list-vitamin-aqua-category__button {
+  -webkit-animation-delay: 1.9s;
+  animation-delay: 1.9s
+}
+.list-vitamin-aqua-category__item:nth-child(3) .list-vitamin-aqua-category__button {
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s
+}
+.list-vitamin-aqua-category__item:nth-child(4) .list-vitamin-aqua-category__button {
+  -webkit-animation-delay: .8s;
+  animation-delay: .8s
+}
+.list-vitamin-aqua-category__item:nth-child(5) .list-vitamin-aqua-category__button {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s
+}
+.list-vitamin-aqua-category__item:nth-child(6) .list-vitamin-aqua-category__button {
+  -webkit-animation-delay: .4s;
+  animation-delay: .4s
+}
+.list-vitamin-aqua-category__item:last-child .list-vitamin-aqua-category__button {
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s
+}
+.list-vitamin-aqua-category__item:last-child:hover {
+  opacity: 1
+}
+.list-vitamin-aqua-category__button {
+  opacity: .33;
+  -webkit-animation: turn-on-mg forwards step-end;
+  animation: turn-on-mg forwards step-end
+}
+:root {
+  --text-shadow-mg: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-mg),0 0 10px var(--secondary-color-mg),0 0 10px var(--secondary-color-mg),0 0 10px var(--secondary-color-mg),0 0 10px var(--secondary-color-mg),0 0 20px var(--secondary-color-mg),0 0 30px var(--secondary-color-mg),0 0 40px var(--secondary-color-mg);
+  --text-shadow-b: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-b),0 0 10px var(--secondary-color-b),0 0 10px var(--secondary-color-b),0 0 10px var(--secondary-color-b),0 0 10px var(--secondary-color-b),0 0 20px var(--secondary-color-b),0 0 30px var(--secondary-color-b);
+  --text-shadow-c: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-c),0 0 10px var(--secondary-color-c),0 0 10px var(--secondary-color-c),0 0 10px var(--secondary-color-c),0 0 10px var(--secondary-color-c),0 0 20px var(--secondary-color-c),0 0 30px var(--secondary-color-c);
+  --text-shadow-ca: 0 0 5px #fff,0 0 10px #fff,0 0 30px var(--secondary-color-ca),0 0 40px var(--secondary-color-ca),0 0 55px var(--secondary-color-ca),0 0 75px var(--secondary-color-ca);
+  --text-shadow-zn: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-zn),0 0 10px var(--secondary-color-zn),0 0 10px var(--secondary-color-zn),0 0 10px var(--secondary-color-zn),0 0 10px var(--secondary-color-zn),0 0 20px var(--secondary-color-zn),0 0 30px var(--secondary-color-zn)
+}
 @-webkit-keyframes flicker-text {
   0%,
   19%,
@@ -1794,52 +1980,6 @@ body {
   100% {
     opacity: .6
   }
-}
-.list-vitamin-aqua-category__item {
-  transition: opacity .3s
-}
-.list-vitamin-aqua-category__item:nth-child(1) .list-vitamin-aqua-category__button {
-  -webkit-animation-delay: .2s;
-  animation-delay: .2s
-}
-.list-vitamin-aqua-category__item:nth-child(2) .list-vitamin-aqua-category__button {
-  -webkit-animation-delay: 1.9s;
-  animation-delay: 1.9s
-}
-.list-vitamin-aqua-category__item:nth-child(3) .list-vitamin-aqua-category__button {
-  -webkit-animation-delay: 1.4s;
-  animation-delay: 1.4s
-}
-.list-vitamin-aqua-category__item:nth-child(4) .list-vitamin-aqua-category__button {
-  -webkit-animation-delay: .8s;
-  animation-delay: .8s
-}
-.list-vitamin-aqua-category__item:nth-child(5) .list-vitamin-aqua-category__button {
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s
-}
-.list-vitamin-aqua-category__item:nth-child(6) .list-vitamin-aqua-category__button {
-  -webkit-animation-delay: .4s;
-  animation-delay: .4s
-}
-.list-vitamin-aqua-category__item:last-child .list-vitamin-aqua-category__button {
-  -webkit-animation-delay: 1.4s;
-  animation-delay: 1.4s
-}
-.list-vitamin-aqua-category__item:last-child:hover {
-  opacity: 1
-}
-.list-vitamin-aqua-category__button {
-  opacity: .33;
-  -webkit-animation: turn-on-mg forwards step-end;
-  animation: turn-on-mg forwards step-end
-}
-:root {
-  --text-shadow-mg: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-mg),0 0 10px var(--secondary-color-mg),0 0 10px var(--secondary-color-mg),0 0 10px var(--secondary-color-mg),0 0 10px var(--secondary-color-mg),0 0 20px var(--secondary-color-mg),0 0 30px var(--secondary-color-mg),0 0 40px var(--secondary-color-mg);
-  --text-shadow-b: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-b),0 0 10px var(--secondary-color-b),0 0 10px var(--secondary-color-b),0 0 10px var(--secondary-color-b),0 0 10px var(--secondary-color-b),0 0 20px var(--secondary-color-b),0 0 30px var(--secondary-color-b);
-  --text-shadow-c: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-c),0 0 10px var(--secondary-color-c),0 0 10px var(--secondary-color-c),0 0 10px var(--secondary-color-c),0 0 10px var(--secondary-color-c),0 0 20px var(--secondary-color-c),0 0 30px var(--secondary-color-c);
-  --text-shadow-ca: 0 0 5px #fff,0 0 10px #fff,0 0 30px var(--secondary-color-ca),0 0 40px var(--secondary-color-ca),0 0 55px var(--secondary-color-ca),0 0 75px var(--secondary-color-ca);
-  --text-shadow-zn: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-zn),0 0 10px var(--secondary-color-zn),0 0 10px var(--secondary-color-zn),0 0 10px var(--secondary-color-zn),0 0 10px var(--secondary-color-zn),0 0 20px var(--secondary-color-zn),0 0 30px var(--secondary-color-zn)
 }
 @-webkit-keyframes turn-on-mg {
   100% {
@@ -2117,96 +2257,137 @@ body {
     opacity: .1
   }
 }
-.vitamin-aqua-zero-category__slide:nth-child(1) .vitamin-aqua-zero-category__background {
+.vitamin-aqua-zero-category__slide:nth-child(1) .vitamin-aqua-category__background {
   background-color: var(--main-color-mg-zero)
 }
-.vitamin-aqua-zero-category__slide:nth-child(1) .vitamin-aqua-zero-category__title {
-  -webkit-animation: neon-mg-zero 1.5s ease-in-out infinite alternate;
-  animation: neon-mg-zero 1.5s ease-in-out infinite alternate
+.vitamin-aqua-zero-category__slide:nth-child(1) .vitamin-aqua-category__title-second {
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px var(--main-color-mg-zero)
 }
-.vitamin-aqua-zero-category__slide:nth-child(1) .list-vitamin-aqua-zero-category__button {
+.vitamin-aqua-zero-category__slide:nth-child(1) .vitamin-aqua-category__title-second::before {
+  color: var(--main-color-mg-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(1) .vitamin-aqua-category__title-second::after {
+  color: var(--main-color-mg-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(1) .vitamin-aqua-category__title {
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 20px var(--main-color-mg-zero),0 0 40px var(--main-color-mg-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(1) .vitamin-aqua-category__title::before {
+  color: var(--main-color-mg-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(1) .vitamin-aqua-category__title::after {
+  color: var(--main-color-mg-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(1) .list-vitamin-aqua-category__button {
   -webkit-animation: turn-on-mg-zero forwards step-end;
   animation: turn-on-mg-zero forwards step-end
 }
-.vitamin-aqua-zero-category__slide:nth-child(1) .vitamin-aqua-zero-category__title {
-  -webkit-animation: neon-mg-zero 1.5s ease-in-out infinite alternate;
-  animation: neon-mg-zero 1.5s ease-in-out infinite alternate
+.vitamin-aqua-zero-category__slide:nth-child(1) .vitamin-aqua-category__subtitle p {
+  color: var(--secondary);
+  text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-mg-zero),0 0 70px var(--main-color-mg-zero),0 0 80px var(--main-color-mg-zero),0 0 100px var(--main-color-mg-zero),0 0 150px var(--main-color-mg-zero)
 }
-.vitamin-aqua-zero-category__slide:nth-child(1) .vitamin-aqua-zero-category__subtitle {
-  -webkit-animation: neon-mg-zero 1.5s ease-in-out infinite alternate;
-  animation: neon-mg-zero 1.5s ease-in-out infinite alternate
+.vitamin-aqua-zero-category__slide:nth-child(1) .list-vitamin-aqua-category__item:last-child .list-vitamin-aqua-category__button {
+  -webkit-animation: turn-on-mg-zero forwards step-end,flicker-bg 6s linear 3s infinite alternate;
+  animation: turn-on-mg-zero forwards step-end,flicker-bg 6s linear 3s infinite alternate
 }
-.vitamin-aqua-zero-category__slide:nth-child(1) .list-vitamin-aqua-zero-category__item:last-child .list-vitamin-aqua-zero-category__button {
-  -webkit-animation: turn-on-mg forwards step-end,flicker-bg 6s linear 3s infinite alternate;
-  animation: turn-on-mg forwards step-end,flicker-bg 6s linear 3s infinite alternate
-}
-.vitamin-aqua-zero-category__slide:nth-child(2) .vitamin-aqua-zero-category__background {
+.vitamin-aqua-zero-category__slide:nth-child(2) .vitamin-aqua-category__background {
   background-color: var(--main-color-b-zero)
 }
-.vitamin-aqua-zero-category__slide:nth-child(2) .vitamin-aqua-zero-category__title {
-  -webkit-animation: neon-b-zero 1.5s ease-in-out infinite alternate;
-  animation: neon-b-zero 1.5s ease-in-out infinite alternate
+.vitamin-aqua-zero-category__slide:nth-child(2) .vitamin-aqua-category__title-second {
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px var(--main-color-b-zero)
 }
-.vitamin-aqua-zero-category__slide:nth-child(2) .list-vitamin-aqua-zero-category__button {
+.vitamin-aqua-zero-category__slide:nth-child(2) .vitamin-aqua-category__title-second::before {
+  color: var(--main-color-b-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(2) .vitamin-aqua-category__title-second::after {
+  color: var(--main-color-b-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(2) .vitamin-aqua-category__title {
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px var(--main-color-b-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(2) .vitamin-aqua-category__title::before {
+  color: var(--main-color-b-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(2) .vitamin-aqua-category__title::after {
+  color: var(--main-color-b-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(2) .list-vitamin-aqua-category__button {
   -webkit-animation: turn-on-b-zero forwards step-end;
   animation: turn-on-b-zero forwards step-end
 }
-.vitamin-aqua-zero-category__slide:nth-child(2) .vitamin-aqua-zero-category__title {
-  -webkit-animation: neon-b-zero 1.5s ease-in-out infinite alternate;
-  animation: neon-b-zero 1.5s ease-in-out infinite alternate
+.vitamin-aqua-zero-category__slide:nth-child(2) .vitamin-aqua-category__subtitle p {
+  color: var(--secondary);
+  text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-b-zero),0 0 70px var(--main-color-b-zero),0 0 80px var(--main-color-b-zero),0 0 100px var(--main-color-b-zero),0 0 150px var(--main-color-b-zero)
 }
-.vitamin-aqua-zero-category__slide:nth-child(2) .vitamin-aqua-zero-category__subtitle {
-  -webkit-animation: neon-b-zero 1.5s ease-in-out infinite alternate;
-  animation: neon-b-zero 1.5s ease-in-out infinite alternate
+.vitamin-aqua-zero-category__slide:nth-child(2) .list-vitamin-aqua-category__item:last-child .list-vitamin-aqua-category__button {
+  -webkit-animation: turn-on-b forwards step-end,flicker-bg 7s linear 3s infinite alternate;
+  animation: turn-on-b forwards step-end,flicker-bg 7s linear 3s infinite alternate
 }
-.vitamin-aqua-zero-category__slide:nth-child(2) .list-vitamin-aqua-zero-category__item:last-child:hover {
-  opacity: .4
-}
-.vitamin-aqua-zero-category__slide:nth-child(3) .vitamin-aqua-zero-category__background {
+.vitamin-aqua-zero-category__slide:nth-child(3) .vitamin-aqua-category__background {
   background-color: var(--main-color-c-zero)
 }
-.vitamin-aqua-zero-category__slide:nth-child(3) .vitamin-aqua-zero-category__title {
-  -webkit-animation: neon-c-zero 1.5s ease-in-out infinite alternate;
-  animation: neon-c-zero 1.5s ease-in-out infinite alternate
+.vitamin-aqua-zero-category__slide:nth-child(3) .vitamin-aqua-category__title-second {
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px var(--main-color-c-zero)
 }
-.vitamin-aqua-zero-category__slide:nth-child(3) .list-vitamin-aqua-zero-category__button {
+.vitamin-aqua-zero-category__slide:nth-child(3) .vitamin-aqua-category__title-second::cefore {
+  color: var(--main-color-c-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(3) .vitamin-aqua-category__title-second::after {
+  color: var(--main-color-c-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(3) .vitamin-aqua-category__title {
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px var(--main-color-c-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(3) .vitamin-aqua-category__title::before {
+  color: var(--main-color-c-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(3) .vitamin-aqua-category__title::after {
+  color: var(--main-color-c-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(3) .list-vitamin-aqua-category__button {
   -webkit-animation: turn-on-c-zero forwards step-end;
   animation: turn-on-c-zero forwards step-end
 }
-.vitamin-aqua-zero-category__slide:nth-child(3) .vitamin-aqua-zero-category__title {
-  -webkit-animation: neon-c-zero 1.5s ease-in-out infinite alternate;
-  animation: neon-c-zero 1.5s ease-in-out infinite alternate
+.vitamin-aqua-zero-category__slide:nth-child(3) .vitamin-aqua-category__subtitle p {
+  color: var(--secondary);
+  text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-c-zero),0 0 70px var(--main-color-c-zero),0 0 80px var(--main-color-c-zero),0 0 100px var(--main-color-c-zero),0 0 150px var(--main-color-c-zero)
 }
-.vitamin-aqua-zero-category__slide:nth-child(3) .vitamin-aqua-zero-category__subtitle {
-  -webkit-animation: neon-c-zero 1.5s ease-in-out infinite alternate;
-  animation: neon-c-zero 1.5s ease-in-out infinite alternate
+.vitamin-aqua-zero-category__slide:nth-child(3) .list-vitamin-aqua-category__item:last-child .list-vitamin-aqua-category__button {
+  -webkit-animation: turn-on-c forwards step-end,flicker-bg 7s linear 3s infinite alternate;
+  animation: turn-on-c forwards step-end,flicker-bg 7s linear 3s infinite alternate
 }
-.vitamin-aqua-zero-category__slide:nth-child(3) .list-vitamin-aqua-zero-category__item:last-child .list-vitamin-aqua-zero-category__button {
-  -webkit-animation: turn-on-c-zero forwards step-end,flicker-bg 7s linear 3s infinite alternate;
-  animation: turn-on-c-zero forwards step-end,flicker-bg 7s linear 3s infinite alternate
-}
-.vitamin-aqua-zero-category__slide:nth-child(4) .vitamin-aqua-zero-category__background {
+.vitamin-aqua-zero-category__slide:nth-child(4) .vitamin-aqua-category__background {
   background-color: var(--main-color-ca-zero)
 }
-.vitamin-aqua-zero-category__slide:nth-child(4) .vitamin-aqua-zero-category__title {
-  -webkit-animation: neon-ca-zero 1.5s ease-in-out infinite alternate;
-  animation: neon-ca-zero 1.5s ease-in-out infinite alternate
+.vitamin-aqua-zero-category__slide:nth-child(4) .vitamin-aqua-category__title-second {
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px var(--main-color-ca-zero)
 }
-.vitamin-aqua-zero-category__slide:nth-child(4) .list-vitamin-aqua-zero-category__button {
+.vitamin-aqua-zero-category__slide:nth-child(4) .vitamin-aqua-category__title-second::before {
+  color: var(--main-color-ca-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(4) .vitamin-aqua-category__title-second::after {
+  color: var(--main-color-ca-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(4) .vitamin-aqua-category__title {
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px var(--main-color-ca-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(4) .vitamin-aqua-category__title::before {
+  color: var(--main-color-ca-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(4) .vitamin-aqua-category__title::after {
+  color: var(--main-color-ca-zero)
+}
+.vitamin-aqua-zero-category__slide:nth-child(4) .list-vitamin-aqua-category__button {
   -webkit-animation: turn-on-ca-zero forwards step-end;
   animation: turn-on-ca-zero forwards step-end
 }
-.vitamin-aqua-zero-category__slide:nth-child(4) .vitamin-aqua-zero-category__title {
-  -webkit-animation: neon-ca-zero 1.5s ease-in-out infinite alternate;
-  animation: neon-ca-zero 1.5s ease-in-out infinite alternate
+.vitamin-aqua-zero-category__slide:nth-child(4) .vitamin-aqua-category__subtitle p {
+  color: var(--secondary);
+  text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-ca-zero),0 0 70px var(--main-color-ca-zero),0 0 80px var(--main-color-ca-zero),0 0 100px var(--main-color-ca-zero),0 0 150px var(--main-color-ca-zero)
 }
-.vitamin-aqua-zero-category__slide:nth-child(4) .vitamin-aqua-zero-category__subtitle {
-  -webkit-animation: neon-ca-zero 1.5s ease-in-out infinite alternate;
-  animation: neon-ca-zero 1.5s ease-in-out infinite alternate
-}
-.vitamin-aqua-zero-category__slide:nth-child(4) .list-vitamin-aqua-zero-category__item:last-child .list-vitamin-aqua-zero-category__button {
-  -webkit-animation: turn-on-ca-zero forwards step-end,flicker-bg 7s linear 3s infinite alternate;
-  animation: turn-on-ca-zero forwards step-end,flicker-bg 7s linear 3s infinite alternate
+.vitamin-aqua-zero-category__slide:nth-child(4) .list-vitamin-aqua-category__item:last-child .list-vitamin-aqua-category__button {
+  -webkit-animation: turn-on-ca forwards step-end,flicker-bg 7s linear 3s infinite alternate;
+  animation: turn-on-ca forwards step-end,flicker-bg 7s linear 3s infinite alternate
 }
 .vitamin-aqua-zero-category__background {
   position: absolute;
@@ -2223,6 +2404,43 @@ body {
   opacity: .6;
   -webkit-animation: border-animation 30s ease-in-out infinite both alternate,flicker-bg 7s linear infinite alternate;
   animation: border-animation 30s ease-in-out infinite both alternate,flicker-bg 7s linear infinite alternate
+}
+.vitamin-aqua-zero-category__title-second {
+  color: var(--secondary);
+  line-height: 1.2;
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px var(--main-color-mg)
+}
+.vitamin-aqua-zero-category__title-second::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  color: var(--main-color-mg-zero);
+  -webkit-filter: blur(.9375rem);
+  filter: blur(.9375rem);
+  opacity: .8;
+  -webkit-animation: neon 4.5s ease-in-out infinite alternate;
+  animation: neon 4.5s ease-in-out infinite alternate
+}
+.vitamin-aqua-zero-category__title-second::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+  color: var(--main-color-mg-zero);
+  -webkit-filter: blur(1.875rem);
+  filter: blur(1.875rem);
+  opacity: .5;
+  -webkit-animation: neon 1.5s ease-in-out infinite alternate;
+  animation: neon 1.5s ease-in-out infinite alternate
 }
 .vitamin-aqua-zero-category__title {
   font-family: Monoton,sans-serif;
@@ -2327,6 +2545,14 @@ body {
     opacity: 1
   }
 }
+@keyframes neon {
+  from {
+    opacity: .9
+  }
+  to {
+    opacity: .5
+  }
+}
 @-webkit-keyframes neon-mg-zero {
   from {
     text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-mg-zero),0 0 70px var(--main-color-mg-zero),0 0 80px var(--main-color-mg-zero),0 0 100px var(--main-color-mg-zero),0 0 150px var(--main-color-mg-zero)
@@ -2389,6 +2615,34 @@ body {
   }
   to {
     text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px var(--main-color-ca-zero),0 0 35px var(--main-color-ca-zero),0 0 40px var(--main-color-ca-zero),0 0 50px var(--main-color-ca-zero),0 0 75px var(--main-color-ca-zero)
+  }
+}
+@keyframes flicker-text {
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  59%,
+  83% {
+    opacity: 1
+  }
+  20%,
+  24%,
+  55% {
+    opacity: .8
+  }
+  22%,
+  57% {
+    opacity: .5
+  }
+  84% {
+    opacity: .6
+  }
+  100% {
+    opacity: .6
   }
 }
 @keyframes border-animation {
@@ -2489,6 +2743,9 @@ body {
 .lemonade-category__slide:nth-child(1) .lemonade-category__title>.particle {
   background-color: var(--secondary-color-no-1)
 }
+.lemonade-category__slide:nth-child(1) .lemonade-category__title-second {
+  color: var(--main-color-no-1)
+}
 .lemonade-category__slide:nth-child(1) .lemonade-category__subtitle {
   color: var(--secondary-color-no-1)
 }
@@ -2507,6 +2764,9 @@ body {
 .lemonade-category__slide:nth-child(2) .lemonade-category__title>.particle {
   background-color: var(--secondary-color-no-2)
 }
+.lemonade-category__slide:nth-child(2) .lemonade-category__title-second {
+  color: var(--main-color-no-2)
+}
 .lemonade-category__slide:nth-child(2) .lemonade-category__subtitle {
   color: var(--secondary-color-no-2)
 }
@@ -2515,6 +2775,9 @@ body {
 }
 .lemonade-category__slide:nth-child(3) .lemonade-category__title>.particle {
   background-color: var(--secondary-color-no-3)
+}
+.lemonade-category__slide:nth-child(3) .lemonade-category__title-second {
+  color: var(--main-color-no-3)
 }
 .lemonade-category__slide:nth-child(3) .lemonade-category__subtitle {
   color: var(--secondary-color-no-3)
@@ -2525,6 +2788,9 @@ body {
 .lemonade-category__slide:nth-child(4) .lemonade-category__title>.particle {
   background-color: var(--secondary-color-no-4)
 }
+.lemonade-category__slide:nth-child(4) .lemonade-category__title-second {
+  color: var(--main-color-no-4)
+}
 .lemonade-category__slide:nth-child(4) .lemonade-category__subtitle {
   color: var(--secondary-color-no-4)
 }
@@ -2533,6 +2799,9 @@ body {
 }
 .lemonade-category__slide:nth-child(5) .lemonade-category__title>.particle {
   background-color: var(--secondary-color-no-5)
+}
+.lemonade-category__slide:nth-child(5) .lemonade-category__title-second {
+  color: var(--main-color-no-5)
 }
 .lemonade-category__slide:nth-child(5) .lemonade-category__subtitle {
   color: var(--secondary-color-no-5)
@@ -2548,6 +2817,9 @@ body {
 }
 .lemonade-category__title-container {
   display: grid
+}
+.lemonade-category__title-second {
+  font-family: Traffic,sans-serif
 }
 .lemonade-category__title {
   position: relative;
@@ -2673,7 +2945,10 @@ body {
   -webkit-text-stroke: 2px var(--secondary-color-popcola-default)
 }
 .popcola-category__slide:nth-child(1) .popcola-category__title:nth-child(2) {
-  color: var(--secondary-color-popcola)
+  color: var(--secondary-color-popcola-default)
+}
+.popcola-category__slide:nth-child(1) .popcola-category__title-second {
+  color: var(--secondary-color-popcola-default)
 }
 .popcola-category__slide:nth-child(1) .popcola-category__subtitle {
   color: var(--secondary-color-popcola-default)
@@ -2693,6 +2968,9 @@ body {
 .popcola-category__slide:nth-child(2) .popcola-category__title:nth-child(2) {
   color: var(--secondary-color-popcola)
 }
+.popcola-category__slide:nth-child(2) .popcola-category__title-second {
+  color: var(--secondary-color-popcola-zero)
+}
 .popcola-category__slide:nth-child(2) .popcola-category__subtitle {
   color: var(--secondary-color-popcola-zero)
 }
@@ -2710,6 +2988,9 @@ body {
 }
 .popcola-category__slide:nth-child(3) .popcola-category__title:nth-child(2) {
   color: var(--secondary-color-popcola)
+}
+.popcola-category__slide:nth-child(3) .popcola-category__title-second {
+  color: var(--secondary-color-popcola-lemon)
 }
 .popcola-category__slide:nth-child(3) .popcola-category__subtitle {
   color: var(--secondary-color-popcola-lemon)
@@ -2729,6 +3010,9 @@ body {
 .popcola-category__slide:nth-child(4) .popcola-category__title:nth-child(2) {
   color: var(--secondary-color-popcola)
 }
+.popcola-category__slide:nth-child(4) .popcola-category__title-second {
+  color: var(--secondary-color-popcola-caffeine-free)
+}
 .popcola-category__slide:nth-child(4) .popcola-category__subtitle {
   color: var(--secondary-color-popcola-caffeine-free)
 }
@@ -2747,6 +3031,9 @@ body {
 .popcola-category__slide:nth-child(5) .popcola-category__title:nth-child(2) {
   color: var(--secondary-color-popcola)
 }
+.popcola-category__slide:nth-child(5) .popcola-category__title-second {
+  color: var(--secondary-color-popcola-classic)
+}
 .popcola-category__slide:nth-child(5) .popcola-category__subtitle {
   color: var(--secondary-color-popcola-classic)
 }
@@ -2755,14 +3042,6 @@ body {
 }
 .popcola-category__slide:nth-child(5) .popcola-category__background:nth-child(2) {
   background-color: var(--secondary-color-popcola-classic)
-}
-.popcola-category__title-container {
-  display: grid
-}
-.popcola-category__title {
-  font-family: Anton,sans-serif;
-  text-transform: uppercase;
-  text-align: center
 }
 .popcola-category__title:nth-child(1) {
   grid-column: 1;
@@ -2776,6 +3055,12 @@ body {
   color: #000;
   -webkit-animation: float 4s ease-in-out infinite;
   animation: float 4s ease-in-out infinite
+}
+.popcola-category__title-item {
+  font-family: Anton,sans-serif;
+  text-transform: uppercase;
+  display: grid;
+  text-align: center
 }
 .popcola-category__background {
   position: absolute;
@@ -4259,11 +4544,29 @@ button.swiper-pagination-bullet {
   .vitamin-aqua-category__subtitle p {
     font-size: 2.5rem
   }
+  .vitamin-aqua-zero-category__slide:nth-child(1) .vitamin-aqua-category__subtitle p {
+    font-size: 2.5rem
+  }
+  .vitamin-aqua-zero-category__slide:nth-child(2) .vitamin-aqua-category__subtitle p {
+    font-size: 2.5rem
+  }
+  .vitamin-aqua-zero-category__slide:nth-child(3) .vitamin-aqua-category__subtitle p {
+    font-size: 2.5rem
+  }
+  .vitamin-aqua-zero-category__slide:nth-child(4) .vitamin-aqua-category__subtitle p {
+    font-size: 2.5rem
+  }
+  .vitamin-aqua-zero-category__title-second {
+    font-size: 3.25rem
+  }
   .vitamin-aqua-zero-category__title {
     font-size: 5.625rem
   }
   .vitamin-aqua-zero-category__subtitle {
     font-size: 2.5rem
+  }
+  .lemonade-category__title-second {
+    font-size: 5rem
   }
   .lemonade-category__title {
     max-width: 18.75rem
@@ -4274,7 +4577,10 @@ button.swiper-pagination-bullet {
   .lemonade-category__subtitle {
     font-size: 5rem
   }
-  .popcola-category__title {
+  .popcola-category__title-second {
+    font-size: 2.5rem
+  }
+  .popcola-category__title-item {
     font-size: 4.375rem
   }
   .popcola-category__background {
@@ -4394,11 +4700,29 @@ button.swiper-pagination-bullet {
   .vitamin-aqua-category__subtitle p {
     font-size: 1.25rem
   }
+  .vitamin-aqua-zero-category__slide:nth-child(1) .vitamin-aqua-category__subtitle p {
+    font-size: 1.25rem
+  }
+  .vitamin-aqua-zero-category__slide:nth-child(2) .vitamin-aqua-category__subtitle p {
+    font-size: 1.25rem
+  }
+  .vitamin-aqua-zero-category__slide:nth-child(3) .vitamin-aqua-category__subtitle p {
+    font-size: 1.25rem
+  }
+  .vitamin-aqua-zero-category__slide:nth-child(4) .vitamin-aqua-category__subtitle p {
+    font-size: 1.25rem
+  }
+  .vitamin-aqua-zero-category__title-second {
+    font-size: 1.5rem
+  }
   .vitamin-aqua-zero-category__title {
     font-size: 3.125rem
   }
   .vitamin-aqua-zero-category__subtitle {
     font-size: 1.25rem
+  }
+  .lemonade-category__title-second {
+    font-size: 2.5rem
   }
   .lemonade-category__title {
     max-width: 6.25rem
@@ -4409,7 +4733,10 @@ button.swiper-pagination-bullet {
   .lemonade-category__subtitle {
     font-size: 2.5rem
   }
-  .popcola-category__title {
+  .popcola-category__title-second {
+    font-size: 1.25rem
+  }
+  .popcola-category__title-item {
     font-size: 1.875rem
   }
   .popcola-category__background {
@@ -4552,6 +4879,9 @@ button.swiper-pagination-bullet {
   }
   .categories__body.active {
     grid-template-columns: 1fr
+  }
+  .popcola-category__title-item {
+    text-align: left
   }
   .montana-category__title {
     font-size: 3.125rem
@@ -4701,11 +5031,29 @@ button.swiper-pagination-bullet {
   .vitamin-aqua-category__subtitle p {
     font-size: clamp(1.25rem ,.8896396396rem + 1.8018018018vw ,2.5rem)
   }
+  .vitamin-aqua-zero-category__slide:nth-child(1) .vitamin-aqua-category__subtitle p {
+    font-size: clamp(1.25rem ,.8896396396rem + 1.8018018018vw ,2.5rem)
+  }
+  .vitamin-aqua-zero-category__slide:nth-child(2) .vitamin-aqua-category__subtitle p {
+    font-size: clamp(1.25rem ,.8896396396rem + 1.8018018018vw ,2.5rem)
+  }
+  .vitamin-aqua-zero-category__slide:nth-child(3) .vitamin-aqua-category__subtitle p {
+    font-size: clamp(1.25rem ,.8896396396rem + 1.8018018018vw ,2.5rem)
+  }
+  .vitamin-aqua-zero-category__slide:nth-child(4) .vitamin-aqua-category__subtitle p {
+    font-size: clamp(1.25rem ,.8896396396rem + 1.8018018018vw ,2.5rem)
+  }
+  .vitamin-aqua-zero-category__title-second {
+    font-size: clamp(1.5rem ,.9954954955rem + 2.5225225225vw ,3.25rem)
+  }
   .vitamin-aqua-zero-category__title {
     font-size: clamp(3.125rem ,2.4042792793rem + 3.6036036036vw ,5.625rem)
   }
   .vitamin-aqua-zero-category__subtitle {
     font-size: clamp(1.25rem ,.8896396396rem + 1.8018018018vw ,2.5rem)
+  }
+  .lemonade-category__title-second {
+    font-size: clamp(2.5rem ,1.7792792793rem + 3.6036036036vw ,5rem)
   }
   .lemonade-category__title {
     max-width: clamp(6.25rem ,2.6463963964rem + 18.018018018vw ,18.75rem)
@@ -4716,7 +5064,10 @@ button.swiper-pagination-bullet {
   .lemonade-category__subtitle {
     font-size: clamp(2.5rem ,1.7792792793rem + 3.6036036036vw ,5rem)
   }
-  .popcola-category__title {
+  .popcola-category__title-second {
+    font-size: clamp(1.25rem ,.8896396396rem + 1.8018018018vw ,2.5rem)
+  }
+  .popcola-category__title-item {
     font-size: clamp(1.875rem ,1.1542792793rem + 3.6036036036vw ,4.375rem)
   }
   .popcola-category__background {
