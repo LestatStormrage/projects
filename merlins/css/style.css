@@ -1695,6 +1695,7 @@ body {
 }
 .vitamin-aqua-category__title {
   color: var(--secondary);
+  font-family: Monoton,sans-serif;
   line-height: 1.2;
   position: relative;
   z-index: 1;
