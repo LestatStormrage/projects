@@ -1731,14 +1731,14 @@ body {
   animation: neon 1.5s ease-in-out infinite alternate
 }
 .vitamin-aqua-category__subtitle {
-  -webkit-animation: flicker-test 7s linear infinite alternate;
-  animation: flicker-test 7s linear infinite alternate
+  -webkit-animation: flicker-text 7s linear infinite alternate;
+  animation: flicker-text 7s linear infinite alternate
 }
 .vitamin-aqua-category__subtitle p {
   color: var(--secondary);
   text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-mg),0 0 70px var(--main-color-mg),0 0 80px var(--main-color-mg),0 0 100px var(--main-color-mg),0 0 150px var(--main-color-mg)
 }
-@-webkit-keyframes flicker-test {
+@-webkit-keyframes flicker-text {
   0%,
   19%,
   21%,
@@ -1766,7 +1766,7 @@ body {
     opacity: .6
   }
 }
-@keyframes flicker-test {
+@keyframes flicker-text {
   0%,
   19%,
   21%,
@@ -1902,26 +1902,18 @@ body {
 }
 @-webkit-keyframes neon {
   from {
-    opacity: .9;
-    -webkit-filter: blur(15px);
-    filter: blur(15px)
+    opacity: .9
   }
   to {
-    opacity: .6;
-    -webkit-filter: blur(25px);
-    filter: blur(25px)
+    opacity: .5
   }
 }
 @keyframes neon {
   from {
-    opacity: .9;
-    -webkit-filter: blur(15px);
-    filter: blur(15px)
+    opacity: .9
   }
   to {
-    opacity: .6;
-    -webkit-filter: blur(25px);
-    filter: blur(25px)
+    opacity: .5
   }
 }
 @-webkit-keyframes flicker-mg {
