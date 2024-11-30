@@ -5068,6 +5068,17 @@
             }
         }));
     }));
+    document.querySelectorAll(".vitamin-aqua-category__title").forEach((element => {
+        const minDuration = 1;
+        const maxDuration = 10;
+        const randomDuration = Math.random() * (maxDuration - minDuration) + minDuration;
+        const minDelay = 0;
+        const maxDelay = 5;
+        const randomDelay = Math.random() * (maxDelay - minDelay) + minDelay;
+        element.style.setProperty("--random-duration", randomDuration);
+        element.style.setProperty("--random-delay", randomDelay);
+        console.log(`Element: ${element.innerText}, Duration: ${randomDuration}s, Delay: ${randomDelay}s`);
+    }));
     window["FLS"] = true;
     menuInit();
     pageNavigation();

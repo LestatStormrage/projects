@@ -680,13 +680,15 @@ body {
 .media-categories__images {
   width: 100%;
   display: flex;
+  justify-content: space-between;
   gap: .9375rem
 }
 .media-categories__image {
   max-width: 12.5rem
 }
 .media-categories__image img {
-  width: 100%
+  width: 100%;
+  max-height: 20rem
 }
 .categories__body.active {
   display: grid;
@@ -1475,21 +1477,31 @@ body {
 .vitamin-aqua-category__slide:nth-child(1) .vitamin-aqua-category__background {
   background-color: var(--main-color-mg)
 }
+.vitamin-aqua-category__slide:nth-child(1) .vitamin-aqua-category__title-second {
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px var(--main-color-mg)
+}
+.vitamin-aqua-category__slide:nth-child(1) .vitamin-aqua-category__title-second::before {
+  color: var(--main-color-mg)
+}
+.vitamin-aqua-category__slide:nth-child(1) .vitamin-aqua-category__title-second::after {
+  color: var(--main-color-mg)
+}
 .vitamin-aqua-category__slide:nth-child(1) .vitamin-aqua-category__title {
-  -webkit-animation: neon-mg 1.5s ease-in-out infinite alternate;
-  animation: neon-mg 1.5s ease-in-out infinite alternate
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 20px var(--main-color-mg),0 0 40px var(--main-color-mg)
+}
+.vitamin-aqua-category__slide:nth-child(1) .vitamin-aqua-category__title::before {
+  color: var(--main-color-mg)
+}
+.vitamin-aqua-category__slide:nth-child(1) .vitamin-aqua-category__title::after {
+  color: var(--main-color-mg)
 }
 .vitamin-aqua-category__slide:nth-child(1) .list-vitamin-aqua-category__button {
   -webkit-animation: turn-on-mg forwards step-end;
   animation: turn-on-mg forwards step-end
 }
-.vitamin-aqua-category__slide:nth-child(1) .vitamin-aqua-category__title {
-  -webkit-animation: neon-mg 1.5s ease-in-out infinite alternate;
-  animation: neon-mg 1.5s ease-in-out infinite alternate
-}
-.vitamin-aqua-category__slide:nth-child(1) .vitamin-aqua-category__subtitle {
-  -webkit-animation: neon-mg 1.5s ease-in-out infinite alternate;
-  animation: neon-mg 1.5s ease-in-out infinite alternate
+.vitamin-aqua-category__slide:nth-child(1) .vitamin-aqua-category__subtitle p {
+  color: var(--secondary);
+  text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-mg),0 0 70px var(--main-color-mg),0 0 80px var(--main-color-mg),0 0 100px var(--main-color-mg),0 0 150px var(--main-color-mg)
 }
 .vitamin-aqua-category__slide:nth-child(1) .list-vitamin-aqua-category__item:last-child .list-vitamin-aqua-category__button {
   -webkit-animation: turn-on-mg forwards step-end,flicker-bg 6s linear 3s infinite alternate;
@@ -1498,21 +1510,31 @@ body {
 .vitamin-aqua-category__slide:nth-child(2) .vitamin-aqua-category__background {
   background-color: var(--main-color-b)
 }
+.vitamin-aqua-category__slide:nth-child(2) .vitamin-aqua-category__title-second {
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px var(--main-color-b)
+}
+.vitamin-aqua-category__slide:nth-child(2) .vitamin-aqua-category__title-second::before {
+  color: var(--main-color-b)
+}
+.vitamin-aqua-category__slide:nth-child(2) .vitamin-aqua-category__title-second::after {
+  color: var(--main-color-b)
+}
 .vitamin-aqua-category__slide:nth-child(2) .vitamin-aqua-category__title {
-  -webkit-animation: neon-b 1.5s ease-in-out infinite alternate;
-  animation: neon-b 1.5s ease-in-out infinite alternate
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px var(--main-color-b)
+}
+.vitamin-aqua-category__slide:nth-child(2) .vitamin-aqua-category__title::before {
+  color: var(--main-color-b)
+}
+.vitamin-aqua-category__slide:nth-child(2) .vitamin-aqua-category__title::after {
+  color: var(--main-color-b)
 }
 .vitamin-aqua-category__slide:nth-child(2) .list-vitamin-aqua-category__button {
   -webkit-animation: turn-on-b forwards step-end;
   animation: turn-on-b forwards step-end
 }
-.vitamin-aqua-category__slide:nth-child(2) .vitamin-aqua-category__title {
-  -webkit-animation: neon-b 1.5s ease-in-out infinite alternate;
-  animation: neon-b 1.5s ease-in-out infinite alternate
-}
-.vitamin-aqua-category__slide:nth-child(2) .vitamin-aqua-category__subtitle {
-  -webkit-animation: neon-b 1.5s ease-in-out infinite alternate;
-  animation: neon-b 1.5s ease-in-out infinite alternate
+.vitamin-aqua-category__slide:nth-child(2) .vitamin-aqua-category__subtitle p {
+  color: var(--secondary);
+  text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-b),0 0 70px var(--main-color-b),0 0 80px var(--main-color-b),0 0 100px var(--main-color-b),0 0 150px var(--main-color-b)
 }
 .vitamin-aqua-category__slide:nth-child(2) .list-vitamin-aqua-category__item:last-child .list-vitamin-aqua-category__button {
   -webkit-animation: turn-on-b forwards step-end,flicker-bg 7s linear 3s infinite alternate;
@@ -1521,21 +1543,31 @@ body {
 .vitamin-aqua-category__slide:nth-child(3) .vitamin-aqua-category__background {
   background-color: var(--main-color-c)
 }
+.vitamin-aqua-category__slide:nth-child(3) .vitamin-aqua-category__title-second {
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px var(--main-color-c)
+}
+.vitamin-aqua-category__slide:nth-child(3) .vitamin-aqua-category__title-second::cefore {
+  color: var(--main-color-c)
+}
+.vitamin-aqua-category__slide:nth-child(3) .vitamin-aqua-category__title-second::after {
+  color: var(--main-color-c)
+}
 .vitamin-aqua-category__slide:nth-child(3) .vitamin-aqua-category__title {
-  -webkit-animation: neon-c 1.5s ease-in-out infinite alternate;
-  animation: neon-c 1.5s ease-in-out infinite alternate
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px var(--main-color-c)
+}
+.vitamin-aqua-category__slide:nth-child(3) .vitamin-aqua-category__title::before {
+  color: var(--main-color-c)
+}
+.vitamin-aqua-category__slide:nth-child(3) .vitamin-aqua-category__title::after {
+  color: var(--main-color-c)
 }
 .vitamin-aqua-category__slide:nth-child(3) .list-vitamin-aqua-category__button {
   -webkit-animation: turn-on-c forwards step-end;
   animation: turn-on-c forwards step-end
 }
-.vitamin-aqua-category__slide:nth-child(3) .vitamin-aqua-category__title {
-  -webkit-animation: neon-c 1.5s ease-in-out infinite alternate;
-  animation: neon-c 1.5s ease-in-out infinite alternate
-}
-.vitamin-aqua-category__slide:nth-child(3) .vitamin-aqua-category__subtitle {
-  -webkit-animation: neon-c 1.5s ease-in-out infinite alternate;
-  animation: neon-c 1.5s ease-in-out infinite alternate
+.vitamin-aqua-category__slide:nth-child(3) .vitamin-aqua-category__subtitle p {
+  color: var(--secondary);
+  text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-c),0 0 70px var(--main-color-c),0 0 80px var(--main-color-c),0 0 100px var(--main-color-c),0 0 150px var(--main-color-c)
 }
 .vitamin-aqua-category__slide:nth-child(3) .list-vitamin-aqua-category__item:last-child .list-vitamin-aqua-category__button {
   -webkit-animation: turn-on-c forwards step-end,flicker-bg 7s linear 3s infinite alternate;
@@ -1544,21 +1576,31 @@ body {
 .vitamin-aqua-category__slide:nth-child(4) .vitamin-aqua-category__background {
   background-color: var(--main-color-ca)
 }
+.vitamin-aqua-category__slide:nth-child(4) .vitamin-aqua-category__title-second {
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px var(--main-color-ca)
+}
+.vitamin-aqua-category__slide:nth-child(4) .vitamin-aqua-category__title-second::before {
+  color: var(--main-color-ca)
+}
+.vitamin-aqua-category__slide:nth-child(4) .vitamin-aqua-category__title-second::after {
+  color: var(--main-color-ca)
+}
 .vitamin-aqua-category__slide:nth-child(4) .vitamin-aqua-category__title {
-  -webkit-animation: neon-ca 1.5s ease-in-out infinite alternate;
-  animation: neon-ca 1.5s ease-in-out infinite alternate
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px var(--main-color-ca)
+}
+.vitamin-aqua-category__slide:nth-child(4) .vitamin-aqua-category__title::before {
+  color: var(--main-color-ca)
+}
+.vitamin-aqua-category__slide:nth-child(4) .vitamin-aqua-category__title::after {
+  color: var(--main-color-ca)
 }
 .vitamin-aqua-category__slide:nth-child(4) .list-vitamin-aqua-category__button {
   -webkit-animation: turn-on-ca forwards step-end;
   animation: turn-on-ca forwards step-end
 }
-.vitamin-aqua-category__slide:nth-child(4) .vitamin-aqua-category__title {
-  -webkit-animation: neon-ca 1.5s ease-in-out infinite alternate;
-  animation: neon-ca 1.5s ease-in-out infinite alternate
-}
-.vitamin-aqua-category__slide:nth-child(4) .vitamin-aqua-category__subtitle {
-  -webkit-animation: neon-ca 1.5s ease-in-out infinite alternate;
-  animation: neon-ca 1.5s ease-in-out infinite alternate
+.vitamin-aqua-category__slide:nth-child(4) .vitamin-aqua-category__subtitle p {
+  color: var(--secondary);
+  text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-ca),0 0 70px var(--main-color-ca),0 0 80px var(--main-color-ca),0 0 100px var(--main-color-ca),0 0 150px var(--main-color-ca)
 }
 .vitamin-aqua-category__slide:nth-child(4) .list-vitamin-aqua-category__item:last-child .list-vitamin-aqua-category__button {
   -webkit-animation: turn-on-ca forwards step-end,flicker-bg 7s linear 3s infinite alternate;
@@ -1567,21 +1609,31 @@ body {
 .vitamin-aqua-category__slide:nth-child(5) .vitamin-aqua-category__background {
   background-color: var(--main-color-zn)
 }
+.vitamin-aqua-category__slide:nth-child(5) .vitamin-aqua-category__title-second {
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px var(--main-color-zn)
+}
+.vitamin-aqua-category__slide:nth-child(5) .vitamin-aqua-category__title-second::before {
+  color: var(--main-color-zn)
+}
+.vitamin-aqua-category__slide:nth-child(5) .vitamin-aqua-category__title-second::after {
+  color: var(--main-color-zn)
+}
 .vitamin-aqua-category__slide:nth-child(5) .vitamin-aqua-category__title {
-  -webkit-animation: neon-zn 1.5s ease-in-out infinite alternate;
-  animation: neon-zn 1.5s ease-in-out infinite alternate
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px var(--main-color-zn)
+}
+.vitamin-aqua-category__slide:nth-child(5) .vitamin-aqua-category__title::before {
+  color: var(--main-color-zn)
+}
+.vitamin-aqua-category__slide:nth-child(5) .vitamin-aqua-category__title::after {
+  color: var(--main-color-zn)
 }
 .vitamin-aqua-category__slide:nth-child(5) .list-vitamin-aqua-category__button {
   -webkit-animation: turn-on-zn forwards step-end;
   animation: turn-on-zn forwards step-end
 }
-.vitamin-aqua-category__slide:nth-child(5) .vitamin-aqua-category__title {
-  -webkit-animation: neon-zn 1.5s ease-in-out infinite alternate;
-  animation: neon-zn 1.5s ease-in-out infinite alternate
-}
-.vitamin-aqua-category__slide:nth-child(5) .vitamin-aqua-category__subtitle {
-  -webkit-animation: neon-zn 1.5s ease-in-out infinite alternate;
-  animation: neon-zn 1.5s ease-in-out infinite alternate
+.vitamin-aqua-category__slide:nth-child(5) .vitamin-aqua-category__subtitle p {
+  color: var(--secondary);
+  text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-zn),0 0 70px var(--main-color-zn),0 0 80px var(--main-color-zn),0 0 100px var(--main-color-zn),0 0 150px var(--main-color-zn)
 }
 .vitamin-aqua-category__slide:nth-child(5) .list-vitamin-aqua-category__item:last-child .list-vitamin-aqua-category__button {
   -webkit-animation: turn-on-zn forwards step-end,flicker-bg 7s linear 3s infinite alternate;
@@ -1603,15 +1655,164 @@ body {
   -webkit-animation: border-animation 30s ease-in-out infinite both alternate,flicker-bg 7s linear infinite alternate;
   animation: border-animation 30s ease-in-out infinite both alternate,flicker-bg 7s linear infinite alternate
 }
+.vitamin-aqua-category__title-second {
+  color: var(--secondary);
+  line-height: 1.2;
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px var(--main-color-mg)
+}
+.vitamin-aqua-category__title-second::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  color: var(--main-color-mg);
+  -webkit-filter: blur(.9375rem);
+  filter: blur(.9375rem);
+  opacity: .8;
+  -webkit-animation: neon 4.5s ease-in-out infinite alternate;
+  animation: neon 4.5s ease-in-out infinite alternate
+}
+.vitamin-aqua-category__title-second::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+  color: var(--main-color-mg);
+  -webkit-filter: blur(1.875rem);
+  filter: blur(1.875rem);
+  opacity: .5;
+  -webkit-animation: neon 1.5s ease-in-out infinite alternate;
+  animation: neon 1.5s ease-in-out infinite alternate
+}
 .vitamin-aqua-category__title {
+  color: var(--secondary);
   font-family: Monoton,sans-serif;
   line-height: 1.2;
-  -webkit-animation: neon-mg 1.5s ease-in-out infinite alternate;
-  animation: neon-mg 1.5s ease-in-out infinite alternate
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px var(--main-color-mg)
+}
+.vitamin-aqua-category__title::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  color: var(--main-color-mg);
+  -webkit-filter: blur(.9375rem);
+  filter: blur(.9375rem);
+  opacity: .8;
+  -webkit-animation: neon 4.5s ease-in-out infinite alternate;
+  animation: neon 4.5s ease-in-out infinite alternate
+}
+.vitamin-aqua-category__title::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+  color: var(--main-color-mg);
+  -webkit-filter: blur(1.875rem);
+  filter: blur(1.875rem);
+  opacity: .5;
+  -webkit-animation: neon 1.5s ease-in-out infinite alternate;
+  animation: neon 1.5s ease-in-out infinite alternate
 }
 .vitamin-aqua-category__subtitle {
-  -webkit-animation: neon-mg 1.5s ease-in-out infinite alternate;
-  animation: neon-mg 1.5s ease-in-out infinite alternate
+  -webkit-animation: flicker-test 7s linear infinite alternate;
+  animation: flicker-test 7s linear infinite alternate
+}
+.vitamin-aqua-category__subtitle p {
+  color: var(--secondary);
+  text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-mg),0 0 70px var(--main-color-mg),0 0 80px var(--main-color-mg),0 0 100px var(--main-color-mg),0 0 150px var(--main-color-mg)
+}
+@-webkit-keyframes flicker-test {
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  59%,
+  83% {
+    opacity: 1;
+    -webkit-filter: brightness(1);
+    filter: brightness(1)
+  }
+  20%,
+  24%,
+  55% {
+    opacity: .8;
+    -webkit-filter: brightness(.8);
+    filter: brightness(.8)
+  }
+  22%,
+  57% {
+    opacity: .5;
+    -webkit-filter: brightness(.5);
+    filter: brightness(.5)
+  }
+  84% {
+    opacity: .6;
+    -webkit-filter: brightness(.6);
+    filter: brightness(.6)
+  }
+  100% {
+    opacity: .6;
+    -webkit-filter: brightness(.6);
+    filter: brightness(.6)
+  }
+}
+@keyframes flicker-test {
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  59%,
+  83% {
+    opacity: 1;
+    -webkit-filter: brightness(1);
+    filter: brightness(1)
+  }
+  20%,
+  24%,
+  55% {
+    opacity: .8;
+    -webkit-filter: brightness(.8);
+    filter: brightness(.8)
+  }
+  22%,
+  57% {
+    opacity: .5;
+    -webkit-filter: brightness(.5);
+    filter: brightness(.5)
+  }
+  84% {
+    opacity: .6;
+    -webkit-filter: brightness(.6);
+    filter: brightness(.6)
+  }
+  100% {
+    opacity: .6;
+    -webkit-filter: brightness(.6);
+    filter: brightness(.6)
+  }
 }
 .list-vitamin-aqua-category__item {
   transition: opacity .3s
@@ -1719,84 +1920,28 @@ body {
     opacity: 1
   }
 }
-@-webkit-keyframes neon-mg {
+@-webkit-keyframes neon {
   from {
-    text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-mg),0 0 70px var(--main-color-mg),0 0 80px var(--main-color-mg),0 0 100px var(--main-color-mg),0 0 150px var(--main-color-mg)
+    opacity: .9;
+    -webkit-filter: blur(15px);
+    filter: blur(15px)
   }
   to {
-    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px var(--main-color-mg),0 0 35px var(--main-color-mg),0 0 40px var(--main-color-mg),0 0 50px var(--main-color-mg),0 0 75px var(--main-color-mg)
+    opacity: .6;
+    -webkit-filter: blur(25px);
+    filter: blur(25px)
   }
 }
-@keyframes neon-mg {
+@keyframes neon {
   from {
-    text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-mg),0 0 70px var(--main-color-mg),0 0 80px var(--main-color-mg),0 0 100px var(--main-color-mg),0 0 150px var(--main-color-mg)
+    opacity: .9;
+    -webkit-filter: blur(15px);
+    filter: blur(15px)
   }
   to {
-    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px var(--main-color-mg),0 0 35px var(--main-color-mg),0 0 40px var(--main-color-mg),0 0 50px var(--main-color-mg),0 0 75px var(--main-color-mg)
-  }
-}
-@-webkit-keyframes neon-b {
-  from {
-    text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-b),0 0 70px var(--main-color-b),0 0 80px var(--main-color-b),0 0 100px var(--main-color-b),0 0 150px var(--main-color-b)
-  }
-  to {
-    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px var(--main-color-b),0 0 35px var(--main-color-b),0 0 40px var(--main-color-b),0 0 50px var(--main-color-b),0 0 75px var(--main-color-b)
-  }
-}
-@keyframes neon-b {
-  from {
-    text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-b),0 0 70px var(--main-color-b),0 0 80px var(--main-color-b),0 0 100px var(--main-color-b),0 0 150px var(--main-color-b)
-  }
-  to {
-    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px var(--main-color-b),0 0 35px var(--main-color-b),0 0 40px var(--main-color-b),0 0 50px var(--main-color-b),0 0 75px var(--main-color-b)
-  }
-}
-@-webkit-keyframes neon-c {
-  from {
-    text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-c),0 0 70px var(--main-color-c),0 0 80px var(--main-color-c),0 0 100px var(--main-color-c),0 0 150px var(--main-color-c)
-  }
-  to {
-    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px var(--main-color-c),0 0 35px var(--main-color-c),0 0 40px var(--main-color-c),0 0 50px var(--main-color-c),0 0 75px var(--main-color-c)
-  }
-}
-@keyframes neon-c {
-  from {
-    text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-c),0 0 70px var(--main-color-c),0 0 80px var(--main-color-c),0 0 100px var(--main-color-c),0 0 150px var(--main-color-c)
-  }
-  to {
-    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px var(--main-color-c),0 0 35px var(--main-color-c),0 0 40px var(--main-color-c),0 0 50px var(--main-color-c),0 0 75px var(--main-color-c)
-  }
-}
-@-webkit-keyframes neon-ca {
-  from {
-    text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-ca),0 0 70px var(--main-color-ca),0 0 80px var(--main-color-ca),0 0 100px var(--main-color-ca),0 0 150px var(--main-color-ca)
-  }
-  to {
-    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px var(--main-color-ca),0 0 35px var(--main-color-ca),0 0 40px var(--main-color-ca),0 0 50px var(--main-color-ca),0 0 75px var(--main-color-ca)
-  }
-}
-@keyframes neon-ca {
-  from {
-    text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-ca),0 0 70px var(--main-color-ca),0 0 80px var(--main-color-ca),0 0 100px var(--main-color-ca),0 0 150px var(--main-color-ca)
-  }
-  to {
-    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px var(--main-color-ca),0 0 35px var(--main-color-ca),0 0 40px var(--main-color-ca),0 0 50px var(--main-color-ca),0 0 75px var(--main-color-ca)
-  }
-}
-@-webkit-keyframes neon-zn {
-  from {
-    text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-zn),0 0 70px var(--main-color-zn),0 0 80px var(--main-color-zn),0 0 100px var(--main-color-zn),0 0 150px var(--main-color-zn)
-  }
-  to {
-    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px var(--main-color-zn),0 0 35px var(--main-color-zn),0 0 40px var(--main-color-zn),0 0 50px var(--main-color-zn),0 0 75px var(--main-color-zn)
-  }
-}
-@keyframes neon-zn {
-  from {
-    text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px var(--main-color-zn),0 0 70px var(--main-color-zn),0 0 80px var(--main-color-zn),0 0 100px var(--main-color-zn),0 0 150px var(--main-color-zn)
-  }
-  to {
-    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px var(--main-color-zn),0 0 35px var(--main-color-zn),0 0 40px var(--main-color-zn),0 0 50px var(--main-color-zn),0 0 75px var(--main-color-zn)
+    opacity: .6;
+    -webkit-filter: blur(25px);
+    filter: blur(25px)
   }
 }
 @-webkit-keyframes flicker-mg {
@@ -3998,6 +4143,11 @@ button.swiper-pagination-bullet {
     justify-content: flex-end;
     text-align: end
   }
+  .category-page__title-second {
+    display: flex;
+    justify-content: flex-end;
+    text-align: end
+  }
   .category-page__list {
     align-items: flex-end
   }
@@ -4042,7 +4192,7 @@ button.swiper-pagination-bullet {
 }
 @media (min-width:89.375em) {
   .category-page__title-container {
-    gap: 2.5rem
+    gap: .625rem
   }
   .category-page__list {
     font-size: 1.25rem
@@ -4116,10 +4266,28 @@ button.swiper-pagination-bullet {
   .fourth-line {
     width: 39.375rem
   }
+  .vitamin-aqua-category__slide:nth-child(1) .vitamin-aqua-category__subtitle p {
+    font-size: 2.5rem
+  }
+  .vitamin-aqua-category__slide:nth-child(2) .vitamin-aqua-category__subtitle p {
+    font-size: 2.5rem
+  }
+  .vitamin-aqua-category__slide:nth-child(3) .vitamin-aqua-category__subtitle p {
+    font-size: 2.5rem
+  }
+  .vitamin-aqua-category__slide:nth-child(4) .vitamin-aqua-category__subtitle p {
+    font-size: 2.5rem
+  }
+  .vitamin-aqua-category__slide:nth-child(5) .vitamin-aqua-category__subtitle p {
+    font-size: 2.5rem
+  }
+  .vitamin-aqua-category__title-second {
+    font-size: 3.25rem
+  }
   .vitamin-aqua-category__title {
     font-size: 5.625rem
   }
-  .vitamin-aqua-category__subtitle {
+  .vitamin-aqua-category__subtitle p {
     font-size: 2.5rem
   }
   .vitamin-aqua-zero-category__title {
@@ -4162,7 +4330,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width:20em) {
   .category-page__title-container {
-    gap: .625rem
+    gap: .3125rem
   }
   .category-page__list {
     font-size: .875rem
@@ -4236,10 +4404,28 @@ button.swiper-pagination-bullet {
   .fourth-line {
     width: 3.4375rem
   }
+  .vitamin-aqua-category__slide:nth-child(1) .vitamin-aqua-category__subtitle p {
+    font-size: 1.25rem
+  }
+  .vitamin-aqua-category__slide:nth-child(2) .vitamin-aqua-category__subtitle p {
+    font-size: 1.25rem
+  }
+  .vitamin-aqua-category__slide:nth-child(3) .vitamin-aqua-category__subtitle p {
+    font-size: 1.25rem
+  }
+  .vitamin-aqua-category__slide:nth-child(4) .vitamin-aqua-category__subtitle p {
+    font-size: 1.25rem
+  }
+  .vitamin-aqua-category__slide:nth-child(5) .vitamin-aqua-category__subtitle p {
+    font-size: 1.25rem
+  }
+  .vitamin-aqua-category__title-second {
+    font-size: 1.5rem
+  }
   .vitamin-aqua-category__title {
     font-size: 3.125rem
   }
-  .vitamin-aqua-category__subtitle {
+  .vitamin-aqua-category__subtitle p {
     font-size: 1.25rem
   }
   .vitamin-aqua-zero-category__title {
@@ -4454,7 +4640,7 @@ button.swiper-pagination-bullet {
 }
 @media (min-width:20em)and (max-width:89.375em) {
   .category-page__title-container {
-    gap: clamp(.625rem ,.0844594595rem + 2.7027027027vw ,2.5rem)
+    gap: clamp(.3125rem ,.2224099099rem + .4504504505vw ,.625rem)
   }
   .category-page__list {
     font-size: clamp(.875rem ,.7668918919rem + .5405405405vw ,1.25rem)
@@ -4528,10 +4714,28 @@ button.swiper-pagination-bullet {
   .fourth-line {
     width: clamp(3.4375rem ,-6.9228603604rem + 51.8018018018vw ,39.375rem)
   }
+  .vitamin-aqua-category__slide:nth-child(1) .vitamin-aqua-category__subtitle p {
+    font-size: clamp(1.25rem ,.8896396396rem + 1.8018018018vw ,2.5rem)
+  }
+  .vitamin-aqua-category__slide:nth-child(2) .vitamin-aqua-category__subtitle p {
+    font-size: clamp(1.25rem ,.8896396396rem + 1.8018018018vw ,2.5rem)
+  }
+  .vitamin-aqua-category__slide:nth-child(3) .vitamin-aqua-category__subtitle p {
+    font-size: clamp(1.25rem ,.8896396396rem + 1.8018018018vw ,2.5rem)
+  }
+  .vitamin-aqua-category__slide:nth-child(4) .vitamin-aqua-category__subtitle p {
+    font-size: clamp(1.25rem ,.8896396396rem + 1.8018018018vw ,2.5rem)
+  }
+  .vitamin-aqua-category__slide:nth-child(5) .vitamin-aqua-category__subtitle p {
+    font-size: clamp(1.25rem ,.8896396396rem + 1.8018018018vw ,2.5rem)
+  }
+  .vitamin-aqua-category__title-second {
+    font-size: clamp(1.5rem ,.9954954955rem + 2.5225225225vw ,3.25rem)
+  }
   .vitamin-aqua-category__title {
     font-size: clamp(3.125rem ,2.4042792793rem + 3.6036036036vw ,5.625rem)
   }
-  .vitamin-aqua-category__subtitle {
+  .vitamin-aqua-category__subtitle p {
     font-size: clamp(1.25rem ,.8896396396rem + 1.8018018018vw ,2.5rem)
   }
   .vitamin-aqua-zero-category__title {
