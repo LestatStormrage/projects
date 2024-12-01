@@ -778,6 +778,7 @@ textarea.input {
 .header__button {
   position: relative;
   z-index: 5
+  justify-self: end;
 }
 .menu__list {
   display: flex;
