@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20241201175724">
+	<link rel="stylesheet" href="css/style.min.css?_v=20241205185711">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -41,7 +41,7 @@
 						</ul>
 					</nav>
 				</div>
-				<div class="header__button"><a href="">Dealer werden</a></div>
+				<div class="header__button"><a href="#" data-goto-header data-goto=".contact-us">Dealer werden</a></div>
 			</div>
 		</header>
 		<main class="lemonade-category category-page">
@@ -229,6 +229,58 @@
 				<!-- Якщо потрібен скролбар -->
 				<div class="swiper-scrollbar"></div>
 			</div>
+			<section class="page__contact-us contact-us">
+				<!-- <div class="contact-us__background">
+		<img src="img/decor/dead-sea-01.webp" alt="Image">
+	</div> -->
+				<div class="contact-us__container">
+					<div class="contact-us__form">
+						<!-- <form class="contact-us__body" action="files/sendmail/sendmail.php" method="POST"> -->
+						<form data-dev id="form" class="contact-us__body" action="#">
+							<h2 class="contact-us__title title title--mid">Dealer werden</h2>
+							<div class="contact-us__item">
+								<div class="contact-us__label">Anrede *:</div>
+								<select data-required class="contact-us__select _req" name="anrede" data-class-modif="form">
+									<option value="">Anrede</option>
+									<option value="1">Herr</option>
+									<option value="2">Frau</option>
+									<option value="3">Andere</option>
+								</select>
+							</div>
+							<div class="contact-us__item">
+								<label for="contactUsFirstName" class="contact-us__label">Vorname *:</label>
+								<input data-required id="contactUsFirstName" autocomplete="on" type="text" name="firstName" data-error="Error" placeholder="Vorname" class="contact-us__input input _req">
+							</div>
+							<div class="contact-us__item">
+								<label for="contactUsLastName" class="contact-us__label">Nachname *:</label>
+								<input data-required id="contactUsLastName" autocomplete="on" type="text" name="lastName" data-error="Error" placeholder="Nachname" class="contact-us__input input _req">
+							</div>
+							<div class="contact-us__item">
+								<label for="contactUsEmail" class="contact-us__label">E-mail *:</label>
+								<input data-required="email" data-validate id="contactUsEmail" autocomplete="on" type="text" name="email" data-error="Error" placeholder="E-mail" class="contact-us__input input _req _email">
+							</div>
+							<div class="contact-us__item">
+								<label for="contactUsAddInfo" class="contact-us__label">Weitere Informationen:</label>
+								<textarea id="contactUsAddInfo" autocomplete="off" name="addInfo" placeholder="Weitere Informationen" data-error="Error" class="contact-us__input input"></textarea>
+							</div>
+							<div class="contact-us__item">
+								<div class="contact-us__checkbox checkbox-contact-us">
+									<input data-required id="contactUsAgreement" data-error="Error" class="checkbox-contact-us__input input _req" type="checkbox" value="1" name="agreement">
+									<label for="contactUsAgreement" class="checkbox-contact-us__label"><span class="checkbox-contact-us__text">Ich erkläre
+											meine Einwilligung zur Erhebung, Verarbeitung oder Nutzung meiner personenbezogenen Daten gemäß der
+											<a href="datenschutz.html">Datenschutzerklärung</a>. *</span>
+									</label>
+								</div>
+							</div>
+							<div class="contact-us__required">
+								<p>* Pflichtfelder</p>
+							</div>
+							<button type="submit" class="contact-us__button button-default"><span>Absenden</span></button>
+						</form>
+					</div>
+				</div>
+			</section>
+
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
@@ -275,7 +327,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20241201175724"></script>
+	<script src="js/app.min.js?_v=20241205185711"></script>
 </body>
 
 </html>
