@@ -471,7 +471,7 @@ body {
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
   background-color: var(--secondary);
-  padding: 1.25rem;
+  padding: 1.875rem;
   box-shadow: 0 .25rem .5rem rgba(0,0,0,.2);
   border-radius: .5rem;
   color: var(--primary);
@@ -2541,11 +2541,11 @@ body {
   animation: turn-on-mg forwards step-end
 }
 :root {
-  --text-shadow-mg: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-mg),0 0 10px var(--secondary-color-mg),0 0 10px var(--secondary-color-mg),0 0 10px var(--secondary-color-mg),0 0 10px var(--secondary-color-mg),0 0 20px var(--secondary-color-mg),0 0 30px var(--secondary-color-mg),0 0 40px var(--secondary-color-mg);
-  --text-shadow-b: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-b),0 0 10px var(--secondary-color-b),0 0 10px var(--secondary-color-b),0 0 10px var(--secondary-color-b),0 0 10px var(--secondary-color-b),0 0 20px var(--secondary-color-b),0 0 30px var(--secondary-color-b);
-  --text-shadow-c: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-c),0 0 10px var(--secondary-color-c),0 0 10px var(--secondary-color-c),0 0 10px var(--secondary-color-c),0 0 10px var(--secondary-color-c),0 0 20px var(--secondary-color-c),0 0 30px var(--secondary-color-c);
+  --text-shadow-mg: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-mg),0 0 10px var(--secondary-color-mg),0 0 10px var(--secondary-color-mg),0 0 20px var(--secondary-color-mg),0 0 30px var(--secondary-color-mg),0 0 40px var(--secondary-color-mg);
+  --text-shadow-b: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-b),0 0 10px var(--secondary-color-b),0 0 20px var(--secondary-color-b),0 0 30px var(--secondary-color-b);
+  --text-shadow-c: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-c),0 0 10px var(--secondary-color-c),0 0 20px var(--secondary-color-c),0 0 30px var(--secondary-color-c);
   --text-shadow-ca: 0 0 5px #fff,0 0 10px #fff,0 0 30px var(--secondary-color-ca),0 0 40px var(--secondary-color-ca),0 0 55px var(--secondary-color-ca),0 0 75px var(--secondary-color-ca);
-  --text-shadow-zn: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-zn),0 0 10px var(--secondary-color-zn),0 0 10px var(--secondary-color-zn),0 0 10px var(--secondary-color-zn),0 0 10px var(--secondary-color-zn),0 0 20px var(--secondary-color-zn),0 0 30px var(--secondary-color-zn)
+  --text-shadow-zn: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-zn),0 0 10px var(--secondary-color-zn),0 0 20px var(--secondary-color-zn),0 0 30px var(--secondary-color-zn)
 }
 @-webkit-keyframes flicker-text {
   0%,
@@ -3103,8 +3103,8 @@ body {
   animation: neon 1.5s ease-in-out infinite alternate
 }
 .vitamin-aqua-zero-category__subtitle {
-  -webkit-animation: neon 1.5s ease-in-out infinite alternate;
-  animation: neon 1.5s ease-in-out infinite alternate
+  -webkit-animation: flicker-text 7s linear infinite alternate;
+  animation: flicker-text 7s linear infinite alternate
 }
 .list-vitamin-aqua-zero-category__item {
   transition: opacity .3s
@@ -3146,8 +3146,8 @@ body {
   animation: turn-on-mg forwards step-end
 }
 :root {
-  --text-shadow-mg-zero: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-mg-zero),0 0 10px var(--secondary-color-mg-zero),0 0 10px var(--secondary-color-mg-zero),0 0 10px var(--secondary-color-mg-zero),0 0 10px var(--secondary-color-mg-zero),0 0 20px var(--secondary-color-mg-zero),0 0 30px var(--secondary-color-mg-zero),0 0 40px var(--secondary-color-mg-zero);
-  --text-shadow-b-zero: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-b-zero),0 0 10px var(--secondary-color-b-zero),0 0 10px var(--secondary-color-b-zero),0 0 10px var(--secondary-color-b-zero),0 0 10px var(--secondary-color-b-zero),0 0 20px var(--secondary-color-b-zero),0 0 30px var(--secondary-color-b-zero);
+  --text-shadow-mg-zero: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-mg-zero),0 0 10px var(--secondary-color-mg-zero),0 0 20px var(--secondary-color-mg-zero),0 0 30px var(--secondary-color-mg-zero),0 0 40px var(--secondary-color-mg-zero);
+  --text-shadow-b-zero: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-b-zero),0 0 10px var(--secondary-color-b-zero),0 0 20px var(--secondary-color-b-zero),0 0 30px var(--secondary-color-b-zero);
   --text-shadow-c-zero: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--secondary-color-c-zero),0 0 10px var(--secondary-color-c-zero),0 0 20px var(--secondary-color-c-zero),0 0 30px var(--secondary-color-c-zero);
   --text-shadow-ca-zero: 0 0 5px #fff,0 0 10px #fff,0 0 30px var(--secondary-color-ca-zero),0 0 40px var(--secondary-color-ca-zero)
 }
@@ -4816,7 +4816,8 @@ button.swiper-pagination-bullet {
     transition: all .3s
   }
   .sub-menu__body {
-    background-color: var(--secondary)
+    background-color: #fff;
+    box-shadow: 0 0 .3125rem var(--secondary),0 0 .9375rem var(--secondary)
   }
   .list-categories {
     grid-template-columns: repeat(12,1fr)
@@ -4834,6 +4835,38 @@ button.swiper-pagination-bullet {
   }
   .categories__body.active .list-categories {
     grid-template-columns: 1fr
+  }
+}
+@media (any-hover:hover)and (min-width:47.99875em) {
+  .sub-menu__item:nth-child(1) .sub-menu__link:hover {
+    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--vitamin-aqua),0 0 10px var(--vitamin-aqua),0 0 20px var(--vitamin-aqua);
+    -webkit-animation: flicker-text 2s linear infinite alternate;
+    animation: flicker-text 2s linear infinite alternate
+  }
+  .sub-menu__item:nth-child(2) .sub-menu__link:hover {
+    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--main-color-mg-zero),0 0 10px var(--main-color-mg-zero),0 0 20px var(--main-color-mg-zero);
+    -webkit-animation: flicker-text 2s linear infinite alternate;
+    animation: flicker-text 2s linear infinite alternate
+  }
+  .sub-menu__item:nth-child(3) .sub-menu__link:hover {
+    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--lemonade),0 0 10px var(--lemonade),0 0 20px var(--lemonade);
+    -webkit-animation: flicker-text 2s linear infinite alternate;
+    animation: flicker-text 2s linear infinite alternate
+  }
+  .sub-menu__item:nth-child(4) .sub-menu__link:hover {
+    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--pop-cola),0 0 10px var(--pop-cola),0 0 20px var(--pop-cola);
+    -webkit-animation: flicker-text 2s linear infinite alternate;
+    animation: flicker-text 2s linear infinite alternate
+  }
+  .sub-menu__item:nth-child(5) .sub-menu__link:hover {
+    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--montana),0 0 10px var(--montana),0 0 20px var(--montana);
+    -webkit-animation: flicker-text 2s linear infinite alternate;
+    animation: flicker-text 2s linear infinite alternate
+  }
+  .sub-menu__link:hover {
+    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 5px var(--montana),0 0 10px var(--montana),0 0 20px var(--montana),0 0 30px var(--montana);
+    -webkit-animation: flicker-text 2s linear infinite alternate;
+    animation: flicker-text 2s linear infinite alternate
   }
 }
 @media (min-width:89.375em) {
@@ -5563,9 +5596,6 @@ button.swiper-pagination-bullet {
     visibility: visible;
     opacity: 1;
     pointer-events: auto
-  }
-  .sub-menu__link:hover {
-    color: var(--hover-text-black)
   }
   .list-footer__link:hover {
     color: var(--hover-text-white)
