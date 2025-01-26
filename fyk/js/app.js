@@ -2615,28 +2615,6 @@ PERFORMANCE OF THIS SOFTWARE.
                 showThumbByDefault: false
             });
         }));
-        function Marquee(selector, speed) {
-            const parentSelector = document.querySelector(selector);
-            const clone = parentSelector.innerHTML;
-            const firstElement = parentSelector.children[0];
-            let i = 0;
-            let marqueeInterval;
-            for (let j = 0; j < 25; j++) parentSelector.insertAdjacentHTML("beforeend", clone);
-            function startMarquee() {
-                marqueeInterval = setInterval((function() {
-                    firstElement.style.marginLeft = `-${i}px`;
-                    if (i > firstElement.clientWidth) i = 0;
-                    i += speed;
-                }), 0);
-            }
-            function stopMarquee() {
-                clearInterval(marqueeInterval);
-            }
-            parentSelector.addEventListener("mouseenter", stopMarquee);
-            parentSelector.addEventListener("mouseleave", startMarquee);
-            startMarquee();
-        }
-        window.addEventListener("load", (() => Marquee(".announcement", .1)));
         document.addEventListener("DOMContentLoaded", (function() {
             const products = document.querySelectorAll(".all-products__item");
             const popupsContainer = document.querySelector(".all-products__popups");
