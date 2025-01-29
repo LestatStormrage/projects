@@ -938,11 +938,18 @@ body.lock {
 .product__image--2 {
   opacity: 0
 }
+.product__image--mix {
+  transition: all .3s
+}
 .product:hover .product__image--1 {
   opacity: 0
 }
 .product:hover .product__image--2 {
   opacity: 1
+}
+.product:hover .product__image--mix {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05)
 }
 .product__title {
   text-transform: capitalize

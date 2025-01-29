@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20250129202426">
+	<link rel="stylesheet" href="css/style.min.css?_v=20250129205506">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -64,6 +64,13 @@
 					<h2 class="all-products__title title">Unsere Produkte</h2>
 					<div class="all-products__list">
 
+						<div class="all-products__item product" data-product="mix">
+							<div id="inline-gallery-container" class="inline-gallery-container"></div>
+							<div class="product__images">
+								<img class="product__image product__image--mix" src="img/products/mix.webp" alt="mix">
+							</div>
+							<h3 class="product__title subtitle">Mix</h3>
+						</div>
 						<div class="all-products__item product" data-product="lemongrass">
 							<div id="inline-gallery-container" class="inline-gallery-container"></div>
 							<div class="product__images">
@@ -161,6 +168,52 @@
 					<div class="all-products__popups product-popups">
 						<button class="product-popup__close">✖</button>
 						<div class="product-popups__body">
+							<div class="product-popup" data-product="mix">
+
+								<div class="product-popup__media">
+									<div class="product-popup__main">
+										<img class="product-popup__main-image" src="img/products/mix.webp" alt="Main Image">
+									</div>
+
+									<!-- Thumbnails (Click/hover to change main image) -->
+									<div class="product-popup__thumbnails">
+										<img src="img/products/thumbnails/mix.webp" data-full="img/products/mix.webp" class="product-popup__thumbnail">
+									</div>
+
+									<!-- Hidden gallery for LightGallery -->
+									<div data-gallery class="product-popup__gallery" style="display: none;">
+										<a href="img/products/mix.webp" class="product-popup__image">
+											<img alt="Mix" src="img/products/thumbnails/mix.webp">
+										</a>
+									</div>
+								</div>
+								<div class="product-popup__content">
+									<h3 class="product-popup__title title">Mix</h3>
+									<div class="product-popup__ingredients text">
+										<p><span>Kombucha-Geschmacksrichtungen:</span></p>
+										<p>Klassischer Schwarztee</p>
+										<p>Klassischer Grüntee</p>
+										<p>Lavendel</p>
+										<p>Milky Oolong</p>
+										<p>Hibiskus</p>
+										<p>Yuzu</p>
+										<p>Jasmin</p>
+										<p>Kiwi</p>
+										<p>Maracuja</p>
+										<p>Ingwer</p>
+									</div>
+									<div class="product-popup__contains text">
+										<p>Nährwerte pro 100 ml:</p>
+										<p>Eiweiß - 0,0 g</p>
+										<p>Fett - 0,0 g</p>
+										<p>Kohlenhydrate - 4,0g</p>
+										<p>Zucker - 4,0 g</p>
+									</div>
+									<div class="product-popup__size">
+										<p>250 ml</p>
+									</div>
+								</div>
+							</div>
 							<div class="product-popup" data-product="lemongrass">
 
 								<div class="product-popup__media">
@@ -858,7 +911,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20250129202426"></script>
+	<script src="js/app.min.js?_v=20250129205506"></script>
 </body>
 
 </html>
