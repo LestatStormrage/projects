@@ -5027,6 +5027,19 @@
                     }));
                 }));
             }));
+            function disableScroll() {
+                const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+                document.body.style.overflow = "hidden";
+                document.body.style.paddingRight = `${scrollbarWidth}px`;
+                const header = document.querySelector("header");
+                if (header) header.style.paddingRight = `${scrollbarWidth}px`;
+            }
+            function enableScroll() {
+                document.body.style.overflow = "";
+                document.body.style.paddingRight = "";
+                const header = document.querySelector("header");
+                if (header) header.style.paddingRight = "";
+            }
             function toggleSlide(slide, swiper) {
                 const isFullscreen = slide.classList.toggle("fullscreen-slide");
                 swiper.slideTo(0, 0);
@@ -5045,7 +5058,7 @@
                         swiper.scrollbar.disable();
                         scrollbar.style.opacity = "0";
                     }
-                    document.body.style.overflow = "hidden";
+                    disableScroll();
                     slide.style.transform = "translate3d(0, 0, 0)";
                     image.setAttribute("data-coefficient", "0");
                     container.setAttribute("data-coefficient", "0");
@@ -5061,7 +5074,7 @@
                         swiper.scrollbar.enable();
                         scrollbar.style.opacity = "";
                     }
-                    document.body.style.overflow = "";
+                    enableScroll();
                     slide.style.transform = "";
                     image.setAttribute("data-coefficient", "4");
                     container.setAttribute("data-coefficient", "3");
@@ -5388,10 +5401,23 @@
             cookieConsentPopup.style.display = "none";
         };
     }));
+    function disableScroll() {
+        const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+        document.body.style.overflow = "hidden";
+        document.body.style.paddingRight = `${scrollbarWidth}px`;
+        const header = document.querySelector("header");
+        if (header) header.style.paddingRight = `${scrollbarWidth}px`;
+    }
+    function enableScroll() {
+        document.body.style.overflow = "";
+        document.body.style.paddingRight = "";
+        const header = document.querySelector("header");
+        if (header) header.style.paddingRight = "";
+    }
     document.querySelectorAll(".catalogue__item").forEach((function(element) {
         element.addEventListener("click", (function(event) {
             const isFullscreen = this.classList.toggle("fullscreen-item");
-            document.body.style.overflow = isFullscreen ? "hidden" : "";
+            isFullscreen ? disableScroll() : enableScroll();
             const originalFragment = this.getAttribute("href");
             if (isFullscreen) {
                 window.previousFragment = window.location.hash;
@@ -5412,7 +5438,7 @@
             const fullscreenItem = document.querySelector(".fullscreen-item");
             if (fullscreenItem) {
                 if (fullscreenItem) fullscreenItem.classList.remove("fullscreen-item");
-                document.body.style.overflow = "";
+                enableScroll();
                 window.isFullscreenActive = false;
                 history.replaceState({}, "", window.location.pathname + (window.previousFragment || ""));
             }
@@ -5483,7 +5509,7 @@
         const catalogueSection = document.getElementById("catalogue");
         let activeSeries = null;
         let activeCategories = new Set;
-        allButton.classList.add("category-active");
+        if (allButton) allButton.classList.add("category-active");
         function applyFilters() {
             let anyActiveFilters = activeSeries !== null || activeCategories.size > 0;
             items.forEach((item => {
@@ -5538,7 +5564,7 @@
                 scrollToCatalogue();
             }));
         }));
-        allButton.addEventListener("click", (() => {
+        if (allButton) allButton.addEventListener("click", (() => {
             activeSeries = null;
             activeCategories.clear();
             [ ...seriesButtons, ...categoryButtons ].forEach((button => toggleActiveClass(button, false)));

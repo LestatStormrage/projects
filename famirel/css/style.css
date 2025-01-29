@@ -1203,7 +1203,7 @@ textarea.input {
 ._watcher-view .famirel__main-image {
   -webkit-transform: translate(0,0);
   transform: translate(0,0);
-  transition: all .5s .1s;
+  transition: opacity .5s .1s;
   opacity: 1
 }
 .famirel__circle-image-item {
@@ -1303,20 +1303,20 @@ textarea.input {
   transition: all 1s .5s
 }
 .famirel__deco-item--2 {
-  max-width: 58.009709%;
+  max-width: 50.009709%;
   aspect-ratio: 239/278;
-  right: -19.902913%;
+  right: -15.902913%;
   bottom: -26.143791%
 }
 .famirel__deco-item--2 .famirel__deco {
   -webkit-transform-origin: top left;
   transform-origin: top left;
-  -webkit-transform: rotate(50deg) scale(0);
-  transform: rotate(50deg) scale(0)
+  -webkit-transform: rotate(40deg) scale(0);
+  transform: rotate(40deg) scale(0)
 }
 ._watcher-view .famirel__deco-item--2 .famirel__deco {
-  -webkit-transform: rotate(0) scale(1);
-  transform: rotate(0) scale(1);
+  -webkit-transform: rotate(-10deg) scale(1);
+  transform: rotate(-10deg) scale(1);
   transition: all 1s .5s
 }
 .famirel__deco {
@@ -1800,8 +1800,8 @@ textarea.input {
 }
 @keyframes text-slide-bot-top {
   0% {
-    -webkit-transform: translate(0,30%);
-    transform: translate(0,30%);
+    -webkit-transform: translate(0,-10%);
+    transform: translate(0,-10%);
     opacity: 0
   }
   100% {
