@@ -71,7 +71,7 @@ h6 {
   font-weight: inherit;
   font-size: inherit
 }
-.lock body {
+body.lock {
   overflow: hidden;
   touch-action: none;
   -ms-scroll-chaining: none;
@@ -211,7 +211,7 @@ h6 {
 }
 .header {
   background-color: rgba(255,255,255,0);
-  transition: all .3s;
+  transition: background-color .3s box-shadow .3s;
   position: fixed;
   z-index: 150;
   top: 0;
@@ -948,9 +948,9 @@ h6 {
   text-transform: capitalize
 }
 .product-popups {
+  grid-template-columns: 1fr 10fr 1fr;
   display: none;
   position: fixed;
-  transition: all .3s;
   z-index: 151;
   top: 0;
   bottom: 0;
@@ -958,6 +958,9 @@ h6 {
   min-width: 100%;
   overflow-y: scroll;
   overflow-x: hidden
+}
+.product-popups__body {
+  position: relative
 }
 .product-popup {
   display: none;
@@ -1039,9 +1042,8 @@ h6 {
 }
 .product-popups-active {
   display: grid;
-  grid-template-columns: 1fr 10fr 1fr;
-  -webkit-animation: fade-in .2s linear;
-  animation: fade-in .2s linear
+  -webkit-animation: fade-in .3s linear;
+  animation: fade-in .3s linear
 }
 .product-popup-active {
   display: flex
@@ -3376,6 +3378,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 }
 @media (max-width:62.5em) {
+  .product-popups {
+    grid-template-columns: 1fr
+  }
   .product-popup {
     flex-direction: column;
     padding: 1.875rem
@@ -3393,9 +3398,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
   .product-popup__content {
     padding-top: 1.875rem
-  }
-  .product-popups-active {
-    grid-template-columns: 1fr
   }
 }
 @media (max-width:47.99875em) {

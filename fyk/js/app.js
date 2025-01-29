@@ -2615,6 +2615,19 @@ PERFORMANCE OF THIS SOFTWARE.
                 showThumbByDefault: false
             });
         }));
+        function disableScroll() {
+            const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+            document.body.style.overflow = "hidden";
+            document.body.style.paddingRight = `${scrollbarWidth}px`;
+            const header = document.querySelector("header");
+            if (header) header.style.paddingRight = `${scrollbarWidth}px`;
+        }
+        function enableScroll() {
+            document.body.style.overflow = "";
+            document.body.style.paddingRight = "";
+            const header = document.querySelector("header");
+            if (header) header.style.paddingRight = "";
+        }
         document.addEventListener("DOMContentLoaded", (function() {
             const products = document.querySelectorAll(".all-products__item");
             const popupsContainer = document.querySelector(".all-products__popups");
@@ -2624,7 +2637,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 product.addEventListener("click", (() => {
                     const productId = product.getAttribute("data-product");
                     popupsContainer.classList.add("product-popups-active");
-                    document.body.style.overflow = "hidden";
+                    disableScroll();
                     popups.forEach((popup => popup.classList.remove("product-popup-active")));
                     const activePopup = document.querySelector(`.product-popup[data-product="${productId}"]`);
                     if (activePopup) activePopup.classList.add("product-popup-active");
@@ -2634,7 +2647,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 button.addEventListener("click", (() => {
                     popupsContainer.classList.remove("product-popups-active");
                     popups.forEach((popup => popup.classList.remove("product-popup-active")));
-                    document.body.style.overflow = "";
+                    enableScroll();
                 }));
             }));
         }));
