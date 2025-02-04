@@ -1856,7 +1856,7 @@ textarea.input {
   z-index: 2
 }
 .about-us__image {
-  box-shadow: 5px 5px 18px 5px rgba(0,0,0,.17);
+  box-shadow: -50px 50px 18px -15px rgba(0,0,0,.17);
   position: relative;
   width: 100%;
   flex-basis: 26.25rem;
