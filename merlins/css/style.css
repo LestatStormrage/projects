@@ -392,6 +392,11 @@ body {
   -o-object-fit: contain;
   object-fit: contain
 }
+.title {
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center
+}
 .category-page {
   width: 100%
 }
@@ -1061,7 +1066,8 @@ body {
 }
 .menu__parent {
   position: relative;
-  padding-right: .8125rem
+  padding-right: .8125rem;
+  cursor: default
 }
 .menu__parent::after {
   content: "";
@@ -1188,11 +1194,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh
-}
-.categories__title {
-  font-weight: 700;
-  line-height: 1.2;
-  text-align: center
 }
 .list-categories {
   position: relative;
@@ -1926,11 +1927,6 @@ body {
   display: flex;
   flex-direction: column
 }
-.social-block__title {
-  font-weight: 700;
-  line-height: 1.2;
-  text-align: center
-}
 .social-block__container {
   position: relative;
   margin: 0 auto;
@@ -2236,6 +2232,52 @@ body {
   100% {
     opacity: .1
   }
+}
+.about-us__container {
+  display: flex;
+  flex-direction: column
+}
+.about-us__body {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3.125rem
+}
+.about-us__category-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.875rem
+}
+.about-us__category {
+  font-weight: 700;
+  line-height: 2.2;
+  text-align: center;
+  transition: all .3s;
+  width: 100%;
+  cursor: pointer;
+  opacity: .6
+}
+.about-us__category.active {
+  box-shadow: 0 0 15px 4px var(--montana),inset 0 0 13px 2px var(--montana);
+  -webkit-animation: opacity-blink 25s infinite;
+  animation: opacity-blink 25s infinite
+}
+.about-us__text-body {
+  display: grid;
+  justify-content: center;
+  align-items: center
+}
+.about-us__text {
+  grid-row: 1;
+  grid-column: 1;
+  line-height: 1.2;
+  visibility: hidden;
+  opacity: 0
+}
+.about-us__text.active {
+  visibility: visible;
+  opacity: 1
 }
 .vitamin-aqua-category__slide:nth-child(1) .vitamin-aqua-category__background {
   background-color: var(--main-color-mg)
@@ -4876,6 +4918,9 @@ button.swiper-pagination-bullet {
   .select__options {
     font-size: 1.5rem
   }
+  .title {
+    font-size: 3.75rem
+  }
   .category-page__title-container {
     gap: .625rem
   }
@@ -4927,9 +4972,6 @@ button.swiper-pagination-bullet {
   .categories__container {
     gap: 6.25rem
   }
-  .categories__title {
-    font-size: 3.75rem
-  }
   .categories__body:not(.active) .list-categories {
     padding-block: 12.5rem
   }
@@ -4941,9 +4983,6 @@ button.swiper-pagination-bullet {
   }
   .social-block {
     gap: 6.25rem
-  }
-  .social-block__title {
-    font-size: 3.75rem
   }
   .social-block__container {
     width: 62.5rem
@@ -4962,6 +5001,21 @@ button.swiper-pagination-bullet {
   }
   .fourth-line {
     width: 39.375rem
+  }
+  .about-us__container {
+    gap: 6.25rem
+  }
+  .about-us__container {
+    padding-top: 6.25rem
+  }
+  .about-us__container {
+    padding-bottom: 9.375rem
+  }
+  .about-us__category {
+    font-size: 3rem
+  }
+  .about-us__text {
+    font-size: 1.5rem
   }
   .vitamin-aqua-category__slide:nth-child(1) .vitamin-aqua-category__subtitle p {
     font-size: 2.5rem
@@ -5053,6 +5107,9 @@ button.swiper-pagination-bullet {
   .select__options {
     font-size: 1rem
   }
+  .title {
+    font-size: 1.875rem
+  }
   .category-page__title-container {
     gap: .3125rem
   }
@@ -5104,9 +5161,6 @@ button.swiper-pagination-bullet {
   .categories__container {
     gap: 3.125rem
   }
-  .categories__title {
-    font-size: 1.875rem
-  }
   .categories__body:not(.active) .list-categories {
     padding-block: 1.5625rem
   }
@@ -5118,9 +5172,6 @@ button.swiper-pagination-bullet {
   }
   .social-block {
     gap: 2.5rem
-  }
-  .social-block__title {
-    font-size: 1.875rem
   }
   .social-block__container {
     width: 12.5rem
@@ -5139,6 +5190,21 @@ button.swiper-pagination-bullet {
   }
   .fourth-line {
     width: 3.4375rem
+  }
+  .about-us__container {
+    gap: 3.125rem
+  }
+  .about-us__container {
+    padding-top: 3.125rem
+  }
+  .about-us__container {
+    padding-bottom: 6.25rem
+  }
+  .about-us__category {
+    font-size: 1.5rem
+  }
+  .about-us__text {
+    font-size: 1rem
   }
   .vitamin-aqua-category__slide:nth-child(1) .vitamin-aqua-category__subtitle p {
     font-size: 1.25rem
@@ -5350,6 +5416,12 @@ button.swiper-pagination-bullet {
   .categories__body.active {
     grid-template-columns: 1fr
   }
+  .about-us__body {
+    grid-template-columns: 1fr
+  }
+  .about-us__text-body {
+    align-items: flex-start
+  }
   .popcola-category__title-item {
     text-align: left
   }
@@ -5421,6 +5493,9 @@ button.swiper-pagination-bullet {
   .select__options {
     font-size: clamp(1rem ,.8558558559rem + .7207207207vw ,1.5rem)
   }
+  .title {
+    font-size: clamp(1.875rem ,1.3344594595rem + 2.7027027027vw ,3.75rem)
+  }
   .category-page__title-container {
     gap: clamp(.3125rem ,.2224099099rem + .4504504505vw ,.625rem)
   }
@@ -5472,9 +5547,6 @@ button.swiper-pagination-bullet {
   .categories__container {
     gap: clamp(3.125rem ,2.2240990991rem + 4.5045045045vw ,6.25rem)
   }
-  .categories__title {
-    font-size: clamp(1.875rem ,1.3344594595rem + 2.7027027027vw ,3.75rem)
-  }
   .categories__body:not(.active) .list-categories {
     padding-block: clamp(1.5625rem ,-1.5906531532rem + 15.7657657658vw ,12.5rem)
   }
@@ -5486,9 +5558,6 @@ button.swiper-pagination-bullet {
   }
   .social-block {
     gap: clamp(2.5rem ,1.4189189189rem + 5.4054054054vw ,6.25rem)
-  }
-  .social-block__title {
-    font-size: clamp(1.875rem ,1.3344594595rem + 2.7027027027vw ,3.75rem)
   }
   .social-block__container {
     width: clamp(12.5rem ,-1.9144144144rem + 72.0720720721vw ,62.5rem)
@@ -5507,6 +5576,21 @@ button.swiper-pagination-bullet {
   }
   .fourth-line {
     width: clamp(3.4375rem ,-6.9228603604rem + 51.8018018018vw ,39.375rem)
+  }
+  .about-us__container {
+    gap: clamp(3.125rem ,2.2240990991rem + 4.5045045045vw ,6.25rem)
+  }
+  .about-us__container {
+    padding-top: clamp(3.125rem ,2.2240990991rem + 4.5045045045vw ,6.25rem)
+  }
+  .about-us__container {
+    padding-bottom: clamp(6.25rem ,5.3490990991rem + 4.5045045045vw ,9.375rem)
+  }
+  .about-us__category {
+    font-size: clamp(1.5rem ,1.0675675676rem + 2.1621621622vw ,3rem)
+  }
+  .about-us__text {
+    font-size: clamp(1rem ,.8558558559rem + .7207207207vw ,1.5rem)
   }
   .vitamin-aqua-category__slide:nth-child(1) .vitamin-aqua-category__subtitle p {
     font-size: clamp(1.25rem ,.8896396396rem + 1.8018018018vw ,2.5rem)

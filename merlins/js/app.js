@@ -4747,6 +4747,31 @@
         element.style.setProperty("--random-delay", randomDelay);
         console.log(`Element: ${element.innerText}, Duration: ${randomDuration}s, Delay: ${randomDelay}s`);
     }));
+    document.addEventListener("DOMContentLoaded", (function() {
+        const categories = document.querySelectorAll(".about-us__category");
+        const texts = document.querySelectorAll(".about-us__text");
+        function clearActive() {
+            categories.forEach((cat => cat.classList.remove("active")));
+            texts.forEach((text => text.classList.remove("active")));
+        }
+        function activateCategory(category) {
+            clearActive();
+            category.classList.add("active");
+            const catValue = category.getAttribute("data-category");
+            const matchingText = document.querySelector(`.about-us__text[data-category="${catValue}"]`);
+            if (matchingText) matchingText.classList.add("active");
+        }
+        categories.forEach((category => {
+            category.addEventListener("mouseenter", (function() {
+                activateCategory(this);
+            }));
+            category.addEventListener("click", (function() {
+                activateCategory(this);
+            }));
+        }));
+        const defaultCategory = document.querySelector('.about-us__category[data-category="vision"]');
+        if (defaultCategory) activateCategory(defaultCategory);
+    }));
     window["FLS"] = true;
     menuInit();
     formFieldsInit({
