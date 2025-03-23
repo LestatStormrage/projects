@@ -164,7 +164,7 @@
     }));
     document.addEventListener("DOMContentLoaded", (function() {
         let currentPage = window.location.pathname;
-        if (currentPage === "/" || currentPage === "/index.html") currentPage = "index"; else currentPage = currentPage.split("/").pop();
+        if (currentPage === "" || currentPage === "/" || currentPage === "/index.html") currentPage = "index"; else currentPage = currentPage.split("/").pop();
         const menuLinks = document.querySelectorAll(".menu__list .menu__item a");
         menuLinks.forEach((link => {
             let linkPage = link.getAttribute("href");

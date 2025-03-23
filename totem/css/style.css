@@ -86,9 +86,6 @@ body {
 body.transition-ready {
   transition: all .6s
 }
-body.no-transition {
-  transition: none
-}
 .lock body {
   overflow: hidden;
   touch-action: none;
