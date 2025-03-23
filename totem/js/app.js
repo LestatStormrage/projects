@@ -152,20 +152,23 @@
     };
     const disableDarkmode = () => {
         document.body.classList.remove("darkmode");
-        localStorage.setItem("darkmode", null);
+        localStorage.setItem("darkmode", "inactive");
         themeSwitch.checked = false;
     };
-    if (darkmode === "active") enableDarkmode(); else disableDarkmode();
     if (darkmode === null) if (window.matchMedia("(prefers-color-scheme: dark)").matches) enableDarkmode(); else disableDarkmode(); else if (darkmode === "active") enableDarkmode(); else disableDarkmode();
+    window.addEventListener("load", (() => {
+        document.body.classList.add("transition-ready");
+    }));
     themeSwitch.addEventListener("change", (() => {
         if (themeSwitch.checked) enableDarkmode(); else disableDarkmode();
     }));
     document.addEventListener("DOMContentLoaded", (function() {
-        const currentPage = window.location.pathname.split("/").pop() || "index";
+        let currentPage = window.location.pathname;
+        if (currentPage === "/" || currentPage === "/index.html") currentPage = "index"; else currentPage = currentPage.split("/").pop();
         const menuLinks = document.querySelectorAll(".menu__list .menu__item a");
         menuLinks.forEach((link => {
             let linkPage = link.getAttribute("href");
-            if (linkPage === "" || linkPage === "/index.html") linkPage = "index";
+            if (linkPage === "/" || linkPage === "index.html" || linkPage === "") linkPage = "index";
             if (currentPage === linkPage) link.parentElement.classList.add("active");
         }));
     }));
