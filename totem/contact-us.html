@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Contact us</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250421143243">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo"><img src="img/logo/logo-main.svg" alt="Image"></div>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="products.html" class="menu__link">Products</a></li>
+							<li class="menu__item"><a href="about-us.html" class="menu__link">About us</a></li>
+							<li class="menu__item"><a href="contact-us.html" class="menu__link">contact us</a></li>
+						</ul>
+					</nav>
+				</div>
+
+
+				<div data-da=".menu__body, 991.98" class="header__settings">
+					<div class="header__language-dropdown dropdown" tab-index="0">
+						<button id="dropdown-btn"></button>
+						<ul class="dropdown-content" id="dropdown-content"></ul>
+					</div>
+					<div class="header__switch switch">
+						<input type="checkbox" id="switch__checkbox">
+						<label for="switch__checkbox" class="switch__label">
+							<span class="switch__circle">
+							</span>
+						</label>
+					</div>
+				</div>
+
+			</div>
+		</header>
+		<main class="contact-us-page">
+
+			<section class="contact-us-page__contact-us contact-us">
+				<div class="contact-us__container">
+					<h1 class="contact-us__title title title--big">Contact us to be our dealer !</h1>
+					<div class="contact-us__form">
+						<form id="form" class="contact-us__body" action="files/sendmail/sendmail.php" method="POST">
+							<!-- <form id="form" class="contact-us__body" action="#"> -->
+							<h2 class="contact-us__title title title--medium">Use this form to send us email</h2>
+							<div class="contact-us__item">
+								<div class="contact-us__label">How do we address you? *</div>
+								<select class="contact-us__select _req" name="anrede" data-class-modif="form">
+									<option value="">...</option>
+									<option value="1">Mr.</option>
+									<option value="2">Mrs.</option>
+								</select>
+							</div>
+							<div class="contact-us__item">
+								<label for="contactUsFirstName" class="contact-us__label">First name *:</label>
+								<input id="contactUsFirstName" autocomplete="on" type="text" name="firstName" data-error="Error" placeholder="First name" class="contact-us__input input _req">
+							</div>
+							<div class="contact-us__item">
+								<label for="contactUsLastName" class="contact-us__label">Last name *:</label>
+								<input id="contactUsLastName" autocomplete="on" type="text" name="lastName" data-error="Error" placeholder="Last name" class="contact-us__input input _req">
+							</div>
+							<div class="contact-us__item">
+								<label for="contactUsEmail" class="contact-us__label">E-mail *:</label>
+								<input id="contactUsEmail" autocomplete="on" type="text" name="email" data-error="Error" placeholder="E-mail" class="contact-us__input input _req _email">
+							</div>
+							<div class="contact-us__item">
+								<label for="contactUsAddInfo" class="contact-us__label">Additional information:</label>
+								<textarea id="contactUsAddInfo" autocomplete="off" name="addInfo" placeholder="Additional information" data-error="Error" class="contact-us__input input"></textarea>
+							</div>
+							<div class="contact-us__item">
+								<div class="contact-us__checkbox checkbox-contact-us">
+									<input id="contactUsAgreement" data-error="Error" class="checkbox-contact-us__input input _req" type="checkbox" value="1" name="agreement">
+									<label for="contactUsAgreement" class="checkbox-contact-us__label"><span class="checkbox-contact-us__text">I
+											consent to the collection, processing or use of my personal data in accordance with the
+											<a href="datenschutz.html">privacy policy</a>. *</span>
+									</label>
+								</div>
+							</div>
+							<div class="contact-us__required">
+								<p>* Required</p>
+							</div>
+							<div class="contact-us__button-container button-container">
+								<button type="submit" class="contact-us__button button"><a>Send</a></button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+			<section class="contact-us-page__info info-contact">
+				<div class="info-contact__container">
+					<h2 class="info-contact__title title title--medium">Or use one of the following methods:</h2>
+				</div>
+				<div class="contact-us__background">
+					<img src="img/" alt="bg">
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20250421143243"></script>
+</body>
+
+</html>

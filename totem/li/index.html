@@ -6,13 +6,24 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20250421143243">
+	<link rel="stylesheet" href="css/style.min.css">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 
+<script>
+	function setLanguage(lang) {
+		localStorage.setItem("preferredLanguage", lang);
+
+		if (lang === "en") {
+			window.location.href = "/index.html";
+		} else if (lang === "lt") {
+			window.location.href = "/lt/index.html";
+		}
+	}
+</script>
 
 
 
@@ -55,8 +66,8 @@
 			<section class="main-page__top-banner top-banner">
 				<div class="top-banner__container">
 					<div class="top-banner__content">
-						<h1 class="top-banner__title">our <span>mission</span> <br> is to <span>provide</span> <br> <span>healthy</span> diet
-							<br>for<span> everyone</span>
+						<h1 class="top-banner__title">mūsų <span>misija</span> <br> - <span>užtikrinti </span> <br> <span>sveiką</span> mitybą
+							<br><span> kiekvienam</span>
 						</h1>
 					</div>
 				</div>
@@ -67,7 +78,7 @@
 				<div class="smoothies__container">
 					<div class="smoothies__content">
 						<div class="smoothies__subtitle">Superfood Smoothies</div>
-						<div class="smoothies__title"><span>Support</span> your active <span>lifestyle</span> with our <span>smoothies</span></div>
+						<div class="smoothies__title"><span>Papildykite</span> savo aktyvų <span>gyvenimo</span> būdą mūsų <span>glotnučiais</span></div>
 						<div class="button-container">
 							<div class="smoothies__button button"><a href="superfood.html">View all</a></div>
 						</div>
@@ -109,7 +120,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20250421143243"></script>
+	<script src="js/app.min.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,6 @@
 (() => {
     "use strict";
+    const modules_flsModules = {};
     let bodyLockStatus = true;
     let bodyLockToggle = (delay = 500) => {
         if (document.documentElement.classList.contains("lock")) bodyUnlock(delay); else bodyLock(delay);
@@ -43,7 +44,93 @@
             }
         }));
     }
+    function functions_FLS(message) {
+        setTimeout((() => {
+            if (window.FLS) console.log(message);
+        }), 0);
+    }
+    class MousePRLX {
+        constructor(props, data = null) {
+            let defaultConfig = {
+                init: true,
+                logging: true
+            };
+            this.config = Object.assign(defaultConfig, props);
+            if (this.config.init) {
+                const paralaxMouse = document.querySelectorAll("[data-prlx-mouse]");
+                if (paralaxMouse.length) {
+                    this.paralaxMouseInit(paralaxMouse);
+                    this.setLogging(`Прокинувся, стежу за об'єктами: (${paralaxMouse.length})`);
+                } else this.setLogging("Немає жодного обєкта. Сплю...");
+            }
+        }
+        paralaxMouseInit(paralaxMouse) {
+            paralaxMouse.forEach((el => {
+                const paralaxMouseWrapper = el.closest("[data-prlx-mouse-wrapper]");
+                const paramСoefficientX = el.dataset.prlxCx ? +el.dataset.prlxCx : 100;
+                const paramСoefficientY = el.dataset.prlxCy ? +el.dataset.prlxCy : 100;
+                const directionX = el.hasAttribute("data-prlx-dxr") ? -1 : 1;
+                const directionY = el.hasAttribute("data-prlx-dyr") ? -1 : 1;
+                const paramAnimation = el.dataset.prlxA ? +el.dataset.prlxA : 50;
+                let positionX = 0, positionY = 0;
+                let coordXprocent = 0, coordYprocent = 0;
+                setMouseParallaxStyle();
+                if (paralaxMouseWrapper) mouseMoveParalax(paralaxMouseWrapper); else mouseMoveParalax();
+                function setMouseParallaxStyle() {
+                    const distX = coordXprocent - positionX;
+                    const distY = coordYprocent - positionY;
+                    positionX += distX * paramAnimation / 1e3;
+                    positionY += distY * paramAnimation / 1e3;
+                    el.style.cssText = `transform: translate3D(${directionX * positionX / (paramСoefficientX / 10)}%,${directionY * positionY / (paramСoefficientY / 10)}%,0) rotate(0.02deg);`;
+                    requestAnimationFrame(setMouseParallaxStyle);
+                }
+                function mouseMoveParalax(wrapper = window) {
+                    wrapper.addEventListener("mousemove", (function(e) {
+                        const offsetTop = el.getBoundingClientRect().top + window.scrollY;
+                        if (offsetTop >= window.scrollY || offsetTop + el.offsetHeight >= window.scrollY) {
+                            const parallaxWidth = window.innerWidth;
+                            const parallaxHeight = window.innerHeight;
+                            const coordX = e.clientX - parallaxWidth / 2;
+                            const coordY = e.clientY - parallaxHeight / 2;
+                            coordXprocent = coordX / parallaxWidth * 100;
+                            coordYprocent = coordY / parallaxHeight * 100;
+                        }
+                    }));
+                }
+            }));
+        }
+        setLogging(message) {
+            this.config.logging ? functions_FLS(`[PRLX Mouse]: ${message}`) : null;
+        }
+    }
+    modules_flsModules.mousePrlx = new MousePRLX({});
     let addWindowScrollEvent = false;
+    function headerScroll() {
+        addWindowScrollEvent = true;
+        const header = document.querySelector("header.header");
+        const headerShow = header.hasAttribute("data-scroll-show");
+        const headerShowTimer = header.dataset.scrollShow ? header.dataset.scrollShow : 500;
+        const startPoint = header.dataset.scroll ? header.dataset.scroll : 1;
+        let scrollDirection = 0;
+        let timer;
+        document.addEventListener("windowScroll", (function(e) {
+            const scrollTop = window.scrollY;
+            clearTimeout(timer);
+            if (scrollTop >= startPoint) {
+                !header.classList.contains("_header-scroll") ? header.classList.add("_header-scroll") : null;
+                if (headerShow) {
+                    if (scrollTop > scrollDirection) header.classList.contains("_header-show") ? header.classList.remove("_header-show") : null; else !header.classList.contains("_header-show") ? header.classList.add("_header-show") : null;
+                    timer = setTimeout((() => {
+                        !header.classList.contains("_header-show") ? header.classList.add("_header-show") : null;
+                    }), headerShowTimer);
+                }
+            } else {
+                header.classList.contains("_header-scroll") ? header.classList.remove("_header-scroll") : null;
+                if (headerShow) header.classList.contains("_header-show") ? header.classList.remove("_header-show") : null;
+            }
+            scrollDirection = scrollTop <= 0 ? 0 : scrollTop;
+        }));
+    }
     setTimeout((() => {
         if (addWindowScrollEvent) {
             let windowScroll = new Event("windowScroll");
@@ -172,6 +259,131 @@
             if (currentPage === linkPage) link.parentElement.classList.add("active");
         }));
     }));
+    function disableScroll() {
+        const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+        document.body.style.overflow = "hidden";
+        document.body.style.paddingRight = `${scrollbarWidth}px`;
+        const header = document.querySelector("header");
+        if (header) header.style.paddingRight = `${scrollbarWidth}px`;
+    }
+    function enableScroll() {
+        document.body.style.overflow = "";
+        document.body.style.paddingRight = "";
+        const header = document.querySelector("header");
+        if (header) header.style.paddingRight = "";
+    }
+    document.addEventListener("DOMContentLoaded", (function() {
+        const products = document.querySelectorAll(".products-block__item");
+        document.querySelectorAll(".products-block__popups");
+        const allCloseButtons = document.querySelectorAll(".product-popups__close");
+        let isPopupOpen = false;
+        let currentPopupsContainer = null;
+        function openPopup(productId, container) {
+            currentPopupsContainer = container;
+            const popups = container.querySelectorAll(".product-popup");
+            container.classList.add("product-popups-active");
+            disableScroll();
+            popups.forEach((popup => popup.classList.remove("product-popup-active")));
+            const activePopup = container.querySelector(`.product-popup[data-product="${productId}"]`);
+            if (activePopup) {
+                activePopup.classList.add("product-popup-active");
+                isPopupOpen = true;
+                history.pushState({
+                    popupOpen: true
+                }, "");
+            }
+        }
+        function closePopup() {
+            if (!currentPopupsContainer) return;
+            currentPopupsContainer.classList.remove("product-popups-active");
+            const popups = currentPopupsContainer.querySelectorAll(".product-popup");
+            popups.forEach((popup => popup.classList.remove("product-popup-active")));
+            enableScroll();
+            isPopupOpen = false;
+            if (history.state && history.state.popupOpen) history.back();
+            currentPopupsContainer = null;
+        }
+        products.forEach((product => {
+            product.addEventListener("click", (() => {
+                const productId = product.getAttribute("data-product");
+                const container = product.closest(".products-block").querySelector(".products-block__popups");
+                openPopup(productId, container);
+            }));
+        }));
+        allCloseButtons.forEach((button => {
+            button.addEventListener("click", (() => {
+                closePopup();
+            }));
+        }));
+        window.addEventListener("popstate", (event => {
+            if (isPopupOpen) closePopup();
+        }));
+        document.addEventListener("keydown", (event => {
+            if (event.key === "Escape" && isPopupOpen) if (history.state?.popupOpen) history.back(); else closePopup();
+        }));
+    }));
+    const script_images = document.querySelectorAll(".about-us__image");
+    if (script_images.length > 0) {
+        let current = 0;
+        const interval = 1e4;
+        function showNextImage() {
+            const total = script_images.length;
+            script_images.forEach(((img, i) => {
+                img.style.opacity = i === current ? "1" : "0";
+                img.style.transition = "opacity 2s ease-in-out";
+            }));
+            current = (current + 1) % total;
+        }
+        showNextImage();
+        setInterval(showNextImage, interval);
+    }
+    if ((window.location.pathname === "/" || window.location.pathname === "/index.html") && !localStorage.getItem("preferredLanguage")) {
+        const userLang = navigator.language || navigator.userLanguage;
+        const shortLang = new Intl.Locale(userLang).language;
+        if (shortLang === "lt") {
+            localStorage.setItem("preferredLanguage", "lt-LT");
+            window.location.href = "/lt/index.html";
+        } else localStorage.setItem("preferredLanguage", "en-GB");
+    }
+    const preferredLang = localStorage.getItem("preferredLanguage");
+    if ((window.location.pathname === "/" || window.location.pathname === "/index.html") && preferredLang && new Intl.Locale(preferredLang).language === "lt") window.location.href = "/lt/index.html";
+    const locales = [ "en-GB", "lt-LT" ];
+    function getFlagSrc(countryCode) {
+        return /^[A-Z]{2}$/.test(countryCode) ? `https://flagsapi.com/${countryCode.toUpperCase()}/shiny/64.png` : "";
+    }
+    const dropdownBtn = document.getElementById("dropdown-btn");
+    const dropdownContent = document.getElementById("dropdown-content");
+    function setSelectedLocale(locale) {
+        const intlLocale = new Intl.Locale(locale);
+        const langName = new Intl.DisplayNames([ locale ], {
+            type: "language"
+        }).of(intlLocale.language);
+        dropdownContent.innerHTML = "";
+        const otherLocales = locales.filter((loc => loc !== locale));
+        otherLocales.forEach((otherLocale => {
+            const otherIntlLocale = new Intl.Locale(otherLocale);
+            const otherLangName = new Intl.DisplayNames([ otherLocale ], {
+                type: "language"
+            }).of(otherIntlLocale.language);
+            const listEl = document.createElement("li");
+            listEl.innerHTML = `${otherLangName}<img src="${getFlagSrc(otherIntlLocale.region)}" />`;
+            listEl.value = otherLocale;
+            listEl.addEventListener("mousedown", (function() {
+                localStorage.setItem("preferredLanguage", otherLocale);
+                const langCode = new Intl.Locale(otherLocale).language;
+                if (langCode === "lt") window.location.href = "/lt/index.html"; else window.location.href = "/index.html";
+            }));
+            dropdownContent.appendChild(listEl);
+        }));
+        dropdownBtn.innerHTML = `<img src="${getFlagSrc(intlLocale.region)}" />${langName}<span class="arrow-down"></span>`;
+    }
+    setSelectedLocale(locales[0]);
+    const browserLang = new Intl.Locale(navigator.language).language;
+    for (const locale of locales) {
+        const localeLang = new Intl.Locale(locale).language;
+        if (localeLang === browserLang) setSelectedLocale(locale);
+    }
     window["FLS"] = true;
     menuInit();
+    headerScroll();
 })();
