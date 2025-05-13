@@ -1,0 +1,861 @@
+<!doctype html>
+<html data-fls-darklite="" lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
+		<title>Рівні</title>
+		<script type="module" crossorigin="" src="./js/levels.min.js?v=1747143819983"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/app.min.js?v=1747143819983">
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1747143819983">
+		<link rel="stylesheet" crossorigin="" href="./css/levels.min.css?v=1747143819983">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<a class="header__logo" href="#">
+						<picture>
+							<source media="(max-width: 600px)" srcset="./assets/img/logo/logo-main-600.webp" type="image/webp">
+							<source media="(max-width: 1200px)" srcset="./assets/img/logo/logo-main-1200.webp" type="image/webp">
+							<img alt="logo" src="./assets/img/logo/logo-main.webp">
+						</picture>
+					</a>
+					<div class="header__content">
+						<div class="header__menu menu">
+							<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+								<span></span>
+							</button>
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="index.html" class="menu__link">Головна</a>
+									</li>
+									<li class="menu__item">
+										<a href="goals.html" class="menu__link">Цілі</a>
+									</li>
+									<li class="menu__item">
+										<a href="levels.html" class="menu__link menu__link--active">Рівні</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<!--
+<fetch url="@components/layout/menu/menu.js?v=1747143819983on">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+					</div>
+					<div data-fls-dynamic=".menu__body, 767.98, 1" class="header__theme-switcher">
+						<button data-fls-darklite-set="" class="header__button button button-default"></button>
+					</div>
+				</div>
+			</header>
+			<main class="page levels-page">
+				<div class="levels-page__table">
+					<div class="levels-page__container">
+						<div class="levels-table">
+							<table>
+								<thead>
+									<tr>
+										<th class="tl tl2"></th>
+										<th class="levels-table__product" style="border-top-left-radius: 5px; border-left:0px;">Трипілля</th>
+										<th class="levels-table__product">Варяги</th>
+										<th class="levels-table__product">Київська Русь</th>
+										<th class="levels-table__product">Гетьманщина</th>
+										<th class="levels-table__product" style="border-top-right-radius: 5px; border-right:0px">Незалежна Україна</th>
+									</tr>
+									<tr>
+										<th></th>
+										<th class="price-info">
+											<div class="price-now">
+												<span>Ціна</span>
+												<p>/рік</p>
+											</div>
+										</th>
+										<th class="price-info">
+											<div class="price-now">
+												<span>Ціна</span>
+												<p>/рік</p>
+											</div>
+										</th>
+										<th class="price-info">
+											<div class="price-now">
+												<span>Ціна</span>
+												<p>/рік</p>
+											</div>
+										</th>
+										<th class="price-info">
+											<div class="price-now">
+												<span>Ціна</span>
+												<p>/рік</p>
+											</div>
+										</th>
+										<th class="price-info">
+											<div class="price-now">
+												<span>Ціна</span>
+												<p>/рік</p>
+											</div>
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" colspan="2">Опис</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr>
+										<td>Опис</td>
+										<td colspan="5"></td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="Загальні зустрічі" colspan="2">Нетворкінг загальний</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="Загальні зустрічі">Нетворкінг загальний</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="З чітко визнеченими цілями та параметрами" colspan="2">Нетворкінг
+                                таргетований</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="З чітко визнеченими цілями та параметрами">Нетворкінг таргетований</td>
+										<td>
+											<i class="check">–</i>
+										</td>
+										<td>
+											<i class="check">після навчання*</i>
+										</td>
+										<td>
+											<i class="check">після 6 міс.**</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="Ініціація та винос на голосування" colspan="2">Запуск підгруп
+                                (після голосування)</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="Ініціація та винос на голосування">Запуск підгруп (після голосування)</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">–</i>
+										</td>
+										<td>
+											<i class="check">–</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="Голосування за прийняття нових двома третинами існуючих учасників" colspan="2">Участь у підгрупах</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="Голосування за прийняття нових двома третинами існуючих учасників">Участь у підгрупах</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="Профільне навчання" colspan="2">Поглиблене навчання у підгрупах</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="Профільне навчання">Поглиблене навчання у підгрупах</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">-20%</i>
+										</td>
+										<td>
+											<i class="check">-50%</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="У разі необхідності залучення партнерів та фінансування ідеї" colspan="2">Запропонувати бізнес-ідею</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="У разі необхідності залучення партнерів та фінансування ідеї">Запропонувати бізнес-ідею</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="Експертний комітет з оцінки перспективності проекта, доступ до спільних проектів" colspan="2">Участь у
+                                запропонованих іншими бізнес-ідеях</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="Експертний комітет з оцінки перспективності проекта, доступ до спільних проектів">Участь у
+                                запропонованих іншими бізнес-ідеях</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" colspan="2">Бізнес навчання онлайн</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td>Бізнес навчання онлайн</td>
+										<td>
+											<i class="check">100%</i>
+										</td>
+										<td>
+											<i class="check">-20%</i>
+										</td>
+										<td>
+											<i class="check">-50%</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" colspan="2">Бізнес навчання офлайн</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td>Бізнес навчання офлайн</td>
+										<td>
+											<i class="check">100%</i>
+										</td>
+										<td>
+											<i class="check">-20%</i>
+										</td>
+										<td>
+											<i class="check">-50%</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="На базі знань здобутих протягом онлайн та офлайн навчання" colspan="2">Практичні заняття та симуляції</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="На базі знань здобутих протягом онлайн та офлайн навчання">Практичні заняття та симуляції</td>
+										<td>
+											<i class="check">100%</i>
+										</td>
+										<td>
+											<i class="check">-20%</i>
+										</td>
+										<td>
+											<i class="check">-50%</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="Використання синергії експертів" colspan="2">Надання власного кейсу
+                                для розбору</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="Використання синергії експертів">Надання власного кейсу для розбору</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="Сильні та слабкі сторони бізнесів та заглиблення у їх причини" colspan="2">Розбір кейсів промінентів</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="Сильні та слабкі сторони бізнесів та заглиблення у їх причини">Розбір кейсів промінентів</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="Не включає витрати на подорож та готель" colspan="2">Участь у великих
+                                самітах</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="Не включає витрати на подорож та готель">Участь у великих самітах</td>
+										<td>
+											<i class="check">100%</i>
+										</td>
+										<td>
+											<i class="check">-20%</i>
+										</td>
+										<td>
+											<i class="check">-50%</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="Платформа, де викладаються потреби підприємців в певних товарах та послугах" colspan="2">Доступ до
+                                інфо-біржі (запит)</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="Платформа, де викладаються потреби підприємців в певних товарах та послугах">Доступ до інфо-біржі
+                                (запит)</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="Платформа, де викладаються потреби підприємців в певних товарах та послугах" colspan="2">Доступ до
+                                інфо-біржі (пропозиція)</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="Платформа, де викладаються потреби підприємців в певних товарах та послугах">Доступ до інфо-біржі
+                                (пропозиція)</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">після навчання*</i>
+										</td>
+										<td>
+											<i class="check">після 6 міс.**</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="Бізнеси, які закриватимуть потреби значної кількості учасників" colspan="2">Участь у створенні нових бізнесів у спільноті</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="Бізнеси, які закриватимуть потреби значної кількості учасників">Участь у створенні нових бізнесів у
+                                спільноті</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">після навчання*</i>
+										</td>
+										<td>
+											<i class="check">після 6 міс.**</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="Допомога у масштабуванні бізнесу та встановленні контактів за кордоном" colspan="2">Участь у програмі
+                                інтеграції у світовий бізнес</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="Допомога у масштабуванні бізнесу та встановленні контактів за кордоном">Участь у програмі інтеграції у
+                                світовий бізнес</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">після навчання*</i>
+										</td>
+										<td>
+											<i class="check">після 6 міс.**</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="Масштабування бізнесу через співпрацю з учасниками спільноти в інших регіонах." colspan="2">
+											Участь у
+                                програмі міжрегіонального масштабування
+										</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="Масштабування бізнесу через співпрацю з учасниками спільноти в інших регіонах.">
+											Участь у програмі
+                                міжрегіонального масштабування
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">після навчання*</i>
+										</td>
+										<td>
+											<i class="check">після 6 міс.**</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="Співпраця з місцевими клубами, торгівельно-промисловою палатою і т.ін." colspan="2">
+											Участь у
+                                інтеграційних заходах з місцевим бізнесом
+										</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="Співпраця з місцевими клубами, торгівельно-промисловою палатою і т.ін.">
+											Участь у інтеграційних заходах з
+                                місцевим бізнесом
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">після навчання*</i>
+										</td>
+										<td>
+											<i class="check">після 6 міс.**</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="Офіси, склади, логістика, інша інфраструктура" colspan="2">Доступ до
+                                спільної бізнес-інфраструктури</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="Офіси, склади, логістика, інша інфраструктура">Доступ до спільної бізнес-інфраструктури</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">після навчання*</i>
+										</td>
+										<td>
+											<i class="check">після 6 міс.**</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="Вирішення проблем, які виникли у бізнеса, шляхом реалізації його внутрішнього потенціалу" colspan="2">Індивідуальний коучінг та консультації</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="Вирішення проблем, які виникли у бізнеса, шляхом реалізації його внутрішнього потенціалу">Індивідуальний коучінг та консультації</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" colspan="2">Участь у закритих стратегічних нарадах</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td>Участь у закритих стратегічних нарадах</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" colspan="2">Можливість лідерських ролей у спільноті</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td>Можливість лідерських ролей у спільноті</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">після 6 міс.**</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" colspan="2">Індивідуальний клубний супровід</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td>Індивідуальний клубний супровід</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" colspan="2">Участь у закритих візитах/делегаціях</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td>Участь у закритих візитах/делегаціях</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" colspan="2">Створення власних бізнес-клубів в межах спільноти</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td>Створення власних бізнес-клубів в межах спільноти</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" colspan="2">Повна підтримка PR і просування</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td>Повна підтримка PR і просування</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="Втілення Agile-процесів на всіх рівнях бізнесу: від філософії, культури та цінностей, до розробки продукту, маркетингу та системи продажів. Також робота над підвищенням конкурентоздатності підприємства та вчасна реакція на зміну коньюнктури. Використовування індикаторів, які дозволяють активно впливати на збереження здорового стану всіх процесів. Концентрація на створенні цінності для клієта та всіх стейкхолдерів. Зосередитись на важливому та видалити з процесів все неважливе." colspan="2">Індивідуальний супровід у Agile-трансформації включно з навчанням персоналу</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="Втілення Agile-процесів на всіх рівнях бізнесу: від філософії, культури та цінностей, до розробки продукту, маркетингу та системи продажів. Також робота над підвищенням конкурентоздатності підприємства та вчасна реакція на зміну коньюнктури. Використовування індикаторів, які дозволяють активно впливати на збереження здорового стану всіх процесів. Концентрація на створенні цінності для клієта та всіх стейкхолдерів. Зосередитись на важливому та видалити з процесів все неважливе.">Індивідуальний супровід у Agile-трансформації включно з навчанням персоналу</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="Це мистецтво уникати зайвого. Витрачати ресурси на те, що є дійсно важливим. Впровадження культури безперервного покращення процесів. Аналіз виробничого та інформаційного потоку з метою виявлення та усунення всіх елементів, які не додають вартості, а лише подовжують процеси та збільшують собівартість виробленого продукту. Також створення сбалансованих процесів та здорового середовища на підприємстві." colspan="2">Втілення на підприємстві Lean-процесів</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="Це мистецтво уникати зайвого. Витрачати ресурси на те, що є дійсно важливим. Впровадження культури безперервного покращення процесів. Аналіз виробничого та інформаційного потоку з метою виявлення та усунення всіх елементів, які не додають вартості, а лише подовжують процеси та збільшують собівартість виробленого продукту. Також створення сбалансованих процесів та здорового середовища на підприємстві.">Втілення на підприємстві Lean-процесів</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td class="levels-table__description" data-tooltip="Розуміння своїх цільових сегментів, цінності, яка для них створюється, каналів комунікації, алаліз власних компетенцій та можливостей, необхідності залучення партнерів та розуміння витрат та каналів грошових надходжень. Також сюди входить аналіз існуючого патерну та вибір оптимального." colspan="2">Створення або аланіз та вдосконалення бізнес-моделі</td>
+										<td class="levels-table__description--after" colspan="3"></td>
+									</tr>
+									<tr class="compare-row">
+										<td data-tooltip="Розуміння своїх цільових сегментів, цінності, яка для них створюється, каналів комунікації, алаліз власних компетенцій та можливостей, необхідності залучення партнерів та розуміння витрат та каналів грошових надходжень. Також сюди входить аналіз існуючого патерну та вибір оптимального.">Створення або аланіз та вдосконалення бізнес-моделі</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<span>–</span>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+										<td>
+											<i class="check">✔</i>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+									</tr>
+									<tr>
+										<td></td>
+										<td>
+											<a href="" class="price-buy">Приєднатися</a>
+										</td>
+										<td>
+											<a href="" class="price-buy">Приєднатися</a>
+										</td>
+										<td>
+											<a href="" class="price-buy">Приєднатися</a>
+										</td>
+										<td>
+											<a href="" class="price-buy">Приєднатися</a>
+										</td>
+										<td>
+											<a href="" class="price-buy">Приєднатися</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container"></div>
+			</footer>
+		</div>
+	</body>
+</html>
