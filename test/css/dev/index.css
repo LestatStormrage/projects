@@ -107,7 +107,7 @@ body {
 }
 .page__test {
   opacity: 0;
-  transition: all 0.3s;
+  transition: all 2s;
 }
 .page__test.--watcher-view {
   opacity: 1;
