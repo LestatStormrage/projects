@@ -221,19 +221,16 @@ function darkliteInit() {
     console.log(timeFrom);
     userTheme = getHours() >= timeFrom && getHours() <= timeTo ? "dark" : "light";
   } else {
-    if (window.matchMedia) {
-      userTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-    }
-    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
-      !saveUserTheme ? changeTheme() : null;
-    });
+    userTheme = "dark";
   }
   const themeButton = document.querySelector("[data-fls-darklite-set]");
   const resetButton = document.querySelector("[data-fls-darklite-reset]");
-  if (themeButton) {
+  if (themeButton && !themeButton.dataset.listenerAttached) {
     themeButton.addEventListener("click", function(e) {
       changeTheme(true);
+      console.log("Theme switcher clicked");
     });
+    themeButton.dataset.listenerAttached = "true";
   }
   if (resetButton) {
     resetButton.addEventListener("click", function(e) {
@@ -241,20 +238,16 @@ function darkliteInit() {
     });
   }
   function setThemeClass() {
-    htmlBlock.setAttribute(`data-fls-darklite-${saveUserTheme ? saveUserTheme : userTheme}`, "");
+    const themeClass = `fls-darklite-${saveUserTheme ? saveUserTheme : userTheme}`;
+    htmlBlock.classList.add(themeClass);
   }
   setThemeClass();
   function changeTheme(saveTheme = false) {
-    let currentTheme = htmlBlock.hasAttribute("data-fls-darklite-light") ? "light" : "dark";
-    let newTheme;
-    if (currentTheme === "light") {
-      newTheme = "dark";
-    } else if (currentTheme === "dark") {
-      newTheme = "light";
-    }
-    htmlBlock.removeAttribute(`data-fls-darklite-${currentTheme}`);
-    htmlBlock.setAttribute(`data-fls-darklite-${newTheme}`, "");
-    saveTheme ? localStorage.setItem("fls-user-theme", newTheme) : null;
+    let currentTheme = htmlBlock.classList.contains("fls-darklite-light") ? "light" : "dark";
+    let newTheme = currentTheme === "light" ? "dark" : "light";
+    htmlBlock.classList.remove(`fls-darklite-${currentTheme}`);
+    htmlBlock.classList.add(`fls-darklite-${newTheme}`);
+    if (saveTheme) localStorage.setItem("fls-user-theme", newTheme);
   }
 }
-document.querySelector("[data-fls-darklite]") ? window.addEventListener("load", darkliteInit) : null;
+document.querySelector("[data-fls-darklite]") ? window.addEventListener("DOMContentLoaded", darkliteInit) : null;
