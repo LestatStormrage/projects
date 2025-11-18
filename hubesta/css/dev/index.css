@@ -187,15 +187,14 @@ html {
   display: flex;
   align-items: center;
 }
+.services__container > * {
+  flex: 1 1 0.625rem;
+}
 .services__body {
-  min-width: 21.875rem;
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
   align-items: start;
-}
-.services__body > * {
-  flex: 1 1 0.625rem;
 }
 .services__cards {
   columns: 2 15.625rem;
@@ -404,6 +403,14 @@ html {
   }
   .mission__text {
     padding-left: clamp( 6.25e-8rem , -0.68181809659375rem  +  3.4090907955vw , 1.875rem );
+  }
+}
+@media (min-width: 47.99875em) {
+  .services__body {
+    flex: 1 1 40%;
+  }
+  .services__cards {
+    flex: 1 1 60%;
   }
 }
 @media (min-width: 61.99875em) {
