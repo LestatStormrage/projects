@@ -1,0 +1,702 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Forever Young Kombucha</title>
+		<script type="module" crossorigin="" src="./js/common.min.js?v=1765002922134"></script>
+		<script type="module" crossorigin="" src="./js/main.min.js?v=1765002922134"></script>
+		<script type="module" crossorigin="" src="./js/scrollto.min.js?v=1765002922134"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1765002922134">
+		<link rel="stylesheet" crossorigin="" href="./css/scrollto.min.css?v=1765002922134">
+		<link rel="stylesheet" crossorigin="" href="./css/fyk.min.css?v=1765002922134">
+		<link rel="stylesheet" crossorigin="" href="./css/button.min.css?v=1765002922134">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<a class="header__logo" href="index">
+						<img src="./assets/img/logo.svg" alt="logo">
+					</a>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="lorem" class="menu__link">lorem</a>
+								</li>
+								<li class="menu__item">
+									<a href="fyk" class="menu__link menu__link--active">fyk</a>
+								</li>
+								<li class="menu__item">
+									<a href="yogoda" class="menu__link">yogoda</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+				</div>
+			</header>
+			<main class="page page--fyk">
+				<section class="page__hero hero">
+					<div class="hero__container">
+						<figure class="hero__picture">
+							<img class="hero__image" alt="banner" src="./assets/img/fyk/banner.webp">
+						</figure>
+						<div class="hero__body">
+							<h1 class="hero__title title title--medium">Kombucha</h1>
+							<div class="hero__text text">
+								Ein legendäres Teegespräch aus dem alten Orient. SCOBY, eine symbiotische Kultur aus Hefen und nützlichen
+                    Bakterien, fermentiert aromatischen Tee und erzeugt ein köstliches und natürlich heilendes sprudelndes Getränk. Im alten Japan
+                    wurde Kombucha als „Tee der Unsterblichkeit“ bezeichnet. In Korea wird er seit jeher für verjüngende Schönheitsbehandlungen
+                    verwendet, und in China war es das Getränk der Kaiser.
+							</div>
+							<a href="#" data-fls-button="" data-fls-scrollto=".products" class="hero__button button button--blue">View all</a>
+						</div>
+					</div>
+				</section>
+				<section class="page__products products">
+					<div class="products__container">
+						<h2 class="products__title"></h2>
+						<div class="products__list">
+							<article data-fls-product="" class="product product--blue products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/fyk/products/jasmine-01.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Jasmine</h4>
+										<!-- <div class="product__descrioption text">Lorem ipsum dolor sit amet.</div> -->
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/fyk/products/jasmine-01.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Jasmine</h3>
+											<div class="product-popup__description text">
+												<p>
+													Natürliche Zutaten: gefiltertes Wasser, konzentrierter Apfelsaft (20%), grüner Tee, Jasminblüten, Zucker,
+                                        Kombucha-Kultur.
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<div class="list-product-popup__title text">Nährwerte pro 100 ml:</div>
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Eiweiß - 0,0 g</li>
+													<li class="list-product-popup__item text">Fett - 0,0 g</li>
+													<li class="list-product-popup__item text">Kohlenhydrate - 4,0 g</li>
+													<li class="list-product-popup__item text">Zucker - 4,0 g</li>
+												</ul>
+											</div>
+											<div class="product-popup__description text">
+												<p>Glutenfrei und laktosefrei. Allergenfreies Produkt.</p>
+												<p>Gesättigte Fettsäuren &lt; 1,0 g</p>
+												<p>Energiewert (Kalorien): 67 kJ / 16 kcal</p>
+												<p>Empfohlene Lagertemperatur +6°C.</p>
+												<p>Nach dem Öffnen innerhalb von 48 Stunden verzehren.</p>
+												<p>
+													Bei Überempfindlichkeit gegen Säure verdünnt oder in kleinen Dosen
+                                        trinken.
+												</p>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+							<article data-fls-product="" class="product product--blue products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/fyk/products/matcha-01.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Matcha</h4>
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/fyk/products/matcha-01.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Matcha</h3>
+											<div class="product-popup__description text">
+												<p>
+													Zutaten: Aufguss aus grünem Tee (Wasser, grüner Tee), Apfelsaftkonzentrat, Matcha, Zucker, Kombucha-Kultur.
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<div class="list-product-popup__title text">Nährwerte pro 100 ml:</div>
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Eiweiß - 0,0 g</li>
+													<li class="list-product-popup__item text">Fett - 0,0 g</li>
+													<li class="list-product-popup__item text">Kohlenhydrate - 4,0 g</li>
+													<li class="list-product-popup__item text">Zucker - 4,0 g</li>
+												</ul>
+											</div>
+											<div class="product-popup__description text">
+												<p>Glutenfrei und laktosefrei. Allergenfreies Produkt.</p>
+												<p>Gesättigte Fettsäuren &lt; 1,0 g</p>
+												<p>Energiewert (Kalorien): 67 kJ / 16 kcal</p>
+												<p>Empfohlene Lagertemperatur +6°C.</p>
+												<p>Nach dem Öffnen innerhalb von 48 Stunden verzehren.</p>
+												<p>
+													Bei Überempfindlichkeit gegen Säure verdünnt oder in kleinen Dosen
+                                        trinken.
+												</p>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+							<article data-fls-product="" class="product product--blue products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/fyk/products/lemongrass-01.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Lemongrass</h4>
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/fyk/products/lemongrass-01.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Lemongrass</h3>
+											<div class="product-popup__description text">
+												<p>
+													Natürliche Zutaten: gefiltertes Wasser, konzentrierter Apfelsaft (20%), schwarzer Tee, Zitronengras, Zucker,
+                                        Kombucha-Kultur.
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<div class="list-product-popup__title text">Nährwerte pro 100 ml:</div>
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Eiweiß - 0,0 g</li>
+													<li class="list-product-popup__item text">Fett - 0,0 g</li>
+													<li class="list-product-popup__item text">Kohlenhydrate - 4,0 g</li>
+													<li class="list-product-popup__item text">Zucker - 4,0 g</li>
+												</ul>
+											</div>
+											<div class="product-popup__description text">
+												<p>Glutenfrei und laktosefrei. Allergenfreies Produkt.</p>
+												<p>Gesättigte Fettsäuren &lt; 1,0 g</p>
+												<p>Energiewert (Kalorien): 67 kJ / 16 kcal</p>
+												<p>Empfohlene Lagertemperatur +6°C.</p>
+												<p>Nach dem Öffnen innerhalb von 48 Stunden verzehren.</p>
+												<p>
+													Bei Überempfindlichkeit gegen Säure verdünnt oder in kleinen Dosen
+                                        trinken.
+												</p>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+							<article data-fls-product="" class="product product--blue products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/fyk/products/hibiscus-01.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Hibiscus</h4>
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/fyk/products/hibiscus-01.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Hibiscus</h3>
+											<div class="product-popup__description text">
+												<p>
+													Natürliche Zutaten: gefiltertes Wasser, konzentrierter Apfelsaft (20 %), schwarzer Tee, grüner Tee,
+                                        sudanesische Rosenblüten, Zucker, Kombucha-Kultur.
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<div class="list-product-popup__title text">Nährwerte pro 100 ml:</div>
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Eiweiß - 0,0 g</li>
+													<li class="list-product-popup__item text">Fett - 0,0 g</li>
+													<li class="list-product-popup__item text">Kohlenhydrate - 4,0 g</li>
+													<li class="list-product-popup__item text">Zucker - 4,0 g</li>
+												</ul>
+											</div>
+											<div class="product-popup__description text">
+												<p>Glutenfrei und laktosefrei. Allergenfreies Produkt.</p>
+												<p>Gesättigte Fettsäuren &lt; 1,0 g</p>
+												<p>Energiewert (Kalorien): 67 kJ / 16 kcal</p>
+												<p>Empfohlene Lagertemperatur +6°C.</p>
+												<p>Nach dem Öffnen innerhalb von 48 Stunden verzehren.</p>
+												<p>
+													Bei Überempfindlichkeit gegen Säure verdünnt oder in kleinen Dosen
+                                        trinken.
+												</p>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+							<article data-fls-product="" class="product product--blue products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/fyk/products/lavender-01.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Lavender</h4>
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/fyk/products/lavender-01.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Lavender</h3>
+											<div class="product-popup__description text">
+												<p>
+													Natürliche Zutaten: gefiltertes Wasser, konzentrierter Apfelsaft (20 %), grüner Tee, Clitoria-Blüten, schwarzer
+                                        Tee, Lavendelblüten, Zucker, Kombucha-Kultur.
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<div class="list-product-popup__title text">Nährwerte pro 100 ml:</div>
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Eiweiß - 0,0 g</li>
+													<li class="list-product-popup__item text">Fett - 0,0 g</li>
+													<li class="list-product-popup__item text">Kohlenhydrate - 4,0 g</li>
+													<li class="list-product-popup__item text">Zucker - 4,0 g</li>
+												</ul>
+											</div>
+											<div class="product-popup__description text">
+												<p>Glutenfrei und laktosefrei. Allergenfreies Produkt.</p>
+												<p>Gesättigte Fettsäuren &lt; 1,0 g</p>
+												<p>Energiewert (Kalorien): 67 kJ / 16 kcal</p>
+												<p>Empfohlene Lagertemperatur +6°C.</p>
+												<p>Nach dem Öffnen innerhalb von 48 Stunden verzehren.</p>
+												<p>
+													Bei Überempfindlichkeit gegen Säure verdünnt oder in kleinen Dosen
+                                        trinken.
+												</p>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+							<article data-fls-product="" class="product product--blue products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/fyk/products/passion-01.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Passion</h4>
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/fyk/products/passion-01.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Passion</h3>
+											<div class="product-popup__description text">
+												<p>
+													Natürliche Zutaten: gefiltertes Wasser, konzentrierter Apfelsaft (20 %), grüner Tee, Passionsfrucht, Zucker,
+                                        Zitronensaft, Kombucha-Kultur.
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<div class="list-product-popup__title text">Nährwerte pro 100 ml:</div>
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Eiweiß - 0,0 g</li>
+													<li class="list-product-popup__item text">Fett - 0,0 g</li>
+													<li class="list-product-popup__item text">Kohlenhydrate - 4,0 g</li>
+													<li class="list-product-popup__item text">Zucker - 4,0 g</li>
+												</ul>
+											</div>
+											<div class="product-popup__description text">
+												<p>Glutenfrei und laktosefrei. Allergenfreies Produkt.</p>
+												<p>Gesättigte Fettsäuren &lt; 1,0 g</p>
+												<p>Energiewert (Kalorien): 67 kJ / 16 kcal</p>
+												<p>Empfohlene Lagertemperatur +6°C.</p>
+												<p>Nach dem Öffnen innerhalb von 48 Stunden verzehren.</p>
+												<p>
+													Bei Überempfindlichkeit gegen Säure verdünnt oder in kleinen Dosen
+                                        trinken.
+												</p>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+							<article data-fls-product="" class="product product--blue products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/fyk/products/ginger-01.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Ginger</h4>
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/fyk/products/ginger-01.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Ginger</h3>
+											<div class="product-popup__description text">
+												<p>
+													Natürliche Zutaten: gefiltertes Wasser, konzentrierter Apfelsaft (20 %), grüner Tee, Ingwer,
+                                        Kurkuma-Konzentrat, Zucker, Zitronensaft, Kombucha-Kultur.
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<div class="list-product-popup__title text">Nährwerte pro 100 ml:</div>
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Eiweiß - 0,0 g</li>
+													<li class="list-product-popup__item text">Fett - 0,0 g</li>
+													<li class="list-product-popup__item text">Kohlenhydrate - 4,0 g</li>
+													<li class="list-product-popup__item text">Zucker - 4,0 g</li>
+												</ul>
+											</div>
+											<div class="product-popup__description text">
+												<p>Glutenfrei und laktosefrei. Allergenfreies Produkt.</p>
+												<p>Gesättigte Fettsäuren &lt; 1,0 g</p>
+												<p>Energiewert (Kalorien): 67 kJ / 16 kcal</p>
+												<p>Empfohlene Lagertemperatur +6°C.</p>
+												<p>Nach dem Öffnen innerhalb von 48 Stunden verzehren.</p>
+												<p>
+													Bei Überempfindlichkeit gegen Säure verdünnt oder in kleinen Dosen
+                                        trinken.
+												</p>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+							<article data-fls-product="" class="product product--blue products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/fyk/products/kiwi-01.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Kiwi</h4>
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/fyk/products/kiwi-01.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Kiwi</h3>
+											<div class="product-popup__description text">
+												<p>
+													Natürliche Zutaten: gefiltertes Wasser, konzentrierter Apfelsaft (20 %), grüner Tee, Kiwi, Minze, Zucker,
+                                        Zitronensaft, Kombucha-Kultur.
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<div class="list-product-popup__title text">Nährwerte pro 100 ml:</div>
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Eiweiß - 0,0 g</li>
+													<li class="list-product-popup__item text">Fett - 0,0 g</li>
+													<li class="list-product-popup__item text">Kohlenhydrate - 4,0 g</li>
+													<li class="list-product-popup__item text">Zucker - 4,0 g</li>
+												</ul>
+											</div>
+											<div class="product-popup__description text">
+												<p>Glutenfrei und laktosefrei. Allergenfreies Produkt.</p>
+												<p>Gesättigte Fettsäuren &lt; 1,0 g</p>
+												<p>Energiewert (Kalorien): 67 kJ / 16 kcal</p>
+												<p>Empfohlene Lagertemperatur +6°C.</p>
+												<p>Nach dem Öffnen innerhalb von 48 Stunden verzehren.</p>
+												<p>
+													Bei Überempfindlichkeit gegen Säure verdünnt oder in kleinen Dosen
+                                        trinken.
+												</p>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+							<article data-fls-product="" class="product product--blue products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/fyk/products/milk-oolong-01.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Milk Oolong</h4>
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/fyk/products/milk-oolong-01.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Milk Oolong</h3>
+											<div class="product-popup__description text">
+												<p>
+													Natürliche Zutaten: gefiltertes Wasser, konzentrierter Apfelsaft (20 %), grüner Tee (Milch-Oolong), Zucker,
+                                        Kombucha-Kultur.
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<div class="list-product-popup__title text">Nährwerte pro 100 ml:</div>
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Eiweiß - 0,0 g</li>
+													<li class="list-product-popup__item text">Fett - 0,0 g</li>
+													<li class="list-product-popup__item text">Kohlenhydrate - 4,0 g</li>
+													<li class="list-product-popup__item text">Zucker - 4,0 g</li>
+												</ul>
+											</div>
+											<div class="product-popup__description text">
+												<p>Glutenfrei und laktosefrei. Allergenfreies Produkt.</p>
+												<p>Gesättigte Fettsäuren &lt; 1,0 g</p>
+												<p>Energiewert (Kalorien): 67 kJ / 16 kcal</p>
+												<p>Empfohlene Lagertemperatur +6°C.</p>
+												<p>Nach dem Öffnen innerhalb von 48 Stunden verzehren.</p>
+												<p>
+													Bei Überempfindlichkeit gegen Säure verdünnt oder in kleinen Dosen
+                                        trinken.
+												</p>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+							<article data-fls-product="" class="product product--blue products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/fyk/products/classic-green-01.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Classic Green</h4>
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/fyk/products/classic-green-01.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Classic Green</h3>
+											<div class="product-popup__description text">
+												<p>
+													Natürliche Zutaten: gefiltertes Wasser, konzentrierter Apfelsaft (20 %), grüner Tee, Zucker, Kombucha-Kultur.
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<div class="list-product-popup__title text">Nährwerte pro 100 ml:</div>
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Eiweiß - 0,0 g</li>
+													<li class="list-product-popup__item text">Fett - 0,0 g</li>
+													<li class="list-product-popup__item text">Kohlenhydrate - 4,0 g</li>
+													<li class="list-product-popup__item text">Zucker - 4,0 g</li>
+												</ul>
+											</div>
+											<div class="product-popup__description text">
+												<p>Glutenfrei und laktosefrei. Allergenfreies Produkt.</p>
+												<p>Gesättigte Fettsäuren &lt; 1,0 g</p>
+												<p>Energiewert (Kalorien): 67 kJ / 16 kcal</p>
+												<p>Empfohlene Lagertemperatur +6°C.</p>
+												<p>Nach dem Öffnen innerhalb von 48 Stunden verzehren.</p>
+												<p>
+													Bei Überempfindlichkeit gegen Säure verdünnt oder in kleinen Dosen
+                                        trinken.
+												</p>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+							<article data-fls-product="" class="product product--blue products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/fyk/products/classic-black-01.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Classic Black</h4>
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/fyk/products/classic-black-01.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Classic Black</h3>
+											<div class="product-popup__description text">
+												<p>
+													Natürliche Zutaten: gefiltertes Wasser, konzentrierter Apfelsaft (20 %), schwarzer Tee, Zucker,
+                                        Kombucha-Kultur.
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<div class="list-product-popup__title text">Nährwerte pro 100 ml:</div>
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Eiweiß - 0,0 g</li>
+													<li class="list-product-popup__item text">Fett - 0,0 g</li>
+													<li class="list-product-popup__item text">Kohlenhydrate - 4,0 g</li>
+													<li class="list-product-popup__item text">Zucker - 4,0 g</li>
+												</ul>
+											</div>
+											<div class="product-popup__description text">
+												<p>Glutenfrei und laktosefrei. Allergenfreies Produkt.</p>
+												<p>Gesättigte Fettsäuren &lt; 1,0 g</p>
+												<p>Energiewert (Kalorien): 67 kJ / 16 kcal</p>
+												<p>Empfohlene Lagertemperatur +6°C.</p>
+												<p>Nach dem Öffnen innerhalb von 48 Stunden verzehren.</p>
+												<p>
+													Bei Überempfindlichkeit gegen Säure verdünnt oder in kleinen Dosen
+                                        trinken.
+												</p>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+							<article data-fls-product="" class="product product--blue products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/fyk/products/yuzu-01.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Yuzu</h4>
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/fyk/products/yuzu-01.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Yuzu</h3>
+											<div class="product-popup__description text">
+												<p>
+													Natürliche Zutaten: gefiltertes Wasser, konzentrierter Apfelsaft (20 %), grüner Tee, Yuzu-Saft, Zucker, Kombucha-Kultur.
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<div class="list-product-popup__title text">Nährwerte pro 100 ml:</div>
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Eiweiß - 0,0 g</li>
+													<li class="list-product-popup__item text">Fett - 0,0 g</li>
+													<li class="list-product-popup__item text">Kohlenhydrate - 4,0 g</li>
+													<li class="list-product-popup__item text">Zucker - 4,0 g</li>
+												</ul>
+											</div>
+											<div class="product-popup__description text">
+												<p>Glutenfrei und laktosefrei. Allergenfreies Produkt.</p>
+												<p>Gesättigte Fettsäuren &lt; 1,0 g</p>
+												<p>Energiewert (Kalorien): 67 kJ / 16 kcal</p>
+												<p>Empfohlene Lagertemperatur +6°C.</p>
+												<p>Nach dem Öffnen innerhalb von 48 Stunden verzehren.</p>
+												<p>
+													Bei Überempfindlichkeit gegen Säure verdünnt oder in kleinen Dosen
+                                        trinken.
+												</p>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container"></div>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -18,6 +18,10 @@ html {
   --colorPink-subtle: rgba(240, 152, 193, 0.6);
   --colorPink-muted: rgba(240, 152, 193, 0.15);
   --colorPink-hint: rgba(240, 152, 193, 0.05);
+  --colorYellow: #ffcc00;
+  --colorYellow-subtle: rgba(255, 204, 0, 0.6);
+  --colorYellow-muted: rgba(255, 204, 0, 0.15);
+  --colorYellow-hint: rgba(255, 204, 0, 0.05);
   --colorBG: #0d0d11;
   --colorBG-subtle: rgba(13, 13, 17, 0.8);
   --colorBGSecondary: #19191d;
