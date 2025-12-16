@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Totem Superfood</title>
+		<script type="module" crossorigin="" src="./js/common.min.js?v=1765844166493"></script>
+		<script type="module" crossorigin="" src="./js/main.min.js?v=1765844166493"></script>
+		<script type="module" crossorigin="" src="./js/scrollto.min.js?v=1765844166493"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1765844166493">
+		<link rel="stylesheet" crossorigin="" href="./css/scrollto.min.css?v=1765844166493">
+		<link rel="stylesheet" crossorigin="" href="./css/totem-superfood.min.css?v=1765844166493">
+		<link rel="stylesheet" crossorigin="" href="./css/button.min.css?v=1765844166493">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<img class="header__logo" src="./assets/img/logo.svg" alt="logo">
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="index" class="menu__link">Home</a>
+								</li>
+								<li class="menu__item">
+									<a href="office" class="menu__link">Bürobetreuung</a>
+								</li>
+								<li class="menu__item">
+									<a href="distribution-services" class="menu__link">Distribution Services</a>
+								</li>
+								<li class="menu__item">
+									<a href="fyk" class="menu__link">FYK</a>
+								</li>
+								<li class="menu__item">
+									<a href="yogoda" class="menu__link">Yogoda</a>
+								</li>
+								<li class="menu__item">
+									<a href="totem-superfood" class="menu__link">Totem Superfood</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+				</div>
+			</header>
+			<main class="page page--totem-superfood">
+				<section class="page__hero hero">
+					<div class="hero__container">
+						<figure class="hero__picture">
+							<img class="hero__image" alt="Image" src="./assets/img/totem-superfood/banner.webp">
+						</figure>
+						<div class="hero__body">
+							<h1 class="hero__title title title--medium">Totem Superfood</h1>
+							<div class="hero__text text">
+								Unsere Smoothies sind mit kraftvollen Superfoods angereichert, die ihren Nährwert und ihre
+                    gesundheitlichen Vorteile erheblich steigern. Jede Zutat wird sorgfältig ausgewählt, um das allgemeine Wohlbefinden zu fördern,
+                    die Körperfunktionen zu verbessern und die Vitalität zu steigern.
+							</div>
+							<a href="#" data-fls-button="" data-fls-scrollto=".products" class="hero__button button button--green">View all</a>
+						</div>
+					</div>
+				</section>
+				<section class="page__products products">
+					<div class="products__container">
+						<h2 class="products__title"></h2>
+						<div class="products__list">
+							<article data-fls-product="" class="product product--green products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/totem-superfood/products/1.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Kurkuma-Smoothie</h4>
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/totem-superfood/products/1.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Kurkuma-Smoothie</h3>
+											<div class="product-popup__description text">
+												<p>
+													Kurkuma ist weithin bekannt für seine entzündungshemmenden und antioxidativen Eigenschaften und eine
+                                        hervorragende Ergänzung zu einer gesunden Ernährung. Es wird angenommen, dass es:
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Hilft, Alzheimer vorzubeugen.</li>
+													<li class="list-product-popup__item text">Arthritis-Symptome lindert und die Gelenkgesundheit unterstützt.</li>
+													<li class="list-product-popup__item text">
+														Das geistige Wohlbefinden verbessert, indem es Symptome von
+                                            Depressionen reduziert.
+													</li>
+													<li class="list-product-popup__item text">
+														Den Alterungsprozess verlangsamt, indem es Zellen vor oxidativem
+                                            Stress schützt.
+													</li>
+													<li class="list-product-popup__item text">
+														Eine Rolle bei der Krebsprävention spielt, dank seiner aktiven
+                                            Verbindungen.
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+							<article data-fls-product="" class="product product--green products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/totem-superfood/products/2.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Açaí-Smoothie</h4>
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/totem-superfood/products/2.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Açaí-Smoothie</h3>
+											<div class="product-popup__description text">
+												<p>
+													„Açaí“ ist ein exquisiter Cocktail, der die frischen Noten von Erdbeere, Himbeere und Banane mit Haferflocken
+                                        und Chiasamen kombiniert. Açaí-Beeren verleihen dem Getränk antioxidative Eigenschaften, die das Immunsystem
+                                        stärken, die Herzgesundheit fördern und die kognitiven Funktionen verbessern.
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<div class="list-product-popup__title text">Zutaten:</div>
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Erdbeere</li>
+													<li class="list-product-popup__item text">Himbeere</li>
+													<li class="list-product-popup__item text">Haferflocken</li>
+													<li class="list-product-popup__item text">Banane</li>
+													<li class="list-product-popup__item text">Chiasamen</li>
+													<li class="list-product-popup__item text">Açaí-Beeren</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+							<article data-fls-product="" class="product product--green products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/totem-superfood/products/3.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Spirulina-Smoothie</h4>
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/totem-superfood/products/3.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Spirulina-Smoothie</h3>
+											<div class="product-popup__description text">
+												<p>
+													„Spirulina“ ist eine harmonische Mischung aus Spinat, Banane und Apfel, ergänzt durch die Süße von Datteln und
+                                        die einzigartigen Eigenschaften von Spirulina. Dieses Getränk ist reich an Nährstoffen und fördert die
+                                        Verdauung, Entgiftung und ein gesundes Körpergewicht.
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<div class="list-product-popup__title text">Zutaten:</div>
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Spinat</li>
+													<li class="list-product-popup__item text">Banane</li>
+													<li class="list-product-popup__item text">Apfel</li>
+													<li class="list-product-popup__item text">Datteln</li>
+													<li class="list-product-popup__item text">Spirulina</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+							<article data-fls-product="" class="product product--green products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/totem-superfood/products/4.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Hanf-Sturm Smoothie</h4>
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/totem-superfood/products/4.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Hanf-Sturm Smoothie</h3>
+											<div class="product-popup__description text">
+												<p>
+													„Hanf-Sturm“ ist ein nahrhafter Cocktail, in dem Himbeere, Blaubeere und Banane mit gesunden Hanfsamen,
+                                        Chiasamen und Haferflocken kombiniert werden. Hanfsamen, reich an Eiweiß und Fettsäuren, helfen, das
+                                        Immunsystem zu stärken, die Herzgesundheit zu unterstützen und die Haut zu verbessern.
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<div class="list-product-popup__title text">Zutaten:</div>
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Himbeere</li>
+													<li class="list-product-popup__item text">Blaubeere</li>
+													<li class="list-product-popup__item text">Geschälte Hanfsamen</li>
+													<li class="list-product-popup__item text">Chiasamen</li>
+													<li class="list-product-popup__item text">Banane</li>
+													<li class="list-product-popup__item text">Haferflocken</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+							<article data-fls-product="" class="product product--green products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/totem-superfood/products/5.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Mega Detox</h4>
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/totem-superfood/products/5.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Mega Detox</h3>
+											<div class="product-popup__description text">
+												<p>
+													„Mega Detox“ ist ein kraftvoller Cocktail zur intensiven Reinigung des Körpers. Sellerie und Spinat, bekannt
+                                        für ihre entgiftenden Eigenschaften, werden mit Apfel und Banane kombiniert, um dem Getränk eine angenehme
+                                        Süße zu verleihen.
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<div class="list-product-popup__title text">Zutaten:</div>
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Orange</li>
+													<li class="list-product-popup__item text">Ananas</li>
+													<li class="list-product-popup__item text">Kurkuma</li>
+													<li class="list-product-popup__item text">Zimt</li>
+													<li class="list-product-popup__item text">Chiasamen</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+							<article data-fls-product="" class="product product--green products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/totem-superfood/products/6.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Green Detox</h4>
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/totem-superfood/products/6.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Green Detox</h3>
+											<div class="product-popup__description text">
+												<p>
+													„Green Detox“ ist ein nahrhafter und ausgewogener Cocktail, der hilft, den Vorrat an Vitaminen und
+                                        Mineralstoffen wieder aufzufüllen. Banane und Orange verleihen dem Getränk eine angenehme Süße und Frische.
+                                        Spinat, reich an Eisen und anderen Nährstoffen, fördert die Gesundheit. Kürbiskerne und Chlorella, reich an
+                                        Eiweiß und Antioxidantien, unterstützen Wohlbefinden und Vitalität.
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<div class="list-product-popup__title text">Zutaten:</div>
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Banane</li>
+													<li class="list-product-popup__item text">Orange</li>
+													<li class="list-product-popup__item text">Spinat</li>
+													<li class="list-product-popup__item text">Kürbiskerne</li>
+													<li class="list-product-popup__item text">Chlorella</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+							<article data-fls-product="" class="product product--green products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/totem-superfood/products/7.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Refreshing Detox</h4>
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/totem-superfood/products/7.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Refreshing Detox</h3>
+											<div class="product-popup__description text">
+												<p>
+													„Refreshing Detox“ ist ein leichtes und belebendes Getränk, das hilft, neue Energie zu tanken. Sellerie und
+                                        Petersilie mit ihren harntreibenden Eigenschaften helfen, überschüssige Flüssigkeit aus dem Körper zu
+                                        entfernen. Kiwi und Apfel verleihen dem Getränk eine angenehme Säure und Frische. Chlorella und Chiasamen,
+                                        reich an Nährstoffen, fördern Gesundheit und Wohlbefinden.
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<div class="list-product-popup__title text">Zutaten:</div>
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Sellerie</li>
+													<li class="list-product-popup__item text">Kiwi</li>
+													<li class="list-product-popup__item text">Apfel</li>
+													<li class="list-product-popup__item text">Petersilie</li>
+													<li class="list-product-popup__item text">Chlorella</li>
+													<li class="list-product-popup__item text">Chiasamen</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+							<article data-fls-product="" class="product product--green products__item">
+								<button class="product__body">
+									<figure class="product__picture">
+										<img class="product__image" alt="product" src="./assets/img/totem-superfood/products/8.webp">
+									</figure>
+									<div class="product__content">
+										<h4 class="product__title title title--small">Energy Detox</h4>
+									</div>
+								</button>
+								<div class="product__popup product-popup">
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+									<div class="product-popup__container">
+										<figure class="product-popup__picture">
+											<img class="product-popup__image" alt="product" src="./assets/img/totem-superfood/products/8.webp">
+										</figure>
+										<div class="product-popup__content">
+											<h3 class="product-popup__title title title--small">Energy Detox</h3>
+											<div class="product-popup__description text">
+												<p>
+													„Energy Detox“ ist ein helles und aromatisches Getränk, das Ihnen Energie für den ganzen Tag verleiht. Orange
+                                        und Ananas, reich an Vitamin C, stärken das Immunsystem und steigern die Vitalität. Kurkuma und Zimt, bekannt
+                                        für ihre entzündungshemmenden Eigenschaften, helfen, den Körper zu reinigen und den Stoffwechsel zu
+                                        verbessern. Chiasamen, reich an Ballaststoffen, sorgen für ein langanhaltendes Sättigungsgefühl.
+												</p>
+											</div>
+											<div class="product-popup__list list-product-popup">
+												<div class="list-product-popup__title text">Zutaten:</div>
+												<ul class="list-product-popup__body">
+													<li class="list-product-popup__item text">Orange</li>
+													<li class="list-product-popup__item text">Ananas</li>
+													<li class="list-product-popup__item text">Kurkuma</li>
+													<li class="list-product-popup__item text">Zimt</li>
+													<li class="list-product-popup__item text">Chiasamen</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<button class="product-popup__close">
+										<span>✖</span>
+									</button>
+								</div>
+							</article>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container"></div>
+			</footer>
+		</div>
+	</body>
+</html>

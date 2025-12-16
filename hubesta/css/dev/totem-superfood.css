@@ -37,8 +37,8 @@ html {
 }
 .hero__container {
   padding-inline: 2.5rem;
-  background-color: var(--colorYellow-hint);
-  border: 0.0625rem solid var(--colorYellow-muted);
+  background-color: var(--colorGreen-hint);
+  border: 0.0625rem solid var(--colorGreen-muted);
   display: flex;
 }
 .hero__container {
@@ -47,7 +47,7 @@ html {
 .hero__image {
   aspect-ratio: 1/1;
   object-fit: cover;
-  object-position: 50% 50%;
+  object-position: 80% 50%;
   border-radius: 0 30% 0 30%;
 }
 .hero__body {
@@ -76,7 +76,7 @@ html {
   }
 }
 @media (width <= 20em) {
-  .page--fyk {
+  .page--totem-superfood {
     padding-top: 6.25rem;
   }
   .page__hero {
@@ -102,7 +102,7 @@ html {
   }
 }
 @media (width > 20em) and (width <= 75em) {
-  .page--fyk {
+  .page--totem-superfood {
     padding-top: clamp( 6.25rem , 3.977272727275rem  +  11.3636363636vw , 12.5rem );
   }
   .page__hero {
@@ -136,7 +136,7 @@ html {
   }
 }
 @media (width > 75em) {
-  .page--fyk {
+  .page--totem-superfood {
     padding-top: 12.5rem;
   }
   .page__hero {

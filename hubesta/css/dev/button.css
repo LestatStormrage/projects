@@ -65,6 +65,13 @@ html {
 .button--orange:active {
   background-color: var(--colorBG);
 }
+.button--yellow {
+  background-color: var(--colorYellow);
+  border: 0.0625rem solid var(--colorYellow);
+}
+.button--yellow:active {
+  background-color: var(--colorBG);
+}
 .button--pink {
   background-color: var(--colorPink);
   border: 0.0625rem solid var(--colorPink);
@@ -86,6 +93,10 @@ html {
   }
   .button--orange:hover {
     background-color: var(--colorOrange-subtle);
+    border: 0.0625rem solid var(--buttonColorActive);
+  }
+  .button--yellow:hover {
+    background-color: var(--colorYellow-subtle);
     border: 0.0625rem solid var(--buttonColorActive);
   }
   .button--pink:hover {
