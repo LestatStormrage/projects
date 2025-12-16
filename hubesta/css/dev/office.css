@@ -185,7 +185,10 @@ html {
     width: 2.1875rem;
   }
   .item-office-services__body {
-    padding: 0.9375rem;
+    padding-block: 1.875rem;
+  }
+  .item-office-services__body {
+    padding-inline: 1.25rem;
   }
   .item-office-services__body {
     gap: 0.625rem;
@@ -217,7 +220,10 @@ html {
     width: clamp( 2.1875rem , 0.72159090909375rem  +  7.3295454545vw , 6.21875rem );
   }
   .item-office-services__body {
-    padding: clamp( 0.9375rem , 0.14204545454375rem  +  3.9772727273vw , 3.125rem );
+    padding-block: clamp( 1.875rem , 1.42045454545625rem  +  2.2727272727vw , 3.125rem );
+  }
+  .item-office-services__body {
+    padding-inline: clamp( 1.25rem , 0.56818181818125rem  +  3.4090909091vw , 3.125rem );
   }
   .item-office-services__body {
     gap: clamp( 0.625rem , 0.5113636363625rem  +  0.5681818182vw , 0.9375rem );
@@ -254,7 +260,10 @@ html {
     width: 6.21875rem;
   }
   .item-office-services__body {
-    padding: 3.125rem;
+    padding-block: 3.125rem;
+  }
+  .item-office-services__body {
+    padding-inline: 3.125rem;
   }
   .item-office-services__body {
     gap: 0.9375rem;

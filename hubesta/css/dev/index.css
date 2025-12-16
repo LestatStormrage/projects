@@ -226,6 +226,7 @@ html {
   height: 0.375rem;
   background-color: #ffcc00;
   border-radius: 50%;
+  flex-shrink: 0;
 }
 .mission__text p:not(:last-child) {
   margin-bottom: 0.9375rem;

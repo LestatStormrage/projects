@@ -52,7 +52,7 @@ html {
 }
 .distribution-products__list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(31.25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
 .distribution-products__item {
   flex: 1 1 31.25rem;
@@ -99,6 +99,12 @@ html {
   }
   .item-distribution-services__title {
     text-align: center;
+  }
+  .distribution-products__list {
+    grid-template-columns: 1fr;
+  }
+  .item-distribution-products__picture {
+    min-height: 18.75rem;
   }
 }
 @media (width <= 20em) {
