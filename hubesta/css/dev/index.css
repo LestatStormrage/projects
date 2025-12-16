@@ -154,8 +154,8 @@ html {
   transition: all 0.3s;
 }
 .card-services:active {
-  background-color: var(--colorBG);
-  transform: scale(0.95);
+  background-color: var(--colorBG) !important;
+  transform: scale(0.95) !important;
 }
 .card-services__image-box {
   max-width: 20%;
