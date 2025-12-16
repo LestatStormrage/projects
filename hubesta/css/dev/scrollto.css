@@ -38,7 +38,7 @@ html {
   border: 0.125rem solid var(--colorOrange-muted);
 }
 .product--orange .product-popup__close:active {
-  background-color: var(--colorOrange-hint);
+  background-color: var(--colorOrange-hint) !important;
 }
 .product--blue .products__body:hover .product__content {
   background-color: var(--colorBlue-hint);
@@ -48,7 +48,7 @@ html {
   border: 0.125rem solid var(--colorBlue-muted);
 }
 .product--blue .product-popup__close:active {
-  background-color: var(--colorBlue-hint);
+  background-color: var(--colorBlue-hint) !important;
 }
 .product--green .products__body:hover .product__content {
   background-color: var(--colorGreen-hint);
@@ -58,7 +58,7 @@ html {
   border: 0.125rem solid var(--colorGreen-muted);
 }
 .product--green .product-popup__close:active {
-  background-color: var(--colorGreen-hint);
+  background-color: var(--colorGreen-hint) !important;
 }
 .product--yellow .products__body:hover .product__content {
   background-color: var(--colorYellow-hint);
@@ -68,7 +68,7 @@ html {
   border: 0.125rem solid var(--colorYellow-muted);
 }
 .product--yellow .product-popup__close:active {
-  background-color: var(--colorYellow-hint);
+  background-color: var(--colorYellow-hint) !important;
 }
 .product__body {
   overflow: visible;
@@ -84,8 +84,8 @@ html {
   border: 0.125rem solid var(--buttonColorActive);
 }
 .product__body:active {
-  background-color: var(--colorBG);
-  transform: scale(0.95);
+  background-color: var(--colorBG) !important;
+  transform: scale(0.95) !important;
 }
 .product__picture {
   transform: translateY(-3.75rem);
