@@ -155,7 +155,7 @@ html {
 }
 .card-services:active {
   background-color: var(--colorBG);
-  scale: 0.95;
+  transform: scale(0.95);
 }
 .card-services__image-box {
   max-width: 20%;
@@ -404,6 +404,6 @@ html {
   .card-services:hover {
     background-color: var(--colorBGSecondary-subtle);
     border: 0.125rem solid var(--buttonColorActive);
-    scale: 0.97;
+    transform: scale(0.97);
   }
 }

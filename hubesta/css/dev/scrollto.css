@@ -85,7 +85,7 @@ html {
 }
 .product__body:active {
   background-color: var(--colorBG);
-  scale: 0.95;
+  transform: scale(0.95);
 }
 .product__picture {
   transform: translateY(-3.75rem);
