@@ -34,15 +34,42 @@ html {
 .office-services__container {
   max-width: 85.625rem;
 }
+.office-services__header {
+  display: grid;
+  justify-items: center;
+}
 .office-services__title {
   text-align: center;
 }
-.office-services__description {
+.office-services__arrow {
+  position: relative;
+  background-color: var(--colorBGSecondary);
+  font-size: 1.125rem;
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  text-align: center;
+  align-content: center;
+}
+.office-services__arrow::before {
+  rotate: 180deg;
+  color: #fff;
+  animation: arrow-floating 2s infinite alternate linear;
+}
+.office-services__subtitle {
   text-align: center;
 }
 .office-services__body {
   display: flex;
   flex-direction: column;
+}
+@keyframes arrow-floating {
+  0% {
+    translate: 0 0;
+  }
+  100% {
+    translate: 0 0.3125rem;
+  }
 }
 .item-office-services {
   position: relative;
@@ -97,6 +124,9 @@ html {
 .item-office-services__text {
   line-height: 1.3;
 }
+.item-office-services__text p:not(:last-child) {
+  margin-bottom: 0.625rem;
+}
 .item-office-services__list {
   display: flex;
   flex-direction: column;
@@ -147,6 +177,9 @@ html {
   flex-shrink: 0;
 }
 @media (max-width: 61.99875em) {
+  .office-services__arrow {
+    display: none;
+  }
   .office-services__body {
     gap: 1.875rem;
   }
@@ -170,10 +203,10 @@ html {
     padding-block: 2.5rem;
   }
   .office-services__title {
-    margin-bottom: 1.25rem;
+    padding-bottom: 1.875rem;
   }
-  .office-services__description {
-    margin-bottom: 1.875rem;
+  .office-services__subtitle {
+    margin-bottom: 1.25rem;
   }
   .item-office-services:nth-child(even) {
     padding-right: 2.1875rem;
@@ -205,10 +238,10 @@ html {
     padding-block: clamp( 2.5rem , 1.1363636363625rem  +  6.8181818182vw , 6.25rem );
   }
   .office-services__title {
-    margin-bottom: clamp( 1.25rem , 0.79545454545625rem  +  2.2727272727vw , 2.5rem );
+    padding-bottom: clamp( 1.875rem , 1.42045454545625rem  +  2.2727272727vw , 3.125rem );
   }
-  .office-services__description {
-    margin-bottom: clamp( 1.875rem , 1.42045454545625rem  +  2.2727272727vw , 3.125rem );
+  .office-services__subtitle {
+    margin-bottom: clamp( 1.25rem , 0.79545454545625rem  +  2.2727272727vw , 2.5rem );
   }
   .item-office-services:nth-child(even) {
     padding-right: clamp( 2.1875rem , 0.72159090909375rem  +  7.3295454545vw , 6.21875rem );
@@ -245,10 +278,10 @@ html {
     padding-block: 6.25rem;
   }
   .office-services__title {
-    margin-bottom: 2.5rem;
+    padding-bottom: 3.125rem;
   }
-  .office-services__description {
-    margin-bottom: 3.125rem;
+  .office-services__subtitle {
+    margin-bottom: 2.5rem;
   }
   .item-office-services:nth-child(even) {
     padding-right: 6.21875rem;

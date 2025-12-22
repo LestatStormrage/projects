@@ -71,6 +71,17 @@ h6 {
 address {
 	font-style: normal;
 }
+@font-face { 
+	font-family: "iconfont"; 
+	font-display: swap;
+	src: url("../assets/fonts/iconfont.woff2?d153b3b6d6fd2bf22235b54105064234") format("woff2"); 
+} 
+[class*="--icon-"]::before{
+	font-family: iconfont; 
+}
+	[class*="--icon-arrow"]::before { 
+		content: "\f101"; 
+	} 
 
 html {
   --mainColor: #9c9c9c;
