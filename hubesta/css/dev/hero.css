@@ -39,13 +39,14 @@ html {
 }
 .hero__media {
   position: relative;
+  max-width: 32rem;
 }
 .hero__image {
   position: relative;
   z-index: 2;
 }
 .hero__image--cut {
-  border-radius: 50% 50% 50% 0rem;
+  border-radius: 50% 50% 0rem 50%;
 }
 .hero__decor {
   position: absolute;
@@ -53,6 +54,7 @@ html {
   bottom: -15%;
   right: -15%;
   opacity: 0.15;
+  max-width: 50%;
 }
 .hero__body {
   display: flex;
