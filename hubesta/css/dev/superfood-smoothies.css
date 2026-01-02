@@ -76,7 +76,7 @@ html {
   }
 }
 @media (width <= 20em) {
-  .page--superfood-smoothie {
+  .page--superfood-smoothies {
     padding-top: 6.25rem;
   }
   .page__hero {
@@ -102,7 +102,7 @@ html {
   }
 }
 @media (width > 20em) and (width <= 75em) {
-  .page--superfood-smoothie {
+  .page--superfood-smoothies {
     padding-top: clamp( 6.25rem , 3.977272727275rem  +  11.3636363636vw , 12.5rem );
   }
   .page__hero {
@@ -136,7 +136,7 @@ html {
   }
 }
 @media (width > 75em) {
-  .page--superfood-smoothie {
+  .page--superfood-smoothies {
     padding-top: 12.5rem;
   }
   .page__hero {
