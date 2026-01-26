@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Satoshi-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Satoshi-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Gambetta-LightItalic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Chillax-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Contact</title>
+		<script type="module" crossorigin="" src="./js/contact.min.js?v=1769396972589"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1769396972589">
+		<link rel="modulepreload" crossorigin="" href="./js/main.min.js?v=1769396972589">
+		<link rel="modulepreload" crossorigin="" href="./js/socialblocks.min.js?v=1769396972589">
+		<link rel="modulepreload" crossorigin="" href="./js/border.min.js?v=1769396972589">
+		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1769396972589">
+		<link rel="stylesheet" crossorigin="" href="./css/socialblocks.min.css?v=1769396972589">
+		<link rel="stylesheet" crossorigin="" href="./css/border.min.css?v=1769396972589">
+		<link rel="stylesheet" crossorigin="" href="./css/contact.min.css?v=1769396972589">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<div class="header__body">
+						<div class="header__logo">
+							<a href="index" class="header__logo-link">
+								<img class="header__logo-image" src="./assets/img/logo/logo.svg" alt="logo">
+							</a>
+						</div>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="services" class="menu__link">Services</a>
+									</li>
+									<li class="menu__item">
+										<a href="work" class="menu__link">Work</a>
+									</li>
+									<li class="menu__item">
+										<a href="about" class="menu__link">About</a>
+									</li>
+									<li class="menu__item">
+										<a href="blog" class="menu__link">Blog</a>
+									</li>
+									<li class="menu__item">
+										<a href="pricing" class="menu__link">Pricing</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+						<a href="contact" data-fls-button="" class="header__button button button--inverted">Let's talk</a>
+						<button type="button" data-fls-menu="" class="icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="page page--contact">
+				<article class="contact">
+					<div class="contact__container">
+						<figure class="contact__picture">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/arik-01-600.webp" type="image/webp">
+								<img class="contact__image" alt="Image" src="./assets/img/arik-01.webp">
+							</picture>
+						</figure>
+						<div class="contact__body">
+							<div data-fls-border="" class="contact__form form-contact">
+								<div class="form-contact__header">
+									<div class="form-contact__label">Contact</div>
+									<h1 class="form-contact__title">Let’s get in touch.</h1>
+								</div>
+								<form data-fls-form="ajax" data-fls-form-popup="popup" method="POST" action="/sendmail/index.php" class="form-contact__body">
+									<div class="form-contact__line">
+										<input data-fls-input="" data-fls-form-errtext="Name required" required type="text" name="name" placeholder="Name" class="form-contact__input">
+									</div>
+									<div class="form-contact__line">
+										<input data-fls-input="" data-fls-form-errtext="Email error" required type="email" name="email" placeholder="Email" class="form-contact__input">
+									</div>
+									<textarea data-fls-input="" autocomplete="off" name="message" placeholder="Message" class="form-contact__input"></textarea>
+									<button type="submit" class="form-contact__button button button--inverted">send message</button>
+								</form>
+							</div>
+							<ul data-fls-socialblocks="" class="contact__socials social-blocks">
+								<li class="social-blocks__item">
+									<a href="" target="_blank" data-fls-border="" class="social-blocks__link social-blocks__link--icon-instagram">Instagram</a>
+								</li>
+								<li class="social-blocks__item">
+									<a href="" target="_blank" data-fls-border="" class="social-blocks__link social-blocks__link--icon-twitter">twitter</a>
+								</li>
+								<li class="social-blocks__item">
+									<a href="" target="_blank" data-fls-border="" class="social-blocks__link social-blocks__link--icon-facebook">facebook</a>
+								</li>
+								<li class="social-blocks__item">
+									<a href="" target="_blank" data-fls-border="" class="social-blocks__link social-blocks__link--icon-behance">behance</a>
+								</li>
+								<li class="social-blocks__item">
+									<a href="" target="_blank" data-fls-border="" class="social-blocks__link social-blocks__link--icon-dribbble">dribbble</a>
+								</li>
+								<li class="social-blocks__item">
+									<a href="" target="_blank" data-fls-border="" class="social-blocks__link social-blocks__link--icon-pinterest">pinterest</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</article>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__body body-footer">
+						<div class="body-footer__content">
+							<a href="" class="body-footer__logo-link">
+								<img class="body-footer__logo" src="./assets/img/logo/logo.svg" alt="logo">
+							</a>
+							<ul data-fls-socials="" class="body-footer__socials socials-footer socials socials--text">
+								<li class="socials__item">
+									<a href="#" target="_blank" class="socials__link --icon-instagram">
+										<span>Instagram</span>
+									</a>
+								</li>
+								<li class="socials__item">
+									<a href="#" target="_blank" class="socials__link --icon-twitter">
+										<span>Twitter</span>
+									</a>
+								</li>
+								<li class="socials__item">
+									<a href="#" target="_blank" class="socials__link --icon-dribbble">
+										<span>Dribbble</span>
+									</a>
+								</li>
+								<li class="socials__item">
+									<a href="#" target="_blank" class="socials__link --icon-behance">
+										<span>Behance</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div data-fls-spollers="550" class="body-footer__lists">
+							<details class="body-footer__menu">
+								<summary>
+									<h5 class="body-footer__title">Pages</h5>
+								</summary>
+								<ul class="body-footer__list">
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Home</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Services</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">About</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Contact</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="#" data-fls-button="" class="body-footer__button button button--inverted button--icon button--icon-arrow-diagonal-up-right">More
+								Templates</a>
+									</li>
+								</ul>
+							</details>
+							<details class="body-footer__menu">
+								<summary>
+									<h5 class="body-footer__title">CMS</h5>
+								</summary>
+								<ul class="body-footer__list">
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Work</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Work Single</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Blog</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Blog Post</a>
+									</li>
+								</ul>
+							</details>
+							<details class="body-footer__menu">
+								<summary>
+									<h5 class="body-footer__title">Utility Pages</h5>
+								</summary>
+								<ul class="body-footer__list">
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">404 Error Page</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Password Protected</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Styleguide</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Licensing</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Changelog</a>
+									</li>
+								</ul>
+							</details>
+						</div>
+					</div>
+					<div class="footer__bottom bottom-footer">
+						<div class="bottom-footer__copyright">© 2022 Made by Pawel Gola. Powered by Framer..</div>
+						<a href="#" data-fls-button="" data-fls-scrollto="main" class="bottom-footer__back-to-top button button--text button--text-big button--icon-arrow button--icon-arrow-up">To Top</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<div data-fls-popup="popup" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close">
+						<svg width="23" height="23" viewbox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square"></path>
+							<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square"></path>
+						</svg>
+					</button>
+					<div data-fls-popup-content="" class="popup__text">Message sent</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

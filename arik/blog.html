@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Satoshi-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Satoshi-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Gambetta-LightItalic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Chillax-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Blog</title>
+		<script type="module" crossorigin="" src="./js/common.min.js?v=1769396972590"></script>
+		<script type="module" crossorigin="" src="./js/main.min.js?v=1769396972590"></script>
+		<script type="module" crossorigin="" src="./js/blockhead.min.js?v=1769396972590"></script>
+		<script type="module" crossorigin="" src="./js/skill.min.js?v=1769396972590"></script>
+		<script type="module" crossorigin="" src="./js/letstalk.min.js?v=1769396972590"></script>
+		<script type="module" crossorigin="" src="./js/border.min.js?v=1769396972590"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1769396972590">
+		<link rel="stylesheet" crossorigin="" href="./css/blockhead.min.css?v=1769396972590">
+		<link rel="stylesheet" crossorigin="" href="./css/skill.min.css?v=1769396972590">
+		<link rel="stylesheet" crossorigin="" href="./css/letstalk.min.css?v=1769396972590">
+		<link rel="stylesheet" crossorigin="" href="./css/border.min.css?v=1769396972590">
+		<link rel="stylesheet" crossorigin="" href="./css/blog.min.css?v=1769396972590">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<div class="header__body">
+						<div class="header__logo">
+							<a href="index" class="header__logo-link">
+								<img class="header__logo-image" src="./assets/img/logo/logo.svg" alt="logo">
+							</a>
+						</div>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="services" class="menu__link">Services</a>
+									</li>
+									<li class="menu__item">
+										<a href="work" class="menu__link">Work</a>
+									</li>
+									<li class="menu__item">
+										<a href="about" class="menu__link">About</a>
+									</li>
+									<li class="menu__item">
+										<a href="blog" class="menu__link menu__link--active">Blog</a>
+									</li>
+									<li class="menu__item">
+										<a href="pricing" class="menu__link">Pricing</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+						<a href="contact" data-fls-button="" class="header__button button button--inverted">Let's talk</a>
+						<button type="button" data-fls-menu="" class="icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="page page--blog blog">
+				<section class="blog__hero hero-blog">
+					<div class="hero-blog__container">
+						<div data-fls-watcher="" data-fls-watcher-once="" data-fls-blockhead="" class="hero-blog--blockhead blockhead">
+							<h1 class="blockhead__title">Blog</h1>
+							<div class="blockhead__text">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor lorem.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="blog__body body-blog">
+					<div class="body-blog__container">
+						<div class="body-blog__items">
+							<article data-fls-skill="" class="body-blog__item skill">
+								<a href="blogpage" class="skill__picture skill__picture-link">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/blog/01-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/blog/01-1200.webp" type="image/webp">
+										<img class="skill__image" alt="Image" src="./assets/img/blog/01.webp">
+									</picture>
+								</a>
+								<time datetime="23-08-2023" class="skill__tag">23rd Aug 2023</time>
+								<h4 class="skill__title">
+									<a class="skill__title-link" href="blogpage">How to Build a Stunning Website with Framer</a>
+								</h4>
+								<p class="skill__text">
+									Learn how to create an impressive website using Framer with our step-by-step guide.
+								</p>
+								<div class="skill__label">WEbdesign</div>
+							</article>
+							<article data-fls-skill="" class="body-blog__item skill">
+								<a href="blogpage" class="skill__picture skill__picture-link">
+									<picture>
+										<img class="skill__image" alt="Image" src="./assets/img/blog/02.webp">
+									</picture>
+								</a>
+								<time datetime="23-08-2023" class="skill__tag">23rd Aug 2023</time>
+								<h4 class="skill__title">
+									<a class="skill__title-link" href="blogpage">10 website elements for maximum user engagement</a>
+								</h4>
+								<p class="skill__text">
+									10 website elements to engage users, from intuitive navigation to compelling visuals.
+								</p>
+								<div class="skill__label">WEbdesign</div>
+							</article>
+							<article data-fls-skill="" class="body-blog__item skill">
+								<a href="blogpage" class="skill__picture skill__picture-link">
+									<picture>
+										<img class="skill__image" alt="Image" src="./assets/img/blog/03.webp">
+									</picture>
+								</a>
+								<time datetime="23-08-2023" class="skill__tag">23rd Aug 2023</time>
+								<h4 class="skill__title">
+									<a class="skill__title-link" href="blogpage">The importance of content in driving website traffic</a>
+								</h4>
+								<p class="skill__text">Quality content is king. Learn how to create valuable, SEO-optimized content.</p>
+								<div class="skill__label">WEbdesign</div>
+							</article>
+							<article data-fls-skill="" class="body-blog__item skill">
+								<a href="blogpage" class="skill__picture skill__picture-link">
+									<picture>
+										<img class="skill__image" alt="Image" src="./assets/img/blog/04.webp">
+									</picture>
+								</a>
+								<time datetime="23-08-2023" class="skill__tag">23rd Aug 2023</time>
+								<h4 class="skill__title">
+									<a class="skill__title-link" href="blogpage">10 common web development mistakes to avoid</a>
+								</h4>
+								<p class="skill__text">
+									10 common web development mistakes and improve your site's functionality and user experience.
+								</p>
+								<div class="skill__label">WEbdesign</div>
+							</article>
+							<article data-fls-skill="" class="body-blog__item skill">
+								<a href="blogpage" class="skill__picture skill__picture-link">
+									<picture>
+										<img class="skill__image" alt="Image" src="./assets/img/blog/05.webp">
+									</picture>
+								</a>
+								<time datetime="23-08-2023" class="skill__tag">23rd Aug 2023</time>
+								<h4 class="skill__title">
+									<a class="skill__title-link" href="blogpage">Why responsive web design is critical for your business</a>
+								</h4>
+								<p class="skill__text">
+									Responsive web design ensures your site looks great and performs well on all devices.
+								</p>
+								<div class="skill__label">WEbdesign</div>
+							</article>
+							<article data-fls-skill="" class="body-blog__item skill">
+								<a href="blogpage" class="skill__picture skill__picture-link">
+									<picture>
+										<img class="skill__image" alt="Image" src="./assets/img/blog/06.webp">
+									</picture>
+								</a>
+								<time datetime="23-08-2023" class="skill__tag">23rd Aug 2023</time>
+								<h4 class="skill__title">
+									<a class="skill__title-link" href="blogpage">The art of SEO writing: How to write content that ranks on Google</a>
+								</h4>
+								<p class="skill__text">
+									Optimize your website with expert tips on writing content that ranks high on Google.
+								</p>
+								<div class="skill__label">WEbdesign</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</main>
+			<aside data-fls-letstalk="" class="page__lets-talk lets-talk">
+				<div data-fls-border="" data-fls-marquee="" data-fls-marquee-speed="100" class="lets-talk__line line-lets-talk">
+					<div class="line-lets-talk__item">Let's talk</div>
+					<div class="line-lets-talk__item">+++</div>
+				</div>
+				<section class="lets-talk__body">
+					<div class="lets-talk__container">
+						<div data-fls-watcher="" data-fls-watcher-once="" data-fls-blockhead="" class="blockhead blockhead--gap-8">
+							<div class="blockhead__label">Project in mind?</div>
+							<h2 class="blockhead__title">
+								Let’s make your
+								<span>Website shine</span>
+							</h2>
+							<div class="blockhead__text">
+								<p>Premium web design, webflow, and SEO services to help your business stand out.</p>
+							</div>
+							<a href="contact" data-fls-button="" class="blockhead__button button button--inverted button--icon button--icon-arrow-diagonal-up-right">Get in
+					touch</a>
+						</div>
+					</div>
+				</section>
+			</aside>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__body body-footer">
+						<div class="body-footer__content">
+							<a href="" class="body-footer__logo-link">
+								<img class="body-footer__logo" src="./assets/img/logo/logo.svg" alt="logo">
+							</a>
+							<ul data-fls-socials="" class="body-footer__socials socials-footer socials socials--text">
+								<li class="socials__item">
+									<a href="#" target="_blank" class="socials__link --icon-instagram">
+										<span>Instagram</span>
+									</a>
+								</li>
+								<li class="socials__item">
+									<a href="#" target="_blank" class="socials__link --icon-twitter">
+										<span>Twitter</span>
+									</a>
+								</li>
+								<li class="socials__item">
+									<a href="#" target="_blank" class="socials__link --icon-dribbble">
+										<span>Dribbble</span>
+									</a>
+								</li>
+								<li class="socials__item">
+									<a href="#" target="_blank" class="socials__link --icon-behance">
+										<span>Behance</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div data-fls-spollers="550" class="body-footer__lists">
+							<details class="body-footer__menu">
+								<summary>
+									<h5 class="body-footer__title">Pages</h5>
+								</summary>
+								<ul class="body-footer__list">
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Home</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Services</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">About</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Contact</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="#" data-fls-button="" class="body-footer__button button button--inverted button--icon button--icon-arrow-diagonal-up-right">More
+								Templates</a>
+									</li>
+								</ul>
+							</details>
+							<details class="body-footer__menu">
+								<summary>
+									<h5 class="body-footer__title">CMS</h5>
+								</summary>
+								<ul class="body-footer__list">
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Work</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Work Single</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Blog</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Blog Post</a>
+									</li>
+								</ul>
+							</details>
+							<details class="body-footer__menu">
+								<summary>
+									<h5 class="body-footer__title">Utility Pages</h5>
+								</summary>
+								<ul class="body-footer__list">
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">404 Error Page</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Password Protected</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Styleguide</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Licensing</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="">Changelog</a>
+									</li>
+								</ul>
+							</details>
+						</div>
+					</div>
+					<div class="footer__bottom bottom-footer">
+						<div class="bottom-footer__copyright">© 2022 Made by Pawel Gola. Powered by Framer..</div>
+						<a href="#" data-fls-button="" data-fls-scrollto="main" class="bottom-footer__back-to-top button button--text button--text-big button--icon-arrow button--icon-arrow-up">To Top</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
