@@ -160,7 +160,7 @@ input:-webkit-autofill:focus {
 
 .hero {
   width: 100vw;
-  height: 100dvh;
+  height: 100svh;
   position: relative;
   overflow: hidden;
 }
