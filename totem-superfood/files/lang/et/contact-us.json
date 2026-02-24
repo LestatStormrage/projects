@@ -1,0 +1,43 @@
+{
+	"_metaTitle": "Võta meiega ühendust",
+	"_metaDescription": "Võta ühendust Totem Superfoodiga. Täida kontaktvorm, et saada edasimüüjaks või esitada küsimusi meie toodete kohta.",
+	"contact-us": {
+		"title": "Võta meiega ühendust ja saa meie edasimüüjaks!",
+		"form": {
+			"title": "Kasuta seda vormi meile e-kirja saatmiseks",
+			"interest": {
+				"title": "Olen huvitatud:",
+				"smoothies": "Smuutid",
+				"kombucha": "Kombucha",
+				"fruit-infusion-drinks": "Puuviljased tõmmisjoogid"
+			},
+			"salutation": {
+				"label": "Kuidas peaksime teid pöörduma? *",
+				"mr": "Hr.",
+				"mrs": "Pr."
+			},
+			"firstName": {
+				"label": "Eesnimi *:",
+				"placeholder": "Eesnimi"
+			},
+			"lastName": {
+				"label": "Perekonnanimi *:",
+				"placeholder": "Perekonnanimi"
+			},
+			"email": {
+				"label": "E-post *:",
+				"placeholder": "E-post"
+			},
+			"addInfo": {
+				"label": "Täiendav teave:",
+				"placeholder": "Täiendav teave"
+			},
+			"agreement": {
+				"text": "Nõustun oma isikuandmete kogumise, töötlemise või kasutamisega vastavalt",
+				"link": "privaatsuspoliitikale"
+			},
+			"required": "* Kohustuslik väli",
+			"button": "Saada"
+		}
+	}
+}

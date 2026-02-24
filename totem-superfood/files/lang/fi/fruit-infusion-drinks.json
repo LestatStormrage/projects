@@ -1,0 +1,226 @@
+{
+    "_metaTitle": "Hedelmäiset haudukejuomat",
+    "_metaDescription": "Tutustu herkullisiin hedelmäisiin haudukejuomiimme ja tue aktiivista elämäntapaasi.",
+    "yogoda": {
+        "main-title": "Hedelmäiset haudukejuomat",
+        "description-1": "Luotu ihmisille, jotka arvostavat luonnollisia ainesosia, toiminnallisia hyötyjä ja maksimaalista mukavuutta arjessa. Hedelmäuutteemme valmistetaan 100 % luonnollisista raaka-aineista: huolellisesti valituista marjoista, hedelmistä, inkivääristä, hunajasta ja mausteista. Emme muuta sitä, minkä luonto on luonut. Sen sijaan hiomme sitä – teemme siitä selkeämmän, toimivamman ja helpommin sovitettavan moderniin, dynaamiseen elämäntapaan. Hellävaraisen käsittelyn ansiosta säilytämme intensiiviset maut, korkean ravintotiheyden ja luonnolliset ominaisuudet sekä varmistamme vaivattoman valmistuksen. Tuloksena on luonnollinen, teen kaltainen juoma, joka mukautuu täydellisesti eri tilanteisiin, vuodenaikoihin ja tarpeisiin.",
+        "description-2": "Nämä hedelmäuutteet on tarkoituksella luotu poikkeuksellisen käteviksi ja monipuolisiksi:",
+        "bullet-point": {
+            "1": "Toimistossa tai kotona",
+            "2": "Pitkillä matkoilla ja lyhyillä reissuilla",
+            "3": "Lentokoneissa, junissa, busseissa tai autoissa",
+            "4": "Festivaaleilla, matkailuautoissa tai telttaillessa",
+            "5": "Kanootti- tai kajakkimatkoilla",
+            "6": "Hotelleissa – aamulla tai illalla",
+            "7": "Pitkien kokousten, esitysten, konferenssien tai koulutusten aikana"
+        },
+        "seasons": {
+            "summer": {
+                "title": "Kesällä",
+                "text": "Lisää kylmää vettä ja nauti virkistävästä, elinvoimaa antavasta juomasta, joka tuo luonnollista raikkautta."
+            },
+            "winter": {
+                "title": "Talvella",
+                "text": "Lisää kuumaa vettä ja nauti lämmittävästä juomasta, joka tukee immuunijärjestelmää ja virkistää kehoa ja mieltä."
+            }
+        },
+        "classic": {
+            "title": "Klassinen"
+        },
+        "immunity": {
+            "title": "Immuuni"
+        },
+        "sugar-free": {
+            "title": "Sokeriton"
+        },
+        "coctails": {
+            "title": "Cocktailit"
+        },
+        "cherry-tea-with-chocolate": {
+            "type": "YOGODA",
+            "name": "Kirsikkatee suklaalla",
+            "description-text-01": "Ensimmäinen siemaus paljastaa syvän, samettisen kaakaomaisen maun, jonka raastettu suklaa luo. Seuraa kirkas kirsikan hapokkuus, joka tuo kontrastia ja tekee mausta mehukkaan ja eloisan. Lopuksi cayennepippurin hienovarainen lämpö korostaa jokaista sävyä rikkomatta juoman herkkyyttä.",
+            "description-text-02": "Ainesosat: kirsikat (pakastemarjat), raastettu kaakao (luonnollinen suklaa), tiivistetty granaattiomenamehu, sokeri, glukoosi-fruktoosisiirappi, cayennepippuri."
+        },
+        "tea-with-blueberries-and-lavender": {
+            "type": "YOGODA",
+            "name": "Mustikka-laventelitee",
+            "description-text-01": "Pehmeä ja makea mustikkapohja – kuin vastapoimitut metsän marjat – tuo kevyen hunajaisen sävyn. Laventeli lisää kukkaista keveyttä ja rauhoittavaa tuoksua, luoden syvän rentoutumisen tunteen. Lopuksi granaattiomenan hienovarainen hapokkuus tuo juomaan eleganssia.",
+            "description-text-02": "Ainesosat: mustikat, tiivistetty granaattiomenamehu, kuivatut laventelinkukat, sokeri, glukoosi-fruktoosisiirappi."
+        },
+        "sea-buckthorn-tea-with-apricot": {
+            "type": "YOGODA",
+            "name": "Tyrnitee aprikoosilla",
+            "description-text-01": "Tyrnin aurinkoinen hapokkuus koskettaa ensin makua – kirkas ja raikas, mutta ei terävä. Hetkeä myöhemmin sitä ympäröi aprikoosin pehmeä ja samettinen makeus, kuin lusikallinen kotitekoista hilloa.",
+            "description-text-02": "Ainesosat: tyrni (pyree/marjat), aprikoosi (pyree), sokeri."
+        },
+        "ginger-tea": {
+            "type": "YOGODA",
+            "name": "Inkivääritee",
+            "description-text-01": "Luonto itse loi tämän juoman! Ei keinotekoisia lisäaineita – vain hyödyllisiä ainesosia: aitoa hunajaa, mehukasta limettiä ja pirteää inkivääriä. Täydellinen tasapaino hunajan makeuden, limetin hapokkuuden ja inkiväärin karvaan terävyyden välillä.",
+            "description-text-02": "Ainesosat: tuore inkiväärijuuri, tuore limetti, luonnonhunaja, sokeri."
+        },
+        "cranberry-tea": {
+            "type": "YOGODA",
+            "name": "Karpalotee",
+            "description-text-01": "Karpalon mausta ja aromista syntynyt tee säilyttää maksimaalisesti ravintoaineita. Mintun ja limetin harmonia korostaa inkiväärin ja hunajan mausteisuutta.",
+            "description-text-02": "Ainesosat: tuoreet pikapakastetut karpalot, luonnonhunaja, tuore limetti, tuore inkiväärijuuri, kuivattu anis, kuivattu minttu, sokeri."
+        },
+        "sea-buckthorn-tea": {
+            "type": "YOGODA",
+            "name": "Tyrnitee",
+            "description-text-01": "Auringon värinen juoma – todellinen luonnollinen piristys. Tyrni, hunaja, inkivääri, limetti ja mausteet muodostavat todellisen vitamiinipommin.",
+            "description-text-02": "Ainesosat: pikapakastettu tyrni, tuore inkiväärijuuri, tuore limetti, jauhettu kaneli, tähtianis, luonnonhunaja, sokeri."
+        },
+        "raspberry-tea": {
+            "type": "YOGODA",
+            "name": "Vadelmatee",
+            "description-text-01": "Lapsuuden kesät yhdessä siemauksessa. Vadelmien huumaava aromi ja hunajan luonnollinen makeus täydentyvät inkiväärin kevyellä karvaudella ja kanelin lämmöllä.",
+            "description-text-02": "Ainesosat: pikapakastetut vadelmat, mustaherukat, luonnonhunaja, tuore inkiväärijuuri, kaneli, sokeri."
+        },
+        "currant-tea": {
+            "type": "YOGODA",
+            "name": "Herukkatee",
+            "description-text-01": "Vähäinen lämpökäsittely – maksimaalinen hyöty. Mustaherukan syvä maku ja purppurabasilikan aromi luovat täyteläisen juoman jokaiseen hetkeen.",
+            "description-text-02": "Ainesosat: pikapakastetut herukat, luonnonhunaja, purppurabasilika, sokeri."
+        },
+        "matcha-tea-coconut-latte": {
+            "type": "YOGODA",
+            "name": "Matcha kookoslatte",
+            "description-text-01": "Japanilaisen matcha-vihreän teen ja kookoksen kermaisen maun täydellinen tasapaino. Antaa energiaa ja rauhoittaa mieltä.",
+            "description-text-02": "Ainesosat: juomavesi, sokeri, kookostahna, matcha-vihreä tee, luonnollinen rosmariiniuute."
+        },
+        "ginger-with-goji-tea": {
+            "type": "YOGODA",
+            "name": "Inkivääri-gojitee",
+            "description-text-01": "Terveellisen ravitsemuksen trendijuoma! Goji-marjat, acerola ja punahattu tukevat vastustuskykyä ja aineenvaihduntaa.",
+            "description-text-02": "Ainesosat: tuore inkiväärijuuri, tuore limetti, kuivatut goji-marjat, luonnonhunaja, punahattu-uute, acerola-uute (C-vitamiini), sokeri."
+        },
+        "ginger-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Inkivääri-kurkumatee",
+            "description-text-01": "Kurkuman kultainen väri ja voimakkaat ominaisuudet yhdistyvät inkiväärin, hunajan ja sitruksen raikkauteen.",
+            "description-text-02": "Ainesosat: tuore inkiväärijuuri, tuore limetti, kurkuma, luonnonhunaja, sokeri."
+        },
+        "raspberry-with-acerola-tea": {
+            "type": "YOGODA",
+            "name": "Vadelma-acerolatee",
+            "description-text-01": "Vadelman täyteläinen maku, hunajan makeus ja acerolan vahvistava vaikutus antavat energiaa ja hyvinvointia.",
+            "description-text-02": "Ainesosat: pikapakastetut vadelmat, luonnonhunaja, mustaherukat, tuore inkiväärijuuri, punahattu-uute, acerola-uute, sokeri."
+        },
+        "raspberry-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Vadelma-kurkumatee",
+            "description-text-01": "Kurkuman mausteisuus tukee vadelmien kesäistä makua, hunajan makeutta ja inkiväärin raikkautta.",
+            "description-text-02": "Ainesosat: pikapakastetut vadelmat, mustaherukat, luonnonhunaja, tuore inkiväärijuuri, kurkuma, kaneli, sokeri."
+        },
+        "pear-lime-thyme-tea": {
+            "type": "YOGODA",
+            "name": "Päärynä-limetti-timjamitee",
+            "description-text-01": "Hienostunut makeanhapan maku aroyrttien aromilla. Rauhoittaa ja tukee kehon tasapainoa.",
+            "description-text-02": "Ainesosat: päärynä, tuore inkiväärijuuri, limetti, appelsiini, kuivatut goji-marjat, kuivattu timjami, stevia."
+        },
+        "aronia-melanocarpa-cornelian-cherry-chilli-tea": {
+            "type": "YOGODA",
+            "name": "Aronia, kornelikirsikka ja chili -tee",
+            "description-text-01": "Makeanhapan ja mausteinen juoma, jossa on lämmittävä jälkimaku. Tukee vastustuskykyä ja aineenvaihduntaa.",
+            "description-text-02": "Ainesosat: kornelikirsikkapyree, aronia, stevia, cayennepippuri."
+        },
+        "passion-fruit-mango-nutmeg-tea": {
+            "type": "YOGODA",
+            "name": "Passionhedelmä-mango-muskottipähkinätee",
+            "description-text-01": "Trooppinen hedelmäcocktail muskottipähkinän hienovaraisella mausteisuudella.",
+            "description-text-02": "Ainesosat: mangopyree, kurpitsa, passionhedelmän hedelmäliha, appelsiini, muskottipähkinä, stevia."
+        },
+        "currant-tea-2": {
+            "type": "YOGODA",
+            "name": "Herukkatee",
+            "description-text-01": "Klassinen mustaherukkajuoma lapsuudesta. Sopii kuumana ja kylmänä.",
+            "description-text-02": "Ainesosat: juomavesi, mustaherukka, kuivattu purppurabasilika, sitruunahappo, sukraloosi."
+        },
+        "sea-buckthorn-tea-2": {
+            "type": "YOGODA",
+            "name": "Tyrnitee",
+            "description-text-01": "100 % luonnollinen nestemäinen tyrnitee, nautittavissa kuumana tai kylmänä.",
+            "description-text-02": "Ainesosat: tyrni, omena, polydextroosi, inkiväärijuuri, limetti, sitruunahappo, kaneli, tähtianis, sukraloosi."
+        },
+        "ginger-tea-2": {
+            "type": "YOGODA",
+            "name": "Inkivääritee",
+            "description-text-01": "Mausteinen inkivääri ja raikas limetti antavat energiaa jokaiseen kuppiin.",
+            "description-text-02": "Ainesosat: juomavesi, inkiväärijuuri, omena, polydextroosi, limetti, sitruunahappo, sukraloosi."
+        },
+        "raspberry-tea-2": {
+            "type": "YOGODA",
+            "name": "Vadelmatee",
+            "description-text-01": "Luonnollinen vadelmatee kätevässä pakkauksessa, nautittavissa kuumana tai kylmänä.",
+            "description-text-02": "Ainesosat: vadelma, mustaherukka, inkiväärijuuri, sitruunahappo, kaneli, sukraloosi."
+        },
+        "bramble": {
+            "type": "YOGODA",
+            "name": "Bramble",
+            "description-text-01": "Vadelma- ja karhunvatjapohjainen cocktail sitruunan, katajanmarjojen ja korianterin vivahteilla.",
+            "description-text-02": "Ainesosat: vadelmamehu, karhunvatukat, sokeri, sitruunamehu, katajanmarjat, korianteri, kaneli."
+        },
+        "mojito": {
+            "type": "YOGODA",
+            "name": "Mojito",
+            "description-text-01": "Raikas klassikkococktail limetistä, mintusta ja sokerista.",
+            "description-text-02": "Ainesosat: sokeri, limetti, minttu."
+        },
+        "peach-bellini": {
+            "type": "YOGODA",
+            "name": "Persikka Bellini",
+            "description-text-01": "Italialaisesta perinteestä inspiroitunut hedelmäcocktail persikalla ja vadelmalla.",
+            "description-text-02": "Ainesosat: persikka, persikkamehu, sokeri, vadelmamehu, timjami."
+        },
+        "sea-breeze": {
+            "type": "YOGODA",
+            "name": "Sea Breeze",
+            "description-text-01": "Raikas karpalo-greippijuoma hunajaisella vivahteella.",
+            "description-text-02": "Ainesosat: karpalot, hunaja, greippimehu, sokeri, sitruunamehu."
+        },
+        "ginger-lemonade": {
+            "type": "YOGODA",
+            "name": "Inkiväärilimonadi",
+            "description-text-01": "Inkiväärin mausteisuus ja limetin raikkaus muodostavat eloisan ja virkistävän kokonaisuuden.",
+            "description-text-02": "Ainesosat: tuore inkiväärijuuri, tuore limetti, sokeri, glukoosi-fruktoosisiirappi."
+        },
+        "sea-buckthorn-lemonade": {
+            "type": "YOGODA",
+            "name": "Tyrnilimonadi",
+            "description-text-01": "Täyteläinen makeanhapan maku tyrnistä, omenasta ja passionhedelmästä.",
+            "description-text-02": "Ainesosat: tyrni, omena, passionhedelmän hedelmäliha, sokeri."
+        },
+        "mango-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Mango ja passionhedelmä",
+            "description-text-01": "Kypsä mango ja passionhedelmän raikas hapokkuus luovat trooppisen tasapainon.",
+            "description-text-02": "Ainesosat: mangopyree, passionhedelmän hedelmäliha, limettimehu, sokeri, glukoosi-fruktoosisiirappi."
+        },
+        "strawberry-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Mansikka ja passionhedelmä",
+            "description-text-01": "Mansikan pehmeä makeus ja passionhedelmän raikkaus sulautuvat eloisaksi kokonaisuudeksi.",
+            "description-text-02": "Ainesosat: mansikat, passionhedelmän hedelmäliha, sokeri, glukoosi-fruktoosisiirappi."
+        },
+        "spicy-strawberry": {
+            "type": "YOGODA",
+            "name": "Mausteinen mansikka",
+            "description-text-01": "Mansikan makeus kohtaa acain hienovaraisen karvauden ja cayennepippurin lämmön.",
+            "description-text-02": "Ainesosat: mansikat, sitruunamehu, acai-jauhe, sokeri, cayennepippuri."
+        },
+        "spicy-pineapple": {
+            "type": "YOGODA",
+            "name": "Mausteinen ananas",
+            "description-text-01": "Ananaksen makeus, passionhedelmän hapokkuus ja cayennepippurin kevyt potku.",
+            "description-text-02": "Ainesosat: ananas, passionhedelmän hedelmäliha, sitruunamehu, sokeri, cayennepippuri."
+        },
+        "red-mulled-wine": {
+            "type": "YOGODA",
+            "name": "Punainen glögi",
+            "description-text-01": "Alkoholiton glögiversio, jossa yhdistyvät mausteet, sitrukset ja marjat – lämmin ja lohduttava.",
+            "description-text-02": "Ainesosat: luonnonhunaja, kirsikka, punaviinirypälemehutiiviste, appelsiini, omena, kardemumma, kaneli, muskottipähkinä, neilikka, tähtianis, cayennepippuri."
+        }
+    }
+}

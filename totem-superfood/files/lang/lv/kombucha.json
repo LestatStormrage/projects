@@ -1,0 +1,152 @@
+{
+    "_metaTitle": "Kombuča",
+    "_metaDescription": "Atklājiet mūsu gardos dzērienus un atbalstiet savu aktīvo dzīvesveidu.",
+    "kombucha": {
+        "main-title": "Kombuča",
+        "description": "Leģendārs tējas dzēriens no Senajiem Austrumiem. SCOBY – simbiotiska rauga un labvēlīgo baktēriju kultūra – fermentē aromātisku tēju, radot gardu, dabiski veselīgu un dzirkstošu dzērienu. Senajā Japānā kombuča tika saukta par “Nemirstības tēju”. Korejā tā jau kopš seniem laikiem izmantota skaistuma atjaunošanas procedūrām, bet Ķīnā tā bija imperatoru dzēriens.",
+        "classic-green": {
+            "type": "Kombuča",
+            "title": "Klasiskā zaļā",
+            "text": {
+                "1": "Dabīgas sastāvdaļas: filtrēts ūdens, koncentrēta ābolu sula, zaļā tēja, cukurs, kombučas kultūra.",
+                "2": "Ieteicamā uzglabāšanas temperatūra: no +6 °C līdz +25 °C.",
+                "3": "Izlietot 48 stundu laikā pēc atvēršanas.",
+                "4": "Ja esat jutīgi pret skābumu, lietojiet atšķaidītu vai nelielos daudzumos."
+            },
+            "list": {
+                "title": "Uzturvērtība uz 100 ml:",
+                "1": "Enerģētiskā vērtība: 67 kJ / 16 kcal",
+                "2": "Olbaltumvielas – 0,0 g",
+                "3": "Tauki – 0,0 g",
+                "4": "Ogļhidrāti – 4,0 g",
+                "5": "Cukuri – 4,0 g"
+            }
+        },
+        "ginger": {
+            "type": "Kombuča",
+            "title": "Ingvers",
+            "text": {
+                "1": "Dabīgas sastāvdaļas: filtrēts ūdens, koncentrēta ābolu sula (20 %), zaļā tēja, ingvers, kurkumas koncentrāts, cukurs, citronu sula, kombučas kultūra.",
+                "2": "Ieteicamā uzglabāšanas temperatūra: no +6 °C līdz +25 °C.",
+                "3": "Izlietot 48 stundu laikā pēc atvēršanas.",
+                "4": "Ja esat jutīgi pret skābumu, lietojiet atšķaidītu vai nelielos daudzumos."
+            },
+            "list": {
+                "title": "Uzturvērtība uz 100 ml:",
+                "1": "Enerģētiskā vērtība: 67 kJ / 16 kcal",
+                "2": "Olbaltumvielas – 0,0 g",
+                "3": "Tauki – 0,0 g",
+                "4": "Ogļhidrāti – 4,0 g",
+                "5": "Cukuri – 4,0 g"
+            }
+        },
+        "hibiscus": {
+            "type": "Kombuča",
+            "title": "Hibisks",
+            "text": {
+                "1": "Dabīgas sastāvdaļas: filtrēts ūdens, koncentrēta ābolu sula, melnā tēja, zaļā tēja, hibiska ziedi, cukurs, kombučas kultūra.",
+                "2": "Ieteicamā uzglabāšanas temperatūra: no +6 °C līdz +25 °C.",
+                "3": "Izlietot 48 stundu laikā pēc atvēršanas.",
+                "4": "Ja esat jutīgi pret skābumu, lietojiet atšķaidītu vai nelielos daudzumos."
+            },
+            "list": {
+                "title": "Uzturvērtība uz 100 ml:",
+                "1": "Enerģētiskā vērtība: 67 kJ / 16 kcal",
+                "2": "Olbaltumvielas – 0,0 g",
+                "3": "Tauki – 0,0 g",
+                "4": "Ogļhidrāti – 4,0 g",
+                "5": "Cukuri – 4,0 g"
+            }
+        },
+        "jasmine": {
+            "type": "Kombuča",
+            "title": "Jasmīns",
+            "text": {
+                "1": "Dabīgas sastāvdaļas: filtrēts ūdens, koncentrēta ābolu sula, zaļā tēja, jasmīna ziedi, cukurs, kombučas kultūra.",
+                "2": "Ieteicamā uzglabāšanas temperatūra: no +6 °C līdz +25 °C.",
+                "3": "Izlietot 48 stundu laikā pēc atvēršanas.",
+                "4": "Ja esat jutīgi pret skābumu, lietojiet atšķaidītu vai nelielos daudzumos."
+            },
+            "list": {
+                "title": "Uzturvērtība uz 100 ml:",
+                "1": "Enerģētiskā vērtība: 67 kJ / 16 kcal",
+                "2": "Olbaltumvielas – 0,0 g",
+                "3": "Tauki – 0,0 g",
+                "4": "Ogļhidrāti – 4,0 g",
+                "5": "Cukuri – 4,0 g"
+            }
+        },
+        "lavender": {
+            "type": "Kombuča",
+            "title": "Lavanda",
+            "text": {
+                "1": "Dabīgas sastāvdaļas: filtrēts ūdens, koncentrēta ābolu sula (20 %), zaļā tēja, klitorijas ziedi, melnā tēja, lavandas ziedi, cukurs, kombučas kultūra.",
+                "2": "Ieteicamā uzglabāšanas temperatūra: no +6 °C līdz +25 °C.",
+                "3": "Izlietot 48 stundu laikā pēc atvēršanas.",
+                "4": "Ja esat jutīgi pret skābumu, lietojiet atšķaidītu vai nelielos daudzumos."
+            },
+            "list": {
+                "title": "Uzturvērtība uz 100 ml:",
+                "1": "Enerģētiskā vērtība: 67 kJ / 16 kcal",
+                "2": "Olbaltumvielas – 0,0 g",
+                "3": "Tauki – 0,0 g",
+                "4": "Ogļhidrāti – 4,0 g",
+                "5": "Cukuri – 4,0 g"
+            }
+        },
+        "lemongrass": {
+            "type": "Kombuča",
+            "title": "Citronzāle",
+            "text": {
+                "1": "Dabīgas sastāvdaļas: filtrēts ūdens, koncentrēta ābolu sula, melnā tēja, citronzāle, cukurs, kombučas kultūra.",
+                "2": "Ieteicamā uzglabāšanas temperatūra: no +6 °C līdz +25 °C.",
+                "3": "Izlietot 48 stundu laikā pēc atvēršanas.",
+                "4": "Ja esat jutīgi pret skābumu, lietojiet atšķaidītu vai nelielos daudzumos."
+            },
+            "list": {
+                "title": "Uzturvērtība uz 100 ml:",
+                "1": "Enerģētiskā vērtība: 67 kJ / 16 kcal",
+                "2": "Olbaltumvielas – 0,0 g",
+                "3": "Tauki – 0,0 g",
+                "4": "Ogļhidrāti – 4,0 g",
+                "5": "Cukuri – 4,0 g"
+            }
+        },
+        "passion-fruit": {
+            "type": "Kombuča",
+            "title": "Pasifloras auglis",
+            "text": {
+                "1": "Dabīgas sastāvdaļas: filtrēts ūdens, koncentrēta ābolu sula, zaļā tēja, pasifloras auglis, cukurs, citronu sula, kombučas kultūra.",
+                "2": "Ieteicamā uzglabāšanas temperatūra: no +6 °C līdz +25 °C.",
+                "3": "Izlietot 48 stundu laikā pēc atvēršanas.",
+                "4": "Ja esat jutīgi pret skābumu, lietojiet atšķaidītu vai nelielos daudzumos."
+            },
+            "list": {
+                "title": "Uzturvērtība uz 100 ml:",
+                "1": "Enerģētiskā vērtība: 67 kJ / 16 kcal",
+                "2": "Olbaltumvielas – 0,0 g",
+                "3": "Tauki – 0,0 g",
+                "4": "Ogļhidrāti – 4,0 g",
+                "5": "Cukuri – 4,0 g"
+            }
+        },
+        "yuzu": {
+            "type": "Kombuča",
+            "title": "Juzu",
+            "text": {
+                "1": "Dabīgas sastāvdaļas: filtrēts ūdens, koncentrēta ābolu sula, zaļā tēja, juzu sula, cukurs, kombučas kultūra.",
+                "2": "Ieteicamā uzglabāšanas temperatūra: no +6 °C līdz +25 °C.",
+                "3": "Izlietot 48 stundu laikā pēc atvēršanas.",
+                "4": "Ja esat jutīgi pret skābumu, lietojiet atšķaidītu vai nelielos daudzumos."
+            },
+            "list": {
+                "title": "Uzturvērtība uz 100 ml:",
+                "1": "Enerģētiskā vērtība: 67 kJ / 16 kcal",
+                "2": "Olbaltumvielas – 0,0 g",
+                "3": "Tauki – 0,0 g",
+                "4": "Ogļhidrāti – 4,0 g",
+                "5": "Cukuri – 4,0 g"
+            }
+        }
+    }
+}

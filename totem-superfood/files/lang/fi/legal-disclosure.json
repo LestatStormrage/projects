@@ -1,0 +1,28 @@
+{
+	"_metaTitle": "Lakivastuu",
+	"_metaDescription": "Totem Superfoodin viralliset yritystiedot ja rekisteröintitiedot.",
+
+	"legal-disclosure": {
+		"title": "Lakivastuu",
+
+		"companyName": {
+			"label": "Yrityksen nimi:",
+			"value": "T.O.T.E.M. OÜ"
+		},
+
+		"companyId": {
+			"label": "Yritystunnus:",
+			"value": "17245036, Tarton käräjäoikeuden rekisteröintiosasto 20. toukokuuta 2025."
+		},
+
+		"representative": {
+			"label": "Yrityksen johtaja/edustaja:",
+			"value": "Valerii Dinarin"
+		},
+
+		"address": {
+			"label": "Yrityksen rekisteröity osoite:",
+			"value": "Harjun maakunta, Kuusalun kunta, Pudison kylä, Männimäe/1, 74626, Viro"
+		}
+	}
+}

@@ -1,0 +1,178 @@
+{
+	"_metaTitle": "Liqberry",
+	"_metaDescription": "LiQberry uogų pasta sukurta naudojant inovatyvią hidro-termo-dinaminę technologiją. Šis uogų apdorojimo metodas neturi analogų pasaulyje.",
+	"liqberry": {
+		"header": {
+			"title": "liqberry",
+			"subtitle": "Kuo LiQberry ypatingas?",
+			"text": {
+				"1": "LiQberry uogų pasta sukurta naudojant inovatyvią hidro-termo-dinaminę technologiją. Šis uogų apdorojimo metodas neturi analogų pasaulyje.",
+				"2": "Uogos smulkinamos pulsuojančiu slėgiu. Šio proceso metu sėklos suskyla, todėl jų turinys – mėlynių aliejus – patenka į pastą ir gali būti įsisavinamas organizmo. Valgant šviežias uogas natūralia forma, sėklos pereina per virškinimo sistemą neįsisavintos.",
+				"3": "Gamybos procesas vyksta be deguonies patekimo ir be konservantų, cukraus, vandens ar dirbtinių dažiklių, naudojant žematemperatūrę pasterizaciją."
+			}
+		},
+		"seeds": {
+			"title": "Naudingųjų medžiagų kiekis mėlynių sėklose",
+			"list": {
+				"1": "Polinesočiosios riebalų rūgštys Omega-3-6-9",
+				"2": "Riebaluose tirpūs vitaminai A ir E",
+				"3": "Steroliai",
+				"4": "Unikalūs baltymai, aminorūgštys",
+				"5": "Stiprios biologiškai aktyvios medžiagos"
+			}
+		},
+		"packaging": {
+			"title": "Galimos pakuotės:",
+			"doypack": {
+				"name": "Doypack",
+				"size": "100 g"
+			},
+			"jar": {
+				"name": "Stiklainis",
+				"size": "545 g"
+			},
+			"show-button": "Rodyti"
+		},
+		"blueberry-paste": {
+			"title": "Mėlynių pasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Mūsų mėlynių pasta gaminama iš 100 % visų mėlynių ir išsaugo natūralią vaisių sudėtį koncentruota forma. Dėl švelnaus apdorojimo metodo išlaikomi vertingi mėlynėse natūraliai esantys augaliniai junginiai.",
+				"2": "Mėlynėse natūraliai gausu antioksidantų, kurie plačiai vertinami dėl savo vaidmens saugant ląsteles nuo oksidacinio streso. Jose taip pat yra chlorogeno rūgšties ir antocianinų – natūralių pigmentų, suteikiančių uogoms sodrią spalvą ir plačiai tiriamų mitybos srityje.",
+				"3": "Mūsų mėlynių pasta vertinama vartotojų, kurie renkasi švarią sudėtį, skaidrumą ir natūralius maisto produktus. Galima vartoti vieną arba naudoti kokteiliuose, jogurte ar kūrybiškuose kulinariniuose receptuose."
+			},
+			"list": {
+				"title": "Sumalus visą uogą – įskaitant minkštimą, odeles ir sėklas – pasta:",
+				"1": "išlaiko visą natūralų uogų profilį,",
+				"2": "lengvai įsilieja į subalansuotą, sveikata besirūpinančią mitybą,",
+				"3": "neturi pridėtinio cukraus, konservantų ar dirbtinių priedų."
+			}
+		},
+		"raspberry-paste": {
+			"title": "Aviečių pasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Mūsų aviečių pasta gaminama iš 100 % visų aviečių, išlaikant išskirtinį vaisių aromatą ir natūralius augalinius junginius koncentruota forma. Švelnus apdorojimas išsaugo būdingas aviečių savybes, kurios jau seniai vertinamos subalansuotoje mityboje.",
+				"2": "Avietėse natūraliai yra augalinių rūgščių, polifenolių ir aromatinių junginių, plačiai tiriamų mitybos moksle. Dėl natūralios sudėties avietės dažnai įtraukiamos į sąmoningos mitybos koncepcijas ir laikotarpius, kai patiriamas didesnis fizinis ar aplinkos krūvis.",
+				"3": "Sodrus vaisių skonis leidžia mėgautis vienu, šiltuose gėrimuose, jogurte, kokteiliuose ar kūrybiškuose kulinariniuose receptuose."
+			},
+			"list": {
+				"title": "Aviečių pasta:",
+				"1": "išlaiko visą uogų profilį apdorojant minkštimą, odeles ir sėklas,",
+				"2": "lengvai integruojasi į kasdienę sveiką mitybą,",
+				"3": "neturi pridėtinio cukraus, konservantų ar dirbtinių priedų."
+			}
+		},
+		"strawberry-paste": {
+			"title": "Braškių pasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Mūsų braškių pasta gaminama iš 100 % visų braškių, išlaikant natūralią vaisių minkštimo, odelių ir sėklų pusiausvyrą. Braškės vertinamos dėl natūralaus mineralų, vitaminų ir augalinių junginių kiekio, todėl yra populiari subalansuotos ir sąmoningos mitybos dalis.",
+				"2": "Braškėse natūraliai yra tokių mineralų kaip geležis, magnis, kalis, kalcis ir cinkas, taip pat vitaminas C, vitaminas B5 ir folatai. Jose taip pat yra antioksidacinių augalinių junginių, kurie gali padėti palaikyti natūralią organizmo apsaugą nuo oksidacinio streso kaip sveikos gyvensenos dalis.",
+				"3": "Gaivus vaisių skonis puikiai tinka mėgautis vienu, jogurte, kokteiliuose ar kaip ingredientas kūrybiškuose receptuose."
+			},
+			"list": {
+				"title": "Braškių pasta:",
+				"1": "išlaiko visą uogos profilį apdorojant visą vaisių,",
+				"2": "lengvai įsilieja į sveiką kasdienę rutiną,",
+				"3": "neturi pridėtinio cukraus, konservantų ar dirbtinių priedų."
+			}
+		},
+		"blackberry-paste": {
+			"title": "Gervuogių pasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Mūsų gervuogių pasta gaminama iš 100 % visų gervuogių, išlaikant pilną natūralų uogų profilį, įskaitant minkštimą, odeles ir sėklas. Gervuogės vertinamos dėl vitamino E, polifenolių ir kitų augalinių junginių kiekio, todėl yra vertinama subalansuotos mitybos dalis.",
+				"2": "Vitaminas E padeda apsaugoti ląsteles nuo oksidacinio streso, o natūralūs augaliniai junginiai suteikia uogoms sodrų charakterį. Kaip sąmoningo gyvenimo būdo dalis, gervuogės gali prisidėti prie mitybos įvairovės.",
+				"3": "Puikiai tinka vartoti vienas, su jogurtu, dribsniais, kokteiliuose arba kaip aukštos kokybės ingredientas šiuolaikinėse mitybos koncepcijose."
+			},
+			"list": {
+				"title": "Gervuogių pasta:",
+				"1": "išlaiko visą maistinį profilį apdorojant visą vaisių,",
+				"2": "suteikia intensyvų, autentišką uogų skonį,",
+				"3": "neturi pridėtinio cukraus, konservantų ar dirbtinių priedų."
+			}
+		},
+		"blackcurrant-paste": {
+			"title": "Juodųjų serbentų pasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Mūsų juodųjų serbentų pasta gaminama iš 100 % visų juodųjų serbentų, išlaikant pilną natūralų uogų profilį, įskaitant minkštimą, odeles ir sėklas. Juodieji serbentai vertinami dėl didelio vitamino C, polifenolių ir kitų naudingų augalinių junginių kiekio.",
+				"2": "Šios natūralios maistinės medžiagos prisideda prie kasdienės mitybos pusiausvyros ir yra vertinamos kaip įvairios ir sąmoningos mitybos dalis. Juodieji serbentai jau seniai siejami su aktyviu gyvenimo būdu.",
+				"3": "Puikiai tinka vartoti vienus, su jogurtu ar dribsniais, kokteiliuose arba kaip aukštos kokybės ingredientas funkciniuose maisto produktuose."
+			},
+			"list": {
+				"title": "Juodųjų serbentų pasta:",
+				"1": "išlaiko visą uogų spektrą apdorojant visą vaisių,",
+				"2": "papildo mitybos įvairovę natūraliais augaliniais junginiais,",
+				"3": "neturi pridėtinio cukraus, konservantų ar dirbtinių priedų."
+			}
+		},
+		"sea-buckthorn": {
+			"title": "Šaltalankių pasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Mūsų šaltalankių pasta gaminama iš 100 % visų šaltalankių uogų, išlaikant natūralią minkštimo, odelių ir sėklų pusiausvyrą. Šaltalankiai vertinami dėl natūraliai turtingos vitaminų, mikro- ir makroelementų sudėties.",
+				"2": "Išskirtinė šaltalankių savybė – natūralus šaltalankių aliejaus kiekis, kuriame yra riebaluose tirpių augalinių junginių, tradiciškai vertinamų įvairioje mityboje.",
+				"3": "Puikiai tinka praturtinti kasdienę mitybą — vartoti vieną, kokteiliuose, pusryčių dubenėliuose ar šiuolaikiniuose receptuose."
+			},
+			"list": {
+				"title": "Šaltalankių pasta:",
+				"1": "išlaiko visą uogų profilį, įskaitant sėklas,",
+				"2": "natūraliai turi beta-karoteno, vitamino E ir vitamino C,",
+				"3": "neturi pridėtinio cukraus, konservantų, vandens ar dirbtinių priedų."
+			}
+		},
+		"cherry-paste": {
+			"type": "Liqberry",
+			"title": "Vyšnių pasta",
+			"text": {
+				"1": "Vyšnių pasta yra 100 % homogenizuotas vaisių produktas, pagamintas iš visų vyšnių su smulkiai apdorotais vaisių komponentais. Ji išsaugo natūralų vaisių maistinį profilį ir yra funkcionalus subalansuotos mitybos papildas."
+			},
+			"list": {
+				"1": {
+					"title": "Vyšnios natūraliai yra šaltinis:",
+					"1": "polifenolių ir antocianinų,",
+					"2": "organinių rūgščių,",
+					"3": "vitaminų (ypač vitamino C ir B grupės),",
+					"4": "kalio ir kitų mineralų,",
+					"5": "maistinių skaidulų ir pektinų."
+				},
+				"2": {
+					"title": "Sąmoningos mitybos kontekste vyšnių pasta tradiciškai vertinama dėl:",
+					"1": "normalaus raumenų ir sąnarių funkcionavimo palaikymo,",
+					"2": "atsistatymo po fizinio krūvio palaikymo,",
+					"3": "normalių medžiagų apykaitos procesų palaikymo,",
+					"4": "prisidėjimo prie organizmo antioksidacinės pusiausvyros."
+				},
+				"3": {
+					"title": "Dėl natūralių augalinių junginių vyšnių pasta taip pat siejama su:",
+					"1": "širdies ir kraujagyslių funkcijos palaikymu,",
+					"2": "normalios kraujotakos palaikymu,",
+					"3": "ir sveiko miego–būdravimo ritmo palaikymu."
+				},
+				"4": {
+					"title": "Vyšnių pasta:",
+					"1": "neturi pridėtinio cukraus,",
+					"2": "neturi konservantų, pridėto vandens ar dirbtinių priedų,",
+					"3": "puikiai tinka natūraliai, augalinei, į rezultatą orientuotai mitybos koncepcijai."
+				}
+			}
+		},
+		"aronia-paste": {
+			"type": "Liqberry",
+			"title": "Aronijų pasta",
+			"text": {
+				"1": "Mūsų aronijų pasta gaminama iš 100 % visų aronijų, išlaikant pilną uogų profilį, įskaitant minkštimą, odeles ir sėklas. Aronijos vertinamos dėl natūraliai didelio polifenolių kiekio.",
+				"2": "Tradiciškai aronijos įtraukiamos į mitybos koncepcijas, orientuotas į širdies ir kraujagyslių pusiausvyrą ir medžiagų apykaitos palaikymą, kaip įvairios ir sąmoningos gyvensenos dalis.",
+				"3": "Puikiai tinka tiems, kurie vertina intensyvų uogų charakterį ir augalinę įvairovę kasdienėje mityboje – vartoti vieną arba moderniuose receptuose."
+			},
+			"list": {
+				"title": "Aronijų pasta:",
+				"1": "natūraliai turi biologiškai aktyvių augalinių junginių,",
+				"2": "papildo subalansuotą ir sąmoningą mitybą,",
+				"3": "neturi pridėtinio cukraus, konservantų, vandens ar dirbtinių priedų."
+			}
+		}
+	}
+}

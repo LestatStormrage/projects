@@ -1,0 +1,152 @@
+{
+    "_metaTitle": "Kombucha",
+    "_metaDescription": "Tutustu herkullisiin smoothieihimme ja tue aktiivista elämäntapaasi.",
+    "kombucha": {
+        "main-title": "Kombucha",
+        "description": "Legendaarinen teepohjainen juoma muinaisesta Idästä. SCOBY, hiivan ja hyödyllisten bakteerien symbioottinen viljelmä, fermentoi aromaattista teetä luoden herkullisen ja luonnollisesti terveyttä tukevan kuplivan juoman. Muinaisessa Japanissa kombuchaa kutsuttiin nimellä ”Kuolemattomuuden tee”. Koreassa sitä on käytetty jo antiikin ajoista lähtien nuorentaviin kauneushoitoihin, ja Kiinassa se oli keisareiden juoma.",
+        "classic-green": {
+            "type": "Kombucha",
+            "title": "Classic Green",
+            "text": {
+                "1": "Luonnolliset ainesosat: suodatettu vesi, tiivistetty omenamehu, vihreä tee, sokeri, kombuchaviljelmä.",
+                "2": "Suositeltu säilytyslämpötila: +6°C – +25°C.",
+                "3": "Käytä 48 tunnin kuluessa avaamisesta.",
+                "4": "Jos olet herkkä happamuudelle, juo laimennettuna tai pieninä annoksina."
+            },
+            "list": {
+                "title": "Ravintoarvot / 100 ml:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Proteiini – 0,0 g",
+                "3": "Rasva – 0,0 g",
+                "4": "Hiilihydraatit – 4,0 g",
+                "5": "Sokerit – 4,0 g"
+            }
+        },
+        "ginger": {
+            "type": "Kombucha",
+            "title": "Inkivääri",
+            "text": {
+                "1": "Luonnolliset ainesosat: suodatettu vesi, tiivistetty omenamehu (20 %), vihreä tee, inkivääri, kurkumatiiviste, sokeri, sitruunamehu, kombuchaviljelmä.",
+                "2": "Suositeltu säilytyslämpötila: +6°C – +25°C.",
+                "3": "Käytä 48 tunnin kuluessa avaamisesta.",
+                "4": "Jos olet herkkä happamuudelle, juo laimennettuna tai pieninä annoksina."
+            },
+            "list": {
+                "title": "Ravintoarvot / 100 ml:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Proteiini – 0,0 g",
+                "3": "Rasva – 0,0 g",
+                "4": "Hiilihydraatit – 4,0 g",
+                "5": "Sokerit – 4,0 g"
+            }
+        },
+        "hibiscus": {
+            "type": "Kombucha",
+            "title": "Hibiskus",
+            "text": {
+                "1": "Luonnolliset ainesosat: suodatettu vesi, tiivistetty omenamehu, musta tee, vihreä tee, hibiskuksen kukat, sokeri, kombuchaviljelmä.",
+                "2": "Suositeltu säilytyslämpötila: +6°C – +25°C.",
+                "3": "Käytä 48 tunnin kuluessa avaamisesta.",
+                "4": "Jos olet herkkä happamuudelle, juo laimennettuna tai pieninä annoksina."
+            },
+            "list": {
+                "title": "Ravintoarvot / 100 ml:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Proteiini – 0,0 g",
+                "3": "Rasva – 0,0 g",
+                "4": "Hiilihydraatit – 4,0 g",
+                "5": "Sokerit – 4,0 g"
+            }
+        },
+        "jasmine": {
+            "type": "Kombucha",
+            "title": "Jasmiini",
+            "text": {
+                "1": "Luonnolliset ainesosat: suodatettu vesi, tiivistetty omenamehu, vihreä tee, jasmiinin kukat, sokeri, kombuchaviljelmä.",
+                "2": "Suositeltu säilytyslämpötila: +6°C – +25°C.",
+                "3": "Käytä 48 tunnin kuluessa avaamisesta.",
+                "4": "Jos olet herkkä happamuudelle, juo laimennettuna tai pieninä annoksina."
+            },
+            "list": {
+                "title": "Ravintoarvot / 100 ml:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Proteiini – 0,0 g",
+                "3": "Rasva – 0,0 g",
+                "4": "Hiilihydraatit – 4,0 g",
+                "5": "Sokerit – 4,0 g"
+            }
+        },
+        "lavender": {
+            "type": "Kombucha",
+            "title": "Laventeli",
+            "text": {
+                "1": "Luonnolliset ainesosat: suodatettu vesi, tiivistetty omenamehu (20 %), vihreä tee, klitorian kukat, musta tee, laventelin kukat, sokeri, kombuchaviljelmä.",
+                "2": "Suositeltu säilytyslämpötila: +6°C – +25°C.",
+                "3": "Käytä 48 tunnin kuluessa avaamisesta.",
+                "4": "Jos olet herkkä happamuudelle, juo laimennettuna tai pieninä annoksina."
+            },
+            "list": {
+                "title": "Ravintoarvot / 100 ml:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Proteiini – 0,0 g",
+                "3": "Rasva – 0,0 g",
+                "4": "Hiilihydraatit – 4,0 g",
+                "5": "Sokerit – 4,0 g"
+            }
+        },
+        "lemongrass": {
+            "type": "Kombucha",
+            "title": "Sitruunaruoho",
+            "text": {
+                "1": "Luonnolliset ainesosat: suodatettu vesi, tiivistetty omenamehu, musta tee, sitruunaruoho, sokeri, kombuchaviljelmä.",
+                "2": "Suositeltu säilytyslämpötila: +6°C – +25°C.",
+                "3": "Käytä 48 tunnin kuluessa avaamisesta.",
+                "4": "Jos olet herkkä happamuudelle, juo laimennettuna tai pieninä annoksina."
+            },
+            "list": {
+                "title": "Ravintoarvot / 100 ml:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Proteiini – 0,0 g",
+                "3": "Rasva – 0,0 g",
+                "4": "Hiilihydraatit – 4,0 g",
+                "5": "Sokerit – 4,0 g"
+            }
+        },
+        "passion-fruit": {
+            "type": "Kombucha",
+            "title": "Passionhedelmä",
+            "text": {
+                "1": "Luonnolliset ainesosat: suodatettu vesi, tiivistetty omenamehu, vihreä tee, passionhedelmä, sokeri, sitruunamehu, kombuchaviljelmä.",
+                "2": "Suositeltu säilytyslämpötila: +6°C – +25°C.",
+                "3": "Käytä 48 tunnin kuluessa avaamisesta.",
+                "4": "Jos olet herkkä happamuudelle, juo laimennettuna tai pieninä annoksina."
+            },
+            "list": {
+                "title": "Ravintoarvot / 100 ml:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Proteiini – 0,0 g",
+                "3": "Rasva – 0,0 g",
+                "4": "Hiilihydraatit – 4,0 g",
+                "5": "Sokerit – 4,0 g"
+            }
+        },
+        "yuzu": {
+            "type": "Kombucha",
+            "title": "Yuzu",
+            "text": {
+                "1": "Luonnolliset ainesosat: suodatettu vesi, tiivistetty omenamehu, vihreä tee, yuzu-mehu, sokeri, kombuchaviljelmä.",
+                "2": "Suositeltu säilytyslämpötila: +6°C – +25°C.",
+                "3": "Käytä 48 tunnin kuluessa avaamisesta.",
+                "4": "Jos olet herkkä happamuudelle, juo laimennettuna tai pieninä annoksina."
+            },
+            "list": {
+                "title": "Ravintoarvot / 100 ml:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Proteiini – 0,0 g",
+                "3": "Rasva – 0,0 g",
+                "4": "Hiilihydraatit – 4,0 g",
+                "5": "Sokerit – 4,0 g"
+            }
+        }
+    }
+}

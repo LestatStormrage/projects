@@ -1,0 +1,79 @@
+{
+	"_metaTitle": "À propos de nous – Totem Superfood",
+	"_metaDescription": "Découvrez l’histoire de Totem Superfood, son innovation et sa mission visant à rendre une alimentation saine accessible et simple partout dans le monde.",
+	"about-us": {
+		"introduction": {
+			"title": "Introduction – Qui sommes-nous",
+			"subtitle": "D’une mission personnelle à une vision globale",
+			"text": "Bien que l’entreprise ait été officiellement fondée en 2025, l’histoire de notre produit a commencé en 2012 avec la passion d’une personne pour la santé, la nutrition et un mode de vie énergétiquement équilibré. Au fil des années, des recettes de smoothies fonctionnels ont été développées et enrichies de superaliments tels que la spiruline, le curcuma, la maca, l’açaï et les graines de chia — créant des mélanges puissants, riches en vitamines et en énergie naturelle. En 2017, ce projet a évolué en un bar à smoothies verts très populaire, attirant l’attention des médias locaux et fédérant une communauté engagée de consommateurs soucieux de leur santé."
+		},
+		"innovation": {
+			"title": "L’innovation",
+			"subtitle": "12 ans d’expérience, un produit révolutionnaire",
+			"text": "En 2024, nous avons décidé de rendre ces produits uniques accessibles à un public mondial. Après un Design Sprint, nous avons adopté la lyophilisation — une méthode qui préserve la valeur nutritionnelle des ingrédients grâce à une congélation rapide et à l’élimination de l’humidité. Le résultat ? Un mélange en poudre stable à température ambiante qui se transforme en smoothie frais simplement en ajoutant de l’eau — aussi nutritif et savoureux que s’il venait d’être préparé."
+		},
+		"target": {
+			"title": "Public cible",
+			"subtitle": "Nous servons le consommateur moderne et conscient",
+			"list": {
+				"1": "Professionnels et étudiants occupés ayant besoin d’une alimentation rapide mais saine",
+				"2": "Voyageurs et amateurs d’activités de plein air disposant d’un accès limité à des repas frais",
+				"3": "Personnes soucieuses de leur santé, attachées à des programmes recommandés par des experts (détox, équilibre bien-être ou nutrition quotidienne)"
+			}
+		},
+		"values": {
+			"title": "Nos valeurs",
+			"list": {
+				"1": "La santé avant tout : ingrédients naturels, purs, sans sucre ni additifs",
+				"2": "Énergie et productivité : soutenir les modes de vie actifs grâce à des mélanges hautement nutritifs",
+				"3": "Mobilité et praticité : un sachet = un repas. Facile à transporter. Prêt en quelques secondes",
+				"4": "Responsabilité écologique : production durable et réduction des déchets"
+			}
+		},
+		"problems": {
+			"title": "Les problèmes que nous résolvons",
+			"list": {
+				"1": "Manque de temps pour des repas nutritifs au travail, en déplacement ou lors de journées chargées",
+				"2": "Difficulté à maintenir une énergie et une concentration constantes",
+				"3": "Peu d’options pratiques et réellement saines pour les encas",
+				"4": "Les solutions traditionnelles sont souvent soit malsaines, soit chronophages"
+			}
+		},
+		"persona": {
+			"title": "NOS CONSOMMATEURS",
+			"list": {
+				"1": "Conscient et exigeant : attentif à la nutrition, lit les étiquettes, évite le sucre et les produits chimiques",
+				"2": "Actif et moderne : engagé dans le sport, le fitness et le bien-être personnel",
+				"3": "Aligné sur ses valeurs : recherche des marques durables, transparentes et tournées vers l’avenir"
+			}
+		},
+		"advantage": {
+			"title": "Pourquoi ça fonctionne – L’avantage de la lyophilisation",
+			"list": {
+				"1": "Préserve 95 à 98 % des vitamines et nutriments",
+				"2": "Léger et longue conservation — aucune réfrigération nécessaire",
+				"3": "Un goût aussi frais que le produit original – il suffit d’ajouter de l’eau",
+				"4": "Idéal pour une nutrition nomade"
+			}
+		},
+		"market": {
+			"title": "Opportunité de marché",
+			"text": "Selon statistique, plus de 60 % de la population de l’UE cherche activement à adopter une alimentation saine. La demande pour des produits fonctionnels à base de superaliments, prêts à l’emploi, connaît une croissance rapide, en particulier auprès des consommateurs urbains et mobiles."
+		},
+		"marketing": {
+			"title": "Stratégie marketing",
+			"subtitle": "Nous créons la demande grâce au marketing d’attraction",
+			"list": {
+				"1": "Influence et storytelling sur les réseaux sociaux",
+				"2": "Collaborations avec des coachs santé et des experts en fitness",
+				"3": "Boucles de retour client pour une adaptation rapide",
+				"4": "Communauté de marque forte et programmes de fidélité"
+			}
+		},
+		"partner": {
+			"title": "DEVENIR PARTENAIRE",
+			"text": "Nous proposons une solution prête à être déployée à grande échelle, soutenue par une base de clients très engagée et une gamme de produits issue de plusieurs années de R&D. Rejoignez-nous pour offrir une nutrition moderne à un monde moderne. Rendons une vie saine simple — ensemble.",
+			"button": "Nous contacter"
+		}
+	}
+}

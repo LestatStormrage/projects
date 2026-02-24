@@ -1,0 +1,226 @@
+{
+    "_metaTitle": "Augļu uzlējumu dzērieni",
+    "_metaDescription": "Atklājiet mūsu gardos augļu uzlējumu dzērienus un atbalstiet savu aktīvo dzīvesveidu.",
+    "yogoda": {
+        "main-title": "Augļu uzlējumu dzērieni",
+        "description-1": "Radīts cilvēkiem, kuri novērtē dabīgas sastāvdaļas, funkcionālus ieguvumus un maksimālu ērtību ikdienā. Mūsu augļu uzlējumi tiek gatavoti no 100 % dabīgām sastāvdaļām: rūpīgi atlasītām ogām, augļiem, ingvera, medus un garšvielām. Mēs nemainām to, ko radījusi daba. Tā vietā mēs to pilnveidojam – padarām skaidrāku, funkcionālāku un vieglāk integrējamu modernā, dinamiskā dzīvesveidā. Pateicoties saudzīgai apstrādei, mēs saglabājam intensīvas garšas, augstu uzturvielu blīvumu un dabiskās īpašības, vienlaikus nodrošinot vienkāršu pagatavošanu. Rezultāts ir dabisks, tējai līdzīgs dzēriens, kas lieliski pielāgojas dažādām situācijām, gadalaikiem un vajadzībām.",
+        "description-2": "Šie augļu uzlējumu dzērieni ir apzināti radīti, lai būtu īpaši ērti un daudzpusīgi:",
+        "bullet-point": {
+            "1": "Birojā vai mājās",
+            "2": "Garos ceļojumos un īsos braucienos",
+            "3": "Lidmašīnās, vilcienos, autobusos vai automašīnās",
+            "4": "Festivālos, kemperos vai kempingā",
+            "5": "Ceļojot ar kanoe vai kajaku",
+            "6": "Viesnīcās – no rīta vai vakarā",
+            "7": "Ilgu sanāksmju, prezentāciju, konferenču vai apmācību laikā"
+        },
+        "seasons": {
+            "summer": {
+                "title": "Vasarā",
+                "text": "Pievienojiet aukstu ūdeni un izbaudiet atsvaidzinošu, enerģiju sniedzošu dzērienu ar dabīgu svaigumu."
+            },
+            "winter": {
+                "title": "Ziemā",
+                "text": "Pievienojiet karstu ūdeni un izbaudiet sildošu dzērienu, kas atbalsta imūnsistēmu un atdzīvina ķermeni un prātu."
+            }
+        },
+        "classic": {
+            "title": "Klasiskie"
+        },
+        "immunity": {
+            "title": "Imunitātei"
+        },
+        "sugar-free": {
+            "title": "Bez cukura"
+        },
+        "coctails": {
+            "title": "Kokteiļi"
+        },
+        "cherry-tea-with-chocolate": {
+            "type": "YOGODA",
+            "name": "Ķiršu tēja ar šokolādi",
+            "description-text-01": "Pirmais malks atklāj dziļu, samtainu kakao garšu, ko rada rīvēta šokolāde. Tai seko spilgta ķiršu skābenuma nots, kas rada kontrastu un piešķir dzērienam sulīgumu. Noslēgumā — maigs kajēnas piparu siltums, kas pastiprina katru niansi, nezaudējot dzēriena maigumu.",
+            "description-text-02": "Sastāvdaļas: ķirši (dziļi saldētas ogas), rīvēts kakao (dabīgā šokolāde), koncentrēta granātābolu sula, cukurs, glikozes-fruktozes sīrups, kajēnas pipari."
+        },
+        "tea-with-blueberries-and-lavender": {
+            "type": "YOGODA",
+            "name": "Tēja ar mellenēm un lavandu",
+            "description-text-01": "Maiga, saldena melleņu bāze — kā tikko no meža salasītas ogas — piešķir vieglu medainu nokrāsu. Lavanda ienes ziedainu vieglumu un nomierinošu aromātu, radot dziļas relaksācijas sajūtu. Noslēgumā — smalka granātābolu skābenuma nots, kas piešķir garšai izsmalcinātību.",
+            "description-text-02": "Sastāvdaļas: mellenes, koncentrēta granātābolu sula, kaltēti lavandas ziedi, cukurs, glikozes-fruktozes sīrups."
+        },
+        "sea-buckthorn-tea-with-apricot": {
+            "type": "YOGODA",
+            "name": "Smiltsērkšķu tēja ar aprikozēm",
+            "description-text-01": "Smiltsērkšķu saulainais skābums pirmo reizi pieskaras aukslējām — spilgts un svaigs, bet ne ass. Drīz vien to apņem maiga, samtaina aprikožu salduma nots, kā karote mājas ievārījuma. Garšas saplūst dabiskā līdzsvarā.",
+            "description-text-02": "Sastāvdaļas: smiltsērkšķi (biezenis/ogas), aprikozes (biezenis), cukurs."
+        },
+        "ginger-tea": {
+            "type": "YOGODA",
+            "name": "Ingvera tēja",
+            "description-text-01": "Pati daba ir radījusi šo dzērienu! Bez mākslīgām piedevām — tikai īstas sastāvdaļas: medus, sulīgs laims un ass ingvers. Spilgta garšu palete, kurā dominē ingvers, līdzsvarots ar medus saldumu un laima skābumu.",
+            "description-text-02": "Sastāvdaļas: svaiga ingvera sakne, svaigs laims, dabīgais medus, cukurs."
+        },
+        "cranberry-tea": {
+            "type": "YOGODA",
+            "name": "Dzērveņu tēja",
+            "description-text-01": "Dzērveņu garša un aromāts saglabā maksimālu uzturvielu daudzumu. Piparmētras un laima svaigums harmoniski papildina ingvera un medus pikantumu. Dzēriens veldzē un sniedz patiesu baudījumu.",
+            "description-text-02": "Sastāvdaļas: svaigi ātri saldētas dzērvenes, dabīgais medus, svaigs laims, svaiga ingvera sakne, kaltēts anīss, kaltēta piparmētra, cukurs."
+        },
+        "sea-buckthorn-tea": {
+            "type": "YOGODA",
+            "name": "Smiltsērkšķu tēja",
+            "description-text-01": "Saules krāsas dzēriens — īsts dabīgs antidepresants. Smiltsērkšķi, medus, ingvers, laims un austrumnieciskas garšvielas apvienojas vienotā harmonijā, saglabājot dabisko spēku.",
+            "description-text-02": "Sastāvdaļas: svaigi ātri saldēti smiltsērkšķi, svaiga ingvera sakne, svaigs laims, malts kanēlis, malts zvaigžņu anīss, dabīgais medus, cukurs."
+        },
+        "raspberry-tea": {
+            "type": "YOGODA",
+            "name": "Aveņu tēja",
+            "description-text-01": "Viegla, ērta un ļoti garda! Aveņu aromāts apvienojumā ar medus saldumu, ingvera vieglo rūgtumu un kanēļa siltumu rada īstu vasaras sajūtu visu gadu.",
+            "description-text-02": "Sastāvdaļas: svaigi ātri saldētas avenes, svaigi ātri saldētas upenes, dabīgais medus, svaiga ingvera sakne, malts kanēlis, cukurs."
+        },
+        "currant-tea": {
+            "type": "YOGODA",
+            "name": "Upenu tēja",
+            "description-text-01": "Minimāla termiskā apstrāde — maksimāls labums. Upenes ar bazilika aromātu un medus saldumu veido dziļu, bagātīgu garšu jebkuram noskaņojumam.",
+            "description-text-02": "Sastāvdaļas: svaigi ātri saldētas upenes, dabīgais medus, violets baziliks, cukurs."
+        },
+        "matcha-tea-coconut-latte": {
+            "type": "YOGODA",
+            "name": "Matcha tēja ar kokosriekstu latte",
+            "description-text-01": "Japāņu matcha zaļā tēja apvienojumā ar krēmīgu kokosriekstu garšu rada līdzsvarotu, atsvaidzinošu un nomierinošu dzērienu ar tropisku noskaņu.",
+            "description-text-02": "Sastāvdaļas: dzeramais ūdens, cukurs, kokosriekstu pasta, matcha zaļā tēja, dabīgs rozmarīna ekstrakts (antioksidants)."
+        },
+        "ginger-with-goji-tea": {
+            "type": "YOGODA",
+            "name": "Ingvera tēja ar godži ogām",
+            "description-text-01": "Veselīga uztura tendence! Godži ogas, acerola un ehinācija apvienojumā ar medu veido spēcīgu dzērienu imunitātei un vitalitātei.",
+            "description-text-02": "Sastāvdaļas: svaiga ingvera sakne, svaigs laims, kaltētas godži ogas, dabīgais medus, ehinācijas ekstrakts, acerolas ekstrakts (C vitamīns), cukurs."
+        },
+        "ginger-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Ingvera tēja ar kurkumu",
+            "description-text-01": "Leģendārs dzēriens ar tūkstošgadīgu vēsturi. Kurkuma piešķir zeltainu krāsu, savukārt ingvers, medus un citrusaugļi rada sildošu un līdzsvarotu garšu.",
+            "description-text-02": "Sastāvdaļas: svaiga ingvera sakne, svaigs laims, kurkuma, dabīgais medus, cukurs."
+        },
+        "raspberry-with-acerola-tea": {
+            "type": "YOGODA",
+            "name": "Aveņu tēja ar acerolu",
+            "description-text-01": "Aveņu bagātīgā garša, medus saldums un acerolas spēks veido dzērienu, kas stiprina imunitāti un dod enerģiju.",
+            "description-text-02": "Sastāvdaļas: svaigi ātri saldētas avenes, dabīgais medus, upenes, svaiga ingvera sakne, ehinācijas ekstrakts, acerolas ekstrakts, cukurs."
+        },
+        "raspberry-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Aveņu tēja ar kurkumu",
+            "description-text-01": "Spilgta krāsa un dzīvinoša garša. Kurkuma, avenes, medus, ingvers un kanēlis veido siltu, vasarīgu harmoniju.",
+            "description-text-02": "Sastāvdaļas: svaigi ātri saldētas avenes, upenes, dabīgais medus, svaiga ingvera sakne, kurkuma, malts kanēlis, cukurs."
+        },
+        "pear-lime-thyme-tea": {
+            "type": "YOGODA",
+            "name": "Bumbieru, laima un timiāna tēja",
+            "description-text-01": "Maiga saldskāba garša ar pļavu augu aromātu. Nomierina nervu sistēmu un veicina organisma attīrīšanos.",
+            "description-text-02": "Sastāvdaļas: bumbieris, svaiga ingvera sakne, laims, apelsīns, kaltētas godži ogas, kaltēts timiāns, dabīgs stēvijas ekstrakts."
+        },
+        "aronia-melanocarpa-cornelian-cherry-chilli-tea": {
+            "type": "YOGODA",
+            "name": "Aroniju, kizila un čili tēja",
+            "description-text-01": "Saldskāba, pikanta garša ar sildošu pēcgaršu. Tonizē, veicina atjaunošanos un stiprina imunitāti.",
+            "description-text-02": "Sastāvdaļas: kizila biezenis, aronijas, dabīgs stēvijas ekstrakts, kajēnas pipari."
+        },
+        "passion-fruit-mango-nutmeg-tea": {
+            "type": "YOGODA",
+            "name": "Marakujas, mango un muskatrieksta tēja",
+            "description-text-01": "Pikanta augļu kokteiļa garša ar maigu muskatrieksta noti. Stimulē un tonizē.",
+            "description-text-02": "Sastāvdaļas: mango biezenis, ķirbis, marakujas mīkstums, apelsīns, muskatrieksts, dabīgs stēvijas ekstrakts."
+        },
+        "currant-tea-2": {
+            "type": "YOGODA",
+            "name": "Upenu tēja",
+            "description-text-01": "Dziļi violets dzēriens jebkuram noskaņojumam. Baziliks pastiprina upeņu garšu un aromātu.",
+            "description-text-02": "Sastāvdaļas: pitah ūdens, upenes, kaltēts violets baziliks, citronskābe, saldinātājs sukraloze."
+        },
+        "sea-buckthorn-tea-2": {
+            "type": "YOGODA",
+            "name": "Smiltsērkšķu tēja",
+            "description-text-01": "100% dabīgs dzēriens ar bagātīgu smiltsērkšķu garšu. Baudāms gan silts, gan auksts.",
+            "description-text-02": "Sastāvdaļas: smiltsērkšķi, ābols, polidekstroze (šķiedrvielas), ingvera sakne, laims, citronskābe, kanēlis, zvaigžņu anīss, saldinātājs sukraloze."
+        },
+        "ginger-tea-2": {
+            "type": "YOGODA",
+            "name": "Ingvera tēja",
+            "description-text-01": "Sildošs ingvers un atsvaidzinošs laims — enerģija katrā tasītē!",
+            "description-text-02": "Sastāvdaļas: dzeramais ūdens, ingvera sakne, ābols, polidekstroze, laims, citronskābe, saldinātājs sukraloze."
+        },
+        "raspberry-tea-2": {
+            "type": "YOGODA",
+            "name": "Aveņu tēja",
+            "description-text-01": "Bagātīga garša, patīkams aromāts un ērta pagatavošana gan karstam, gan aukstam dzērienam.",
+            "description-text-02": "Sastāvdaļas: avenes, upenes, ingvera sakne, citronskābe, kanēlis, saldinātājs sukraloze."
+        },
+        "bramble": {
+            "type": "YOGODA",
+            "name": "Bramble",
+            "description-text-01": "Mūsdienīgs klasisks kokteilis ar kazenēm, avenēm un kadiķu notīm.",
+            "description-text-02": "Sastāvdaļas: aveņu sula, kazenes, cukurs, citronu sula, kadiķu ogas, koriandrs, kanēlis."
+        },
+        "mojito": {
+            "type": "YOGODA",
+            "name": "Mojito",
+            "description-text-01": "Klasisks kubiešu kokteilis ar laimu, piparmētru un cukuru — atsvaidzinošs un aromātisks.",
+            "description-text-02": "Sastāvdaļas: cukurs, laims, piparmētra."
+        },
+        "peach-bellini": {
+            "type": "YOGODA",
+            "name": "Persiku Bellini",
+            "description-text-01": "Itāļu iedvesmots augļu kokteilis ar persikiem, avenēm un timiānu.",
+            "description-text-02": "Sastāvdaļas: persiki, persiku sula, cukurs, aveņu sula, timiāns."
+        },
+        "sea-breeze": {
+            "type": "YOGODA",
+            "name": "Sea Breeze",
+            "description-text-01": "Atsvaidzinošs dzēriens ar dzērvenēm, greipfrūtu un medus notīm.",
+            "description-text-02": "Sastāvdaļas: dzērvenes, medus, greipfrūtu sula, cukurs, citronu sula."
+        },
+        "ginger-lemonade": {
+            "type": "YOGODA",
+            "name": "Ingvera limonāde",
+            "description-text-01": "Spilgta ingvera siltuma un laima skābuma kombinācija, kas uzmundrina un atsvaidzina.",
+            "description-text-02": "Sastāvdaļas: svaiga ingvera sakne, svaigs laims, cukurs, glikozes-fruktozes sīrups."
+        },
+        "sea-buckthorn-lemonade": {
+            "type": "YOGODA",
+            "name": "Smiltsērkšķu limonāde",
+            "description-text-01": "Spilgta saldskāba garša ar smiltsērkšķu, ābolu un marakujas notīm.",
+            "description-text-02": "Sastāvdaļas: smiltsērkšķi, ābols, marakujas mīkstums, cukurs."
+        },
+        "mango-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Mango un marakuja",
+            "description-text-01": "Sulīgs mango saldums apvienojas ar marakujas skābumu un laima svaigumu.",
+            "description-text-02": "Sastāvdaļas: mango biezenis, marakujas mīkstums, laima sula, cukurs, glikozes-fruktozes sīrups."
+        },
+        "strawberry-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Zemenes un marakuja",
+            "description-text-01": "Maigas zemenes un spilgta marakuja veido sulīgu, daudzdimensionālu garšu.",
+            "description-text-02": "Sastāvdaļas: zemenes, marakujas mīkstums, cukurs, glikozes-fruktozes sīrups."
+        },
+        "spicy-strawberry": {
+            "type": "YOGODA",
+            "name": "Pikantās zemenes",
+            "description-text-01": "Zemeņu saldums ar acai rūgtenumu un vieglu čili siltumu.",
+            "description-text-02": "Sastāvdaļas: zemenes, citronu sula, acai pulveris, cukurs, kajēnas pipari."
+        },
+        "spicy-pineapple": {
+            "type": "YOGODA",
+            "name": "Pikantais ananass",
+            "description-text-01": "Salds ananass, tropiska marakuja un maigs čili siltums.",
+            "description-text-02": "Sastāvdaļas: ananass, marakujas mīkstums, citronu sula, cukurs, kajēnas pipari."
+        },
+        "red-mulled-wine": {
+            "type": "YOGODA",
+            "name": "Sarkanais karstvīns",
+            "description-text-01": "Bezalkoholisks ziemas dzēriens ar bagātīgu garšvielu un augļu aromātu.",
+            "description-text-02": "Sastāvdaļas: dabīgais medus, ķirši, koncentrēta sarkano vīnogu sula, apelsīns, ābols, kardamons, kanēlis, muskatrieksts, krustnagliņas, zvaigžņu anīss, kajēnas pipari."
+        }
+    }
+}

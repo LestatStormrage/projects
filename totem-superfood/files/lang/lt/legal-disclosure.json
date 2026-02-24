@@ -1,0 +1,28 @@
+{
+	"_metaTitle": "Teisinė informacija",
+	"_metaDescription": "Oficiali įmonės Totem Superfood informacija ir registracijos duomenys.",
+
+	"legal-disclosure": {
+		"title": "Teisinė informacija",
+
+		"companyName": {
+			"label": "Įmonės pavadinimas:",
+			"value": "T.O.T.E.M. OÜ"
+		},
+
+		"companyId": {
+			"label": "Įmonės kodas:",
+			"value": "17245036, Tartu apskrities teismo registracijos skyrius, 2025 m. gegužės 20 d."
+		},
+
+		"representative": {
+			"label": "Įmonės vadovas / atstovas:",
+			"value": "Valerii Dinarin"
+		},
+
+		"address": {
+			"label": "Įmonės registracijos adresas:",
+			"value": "Harju apskritis, Kuusalu valsčius, Pudisoo kaimas, Männimäe/1, 74626, Estija"
+		}
+	}
+}

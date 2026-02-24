@@ -1,0 +1,43 @@
+{
+	"_metaTitle": "Susisiekite su mumis",
+	"_metaDescription": "Susisiekite su Totem Superfood. Užpildykite kontaktinę formą, kad taptumėte platintoju arba užduotumėte klausimus apie mūsų produktus.",
+	"contact-us": {
+		"title": "Susisiekite su mumis ir tapkite mūsų platintoju!",
+		"form": {
+			"title": "Naudokite šią formą laiškui išsiųsti",
+			"interest": {
+				"title": "Mane domina:",
+				"smoothies": "Kokteiliai",
+				"kombucha": "Kombuča",
+				"fruit-infusion-drinks": "Vaisių užpilų gėrimai"
+			},
+			"salutation": {
+				"label": "Kaip turėtume jus kreiptis? *",
+				"mr": "Ponas",
+				"mrs": "Ponia"
+			},
+			"firstName": {
+				"label": "Vardas *:",
+				"placeholder": "Vardas"
+			},
+			"lastName": {
+				"label": "Pavardė *:",
+				"placeholder": "Pavardė"
+			},
+			"email": {
+				"label": "El. paštas *:",
+				"placeholder": "El. paštas"
+			},
+			"addInfo": {
+				"label": "Papildoma informacija:",
+				"placeholder": "Papildoma informacija"
+			},
+			"agreement": {
+				"text": "Sutinku, kad mano asmens duomenys būtų renkami, tvarkomi ir naudojami laikantis",
+				"link": "privatumo politikos"
+			},
+			"required": "* Privaloma",
+			"button": "Siųsti"
+		}
+	}
+}

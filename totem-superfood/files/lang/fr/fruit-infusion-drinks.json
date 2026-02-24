@@ -1,0 +1,226 @@
+{
+    "_metaTitle": "Boissons à base d’infusions de fruits",
+    "_metaDescription": "Découvrez nos délicieuses boissons à base d’infusions de fruits et soutenez votre mode de vie actif.",
+    "yogoda": {
+        "main-title": "Boissons à base d’infusions de fruits",
+        "description-1": "Créées pour les personnes qui apprécient les ingrédients naturels, les bienfaits fonctionnels et une praticité maximale au quotidien. Nos mélanges d’infusions de fruits sont composés d’ingrédients 100 % naturels : baies soigneusement sélectionnées, fruits, gingembre, miel et épices. Nous ne modifions pas ce que la nature a créé. Nous l’affinons — pour le rendre plus clair, plus fonctionnel et plus facile à intégrer dans un mode de vie moderne et dynamique. Grâce à un traitement doux, nous préservons des saveurs intenses, une haute densité nutritionnelle et les propriétés naturelles, tout en garantissant une préparation sans effort. Le résultat est une boisson naturelle, proche du thé, qui s’adapte parfaitement aux différentes situations, saisons et besoins.",
+        "description-2": "Ces boissons à base d’infusions de fruits sont volontairement conçues pour être exceptionnellement pratiques et polyvalentes :",
+        "bullet-point": {
+            "1": "Au bureau ou à la maison",
+            "2": "Lors de longs voyages ou de courts déplacements",
+            "3": "Dans les avions, trains, bus ou voitures",
+            "4": "Lors de festivals, en camping-car ou en camping",
+            "5": "Lors de déplacements en canoë ou en kayak",
+            "6": "À l’hôtel – le matin ou le soir",
+            "7": "Lors de longues réunions, présentations, conférences ou formations"
+        },
+        "seasons": {
+            "summer": {
+                "title": "En été",
+                "text": "Ajoutez de l’eau froide et profitez d’une boisson rafraîchissante et revitalisante qui booste l’énergie et apporte une fraîcheur naturelle."
+            },
+            "winter": {
+                "title": "En hiver",
+                "text": "Ajoutez de l’eau chaude et savourez une boisson réchauffante qui soutient le système immunitaire et revitalise le corps et l’esprit."
+            }
+        },
+        "classic": {
+            "title": "Classique"
+        },
+        "immunity": {
+            "title": "Immunité"
+        },
+        "sugar-free": {
+            "title": "Sans sucre"
+        },
+        "coctails": {
+            "title": "Cocktails"
+        },
+        "cherry-tea-with-chocolate": {
+            "type": "YOGODA",
+            "name": "Thé à la cerise et au chocolat",
+            "description-text-01": "La première gorgée révèle une saveur profonde et veloutée de cacao, créée par le chocolat râpé. Vient ensuite une acidité vive de la cerise, qui joue sur le contraste et rend le goût juteux et dynamique. Enfin, une subtile chaleur de piment de Cayenne rehausse chaque note sans altérer la délicatesse.",
+            "description-text-02": "Ingrédients : cerises (baies surgelées), cacao râpé (chocolat naturel), jus de grenade concentré, sucre, sirop de glucose-fructose, piment de Cayenne."
+        },
+        "tea-with-blueberries-and-lavender": {
+            "type": "YOGODA",
+            "name": "Thé aux myrtilles et à la lavande",
+            "description-text-01": "Une base douce et sucrée de myrtilles — comme des baies mûres fraîchement cueillies en forêt — apporte une légère note miellée. La lavande ajoute une légèreté florale et un parfum apaisant, créant une sensation de profonde détente. Enfin, l’acidité subtile de la grenade apporte de la sophistication et souligne délicatement la finesse du goût.",
+            "description-text-02": "Ingrédients : myrtilles, jus de grenade concentré, fleurs de lavande séchées, sucre, sirop de glucose-fructose."
+        },
+        "sea-buckthorn-tea-with-apricot": {
+            "type": "YOGODA",
+            "name": "Thé à l’argousier et à l’abricot",
+            "description-text-01": "L’acidité ensoleillée de l’argousier touche d’abord le palais — vive et fraîche, sans être agressive. Elle est ensuite enveloppée par la douceur veloutée de l’abricot, comme une cuillerée de confiture maison. Les deux saveurs conservent la douceur naturelle des fruits, comme s’ils venaient d’être cueillis. Ensemble, elles créent un équilibre parfait entre acidité et douceur — naturel, lumineux et délicieux.",
+            "description-text-02": "Ingrédients : argousier (purée/baies), abricot (purée), sucre."
+        },
+        "ginger-tea": {
+            "type": "YOGODA",
+            "name": "Thé au gingembre",
+            "description-text-01": "La nature elle-même a créé cette boisson pour vous ! Aucun additif artificiel — uniquement des ingrédients utiles : miel naturel, citron vert juteux et gingembre intense. Une technologie de fabrication douce associée à des ingrédients naturels — le secret est simple, et le résultat est excellent ! Une palette de saveurs vive et riche, dominée par le gingembre. Mais le secret de la popularité de cette boisson réside dans son équilibre parfait : la douceur du miel, l’acidité du citron vert et l’amertume du gingembre.",
+            "description-text-02": "Ingrédients : racine de gingembre frais, citron vert frais, miel naturel, sucre."
+        },
+        "cranberry-tea": {
+            "type": "YOGODA",
+            "name": "Thé aux canneberges",
+            "description-text-01": "Né du goût et de l’arôme des canneberges, ce thé conserve un maximum de nutriments. L’harmonie du duo menthe et citron vert soutient et développe la note épicée du gingembre et du miel. Ce thé ne se contente pas d’étancher la soif, il procure également un véritable plaisir.",
+            "description-text-02": "Ingrédients : canneberges fraîches surgelées, miel naturel, citron vert frais, racine de gingembre frais, anis sec, menthe sèche, sucre."
+        },
+        "sea-buckthorn-tea": {
+            "type": "YOGODA",
+            "name": "Thé à l’argousier",
+            "description-text-01": "Boisson couleur bonheur — un véritable antidépresseur, la chaleur du soleil dans chaque tasse. La technologie unique de préparation vise à préserver la composition naturelle de tous les ingrédients. Argousier, miel, gingembre, citron vert, cannelle, badiane — une bombe vitaminée ! L’argousier révèle toute sa puissance, la fraîcheur du citron vert est relevée par la chaleur orientale du gingembre, et les épices parfumées s’unissent en une harmonie parfaite.",
+            "description-text-02": "Ingrédients : argousier frais surgelé, racine de gingembre frais, citron vert frais, cannelle moulue, badiane moulue, miel naturel, sucre."
+        },
+        "raspberry-tea": {
+            "type": "YOGODA",
+            "name": "Thé à la framboise",
+            "description-text-01": "Rapide, pratique et surtout délicieux ! Chacun de nous a des souvenirs d’enfance : une vie insouciante, des framboises sucrées dans le jardin… Le thé à la framboise Yogoda, c’est une gorgée d’été toute l’année ! L’arôme envoûtant de la framboise, associé à la douceur naturelle du miel, est parfaitement complété par une légère amertume de gingembre et un parfum chaleureux de cannelle.",
+            "description-text-02": "Ingrédients : framboises fraîches surgelées, cassis frais surgelés, miel naturel, racine de gingembre frais, cannelle moulue, sucre."
+        },
+        "currant-tea": {
+            "type": "YOGODA",
+            "name": "Thé au cassis",
+            "description-text-01": "Traitement thermique minimal, nutriments maximaux — c’est sur ce principe que ce thé aux baies est élaboré. Même les sages tibétains louaient le cassis pour ses propriétés tonifiantes et son goût riche. L’arôme du basilic pourpre agit comme une hormone du bonheur, et le miel est une source précieuse de vitamines et d’oligo-éléments. Une boisson d’un violet profond — pour tous les jours et toutes les humeurs !",
+            "description-text-02": "Ingrédients : cassis frais surgelés, miel naturel, basilic pourpre, sucre."
+        },
+        "matcha-tea-coconut-latte": {
+            "type": "YOGODA",
+            "name": "Latte au thé matcha et à la noix de coco",
+            "description-text-01": "Le Latte au thé Matcha et à la noix de coco est une combinaison parfaitement équilibrée de thé vert matcha japonais traditionnel et de la saveur crémeuse de la noix de coco naturelle. Le matcha, riche en antioxydants et aux propriétés énergisantes, acquiert des notes délicates et légèrement sucrées grâce à la noix de coco. Cette boisson rafraîchissante étanche la soif et procure une sensation de calme grâce à sa composition naturelle.",
+            "description-text-02": "Ingrédients : eau potable, sucre, pâte de noix de coco, thé vert matcha, extrait naturel de romarin (antioxydant)."
+        },
+        "ginger-with-goji-tea": {
+            "type": "YOGODA",
+            "name": "Thé au gingembre et aux baies de goji",
+            "description-text-01": "Tendance du monde de l’alimentation saine ! Les baies de goji sont aujourd’hui un véritable incontournable — et maintenant, vous pouvez aussi les boire ! Prévention des rhumes, ralentissement du vieillissement, normalisation du métabolisme — tout cela, c’est le goji. Ajoutez l’extrait légendaire d’acérola et d’échinacée, ainsi que le miel naturel riche en vitamines et minéraux — faites confiance au thé de la nouvelle génération !",
+            "description-text-02": "Ingrédients : racine de gingembre frais, citron vert frais, baies de goji séchées, miel naturel, extrait naturel de racine d’échinacée pourpre, extrait naturel d’acérola (vitamine C), sucre."
+        },
+        "ginger-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Thé au gingembre et au curcuma",
+            "description-text-01": "Une légende dans le monde de l’alimentation saine ! Le curcuma, fort de mille ans d’histoire, est une mesure préventive puissante et un antibiotique naturel aux effets bénéfiques. Il confère à la boisson une belle couleur dorée, tandis que le gingembre épicé, la douceur du miel et l’acidité des agrumes complètent parfaitement la composition. Des bienfaits, quelle que soit la saison.",
+            "description-text-02": "Ingrédients : racine de gingembre frais, citron vert frais, curcuma, miel naturel, sucre."
+        },
+        "raspberry-with-acerola-tea": {
+            "type": "YOGODA",
+            "name": "Thé à la framboise et à l’acérola",
+            "description-text-01": "Le miel naturel apporte une douceur naturelle, la framboise une richesse de goût, et l’échinacée et l’acérola garantissent une forte immunité. Arôme fruité avec une légère acidité et une subtile amertume sucrée en finale. Effet antioxydant, réparateur et tonique. Ressentez la joie d’être en bonne santé et plein d’énergie !",
+            "description-text-02": "Ingrédients : framboises fraîches surgelées, miel naturel, cassis frais, racine de gingembre frais, extrait naturel d’échinacée pourpre, extrait naturel d’acérola (vitamine C), sucre."
+        },
+        "raspberry-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Thé à la framboise et au curcuma",
+            "description-text-01": "L’épice de couleur vive renferme une force vitale. Le curcuma, parent du gingembre, est inégalé pour ses propriétés anti-inflammatoires et antioxydantes. Les notes épicées du curcuma soutiennent le goût estival de la framboise, la douceur du miel, l’acidité légère du cassis, la fraîcheur du gingembre et la chaleur de la cannelle.",
+            "description-text-02": "Ingrédients : framboises fraîches surgelées, cassis frais surgelés, miel naturel, racine de gingembre frais, curcuma, cannelle moulue, sucre."
+        },
+        "pear-lime-thyme-tea": {
+            "type": "YOGODA",
+            "name": "Thé à la poire, au citron vert et au thym",
+            "description-text-01": "Goût délicat, acidulé et sucré, avec un arôme d’herbes sauvages. Apaise le système nerveux, protège contre l’athérosclérose, réduit le risque de thrombose, normalise la fonction hépatique et élimine les toxines.",
+            "description-text-02": "Ingrédients : poire, racine de gingembre frais, citron vert, orange, baies de goji séchées, thym séché, extrait naturel de stévia."
+        },
+        "aronia-melanocarpa-cornelian-cherry-chilli-tea": {
+            "type": "YOGODA",
+            "name": "Thé à l’aronia, à la cornouille et au piment",
+            "description-text-01": "Boisson à l’arôme agréable, au goût aigre-doux et épicé, avec une légère astringence chaleureuse. Ce thé tonifie les systèmes musculaire et nerveux, aide à récupérer rapidement après un effort, régule la digestion, active le foie, agit positivement sur le système endocrinien, réduit la tension artérielle et le cholestérol, et renforce l’immunité.",
+            "description-text-02": "Ingrédients : purée de cornouille, aronia melanocarpa, extrait naturel de stévia, piment de Cayenne."
+        },
+        "passion-fruit-mango-nutmeg-tea": {
+            "type": "YOGODA",
+            "name": "Thé au fruit de la passion, à la mangue et à la muscade",
+            "description-text-01": "Goût acidulé et séduisant d’un cocktail de fruits et de baies, complété par de subtiles notes épicées de muscade. Cette boisson a un effet stimulant et tonique, et renforce la mémoire et le système nerveux.",
+            "description-text-02": "Ingrédients : purée de mangue, courge, pulpe de fruit de la passion, orange, muscade, extrait naturel de stévia."
+        },
+        "currant-tea-2": {
+            "type": "YOGODA",
+            "name": "Thé au cassis",
+            "description-text-01": "Une boisson profonde de couleur lavande foncée pour tous les jours et toutes les humeurs ! Le thé classique au cassis évoque l’enfance. Le basilic épicé accentue le goût et l’arôme du cassis, les rendant encore plus intenses. Chaud, il réchauffe ; froid, il rafraîchit parfaitement en été.",
+            "description-text-02": "Ingrédients : eau potable, cassis, basilic pourpre séché, régulateur d’acidité (acide citrique), édulcorant (sucralose)."
+        },
+        "sea-buckthorn-tea-2": {
+            "type": "YOGODA",
+            "name": "Thé à l’argousier",
+            "description-text-01": "Le thé liquide à l’argousier est une boisson 100 % naturelle à base d’ingrédients naturels. Il possède un goût riche d’argousier, légèrement épicé et acidulé. Il peut être consommé chaud ou froid. En hiver, il réchauffe et dynamise ; en été, il rafraîchit agréablement.",
+            "description-text-02": "Ingrédients : argousier, pomme, polydextrose (fibres alimentaires), racine de gingembre, citron vert, régulateur d’acidité (acide citrique), cannelle moulue, badiane moulue, édulcorant (sucralose)."
+        },
+        "ginger-tea-2": {
+            "type": "YOGODA",
+            "name": "Thé au gingembre",
+            "description-text-01": "Gingembre épicé et sucré, citron vert juteux et acidulé — une excellente recette pour se réchauffer ou se dynamiser. Un boost d’énergie dans chaque tasse !",
+            "description-text-02": "Ingrédients : eau potable, racine de gingembre, pomme, polydextrose (fibres alimentaires), citron vert, régulateur d’acidité (acide citrique), édulcorant (sucralose)."
+        },
+        "raspberry-tea-2": {
+            "type": "YOGODA",
+            "name": "Thé à la framboise",
+            "description-text-01": "Le thé naturel à la framboise en sachet offre un goût riche et un arôme agréable. Il peut être consommé chaud ou froid. Son autre avantage est son emballage hermétique pratique, garantissant la fraîcheur. Mode de préparation : ouvrez le doypack et versez le contenu dans une tasse, ajoutez 200 ml d’eau bouillante ou froide, mélangez et laissez infuser trois minutes.",
+            "description-text-02": "Ingrédients : framboise, cassis, racine de gingembre, régulateur d’acidité (acide citrique), cannelle, édulcorant (sucralose)."
+        },
+        "bramble": {
+            "type": "YOGODA",
+            "name": "Bramble",
+            "description-text-01": "Cocktail à base de mûres, framboises, jus de citron, coriandre, baies de genièvre et sucre. Les framboises apportent douceur et fruité, le citron fraîcheur et acidité, tandis que le genièvre et la coriandre ajoutent du caractère. Le Bramble est considéré comme un classique moderne, idéal à tout moment de la journée.",
+            "description-text-02": "Ingrédients : jus de framboise, mûres, sucre, jus de citron, baies de genièvre, coriandre, cannelle."
+        },
+        "mojito": {
+            "type": "YOGODA",
+            "name": "Mojito",
+            "description-text-01": "Inspiré du cocktail cubain classique à base de jus de citron vert frais, de menthe et de sucre. Cette boisson est réputée pour sa palette de saveurs rafraîchissantes et aromatiques, idéale pour une journée chaude ou une soirée.",
+            "description-text-02": "Ingrédients : sucre, citron vert, menthe."
+        },
+        "peach-bellini": {
+            "type": "YOGODA",
+            "name": "Bellini à la pêche",
+            "description-text-01": "Créé à partir d’un cocktail de fruits frais originaire d’Italie. Nous le préparons avec des morceaux de pêche de qualité, de la purée de pêche, des framboises, du thym et du sucre. Ce cocktail est réputé pour sa texture délicate et son goût rafraîchissant.",
+            "description-text-02": "Ingrédients : pêche, jus de pêche, sucre, jus de framboise, thym."
+        },
+        "sea-breeze": {
+            "type": "YOGODA",
+            "name": "Sea Breeze",
+            "description-text-01": "Boisson rafraîchissante composée de jus de canneberge, de pamplemousse et de citron, avec des notes de miel. Le cocktail Sea Breeze offre un goût fruité léger avec une acidité agréable.",
+            "description-text-02": "Ingrédients : canneberges, miel, jus de pamplemousse, sucre, jus de citron."
+        },
+        "ginger-lemonade": {
+            "type": "YOGODA",
+            "name": "Limonade au gingembre",
+            "description-text-01": "La combinaison vive du gingembre épicé et du citron vert frais crée un bouquet expressif : une chaleur douce suivie d’une acidité citronnée rafraîchissante. La couleur dorée naturelle et le goût inoubliable en font une boisson parfaite à tout moment de la journée.",
+            "description-text-02": "Ingrédients : racine de gingembre frais, citron vert frais, sucre, sirop de glucose-fructose."
+        },
+        "sea-buckthorn-lemonade": {
+            "type": "YOGODA",
+            "name": "Limonade à l’argousier",
+            "description-text-01": "Saveur riche, douce et acidulée au caractère affirmé. L’acidité vive de l’argousier ouvre la dégustation, suivie de la douceur juteuse de la pomme mûre, puis d’une note délicate de fruit de la passion. Légèrement miellée, aromatique et très rafraîchissante.",
+            "description-text-02": "Ingrédients : argousier (baies surgelées), pomme, pulpe de fruit de la passion, sucre."
+        },
+        "mango-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Mangue & fruit de la passion",
+            "description-text-01": "La mangue mûre et juteuse ouvre le goût avec une douceur profonde, suivie de l’acidité rafraîchissante du fruit de la passion. Le citron vert complète l’ensemble avec une touche d’agrumes délicate.",
+            "description-text-02": "Ingrédients : purée de mangue, pulpe de fruit de la passion, citron vert (jus frais), sucre, sirop de glucose-fructose."
+        },
+        "strawberry-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Fraise & fruit de la passion",
+            "description-text-01": "Les fraises mûres révèlent immédiatement une douceur délicate, suivies par la fraîcheur acidulée du fruit de la passion, créant une saveur vive et multidimensionnelle.",
+            "description-text-02": "Ingrédients : fraises (baies surgelées et jus concentré), fruit de la passion (pulpe), sucre, sirop de glucose-fructose."
+        },
+        "spicy-strawberry": {
+            "type": "YOGODA",
+            "name": "Fraise épicée",
+            "description-text-01": "Les fraises mûres et parfumées apportent une douceur sincère, tandis que l’açaï et le piment de Cayenne ajoutent une chaleur subtile et épicée.",
+            "description-text-02": "Ingrédients : fraises (baies surgelées et jus concentré), jus de citron, poudre de baies d’açaï, sucre, piment de Cayenne."
+        },
+        "spicy-pineapple": {
+            "type": "YOGODA",
+            "name": "Ananas épicé",
+            "description-text-01": "La douceur intense de l’ananas est rehaussée par l’acidité du fruit de la passion, puis complétée par une touche épicée de piment de Cayenne.",
+            "description-text-02": "Ingrédients : ananas (en conserve et jus concentré), fruit de la passion (pulpe), jus de citron, sucre, piment de Cayenne."
+        },
+        "red-mulled-wine": {
+            "type": "YOGODA",
+            "name": "Vin chaud rouge",
+            "description-text-01": "Le vin chaud rouge Yogoda est une variation sans alcool du classique hivernal, offrant un goût riche et épicé avec des notes de cannelle, d’agrumes, de muscade et de clou de girofle.",
+            "description-text-02": "Ingrédients : miel naturel, cerise, jus de raisin rouge concentré, orange, pomme, cardamome, cannelle moulue, muscade, clous de girofle, badiane, piment de Cayenne."
+        }
+    }
+}

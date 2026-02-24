@@ -1,0 +1,43 @@
+{
+	"_metaTitle": "Sazinieties ar mums",
+	"_metaDescription": "Sazinieties ar Totem Superfood. Aizpildiet kontaktformu, lai kļūtu par mūsu izplatītāju vai uzdotu jautājumus par produktiem.",
+	"contact-us": {
+		"title": "Sazinieties ar mums un kļūstiet par mūsu izplatītāju!",
+		"form": {
+			"title": "Izmantojiet šo formu, lai nosūtītu mums e-pastu",
+			"interest": {
+				"title": "Man interesē:",
+				"smoothies": "Smūtiji",
+				"kombucha": "Kombuča",
+				"fruit-infusion-drinks": "Augļu uzlējumu dzērieni"
+			},
+			"salutation": {
+				"label": "Kā mums jūs uzrunāt? *",
+				"mr": "Kungs",
+				"mrs": "Kundze"
+			},
+			"firstName": {
+				"label": "Vārds *:",
+				"placeholder": "Vārds"
+			},
+			"lastName": {
+				"label": "Uzvārds *:",
+				"placeholder": "Uzvārds"
+			},
+			"email": {
+				"label": "E-pasts *:",
+				"placeholder": "E-pasts"
+			},
+			"addInfo": {
+				"label": "Papildu informācija:",
+				"placeholder": "Papildu informācija"
+			},
+			"agreement": {
+				"text": "Es piekrītu manu personas datu apstrādei saskaņā ar",
+				"link": "privātuma politiku"
+			},
+			"required": "* Obligāts lauks",
+			"button": "Nosūtīt"
+		}
+	}
+}

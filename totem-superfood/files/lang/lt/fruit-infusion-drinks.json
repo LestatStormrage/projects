@@ -1,0 +1,226 @@
+{
+    "_metaTitle": "Vaisių užpilų gėrimai",
+    "_metaDescription": "Atraskite mūsų gardžius vaisių užpilų gėrimus ir palaikykite aktyvų gyvenimo būdą.",
+    "yogoda": {
+        "main-title": "Vaisių užpilų gėrimai",
+        "description-1": "Sukurta žmonėms, vertinantiems natūralius ingredientus, funkcinius privalumus ir maksimalų patogumą kasdieniame gyvenime. Mūsų vaisių užpilai gaminami iš 100 % natūralių sudedamųjų dalių: kruopščiai atrinktų uogų, vaisių, imbiero, medaus ir prieskonių. Mes nekeičiame to, ką sukūrė gamta. Vietoj to ją tobuliname – darome aiškesnę, funkcionalesnę ir lengviau pritaikomą šiuolaikiniam, dinamiškam gyvenimo būdui. Švelnaus apdorojimo dėka išsaugome intensyvius skonius, didelį maistinių medžiagų tankį ir natūralias savybes, kartu užtikrindami lengvą paruošimą. Rezultatas – natūralus, į arbatą panašus gėrimas, puikiai prisitaikantis prie skirtingų situacijų, sezonų ir poreikių.",
+        "description-2": "Šie vaisių užpilų gėrimai sąmoningai sukurti būti itin patogūs ir universalūs:",
+        "bullet-point": {
+            "1": "Biure ar namuose",
+            "2": "Ilgų kelionių ir trumpų išvykų metu",
+            "3": "Lėktuvuose, traukiniuose, autobusuose ar automobiliuose",
+            "4": "Festivaliuose, kemperiuose ar stovyklaujant",
+            "5": "Keliaujant kanoja ar baidare",
+            "6": "Viešbučiuose – ryte arba vakare",
+            "7": "Ilgų susitikimų, pristatymų, konferencijų ar mokymų metu"
+        },
+        "seasons": {
+            "summer": {
+                "title": "Vasarą",
+                "text": "Įpilkite šalto vandens ir mėgaukitės gaivinančiu, energijos suteikiančiu gėrimu, kupinu natūralaus gaivumo."
+            },
+            "winter": {
+                "title": "Žiemą",
+                "text": "Įpilkite karšto vandens ir mėgaukitės šildančiu gėrimu, kuris palaiko imuninę sistemą ir atgaivina kūną bei protą."
+            }
+        },
+        "classic": {
+            "title": "Klasika"
+        },
+        "immunity": {
+            "title": "Imunitetui"
+        },
+        "sugar-free": {
+            "title": "Be cukraus"
+        },
+        "coctails": {
+            "title": "Kokteiliai"
+        },
+        "cherry-tea-with-chocolate": {
+            "type": "YOGODA",
+            "name": "Vyšnių arbata su šokoladu",
+            "description-text-01": "Pirmasis gurkšnis atskleidžia gilų, aksominį kakavos skonį, kurį sukuria tarkuotas šokoladas. Po to pasirodo ryškus vyšnių rūgštumas, žaidžiantis kontrastais ir suteikiantis skoniui sultingumo. Pabaigoje – subtili kajeno pipiro šiluma, pabrėžianti kiekvieną natą, tačiau neišbalansuojanti subtilumo.",
+            "description-text-02": "Sudėtis: vyšnios (šaldytos uogos), tarkuota kakava (natūralus šokoladas), koncentruotos granatų sultys, cukrus, gliukozės-fruktozės sirupas, kajeno pipirai."
+        },
+        "tea-with-blueberries-and-lavender": {
+            "type": "YOGODA",
+            "name": "Arbata su mėlynėmis ir levandomis",
+            "description-text-01": "Švelnus, saldus mėlynių pagrindas – tarsi ką tik iš miško nuskintos uogos – suteikia lengvą medaus natą. Levandos įneša gėlių lengvumo ir raminančio aromato, sukurdamos gilaus atsipalaidavimo pojūtį. Galiausiai subtilus granatų rūgštumas suteikia rafinuotumo ir paryškina skonio subtilumą.",
+            "description-text-02": "Sudėtis: mėlynės, koncentruotos granatų sultys, džiovinti levandų žiedai, cukrus, gliukozės-fruktozės sirupas."
+        },
+        "sea-buckthorn-tea-with-apricot": {
+            "type": "YOGODA",
+            "name": "Šaltalankių arbata su abrikosais",
+            "description-text-01": "Pirmiausia gomurį pasiekia saulėtas šaltalankių rūgštumas – ryškus, gaivus, bet ne aštrus. Netrukus jį apgaubia švelnus, aksominis abrikosų saldumas, primenantis naminę uogienę. Abu skoniai išlaiko natūralų uogų saldumą, tarsi jos būtų ką tik nuskintos. Kartu jie sukuria tobulą rūgštumo ir saldumo pusiausvyrą – natūralią, ryškią ir gardžią.",
+            "description-text-02": "Sudėtis: šaltalankiai (tyrė / uogos), abrikosai (tyrė), cukrus."
+        },
+        "ginger-tea": {
+            "type": "YOGODA",
+            "name": "Imbierinė arbata",
+            "description-text-01": "Pati gamta sukūrė šį gėrimą jums! Be jokių dirbtinių priedų – tik naudingi ingredientai: tikras medus, sultinga laima ir aitrus imbieras. Švelni gamybos technologija ir natūrali sudėtis – paslaptis paprasta, o rezultatas puikus! Ryški ir sodri skonių paletė, kurioje pagrindinį vaidmenį atlieka imbiero šaknis. Tačiau tikroji populiarumo paslaptis – tobula pusiausvyra tarp medaus saldumo, laimos rūgštumo ir imbiero kartumo.",
+            "description-text-02": "Sudėtis: šviežia imbiero šaknis, šviežia laima, natūralus medus, cukrus."
+        },
+        "cranberry-tea": {
+            "type": "YOGODA",
+            "name": "Spanguolių arbata",
+            "description-text-01": "Gimusi iš spanguolių skonio ir aromato, ši arbata išsaugo maksimalų maistinių medžiagų kiekį. Mėtų ir laimos duetas harmoningai papildo imbiero ir medaus aštrumą. Ši arbata ne tik malšina troškulį, bet ir suteikia tikrą malonumą.",
+            "description-text-02": "Sudėtis: šviežiai greitai užšaldytos spanguolės, natūralus medus, šviežia laima, šviežia imbiero šaknis, džiovintas anyžius, džiovintos mėtos, cukrus."
+        },
+        "sea-buckthorn-tea": {
+            "type": "YOGODA",
+            "name": "Šaltalankių arbata",
+            "description-text-01": "Laimės spalvos gėrimas – tikras natūralus antidepresantas, saulės šiluma kiekviename puodelyje. Unikali paruošimo technologija skirta išsaugoti natūralią visų ingredientų sudėtį. Šaltalankiai, medus, imbieras, laima, cinamonas, žvaigždinis anyžius – tikra vitaminų bomba! Šaltalankių uogos atskleidžia visą savo gydomąją galią, laimos gaivumą pabrėžia rytietiškas imbiero aitrumas, o kvapnūs prieskoniai susilieja į harmoningą skambesį.",
+            "description-text-02": "Sudėtis: šviežiai greitai užšaldyti šaltalankiai, šviežia imbiero šaknis, šviežia laima, maltas cinamonas, maltas žvaigždinis anyžius, natūralus medus, cukrus."
+        },
+        "raspberry-tea": {
+            "type": "YOGODA",
+            "name": "Aviečių arbata",
+            "description-text-01": "Greita, patogu ir svarbiausia – labai skanu! Kiekvienas iš mūsų turi vaikystės prisiminimų: nerūpestingas laikas, linksmybės ir saldžios avietės sode tiesiai nuo krūmo... Yogoda aviečių arbata – vasaros gurkšnis visus metus! Svaiginantis aviečių aromatas kartu su natūraliu medaus saldumu puikiai papildomas lengvu imbiero kartumu ir jaukiu cinamono kvapu.",
+            "description-text-02": "Sudėtis: šviežiai greitai užšaldytos avietės, šviežiai greitai užšaldyti juodieji serbentai, natūralus medus, šviežia imbiero šaknis, maltas cinamonas, cukrus."
+        },
+        "currant-tea": {
+            "type": "YOGODA",
+            "name": "Serbentų arbata",
+            "description-text-01": "Minimalus terminis apdorojimas – maksimalus naudingųjų medžiagų kiekis. Šiuo principu kuriama uogų arbata. Net Tibeto išminčiai vertino serbentus dėl jų tonizuojančių savybių ir sodraus skonio. Violetinio baziliko aromatas veikia kaip laimės hormonas, o medus – neįkainojamas vitaminų ir mikroelementų šaltinis. Giliai tamsiai violetinės spalvos gėrimas – bet kuriai dienai ir nuotaikai!",
+            "description-text-02": "Sudėtis: šviežiai greitai užšaldyti serbentai, natūralus medus, violetinis bazilikas, cukrus."
+        },
+        "matcha-tea-coconut-latte": {
+            "type": "YOGODA",
+            "name": "Matcha arbata su kokosų latte",
+            "description-text-01": "Matcha Tea Coconut Latte – meistriškai subalansuotas tradicinės japoniškos matcha žaliosios arbatos ir kreminio natūralaus kokoso skonio derinys. Antioksidantais turtinga ir energizuojanti matcha arbata įgauna švelnias, lengvai saldžias natas dėl kokoso. Šis gaivus gėrimas ne tik malšina troškulį, bet ir suteikia ramybės pojūtį dėl natūralios sudėties. Kokoso švelnumo ir matcha intensyvumo derinys sukuria unikalią skonio patirtį, nukeliančią į tropinių salų atmosferą ir suteikiančią gyvybingumo kiekvienu gurkšniu.",
+            "description-text-02": "Sudėtis: geriamasis vanduo, cukrus, kokosų pasta, matcha žalioji arbata, natūralus rozmarinų ekstraktas (antioksidantas)."
+        },
+        "ginger-with-goji-tea": {
+            "type": "YOGODA",
+            "name": "Imbierinė arbata su godži uogomis",
+            "description-text-01": "Sveikos mitybos pasaulio tendencija! Godži uogos šiandien – tikras „must have“. O dabar jas galima ir gerti! Peršalimo prevencija, senėjimo procesų lėtinimas, medžiagų apykaitos normalizavimas – visa tai godži. Pridėkite legendinius acerolos ir ežiuolės ekstraktus bei natūralų medų, turtingą vitaminais ir mikroelementais – patikėkite naujos kartos arbata!",
+            "description-text-02": "Sudėtis: šviežia imbiero šaknis, šviežia laima, džiovintos godži uogos, natūralus medus, natūralus ežiuolės šaknų ekstraktas, natūralus acerolos ekstraktas (vitaminas C), cukrus."
+        },
+        "ginger-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Imbierinė arbata su ciberžole",
+            "description-text-01": "Sveikos mitybos pasaulio legenda! Tūkstantmetę istoriją turinti ciberžolė – galinga prevencinė priemonė ir natūralus antibiotikas. Ji suteikia gėrimui malonią auksinę spalvą, o imbiero aštrumas, natūralaus medaus saldumas ir citrusinė rūgštelė sukuria harmoningą skonio kompoziciją. Nauda bet kuriuo metų laiku.",
+            "description-text-02": "Sudėtis: šviežia imbiero šaknis, šviežia laima, ciberžolė, natūralus medus, cukrus."
+        },
+        "raspberry-with-acerola-tea": {
+            "type": "YOGODA",
+            "name": "Aviečių arbata su acerola",
+            "description-text-01": "Natūralus medus suteikia saldumo, avietės – sodrų skonį, o ežiuolė ir acerola garantuoja stiprų imunitetą. Vaisių ir uogų aromatas su lengva rūgštele ir subtiliu kartokai saldžiu poskoniu. Pasižymi antioksidaciniu, atstatomuoju ir tonizuojančiu poveikiu. Pajuskite džiaugsmą būti sveikiems ir kupiniems energijos!",
+            "description-text-02": "Sudėtis: šviežiai greitai užšaldytos avietės, natūralus medus, švieži juodieji serbentai, šviežia imbiero šaknis, natūralus ežiuolės ekstraktas, natūralus acerolos ekstraktas (vitaminas C), cukrus."
+        },
+        "raspberry-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Aviečių arbata su ciberžole",
+            "description-text-01": "Ryškios spalvos prieskonis slepia savyje ir gyvybinę energiją. Ciberžolė, imbiero giminaitė, neturi lygių pagal priešuždegimines ir antioksidacines savybes. Aštrios ciberžolės natos palaiko vasarišką aviečių skonį, medaus saldumą, lengvą serbentų rūgštelę, imbiero gaivumą ir cinamono prieskoniškumą.",
+            "description-text-02": "Sudėtis: šviežiai greitai užšaldytos avietės, šviežiai greitai užšaldyti juodieji serbentai, natūralus medus, šviežia imbiero šaknis, ciberžolė, maltas cinamonas, cukrus."
+        },
+        "pear-lime-thyme-tea": {
+            "type": "YOGODA",
+            "name": "Kriaušių, laimų ir čiobrelių arbata",
+            "description-text-01": "Švelnus saldžiarūgštis skonis su stepinių žolių aromatu. Ramina nervų sistemą, saugo nuo aterosklerozės, mažina trombozės riziką, normalizuoja kepenų veiklą ir šalina toksinus.",
+            "description-text-02": "Sudėtis: kriaušė, šviežia imbiero šaknis, laima, apelsinas, džiovintos godži uogos, džiovinti čiobreliai, natūralus stevijos ekstraktas."
+        },
+        "aronia-melanocarpa-cornelian-cherry-chilli-tea": {
+            "type": "YOGODA",
+            "name": "Juodųjų aronijų, sedulų ir čili arbata",
+            "description-text-01": "Gėrimas pasižymi maloniu aromatu, saldžiarūgščiu, aštriu skoniu su lengvu, sutraukiančiu ir šildančiu poskoniu. Tonizuoja raumenų ir nervų sistemą, padeda greičiau atsigauti po krūvio. Reguliuoja virškinimą, aktyvina kepenų veiklą, teigiamai veikia endokrininę sistemą, mažina kraujospūdį ir cholesterolio kiekį, stiprina imunitetą.",
+            "description-text-02": "Sudėtis: sedulų tyrė, juodosios aronijos, natūralus stevijos ekstraktas, kajeno pipirai."
+        },
+        "passion-fruit-mango-nutmeg-tea": {
+            "type": "YOGODA",
+            "name": "Pasiflorų, mango ir muskato riešuto arbata",
+            "description-text-01": "Rūgštokas, viliojantis vaisių ir uogų kokteilio skonis, papildytas subtiliomis muskato riešuto prieskoninėmis natomis. Gėrimas pasižymi stimuliuojančiu ir tonizuojančiu poveikiu, stiprina atmintį ir nervų sistemą.",
+            "description-text-02": "Sudėtis: mango tyrė, moliūgas, pasiflorų minkštimas, apelsinas, muskato riešutas, natūralus stevijos ekstraktas."
+        },
+        "currant-tea-2": {
+            "type": "YOGODA",
+            "name": "Serbentų arbata",
+            "description-text-01": "Gilus, tamsiai levandų spalvos gėrimas bet kuriai dienai ir nuotaikai! Klasikinė juodųjų serbentų arbata iš vaikystės. Aštrus bazilikas pabrėžia serbentų skonį ir aromatą, suteikdamas dar daugiau sodrumo. Karšta arbata sušildys, o šalta – puikiai atgaivins vasaros karštyje.",
+            "description-text-02": "Sudėtis: pitah vanduo, juodieji serbentai, džiovintas violetinis bazilikas, rūgštingumą reguliuojanti citrinos rūgštis, saldiklis sukralozė."
+        },
+        "sea-buckthorn-tea-2": {
+            "type": "YOGODA",
+            "name": "Šaltalankių arbata",
+            "description-text-01": "Skysta šaltalankių arbata – 100 % natūralus gėrimas iš natūralių ingredientų. Pasižymi sodriu šaltalankių, šiek tiek aštriu ir rūgštoku skoniu. Tinka vartoti tiek karštą, tiek šaltą. Žiemą sušildys ir suteiks energijos, vasarą – maloniai atgaivins.",
+            "description-text-02": "Sudėtis: šaltalankiai, obuolys, polidekstrozė (maistinės skaidulos), imbiero šaknis, laima, citrinos rūgštis, maltas cinamonas, maltas žvaigždinis anyžius, saldiklis sukralozė."
+        },
+        "ginger-tea-2": {
+            "type": "YOGODA",
+            "name": "Imbierinė arbata",
+            "description-text-01": "Aštriai saldus imbieras ir sultinga rūgšti laima – puikus receptas tiems, kuriems reikia sušilti ar pasikrauti energijos. Energijos pliūpsnis kiekviename puodelyje!",
+            "description-text-02": "Sudėtis: geriamasis vanduo, imbiero šaknis, obuolys, polidekstrozė (maistinės skaidulos), laima, citrinos rūgštis, saldiklis sukralozė."
+        },
+        "raspberry-tea-2": {
+            "type": "YOGODA",
+            "name": "Aviečių arbata",
+            "description-text-01": "Natūrali aviečių arbata paketėliuose pasižymi sodriu skoniu ir maloniu aromatu. Galima vartoti tiek karštą, tiek šaltą. Papildomas privalumas – sandari pakuotė, užtikrinanti šviežumą. Paruošimas: atidarykite pakuotę, suberkite turinį į puodelį, užpilkite 200 ml verdančio arba šalto vandens, išmaišykite ir palikite 3 minutėms.",
+            "description-text-02": "Sudėtis: avietės, juodieji serbentai, imbiero šaknis, citrinos rūgštis, cinamonas, saldiklis sukralozė."
+        },
+        "bramble": {
+            "type": "YOGODA",
+            "name": "Bramble",
+            "description-text-01": "Kokteilis, pagamintas iš gervuogių, aviečių, citrinų sulčių, kalendros, kadagio uogų ir cukraus. Avietės suteikia saldumo, citrinų sultys – gaivios rūgštelės, o kadagys ir kalendra – pikantiškumo. Cukrus subalansuoja skonį. Bramble laikomas visos dienos gėrimu – modernia klasika.",
+            "description-text-02": "Sudėtis: aviečių sultys, gervuogės, cukrus, citrinų sultys, kadagio uogos, kalendra, cinamonas."
+        },
+        "mojito": {
+            "type": "YOGODA",
+            "name": "Mojito",
+            "description-text-01": "Sukurtas pagal klasikinį kubietišką kokteilį iš šviežių laimų sulčių, mėtų ir cukraus. Šis gėrimas garsėja gaiviu ir aromatingu skoniu – puikiai tinka karštai dienai ar vakarui.",
+            "description-text-02": "Sudėtis: cukrus, laima, mėtos."
+        },
+        "peach-bellini": {
+            "type": "YOGODA",
+            "name": "Persikų Bellini",
+            "description-text-01": "Sukurtas pagal itališką vaisių kokteilio tradiciją. Gaminamas iš kokybiškų persikų gabalėlių, persikų tyrės, aviečių, čiobrelių ir cukraus. Pasižymi švelnia tekstūra ir gaiviu skoniu.",
+            "description-text-02": "Sudėtis: persikai, persikų sultys, cukrus, aviečių sultys, čiobreliai."
+        },
+        "sea-breeze": {
+            "type": "YOGODA",
+            "name": "Sea Breeze",
+            "description-text-01": "Gaivus gėrimas iš spanguolių sulčių, greipfrutų ir citrinų sulčių su subtiliomis medaus natomis. Lengvas, vaisinis ir gaivus – puikiai tinka vasaros vakarams.",
+            "description-text-02": "Sudėtis: spanguolės, medus, greipfrutų sultys, cukrus, citrinų sultys."
+        },
+        "ginger-lemonade": {
+            "type": "YOGODA",
+            "name": "Imbierinis limonadas",
+            "description-text-01": "Ryškus aštraus imbiero ir gaivios laimos derinys sukuria sodrų skonį: pirmiausia švelni šiluma, vėliau – gaivi citrusinė rūgštelė. Puikiai tinka tiek ramiam rytui, tiek aktyviai dienai.",
+            "description-text-02": "Sudėtis: šviežia imbiero šaknis, šviežia laima, cukrus, gliukozės-fruktozės sirupas."
+        },
+        "sea-buckthorn-lemonade": {
+            "type": "YOGODA",
+            "name": "Šaltalankių limonadas",
+            "description-text-01": "Sodrus saldžiarūgštis skonis su ryškiu charakteriu. Pirmiausia pasijunta šaltalankių rūgštumas, vėliau – sultingas obuolio saldumas ir subtili pasiflorų nata. Lengvai medaus aromato, labai gaivus.",
+            "description-text-02": "Sudėtis: šaltalankiai (šaldytos uogos), obuolys, pasiflorų minkštimas, cukrus."
+        },
+        "mango-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Mango ir pasiflorų",
+            "description-text-01": "Prinokęs, sultingas mango atveria skonį giliu saldumu, po kurio seka gaivi pasiflorų rūgštelė. Laima subtiliai užbaigia kompoziciją. Ilgas, sultingas poskonis su citrusine nata.",
+            "description-text-02": "Sudėtis: mango tyrė, pasiflorų minkštimas, šviežios laimos sultys, cukrus, gliukozės-fruktozės sirupas."
+        },
+        "strawberry-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Braškės ir pasifloros",
+            "description-text-01": "Prinokusios sodo braškės atsiskleidžia švelnia, saldžia banga. Vėliau prisijungia pasifloros – ryškios ir gaivios, suteikiančios tropinį akcentą. Kartu – sodrus ir gyvybingas skonis.",
+            "description-text-02": "Sudėtis: braškės (šaldytos uogos ir koncentruotos sultys), pasiflorų minkštimas, cukrus, gliukozės-fruktozės sirupas."
+        },
+        "spicy-strawberry": {
+            "type": "YOGODA",
+            "name": "Aštrios braškės",
+            "description-text-01": "Prinokusios braškės suteikia vaikystę primenantį saldumą. Poskonyje atsiskleidžia subtilus acai kartumas ir švelni kajeno pipirų šiluma – egzotiškas, gaivinantis akcentas.",
+            "description-text-02": "Sudėtis: braškės (šaldytos uogos ir sulčių koncentratas), citrinų sultys, acai uogų milteliai, cukrus, kajeno pipirai."
+        },
+        "spicy-pineapple": {
+            "type": "YOGODA",
+            "name": "Aštrus ananasas",
+            "description-text-01": "Saldus ir intensyvus ananasų skonis primena Pietryčių Azijos turgus. Jį papildo tropinė pasiflorų nata ir švelnus kajeno pipirų aštrumas, kuris sustiprina skonį ir suteikia vidinį vėsinimo pojūtį.",
+            "description-text-02": "Sudėtis: ananasai (konservuoti ir sulčių koncentratas), pasiflorų minkštimas, citrinų sultys, cukrus, kajeno pipirai."
+        },
+        "red-mulled-wine": {
+            "type": "YOGODA",
+            "name": "Raudonas karštas vynas",
+            "description-text-01": "Yogoda raudonas karštas vynas – nealkoholinė klasikinio žiemos gėrimo versija, sukurta tiems, kurie vertina sodrų skonį ir natūralią naudą. Harmoningai dera cinamono, citrusų, muskato riešuto ir gvazdikėlių prieskoniai.",
+            "description-text-02": "Sudėtis: natūralus medus, vyšnios, koncentruotos raudonųjų vynuogių sultys, apelsinas, obuolys, kardamonas, maltas cinamonas, muskato riešutas, gvazdikėliai, žvaigždinis anyžius, kajeno pipirai."
+        }
+    }
+}

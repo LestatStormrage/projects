@@ -1,0 +1,35 @@
+{
+	"menu": {
+		"link": {
+			"home": "<span>Sākums</span>",
+			"about-us": "Par mums",
+			"history": "Vēsture",
+			"contact-us": "Sazinieties ar mums"
+		},
+		"parent": {
+			"products": "Produkti",
+			"retail-equipment": "Mazumtirdzniecības aprīkojums"
+		}
+	},
+	"submenu": {
+		"link": {
+			"smoothies": "Smūtiji",
+			"kombucha": "Kombuča",
+			"fruit-infusion-drinks": "Augļu uzlējumu dzērieni",
+			"floor-displays": "Grīdas displeji",
+			"fridges": "Ledusskapji"
+		}
+	},
+	"cookies": {
+		"text": "Šī vietne izmanto sīkdatnes, lai uzlabotu jūsu pieredzi.",
+		"accept": "Pieņemt"
+	},
+	"footer": {
+		"privacy": "Privātuma politika",
+		"legal": "Juridiskā informācija",
+		"linkedin": "LinkedIn",
+		"email": "info@totem-superfood.com",
+		"backTo": "Atpakaļ uz",
+		"top": "augšu"
+	}
+}

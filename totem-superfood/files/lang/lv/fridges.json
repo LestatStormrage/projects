@@ -1,0 +1,31 @@
+{
+	"_metaTitle": "Ledusskapji",
+	"_metaDescription": "Atklājiet mūsu profesionālo ledusskapju un automatizēto tirdzniecības moduļu klāstu, kas padara produktu mārketingu efektīvāku un ienesīgāku.",
+	"fridges-page": {
+		"introduction": {
+			"title": "Ledusskapji",
+			"description": "Papildus mūsu augstākās kvalitātes produktiem mēs piedāvājam partneriem papildaprīkojumu, kas padara mūsu produktu mārketingu vieglāku, efektīvāku un ienesīgāku."
+		},
+		"types": {
+			"title": "Ledusskapju veidi:",
+			"list": {
+				"1": "Parastie ledusskapji",
+				"2": "Automatizēti tirdzniecības moduļi (mikromārketi) ar integrētu Nayax maksājumu sistēmu un Dynamic Scale svara sensoru tehnoloģiju",
+				"3": "Mikromārketi ar Dynamic Scale svara sensoru tehnoloģiju (tikai krājumu kontrole)"
+			}
+		},
+		"payment": {
+			"title": "Maksājumu iespējas",
+			"items": {
+				"1": {
+					"name": "POS",
+					"text": "Klienti atver mikromārketu ar kredītkarti vai telefonu, un maksājums tiek veikts automātiski."
+				},
+				"2": {
+					"name": "Privāta lietotne",
+					"text": "Izveidosim jums pielāgotu lietotni ar jūsu logotipu un zīmola krāsām."
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"menu": {
+		"link": {
+			"home": "<span>Etusivu</span>",
+			"about-us": "Meistä",
+			"history": "Historia",
+			"contact-us": "Ota yhteyttä"
+		},
+		"parent": {
+			"products": "Tuotteet",
+			"retail-equipment": "Vähittäismyyntilaitteet"
+		}
+	},
+	"submenu": {
+		"link": {
+			"smoothies": "Smoothiet",
+			"kombucha": "Kombucha",
+			"fruit-infusion-drinks": "Hedelmäiset haudukejuomat",
+			"floor-displays": "Lattianäytöt",
+			"fridges": "Jääkaapit"
+		}
+	},
+	"cookies": {
+		"text": "Tämä verkkosivusto käyttää evästeitä parantaakseen käyttökokemustasi.",
+		"accept": "Hyväksy"
+	},
+	"footer": {
+		"privacy": "Tietosuojaseloste",
+		"legal": "Laillinen ilmoitus",
+		"linkedin": "LinkedIn",
+		"email": "info@totem-superfood.com",
+		"backTo": "Takaisin",
+		"top": "ylös"
+	}
+}

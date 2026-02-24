@@ -1,0 +1,178 @@
+{
+	"_metaTitle": "Liqberry",
+	"_metaDescription": "LiQberry-marjatahna valmistetaan innovatiivisella hydrotermodynaamisella teknologialla. Tällä marjojen käsittelymenetelmällä ei ole vastineita maailmassa.",
+	"liqberry": {
+		"header": {
+			"title": "liqberry",
+			"subtitle": "Mikä tekee LiQberrystä niin ainutlaatuisen?",
+			"text": {
+				"1": "LiQberry-marjatahna valmistetaan innovatiivisella hydrotermodynaamisella teknologialla. Tällä marjojen käsittelymenetelmällä ei ole vastineita maailmassa.",
+				"2": "Marjat murskataan sykkivän paineen avulla. Tämän prosessin aikana siemenet rikkoutuvat, jolloin niiden sisältö – mustikkaöljy – vapautuu tahnaan ja imeytyy elimistöön. Kun tuoreita marjoja syödään luonnollisessa muodossaan, siemenet kulkevat ruoansulatuskanavan läpi imeytymättä.",
+				"3": "Valmistusprosessi tapahtuu ilman hapen pääsyä ja ilman säilöntäaineita, sokeria, vettä tai keinotekoisia väriaineita, käyttäen matalalämpöistä pastörointia."
+			}
+		},
+		"seeds": {
+			"title": "Mustikansiemenen hyödyllisten aineiden sisältö",
+			"list": {
+				"1": "Monityydyttymättömät rasvahapot Omega-3-6-9",
+				"2": "Rasvaliukoiset vitamiinit A ja E",
+				"3": "Sterolit",
+				"4": "Ainutlaatuinen proteiini, aminohapot",
+				"5": "Voimakkaat biologisesti aktiiviset aineet"
+			}
+		},
+		"packaging": {
+			"title": "Saatavilla olevat pakkaukset:",
+			"doypack": {
+				"name": "Doypack",
+				"size": "100 g"
+			},
+			"jar": {
+				"name": "Purkki",
+				"size": "545 g"
+			},
+			"show-button": "Näytä"
+		},
+		"blueberry-paste": {
+			"title": "Mustikkatahna",
+			"type": "Liqberry",
+			"text": {
+				"1": "Mustikkatahnamme valmistetaan 100 % kokonaisista mustikoista ja säilyttää hedelmän luonnollisen koostumuksen tiivistetyssä muodossa. Hellävaraisen käsittelyn ansiosta mustikoiden arvokkaat kasvipohjaiset yhdisteet säilyvät.",
+				"2": "Mustikat ovat luonnostaan runsaasti antioksidantteja sisältäviä, ja ne tunnetaan roolistaan solujen suojaamisessa hapettumisstressiltä. Ne sisältävät myös klorogeenihappoa ja antosyaaneja, jotka antavat marjalle sen syvän värin ja ovat ravitsemustutkimuksen kohteena.",
+				"3": "Mustikkatahnaamme arvostavat kuluttajat, jotka pitävät puhtaista ainesosista, läpinäkyvyydestä ja luonnollisista elintarvikkeista. Sitä voi nauttia sellaisenaan tai käyttää smoothieissa, jogurtissa tai luovissa ruoanlaittosovelluksissa."
+			},
+			"list": {
+				"title": "Jauhamalla koko marja – mukaan lukien hedelmäliha, kuoret ja siemenet – tahna:",
+				"1": "säilyttää marjan täydellisen luonnollisen profiilin,",
+				"2": "sopii helposti tasapainoiseen, terveystietoiseen ruokavalioon,",
+				"3": "ei sisällä lisättyä sokeria, säilöntäaineita eikä keinotekoisia lisäaineita."
+			}
+		},
+		"raspberry-paste": {
+			"title": "Vadelmatahna",
+			"type": "Liqberry",
+			"text": {
+				"1": "Vadelmatahnamme valmistetaan 100 % kokonaisista vadelmista, säilyttäen hedelmän tunnusomaisen aromin ja luonnolliset kasviyhdisteet tiivistetyssä muodossa. Hellävarainen käsittely säilyttää vadelmien ominaispiirteet, joita on pitkään arvostettu osana tasapainoista ruokavaliota.",
+				"2": "Vadelmat sisältävät luonnostaan kasvihappoja, polyfenoleja ja aromaattisia yhdisteitä, joita tutkitaan laajasti ravitsemustieteessä. Luonnollisen koostumuksensa ansiosta vadelmat sisältyvät usein tietoiseen ravitsemukseen ja ajanjaksoihin, jolloin fyysiset tai ympäristölliset vaatimukset kasvavat.",
+				"3": "Runsas ja hedelmäinen maku tekee siitä sopivan nautittavaksi sellaisenaan, lämpimissä juomissa, jogurtissa, smoothieissa tai luovissa ruoanlaittosovelluksissa."
+			},
+			"list": {
+				"title": "Vadelmatahna:",
+				"1": "säilyttää täydellisen marjaprofiilin käsittelemällä hedelmälihan, kuoret ja siemenet,",
+				"2": "sopii helposti terveystietoiseen päivittäiseen ruokavalioon,",
+				"3": "ei sisällä lisättyä sokeria, säilöntäaineita eikä keinotekoisia lisäaineita."
+			}
+		},
+		"strawberry-paste": {
+			"title": "Mansikkatahna",
+			"type": "Liqberry",
+			"text": {
+				"1": "Mansikkatahnamme valmistetaan 100 % kokonaisista mansikoista, säilyttäen hedelmälihan, kuorten ja siementen luonnollisen tasapainon. Mansikoita arvostetaan niiden luonnollisen mineraali-, vitamiini- ja kasviyhdistepitoisuuden vuoksi, mikä tekee niistä suositun osan tasapainoista ja tietoista ruokavaliota.",
+				"2": "Mansikat sisältävät luonnostaan mineraaleja kuten rautaa, magnesiumia, kaliumia, kalsiumia ja sinkkiä sekä C-vitamiinia, B5-vitamiinia ja foolihappoa. Ne tarjoavat myös antioksidanttisia kasviyhdisteitä, jotka voivat tukea kehon luonnollista puolustuskykyä hapettumisstressiä vastaan osana terveellistä elämäntapaa.",
+				"3": "Raikas ja hedelmäinen maku tekee siitä ihanteellisen nautittavaksi sellaisenaan, jogurtissa, smoothieissa tai luovien reseptien ainesosana."
+			},
+			"list": {
+				"title": "Mansikkatahna:",
+				"1": "säilyttää täydellisen marjaprofiilin käsittelemällä koko hedelmän,",
+				"2": "sopii helposti terveystietoiseen päivittäiseen rutiiniin,",
+				"3": "ei sisällä lisättyä sokeria, säilöntäaineita eikä keinotekoisia lisäaineita."
+			}
+		},
+		"blackberry-paste": {
+			"title": "Karhunvatukkatahna",
+			"type": "Liqberry",
+			"text": {
+				"1": "Karhunvatukkatahnamme valmistetaan 100 % kokonaisista karhunvatukoista, säilyttäen marjan täydellisen luonnollisen profiilin, mukaan lukien hedelmälihan, kuoret ja siemenet. Karhunvatukoita arvostetaan niiden E-vitamiini-, polyfenoli- ja muiden kasviyhdisteiden vuoksi, mikä tekee niistä arvostetun osan tasapainoista ruokavaliota.",
+				"2": "E-vitamiini auttaa suojaamaan soluja hapettumisstressiltä, ja luonnolliset kasviyhdisteet antavat marjalle sen rikkaan luonteen. Tietoisen elämäntavan osana karhunvatukat voivat tukea ruokavalion monipuolisuutta ja nautintoa.",
+				"3": "Täydellinen nautittavaksi sellaisenaan, jogurtissa, muroissa, smoothieissa tai modernien ravitsemuskonseptien premium-ainesosana."
+			},
+			"list": {
+				"title": "Karhunvatukkatahna:",
+				"1": "säilyttää täyden ravintoprofiilin käsittelemällä koko hedelmän,",
+				"2": "tarjoaa intensiivisen ja aidon marjamaun,",
+				"3": "ei sisällä lisättyä sokeria, säilöntäaineita eikä keinotekoisia lisäaineita."
+			}
+		},
+		"blackcurrant-paste": {
+			"title": "Mustaherukkatahna",
+			"type": "Liqberry",
+			"text": {
+				"1": "Mustaherukkatahnamme valmistetaan 100 % kokonaisista mustaherukoista, säilyttäen marjan täydellisen luonnollisen profiilin, mukaan lukien hedelmälihan, kuoret ja siemenet. Mustaherukoita arvostetaan niiden korkean C-vitamiini- ja polyfenolipitoisuuden sekä muiden hyödyllisten kasviyhdisteiden vuoksi.",
+				"2": "Nämä luonnolliset ravintoaineet tukevat päivittäistä ravitsemuksellista tasapainoa ja ovat arvostettu osa monipuolista ja tietoista ruokavaliota. Mustaherukat liitetään pitkään tietoiseen ravitsemukseen ja aktiiviseen elämäntapaan.",
+				"3": "Täydellinen nautittavaksi sellaisenaan, jogurtin tai murojen kanssa, smoothieissa tai funktionaalisten ruokakonseptien premium-ainesosana."
+			},
+			"list": {
+				"title": "Mustaherukkatahna:",
+				"1": "säilyttää koko marjaspektrin käsittelemällä koko hedelmän,",
+				"2": "tukee ruokavalion monipuolisuutta luonnollisilla kasviyhdisteillä,",
+				"3": "ei sisällä lisättyä sokeria, säilöntäaineita eikä keinotekoisia lisäaineita."
+			}
+		},
+		"sea-buckthorn": {
+			"title": "Tyrnitahna",
+			"type": "Liqberry",
+			"text": {
+				"1": "Tyrnitahnamme valmistetaan 100 % kokonaisista tyrnimarjoista, säilyttäen hedelmälihan, kuorten ja siementen luonnollisen tasapainon. Tyrniä arvostetaan sen luonnostaan runsaan vitamiini-, mikro- ja makroravinnepitoisuuden vuoksi, mikä tekee siitä suositun ainesosan tietoiseen ja tasapainoiseen ravitsemukseen.",
+				"2": "Tyrnin erityispiirre on sen luonnollinen tyrniöljypitoisuus, joka sisältää rasvaliukoisia kasviyhdisteitä ja jota on perinteisesti arvostettu osana monipuolista ruokavaliota.",
+				"3": "Täydellinen päivittäisen ravitsemuksen rikastamiseen — nautittavaksi sellaisenaan, smoothieissa, aamiaisannoksissa tai moderneissa resepteissä."
+			},
+			"list": {
+				"title": "Tyrnitahna:",
+				"1": "säilyttää täydellisen marjaprofiilin, mukaan lukien siemenet,",
+				"2": "sisältää luonnostaan beetakaroteenia, E-vitamiinia ja C-vitamiinia,",
+				"3": "ei sisällä lisättyä sokeria, säilöntäaineita, lisättyä vettä eikä keinotekoisia lisäaineita."
+			}
+		},
+		"cherry-paste": {
+			"type": "Liqberry",
+			"title": "Kirsikkatahna",
+			"text": {
+				"1": "Kirsikkatahna on 100 % homogenoitu hedelmätuote, joka valmistetaan kokonaisista kirsikoista hienoksi käsitellyistä hedelmäkomponenteista. Se säilyttää hedelmän luonnollisen ravintoprofiilin ja toimii funktionaalisena lisänä tasapainoiseen ruokavalioon."
+			},
+			"list": {
+				"1": {
+					"title": "Kirsikat ovat luonnollisesti lähde:",
+					"1": "polyfenoleille ja antosyaaneille,",
+					"2": "orgaanisille hapoille,",
+					"3": "vitamiineille (erityisesti C-vitamiinille ja B-ryhmän vitamiineille),",
+					"4": "kaliumille ja muille mineraaleille,",
+					"5": "ravintokuidulle ja pektiineille."
+				},
+				"2": {
+					"title": "Tietoisen ravitsemuksen osana kirsikkatahna on perinteisesti arvostettu:",
+					"1": "normaalin lihas- ja niveltoiminnan tukemisessa,",
+					"2": "palautumisen tukemisessa fyysisen rasituksen jälkeen,",
+					"3": "normaalien aineenvaihduntaprosessien tukemisessa,",
+					"4": "kehon antioksidanttitasapainon tukemisessa."
+				},
+				"3": {
+					"title": "Luonnollisten kasviyhdisteiden ansiosta kirsikkatahna liitetään usein myös:",
+					"1": "sydän- ja verisuonitoiminnan tukemiseen,",
+					"2": "normaalin verenkierron edistämiseen,",
+					"3": "ja terveellisen uni–valverytmin tukemiseen."
+				},
+				"4": {
+					"title": "Kirsikkatahna:",
+					"1": "ei sisällä lisättyä sokeria,",
+					"2": "ei sisällä säilöntäaineita, lisättyä vettä eikä keinotekoisia lisäaineita,",
+					"3": "ja sopii täydellisesti luonnolliseen, kasvipohjaiseen ja suorituskykyä tukevaan ravitsemuskonseptiin."
+				}
+			}
+		},
+		"aronia-paste": {
+			"type": "Liqberry",
+			"title": "Aroniatahna",
+			"text": {
+				"1": "Aroniatahnamme valmistetaan 100 % kokonaisista aroni marjoista, säilyttäen marjan täydellisen profiilin, mukaan lukien hedelmälihan, kuoret ja siemenet. Aroniaa arvostetaan sen luonnostaan korkean polyfenolipitoisuuden vuoksi, joita arvostetaan osana tasapainoista ruokavaliota.",
+				"2": "Perinteisesti aronia sisältyy ravitsemuskonsepteihin, jotka keskittyvät sydän- ja verisuonitasapainoon ja aineenvaihdunnan tukemiseen osana monipuolista ja tietoista elämäntapaa.",
+				"3": "Täydellinen niille, jotka arvostavat intensiivistä marjaluonnetta ja kasvipohjaista monipuolisuutta päivittäisessä ravitsemuksessa – nautittavaksi sellaisenaan tai moderneissa resepteissä."
+			},
+			"list": {
+				"title": "Aroniatahna:",
+				"1": "sisältää luonnostaan bioaktiivisia kasviyhdisteitä,",
+				"2": "täydentää tasapainoista ja tietoista ruokavaliota,",
+				"3": "ei sisällä lisättyä sokeria, säilöntäaineita, lisättyä vettä eikä keinotekoisia lisäaineita."
+			}
+		}
+	}
+}

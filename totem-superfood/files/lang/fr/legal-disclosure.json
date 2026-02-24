@@ -1,0 +1,23 @@
+{
+	"_metaTitle": "Mentions légales",
+	"_metaDescription": "Informations officielles de l’entreprise et données d’enregistrement de Totem Superfood.",
+	"legal-disclosure": {
+		"title": "Mentions légales",
+		"companyName": {
+			"label": "Nom de l’entreprise :",
+			"value": "T.O.T.E.M. OÜ"
+		},
+		"companyId": {
+			"label": "Numéro d’enregistrement :",
+			"value": "17245036, Département d’enregistrement du tribunal du comté de Tartu, le 20 mai 2025."
+		},
+		"representative": {
+			"label": "Gérant / représentant de l’entreprise :",
+			"value": "Valerii Dinarin"
+		},
+		"address": {
+			"label": "Adresse d’enregistrement de l’entreprise :",
+			"value": "Harju maakond, Kuusalu vald, Pudisoo küla, Männimäe/1, 74626, Estonie"
+		}
+	}
+}

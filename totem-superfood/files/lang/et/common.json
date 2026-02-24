@@ -1,0 +1,35 @@
+{
+	"menu": {
+		"link": {
+			"home": "<span>Avaleht</span>",
+			"about-us": "Meist",
+			"history": "Ajalugu",
+			"contact-us": "Võta ühendust"
+		},
+		"parent": {
+			"products": "Tooted",
+			"retail-equipment": "Jaemüügi varustus"
+		}
+	},
+	"submenu": {
+		"link": {
+			"smoothies": "Smuutid",
+			"kombucha": "Kombucha",
+			"fruit-infusion-drinks": "Puuviljased tõmmisjoogid",
+			"floor-displays": "Põrandastendid",
+			"fridges": "Külmikud"
+		}
+	},
+	"cookies": {
+		"text": "See veebisait kasutab küpsiseid, et parandada teie kogemust.",
+		"accept": "Nõustun"
+	},
+	"footer": {
+		"privacy": "Privaatsuspoliitika",
+		"legal": "Õiguslik teave",
+		"linkedin": "LinkedIn",
+		"email": "info@totem-superfood.com",
+		"backTo": "Tagasi",
+		"top": "üles"
+	}
+}

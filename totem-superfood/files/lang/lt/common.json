@@ -1,0 +1,35 @@
+{
+	"menu": {
+		"link": {
+			"home": "<span>Pagrindinis</span>",
+			"about-us": "Apie mus",
+			"history": "Istorija",
+			"contact-us": "Susisiekite"
+		},
+		"parent": {
+			"products": "Produktai",
+			"retail-equipment": "Mažmeninės prekybos įranga"
+		}
+	},
+	"submenu": {
+		"link": {
+			"smoothies": "Kokteiliai",
+			"kombucha": "Kombuča",
+			"fruit-infusion-drinks": "Vaisių užpilų gėrimai",
+			"floor-displays": "Staliniai stendai",
+			"fridges": "Šaldytuvai"
+		}
+	},
+	"cookies": {
+		"text": "Ši svetainė naudoja slapukus jūsų naršymo patirčiai gerinti.",
+		"accept": "Sutinku"
+	},
+	"footer": {
+		"privacy": "Privatumo politika",
+		"legal": "Teisinė informacija",
+		"linkedin": "LinkedIn",
+		"email": "info@totem-superfood.com",
+		"backTo": "Atgal į",
+		"top": "viršų"
+	}
+}

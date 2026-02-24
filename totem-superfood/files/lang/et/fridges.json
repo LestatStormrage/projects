@@ -1,0 +1,31 @@
+{
+	"_metaTitle": "Külmikud",
+	"_metaDescription": "Avasta meie professionaalsete külmikute ja automaatsete müügimoodulite valik, mis muudavad toodete turunduse tõhusamaks ja kasumlikumaks.",
+	"fridges-page": {
+		"introduction": {
+			"title": "Külmikud",
+			"description": "Lisaks meie kvaliteetsetele toodetele pakume oma partneritele täiendavat varustust, mis muudab toodete turundamise lihtsamaks, tõhusamaks ja kasumlikumaks."
+		},
+		"types": {
+			"title": "Külmikutüübid:",
+			"list": {
+				"1": "Tavalised külmikud",
+				"2": "Automatiseeritud müügimoodulid (mikroturud) integreeritud Nayax maksesüsteemi ja Dynamic Scale kaalutundliku tehnoloogiaga",
+				"3": "Mikroturud Dynamic Scale kaalutundliku tehnoloogiaga (ainult laokontroll)"
+			}
+		},
+		"payment": {
+			"title": "Maksevõimalused",
+			"items": {
+				"1": {
+					"name": "POS",
+					"text": "Kliendid avavad mikroturu krediitkaardi või telefoniga, makse toimub automaatselt."
+				},
+				"2": {
+					"name": "Privaatne rakendus",
+					"text": "Loome teile kohandatud rakenduse teie logo ja brändivärvidega."
+				}
+			}
+		}
+	}
+}

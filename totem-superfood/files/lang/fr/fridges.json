@@ -1,0 +1,31 @@
+{
+	"_metaTitle": "Réfrigérateurs",
+	"_metaDescription": "Découvrez notre gamme de réfrigérateurs professionnels et de modules de vente automatisés qui rendent la commercialisation des produits plus efficace et plus rentable.",
+	"fridges-page": {
+		"introduction": {
+			"title": "Réfrigérateurs",
+			"description": "En plus de nos produits haut de gamme, nous proposons à nos partenaires des équipements complémentaires qui rendent la commercialisation de nos produits plus simple, plus efficace et plus rentable."
+		},
+		"types": {
+			"title": "Types de réfrigérateurs :",
+			"list": {
+				"1": "Réfrigérateurs classiques",
+				"2": "Modules de vente automatisés (micromarchés) avec système de paiement Nayax intégré et technologie de capteurs de poids Dynamic Scale",
+				"3": "Micromarchés avec technologie de capteurs de poids Dynamic Scale (contrôle des stocks uniquement)"
+			}
+		},
+		"payment": {
+			"title": "Options de paiement",
+			"items": {
+				"1": {
+					"name": "POS",
+					"text": "Les clients ouvrent le micromarché avec une carte bancaire ou un téléphone, et le paiement est effectué automatiquement."
+				},
+				"2": {
+					"name": "Application privée",
+					"text": "Nous créons pour vous une application personnalisée avec votre logo et les couleurs de votre marque."
+				}
+			}
+		}
+	}
+}

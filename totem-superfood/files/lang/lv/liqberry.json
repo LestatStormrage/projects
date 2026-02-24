@@ -1,0 +1,178 @@
+{
+	"_metaTitle": "Liqberry",
+	"_metaDescription": "LiQberry ogu pasta ir radīta, izmantojot inovatīvu hidro-termo-dinamisko tehnoloģiju. Šai ogu apstrādes metodei nav analogu pasaulē.",
+	"liqberry": {
+		"header": {
+			"title": "liqberry",
+			"subtitle": "Kas padara LiQberry tik unikālu?",
+			"text": {
+				"1": "LiQberry ogu pasta ir radīta, izmantojot inovatīvu hidro-termo-dinamisko tehnoloģiju. Šai ogu apstrādes metodei nav analogu pasaulē.",
+				"2": "Ogas tiek sasmalcinātas ar pulsējoša spiediena palīdzību. Šajā procesā sēklas tiek sašķeltas, ļaujot to saturam — melleņu eļļai — nonākt pastā un uzsūkties organismā. Lietojot svaigas ogas dabīgā veidā, sēklas iziet cauri gremošanas sistēmai, neuzsūcoties.",
+				"3": "Ražošanas process notiek bez skābekļa piekļuves un bez konservantu, cukura, ūdens vai mākslīgo krāsvielu pievienošanas, izmantojot zemas temperatūras pasterizāciju."
+			}
+		},
+		"seeds": {
+			"title": "Noderīgo vielu saturs melleņu sēklās",
+			"list": {
+				"1": "Polinepiesātinātās taukskābes Omega-3-6-9",
+				"2": "Taukos šķīstošie vitamīni A un E",
+				"3": "Steroli",
+				"4": "Unikāls proteīns, aminoskābes",
+				"5": "Spēcīgas bioloģiski aktīvas vielas"
+			}
+		},
+		"packaging": {
+			"title": "Pieejamais iepakojums:",
+			"doypack": {
+				"name": "Doypack",
+				"size": "100 g"
+			},
+			"jar": {
+				"name": "Burka",
+				"size": "545 g"
+			},
+			"show-button": "Rādīt"
+		},
+		"blueberry-paste": {
+			"title": "Melleņu pasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Mūsu melleņu pasta ir izgatavota no 100% veselām mellenēm un koncentrētā formā saglabā augļa dabisko sastāvu. Pateicoties saudzīgai apstrādei, tiek saglabāti vērtīgie augu savienojumi, kas dabiski sastopami mellenēs.",
+				"2": "Mellenes dabiski ir bagātas ar antioksidantiem, kas ir plaši atzīti par savu lomu šūnu aizsardzībā pret oksidatīvo stresu. Tās satur arī hlorogēnskābi un antocianīnus — dabīgos pigmentus, kas piešķir ogām to dziļo krāsu un ir uzturzinātnes pētījumu objekts.",
+				"3": "Mūsu melleņu pastu novērtē patērētāji, kuri izvēlas tīras sastāvdaļas, caurspīdīgumu un dabīgus pārtikas produktus. To var baudīt atsevišķi vai izmantot smūtijos, jogurtā vai radošās kulinārijas receptēs."
+			},
+			"list": {
+				"title": "Samaļot visu ogu — mīkstumu, miziņu un sēklas, pasta:",
+				"1": "saglabā pilnu dabisko ogas profilu,",
+				"2": "viegli iekļaujas sabalansētā, veselīgā uzturā,",
+				"3": "nesatur pievienotu cukuru, konservantus vai mākslīgas piedevas."
+			}
+		},
+		"raspberry-paste": {
+			"title": "Aveņu pasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Mūsu aveņu pasta tiek ražota no 100% veselām avenēm, saglabājot ogas raksturīgo aromātu un dabīgos augu savienojumus koncentrētā formā. Saudzīga apstrāde saglabā aveņu īpašības, kuras jau sen tiek novērtētas kā sabalansēta uztura sastāvdaļa.",
+				"2": "Avenes dabiski satur augu skābes, polifenolus un aromātiskus savienojumus, kas tiek plaši pētīti uzturzinātnē. To dabīgā sastāva dēļ avenes bieži tiek iekļautas apzinātas uztura koncepcijās un periodos ar paaugstinātu fizisko vai vides slodzi.",
+				"3": "Bagātīgā, augļainā garša padara to piemērotu baudīšanai atsevišķi, siltos dzērienos, jogurtā, smūtijos vai radošās kulinārijas receptēs."
+			},
+			"list": {
+				"title": "Aveņu pasta:",
+				"1": "saglabā pilnu ogas profilu, apstrādājot mīkstumu, miziņu un sēklas,",
+				"2": "viegli iekļaujas veselīgā ikdienas uzturā,",
+				"3": "nesatur pievienotu cukuru, konservantus vai mākslīgas piedevas."
+			}
+		},
+		"strawberry-paste": {
+			"title": "Zemeņu pasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Mūsu zemeņu pasta tiek ražota no 100% veselām zemenēm, saglabājot dabisko augļa līdzsvaru starp mīkstumu, miziņu un sēklām. Zemenes tiek novērtētas to minerālvielu, vitamīnu un augu savienojumu dēļ, padarot tās par populāru sabalansēta uztura sastāvdaļu.",
+				"2": "Zemenes dabiski satur minerālvielas, piemēram, dzelzi, magniju, kāliju, kalciju un cinku, kā arī C vitamīnu, B5 vitamīnu un folātus. Tās nodrošina arī antioksidantus, kas var palīdzēt aizsargāt organismu no oksidatīvā stresa veselīga dzīvesveida ietvaros.",
+				"3": "Svaigā, augļainā garša padara to ideāli piemērotu baudīšanai atsevišķi, jogurtā, smūtijos vai kā sastāvdaļu radošās receptēs."
+			},
+			"list": {
+				"title": "Zemeņu pasta:",
+				"1": "saglabā pilnu ogas profilu, apstrādājot visu augli,",
+				"2": "viegli iekļaujas veselīgā ikdienas rutīnā,",
+				"3": "nesatur pievienotu cukuru, konservantus vai mākslīgas piedevas."
+			}
+		},
+		"blackberry-paste": {
+			"title": "Kazenes pasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Mūsu kazenes pasta ir izgatavota no 100% veselām kazenēm, saglabājot pilnu dabisko ogas profilu, tostarp mīkstumu, miziņu un sēklas. Kazenes tiek novērtētas to E vitamīna, polifenolu un citu augu savienojumu dēļ.",
+				"2": "E vitamīns palīdz aizsargāt šūnas no oksidatīvā stresa, savukārt dabīgie augu savienojumi piešķir ogai bagātīgu raksturu. Apzināta dzīvesveida ietvaros kazenes var bagātināt uztura daudzveidību.",
+				"3": "Ideāli baudāma atsevišķi, jogurtā, brokastu pārslās, smūtijos vai kā augstvērtīga sastāvdaļa modernās uztura koncepcijās."
+			},
+			"list": {
+				"title": "Kazenes pasta:",
+				"1": "saglabā pilnu uzturvielu profilu, apstrādājot visu ogu,",
+				"2": "nodrošina intensīvu, autentisku ogu garšu,",
+				"3": "nesatur pievienotu cukuru, konservantus vai mākslīgas piedevas."
+			}
+		},
+		"blackcurrant-paste": {
+			"title": "Upeņu pasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Mūsu upeņu pasta ir izgatavota no 100% veselām upenēm, saglabājot pilnu dabisko ogas profilu, tostarp mīkstumu, miziņu un sēklas. Upenes tiek novērtētas to augstā C vitamīna, polifenolu un citu vērtīgu augu savienojumu satura dēļ.",
+				"2": "Šīs dabīgi sastopamās uzturvielas veicina ikdienas uztura līdzsvaru un tiek plaši novērtētas kā daļa no daudzveidīga un apzināta uztura. Upenes jau sen tiek saistītas ar sabalansētu uzturu un aktīvu dzīvesveidu.",
+				"3": "Ideāli baudāma atsevišķi, ar jogurtu vai brokastu pārslām, smūtijos vai kā augstvērtīga sastāvdaļa funkcionālās pārtikas koncepcijās."
+			},
+			"list": {
+				"title": "Upeņu pasta:",
+				"1": "saglabā pilnu ogas spektru, apstrādājot visu augli,",
+				"2": "bagātina uztura daudzveidību ar dabīgiem augu savienojumiem,",
+				"3": "nesatur pievienotu cukuru, konservantus vai mākslīgas piedevas."
+			}
+		},
+		"sea-buckthorn": {
+			"title": "Smiltsērkšķu pasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Mūsu smiltsērkšķu pasta ir izgatavota no 100% veselām smiltsērkšķu ogām, saglabājot dabisko līdzsvaru starp mīkstumu, miziņu un sēklām. Smiltsērkšķi tiek novērtēti to bagātīgā vitamīnu, mikro- un makroelementu sastāva dēļ, padarot tos par populāru sastāvdaļu sabalansētā uzturā.",
+				"2": "Smiltsērkšķu raksturīga iezīme ir dabīgais smiltsērkšķu eļļas saturs, kas satur taukos šķīstošus augu savienojumus, kuri tradicionāli tiek novērtēti daudzveidīga uztura ietvaros.",
+				"3": "Ideāli ikdienas uztura bagātināšanai — baudāma atsevišķi, smūtijos, brokastu bļodās vai modernās funkcionālās receptēs."
+			},
+			"list": {
+				"title": "Smiltsērkšķu pasta:",
+				"1": "saglabā pilnu ogas profilu, tostarp sēklas,",
+				"2": "dabiski satur beta-karotīnu, E vitamīnu un C vitamīnu,",
+				"3": "nesatur pievienotu cukuru, konservantus, pievienotu ūdeni vai mākslīgas piedevas."
+			}
+		},
+		"cherry-paste": {
+			"type": "Liqberry",
+			"title": "Ķiršu pasta",
+			"text": {
+				"1": "Ķiršu pasta ir 100% homogenizēts augļu produkts, izgatavots no veselām ķiršiem ar smalki apstrādātām augļa sastāvdaļām. Tā saglabā augļa dabisko uzturvērtības profilu un kalpo kā funkcionāls papildinājums sabalansētam uzturam."
+			},
+			"list": {
+				"1": {
+					"title": "Ķirši dabiski ir avots:",
+					"1": "polifenoliem un antocianīniem,",
+					"2": "organiskajām skābēm,",
+					"3": "vitamīniem (īpaši C vitamīnam un B grupas vitamīniem),",
+					"4": "kālijam un citiem minerāliem,",
+					"5": "šķiedrvielām un pektīniem."
+				},
+				"2": {
+					"title": "Apzināta uztura kontekstā ķiršu pasta tradicionāli tiek novērtēta par:",
+					"1": "normālas muskuļu un locītavu funkcijas atbalstu,",
+					"2": "atjaunošanās veicināšanu pēc fiziskas slodzes,",
+					"3": "normālu vielmaiņas procesu atbalstu,",
+					"4": "ieguldījumu organisma antioksidantu līdzsvarā."
+				},
+				"3": {
+					"title": "Pateicoties dabīgajiem augu savienojumiem, ķiršu pasta bieži tiek saistīta arī ar:",
+					"1": "sirds un asinsvadu sistēmas funkcijas atbalstu,",
+					"2": "normālas asinsrites veicināšanu,",
+					"3": "un veselīga miega–nomoda ritma atbalstu."
+				},
+				"4": {
+					"title": "Ķiršu pasta:",
+					"1": "nesatur pievienotu cukuru,",
+					"2": "ir bez konservantiem, pievienota ūdens un mākslīgām piedevām,",
+					"3": "un lieliski iekļaujas dabīgā, augu valsts, uz veiktspēju orientētā uztura koncepcijā."
+				}
+			}
+		},
+		"aronia-paste": {
+			"type": "Liqberry",
+			"title": "Aroniju pasta",
+			"text": {
+				"1": "Mūsu aroniju pasta ir izgatavota no 100% veselām aroniju ogām, saglabājot pilnu ogas profilu, tostarp mīkstumu, miziņu un sēklas. Aronijas tiek novērtētas to dabīgi augstā augu polifenolu satura dēļ, kas tiek plaši novērtēts kā sabalansēta uztura sastāvdaļa.",
+				"2": "Tradicionāli aronijas tiek iekļautas uztura koncepcijās, kas vērstas uz sirds un asinsvadu līdzsvaru un vielmaiņas atbalstu, daudzveidīga un apzināta dzīvesveida ietvaros.",
+				"3": "Ideāli piemērota tiem, kuri novērtē intensīvu ogu raksturu un augu daudzveidību ikdienas uzturā — baudāma tīrā veidā vai modernās receptēs."
+			},
+			"list": {
+				"title": "Aroniju pasta:",
+				"1": "dabiski satur augu izcelsmes bioaktīvus savienojumus,",
+				"2": "papildina sabalansētu un apzinātu uzturu,",
+				"3": "nesatur pievienotu cukuru, konservantus, pievienotu ūdeni vai mākslīgas piedevas."
+			}
+		}
+	}
+}

@@ -1,0 +1,295 @@
+{
+	"_metaTitle": "Kokteiliai",
+	"_metaDescription": "Atraskite mūsų gardžius glotnučius ir palaikykite aktyvų gyvenimo būdą.",
+	"products": {
+		"title": "Kokteiliai",
+		"fireSmoothies": {
+			"title": "Fire-Smoothies kolekcija",
+			"description": "Mūsų glotnučiai praturtinti galingais supermaisto produktais, kurie ženkliai padidina jų maistinę vertę ir sveikatingumo naudą. Kiekvienas ingredientas kruopščiai atrinktas siekiant palaikyti bendrą gerovę, pagerinti kūno funkcijas ir padidinti gyvybingumą.",
+			"turmeric": {
+				"name": "Ciberžolės glotnutis",
+				"type": "Glotnutis",
+				"descriptionTitle": "Aprašymas:",
+				"descriptionText": "Ciberžolė plačiai žinoma dėl savo priešuždegiminių ir antioksidacinių savybių, todėl tai puikus papildas sveikai mitybai. Manoma, kad ji:",
+				"list": {
+					"1": "Padeda užkirsti kelią Alzheimerio ligai.",
+					"2": "Palengvina artrito simptomus ir padeda palaikyti sąnarių sveikatą.",
+					"3": "Palaiko psichinę gerovę mažindama depresijos simptomus.",
+					"4": "Lėtina senėjimo procesą, apsaugodama ląsteles nuo oksidacinio streso.",
+					"5": "Gali prisidėti prie vėžio prevencijos dėl savo aktyviųjų junginių."
+				}
+			},
+			"acai": {
+				"name": "Acaí glotnutis",
+				"type": "Glotnutis",
+				"ingredientsTitle": "Sudėtis:",
+				"ingredients": {
+					"1": "Braškių",
+					"2": "Aviečių",
+					"3": "Avižinių dribsnių",
+					"4": "Banano",
+					"5": "Chia sėklų",
+					"6": "Acaí uogų"
+				},
+				"descriptionTitle": "Aprašymas:",
+				"descriptionText": "„Acaí“ – tai išskirtinis kokteilis, kuriame dera ryškūs braškių, aviečių ir banano skoniai su avižiniais dribsniais bei chia sėklomis. Acaí uogos suteikia gėrimui antioksidacinių savybių, padedančių stiprinti imunitetą, palaikyti širdies sveikatą ir gerinti pažintines funkcijas."
+			},
+			"spirulina": {
+				"name": "Spirulinos glotnutis",
+				"type": "Glotnutis",
+				"ingredientsTitle": "Sudėtis:",
+				"ingredients": {
+					"1": "Špinatų",
+					"2": "Banano",
+					"3": "Obuolio",
+					"4": "Datulių",
+					"5": "Spirulinos"
+				},
+				"descriptionTitle": "Aprašymas:",
+				"descriptionText": "„Spirulina“ – tai harmoningas špinatų, banano ir obuolio mišinys, papildytas datulių saldumu ir spirulinos savybėmis. Šis gėrimas gausus maistinių medžiagų, gerina virškinimą, padeda detoksikuoti organizmą ir palaikyti sveiką svorį."
+			},
+			"hemp": {
+				"name": "Kanapių audra glotnutis",
+				"type": "Glotnutis",
+				"ingredientsTitle": "Sudėtis:",
+				"ingredients": {
+					"1": "Aviečių",
+					"2": "Mėlynių",
+					"3": "Lukštentų kanapių sėklų",
+					"4": "Chia sėklų",
+					"5": "Banano",
+					"6": "Avižinių dribsnių"
+				},
+				"descriptionTitle": "Aprašymas:",
+				"descriptionText": "„Kanapių audra“ – maistingas kokteilis, kuriame avietės, mėlynės ir bananai papildyti sveikomis kanapių sėklomis, chia sėklomis ir avižiniais dribsniais. Baltymų ir riebalų rūgštimis turtingos kanapių sėklos padeda stiprinti imunitetą, palaikyti širdies sveikatą ir gerinti odos būklę."
+			}
+		},
+		"fireDetox": {
+			"title": "Fire-Detox kolekcija",
+			"description": "Mūsų detokso kokteiliai sukurti iš galingų natūralių ingredientų, kurie padeda išvalyti organizmą, palaikyti virškinimą ir atkurti pusiausvyrą. Kiekvienas mišinys sukurtas siekiant padidinti energiją, pagerinti medžiagų apykaitą ir skatinti bendrą gerovę.",
+			"mega": {
+				"name": "Mega Detox",
+				"type": "Detoksas",
+				"ingredientsTitle": "Sudėtis:",
+				"ingredients": {
+					"1": "Apelsinas",
+					"2": "Ananasas",
+					"3": "Ciberžolė",
+					"4": "Cinamono",
+					"5": "Chia sėklų"
+				},
+				"descriptionTitle": "Aprašymas:",
+				"descriptionText": "„Mega Detox“ – galingas kokteilis, skirtas giliam organizmo valymui. Salieras ir špinatai, žinomi dėl savo detoksikuojančių savybių, derinami su obuoliu ir bananu, suteikiančiais gėrimui malonų saldumą."
+			},
+			"green": {
+				"name": "Žalias detoksas",
+				"type": "Detoksas",
+				"ingredientsTitle": "Sudėtis:",
+				"ingredients": {
+					"1": "Bananas",
+					"2": "Apelsinas",
+					"3": "Špinatai",
+					"4": "Moliūgų sėklos",
+					"5": "Chlorelė"
+				},
+				"descriptionTitle": "Aprašymas:",
+				"descriptionText": "„Žalias detoksas“ – maistingas ir subalansuotas kokteilis, kuris padeda papildyti vitaminų ir mineralų atsargas. Bananas ir apelsinas suteikia malonų saldumą ir gaivų skonį. Geležies ir kitų naudingų medžiagų turtingi špinatai palaiko sveikatą. Moliūgų sėklos ir chlorelė, gausios baltymų bei antioksidantų, stiprina organizmą."
+			},
+			"refreshing": {
+				"name": "Gaivinantis detoksas",
+				"type": "Detoksas",
+				"ingredientsTitle": "Sudėtis:",
+				"ingredients": {
+					"1": "Salieras",
+					"2": "Kivis",
+					"3": "Obuolys",
+					"4": "Petražolės",
+					"5": "Chlorelė",
+					"6": "Chia sėklos"
+				},
+				"descriptionTitle": "Aprašymas:",
+				"descriptionText": "„Gaivinantis detoksas“ – lengvas ir atgaivinantis kokteilis, suteikiantis energijos. Salieras ir petražolės, turinčios šlapimo išskyrimą skatinančių savybių, padeda pašalinti perteklinį skystį iš organizmo. Kivis ir obuolys suteikia malonų rūgštumą bei gaivų skonį. Chlorelė ir chia sėklos, gausios maistinių medžiagų, palaiko sveikatą ir gerą savijautą."
+			},
+			"energy": {
+				"name": "Energijos detoksas",
+				"type": "Detoksas",
+				"ingredientsTitle": "Sudėtis:",
+				"ingredients": {
+					"1": "Apelsinas",
+					"2": "Ananasas",
+					"3": "Ciberžolė",
+					"4": "Cinamono",
+					"5": "Chia sėklų"
+				},
+				"descriptionTitle": "Aprašymas:",
+				"descriptionText": "„Energijos detoksas“ – ryškus ir aromatingas kokteilis, kuris suteiks energijos visai dienai. Vitaminu C turtingi apelsinas ir ananasas stiprina imuninę sistemą ir gerina tonusą. Ciberžolė ir cinamonas, žinomi dėl priešuždegiminių savybių, padeda išvalyti organizmą ir pagerinti medžiagų apykaitą. Skaidulomis turtingos chia sėklos suteikia ilgalaikį sotumo jausmą."
+			}
+		},
+		"air-collection": {
+            "title": "Air kolekcija",
+			"berry-boost": {
+				"type": "Glotnutis",
+				"title": "Uogų energija",
+				"ingredients": {
+					"title": "Sudėtis:",
+					"1": "Bananas",
+					"2": "Uogos",
+					"3": "Chia sėklos",
+					"4": "Avižiniai dribsniai",
+					"5": "Kokoso drožlės"
+				},
+				"benefit": {
+					"title": "Nauda:",
+					"text": "Stiprina imunitetą, suteikia energijos, gausu antioksidantų ir skaidulų."
+				}
+			},
+			"green-boost": {
+				"type": "Glotnutis",
+				"title": "Žalioji energija",
+				"ingredients": {
+					"title": "Sudėtis:",
+					"1": "Špinatai",
+					"2": "Obuolys",
+					"3": "Bananas",
+					"4": "Spirulina",
+					"5": "Linų sėmenys",
+					"6": "Citrina"
+				},
+				"benefit": {
+					"title": "Nauda:",
+					"text": "Detoksikuoja organizmą, stiprina imuninę sistemą, aprūpina svarbiais vitaminais ir mineralais."
+				}
+			},
+			"nut-cocoa": {
+				"type": "Glotnutis",
+				"title": "Riešutinis kakavos energijos glotnutis",
+				"ingredients": {
+					"title": "Sudėtis:",
+					"1": "Bananas",
+					"2": "Kakavos milteliai",
+					"3": "Datulės",
+					"4": "Migdolai",
+					"5": "Maka šaknis",
+					"6": "Avižiniai dribsniai"
+				},
+				"benefit": {
+					"title": "Nauda:",
+					"text": "Geria nuotaiką, suteikia energijos ir aprūpina sveikaisiais riebalais."
+				}
+			},
+			"spiced-banana-boost": {
+				"type": "Glotnutis",
+				"title": "Prieskoniuotas bananų energijos glotnutis",
+				"ingredients": {
+					"title": "Sudėtis:",
+					"1": "Bananas",
+					"2": "Obuolys",
+					"3": "Avižiniai dribsniai",
+					"4": "Cinamono",
+					"5": "Chia sėklos",
+					"6": "Migdolai"
+				},
+				"benefit": {
+					"title": "Nauda:",
+					"text": "Šildo, suteikia sotumo, stabilizuoja cukraus kiekį kraujyje ir padeda virškinimui."
+				}
+			},
+			"turmeric-mango-immunoboost": {
+				"type": "Glotnutis",
+				"title": "Ciberžolė + Mango „ImmunoBoost“",
+				"ingredients": {
+					"title": "Sudėtis:",
+					"1": "Mangas",
+					"2": "Bananas",
+					"3": "Ciberžolė",
+					"4": "Imbieras",
+					"5": "Linų sėmenys",
+					"6": "Avižų milteliai"
+				},
+				"benefit": {
+					"title": "Nauda:",
+					"text": "Stiprina imunitetą, mažina uždegimus ir suteikia vitaminų dozę."
+				}
+			},
+			"cocoa-turmeric-antistress": {
+				"type": "Glotnutis",
+				"title": "Kakavos-ciberžolės antistresinis glotnutis",
+				"ingredients": {
+					"title": "Sudėtis:",
+					"1": "Bananas",
+					"2": "Kakavos milteliai",
+					"3": "Migdolai",
+					"4": "Ciberžolė",
+					"5": "Datulės",
+					"6": "Chia sėklos"
+				},
+				"benefit": {
+					"title": "Nauda:",
+					"text": "Padeda mažinti stresą, aprūpina magniu ir palaiko nervų sistemą bei miegą."
+				}
+			}
+		},
+		"earthCollection": {
+			"title": "Earth kolekcija",
+			"ingredientsTitle": "Sudėtis:",
+			"benefitTitle": "Nauda:",
+			"morningEnergy": {
+				"title": "Rytinė energija",
+				"alt": "Rytinė energija",
+				"type": "Glotnutis",
+				"ingredients": [
+					"Liofilizuotas bananas",
+					"Avižiniai dribsniai",
+					"Migdolai",
+					"Chia sėklos",
+					"Kakava",
+					"Džiovintas kokosų pienas",
+					"Saldiklis"
+				],
+				"benefit": "Puikus pusryčių pasirinkimas – suteikia energijos ir palaiko smegenų veiklą."
+			},
+			"immuneShield": {
+				"title": "Imuniteto skydas",
+				"alt": "Imuniteto skydas",
+				"type": "Glotnutis",
+				"ingredients": [
+					"Liofilizuotos braškės",
+					"Avižiniai dribsniai",
+					"Grietininiai riešutai",
+					"Spirulina",
+					"Džiovinti imbiero milteliai",
+					"Džiovintas kokosų pienas"
+				],
+				"benefit": "Stiprina imuninę sistemą dėl vitamino C ir antioksidantų."
+			},
+			"fitnessCharge": {
+				"title": "Sportinė energija",
+				"alt": "Sportinė energija",
+				"type": "Glotnutis",
+				"ingredients": [
+					"Liofilizuotos mėlynės",
+					"Avižiniai dribsniai",
+					"Lazdyno riešutai",
+					"Maka šaknis",
+					"Sezamų sėklos",
+					"Kakava"
+				],
+				"benefit": "Gerina ištvermę ir padeda atsigauti raumenims."
+			},
+			"detoxBalance": {
+				"title": "Detoksas ir pusiausvyra",
+				"alt": "Detoksas ir pusiausvyra",
+				"type": "Glotnutis",
+				"ingredients": [
+					"Liofilizuotos avietės",
+					"Avižiniai dribsniai",
+					"Linų sėmenys",
+					"Spirulina",
+					"Matcha",
+					"Pušų riešutai"
+				],
+				"benefit": "Valo organizmą ir suteikia gyvybingumo."
+			}
+		}
+	}
+}

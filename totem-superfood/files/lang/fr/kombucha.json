@@ -1,0 +1,152 @@
+{
+    "_metaTitle": "Kombucha",
+    "_metaDescription": "Découvrez nos délicieux smoothies et soutenez votre mode de vie actif.",
+    "kombucha": {
+        "main-title": "Kombucha",
+        "description": "Boisson légendaire à base de thé originaire de l’Orient ancien. Le SCOBY, une culture symbiotique de levures et de bactéries bénéfiques, fermente un thé aromatique pour créer une boisson pétillante délicieuse et naturellement bienfaisante. Dans le Japon ancien, le kombucha était appelé le « thé de l’immortalité ». En Corée, il est utilisé depuis l’Antiquité pour des rituels de beauté régénérants, et en Chine, il était la boisson des empereurs.",
+        "classic-green": {
+            "type": "Kombucha",
+            "title": "Classique Vert",
+            "text": {
+                "1": "Ingrédients naturels : eau filtrée, jus de pomme concentré, thé vert, sucre, culture de kombucha.",
+                "2": "Température de conservation recommandée : +6 °C à +25 °C.",
+                "3": "À consommer dans les 48 heures après ouverture.",
+                "4": "En cas de sensibilité à l’acidité, consommer dilué ou en petites quantités."
+            },
+            "list": {
+                "title": "Valeurs nutritionnelles pour 100 ml :",
+                "1": "Énergie : 67 kJ / 16 kcal",
+                "2": "Protéines – 0,0 g",
+                "3": "Matières grasses – 0,0 g",
+                "4": "Glucides – 4,0 g",
+                "5": "Sucres – 4,0 g"
+            }
+        },
+        "ginger": {
+            "type": "Kombucha",
+            "title": "Gingembre",
+            "text": {
+                "1": "Ingrédients naturels : eau filtrée, jus de pomme concentré (20 %), thé vert, gingembre, concentré de curcuma, sucre, jus de citron, culture de kombucha.",
+                "2": "Température de conservation recommandée : +6 °C à +25 °C.",
+                "3": "À consommer dans les 48 heures après ouverture.",
+                "4": "En cas de sensibilité à l’acidité, consommer dilué ou en petites quantités."
+            },
+            "list": {
+                "title": "Valeurs nutritionnelles pour 100 ml :",
+                "1": "Énergie : 67 kJ / 16 kcal",
+                "2": "Protéines – 0,0 g",
+                "3": "Matières grasses – 0,0 g",
+                "4": "Glucides – 4,0 g",
+                "5": "Sucres – 4,0 g"
+            }
+        },
+        "hibiscus": {
+            "type": "Kombucha",
+            "title": "Hibiscus",
+            "text": {
+                "1": "Ingrédients naturels : eau filtrée, jus de pomme concentré, thé noir, thé vert, fleurs d’hibiscus, sucre, culture de kombucha.",
+                "2": "Température de conservation recommandée : +6 °C à +25 °C.",
+                "3": "À consommer dans les 48 heures après ouverture.",
+                "4": "En cas de sensibilité à l’acidité, consommer dilué ou en petites quantités."
+            },
+            "list": {
+                "title": "Valeurs nutritionnelles pour 100 ml :",
+                "1": "Énergie : 67 kJ / 16 kcal",
+                "2": "Protéines – 0,0 g",
+                "3": "Matières grasses – 0,0 g",
+                "4": "Glucides – 4,0 g",
+                "5": "Sucres – 4,0 g"
+            }
+        },
+        "jasmine": {
+            "type": "Kombucha",
+            "title": "Jasmin",
+            "text": {
+                "1": "Ingrédients naturels : eau filtrée, jus de pomme concentré, thé vert, fleurs de jasmin, sucre, culture de kombucha.",
+                "2": "Température de conservation recommandée : +6 °C à +25 °C.",
+                "3": "À consommer dans les 48 heures après ouverture.",
+                "4": "En cas de sensibilité à l’acidité, consommer dilué ou en petites quantités."
+            },
+            "list": {
+                "title": "Valeurs nutritionnelles pour 100 ml :",
+                "1": "Énergie : 67 kJ / 16 kcal",
+                "2": "Protéines – 0,0 g",
+                "3": "Matières grasses – 0,0 g",
+                "4": "Glucides – 4,0 g",
+                "5": "Sucres – 4,0 g"
+            }
+        },
+        "lavender": {
+            "type": "Kombucha",
+            "title": "Lavande",
+            "text": {
+                "1": "Ingrédients naturels : eau filtrée, jus de pomme concentré (20 %), thé vert, fleurs de clitoria, thé noir, fleurs de lavande, sucre, culture de kombucha.",
+                "2": "Température de conservation recommandée : +6 °C à +25 °C.",
+                "3": "À consommer dans les 48 heures après ouverture.",
+                "4": "En cas de sensibilité à l’acidité, consommer dilué ou en petites quantités."
+            },
+            "list": {
+                "title": "Valeurs nutritionnelles pour 100 ml :",
+                "1": "Énergie : 67 kJ / 16 kcal",
+                "2": "Protéines – 0,0 g",
+                "3": "Matières grasses – 0,0 g",
+                "4": "Glucides – 4,0 g",
+                "5": "Sucres – 4,0 g"
+            }
+        },
+        "lemongrass": {
+            "type": "Kombucha",
+            "title": "Citronnelle",
+            "text": {
+                "1": "Ingrédients naturels : eau filtrée, jus de pomme concentré, thé noir, citronnelle, sucre, culture de kombucha.",
+                "2": "Température de conservation recommandée : +6 °C à +25 °C.",
+                "3": "À consommer dans les 48 heures après ouverture.",
+                "4": "En cas de sensibilité à l’acidité, consommer dilué ou en petites quantités."
+            },
+            "list": {
+                "title": "Valeurs nutritionnelles pour 100 ml :",
+                "1": "Énergie : 67 kJ / 16 kcal",
+                "2": "Protéines – 0,0 g",
+                "3": "Matières grasses – 0,0 g",
+                "4": "Glucides – 4,0 g",
+                "5": "Sucres – 4,0 g"
+            }
+        },
+        "passion-fruit": {
+            "type": "Kombucha",
+            "title": "Fruit de la passion",
+            "text": {
+                "1": "Ingrédients naturels : eau filtrée, jus de pomme concentré, thé vert, fruit de la passion, sucre, jus de citron, culture de kombucha.",
+                "2": "Température de conservation recommandée : +6 °C à +25 °C.",
+                "3": "À consommer dans les 48 heures après ouverture.",
+                "4": "En cas de sensibilité à l’acidité, consommer dilué ou en petites quantités."
+            },
+            "list": {
+                "title": "Valeurs nutritionnelles pour 100 ml :",
+                "1": "Énergie : 67 kJ / 16 kcal",
+                "2": "Protéines – 0,0 g",
+                "3": "Matières grasses – 0,0 g",
+                "4": "Glucides – 4,0 g",
+                "5": "Sucres – 4,0 g"
+            }
+        },
+        "yuzu": {
+            "type": "Kombucha",
+            "title": "Yuzu",
+            "text": {
+                "1": "Ingrédients naturels : eau filtrée, jus de pomme concentré, thé vert, jus de yuzu, sucre, culture de kombucha.",
+                "2": "Température de conservation recommandée : +6 °C à +25 °C.",
+                "3": "À consommer dans les 48 heures après ouverture.",
+                "4": "En cas de sensibilité à l’acidité, consommer dilué ou en petites quantités."
+            },
+            "list": {
+                "title": "Valeurs nutritionnelles pour 100 ml :",
+                "1": "Énergie : 67 kJ / 16 kcal",
+                "2": "Protéines – 0,0 g",
+                "3": "Matières grasses – 0,0 g",
+                "4": "Glucides – 4,0 g",
+                "5": "Sucres – 4,0 g"
+            }
+        }
+    }
+}

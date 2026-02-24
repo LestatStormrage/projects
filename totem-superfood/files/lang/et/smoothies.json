@@ -1,0 +1,295 @@
+{
+    "_metaTitle": "Smuutid",
+    "_metaDescription": "Avasta meie maitsvad smuutid ja toeta oma aktiivset eluviisi.",
+    "products": {
+        "title": "Smuutid",
+        "fireSmoothies": {
+            "title": "Fire-Smoothies kollektsioon",
+            "description": "Meie smuutid on rikastatud võimsate supertoitudega, mis suurendavad oluliselt nende toiteväärtust ja tervise-eeliseid. Iga koostisosa on hoolikalt valitud, et toetada üldist heaolu, parandada organismi talitlust ja tõsta elujõudu.",
+            "turmeric": {
+                "name": "Kurkumi smuuti",
+                "type": "Smuuti",
+                "descriptionTitle": "Kirjeldus:",
+                "descriptionText": "Kurkuma on tuntud oma põletikuvastaste ja antioksüdantsete omaduste poolest, muutes selle suurepäraseks lisandiks tervislikus toitumises. Arvatakse, et see võib:",
+                "list": {
+                    "1": "Aidata Alzheimeri tõve ennetamisel.",
+                    "2": "Leevendada artriidi sümptomeid ja toetada liigeste tervist.",
+                    "3": "Toetada vaimset heaolu, vähendades depressiooni sümptomeid.",
+                    "4": "Aeglustada vananemisprotsessi, kaitstes rakke oksüdatiivse stressi eest.",
+                    "5": "Mängida rolli vähiennetuses tänu oma aktiivsetele ühenditele."
+                }
+            },
+            "acai": {
+                "name": "Açaí smuuti",
+                "type": "Smuuti",
+                "ingredientsTitle": "Koostisosad:",
+                "ingredients": {
+                    "1": "Maasikas",
+                    "2": "Vaarikas",
+                    "3": "Kaerahelbed",
+                    "4": "Banaan",
+                    "5": "Chia seemned",
+                    "6": "Açaí marjad"
+                },
+                "descriptionTitle": "Kirjeldus:",
+                "descriptionText": "“Açaí” on hõrk kokteil, mis ühendab maasika, vaarika ja banaani erksa maitse kaerahelveste ja chia seemnetega. Açaí marjad annavad joogile antioksüdantsed omadused, aidates tugevdada immuunsüsteemi, säilitada südame tervist ja parandada kognitiivseid funktsioone."
+            },
+            "spirulina": {
+                "name": "Spirulina smuuti",
+                "type": "Smuuti",
+                "ingredientsTitle": "Koostisosad:",
+                "ingredients": {
+                    "1": "Spinat",
+                    "2": "Banaan",
+                    "3": "Õun",
+                    "4": "Datlid",
+                    "5": "Spirulina"
+                },
+                "descriptionTitle": "Kirjeldus:",
+                "descriptionText": "“Spirulina” on harmooniline segu spinatist, banaanist ja õunast, mida täiendavad datlite magusus ja spirulina ainulaadsed omadused. See jook on toitaineterikas ning soodustab seedimist, detoksifikatsiooni ja tervisliku kehakaalu säilitamist."
+            },
+            "hemp": {
+                "name": "Hemp Storm smuuti",
+                "type": "Smuuti",
+                "ingredientsTitle": "Koostisosad:",
+                "ingredients": {
+                    "1": "Vaarikas",
+                    "2": "Mustikas",
+                    "3": "Kooritud kanepiseemned",
+                    "4": "Chia seemned",
+                    "5": "Banaan",
+                    "6": "Kaerahelbed"
+                },
+                "descriptionTitle": "Kirjeldus:",
+                "descriptionText": "“Hemp Storm” on toitev kokteil, milles vaarikas, mustikas ja banaan on ühendatud tervislike kanepiseemnete, chia seemnete ja kaerahelvestega. Kanepiseemned, mis on rikkad valkude ja rasvhapete poolest, aitavad tugevdada immuunsüsteemi, säilitada südame tervist ja parandada naha seisundit."
+            }
+        },
+        "fireDetox": {
+            "title": "Fire-Detox kollektsioon",
+            "description": "Meie detox-kokteilid on valmistatud looduslikest koostisosadest, et puhastada keha, toetada seedimist ja taastada tasakaal. Iga segu on loodud energia suurendamiseks, ainevahetuse kiirendamiseks ja üldise heaolu edendamiseks.",
+            "mega": {
+                "name": "Mega Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Koostisosad:",
+                "ingredients": {
+                    "1": "Apelsin",
+                    "2": "Ananass",
+                    "3": "Kurkuma",
+                    "4": "Kaneel",
+                    "5": "Chia seemned"
+                },
+                "descriptionTitle": "Kirjeldus:",
+                "descriptionText": "“Mega Detox” on võimas kokteil, mis on loodud keha põhjalikuks puhastamiseks. Seller ja spinat, mis on tuntud oma detoksifitseerivate omaduste poolest, on ühendatud õuna ja banaaniga, et anda joogile meeldiv magusus."
+            },
+            "green": {
+                "name": "Green Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Koostisosad:",
+                "ingredients": {
+                    "1": "Banaan",
+                    "2": "Apelsin",
+                    "3": "Spinat",
+                    "4": "Kõrvitsaseemned",
+                    "5": "Chlorella"
+                },
+                "descriptionTitle": "Kirjeldus:",
+                "descriptionText": "“Green Detox” on toitev ja tasakaalustatud kokteil, mis aitab täiendada vitamiinide ja mineraalide varusid. Banaan ja apelsin annavad joogile meeldiva magususe ja värskendava maitse. Spinat, mis on rikas raua ja muude kasulike ainete poolest, toetab tervist. Kõrvitsaseemned ja chlorella, mis sisaldavad palju valke ja antioksüdante, edendavad heaolu."
+            },
+            "refreshing": {
+                "name": "Refreshing Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Koostisosad:",
+                "ingredients": {
+                    "1": "Seller",
+                    "2": "Kiivi",
+                    "3": "Õun",
+                    "4": "Petersell",
+                    "5": "Chlorella",
+                    "6": "Chia seemned"
+                },
+                "descriptionTitle": "Kirjeldus:",
+                "descriptionText": "“Refreshing Detox” on kerge ja kosutav kokteil, mis aitab sul end energilisena tunda. Seller ja petersell, millel on diureetilised omadused, aitavad eemaldada kehast liigset vedelikku. Kiivi ja õun annavad joogile meeldiva hapukuse ja värskendava maitse. Chlorella ja chia seemned, mis on rikkad toitainete poolest, toetavad tervist ja heaolu."
+            },
+            "energy": {
+                "name": "Energy Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Koostisosad:",
+                "ingredients": {
+                    "1": "Apelsin",
+                    "2": "Ananass",
+                    "3": "Kurkuma",
+                    "4": "Kaneel",
+                    "5": "Chia seemned"
+                },
+                "descriptionTitle": "Kirjeldus:",
+                "descriptionText": "“Energy Detox” on erk ja aromaatne kokteil, mis annab energiat kogu päevaks. Apelsin ja ananass, mis on rikkad C-vitamiini poolest, tugevdavad immuunsüsteemi ja tõstavad toonust. Kurkuma ja kaneel, tuntud oma põletikuvastaste omaduste poolest, aitavad puhastada keha ja parandada ainevahetust. Chia seemned, mis sisaldavad palju kiudaineid, tagavad pikaajalise täiskõhutunde."
+            }
+        },
+        "air-collection": {
+            "title": "Air kollektsioon",
+            "berry-boost": {
+                "type": "Smuuti",
+                "title": "Berry Boost",
+                "ingredients": {
+                    "title": "Koostisosad:",
+                    "1": "Banaan",
+                    "2": "Marjad",
+                    "3": "Chia seemned",
+                    "4": "Kaerahelbed",
+                    "5": "Kookoselaastud"
+                },
+                "benefit": {
+                    "title": "Eelised:",
+                    "text": "Tugevdab immuunsust, annab energiat, rikkalik antioksüdantide ja kiudainete poolest."
+                }
+            },
+            "green-boost": {
+                "type": "Smuuti",
+                "title": "Green Boost",
+                "ingredients": {
+                    "title": "Koostisosad:",
+                    "1": "Spinat",
+                    "2": "Õun",
+                    "3": "Banaan",
+                    "4": "Spirulina",
+                    "5": "Linaseemned",
+                    "6": "Sidrun"
+                },
+                "benefit": {
+                    "title": "Eelised:",
+                    "text": "Puhastab keha, tugevdab immuunsüsteemi ja pakub olulisi vitamiine ja mineraale."
+                }
+            },
+            "nut-cocoa": {
+                "type": "Smuuti",
+                "title": "Nut-Cocoa Energy",
+                "ingredients": {
+                    "title": "Koostisosad:",
+                    "1": "Banaan",
+                    "2": "Kakaopulber",
+                    "3": "Datlid",
+                    "4": "Mandlid",
+                    "5": "Maca",
+                    "6": "Kaerahelbed"
+                },
+                "benefit": {
+                    "title": "Eelised:",
+                    "text": "Tõstab meeleolu, annab energiat ja toidab tervislike rasvadega."
+                }
+            },
+            "spiced-banana-boost": {
+                "type": "Smuuti",
+                "title": "Spiced Banana Boost",
+                "ingredients": {
+                    "title": "Koostisosad:",
+                    "1": "Banaan",
+                    "2": "Õun",
+                    "3": "Kaerahelbed",
+                    "4": "Kaneel",
+                    "5": "Chia seemned",
+                    "6": "Mandlid"
+                },
+                "benefit": {
+                    "title": "Eelised:",
+                    "text": "Soojendab, rahuldab, stabiliseerib veresuhkrut ja toetab seedimist."
+                }
+            },
+            "turmeric-mango-immunoboost": {
+                "type": "Smuuti",
+                "title": "Kurkuma + Mango “ImmunoBoost”",
+                "ingredients": {
+                    "title": "Koostisosad:",
+                    "1": "Mango",
+                    "2": "Banaan",
+                    "3": "Kurkuma",
+                    "4": "Ingver",
+                    "5": "Linaseemned",
+                    "6": "Kaerapulber"
+                },
+                "benefit": {
+                    "title": "Eelised:",
+                    "text": "Tugevdab immuunsust, vähendab põletikku ja annab vitamiinilaksu."
+                }
+            },
+            "cocoa-turmeric-antistress": {
+                "type": "Smuuti",
+                "title": "Cocoa Turmeric Antistress",
+                "ingredients": {
+                    "title": "Koostisosad:",
+                    "1": "Banaan",
+                    "2": "Kakaopulber",
+                    "3": "Mandlid",
+                    "4": "Kurkuma",
+                    "5": "Datlid",
+                    "6": "Chia seemned"
+                },
+                "benefit": {
+                    "title": "Eelised:",
+                    "text": "Leevendab stressi, varustab magneesiumiga ning toetab närvisüsteemi ja und."
+                }
+            }
+        },
+        "earthCollection": {
+            "title": "Earth kollektsioon",
+            "ingredientsTitle": "Koostisosad:",
+            "benefitTitle": "Eelised:",
+            "morningEnergy": {
+                "title": "Morning Energy",
+                "alt": "Morning Energy",
+                "type": "Smuuti",
+                "ingredients": [
+                    "Külmkuivatatud banaan",
+                    "Kaerahelbed",
+                    "Mandlid",
+                    "Chia seemned",
+                    "Kakao",
+                    "Kuiv kookospiim",
+                    "Magusaine"
+                ],
+                "benefit": "Suurepärane hommikusöögivalik – annab energiat ja toetab aju tööd."
+            },
+            "immuneShield": {
+                "title": "Immune Shield",
+                "alt": "Immune Shield",
+                "type": "Smuuti",
+                "ingredients": [
+                    "Külmkuivatatud maasikas",
+                    "Kaerahelbed",
+                    "Kreeka pähklid",
+                    "Spirulina",
+                    "Pulbristatud ingver",
+                    "Kuiv kookospiim"
+                ],
+                "benefit": "Toetab immuunsüsteemi tänu C-vitamiinile ja antioksüdantidele."
+            },
+            "fitnessCharge": {
+                "title": "Fitness Charge",
+                "alt": "Fitness Charge",
+                "type": "Smuuti",
+                "ingredients": [
+                    "Külmkuivatatud mustikas",
+                    "Kaerahelbed",
+                    "Sarapuu pähklid",
+                    "Maca",
+                    "Seesamiseemned",
+                    "Kakao"
+                ],
+                "benefit": "Parandab vastupidavust ja aitab lihastel taastuda."
+            },
+            "detoxBalance": {
+                "title": "Detox & Balance",
+                "alt": "Detox & Balance",
+                "type": "Smuuti",
+                "ingredients": [
+                    "Külmkuivatatud vaarikas",
+                    "Kaerahelbed",
+                    "Linaseemned",
+                    "Spirulina",
+                    "Matcha",
+                    "Seedrimänniseemned"
+                ],
+                "benefit": "Puhastab keha ja suurendab elujõudu."
+            }
+        }
+    }
+}

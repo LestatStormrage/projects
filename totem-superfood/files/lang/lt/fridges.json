@@ -1,0 +1,31 @@
+{
+	"_metaTitle": "Šaldytuvai",
+	"_metaDescription": "Atraskite mūsų profesionalių šaldytuvų ir automatizuotų prekybos modulių asortimentą, kuris leidžia efektyviau ir pelningiau reklamuoti produktus.",
+	"fridges-page": {
+		"introduction": {
+			"title": "Šaldytuvai",
+			"description": "Be mūsų aukščiausios kokybės produktų, partneriams siūlome papildomą įrangą, kuri palengvina, pagreitina ir padidina produktų rinkodaros efektyvumą."
+		},
+		"types": {
+			"title": "Šaldytuvų tipai:",
+			"list": {
+				"1": "Įprasti šaldytuvai",
+				"2": "Automatizuoti prekybos moduliai (mikroturgeliai) su integruota Nayax mokėjimo sistema ir Dynamic Scale svorio jutiklių technologija",
+				"3": "Mikroturgeliai su Dynamic Scale svorio jutiklių technologija (tik atsargų kontrolė)"
+			}
+		},
+		"payment": {
+			"title": "Atsiskaitymo galimybės",
+			"items": {
+				"1": {
+					"name": "POS",
+					"text": "Klientai atidaro mikroturgelį naudodamiesi banko kortele arba telefonu, mokėjimas atliekamas automatiškai."
+				},
+				"2": {
+					"name": "Privati programėlė",
+					"text": "Sukuriame jums individualią programėlę su jūsų logotipu ir prekės ženklo spalvomis."
+				}
+			}
+		}
+	}
+}

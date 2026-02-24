@@ -1,0 +1,43 @@
+{
+	"_metaTitle": "Ota yhteyttä",
+	"_metaDescription": "Ota yhteyttä Totem Superfoodiin. Täytä yhteydenottolomake tullaksesi jälleenmyyjäksi tai kysyäksesi tuotteistamme.",
+	"contact-us": {
+		"title": "Ota yhteyttä ja tule jälleenmyyjäksemme!",
+		"form": {
+			"title": "Käytä tätä lomaketta lähettääksesi meille sähköpostia",
+			"interest": {
+				"title": "Olen kiinnostunut:",
+				"smoothies": "Smoothiet",
+				"kombucha": "Kombucha",
+				"fruit-infusion-drinks": "Hedelmäiset haudukejuomat"
+			},
+			"salutation": {
+				"label": "Kuinka meidän tulisi puhutella sinua? *",
+				"mr": "Herra",
+				"mrs": "Rouvatar"
+			},
+			"firstName": {
+				"label": "Etunimi *:",
+				"placeholder": "Etunimi"
+			},
+			"lastName": {
+				"label": "Sukunimi *:",
+				"placeholder": "Sukunimi"
+			},
+			"email": {
+				"label": "Sähköposti *:",
+				"placeholder": "Sähköposti"
+			},
+			"addInfo": {
+				"label": "Lisätiedot:",
+				"placeholder": "Lisätiedot"
+			},
+			"agreement": {
+				"text": "Hyväksyn henkilötietojeni keräämisen, käsittelyn ja käytön tämän",
+				"link": "tietosuojakäytännön mukaisesti"
+			},
+			"required": "* Pakollinen kenttä",
+			"button": "Lähetä"
+		}
+	}
+}

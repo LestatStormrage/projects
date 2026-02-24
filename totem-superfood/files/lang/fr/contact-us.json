@@ -1,0 +1,43 @@
+{
+	"_metaTitle": "Contactez-nous",
+	"_metaDescription": "Contactez Totem Superfood. Remplissez notre formulaire de contact pour devenir revendeur ou poser des questions sur nos produits.",
+	"contact-us": {
+		"title": "Contactez-nous pour devenir revendeur !",
+		"form": {
+			"title": "Utilisez ce formulaire pour nous envoyer un e-mail",
+			"interest": {
+				"title": "Je suis intéressé(e) par :",
+				"smoothies": "Smoothies",
+				"kombucha": "Kombucha",
+				"fruit-infusion-drinks": "Boissons à infusion de fruits"
+			},
+			"salutation": {
+				"label": "Comment devons-nous vous appeler ? *",
+				"mr": "M.",
+				"mrs": "Mme"
+			},
+			"firstName": {
+				"label": "Prénom * :",
+				"placeholder": "Prénom"
+			},
+			"lastName": {
+				"label": "Nom * :",
+				"placeholder": "Nom"
+			},
+			"email": {
+				"label": "E-mail * :",
+				"placeholder": "E-mail"
+			},
+			"addInfo": {
+				"label": "Informations complémentaires :",
+				"placeholder": "Informations complémentaires"
+			},
+			"agreement": {
+				"text": "Je consens à la collecte, au traitement ou à l’utilisation de mes données personnelles conformément à la",
+				"link": "politique de confidentialité"
+			},
+			"required": "* Champ obligatoire",
+			"button": "Envoyer"
+		}
+	}
+}

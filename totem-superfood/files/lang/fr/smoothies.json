@@ -1,0 +1,295 @@
+{
+    "_metaTitle": "Nos Smoothies",
+    "_metaDescription": "Découvrez nos délicieux smoothies et soutenez votre mode de vie actif.",
+    "products": {
+        "title": "Smoothies",
+        "fireSmoothies": {
+            "title": "Collection Fire-Smoothies",
+            "description": "Nos smoothies sont enrichis de superaliments puissants, augmentant considérablement leur valeur nutritionnelle et leurs bienfaits pour la santé. Chaque ingrédient est soigneusement sélectionné pour soutenir le bien-être général, améliorer les fonctions de l’organisme et renforcer la vitalité.",
+            "turmeric": {
+                "name": "Smoothie au curcuma",
+                "type": "Smoothie",
+                "descriptionTitle": "Description :",
+                "descriptionText": "Le curcuma est largement reconnu pour ses propriétés anti-inflammatoires et antioxydantes, ce qui en fait un excellent complément à une alimentation saine. Il est réputé pour :",
+                "list": {
+                    "1": "Aider à prévenir la maladie d’Alzheimer.",
+                    "2": "Soulager les symptômes de l’arthrite et soutenir la santé des articulations.",
+                    "3": "Favoriser le bien-être mental en réduisant les symptômes de la dépression.",
+                    "4": "Ralentir le processus de vieillissement en protégeant les cellules du stress oxydatif.",
+                    "5": "Jouer un rôle dans la prévention du cancer grâce à ses composés actifs."
+                }
+            },
+            "acai": {
+                "name": "Smoothie à l’açaï",
+                "type": "Smoothie",
+                "ingredientsTitle": "Ingrédients :",
+                "ingredients": {
+                    "1": "Fraise",
+                    "2": "Framboise",
+                    "3": "Flocons d’avoine",
+                    "4": "Banane",
+                    "5": "Graines de chia",
+                    "6": "Baies d’açaï"
+                },
+                "descriptionTitle": "Description :",
+                "descriptionText": "« Açaï » est un cocktail raffiné qui associe des notes vives de fraise, de framboise et de banane, enrichies de flocons d’avoine et de graines de chia. Les baies d’açaï confèrent à la boisson des propriétés antioxydantes, contribuant au renforcement du système immunitaire, au maintien de la santé cardiovasculaire et à l’amélioration des fonctions cognitives."
+            },
+            "spirulina": {
+                "name": "Smoothie à la spiruline",
+                "type": "Smoothie",
+                "ingredientsTitle": "Ingrédients :",
+                "ingredients": {
+                    "1": "Épinards",
+                    "2": "Banane",
+                    "3": "Pomme",
+                    "4": "Dattes",
+                    "5": "Spiruline"
+                },
+                "descriptionTitle": "Description :",
+                "descriptionText": "« Spiruline » est un mélange harmonieux d’épinards, de banane et de pomme, complété par la douceur des dattes et les propriétés uniques de la spiruline. Cette boisson est riche en nutriments et favorise une meilleure digestion, la détoxification et le maintien d’un poids sain."
+            },
+            "hemp": {
+                "name": "Smoothie Hemp Storm",
+                "type": "Smoothie",
+                "ingredientsTitle": "Ingrédients :",
+                "ingredients": {
+                    "1": "Framboise",
+                    "2": "Myrtille",
+                    "3": "Graines de chanvre décortiquées",
+                    "4": "Graines de chia",
+                    "5": "Banane",
+                    "6": "Flocons d’avoine"
+                },
+                "descriptionTitle": "Description :",
+                "descriptionText": "« Hemp Storm » est un cocktail nutritif dans lequel la framboise, la myrtille et la banane sont associées à des graines de chanvre, des graines de chia et des flocons d’avoine. Les graines de chanvre, riches en protéines et en acides gras essentiels, contribuent à renforcer le système immunitaire, à soutenir la santé cardiovasculaire et à améliorer l’état de la peau."
+            }
+        },
+        "fireDetox": {
+            "title": "Collection Fire-Detox",
+            "description": "Nos cocktails détox sont élaborés à partir d’ingrédients naturels puissants pour nettoyer l’organisme, soutenir la digestion et rétablir l’équilibre. Chaque mélange est conçu pour stimuler l’énergie, améliorer le métabolisme et favoriser le bien-être général.",
+            "mega": {
+                "name": "Mega Détox",
+                "type": "Détox",
+                "ingredientsTitle": "Ingrédients :",
+                "ingredients": {
+                    "1": "Orange",
+                    "2": "Ananas",
+                    "3": "Curcuma",
+                    "4": "Cannelle",
+                    "5": "Graines de chia"
+                },
+                "descriptionTitle": "Description :",
+                "descriptionText": "« Mega Détox » est un cocktail puissant conçu pour une purification en profondeur de l’organisme. Le céleri et les épinards, reconnus pour leurs propriétés détoxifiantes, sont associés à la pomme et à la banane pour apporter une douceur agréable."
+            },
+            "green": {
+                "name": "Green Détox",
+                "type": "Détox",
+                "ingredientsTitle": "Ingrédients :",
+                "ingredients": {
+                    "1": "Banane",
+                    "2": "Orange",
+                    "3": "Épinards",
+                    "4": "Graines de courge",
+                    "5": "Chlorella"
+                },
+                "descriptionTitle": "Description :",
+                "descriptionText": "« Green Détox » est un cocktail nutritif et équilibré qui aide à reconstituer les réserves de vitamines et de minéraux. La banane et l’orange apportent une douceur agréable et une fraîcheur naturelle. Les épinards, riches en fer et en nutriments, favorisent la santé. Les graines de courge et la chlorella, riches en protéines et antioxydants, soutiennent le bien-être."
+            },
+            "refreshing": {
+                "name": "Détox Rafraîchissante",
+                "type": "Détox",
+                "ingredientsTitle": "Ingrédients :",
+                "ingredients": {
+                    "1": "Céleri",
+                    "2": "Kiwi",
+                    "3": "Pomme",
+                    "4": "Persil",
+                    "5": "Chlorella",
+                    "6": "Graines de chia"
+                },
+                "descriptionTitle": "Description :",
+                "descriptionText": "« Détox Rafraîchissante » est un cocktail léger et revitalisant qui aide à retrouver de l’énergie. Le céleri et le persil, aux propriétés diurétiques, favorisent l’élimination de l’excès de liquide. Le kiwi et la pomme apportent une acidité agréable et une sensation de fraîcheur. La chlorella et les graines de chia, riches en nutriments, soutiennent la santé globale."
+            },
+            "energy": {
+                "name": "Energy Détox",
+                "type": "Détox",
+                "ingredientsTitle": "Ingrédients :",
+                "ingredients": {
+                    "1": "Orange",
+                    "2": "Ananas",
+                    "3": "Curcuma",
+                    "4": "Cannelle",
+                    "5": "Graines de chia"
+                },
+                "descriptionTitle": "Description :",
+                "descriptionText": "« Energy Détox » est un cocktail lumineux et aromatique qui vous dynamise pour toute la journée. L’orange et l’ananas, riches en vitamine C, renforcent le système immunitaire et augmentent le tonus. Le curcuma et la cannelle, connus pour leurs propriétés anti-inflammatoires, aident à purifier l’organisme et à améliorer le métabolisme. Les graines de chia, riches en fibres, procurent une sensation de satiété durable."
+            }
+        },
+        "air-collection": {
+            "title": "Collection Air",
+            "berry-boost": {
+                "type": "Smoothie",
+                "title": "Berry Boost",
+                "ingredients": {
+                    "title": "Ingrédients :",
+                    "1": "Banane",
+                    "2": "Baies",
+                    "3": "Graines de chia",
+                    "4": "Flocons d’avoine",
+                    "5": "Noix de coco râpée"
+                },
+                "benefit": {
+                    "title": "Bienfaits :",
+                    "text": "Renforce l’immunité, apporte de l’énergie, riche en antioxydants et en fibres."
+                }
+            },
+            "green-boost": {
+                "type": "Smoothie",
+                "title": "Green Boost",
+                "ingredients": {
+                    "title": "Ingrédients :",
+                    "1": "Épinards",
+                    "2": "Pomme",
+                    "3": "Banane",
+                    "4": "Spiruline",
+                    "5": "Graines de lin",
+                    "6": "Citron"
+                },
+                "benefit": {
+                    "title": "Bienfaits :",
+                    "text": "Détoxifie l’organisme, renforce le système immunitaire et apporte des vitamines et minéraux essentiels."
+                }
+            },
+            "nut-cocoa": {
+                "type": "Smoothie",
+                "title": "Nut-Cocoa Energy",
+                "ingredients": {
+                    "title": "Ingrédients :",
+                    "1": "Banane",
+                    "2": "Cacao en poudre",
+                    "3": "Dattes",
+                    "4": "Amandes",
+                    "5": "Maca",
+                    "6": "Flocons d’avoine"
+                },
+                "benefit": {
+                    "title": "Bienfaits :",
+                    "text": "Améliore l’humeur, apporte de l’énergie et nourrit grâce aux bonnes graisses."
+                }
+            },
+            "spiced-banana-boost": {
+                "type": "Smoothie",
+                "title": "Spiced Banana Boost",
+                "ingredients": {
+                    "title": "Ingrédients :",
+                    "1": "Banane",
+                    "2": "Pomme",
+                    "3": "Flocons d’avoine",
+                    "4": "Cannelle",
+                    "5": "Graines de chia",
+                    "6": "Amandes"
+                },
+                "benefit": {
+                    "title": "Bienfaits :",
+                    "text": "Réchauffe, rassasie, stabilise la glycémie et favorise la digestion."
+                }
+            },
+            "turmeric-mango-immunoboost": {
+                "type": "Smoothie",
+                "title": "Curcuma + Mangue « ImmunoBoost »",
+                "ingredients": {
+                    "title": "Ingrédients :",
+                    "1": "Mangue",
+                    "2": "Banane",
+                    "3": "Curcuma",
+                    "4": "Gingembre",
+                    "5": "Graines de lin",
+                    "6": "Poudre d’avoine"
+                },
+                "benefit": {
+                    "title": "Bienfaits :",
+                    "text": "Renforce l’immunité, réduit l’inflammation et apporte un boost de vitamines."
+                }
+            },
+            "cocoa-turmeric-antistress": {
+                "type": "Smoothie",
+                "title": "Cacao Curcuma Antistress",
+                "ingredients": {
+                    "title": "Ingrédients :",
+                    "1": "Banane",
+                    "2": "Cacao en poudre",
+                    "3": "Amandes",
+                    "4": "Curcuma",
+                    "5": "Dattes",
+                    "6": "Graines de chia"
+                },
+                "benefit": {
+                    "title": "Bienfaits :",
+                    "text": "Réduit le stress, apporte du magnésium et soutient le système nerveux et le sommeil."
+                }
+            }
+        },
+        "earthCollection": {
+            "title": "Collection Terre",
+            "ingredientsTitle": "Ingrédients :",
+            "benefitTitle": "Bienfaits :",
+            "morningEnergy": {
+                "title": "Énergie du matin",
+                "alt": "Énergie du matin",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Banane lyophilisée",
+                    "Flocons d’avoine",
+                    "Amandes",
+                    "Graines de chia",
+                    "Cacao",
+                    "Lait de coco en poudre",
+                    "Édulcorant"
+                ],
+                "benefit": "Une excellente option pour le petit-déjeuner – apporte de l’énergie et soutient les fonctions cérébrales."
+            },
+            "immuneShield": {
+                "title": "Bouclier Immunitaire",
+                "alt": "Bouclier Immunitaire",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Fraise lyophilisée",
+                    "Flocons d’avoine",
+                    "Noix",
+                    "Spiruline",
+                    "Gingembre en poudre",
+                    "Lait de coco en poudre"
+                ],
+                "benefit": "Soutien du système immunitaire grâce à la vitamine C et aux antioxydants."
+            },
+            "fitnessCharge": {
+                "title": "Charge Fitness",
+                "alt": "Charge Fitness",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Myrtille lyophilisée",
+                    "Flocons d’avoine",
+                    "Noisettes",
+                    "Maca",
+                    "Graines de sésame",
+                    "Cacao"
+                ],
+                "benefit": "Améliore l’endurance et favorise la récupération musculaire."
+            },
+            "detoxBalance": {
+                "title": "Détox & Équilibre",
+                "alt": "Détox & Équilibre",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Framboise lyophilisée",
+                    "Flocons d’avoine",
+                    "Graines de lin",
+                    "Spiruline",
+                    "Matcha",
+                    "Pignons de pin"
+                ],
+                "benefit": "Nettoie l’organisme et renforce la vitalité."
+            }
+        }
+    }
+}

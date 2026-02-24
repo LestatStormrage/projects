@@ -1,0 +1,152 @@
+{
+    "_metaTitle": "Kombucha",
+    "_metaDescription": "Avasta meie maitsvad smuutid ja toeta oma aktiivset elustiili.",
+    "kombucha": {
+        "main-title": "Kombucha",
+        "description": "Legendaarne teejook iidsest Idamaast. SCOBY – sümbiootiline pärmi ja kasulike bakterite kultuur – fermenteerib aromaatset teed, luues maitsva ja loomulikult tervist toetava kihiseva joogi. Vana-Jaapanis nimetati kombuchat „Surematuse teeks“. Koreas on seda juba iidsetest aegadest kasutatud noorendavate iluhoolduste jaoks ning Hiinas oli see keisrite jook.",
+        "classic-green": {
+            "type": "Kombucha",
+            "title": "Classic Green",
+            "text": {
+                "1": "Looduslikud koostisosad: filtreeritud vesi, kontsentreeritud õunamahl, roheline tee, suhkur, kombucha kultuur.",
+                "2": "Soovitatav säilitustemperatuur: +6°C kuni +25°C.",
+                "3": "Tarbi 48 tunni jooksul pärast avamist.",
+                "4": "Kui oled happesuse suhtes tundlik, joo lahjendatult või väikestes kogustes."
+            },
+            "list": {
+                "title": "Toiteväärtus 100 ml kohta:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Valgud – 0,0 g",
+                "3": "Rasvad – 0,0 g",
+                "4": "Süsivesikud – 4,0 g",
+                "5": "Suhkrud – 4,0 g"
+            }
+        },
+        "ginger": {
+            "type": "Kombucha",
+            "title": "Ingver",
+            "text": {
+                "1": "Looduslikud koostisosad: filtreeritud vesi, kontsentreeritud õunamahl (20%), roheline tee, ingver, kurkumiekstrakt, suhkur, sidrunimahl, kombucha kultuur.",
+                "2": "Soovitatav säilitustemperatuur: +6°C kuni +25°C.",
+                "3": "Tarbi 48 tunni jooksul pärast avamist.",
+                "4": "Kui oled happesuse suhtes tundlik, joo lahjendatult või väikestes kogustes."
+            },
+            "list": {
+                "title": "Toiteväärtus 100 ml kohta:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Valgud – 0,0 g",
+                "3": "Rasvad – 0,0 g",
+                "4": "Süsivesikud – 4,0 g",
+                "5": "Suhkrud – 4,0 g"
+            }
+        },
+        "hibiscus": {
+            "type": "Kombucha",
+            "title": "Hibiskus",
+            "text": {
+                "1": "Looduslikud koostisosad: filtreeritud vesi, kontsentreeritud õunamahl, must tee, roheline tee, hibiskiõied, suhkur, kombucha kultuur.",
+                "2": "Soovitatav säilitustemperatuur: +6°C kuni +25°C.",
+                "3": "Tarbi 48 tunni jooksul pärast avamist.",
+                "4": "Kui oled happesuse suhtes tundlik, joo lahjendatult või väikestes kogustes."
+            },
+            "list": {
+                "title": "Toiteväärtus 100 ml kohta:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Valgud – 0,0 g",
+                "3": "Rasvad – 0,0 g",
+                "4": "Süsivesikud – 4,0 g",
+                "5": "Suhkrud – 4,0 g"
+            }
+        },
+        "jasmine": {
+            "type": "Kombucha",
+            "title": "Jasmiin",
+            "text": {
+                "1": "Looduslikud koostisosad: filtreeritud vesi, kontsentreeritud õunamahl, roheline tee, jasmiiniõied, suhkur, kombucha kultuur.",
+                "2": "Soovitatav säilitustemperatuur: +6°C kuni +25°C.",
+                "3": "Tarbi 48 tunni jooksul pärast avamist.",
+                "4": "Kui oled happesuse suhtes tundlik, joo lahjendatult või väikestes kogustes."
+            },
+            "list": {
+                "title": "Toiteväärtus 100 ml kohta:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Valgud – 0,0 g",
+                "3": "Rasvad – 0,0 g",
+                "4": "Süsivesikud – 4,0 g",
+                "5": "Suhkrud – 4,0 g"
+            }
+        },
+        "lavender": {
+            "type": "Kombucha",
+            "title": "Lavendel",
+            "text": {
+                "1": "Looduslikud koostisosad: filtreeritud vesi, kontsentreeritud õunamahl (20%), roheline tee, klitooriaõied, must tee, lavendliõied, suhkur, kombucha kultuur.",
+                "2": "Soovitatav säilitustemperatuur: +6°C kuni +25°C.",
+                "3": "Tarbi 48 tunni jooksul pärast avamist.",
+                "4": "Kui oled happesuse suhtes tundlik, joo lahjendatult või väikestes kogustes."
+            },
+            "list": {
+                "title": "Toiteväärtus 100 ml kohta:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Valgud – 0,0 g",
+                "3": "Rasvad – 0,0 g",
+                "4": "Süsivesikud – 4,0 g",
+                "5": "Suhkrud – 4,0 g"
+            }
+        },
+        "lemongrass": {
+            "type": "Kombucha",
+            "title": "Sidrunhein",
+            "text": {
+                "1": "Looduslikud koostisosad: filtreeritud vesi, kontsentreeritud õunamahl, must tee, sidrunhein, suhkur, kombucha kultuur.",
+                "2": "Soovitatav säilitustemperatuur: +6°C kuni +25°C.",
+                "3": "Tarbi 48 tunni jooksul pärast avamist.",
+                "4": "Kui oled happesuse suhtes tundlik, joo lahjendatult või väikestes kogustes."
+            },
+            "list": {
+                "title": "Toiteväärtus 100 ml kohta:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Valgud – 0,0 g",
+                "3": "Rasvad – 0,0 g",
+                "4": "Süsivesikud – 4,0 g",
+                "5": "Suhkrud – 4,0 g"
+            }
+        },
+        "passion-fruit": {
+            "type": "Kombucha",
+            "title": "Passioonivili",
+            "text": {
+                "1": "Looduslikud koostisosad: filtreeritud vesi, kontsentreeritud õunamahl, roheline tee, passioonivili, suhkur, sidrunimahl, kombucha kultuur.",
+                "2": "Soovitatav säilitustemperatuur: +6°C kuni +25°C.",
+                "3": "Tarbi 48 tunni jooksul pärast avamist.",
+                "4": "Kui oled happesuse suhtes tundlik, joo lahjendatult või väikestes kogustes."
+            },
+            "list": {
+                "title": "Toiteväärtus 100 ml kohta:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Valgud – 0,0 g",
+                "3": "Rasvad – 0,0 g",
+                "4": "Süsivesikud – 4,0 g",
+                "5": "Suhkrud – 4,0 g"
+            }
+        },
+        "yuzu": {
+            "type": "Kombucha",
+            "title": "Yuzu",
+            "text": {
+                "1": "Looduslikud koostisosad: filtreeritud vesi, kontsentreeritud õunamahl, roheline tee, yuzu mahl, suhkur, kombucha kultuur.",
+                "2": "Soovitatav säilitustemperatuur: +6°C kuni +25°C.",
+                "3": "Tarbi 48 tunni jooksul pärast avamist.",
+                "4": "Kui oled happesuse suhtes tundlik, joo lahjendatult või väikestes kogustes."
+            },
+            "list": {
+                "title": "Toiteväärtus 100 ml kohta:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Valgud – 0,0 g",
+                "3": "Rasvad – 0,0 g",
+                "4": "Süsivesikud – 4,0 g",
+                "5": "Suhkrud – 4,0 g"
+            }
+        }
+    }
+}

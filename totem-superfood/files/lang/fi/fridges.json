@@ -1,0 +1,31 @@
+{
+	"_metaTitle": "Jääkaapit",
+	"_metaDescription": "Tutustu ammattikäyttöön tarkoitettujen jääkaappien ja automaattisten myyntimoduulien valikoimaan, jotka tekevät tuotteiden markkinoinnista tehokkaampaa ja kannattavampaa.",
+	"fridges-page": {
+		"introduction": {
+			"title": "Jääkaapit",
+			"description": "Premium-tuotteidemme lisäksi tarjoamme kumppaneillemme lisävarusteita, jotka tekevät tuotteidemme markkinoinnista helpompaa, tehokkaampaa ja kannattavampaa."
+		},
+		"types": {
+			"title": "Jääkaappityypit:",
+			"list": {
+				"1": "Tavalliset jääkaapit",
+				"2": "Automaattiset myyntimoduulit (mikromarketit) integroidulla Nayax-maksujärjestelmällä ja Dynamic Scale -painoanturitekniikalla",
+				"3": "Mikromarketit Dynamic Scale -painoanturitekniikalla (vain varastonhallinta)"
+			}
+		},
+		"payment": {
+			"title": "Maksuvaihtoehdot",
+			"items": {
+				"1": {
+					"name": "POS",
+					"text": "Asiakkaat avaavat mikromarketin luottokortilla tai puhelimella, ja veloitus tapahtuu automaattisesti."
+				},
+				"2": {
+					"name": "Yksityinen sovellus",
+					"text": "Teemme sinulle räätälöidyn sovelluksen logollasi ja brändiväreilläsi."
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,226 @@
+{
+    "_metaTitle": "Puuviljased tõmmisjoogid",
+    "_metaDescription": "Avasta meie maitsvad puuviljased tõmmisjoogid ja toeta oma aktiivset eluviisi.",
+    "yogoda": {
+        "main-title": "Puuviljased tõmmisjoogid",
+        "description-1": "Loodud inimestele, kes hindavad looduslikke koostisosi, funktsionaalseid eeliseid ja maksimaalset mugavust igapäevaelus. Meie puuviljainfusioonid on valmistatud 100% looduslikest koostisosadest: hoolikalt valitud marjadest, puuviljadest, ingverist, meest ja vürtsidest. Me ei muuda seda, mida loodus on loonud. Selle asemel viime selle täiuslikumaks – muudame selgemaks, funktsionaalsemaks ja kergemini sobitatavaks kaasaegsesse, dünaamilisse elustiili. Tänu õrnale töötlemisele säilitame intensiivsed maitsed, kõrge toitainete sisalduse ja looduslikud omadused, tagades samal ajal lihtsa valmistamise. Tulemuseks on looduslik, teelaadne jook, mis sobitub ideaalselt erinevate olukordade, aastaaegade ja vajadustega.",
+        "description-2": "Need puuviljainfusioonijoogid on teadlikult loodud olema erakordselt mugavad ja mitmekülgsed:",
+        "bullet-point": {
+            "1": "Kontoris või kodus",
+            "2": "Pikkadel reisidel ja lühikestel sõitudel",
+            "3": "Lennukites, rongides, bussides või autodes",
+            "4": "Festivalidel, matkaautodes või telkides",
+            "5": "Kanuu- või kajakireisidel",
+            "6": "Hotellides – hommikul või õhtul",
+            "7": "Pikkade koosolekute, esitlustes, konverentsidel või koolitustel"
+        },
+        "seasons": {
+            "summer": {
+                "title": "Suvel",
+                "text": "Lisa külma vett ja naudi värskendavat, energiat andvat jooki, mis pakub loomulikku värskust."
+            },
+            "winter": {
+                "title": "Talvel",
+                "text": "Lisa kuuma vett ja naudi soojendavat jooki, mis toetab immuunsüsteemi ning elavdab nii keha kui ka meelt."
+            }
+        },
+        "classic": {
+            "title": "Klassikaline"
+        },
+        "immunity": {
+            "title": "Immuunsus"
+        },
+        "sugar-free": {
+            "title": "Suhkruvaba"
+        },
+        "coctails": {
+            "title": "Kokteilid"
+        },
+        "cherry-tea-with-chocolate": {
+            "type": "YOGODA",
+            "name": "Kirsitee šokolaadiga",
+            "description-text-01": "Esimene lonks paljastab sügava ja sametise kakaomaitse, mille loob riivitud šokolaad. Seejärel ilmneb erk kirsihapukus, mis mängib kontrastidega ja muudab maitse mahlakaks ja elavaks. Lõpuks lisandub õrn cayenne’i pipra soojus, mis rõhutab iga nooti, rikkumata joogi delikaatsust.",
+            "description-text-02": "Koostisosad: kirsid (sügavkülmutatud marjad), riivitud kakao (looduslik šokolaad), kontsentreeritud granaatõunamahl, suhkur, glükoosi-fruktoosisiirup, cayenne’i pipar."
+        },
+        "tea-with-blueberries-and-lavender": {
+            "type": "YOGODA",
+            "name": "Tee mustikate ja lavendliga",
+            "description-text-01": "Pehme ja magus mustikapõhi – nagu just metsast korjatud küpsed marjad – annab kerge meevarjundi. Lavendel lisab lillelist kergust ja rahustavat aroomi, luues sügava lõõgastuse tunde. Lõpuks ilmneb granaatõuna õrn happesus, mis lisab elegantsi ja rõhutab maitse peent tasakaalu.",
+            "description-text-02": "Koostisosad: mustikad, kontsentreeritud granaatõunamahl, kuivatatud lavendlililled, suhkur, glükoosi-fruktoosisiirup."
+        },
+        "sea-buckthorn-tea-with-apricot": {
+            "type": "YOGODA",
+            "name": "Astelpajutee aprikoosiga",
+            "description-text-01": "Astelpaju päikeseline happesus puudutab esmalt maitset – erk ja värske, kuid mitte terav. Hetk hiljem ümbritseb seda aprikoosi pehme ja sametine magusus, justkui lusikatäis kodust moosi. Koos loovad need loomuliku tasakaalu hapu ja magusa vahel.",
+            "description-text-02": "Koostisosad: astelpaju (püree/marjad), aprikoos (püree), suhkur."
+        },
+        "ginger-tea": {
+            "type": "YOGODA",
+            "name": "Ingveritee",
+            "description-text-01": "Looduse enda loodud jook! Ei mingeid kunstlikke lisandeid – ainult kasulikud koostisosad: ehtne mesi, mahlane laim ja vürtsikas ingver. Maitsete särav ja rikkalik palett, kus tasakaalustuvad mee magusus, laimi hapukus ja ingveri mõrkjas teravus.",
+            "description-text-02": "Koostisosad: värske ingverijuur, värske laim, naturaalne mesi, suhkur."
+        },
+        "cranberry-tea": {
+            "type": "YOGODA",
+            "name": "Jõhvikatee",
+            "description-text-01": "Jõhvikate maitsest ja aroomist sündinud tee säilitab maksimaalselt toitaineid. Mündi ja laimi harmoonia täiendab ingveri ja mee vürtsikust. See tee mitte ainult ei kustuta janu, vaid pakub ka tõelist naudingut.",
+            "description-text-02": "Koostisosad: värsked kiirkülmutatud jõhvikad, naturaalne mesi, värske laim, värske ingverijuur, kuivatatud aniis, kuivatatud piparmünt, suhkur."
+        },
+        "sea-buckthorn-tea": {
+            "type": "YOGODA",
+            "name": "Astelpajutee",
+            "description-text-01": "Õnne värvi jook – tõeline looduslik antidepressant. Astelpaju, mesi, ingver, laim ja vürtsid moodustavad vitamiinipommi. Astelpaju värskus, laimi hapukus ja idamaiste vürtside soojus sulanduvad täiuslikuks harmooniaks.",
+            "description-text-02": "Koostisosad: värsked kiirkülmutatud astelpajumarjad, värske ingverijuur, värske laim, jahvatatud kaneel, tähtaniis, naturaalne mesi, suhkur."
+        },
+        "raspberry-tea": {
+            "type": "YOGODA",
+            "name": "Vaarikatee",
+            "description-text-01": "Lapsepõlve mälestused igas lonksus. Küpsete vaarikate aroom koos mee loomuliku magususega on täiuslikult tasakaalustatud ingveri ja kaneeli kerge vürtsikusega.",
+            "description-text-02": "Koostisosad: värsked kiirkülmutatud vaarikad, mustsõstrad, naturaalne mesi, värske ingverijuur, kaneel, suhkur."
+        },
+        "currant-tea": {
+            "type": "YOGODA",
+            "name": "Sõstratee",
+            "description-text-01": "Minimaalne kuumtöötlus – maksimaalne kasu. Mustsõstra rikkalik maitse ja purpurbasiiliku aroom loovad sügava ja meeliülendava joogi igaks päevaks.",
+            "description-text-02": "Koostisosad: värsked kiirkülmutatud sõstrad, naturaalne mesi, purpurbasiilik, suhkur."
+        },
+        "matcha-tea-coconut-latte": {
+            "type": "YOGODA",
+            "name": "Matcha tee kookose latte",
+            "description-text-01": "Jaapani matcha rohelise tee ja kookose kreemja maitse täiuslik tasakaal. Antioksüdantiderikas ja energiat andev jook pakub rahu ja värskust igas lonksus.",
+            "description-text-02": "Koostisosad: joogivesi, suhkur, kookosepasta, matcha roheline tee, looduslik rosmariini ekstrakt."
+        },
+        "ginger-with-goji-tea": {
+            "type": "YOGODA",
+            "name": "Ingveri-goji tee",
+            "description-text-01": "Tervisliku toitumise trend! Goji-marjad, acerola ja ehhiaatsia koos meega loovad joogi, mis toetab immuunsust ja ainevahetust.",
+            "description-text-02": "Koostisosad: värske ingverijuur, värske laim, kuivatatud goji-marjad, naturaalne mesi, ehhiaatsia ekstrakt, acerola ekstrakt (C-vitamiin), suhkur."
+        },
+        "ginger-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Ingveri ja kurkumi tee",
+            "description-text-01": "Kurkumi kuldne värv ja tervist toetavad omadused koos ingveri, mee ja tsitruse värskusega loovad kasuliku joogi igaks aastaajaks.",
+            "description-text-02": "Koostisosad: värske ingverijuur, värske laim, kurkum, naturaalne mesi, suhkur."
+        },
+        "raspberry-with-acerola-tea": {
+            "type": "YOGODA",
+            "name": "Vaarika-acerola tee",
+            "description-text-01": "Vaarikate rikkalik maitse, mee magusus ja acerola ning ehhiaatsia immuunsust toetav jõud. Tõeline energiaallikas.",
+            "description-text-02": "Koostisosad: vaarikad, mesi, mustsõstrad, ingver, ehhiaatsia ekstrakt, acerola ekstrakt, suhkur."
+        },
+        "raspberry-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Vaarika ja kurkumi tee",
+            "description-text-01": "Kurkumi vürtsikus toetab vaarikate suvist maitset, mee magusust ja ingveri värskust.",
+            "description-text-02": "Koostisosad: vaarikad, mustsõstrad, mesi, ingver, kurkum, kaneel, suhkur."
+        },
+        "pear-lime-thyme-tea": {
+            "type": "YOGODA",
+            "name": "Pirni, laimi ja tüümiani tee",
+            "description-text-01": "Õrn magushapu maitse stepitaimede aroomiga. Rahustab närvisüsteemi ja toetab organismi tasakaalu.",
+            "description-text-02": "Koostisosad: pirn, ingver, laim, apelsin, goji-marjad, kuivatatud tüümian, stevia."
+        },
+        "aronia-melanocarpa-cornelian-cherry-chilli-tea": {
+            "type": "YOGODA",
+            "name": "Aroonia, kontpuu kirsi ja tšilli tee",
+            "description-text-01": "Magushapu ja kergelt vürtsikas jook soojendava järelmaitsega. Toetab seedimist ja immuunsüsteemi.",
+            "description-text-02": "Koostisosad: kontpuu kirsi püree, aroonia, stevia, cayenne’i pipar."
+        },
+        "passion-fruit-mango-nutmeg-tea": {
+            "type": "YOGODA",
+            "name": "Granadilli, mango ja muskaatpähkli tee",
+            "description-text-01": "Troopiline puuviljakokteil vürtsika muskaatpähkli noodiga, ergutav ja tooniline.",
+            "description-text-02": "Koostisosad: mangopüree, kõrvits, granadilli viljaliha, apelsin, muskaatpähkel, stevia."
+        },
+        "currant-tea-2": {
+            "type": "YOGODA",
+            "name": "Sõstratee",
+            "description-text-01": "Klassikaline mustsõstratee lapsepõlvest. Sobib nii kuumalt kui külmalt.",
+            "description-text-02": "Koostisosad: joogivesi, mustsõstar, kuivatatud purpurbasiilik, sidrunhape, sukraloos."
+        },
+        "sea-buckthorn-tea-2": {
+            "type": "YOGODA",
+            "name": "Astelpajutee",
+            "description-text-01": "100% looduslik vedel astelpajutee rikkaliku ja kergelt vürtsika maitsega.",
+            "description-text-02": "Koostisosad: astelpaju, õun, polüdekstroos, ingver, laim, sidrunhape, kaneel, tähtaniis, sukraloos."
+        },
+        "ginger-tea-2": {
+            "type": "YOGODA",
+            "name": "Ingveritee",
+            "description-text-01": "Vürtsikas ingver ja värske laim annavad energiat igas tassis.",
+            "description-text-02": "Koostisosad: joogivesi, ingver, õun, polüdekstroos, laim, sidrunhape, sukraloos."
+        },
+        "raspberry-tea-2": {
+            "type": "YOGODA",
+            "name": "Vaarikatee",
+            "description-text-01": "Looduslik vaarikatee mugavas pakendis. Sobib nii kuumalt kui külmalt.",
+            "description-text-02": "Koostisosad: vaarikas, mustsõstar, ingver, sidrunhape, kaneel, sukraloos."
+        },
+        "bramble": {
+            "type": "YOGODA",
+            "name": "Bramble",
+            "description-text-01": "Mustsõstra ja vaarika baasil kokteil sidruni, kadakamarjade ja koriandriga – kaasaegne klassika.",
+            "description-text-02": "Koostisosad: vaarikamahl, murakad, suhkur, sidrunimahl, kadakamarjad, koriander, kaneel."
+        },
+        "mojito": {
+            "type": "YOGODA",
+            "name": "Mojito",
+            "description-text-01": "Värskendav klassikaline kokteil laimi, mündi ja suhkruga.",
+            "description-text-02": "Koostisosad: suhkur, laim, münt."
+        },
+        "peach-bellini": {
+            "type": "YOGODA",
+            "name": "Virskubellini",
+            "description-text-01": "Itaaliast pärit puuviljakokteil virsikute, vaarikate ja tüümianiga.",
+            "description-text-02": "Koostisosad: virsik, virsikumahl, suhkur, vaarikamahl, tüümian."
+        },
+        "sea-breeze": {
+            "type": "YOGODA",
+            "name": "Sea Breeze",
+            "description-text-01": "Jõhvika, greibi ja sidruni värskendav kombinatsioon kerge mee noodiga.",
+            "description-text-02": "Koostisosad: jõhvikad, mesi, greibimahl, suhkur, sidrunimahl."
+        },
+        "ginger-lemonade": {
+            "type": "YOGODA",
+            "name": "Ingverilimonaad",
+            "description-text-01": "Vürtsika ingveri ja värske laimi särav kooslus – soojendav ja värskendav.",
+            "description-text-02": "Koostisosad: värske ingverijuur, värske laim, suhkur, glükoosi-fruktoosisiirup."
+        },
+        "sea-buckthorn-lemonade": {
+            "type": "YOGODA",
+            "name": "Astelpajulimonaad",
+            "description-text-01": "Rikkalik magushapu maitse astelpajust, õunast ja granadillist.",
+            "description-text-02": "Koostisosad: astelpajumarjad, õun, granadilli viljaliha, suhkur."
+        },
+        "mango-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Mango ja granadill",
+            "description-text-01": "Küps mango ja granadilli värskendav happesus loovad troopilise tasakaalu.",
+            "description-text-02": "Koostisosad: mangopüree, granadilli viljaliha, laimimahl, suhkur, glükoosi-fruktoosisiirup."
+        },
+        "strawberry-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Maasika ja granadilli",
+            "description-text-01": "Maasikate pehme magusus kohtub granadilli värske happesusega.",
+            "description-text-02": "Koostisosad: maasikad, granadilli viljaliha, suhkur, glükoosi-fruktoosisiirup."
+        },
+        "spicy-strawberry": {
+            "type": "YOGODA",
+            "name": "Vürtsikas maasikas",
+            "description-text-01": "Maasikate magusus koos acai mõrkja varjundi ja cayenne’i pipra soojusega.",
+            "description-text-02": "Koostisosad: maasikad, sidrunimahl, acai pulber, suhkur, cayenne’i pipar."
+        },
+        "spicy-pineapple": {
+            "type": "YOGODA",
+            "name": "Vürtsikas ananass",
+            "description-text-01": "Magus ananass, granadilli happesus ja cayenne’i pipra kerge vürtsikus.",
+            "description-text-02": "Koostisosad: ananass, granadilli viljaliha, sidrunimahl, suhkur, cayenne’i pipar."
+        },
+        "red-mulled-wine": {
+            "type": "YOGODA",
+            "name": "Punane hõõgvein",
+            "description-text-01": "Alkoholivaba hõõgvein vürtside, tsitruste ja marjadega – soe ja lohutav.",
+            "description-text-02": "Koostisosad: naturaalne mesi, kirss, punase viinamarjamahla kontsentraat, apelsin, õun, kardemon, kaneel, muskaatpähkel, nelk, tähtaniis, cayenne’i pipar."
+        }
+    }
+}

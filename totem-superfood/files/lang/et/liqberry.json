@@ -1,0 +1,178 @@
+{
+	"_metaTitle": "Liqberry",
+	"_metaDescription": "LiQberry marjapasta on loodud uuendusliku hüdro-termodünaamilise tehnoloogia abil. Sellel marjade töötlemise meetodil pole maailmas analooge.",
+	"liqberry": {
+		"header": {
+			"title": "liqberry",
+			"subtitle": "Mis teeb LiQberry nii eriliseks?",
+			"text": {
+				"1": "LiQberry marjapasta on loodud uuendusliku hüdro-termodünaamilise tehnoloogia abil. Sellel marjade töötlemise meetodil pole maailmas analooge.",
+				"2": "Marjad purustatakse pulseeriva rõhu abil. Selle protsessi käigus purunevad seemned, mis võimaldab nende sisu – mustikaseemneõli – vabaneda pastasse ja organismil omastada. Kui värskeid marju süüakse loomulikul kujul, läbivad seemned seedesüsteemi ilma imendumata.",
+				"3": "Tootmisprotsess toimub ilma hapniku juurdepääsuta ning ilma säilitusainete, suhkru, vee või kunstlike värvainete lisamiseta, kasutades madaltemperatuurilist pastöriseerimist."
+			}
+		},
+		"seeds": {
+			"title": "Kasulike ainete sisaldus mustikaseemnes",
+			"list": {
+				"1": "Polüküllastumata rasvhapped Omega-3-6-9",
+				"2": "Rasvlahustuvad vitamiinid A ja E",
+				"3": "Steroolid",
+				"4": "Unikaalne valk, aminohapped",
+				"5": "Tugevad bioloogiliselt aktiivsed ained"
+			}
+		},
+		"packaging": {
+			"title": "Saadaval pakendid:",
+			"doypack": {
+				"name": "Doypack",
+				"size": "100g"
+			},
+			"jar": {
+				"name": "Purk",
+				"size": "545g"
+			},
+			"show-button": "Näita"
+		},
+		"blueberry-paste": {
+			"title": "Mustikapasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Meie mustikapasta on valmistatud 100% tervetest mustikatest ja säilitab puuvilja loomuliku koostise kontsentreeritud kujul. Tänu õrnale töötlemismeetodile säilivad mustikates looduslikult esinevad väärtuslikud taimsed ühendid.",
+				"2": "Mustikad on looduslikult rikkad antioksüdantide poolest, mis on tuntud oma rolli poolest rakkude kaitsmisel oksüdatiivse stressi eest. Need sisaldavad ka klorogeenhapet ja antotsüaane – looduslikke pigmente, mis annavad marjale sügava värvuse ja on jätkuva toitumisuuringu objektiks.",
+				"3": "Meie mustikapastat hindavad tarbijad, kes väärtustavad puhtaid koostisosi, läbipaistvust ja looduslikke tooteid. Seda saab nautida eraldi või kasutada smuutides, jogurtis või loomingulistes kulinaarsetes retseptides."
+			},
+			"list": {
+				"title": "Kogu marja – viljaliha, kestade ja seemnetega – jahvatamisel pasta:",
+				"1": "säilitab marja täieliku loodusliku profiili,",
+				"2": "sobitub hõlpsasti tasakaalustatud ja terviseteadlikku toitumisse,",
+				"3": "ei sisalda lisatud suhkrut, säilitusaineid ega kunstlikke lisaaineid."
+			}
+		},
+		"raspberry-paste": {
+			"title": "Vaarikapasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Meie vaarikapasta on valmistatud 100% tervetest vaarikatest, säilitades marja iseloomuliku aroomi ja looduslikud taimsed ühendid kontsentreeritud kujul. Õrn töötlemine säilitab vaarikate omadused, mida on kaua hinnatud tasakaalustatud toitumise osana.",
+				"2": "Vaarikad sisaldavad looduslikult taimseid happeid, polüfenoole ja aromaatseid ühendeid, mida uuritakse laialdaselt toitumisteaduses. Tänu oma loomulikule koostisele kuuluvad vaarikad sageli teadliku toitumise ja suurenenud füüsilise või keskkonnakoormuse perioodide juurde.",
+				"3": "Selle rikkalik ja puuviljane maitse sobib nautimiseks eraldi, soojades jookides, jogurtis, smuutides või loomingulistes retseptides."
+			},
+			"list": {
+				"title": "Vaarikapasta:",
+				"1": "säilitab täieliku marjaprofiili, töödeldes viljaliha, kestad ja seemned,",
+				"2": "sobitub hõlpsasti terviseteadlikku igapäevasesse toitumisse,",
+				"3": "ei sisalda lisatud suhkrut, säilitusaineid ega kunstlikke lisaaineid."
+			}
+		},
+		"strawberry-paste": {
+			"title": "Maasikapasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Meie maasikapasta on valmistatud 100% tervetest maasikatest, säilitades viljaliha, kestade ja seemnete loomuliku tasakaalu. Maasikaid hinnatakse nende loodusliku mineraalide, vitamiinide ja taimsete ühendite sisalduse tõttu, mistõttu on need populaarsed tasakaalustatud ja teadliku toitumise osana.",
+				"2": "Maasikad sisaldavad looduslikult mineraale nagu raud, magneesium, kaalium, kaltsium ja tsink, samuti C-vitamiini, B5-vitamiini ja folaate. Need sisaldavad ka antioksüdantseid taimseid ühendeid, mis võivad toetada keha loomulikku kaitset oksüdatiivse stressi vastu tervisliku eluviisi osana.",
+				"3": "Selle värske ja puuviljane maitse sobib nautimiseks eraldi, jogurtis, smuutides või koostisosana loomingulistes retseptides."
+			},
+			"list": {
+				"title": "Maasikapasta:",
+				"1": "säilitab marja täieliku profiili, töödeldes kogu vilja,",
+				"2": "sobib hõlpsasti terviseteadlikku igapäevarutiini,",
+				"3": "ei sisalda lisatud suhkrut, säilitusaineid ega kunstlikke lisaaineid."
+			}
+		},
+		"blackberry-paste": {
+			"title": "Murakapasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Meie murakapasta on valmistatud 100% tervetest murakatest, säilitades marja täieliku loodusliku profiili koos viljaliha, kestade ja seemnetega. Murakaid hinnatakse nende E-vitamiini, polüfenoolide ja muude taimsete ühendite sisalduse tõttu, mis teeb neist hinnatud osa tasakaalustatud toitumisest.",
+				"2": "E-vitamiin aitab kaitsta rakke oksüdatiivse stressi eest, samas kui looduslikud taimsed ühendid annavad marjale rikkaliku iseloomu. Teadliku eluviisi osana võivad murakad toetada toitumise mitmekesisust ja naudingut.",
+				"3": "Sobib nautimiseks eraldi, jogurtis, müslis, smuutides või kvaliteetse koostisosana kaasaegses toitumises."
+			},
+			"list": {
+				"title": "Murakapasta:",
+				"1": "säilitab kogu toiteväärtusliku profiili, töödeldes kogu vilja,",
+				"2": "pakub intensiivset ja autentset marjamaitset,",
+				"3": "ei sisalda lisatud suhkrut, säilitusaineid ega kunstlikke lisaaineid."
+			}
+		},
+		"blackcurrant-paste": {
+			"title": "Mustsõstrapasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Meie mustsõstrapasta on valmistatud 100% tervetest mustsõstardest, säilitades marja täieliku loodusliku profiili koos viljaliha, kestade ja seemnetega. Mustsõstraid hinnatakse nende kõrge C-vitamiini, polüfenoolide ja muude kasulike taimsete ühendite sisalduse tõttu.",
+				"2": "Need looduslikud toitained aitavad kaasa igapäevasele toitumistasakaalule ja on hinnatud mitmekesise ning teadliku toitumise osana. Mustsõstraid seostatakse sageli aktiivse ja teadliku eluviisiga.",
+				"3": "Sobib nautimiseks eraldi, jogurti või müsliga, smuutides või kvaliteetse koostisosana funktsionaalsetes toidukontseptsioonides."
+			},
+			"list": {
+				"title": "Mustsõstrapasta:",
+				"1": "säilitab kogu marjaspektri, töödeldes kogu vilja,",
+				"2": "toetab toitumise mitmekesisust looduslike taimsete ühenditega,",
+				"3": "ei sisalda lisatud suhkrut, säilitusaineid ega kunstlikke lisaaineid."
+			}
+		},
+		"sea-buckthorn": {
+			"title": "Astelpajupasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Meie astelpajupasta on valmistatud 100% tervetest astelpajumarjadest, säilitades viljaliha, kestade ja seemnete loomuliku tasakaalu. Astelpaju hinnatakse selle looduslikult rikkaliku vitamiinide ning mikro- ja makrotoitainete koostise tõttu.",
+				"2": "Astelpaju eripäraks on selle looduslik astelpajuõli sisaldus, mis sisaldab rasvlahustuvaid taimseid ühendeid ja mida on traditsiooniliselt hinnatud mitmekesise toitumise osana.",
+				"3": "Ideaalne igapäevase toitumise rikastamiseks – nautimiseks eraldi, smuutides, hommikusöögikaussides või kaasaegsetes retseptides."
+			},
+			"list": {
+				"title": "Astelpajupasta:",
+				"1": "säilitab kogu marjaprofiili, sealhulgas seemned,",
+				"2": "sisaldab looduslikult beetakaroteeni, E-vitamiini ja C-vitamiini,",
+				"3": "ei sisalda lisatud suhkrut, säilitusaineid, lisatud vett ega kunstlikke lisaaineid."
+			}
+		},
+		"cherry-paste": {
+			"type": "Liqberry",
+			"title": "Kirsipasta",
+			"text": {
+				"1": "Kirsipasta on 100% homogeniseeritud puuviljatoode, mis on valmistatud tervetest kirssidest peenelt töödeldud puuviljakomponentidega. See säilitab vilja loomuliku toiteväärtusliku profiili ja toimib funktsionaalse lisandina tasakaalustatud toitumises."
+			},
+			"list": {
+				"1": {
+					"title": "Kirsid on looduslikult allikaks:",
+					"1": "polüfenoolidele ja antotsüaanidele,",
+					"2": "orgaanilistele hapetele,",
+					"3": "vitamiinidele (eriti C-vitamiin ja B-grupi vitamiinid),",
+					"4": "kaaliumile ja teistele mineraalidele,",
+					"5": "kiudainetele ja pektiinidele."
+				},
+				"2": {
+					"title": "Teadliku toitumise osana hinnatakse kirsipastat traditsiooniliselt:",
+					"1": "normaalse lihas- ja liigese funktsiooni toetamisel,",
+					"2": "taastumise toetamisel pärast füüsilist koormust,",
+					"3": "normaalsete ainevahetusprotsesside toetamisel,",
+					"4": "keha antioksüdantse tasakaalu toetamisel."
+				},
+				"3": {
+					"title": "Tänu looduslikele taimsetele ühenditele seostatakse kirsipastat ka:",
+					"1": "südame-veresoonkonna funktsiooni toetamisega,",
+					"2": "normaalse vereringe toetamisega,",
+					"3": "ja tervisliku une-ärkveloleku rütmi toetamisega."
+				},
+				"4": {
+					"title": "Kirsipasta:",
+					"1": "ei sisalda lisatud suhkrut,",
+					"2": "on vaba säilitusainetest, lisatud veest ja kunstlikest lisaainetest,",
+					"3": "ning sobib ideaalselt looduslikku, taimset ja jõudluspõhist toitumiskontseptsiooni."
+				}
+			}
+		},
+		"aronia-paste": {
+			"type": "Liqberry",
+			"title": "Arooniapasta",
+			"text": {
+				"1": "Meie arooniapasta on valmistatud 100% tervetest arooniatest, säilitades marja täieliku profiili koos viljaliha, kestade ja seemnetega. Arooniat hinnatakse selle looduslikult kõrge polüfenoolide sisalduse tõttu.",
+				"2": "Traditsiooniliselt kuulub aroonia toitumiskontseptsioonidesse, mis keskenduvad südame-veresoonkonna tasakaalule ja ainevahetuse toetamisele teadliku eluviisi osana.",
+				"3": "Ideaalne neile, kes hindavad intensiivset marjamaitset ja taimset mitmekesisust igapäevases toitumises – nautimiseks puhtalt või kaasaegsete retseptide osana."
+			},
+			"list": {
+				"title": "Arooniapasta:",
+				"1": "sisaldab looduslikult bioaktiivseid taimseid ühendeid,",
+				"2": "täiendab tasakaalustatud ja teadlikku toitumist,",
+				"3": "ei sisalda lisatud suhkrut, säilitusaineid, lisatud vett ega kunstlikke lisaaineid."
+			}
+		}
+	}
+}

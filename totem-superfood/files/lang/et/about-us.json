@@ -1,0 +1,79 @@
+{
+	"_metaTitle": "Meist - Totem Superfood",
+	"_metaDescription": "Tutvu Totem Superfoodi loo, innovatsiooni ja missiooniga muuta tervislik toitumine kättesaadavaks ja lihtsaks kogu maailmas.",
+	"about-us": {
+		"introduction": {
+			"title": "Sissejuhatus – Kes me oleme",
+			"subtitle": "Isiklikust missioonist ülemaailmse visioonini",
+			"text": "Kuigi ettevõte asutati ametlikult 2025. aastal, sai meie toote lugu alguse juba 2012. aastal ühe inimese pühendumusest tervisele, toitumisele ja energiatasakaalus elule. Aastate jooksul töötati välja funktsionaalsed smuutide retseptid, mida rikastati supertoitudega nagu spirulina, kurkum, maka, açaí ja chia – luues võimsaid segusid, mis on täis vitamiine ja puhast energiat. 2017. aastaks arenes see populaarseks roheliste smuutide baariks, pälvides kohaliku meedia tähelepanu ja kogudes tugeva terviseteadlike tarbijate kogukonna."
+		},
+		"innovation": {
+			"title": "Innovatsioon",
+			"subtitle": "12 aastat kogemust, üks revolutsiooniline toode",
+			"text": "2024. aastal seadsime eesmärgiks tuua need ainulaadsed tooted ülemaailmsele publikule. Pärast disainisprindi läbiviimist võtsime kasutusele külmkuivatamise (lüofiliseerimise) – meetodi, mis säilitab koostisosade toiteväärtuse kiire külmutamise ja niiskuse eemaldamise kaudu. Tulemus? Pika säilivusajaga pulbrisegu, mis muutub veega segamisel värskeks smuutiks – sama toitvaks ja maitsvaks kui äsja valmistatud."
+		},
+		"target": {
+			"title": "Sihtgrupp",
+			"subtitle": "Teenime kaasaegset, teadlikku tarbijat",
+			"list": {
+				"1": "Hõivatud professionaalid ja tudengid, kes vajavad kiiret, kuid tervislikku toitumist",
+				"2": "Reisijad ja loodusesõbrad, kellel on piiratud juurdepääs värsketele toitudele",
+				"3": "Terviseteadlikud inimesed, kes hindavad ekspertide soovitatud programme (nt detox, heaolu tasakaal või igapäevane toitumine)"
+			}
+		},
+		"values": {
+			"title": "Väärtused, mille eest seisame",
+			"list": {
+				"1": "Tervis ennekõike: looduslikud, puhtad, suhkruvabad koostisosad ilma lisaaineteta",
+				"2": "Energia ja produktiivsus: aktiivse eluviisi toetamine kõrge toiteväärtusega segudega",
+				"3": "Liikuvus ja mugavus: üks pakk = üks toidukord. Lihtne kaasas kanda. Valmis sekunditega",
+				"4": "Keskkonnateadlikkus: jätkusuutlik tootmine, minimaalne jäätmete hulk"
+			}
+		},
+		"problems": {
+			"title": "Probleemid, mida me lahendame",
+			"list": {
+				"1": "Aja puudus toitvate toidukordade jaoks töö, reisimise või kiire päeva jooksul",
+				"2": "Raskused ühtlase energia ja keskendumise säilitamisel",
+				"3": "Piiratud võimalused mugavate ja tervislike suupistete leidmiseks",
+				"4": "Traditsioonilised valikud on kas ebatervislikud või aeganõudvad"
+			}
+		},
+		"persona": {
+			"title": "Meie tarbijaprofiil",
+			"list": {
+				"1": "Teadlik ja valiv: hoolib toitumisest, loeb etikette, väldib suhkrut ja kemikaale",
+				"2": "Aktiivne ja stiilne: tegeleb spordi, fitnessi ja enesehooldusega",
+				"3": "Väärtustele orienteeritud: eelistab jätkusuutlikke, läbipaistvaid ja uuenduslikke brände"
+			}
+		},
+		"advantage": {
+			"title": "Miks see toimib – külmkuivatamise eelis",
+			"list": {
+				"1": "Säilitab 95–98% vitamiinidest ja toitainetest",
+				"2": "Kerge ja pika säilivusajaga – ei vaja külmikut",
+				"3": "Maitseb sama hästi kui värske – lihtsalt lisa vett",
+				"4": "Ideaalne liikuva eluviisi jaoks"
+			}
+		},
+		"market": {
+			"title": "Turu võimalus",
+			"text": "Statistika kohaselt püüab üle 60% ELi elanikkonnast aktiivselt tervislikult toituda. Nõudlus funktsionaalsete, kohe kasutusvalmis supertoodete järele kasvab kiiresti, eriti linnaliste ja mobiilsete tarbijate seas."
+		},
+		"marketing": {
+			"title": "Turundusstrateegia",
+			"subtitle": "Loome nõudlust tõmbeturunduse kaudu",
+			"list": {
+				"1": "Sotsiaalmeedia mõju ja lugude jutustamine",
+				"2": "Koostöö tervisecoachide ja fitnessiekspertidega",
+				"3": "Tagasiside põhjal kiire kohanemine",
+				"4": "Tugev kogukond ja lojaalsusprogrammid"
+			}
+		},
+		"partner": {
+			"title": "Teeme koostööd",
+			"text": "Pakume skaleeritavat lahendust motiveeritud kliendibaasi ja aastatepikkuse teadus- ja arendustegevusega toetatud tooteliiniga. Liitu meiega, et tuua kaasaegne toitumine kaasaegsesse maailma. Muudame tervisliku eluviisi lihtsaks – koos.",
+			"button": "Võta meiega ühendust"
+		}
+	}
+}

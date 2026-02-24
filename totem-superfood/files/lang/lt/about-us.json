@@ -1,0 +1,89 @@
+{
+	"_metaTitle": "Apie mus – Totem Superfood",
+	"_metaDescription": "Sužinokite apie Totem Superfood istoriją, inovacijas ir misiją padaryti sveiką mitybą prieinamą ir paprastą visame pasaulyje.",
+
+	"about-us": {
+		"introduction": {
+			"title": "Įvadas – Kas mes esame",
+			"subtitle": "Nuo asmeninės misijos iki pasaulinės vizijos",
+			"text": "Nors oficialiai įkurti 2025 m., mūsų produkto istorija prasidėjo 2012 m., kai vienas asmuo siekė sveikatos, mitybos ir energetiškai subalansuoto gyvenimo. Metams bėgant buvo sukurtos funkcionalių kokteilių receptūros, praturtintos supermaistu kaip spirulina, kurkuma, maca, açaí bei chia – sukuriant galingus derinius, pilnus vitaminų ir švarios energijos. Iki 2017 m. tai virto populiaria žaliųjų kokteilių kavinuke, sulaukiančia vietos žiniasklaidos dėmesio ir kuriama stiprios sveikatos sąmoningos bendruomenės."
+		},
+
+		"innovation": {
+			"title": "Inovacija",
+			"subtitle": "12 metų patirties, vienas revoliucinis produktas",
+			"text": "2024 m. mes nusprendėme pristatyti šiuos unikalius produktus pasaulinei auditorijai. Po dizaino sprinto pasirinkome šaldymo džiovinimą (liofilizaciją) – metodą, kuris išsaugo ingredientų maistinę vertę per greitą užšaldymą ir drėgmės pašalinimą. Rezultatas? Srauto savybės miltelinis mišinys, kuris su tik vandeniu tampa šviežiu kokteiliu – toks pat maistingas ir skanus, lyg būtų ką tik pagamintas."
+		},
+
+		"target": {
+			"title": "Tikslinė auditorija",
+			"subtitle": "Pasitikime šiuolaikinį, sąmoningą vartotoją",
+			"list": {
+				"1": "Užimti profesionalai ir studentai, kuriems reikia greitos, bet sveikos mitybos",
+				"2": "Kelionės entuziastai ir lauko mėgėjai, kuriems ribota galimybė gauti šviežių maisto produktų",
+				"3": "Sveikatos paslaugomis besidomintys žmonės, vertinantys ekspertų rekomenduotas programas (pvz., detoksikacija, gerovės balansas arba kasdienė mityba)"
+			}
+		},
+
+		"values": {
+			"title": "Vertybės, kuriomis vadovaujamės",
+			"list": {
+				"1": "Sveikata pirma: natūralūs, švarūs, be cukraus ingredientai be priedų",
+				"2": "Energija ir produktyvumas: maitindami aktyvų gyvenimo būdą su aukštos maistinės vertės mišiniais",
+				"3": "Mobilumas ir patogumas: vienas pakuotė = viena porcija. Lengva nešiotis. Paruošiama per kelias sekundes",
+				"4": "Ekologinė atsakomybė: tvari gamyba, minimalios atliekos"
+			}
+		},
+
+		"problems": {
+			"title": "Problemos, kurias sprendžiame",
+			"list": {
+				"1": "Nėra laiko sveikam maistui darbo metu, kelionėje ar užimtais dienomis",
+				"2": "Sunkumai palaikyti pastovią energiją ir susitelkimą",
+				"3": "Ribotos galimybės patogiems ir sveikiems užkandžiams",
+				"4": "Tradiciški variantai dažnai yra nesveiki arba užima daug laiko"
+			}
+		},
+
+		"persona": {
+			"title": "Mūsų vartotojo persona",
+			"list": {
+				"1": "Sąmoningi ir išrankūs: rūpinasi mityba, skaito etiketes, vengia cukraus ir cheminių medžiagų",
+				"2": "Aktyvūs ir stilingi: domisi sportu, fitnesu ir savirūpa",
+				"3": "Vertybių suderinti: ieško tvarių, skaidrių ir pažangių prekių ženklų"
+			}
+		},
+
+		"advantage": {
+			"title": "Kodėl tai veikia – Liofilizacijos privalumas",
+			"list": {
+				"1": "Išsaugo 95–98 % vitaminų ir maistinių medžiagų",
+				"2": "Lengvas ir ilgaamžis – šaldytuvo nereikia",
+				"3": "Skonis kaip šviežias – tereikia pridėti vandens",
+				"4": "Puiku naudoti judant"
+			}
+		},
+
+		"market": {
+			"title": "Rinkos galimybė",
+			"text": "Remiantis statistika, daugiau nei 60 % ES gyventojų aktyviai stengiasi maitintis sveikai. Funkcinių, paruoštų vartoti supermaisto produktų paklausa sparčiai auga, ypač tarp miesto ir mobilumo vertinančių vartotojų."
+		},
+
+		"marketing": {
+			"title": "Marketingo strategija",
+			"subtitle": "Skatiname paklausą per pritraukimo marketingą",
+			"list": {
+				"1": "Socialinių tinklų įtaka ir pasakojimo menas",
+				"2": "Bendradarbiaujant su sveikatos treneriais ir fitneso ekspertais",
+				"3": "Vartotojų atsiliepimų ciklai greitai adaptuojasi",
+				"4": "Stipri prekės ženklo bendruomenė ir lojalumo programos"
+			}
+		},
+
+		"partner": {
+			"title": "Bendradarbiaukime",
+			"text": "Siūlome paruoštą mastelį sprendimą su labai motyvuota klientų baze ir produktų linija, paremta daugelio metų mokslinių tyrimų ir plėtros darbu. Prisijunkite prie mūsų teikiant šiuolaikišką mitybą šiuolaikiniam pasauliui. Padarykime sveiką gyvenimą be pastangų – kartu.",
+			"button": "Susisiekite"
+		}
+	}
+}

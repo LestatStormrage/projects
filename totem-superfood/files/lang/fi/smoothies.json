@@ -1,0 +1,295 @@
+{
+    "_metaTitle": "Smoothiet",
+    "_metaDescription": "Tutustu herkullisiin smoothieihimme ja tue aktiivista elämäntyyliäsi.",
+    "products": {
+        "title": "Smoothiet",
+        "fireSmoothies": {
+            "title": "Fire-Smoothies -kokoelma",
+            "description": "Smoothiemme on rikastettu tehokkailla superfoodeilla, jotka lisäävät merkittävästi niiden ravintoarvoa ja terveyshyötyjä. Jokainen ainesosa on huolellisesti valittu tukemaan yleistä hyvinvointia, parantamaan kehon toimintoja ja lisäämään elinvoimaa.",
+            "turmeric": {
+                "name": "Kurkuma-smoothie",
+                "type": "Smoothie",
+                "descriptionTitle": "Kuvaus:",
+                "descriptionText": "Kurkuma tunnetaan laajalti sen tulehdusta estävistä ja antioksidanttisista ominaisuuksista, mikä tekee siitä erinomaisen lisän terveelliseen ruokavalioon. Sen uskotaan:",
+                "list": {
+                    "1": "Auttaa ehkäisemään Alzheimerin tautia.",
+                    "2": "Lieventävän nivelrikon oireita ja tukevan nivelten terveyttä.",
+                    "3": "Tukevan mielenterveyttä vähentämällä masennuksen oireita.",
+                    "4": "Hidastavan ikääntymisprosessia suojaamalla soluja oksidatiiviselta stressiltä.",
+                    "5": "Edistävän syövän ehkäisyä sen aktiivisten yhdisteiden ansiosta."
+                }
+            },
+            "acai": {
+                "name": "Acai-smoothie",
+                "type": "Smoothie",
+                "ingredientsTitle": "Ainesosat:",
+                "ingredients": {
+                    "1": "Mansikka",
+                    "2": "Vadelma",
+                    "3": "Kaurahiutaleet",
+                    "4": "Banaani",
+                    "5": "Chia-siemenet",
+                    "6": "Acai-marjat"
+                },
+                "descriptionTitle": "Kuvaus:",
+                "descriptionText": "“Acai” on hienostunut cocktail, joka yhdistää mansikan, vadelman ja banaanin raikkaat sävyt kaurahiutaleisiin ja chia-siemeniin. Acai-marjat antavat juomalle antioksidanttisia ominaisuuksia, jotka auttavat vahvistamaan immuunijärjestelmää, ylläpitämään sydämen terveyttä ja parantamaan kognitiivisia toimintoja."
+            },
+            "spirulina": {
+                "name": "Spirulina-smoothie",
+                "type": "Smoothie",
+                "ingredientsTitle": "Ainesosat:",
+                "ingredients": {
+                    "1": "Pinaatti",
+                    "2": "Banaani",
+                    "3": "Omena",
+                    "4": "Taatelit",
+                    "5": "Spirulina"
+                },
+                "descriptionTitle": "Kuvaus:",
+                "descriptionText": "“Spirulina” on harmoninen sekoitus pinaattia, banaania ja omenaa, jota täydentävät taatelien makeus ja spirulinan ainutlaatuiset ominaisuudet. Tämä ravinteikas juoma tukee ruoansulatusta, kehon puhdistumista ja terveellistä painonhallintaa."
+            },
+            "hemp": {
+                "name": "Hemp Storm -smoothie",
+                "type": "Smoothie",
+                "ingredientsTitle": "Ainesosat:",
+                "ingredients": {
+                    "1": "Vadelma",
+                    "2": "Mustikka",
+                    "3": "Kuorittu hamppusiemen",
+                    "4": "Chia-siemenet",
+                    "5": "Banaani",
+                    "6": "Kaurahiutaleet"
+                },
+                "descriptionTitle": "Kuvaus:",
+                "descriptionText": "“Hemp Storm” on ravinteikas cocktail, jossa vadelma, mustikka ja banaani yhdistyvät terveellisiin hamppu- ja chia-siemeniin sekä kaurahiutaleisiin. Proteiinia ja rasvahappoja sisältävät hamppusiemenet tukevat immuunijärjestelmää, sydämen terveyttä ja ihon kuntoa."
+            }
+        },
+        "fireDetox": {
+            "title": "Fire-Detox -kokoelma",
+            "description": "Detox-cocktailimme on valmistettu tehokkaista luonnollisista ainesosista, jotka puhdistavat kehoa, tukevat ruoansulatusta ja palauttavat tasapainon. Jokainen sekoitus on suunniteltu lisäämään energiaa, tehostamaan aineenvaihduntaa ja edistämään yleistä hyvinvointia.",
+            "mega": {
+                "name": "Mega Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Ainesosat:",
+                "ingredients": {
+                    "1": "Appelsiini",
+                    "2": "Ananas",
+                    "3": "Kurkuma",
+                    "4": "Kaneli",
+                    "5": "Chia-siemenet"
+                },
+                "descriptionTitle": "Kuvaus:",
+                "descriptionText": "“Mega Detox” on tehokas cocktail, joka on suunniteltu kehon syväpuhdistukseen. Selleri ja pinaatti, jotka tunnetaan puhdistavista ominaisuuksistaan, yhdistyvät omenaan ja banaaniin antaen juomalle miellyttävän makeuden."
+            },
+            "green": {
+                "name": "Green Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Ainesosat:",
+                "ingredients": {
+                    "1": "Banaani",
+                    "2": "Appelsiini",
+                    "3": "Pinaatti",
+                    "4": "Kurpitsansiemenet",
+                    "5": "Chlorella"
+                },
+                "descriptionTitle": "Kuvaus:",
+                "descriptionText": "“Green Detox” on ravitseva ja tasapainoinen cocktail, joka auttaa täydentämään vitamiinien ja mineraalien varastoja. Banaani ja appelsiini tuovat juomaan makeutta ja raikkautta. Rautapitoinen pinaatti edistää terveyttä, ja proteiini- ja antioksidanttipitoiset kurpitsansiemenet sekä chlorella tukevat hyvinvointia."
+            },
+            "refreshing": {
+                "name": "Refreshing Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Ainesosat:",
+                "ingredients": {
+                    "1": "Selleri",
+                    "2": "Kiivi",
+                    "3": "Omena",
+                    "4": "Persilja",
+                    "5": "Chlorella",
+                    "6": "Chia-siemenet"
+                },
+                "descriptionTitle": "Kuvaus:",
+                "descriptionText": "“Refreshing Detox” on kevyt ja virkistävä cocktail, joka auttaa sinua tuntemaan olosi energiseksi. Diureettiset selleri ja persilja auttavat poistamaan ylimääräistä nestettä kehosta. Kiivi ja omena tuovat juomaan miellyttävän hapokkuuden ja raikkauden. Ravinteikkaat chlorella ja chia-siemenet tukevat terveyttä ja hyvinvointia."
+            },
+            "energy": {
+                "name": "Energy Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Ainesosat:",
+                "ingredients": {
+                    "1": "Appelsiini",
+                    "2": "Ananas",
+                    "3": "Kurkuma",
+                    "4": "Kaneli",
+                    "5": "Chia-siemenet"
+                },
+                "descriptionTitle": "Kuvaus:",
+                "descriptionText": "“Energy Detox” on kirkas ja aromaattinen cocktail, joka antaa energiaa koko päiväksi. C-vitamiinipitoiset appelsiini ja ananas vahvistavat immuunijärjestelmää ja lisäävät vireyttä. Kurkuma ja kaneli, tunnetut tulehdusta estävistä ominaisuuksistaan, puhdistavat kehoa ja parantavat aineenvaihduntaa. Kuitupitoiset chia-siemenet auttavat pitämään kylläisyyden tunteen pitkään."
+            }
+        },
+        "air-collection": {
+            "title": "Air Collection",
+            "berry-boost": {
+                "type": "Smoothie",
+                "title": "Berry Boost",
+                "ingredients": {
+                    "title": "Ainesosat:",
+                    "1": "Banaani",
+                    "2": "Marjat",
+                    "3": "Chia-siemenet",
+                    "4": "Kaurahiutaleet",
+                    "5": "Kookoshiutaleet"
+                },
+                "benefit": {
+                    "title": "Hyödyt:",
+                    "text": "Vahvistaa immuunijärjestelmää, antaa energiaa ja on täynnä antioksidantteja ja kuituja."
+                }
+            },
+            "green-boost": {
+                "type": "Smoothie",
+                "title": "Green Boost",
+                "ingredients": {
+                    "title": "Ainesosat:",
+                    "1": "Pinaatti",
+                    "2": "Omena",
+                    "3": "Banaani",
+                    "4": "Spirulina",
+                    "5": "Pellavansiemenet",
+                    "6": "Sitruuna"
+                },
+                "benefit": {
+                    "title": "Hyödyt:",
+                    "text": "Puhdistaa kehoa, vahvistaa immuunijärjestelmää ja tarjoaa tärkeitä vitamiineja ja mineraaleja."
+                }
+            },
+            "nut-cocoa": {
+                "type": "Smoothie",
+                "title": "Nut-Cocoa Energy",
+                "ingredients": {
+                    "title": "Ainesosat:",
+                    "1": "Banaani",
+                    "2": "Kaakaojauhe",
+                    "3": "Taatelit",
+                    "4": "Mantelit",
+                    "5": "Maca",
+                    "6": "Kaurahiutaleet"
+                },
+                "benefit": {
+                    "title": "Hyödyt:",
+                    "text": "Parantaa mielialaa, antaa energiaa ja ravitsee terveellisillä rasvoilla."
+                }
+            },
+            "spiced-banana-boost": {
+                "type": "Smoothie",
+                "title": "Spiced Banana Boost",
+                "ingredients": {
+                    "title": "Ainesosat:",
+                    "1": "Banaani",
+                    "2": "Omena",
+                    "3": "Kaurahiutaleet",
+                    "4": "Kaneli",
+                    "5": "Chia-siemenet",
+                    "6": "Mantelit"
+                },
+                "benefit": {
+                    "title": "Hyödyt:",
+                    "text": "Lämmittää, tyydyttää, tasapainottaa verensokeria ja tukee ruoansulatusta."
+                }
+            },
+            "turmeric-mango-immunoboost": {
+                "type": "Smoothie",
+                "title": "Kurkuma + Mango “ImmunoBoost”",
+                "ingredients": {
+                    "title": "Ainesosat:",
+                    "1": "Mango",
+                    "2": "Banaani",
+                    "3": "Kurkuma",
+                    "4": "Inkivääri",
+                    "5": "Pellavansiemenet",
+                    "6": "Kaura"
+                },
+                "benefit": {
+                    "title": "Hyödyt:",
+                    "text": "Vahvistaa immuunijärjestelmää, vähentää tulehduksia ja tarjoaa vitamiinibuustin."
+                }
+            },
+            "cocoa-turmeric-antistress": {
+                "type": "Smoothie",
+                "title": "Cocoa Turmeric Antistress",
+                "ingredients": {
+                    "title": "Ainesosat:",
+                    "1": "Banaani",
+                    "2": "Kaakaojauhe",
+                    "3": "Mantelit",
+                    "4": "Kurkuma",
+                    "5": "Taatelit",
+                    "6": "Chia-siemenet"
+                },
+                "benefit": {
+                    "title": "Hyödyt:",
+                    "text": "Vähentää stressiä, tarjoaa magnesiumia ja tukee hermostoa sekä unta."
+                }
+            }
+        },
+        "earthCollection": {
+            "title": "Earth Collection",
+            "ingredientsTitle": "Ainesosat:",
+            "benefitTitle": "Hyödyt:",
+            "morningEnergy": {
+                "title": "Morning Energy",
+                "alt": "Morning Energy",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Pakastekuivattu banaani",
+                    "Kaurahiutaleet",
+                    "Mantelit",
+                    "Chia-siemenet",
+                    "Kaakao",
+                    "Kuivattu kookosmaito",
+                    "Makeutusaine"
+                ],
+                "benefit": "Erinomainen aamiaisvaihtoehto – antaa energiaa ja tukee aivotoimintaa."
+            },
+            "immuneShield": {
+                "title": "Immune Shield",
+                "alt": "Immune Shield",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Pakastekuivattu mansikka",
+                    "Kaurahiutaleet",
+                    "Saksanpähkinät",
+                    "Spirulina",
+                    "Jauhettu inkivääri",
+                    "Kuivattu kookosmaito"
+                ],
+                "benefit": "Tukee immuunijärjestelmää C-vitamiinin ja antioksidanttien ansiosta."
+            },
+            "fitnessCharge": {
+                "title": "Fitness Charge",
+                "alt": "Fitness Charge",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Pakastekuivattu mustikka",
+                    "Kaurahiutaleet",
+                    "Hasselpähkinät",
+                    "Maca",
+                    "Seesaminsiemenet",
+                    "Kaakao"
+                ],
+                "benefit": "Parantaa kestävyyttä ja auttaa lihasten palautumisessa."
+            },
+            "detoxBalance": {
+                "title": "Detox & Balance",
+                "alt": "Detox & Balance",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Pakastekuivattu vadelma",
+                    "Kaurahiutaleet",
+                    "Pellavansiemenet",
+                    "Spirulina",
+                    "Matcha",
+                    "Männynsiemenet"
+                ],
+                "benefit": "Puhdistaa kehoa ja lisää elinvoimaa."
+            }
+        }
+    }
+}

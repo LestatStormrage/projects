@@ -1,0 +1,152 @@
+{
+    "_metaTitle": "Kombuča",
+    "_metaDescription": "Atraskite mūsų gardžius gėrimus ir palaikykite aktyvų gyvenimo būdą.",
+    "kombucha": {
+        "main-title": "Kombuča",
+        "description": "Legendinis arbatos gėrimas iš senovės Rytų. SCOBY – simbiotinė mielių ir naudingų bakterijų kultūra – fermentuoja aromatingą arbatą ir sukuria gardų, natūraliai sveikatinantį, putojantį gėrimą. Senovės Japonijoje kombuča buvo vadinama „Nemirtingumo arbata“. Korėjoje ji nuo seniausių laikų buvo naudojama grožio atjauninimo procedūroms, o Kinijoje tai buvo imperatorių gėrimas.",
+        "classic-green": {
+            "type": "Kombuča",
+            "title": "Klasikinė žalia",
+            "text": {
+                "1": "Natūralūs ingredientai: filtruotas vanduo, koncentruotos obuolių sultys, žalioji arbata, cukrus, kombučos kultūra.",
+                "2": "Rekomenduojama laikymo temperatūra: nuo +6 °C iki +25 °C.",
+                "3": "Suvartoti per 48 valandas po atidarymo.",
+                "4": "Jei esate jautrūs rūgštingumui, vartokite praskiestą arba mažais kiekiais."
+            },
+            "list": {
+                "title": "Maistinė vertė 100 ml:",
+                "1": "Energinė vertė: 67 kJ / 16 kcal",
+                "2": "Baltymai – 0,0 g",
+                "3": "Riebalai – 0,0 g",
+                "4": "Angliavandeniai – 4,0 g",
+                "5": "Cukrūs – 4,0 g"
+            }
+        },
+        "ginger": {
+            "type": "Kombuča",
+            "title": "Imbieras",
+            "text": {
+                "1": "Natūralūs ingredientai: filtruotas vanduo, koncentruotos obuolių sultys (20 %), žalioji arbata, imbieras, ciberžolės koncentratas, cukrus, citrinų sultys, kombučos kultūra.",
+                "2": "Rekomenduojama laikymo temperatūra: nuo +6 °C iki +25 °C.",
+                "3": "Suvartoti per 48 valandas po atidarymo.",
+                "4": "Jei esate jautrūs rūgštingumui, vartokite praskiestą arba mažais kiekiais."
+            },
+            "list": {
+                "title": "Maistinė vertė 100 ml:",
+                "1": "Energinė vertė: 67 kJ / 16 kcal",
+                "2": "Baltymai – 0,0 g",
+                "3": "Riebalai – 0,0 g",
+                "4": "Angliavandeniai – 4,0 g",
+                "5": "Cukrūs – 4,0 g"
+            }
+        },
+        "hibiscus": {
+            "type": "Kombuča",
+            "title": "Hibiskas",
+            "text": {
+                "1": "Natūralūs ingredientai: filtruotas vanduo, koncentruotos obuolių sultys, juodoji arbata, žalioji arbata, hibisko žiedai, cukrus, kombučos kultūra.",
+                "2": "Rekomenduojama laikymo temperatūra: nuo +6 °C iki +25 °C.",
+                "3": "Suvartoti per 48 valandas po atidarymo.",
+                "4": "Jei esate jautrūs rūgštingumui, vartokite praskiestą arba mažais kiekiais."
+            },
+            "list": {
+                "title": "Maistinė vertė 100 ml:",
+                "1": "Energinė vertė: 67 kJ / 16 kcal",
+                "2": "Baltymai – 0,0 g",
+                "3": "Riebalai – 0,0 g",
+                "4": "Angliavandeniai – 4,0 g",
+                "5": "Cukrūs – 4,0 g"
+            }
+        },
+        "jasmine": {
+            "type": "Kombuča",
+            "title": "Jazminai",
+            "text": {
+                "1": "Natūralūs ingredientai: filtruotas vanduo, koncentruotos obuolių sultys, žalioji arbata, jazminų žiedai, cukrus, kombučos kultūra.",
+                "2": "Rekomenduojama laikymo temperatūra: nuo +6 °C iki +25 °C.",
+                "3": "Suvartoti per 48 valandas po atidarymo.",
+                "4": "Jei esate jautrūs rūgštingumui, vartokite praskiestą arba mažais kiekiais."
+            },
+            "list": {
+                "title": "Maistinė vertė 100 ml:",
+                "1": "Energinė vertė: 67 kJ / 16 kcal",
+                "2": "Baltymai – 0,0 g",
+                "3": "Riebalai – 0,0 g",
+                "4": "Angliavandeniai – 4,0 g",
+                "5": "Cukrūs – 4,0 g"
+            }
+        },
+        "lavender": {
+            "type": "Kombuča",
+            "title": "Levanda",
+            "text": {
+                "1": "Natūralūs ingredientai: filtruotas vanduo, koncentruotos obuolių sultys (20 %), žalioji arbata, klitorijų žiedai, juodoji arbata, levandų žiedai, cukrus, kombučos kultūra.",
+                "2": "Rekomenduojama laikymo temperatūra: nuo +6 °C iki +25 °C.",
+                "3": "Suvartoti per 48 valandas po atidarymo.",
+                "4": "Jei esate jautrūs rūgštingumui, vartokite praskiestą arba mažais kiekiais."
+            },
+            "list": {
+                "title": "Maistinė vertė 100 ml:",
+                "1": "Energinė vertė: 67 kJ / 16 kcal",
+                "2": "Baltymai – 0,0 g",
+                "3": "Riebalai – 0,0 g",
+                "4": "Angliavandeniai – 4,0 g",
+                "5": "Cukrūs – 4,0 g"
+            }
+        },
+        "lemongrass": {
+            "type": "Kombuča",
+            "title": "Citrinžolė",
+            "text": {
+                "1": "Natūralūs ingredientai: filtruotas vanduo, koncentruotos obuolių sultys, juodoji arbata, citrinžolė, cukrus, kombučos kultūra.",
+                "2": "Rekomenduojama laikymo temperatūra: nuo +6 °C iki +25 °C.",
+                "3": "Suvartoti per 48 valandas po atidarymo.",
+                "4": "Jei esate jautrūs rūgštingumui, vartokite praskiestą arba mažais kiekiais."
+            },
+            "list": {
+                "title": "Maistinė vertė 100 ml:",
+                "1": "Energinė vertė: 67 kJ / 16 kcal",
+                "2": "Baltymai – 0,0 g",
+                "3": "Riebalai – 0,0 g",
+                "4": "Angliavandeniai – 4,0 g",
+                "5": "Cukrūs – 4,0 g"
+            }
+        },
+        "passion-fruit": {
+            "type": "Kombuča",
+            "title": "Pasifloros vaisius",
+            "text": {
+                "1": "Natūralūs ingredientai: filtruotas vanduo, koncentruotos obuolių sultys, žalioji arbata, pasifloros vaisius, cukrus, citrinų sultys, kombučos kultūra.",
+                "2": "Rekomenduojama laikymo temperatūra: nuo +6 °C iki +25 °C.",
+                "3": "Suvartoti per 48 valandas po atidarymo.",
+                "4": "Jei esate jautrūs rūgštingumui, vartokite praskiestą arba mažais kiekiais."
+            },
+            "list": {
+                "title": "Maistinė vertė 100 ml:",
+                "1": "Energinė vertė: 67 kJ / 16 kcal",
+                "2": "Baltymai – 0,0 g",
+                "3": "Riebalai – 0,0 g",
+                "4": "Angliavandeniai – 4,0 g",
+                "5": "Cukrūs – 4,0 g"
+            }
+        },
+        "yuzu": {
+            "type": "Kombuča",
+            "title": "Juzu",
+            "text": {
+                "1": "Natūralūs ingredientai: filtruotas vanduo, koncentruotos obuolių sultys, žalioji arbata, juzu sultys, cukrus, kombučos kultūra.",
+                "2": "Rekomenduojama laikymo temperatūra: nuo +6 °C iki +25 °C.",
+                "3": "Suvartoti per 48 valandas po atidarymo.",
+                "4": "Jei esate jautrūs rūgštingumui, vartokite praskiestą arba mažais kiekiais."
+            },
+            "list": {
+                "title": "Maistinė vertė 100 ml:",
+                "1": "Energinė vertė: 67 kJ / 16 kcal",
+                "2": "Baltymai – 0,0 g",
+                "3": "Riebalai – 0,0 g",
+                "4": "Angliavandeniai – 4,0 g",
+                "5": "Cukrūs – 4,0 g"
+            }
+        }
+    }
+}

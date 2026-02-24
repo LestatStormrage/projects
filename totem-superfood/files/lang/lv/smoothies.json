@@ -1,0 +1,295 @@
+{
+    "_metaTitle": "Smūtiji",
+    "_metaDescription": "Atklājiet mūsu gardos smūtijus un atbalstiet savu aktīvo dzīvesveidu.",
+    "products": {
+        "title": "Smūtiji",
+        "fireSmoothies": {
+            "title": "Fire-Smoothies kolekcija",
+            "description": "Mūsu smūtiji ir bagātināti ar spēcīgiem superproduktiem, kas būtiski uzlabo to uzturvērtību un veselības ieguvumus. Katrs produkts ir rūpīgi izvēlēts, lai atbalstītu vispārējo labsajūtu, uzlabotu organisma funkcijas un vairotu dzīvības spēku.",
+            "turmeric": {
+                "name": "Kurkumas smūtijs",
+                "type": "Smūtijs",
+                "descriptionTitle": "Apraksts:",
+                "descriptionText": "Kurkuma ir plaši pazīstama ar savām pretiekaisuma un antioksidanta īpašībām, tāpēc tā ir lielisks papildinājums veselīgam uzturam. Tiek uzskatīts, ka tā:",
+                "list": {
+                    "1": "Palīdz novērst Alcheimera slimības attīstību.",
+                    "2": "Mazina artrīta simptomus un veicina locītavu veselību.",
+                    "3": "Atbalsta garīgo labsajūtu, samazinot depresijas simptomus.",
+                    "4": "Palēnina novecošanās procesu, aizsargājot šūnas no oksidatīvā stresa.",
+                    "5": "Spēlē nozīmīgu lomu vēža profilaksē, pateicoties aktīvajām vielām."
+                }
+            },
+            "acai": {
+                "name": "Acai smūtijs",
+                "type": "Smūtijs",
+                "ingredientsTitle": "Sastāvdaļas:",
+                "ingredients": {
+                    "1": "Zemene",
+                    "2": "Aveņu",
+                    "3": "Auzu pārslas",
+                    "4": "Banāns",
+                    "5": "Čia sēklas",
+                    "6": "Acai ogas"
+                },
+                "descriptionTitle": "Apraksts:",
+                "descriptionText": "“Acai” ir izsmalcināts kokteilis, kas apvieno spilgtas zemeņu, aveņu un banāna notis ar auzu pārslām un čia sēklām. Acai ogas piešķir dzērienam antioksidanta īpašības, palīdzot stiprināt imunitāti, uzturēt sirds veselību un uzlabot kognitīvās funkcijas."
+            },
+            "spirulina": {
+                "name": "Spirulīnas smūtijs",
+                "type": "Smūtijs",
+                "ingredientsTitle": "Sastāvdaļas:",
+                "ingredients": {
+                    "1": "Spināti",
+                    "2": "Banāns",
+                    "3": "Ābols",
+                    "4": "Dateles",
+                    "5": "Spirulīna"
+                },
+                "descriptionTitle": "Apraksts:",
+                "descriptionText": "“Spirulīna” ir harmonisks spinātu, banāna un ābola maisījums, ko papildina dateļu saldums un spirulīnas unikālās īpašības. Šis dzēriens ir bagāts ar uzturvielām un veicina gremošanu, detoksikāciju un veselīgu svara uzturēšanu."
+            },
+            "hemp": {
+                "name": "Kaņepju vētra smūtijs",
+                "type": "Smūtijs",
+                "ingredientsTitle": "Sastāvdaļas:",
+                "ingredients": {
+                    "1": "Avenes",
+                    "2": "Mellenes",
+                    "3": "Nomizotas kaņepju sēklas",
+                    "4": "Čia sēklas",
+                    "5": "Banāns",
+                    "6": "Auzu pārslas"
+                },
+                "descriptionTitle": "Apraksts:",
+                "descriptionText": "“Kaņepju vētra” ir barojošs kokteilis, kurā avenes, mellenes un banāns tiek papildināti ar veselīgām kaņepju sēklām, čia sēklām un auzu pārslām. Kaņepju sēklas, kas bagātas ar olbaltumvielām un taukskābēm, palīdz stiprināt imūnsistēmu, uzturēt sirds veselību un uzlabot ādas stāvokli."
+            }
+        },
+        "fireDetox": {
+            "title": "Fire-Detox kolekcija",
+            "description": "Mūsu detoksa kokteiļi ir veidoti ar spēcīgām dabīgām sastāvdaļām, lai attīrītu organismu, atbalstītu gremošanu un atjaunotu līdzsvaru. Katrs maisījums palīdz palielināt enerģiju, uzlabot vielmaiņu un veicināt vispārējo labsajūtu.",
+            "mega": {
+                "name": "Mega Detox",
+                "type": "Detokss",
+                "ingredientsTitle": "Sastāvdaļas:",
+                "ingredients": {
+                    "1": "Apelsīns",
+                    "2": "Ananass",
+                    "3": "Kurkuma",
+                    "4": "Kanēlis",
+                    "5": "Čia sēklas"
+                },
+                "descriptionTitle": "Apraksts:",
+                "descriptionText": "“Mega Detox” ir spēcīgs kokteilis, kas paredzēts organisma dziļai attīrīšanai. Selerija un spināti, kas pazīstami ar detoksikācijas īpašībām, ir apvienoti ar ābolu un banānu, piešķirot dzērienam patīkamu saldumu."
+            },
+            "green": {
+                "name": "Zaļais Detox",
+                "type": "Detokss",
+                "ingredientsTitle": "Sastāvdaļas:",
+                "ingredients": {
+                    "1": "Banāns",
+                    "2": "Apelsīns",
+                    "3": "Spināti",
+                    "4": "Ķirbju sēklas",
+                    "5": "Hlorella"
+                },
+                "descriptionTitle": "Apraksts:",
+                "descriptionText": "“Zaļais Detox” ir barojošs un sabalansēts kokteilis, kas palīdz atjaunot vitamīnu un minerālvielu krājumus. Banāns un apelsīns piešķir dzērienam patīkamu saldumu un atsvaidzinošu garšu. Spināti, kas bagāti ar dzelzi un citām vērtīgām vielām, veicina veselību, bet ķirbju sēklas un hlorella, kas bagātas ar olbaltumvielām un antioksidantiem, atbalsta labsajūtu."
+            },
+            "refreshing": {
+                "name": "Atsvaidzinošais Detox",
+                "type": "Detokss",
+                "ingredientsTitle": "Sastāvdaļas:",
+                "ingredients": {
+                    "1": "Selerija",
+                    "2": "Kivi",
+                    "3": "Ābols",
+                    "4": "Pētersīļi",
+                    "5": "Hlorella",
+                    "6": "Čia sēklas"
+                },
+                "descriptionTitle": "Apraksts:",
+                "descriptionText": "“Atsvaidzinošais Detox” ir viegls un mundrinošs kokteilis, kas palīdzēs sajust enerģiju. Selerija un pētersīļi ar diurētiskām īpašībām palīdz izvadīt lieko šķidrumu no organisma. Kivi un ābols piešķir dzērienam patīkamu skābumu un atsvaidzinošu garšu. Hlorella un čia sēklas, kas bagātas ar uzturvielām, veicina veselību un labsajūtu."
+            },
+            "energy": {
+                "name": "Enerģijas Detox",
+                "type": "Detokss",
+                "ingredientsTitle": "Sastāvdaļas:",
+                "ingredients": {
+                    "1": "Apelsīns",
+                    "2": "Ananass",
+                    "3": "Kurkuma",
+                    "4": "Kanēlis",
+                    "5": "Čia sēklas"
+                },
+                "descriptionTitle": "Apraksts:",
+                "descriptionText": "“Enerģijas Detox” ir spilgts un aromātisks kokteilis, kas piešķir enerģiju visai dienai. Apelsīns un ananass, kas bagāti ar C vitamīnu, stiprina imunitāti un palielina tonusu. Kurkuma un kanēlis, kas pazīstami ar pretiekaisuma īpašībām, palīdz attīrīt organismu un uzlabot vielmaiņu. Čia sēklas, kas bagātas ar šķiedrvielām, nodrošina sāta sajūtu."
+            }
+        },
+        "air-collection": {
+            "title": "Air kolekcija",
+            "berry-boost": {
+                "type": "Smūtijs",
+                "title": "Berry Boost",
+                "ingredients": {
+                    "title": "Sastāvdaļas:",
+                    "1": "Banāns",
+                    "2": "Ogas",
+                    "3": "Čia sēklas",
+                    "4": "Auzu pārslas",
+                    "5": "Kokosriekstu skaidiņas"
+                },
+                "benefit": {
+                    "title": "Ieguvumi:",
+                    "text": "Stiprina imunitāti, dod enerģiju, bagāts ar antioksidantiem un šķiedrvielām."
+                }
+            },
+            "green-boost": {
+                "type": "Smūtijs",
+                "title": "Green Boost",
+                "ingredients": {
+                    "title": "Sastāvdaļas:",
+                    "1": "Spināti",
+                    "2": "Ābols",
+                    "3": "Banāns",
+                    "4": "Spirulīna",
+                    "5": "Linsēklas",
+                    "6": "Citrons"
+                },
+                "benefit": {
+                    "title": "Ieguvumi:",
+                    "text": "Attīra organismu, stiprina imunitāti un nodrošina ar nepieciešamajiem vitamīniem un minerālvielām."
+                }
+            },
+            "nut-cocoa": {
+                "type": "Smūtijs",
+                "title": "Riekstu-kakao enerģija",
+                "ingredients": {
+                    "title": "Sastāvdaļas:",
+                    "1": "Banāns",
+                    "2": "Kakao pulveris",
+                    "3": "Dateles",
+                    "4": "Mandeles",
+                    "5": "Maka",
+                    "6": "Auzu pārslas"
+                },
+                "benefit": {
+                    "title": "Ieguvumi:",
+                    "text": "Uzlabo garastāvokli, dod enerģiju un nodrošina ar veselīgajiem taukiem."
+                }
+            },
+            "spiced-banana-boost": {
+                "type": "Smūtijs",
+                "title": "Garšvielu banānu uzlāde",
+                "ingredients": {
+                    "title": "Sastāvdaļas:",
+                    "1": "Banāns",
+                    "2": "Ābols",
+                    "3": "Auzu pārslas",
+                    "4": "Kanēlis",
+                    "5": "Čia sēklas",
+                    "6": "Mandeles"
+                },
+                "benefit": {
+                    "title": "Ieguvumi:",
+                    "text": "Sasilda, remdē izsalkumu, stabilizē cukura līmeni asinīs un uzlabo gremošanu."
+                }
+            },
+            "turmeric-mango-immunoboost": {
+                "type": "Smūtijs",
+                "title": "Kurkuma + Mango “ImmunoBoost”",
+                "ingredients": {
+                    "title": "Sastāvdaļas:",
+                    "1": "Mango",
+                    "2": "Banāns",
+                    "3": "Kurkuma",
+                    "4": "Ingvers",
+                    "5": "Linsēklas",
+                    "6": "Auzu pulveris"
+                },
+                "benefit": {
+                    "title": "Ieguvumi:",
+                    "text": "Stiprina imunitāti, mazina iekaisumu un nodrošina vitamīnu devu."
+                }
+            },
+            "cocoa-turmeric-antistress": {
+                "type": "Smūtijs",
+                "title": "Kakao-kurkuma antistress",
+                "ingredients": {
+                    "title": "Sastāvdaļas:",
+                    "1": "Banāns",
+                    "2": "Kakao pulveris",
+                    "3": "Mandeles",
+                    "4": "Kurkuma",
+                    "5": "Dateles",
+                    "6": "Čia sēklas"
+                },
+                "benefit": {
+                    "title": "Ieguvumi:",
+                    "text": "Mazina stresu, nodrošina ar magniju un atbalsta nervu sistēmu un miegu."
+                }
+            }
+        },
+        "earthCollection": {
+            "title": "Earth kolekcija",
+            "ingredientsTitle": "Sastāvdaļas:",
+            "benefitTitle": "Ieguvumi:",
+            "morningEnergy": {
+                "title": "Rīta enerģija",
+                "alt": "Rīta enerģija",
+                "type": "Smūtijs",
+                "ingredients": [
+                    "Iesaldēts žāvēts banāns",
+                    "Auzu pārslas",
+                    "Mandeles",
+                    "Čia sēklas",
+                    "Kakao",
+                    "Sausais kokosriekstu piens",
+                    "Saldinātājs"
+                ],
+                "benefit": "Lieliska brokastu izvēle – dod enerģiju un uzlabo smadzeņu darbību."
+            },
+            "immuneShield": {
+                "title": "Imūnais vairogs",
+                "alt": "Imūnais vairogs",
+                "type": "Smūtijs",
+                "ingredients": [
+                    "Iesaldēta žāvēta zemene",
+                    "Auzu pārslas",
+                    "Valrieksti",
+                    "Spirulīna",
+                    "Ingvera pulveris",
+                    "Sausais kokosriekstu piens"
+                ],
+                "benefit": "Atbalsta imūnsistēmu, pateicoties C vitamīnam un antioksidantiem."
+            },
+            "fitnessCharge": {
+                "title": "Fitnesa uzlāde",
+                "alt": "Fitnesa uzlāde",
+                "type": "Smūtijs",
+                "ingredients": [
+                    "Iesaldēta žāvēta mellenes",
+                    "Auzu pārslas",
+                    "Lazdu rieksti",
+                    "Maka",
+                    "Sezama sēklas",
+                    "Kakao"
+                ],
+                "benefit": "Uzlabo izturību un palīdz muskuļu atjaunošanā."
+            },
+            "detoxBalance": {
+                "title": "Detokss un līdzsvars",
+                "alt": "Detokss un līdzsvars",
+                "type": "Smūtijs",
+                "ingredients": [
+                    "Iesaldēta žāvēta aveņu",
+                    "Auzu pārslas",
+                    "Linsēklas",
+                    "Spirulīna",
+                    "Mača",
+                    "Ciedru rieksti"
+                ],
+                "benefit": "Attīra organismu un uzlabo dzīvības spēku."
+            }
+        }
+    }
+}

@@ -1,0 +1,178 @@
+{
+	"_metaTitle": "Liqberry",
+	"_metaDescription": "La pâte de baies LiQberry est créée grâce à une technologie hydro-thermo-dynamique innovante. Cette méthode de transformation des baies n’a pas d’analogues dans le monde.",
+	"liqberry": {
+		"header": {
+			"title": "liqberry",
+			"subtitle": "Qu’est-ce qui rend LiQberry si unique ?",
+			"text": {
+				"1": "La pâte de baies LiQberry est créée grâce à une technologie hydro-thermo-dynamique innovante. Cette méthode de transformation des baies n’a pas d’analogues dans le monde.",
+				"2": "Les baies sont broyées à l’aide d’une pression pulsée. Au cours de ce processus, les graines sont brisées, ce qui permet à leur contenu — l’huile de myrtille — d’être libéré dans la pâte et absorbé par l’organisme. Lorsque les baies fraîches sont consommées sous leur forme naturelle, les graines traversent le système digestif sans être absorbées.",
+				"3": "Le processus de production se déroule sans accès à l’oxygène et sans ajout de conservateurs, de sucre, d’eau ou de colorants artificiels, grâce à une pasteurisation à basse température."
+			}
+		},
+		"seeds": {
+			"title": "La teneur en substances utiles des graines de myrtille",
+			"list": {
+				"1": "Acides gras polyinsaturés Oméga-3-6-9",
+				"2": "Vitamines liposolubles A et E",
+				"3": "Stérols",
+				"4": "Protéines uniques, acides aminés",
+				"5": "Substances biologiquement actives puissantes"
+			}
+		},
+		"packaging": {
+			"title": "Conditionnements disponibles :",
+			"doypack": {
+				"name": "Doypack",
+				"size": "100g"
+			},
+			"jar": {
+				"name": "Pot",
+				"size": "545g"
+			},
+			"show-button": "Afficher"
+		},
+		"blueberry-paste": {
+			"title": "Pâte de myrtille",
+			"type": "Liqberry",
+			"text": {
+				"1": "Notre pâte de myrtille est fabriquée à partir de 100 % de myrtilles entières et préserve la composition naturelle du fruit sous une forme concentrée. Grâce à une méthode de transformation douce, les précieux composés végétaux naturellement présents dans les myrtilles sont conservés.",
+				"2": "Les myrtilles sont naturellement riches en antioxydants, largement reconnus pour leur rôle dans la protection des cellules contre le stress oxydatif. Elles contiennent également de l’acide chlorogénique et des anthocyanes, les pigments naturels responsables de la couleur profonde de la baie et faisant l’objet de recherches nutritionnelles en cours.",
+				"3": "Notre pâte de myrtille est appréciée des consommateurs qui privilégient des ingrédients propres, la transparence et les produits alimentaires naturels. Elle peut être dégustée seule ou utilisée dans des smoothies, du yaourt ou des créations culinaires."
+			},
+			"list": {
+				"title": "En broyant la baie entière — pulpe, peau et graines incluses, la pâte :",
+				"1": "conserve le profil naturel complet de la baie,",
+				"2": "s’intègre facilement dans une alimentation équilibrée et consciente,",
+				"3": "ne contient ni sucre ajouté, ni conservateurs, ni additifs artificiels."
+			}
+		},
+		"raspberry-paste": {
+			"title": "Pâte de framboise",
+			"type": "Liqberry",
+			"text": {
+				"1": "Notre pâte de framboise est produite à partir de 100 % de framboises entières, capturant l’arôme distinctif du fruit et ses composés végétaux naturels sous une forme concentrée. Une transformation douce préserve les caractéristiques typiques des framboises, appréciées depuis longtemps dans une alimentation équilibrée.",
+				"2": "Les framboises contiennent naturellement des acides végétaux, des polyphénols et des composés aromatiques, largement étudiés en nutrition. Grâce à leur composition naturelle, elles sont souvent intégrées dans des approches alimentaires conscientes et lors de périodes de besoins physiques ou environnementaux accrus.",
+				"3": "Sa saveur riche et fruitée la rend idéale à déguster seule, dans des boissons chaudes, du yaourt, des smoothies ou des créations culinaires."
+			},
+			"list": {
+				"title": "La pâte de framboise :",
+				"1": "préserve le profil complet de la baie en traitant pulpe, peau et graines,",
+				"2": "s’intègre facilement dans une alimentation quotidienne consciente,",
+				"3": "ne contient ni sucre ajouté, ni conservateurs, ni additifs artificiels."
+			}
+		},
+		"strawberry-paste": {
+			"title": "Pâte de fraise",
+			"type": "Liqberry",
+			"text": {
+				"1": "Notre pâte de fraise est produite à partir de 100 % de fraises entières, préservant l’équilibre naturel de la pulpe, de la peau et des graines. Les fraises sont appréciées pour leur teneur naturelle en minéraux, vitamines et composés végétaux, ce qui en fait un élément populaire d’une alimentation équilibrée et consciente.",
+				"2": "Les fraises contiennent naturellement des minéraux tels que le fer, le magnésium, le potassium, le calcium et le zinc, ainsi que de la vitamine C, de la vitamine B5 et de l’acide folique. Elles fournissent également des composés végétaux antioxydants pouvant soutenir les défenses naturelles de l’organisme dans le cadre d’un mode de vie sain.",
+				"3": "Son goût frais et fruité la rend idéale à déguster seule, dans du yaourt, des smoothies ou comme ingrédient dans des créations culinaires."
+			},
+			"list": {
+				"title": "La pâte de fraise :",
+				"1": "préserve le profil complet de la baie en traitant le fruit entier,",
+				"2": "s’intègre facilement dans une routine quotidienne consciente,",
+				"3": "ne contient ni sucre ajouté, ni conservateurs, ni additifs artificiels."
+			}
+		},
+		"blackberry-paste": {
+			"title": "Pâte de mûre",
+			"type": "Liqberry",
+			"text": {
+				"1": "Notre pâte de mûre est fabriquée à partir de 100 % de mûres entières, préservant le profil naturel complet de la baie, y compris la pulpe, la peau et les graines. Les mûres sont appréciées pour leur teneur en vitamine E, en polyphénols et en autres composés végétaux, ce qui en fait un élément respecté d’une alimentation équilibrée.",
+				"2": "La vitamine E aide à protéger les cellules contre le stress oxydatif, tandis que les composés végétaux naturels contribuent au caractère riche de la baie. Dans le cadre d’un mode de vie conscient, les mûres peuvent enrichir la diversité alimentaire et le plaisir gustatif.",
+				"3": "Idéale à déguster seule, dans du yaourt, des céréales, des smoothies ou comme ingrédient premium dans des concepts nutritionnels modernes."
+			},
+			"list": {
+				"title": "La pâte de mûre :",
+				"1": "capture le profil nutritionnel complet en traitant le fruit entier,",
+				"2": "offre une saveur de baie intense et authentique,",
+				"3": "ne contient ni sucre ajouté, ni conservateurs, ni additifs artificiels."
+			}
+		},
+		"blackcurrant-paste": {
+			"title": "Pâte de cassis",
+			"type": "Liqberry",
+			"text": {
+				"1": "Notre pâte de cassis est fabriquée à partir de 100 % de cassis entiers, préservant le profil naturel complet de la baie, y compris la pulpe, la peau et les graines. Le cassis est apprécié pour sa forte teneur en vitamine C, en polyphénols et en autres composés végétaux bénéfiques.",
+				"2": "Ces nutriments naturellement présents contribuent à l’équilibre nutritionnel quotidien et sont largement appréciés dans le cadre d’une alimentation variée et consciente. Le cassis est depuis longtemps associé à une nutrition attentive et à des modes de vie actifs.",
+				"3": "Parfait à déguster seul, avec du yaourt ou des céréales, dans des smoothies ou comme ingrédient premium dans des concepts d’aliments fonctionnels."
+			},
+			"list": {
+				"title": "La pâte de cassis :",
+				"1": "capture tout le spectre de la baie en traitant le fruit entier,",
+				"2": "favorise la diversité alimentaire grâce aux composés végétaux naturels,",
+				"3": "ne contient ni sucre ajouté, ni conservateurs, ni additifs artificiels."
+			}
+		},
+		"sea-buckthorn": {
+			"title": "Pâte d’argousier",
+			"type": "Liqberry",
+			"text": {
+				"1": "Notre pâte d’argousier est fabriquée à partir de 100 % de baies d’argousier entières, préservant l’équilibre naturel de la pulpe, de la peau et des graines. L’argousier est apprécié pour sa composition naturellement riche en vitamines et en micro- et macronutriments, ce qui en fait un ingrédient populaire dans une alimentation consciente et équilibrée.",
+				"2": "Une caractéristique distinctive de l’argousier est sa teneur naturelle en huile d’argousier, contenant des composés végétaux liposolubles traditionnellement appréciés dans une alimentation variée.",
+				"3": "Parfaite pour enrichir la nutrition quotidienne — à déguster seule, dans des smoothies, des bols de petit-déjeuner ou des recettes fonctionnelles modernes."
+			},
+			"list": {
+				"title": "La pâte d’argousier :",
+				"1": "capture le profil complet de la baie, y compris les graines,",
+				"2": "contient naturellement du bêta-carotène, de la vitamine E et de la vitamine C,",
+				"3": "ne contient ni sucre ajouté, ni conservateurs, ni eau ajoutée, ni additifs artificiels."
+			}
+		},
+		"cherry-paste": {
+			"type": "Liqberry",
+			"title": "Pâte de cerise",
+			"text": {
+				"1": "La pâte de cerise est un produit fruitier homogénéisé à 100 %, fabriqué à partir de cerises entières avec des composants finement transformés. Elle préserve le profil nutritionnel naturel du fruit et constitue un complément fonctionnel à une alimentation équilibrée."
+			},
+			"list": {
+				"1": {
+					"title": "Les cerises sont naturellement une source de :",
+					"1": "polyphénols et anthocyanes,",
+					"2": "acides organiques,",
+					"3": "vitamines (notamment vitamine C et vitamines du groupe B),",
+					"4": "potassium et autres minéraux,",
+					"5": "fibres alimentaires et pectines."
+				},
+				"2": {
+					"title": "Dans le cadre d’une approche nutritionnelle consciente, la pâte de cerise est traditionnellement appréciée pour :",
+					"1": "soutenir le fonctionnement normal des muscles et des articulations,",
+					"2": "accompagner la récupération après l’activité physique,",
+					"3": "soutenir les processus métaboliques normaux,",
+					"4": "contribuer à l’équilibre antioxydant de l’organisme."
+				},
+				"3": {
+					"title": "Grâce à sa teneur en composés végétaux naturels, la pâte de cerise est également associée à :",
+					"1": "le soutien de la fonction cardiovasculaire,",
+					"2": "la contribution à une circulation normale,",
+					"3": "et le soutien d’un rythme veille–sommeil sain."
+				},
+				"4": {
+					"title": "La pâte de cerise :",
+					"1": "ne contient pas de sucre ajouté,",
+					"2": "est exempte de conservateurs, d’eau ajoutée et d’additifs artificiels,",
+					"3": "et s’intègre parfaitement dans un concept nutritionnel naturel, végétal et orienté performance."
+				}
+			}
+		},
+		"aronia-paste": {
+			"type": "Liqberry",
+			"title": "Pâte d’aronia",
+			"text": {
+				"1": "Notre pâte d’aronia est fabriquée à partir de 100 % de baies d’aronia entières, préservant le profil complet de la baie, y compris la pulpe, la peau et les graines. L’aronia est apprécié pour sa teneur naturellement élevée en polyphénols végétaux, largement reconnus dans le cadre d’une alimentation équilibrée.",
+				"2": "Traditionnellement, l’aronia est intégré dans des approches nutritionnelles axées sur l’équilibre cardiovasculaire et le soutien métabolique, dans le cadre d’un mode de vie varié et conscient.",
+				"3": "Parfait pour ceux qui apprécient le caractère intense des baies et la diversité végétale dans la nutrition quotidienne — à déguster pur ou dans des recettes modernes."
+			},
+			"list": {
+				"title": "La pâte d’aronia :",
+				"1": "contient naturellement des composés bioactifs d’origine végétale,",
+				"2": "complète une alimentation équilibrée et consciente,",
+				"3": "ne contient ni sucre ajouté, ni conservateurs, ni eau ajoutée, ni additifs artificiels."
+			}
+		}
+	}
+}

@@ -1,0 +1,79 @@
+{
+	"_metaTitle": "Meistä - Totem Superfood",
+	"_metaDescription": "Tutustu Totem Superfoodin tarinaan, innovaatioihin ja missioon tehdä terveellisestä ravinnosta helppoa ja saavutettavaa kaikkialla maailmassa.",
+	"about-us": {
+		"introduction": {
+			"title": "Johdanto – Keitä me olemme",
+			"subtitle": "Henkilökohtaisesta tehtävästä maailmanlaajuiseen visioon",
+			"text": "Vaikka yritys perustettiin virallisesti vuonna 2025, tuotteemme tarina alkoi jo vuonna 2012 yhden henkilön omistautumisesta terveydelle, ravinnolle ja tasapainoiseen elämään. Vuosien varrella kehitettiin toiminnallisia smoothiereseptejä, joita parannettiin superruoilla kuten spirulina, kurkuma, maca, açaí ja chia – luoden tehokkaita sekoituksia täynnä vitamiineja ja puhdasta energiaa. Vuoteen 2017 mennessä tämä kehitys johti suosittuun vihersmoothie-baariin, joka sai paikallista median huomiota ja loi vahvan yhteisön terveyttä arvostavista kuluttajista."
+		},
+		"innovation": {
+			"title": "Innovaatio",
+			"subtitle": "12 vuoden kokemus, yksi vallankumouksellinen tuote",
+			"text": "Vuonna 2024 päätimme tuoda nämä ainutlaatuiset tuotteet maailmanlaajuisille markkinoille. Design Sprintin jälkeen omaksuimme pakastekuivauksen (lyofilisointi) – menetelmän, joka säilyttää ainesosien ravintoarvon nopeasti jäädyttämällä ja poistamalla kosteuden. Tuloksena on säilyvä jauhesekoitus, joka muuttuu tuoreeksi smoothiekseksi vain veden lisäämisellä – yhtä ravitseva ja herkullinen kuin vastavalmistettu."
+		},
+		"target": {
+			"title": "Kohderyhmä",
+			"subtitle": "Palvelemme modernia, tietoista kuluttajaa",
+			"list": {
+				"1": "Kiireiset ammattilaiset ja opiskelijat, jotka tarvitsevat nopeaa mutta terveellistä ravintoa",
+				"2": "Matkailijat ja ulkoilun harrastajat, joilla on rajallinen pääsy tuoreisiin aterioihin",
+				"3": "Terveystietoiset ihmiset, jotka arvostavat asiantuntijoiden suosittelemia ohjelmia (esim. detox, hyvinvointitasapaino, päivittäinen ravinto)"
+			}
+		},
+		"values": {
+			"title": "Arvomme",
+			"list": {
+				"1": "Terveys ensin: Luonnolliset, puhtaat, sokerittomat ainesosat ilman lisäaineita",
+				"2": "Energia ja tuottavuus: Tukee aktiivista elämäntapaa ravintorikkailla sekoituksilla",
+				"3": "Liikkuvuus ja helppous: Yksi pakkaus = yksi ateria. Helppo kuljettaa. Valmis sekunneissa",
+				"4": "Ekologinen vastuu: Kestävä tuotanto, minimaalinen jätteen määrä"
+			}
+		},
+		"problems": {
+			"title": "Ongelmat, jotka ratkaisemmeksi",
+			"list": {
+				"1": "Ajanpuute ravitsevien aterioiden valmistamiseen työn, matkojen tai kiireisten päivien aikana",
+				"2": "Vaikeus ylläpitää tasaista energiaa ja keskittymiskykyä",
+				"3": "Rajoitetut vaihtoehdot käteville ja terveellisille välipaloille",
+				"4": "Perinteiset vaihtoehdot ovat joko epäterveellisiä tai aikaa vieviä"
+			}
+		},
+		"persona": {
+			"title": "Asiakaspersoonamme",
+			"list": {
+				"1": "Tietoinen ja valikoiva: Välittää ravinnosta, lukee ainesosaluetteloita, välttää sokeria ja kemikaaleja",
+				"2": "Aktiivinen ja tyylitietoinen: Harrastaa urheilua, kuntoilua ja itsestään huolehtimista",
+				"3": "Arvopohjainen: Etsii kestäviä, läpinäkyviä ja edistyksellisiä brändejä"
+			}
+		},
+		"advantage": {
+			"title": "Miksi se toimii – Pakastekuivauksen etu",
+			"list": {
+				"1": "Säilyttää 95–98 % vitamiineista ja ravintoaineista",
+				"2": "Kevyt ja pitkäikäinen – ei vaadi kylmäsäilytystä",
+				"3": "Maistuu yhtä hyvältä kuin tuore – lisää vain vesi",
+				"4": "Täydellinen liikkuvaan elämäntapaan"
+			}
+		},
+		"market": {
+			"title": "Markkinamahdollisuus",
+			"text": "Tilastojen mukaan yli 60 % EU:n väestöstä pyrkii aktiivisesti syömään terveellisesti. Toiminnallisten, käyttövalmiiden superfood-tuotteiden kysyntä kasvaa nopeasti erityisesti kaupunkilaisten ja liikkuvien kuluttajien keskuudessa."
+		},
+		"marketing": {
+			"title": "Markkinointistrategia",
+			"subtitle": "Luomme kysyntää vetovoimaisella markkinoinnilla",
+			"list": {
+				"1": "Sosiaalisen median vaikuttajat ja tarinankerronta",
+				"2": "Yhteistyö hyvinvointivalmentajien ja kuntoasiantuntijoiden kanssa",
+				"3": "Kuluttajapalautteen hyödyntäminen nopeaan kehitykseen",
+				"4": "Vahva brändiyhteisö ja uskollisuusohjelmat"
+			}
+		},
+		"partner": {
+			"title": "Yhteistyöhön",
+			"text": "Tarjoamme helposti laajennettavan ratkaisun erittäin motivoituneelle asiakaskunnalle ja tuotevalikoiman, jota tukee vuosien tuotekehitys. Liity mukaan tuomaan modernia ravintoa modernille maailmalle. Tehdään terveellisestä elämästä helppoa – yhdessä.",
+			"button": "Ota yhteyttä"
+		}
+	}
+}
