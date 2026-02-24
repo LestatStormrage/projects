@@ -79,24 +79,26 @@ const fireflyGroups = [
   }
 ];
 fireflyGroups.forEach((group) => {
-  const container = document.querySelector(group.selector);
-  if (!container) return;
-  const rect = container.getBoundingClientRect();
-  for (let i = 0; i < group.amount; i++) {
-    const el = document.createElement("div");
-    el.classList.add("firefly");
-    const size = rand(group.size[0], group.size[1]);
-    el.style.width = `${size}px`;
-    el.style.height = `${size}px`;
-    el.style.left = `${Math.random() * rect.width}px`;
-    el.style.top = `${Math.random() * rect.height}px`;
-    const glowDuration = rand(group.glow[0], group.glow[1]);
-    el.style.animationDuration = `${glowDuration}ms`;
-    el.style.animationDelay = `${-Math.random() * glowDuration}ms`;
-    container.appendChild(el);
-    colorShift(el, group);
-    moveFirefly(el, group);
-  }
+  const containers = document.querySelectorAll(group.selector);
+  if (!containers.length) return;
+  containers.forEach((container) => {
+    const rect = container.getBoundingClientRect();
+    for (let i = 0; i < group.amount; i++) {
+      const el = document.createElement("div");
+      el.classList.add("firefly");
+      const size = rand(group.size[0], group.size[1]);
+      el.style.width = `${size}px`;
+      el.style.height = `${size}px`;
+      el.style.left = `${Math.random() * rect.width}px`;
+      el.style.top = `${Math.random() * rect.height}px`;
+      const glowDuration = rand(group.glow[0], group.glow[1]);
+      el.style.animationDuration = `${glowDuration}ms`;
+      el.style.animationDelay = `${-Math.random() * glowDuration}ms`;
+      container.appendChild(el);
+      colorShift(el, group);
+      moveFirefly(el, group);
+    }
+  });
 });
 function moveFirefly(el, group) {
   const rect = el.parentElement.getBoundingClientRect();

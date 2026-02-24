@@ -1227,6 +1227,12 @@ html[data-fls-darklite-dark] {
 }
 
 @media (max-width: 47.99875em) {
+  .hero--desktop {
+    display: none;
+  }
+  .hero--mobile {
+    display: block;
+  }
   .hero__layer--5 {
     top: 30%;
     width: 45%;
@@ -1507,6 +1513,12 @@ html[data-fls-darklite-dark] {
 }
 
 @media (min-width: 47.99875em) {
+  .hero--desktop {
+    display: block;
+  }
+  .hero--mobile {
+    display: none;
+  }
   .contact__title {
     width: 50%;
   }
