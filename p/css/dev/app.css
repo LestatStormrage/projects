@@ -1071,6 +1071,7 @@ textarea {
 
 textarea.input {
   padding: 0.625rem;
+  overflow-y: scroll;
 }html {
   --mainColor: #02010a;
   --mainColor-subtle: rgba(2, 1, 10, 0.6);
