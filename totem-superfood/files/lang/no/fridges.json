@@ -1,0 +1,31 @@
+{
+	"_metaTitle": "Kjøleskap",
+	"_metaDescription": "Utforsk vårt utvalg av profesjonelle kjøleskap og automatiserte salgsmoduler som gjør produktmarkedsføring mer effektiv og lønnsom.",
+	"fridges-page": {
+		"introduction": {
+			"title": "Kjøleskap",
+			"description": "I tillegg til våre førsteklasses produkter tilbyr vi våre partnere komplementært utstyr som gjør markedsføringen av produktene våre enklere, mer effektiv og mer lønnsom."
+		},
+		"types": {
+			"title": "Typer av kjøleskap:",
+			"list": {
+				"1": "Vanlige kjøleskap",
+				"2": "Automatiserte salgsmoduler (mikromarkeder) med integrert Nayax-betalingssystem og Dynamic Scale vekt-sensorteknologi",
+				"3": "Mikromarkeder med Dynamic Scale vekt-sensorteknologi (kun lagerkontroll)"
+			}
+		},
+		"payment": {
+			"title": "Betalingsalternativer",
+			"items": {
+				"1": {
+					"name": "POS",
+					"text": "Kunder åpner mikromarkedet med et kredittkort eller en telefon, og blir belastet automatisk."
+				},
+				"2": {
+					"name": "Privat app",
+					"text": "Vi lager en skreddersydd app for deg med din logo og dine merkevarefarger."
+				}
+			}
+		}
+	}
+}

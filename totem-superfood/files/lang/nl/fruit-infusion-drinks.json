@@ -1,0 +1,226 @@
+{
+    "_metaTitle": "Fruitinfusiedranken",
+    "_metaDescription": "Ontdek onze heerlijke fruitinfusiedranken en ondersteun uw actieve levensstijl.",
+    "yogoda": {
+        "main-title": "Fruitinfusiedranken",
+        "description-1": "Ontwikkeld voor mensen die natuurlijke ingrediënten, functionele voordelen en maximaal gemak in het dagelijks leven waarderen. Onze fruitinfusies worden gemaakt van 100% natuurlijke ingrediënten: zorgvuldig geselecteerde bessen, fruit, gember, honing en kruiden. Wij veranderen niet wat de natuur heeft gecreëerd. In plaats daarvan verfijnen we het — helderder, functioneler en eenvoudiger te integreren in een moderne, dynamische levensstijl. Dankzij een zachte verwerking behouden we intense smaken, een hoge voedingsdichtheid en natuurlijke eigenschappen, terwijl de bereiding moeiteloos blijft. Het resultaat is een natuurlijke, thee-achtige drank die zich perfect aanpast aan verschillende situaties, seizoenen en behoeften.",
+        "description-2": "Deze fruitinfusiedranken zijn bewust ontwikkeld om uitzonderlijk handig en veelzijdig te zijn:",
+        "bullet-point": {
+            "1": "Op kantoor of thuis",
+            "2": "Tijdens lange reizen en korte uitstapjes",
+            "3": "In vliegtuigen, treinen, bussen of auto’s",
+            "4": "Op festivals, in campers of tijdens het kamperen",
+            "5": "Tijdens kano- of kajaktochten",
+            "6": "In hotels – ’s ochtends of ’s avonds",
+            "7": "Tijdens lange vergaderingen, presentaties, conferenties of trainingen"
+        },
+        "seasons": {
+            "summer": {
+                "title": "In de zomer",
+                "text": "Voeg koud water toe en geniet van een verfrissende, vitaliserende drank die energie geeft en natuurlijke frisheid brengt."
+            },
+            "winter": {
+                "title": "In de winter",
+                "text": "Voeg heet water toe en geniet van een verwarmende drank die het immuunsysteem ondersteunt en zowel lichaam als geest revitaliseert."
+            }
+        },
+        "classic": {
+            "title": "Classic"
+        },
+        "immunity": {
+            "title": "Immunity"
+        },
+        "sugar-free": {
+            "title": "Suikervrij"
+        },
+        "coctails": {
+            "title": "Cocktails"
+        },
+        "cherry-tea-with-chocolate": {
+            "type": "YOGODA",
+            "name": "Kersenthee met chocolade",
+            "description-text-01": "De eerste slok onthult een diepe, fluweelzachte cacaosmaak van geraspte chocolade. Daarna volgt een heldere kersenzuurheid die voor levendig contrast zorgt. Tot slot verschijnt een subtiele warmte van cayennepeper, die elke nuance versterkt zonder de verfijning te verstoren.",
+            "description-text-02": "Ingrediënten: kersen (diepgevroren bessen), geraspte cacao (natuurlijke chocolade), geconcentreerd granaatappelsap, suiker, glucose-fructosestroop, cayennepeper."
+        },
+        "tea-with-blueberries-and-lavender": {
+            "type": "YOGODA",
+            "name": "Thee met bosbessen en lavendel",
+            "description-text-01": "Een zachte, zoete bosbessenbasis — als rijpe bessen vers uit het bos — geeft een lichte honingtoets. Lavendel brengt bloemige lichtheid en een rustgevend aroma. De subtiele zuurheid van granaatappel voegt elegantie toe.",
+            "description-text-02": "Ingrediënten: bosbessen, geconcentreerd granaatappelsap, gedroogde lavendelbloemen, suiker, glucose-fructosestroop."
+        },
+        "sea-buckthorn-tea-with-apricot": {
+            "type": "YOGODA",
+            "name": "Duindoorn-thee met abrikoos",
+            "description-text-01": "De zonnige zuurheid van duindoorn raakt als eerste het gehemelte — fris en levendig, maar niet scherp. Daarna volgt de zachte, fluweelachtige zoetheid van abrikoos, als huisgemaakte jam. Samen vormen ze een perfecte balans.",
+            "description-text-02": "Ingrediënten: duindoorn (puree/bessen), abrikoos (puree), suiker."
+        },
+        "ginger-tea": {
+            "type": "YOGODA",
+            "name": "Gemberthee",
+            "description-text-01": "Moeder Natuur zelf heeft deze drank gecreëerd. Geen kunstmatige toevoegingen — alleen echte honing, frisse limoen en pittige gember. De perfecte balans tussen zoet, zuur en kruidig.",
+            "description-text-02": "Ingrediënten: verse gemberwortel, verse limoen, natuurlijke honing, suiker."
+        },
+        "cranberry-tea": {
+            "type": "YOGODA",
+            "name": "Cranberrythee",
+            "description-text-01": "Geboren uit de smaak en het aroma van cranberry’s, met behoud van maximale voedingsstoffen. Munt en limoen harmoniëren met gember en honing.",
+            "description-text-02": "Ingrediënten: verse snelgevroren cranberry’s, natuurlijke honing, verse limoen, verse gemberwortel, steranijs, gedroogde munt, suiker."
+        },
+        "sea-buckthorn-tea": {
+            "type": "YOGODA",
+            "name": "Duindoorn-thee",
+            "description-text-01": "Een drank in de kleur van geluk — de warmte van de zon in elk kopje. Duindoorn, honing, gember, limoen en specerijen vormen samen een echte vitaminebom.",
+            "description-text-02": "Ingrediënten: verse snelgevroren duindoorn, verse gemberwortel, verse limoen, gemalen kaneel, gemalen steranijs, natuurlijke honing, suiker."
+        },
+        "raspberry-tea": {
+            "type": "YOGODA",
+            "name": "Frambozenthee",
+            "description-text-01": "Een slok zomer, het hele jaar door. Het aroma van frambozen, gecombineerd met honing, gember en kaneel, roept pure nostalgie op.",
+            "description-text-02": "Ingrediënten: verse snelgevroren frambozen, zwarte bessen, natuurlijke honing, verse gemberwortel, gemalen kaneel, suiker."
+        },
+        "currant-tea": {
+            "type": "YOGODA",
+            "name": "Bessenthee",
+            "description-text-01": "Minimale verhitting, maximale voedingswaarde. Diep paars van kleur, geschikt voor elke dag en elke stemming.",
+            "description-text-02": "Ingrediënten: verse snelgevroren bessen, natuurlijke honing, paarse basilicum, suiker."
+        },
+        "matcha-tea-coconut-latte": {
+            "type": "YOGODA",
+            "name": "Matcha-thee kokos latte",
+            "description-text-01": "Een harmonieuze combinatie van Japanse matcha en romige kokos. Verfrissend, rustgevend en rijk aan antioxidanten.",
+            "description-text-02": "Ingrediënten: drinkwater, suiker, kokospasta, matcha groene thee, natuurlijk rozemarijnextract (antioxidant)."
+        },
+        "ginger-with-goji-tea": {
+            "type": "YOGODA",
+            "name": "Gember met goji-thee",
+            "description-text-01": "Een trend in gezonde voeding. Goji, acerola en echinacea ondersteunen vitaliteit en het immuunsysteem.",
+            "description-text-02": "Ingrediënten: verse gemberwortel, verse limoen, gedroogde gojibessen, natuurlijke honing, echinacea-extract, acerola-extract (vitamine C), suiker."
+        },
+        "ginger-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Gember met kurkuma-thee",
+            "description-text-01": "Een legendarische combinatie. Kurkuma, gember, honing en citrus zorgen voor kracht en balans, het hele jaar door.",
+            "description-text-02": "Ingrediënten: verse gemberwortel, verse limoen, kurkuma, natuurlijke honing, suiker."
+        },
+        "raspberry-with-acerola-tea": {
+            "type": "YOGODA",
+            "name": "Framboos met acerola-thee",
+            "description-text-01": "Frambozen, honing, echinacea en acerola zorgen samen voor smaak en sterke weerstand.",
+            "description-text-02": "Ingrediënten: verse snelgevroren frambozen, natuurlijke honing, zwarte bessen, verse gemberwortel, echinacea-extract, acerola-extract (vitamine C), suiker."
+        },
+        "raspberry-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Framboos met kurkuma-thee",
+            "description-text-01": "Kurkuma ondersteunt de frisse zomersmaak van frambozen, honing, bessen en gember.",
+            "description-text-02": "Ingrediënten: verse snelgevroren frambozen, verse snelgevroren zwarte bessen, natuurlijke honing, verse gemberwortel, kurkuma, gemalen kaneel, suiker."
+        },
+        "pear-lime-thyme-tea": {
+            "type": "YOGODA",
+            "name": "Peer, limoen en tijm-thee",
+            "description-text-01": "Een zachte zoetzure smaak met kruidige aroma’s. Waarderend voor lichaam en geest.",
+            "description-text-02": "Ingrediënten: peer, verse gemberwortel, limoen, sinaasappel, gedroogde gojibessen, gedroogde tijm, natuurlijk stevia-extract."
+        },
+        "aronia-melanocarpa-cornelian-cherry-chilli-tea": {
+            "type": "YOGODA",
+            "name": "Aronia, kornoelje & chili-thee",
+            "description-text-01": "Zoetzuur en kruidig met een verwarmende afdronk. Tonisch en herstellend.",
+            "description-text-02": "Ingrediënten: kornoeljepuree, aronia melanocarpa, natuurlijk stevia-extract, cayennepeper."
+        },
+        "passion-fruit-mango-nutmeg-tea": {
+            "type": "YOGODA",
+            "name": "Passievrucht, mango & nootmuskaat-thee",
+            "description-text-01": "Een tropische fruitcocktail met subtiele kruidige tonen en een verkwikkend effect.",
+            "description-text-02": "Ingrediënten: mangopuree, pompoen, passievruchtpulp, sinaasappel, nootmuskaat, natuurlijk stevia-extract."
+        },
+        "currant-tea-2": {
+            "type": "YOGODA",
+            "name": "Bessenthee",
+            "description-text-01": "Een klassieke zwartebessendrank met basilicum. Warm of koud heerlijk.",
+            "description-text-02": "Ingrediënten: drinkwater, zwarte bes, gedroogde paarse basilicum, citroenzuur, zoetstof sucralose."
+        },
+        "sea-buckthorn-tea-2": {
+            "type": "YOGODA",
+            "name": "Duindoorn-thee",
+            "description-text-01": "Een natuurlijke vloeibare thee met een rijke, licht kruidige smaak. Warm of koud te drinken.",
+            "description-text-02": "Ingrediënten: duindoorn, appel, polydextrose (vezel), gemberwortel, limoen, citroenzuur, gemalen kaneel, gemalen steranijs, zoetstof sucralose."
+        },
+        "ginger-tea-2": {
+            "type": "YOGODA",
+            "name": "Gemberthee",
+            "description-text-01": "Pittige gember en frisse limoen zorgen voor energie en warmte.",
+            "description-text-02": "Ingrediënten: drinkwater, gemberwortel, appel, polydextrose (vezel), limoen, citroenzuur, zoetstof sucralose."
+        },
+        "raspberry-tea-2": {
+            "type": "YOGODA",
+            "name": "Frambozenthee",
+            "description-text-01": "Thee in zakjes met rijke smaak en aroma. Warm of koud te bereiden.",
+            "description-text-02": "Ingrediënten: framboos, zwarte bes, gemberwortel, citroenzuur, kaneel, zoetstof sucralose."
+        },
+        "bramble": {
+            "type": "YOGODA",
+            "name": "Bramble",
+            "description-text-01": "Een moderne cocktail op basis van bramen, frambozen en kruiden.",
+            "description-text-02": "Ingrediënten: frambozensap, bramen, suiker, citroensap, jeneverbessen, koriander, kaneel."
+        },
+        "mojito": {
+            "type": "YOGODA",
+            "name": "Mojito",
+            "description-text-01": "Een klassieker met limoen, munt en suiker. Verfrissend en aromatisch.",
+            "description-text-02": "Ingrediënten: suiker, limoen, munt."
+        },
+        "peach-bellini": {
+            "type": "YOGODA",
+            "name": "Perzik Bellini",
+            "description-text-01": "Een delicate, fruitige cocktail met perzik en framboos.",
+            "description-text-02": "Ingrediënten: perzik, perziksap, suiker, frambozensap, tijm."
+        },
+        "sea-breeze": {
+            "type": "YOGODA",
+            "name": "Sea Breeze",
+            "description-text-01": "Cranberry, grapefruit en citroen zorgen voor frisse zomerse tonen.",
+            "description-text-02": "Ingrediënten: cranberry’s, honing, grapefruitsap, suiker, citroensap."
+        },
+        "ginger-lemonade": {
+            "type": "YOGODA",
+            "name": "Gemberlimonade",
+            "description-text-01": "Pittige gember en frisse limoen in perfecte balans.",
+            "description-text-02": "Ingrediënten: verse gemberwortel, verse limoen, suiker, glucose-fructosestroop."
+        },
+        "sea-buckthorn-lemonade": {
+            "type": "YOGODA",
+            "name": "Duindoornlimonade",
+            "description-text-01": "Zoetzuur, aromatisch en verfrissend met tropische accenten.",
+            "description-text-02": "Ingrediënten: duindoorn, appel, passievruchtpulp, suiker."
+        },
+        "mango-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Mango & passievrucht",
+            "description-text-01": "Rijpe mango en frisse passievrucht met een vleugje limoen.",
+            "description-text-02": "Ingrediënten: mangopuree, passievruchtpulp, vers limoensap, suiker, glucose-fructosestroop."
+        },
+        "strawberry-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Aardbei & passievrucht",
+            "description-text-01": "Zachte zoetheid van aardbei gecombineerd met frisse passievrucht.",
+            "description-text-02": "Ingrediënten: aardbeien, passievruchtpulp, suiker, glucose-fructosestroop."
+        },
+        "spicy-strawberry": {
+            "type": "YOGODA",
+            "name": "Pittige aardbei",
+            "description-text-01": "Aardbei met acai en een subtiele warmte van cayenne.",
+            "description-text-02": "Ingrediënten: aardbeien, citroensap, acaipoeder, suiker, cayennepeper."
+        },
+        "spicy-pineapple": {
+            "type": "YOGODA",
+            "name": "Pittige ananas",
+            "description-text-01": "Zoete ananas met passievrucht en een warme kruidige toets.",
+            "description-text-02": "Ingrediënten: ananas, passievruchtpulp, citroensap, suiker, cayennepeper."
+        },
+        "red-mulled-wine": {
+            "type": "YOGODA",
+            "name": "Rode glühwein",
+            "description-text-01": "Een alcoholvrije winterklassieker met kruidige warmte.",
+            "description-text-02": "Ingrediënten: natuurlijke honing, kers, geconcentreerd rood druivensap, sinaasappel, appel, kardemom, kaneel, nootmuskaat, kruidnagel, steranijs, cayennepeper."
+        }
+    }
+}

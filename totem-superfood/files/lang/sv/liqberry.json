@@ -1,0 +1,178 @@
+{
+	"_metaTitle": "Liqberry",
+	"_metaDescription": "LiQberry bärpasta skapas med en innovativ hydro-termo-dynamisk teknologi. Denna metod för bärbearbetning saknar motsvarighet i världen.",
+	"liqberry": {
+		"header": {
+			"title": "liqberry",
+			"subtitle": "Vad är det som gör LiQberry unikt?",
+			"text": {
+				"1": "LiQberry bärpasta skapas med en innovativ hydro-termo-dynamisk teknologi. Denna metod för bärbearbetning saknar motsvarighet i världen.",
+				"2": "Bären krossas med hjälp av pulserande tryck. Under denna process bryts kärnorna, vilket gör att deras innehåll – blåbärsolja – frigörs i pastan och kan tas upp av kroppen. När färska bär konsumeras i sin naturliga form passerar kärnorna genom matsmältningssystemet utan att tas upp.",
+				"3": "Produktionsprocessen sker utan tillgång till syre och utan tillsats av konserveringsmedel, socker, vatten eller artificiella färgämnen, med hjälp av lågtemperaturpastörisering."
+			}
+		},
+		"seeds": {
+			"title": "Innehållet av nyttiga ämnen i blåbärskärnor",
+			"list": {
+				"1": "Fleromättade fettsyror Omega-3-6-9",
+				"2": "Fettlösliga vitaminer A och E",
+				"3": "Steroler",
+				"4": "Unikt protein, aminosyror",
+				"5": "Kraftfulla biologiskt aktiva ämnen"
+			}
+		},
+		"packaging": {
+			"title": "Tillgängliga förpackningar:",
+			"doypack": {
+				"name": "Doypack",
+				"size": "100 g"
+			},
+			"jar": {
+				"name": "Burk",
+				"size": "545 g"
+			},
+			"show-button": "Visa"
+		},
+		"blueberry-paste": {
+			"title": "Blåbärspasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Vår blåbärspasta är tillverkad av 100 % hela blåbär och bevarar fruktens naturliga sammansättning i koncentrerad form. Tack vare en skonsam bearbetningsmetod bevaras de värdefulla växtbaserade ämnen som naturligt finns i blåbär.",
+				"2": "Blåbär är naturligt rika på antioxidanter, som är allmänt erkända för sin roll i att skydda celler mot oxidativ stress. De innehåller även klorogensyra och antocyaniner – de naturliga pigment som ger bäret dess djupa färg och som är föremål för pågående näringsforskning.",
+				"3": "Vår blåbärspasta uppskattas av konsumenter som värdesätter rena ingredienser, transparens och naturliga livsmedel. Den kan avnjutas som den är eller användas i smoothies, yoghurt eller kreativa kulinariska tillämpningar."
+			},
+			"list": {
+				"title": "Genom att mala hela bäret – inklusive fruktkött, skal och kärnor, pastan:",
+				"1": "bevarar hela bärets naturliga profil,",
+				"2": "integreras enkelt i en balanserad och hälsomedveten kost,",
+				"3": "innehåller inget tillsatt socker, inga konserveringsmedel och inga artificiella tillsatser."
+			}
+		},
+		"raspberry-paste": {
+			"title": "Hallonpasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Vår hallonpasta produceras av 100 % hela hallon och fångar fruktens karakteristiska arom och naturliga växtämnen i koncentrerad form. Skonsam bearbetning bevarar hallonens typiska egenskaper, som länge har värderats som en del av en balanserad kost.",
+				"2": "Hallon innehåller naturligt växtsyror, polyfenoler och aromatiska föreningar, som studeras brett inom näringsvetenskap. Tack vare sin naturliga sammansättning ingår hallon ofta i medvetna kostkoncept och under perioder med ökad fysisk eller miljömässig belastning.",
+				"3": "Dess rika, fruktiga smak gör den lämplig att avnjuta som den är, i varma drycker, yoghurt, smoothies eller kreativa kulinariska tillämpningar."
+			},
+			"list": {
+				"title": "Hallonpastan:",
+				"1": "bevarar hela bärets profil genom att bearbeta fruktkött, skal och kärnor,",
+				"2": "integreras enkelt i en hälsomedveten daglig kost,",
+				"3": "innehåller inget tillsatt socker, inga konserveringsmedel och inga artificiella tillsatser."
+			}
+		},
+		"strawberry-paste": {
+			"title": "Jordgubbspasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Vår jordgubbspasta produceras av 100 % hela jordgubbar och bevarar den naturliga balansen mellan fruktkött, skal och kärnor. Jordgubbar uppskattas för sitt naturliga innehåll av mineraler, vitaminer och växtbaserade ämnen, vilket gör dem till ett populärt inslag i en balanserad och medveten kost.",
+				"2": "Jordgubbar innehåller naturligt mineraler som järn, magnesium, kalium, kalcium och zink, tillsammans med vitamin C, vitamin B5 och folat. De bidrar även med antioxidativa växtämnen som kan stödja kroppens naturliga försvar mot oxidativ stress som en del av en hälsosam livsstil.",
+				"3": "Dess fräscha, fruktiga smak gör den idealisk att avnjuta som den är, i yoghurt, smoothies eller som ingrediens i kreativa recept."
+			},
+			"list": {
+				"title": "Jordgubbspastan:",
+				"1": "bevarar hela bärets profil genom att bearbeta hela frukten,",
+				"2": "passar enkelt in i en hälsomedveten vardag,",
+				"3": "innehåller inget tillsatt socker, inga konserveringsmedel och inga artificiella tillsatser."
+			}
+		},
+		"blackberry-paste": {
+			"title": "Björnbärspasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Vår björnbärspasta är tillverkad av 100 % hela björnbär och bevarar bärets kompletta naturliga profil, inklusive fruktkött, skal och kärnor. Björnbär uppskattas för sitt innehåll av vitamin E, polyfenoler och andra växtbaserade ämnen, vilket gör dem till ett respekterat inslag i en balanserad kost.",
+				"2": "Vitamin E bidrar till att skydda celler mot oxidativ stress, medan naturligt förekommande växtämnen bidrar till bärets rika karaktär. Som en del av en medveten livsstil kan björnbär stödja kostvariation och njutning.",
+				"3": "Perfekt att avnjuta som den är, i yoghurt, flingor, smoothies eller som en premiumingrediens i moderna näringskoncept."
+			},
+			"list": {
+				"title": "Björnbärspastan:",
+				"1": "fångar hela näringsprofilen genom att bearbeta hela frukten,",
+				"2": "erbjuder en intensiv, autentisk bärsmak,",
+				"3": "innehåller inget tillsatt socker, inga konserveringsmedel och inga artificiella tillsatser."
+			}
+		},
+		"blackcurrant-paste": {
+			"title": "Svartvinbärspasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Vår svartvinbärspasta är gjord av 100 % hela svartvinbär och bevarar bärets kompletta naturliga profil inklusive fruktkött, skal och kärnor. Svartvinbär uppskattas för sitt höga innehåll av vitamin C, polyfenoler och andra nyttiga växtämnen.",
+				"2": "Dessa naturligt förekommande näringsämnen bidrar till daglig näringsbalans och uppskattas brett som en del av en varierad och medveten kost. Svartvinbär har länge förknippats med balanserad kost och aktiva livsstilar.",
+				"3": "Perfekt att njuta av som den är, med yoghurt eller flingor, i smoothies eller som en premiumingrediens i funktionella livsmedelskoncept."
+			},
+			"list": {
+				"title": "Svartvinbärspastan:",
+				"1": "bevarar hela bärets spektrum genom att använda hela frukten,",
+				"2": "bidrar till kostvariation med naturligt förekommande växtämnen,",
+				"3": "innehåller inget tillsatt socker, inga konserveringsmedel och inga artificiella tillsatser."
+			}
+		},
+		"sea-buckthorn": {
+			"title": "Havtornspasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Vår havtornspasta är gjord av 100 % hela havtornsbär och bevarar den naturliga balansen av fruktkött, skal och kärnor. Havtorn uppskattas för sin naturligt rika sammansättning av vitaminer samt mikro- och makronäringsämnen, vilket gör det till en populär ingrediens i medveten och balanserad kost.",
+				"2": "En särskiljande egenskap hos havtorn är dess naturliga innehåll av havtornsolja, som innehåller fettlösliga växtämnen som traditionellt uppskattas som en del av en varierad kost.",
+				"3": "Perfekt för att berika den dagliga kosten — njut som den är, i smoothies, frukostskålar eller moderna funktionella recept."
+			},
+			"list": {
+				"title": "Havtornspastan:",
+				"1": "bevarar hela bärets profil, inklusive kärnorna,",
+				"2": "innehåller naturligt betakaroten, vitamin E och vitamin C,",
+				"3": "innehåller inget tillsatt socker, inga konserveringsmedel, inget tillsatt vatten och inga artificiella tillsatser."
+			}
+		},
+		"cherry-paste": {
+			"type": "Liqberry",
+			"title": "Körsbärspasta",
+			"text": {
+				"1": "Körsbärspasta är en 100 % homogeniserad fruktprodukt, tillverkad av hela körsbär med finbearbetade fruktkomponenter. Den bevarar fruktens naturliga näringsprofil och fungerar som ett funktionellt tillskott till en balanserad kost."
+			},
+			"list": {
+				"1": {
+					"title": "Körsbär är naturligt en källa till:",
+					"1": "polyfenoler och antocyaniner,",
+					"2": "organiska syror,",
+					"3": "vitaminer (särskilt vitamin C och B-vitaminer),",
+					"4": "kalium och andra mineraler,",
+					"5": "kostfiber och pektiner."
+				},
+				"2": {
+					"title": "Som en del av en medveten kost uppskattas körsbärspasta traditionellt för att:",
+					"1": "stödja normal muskel- och ledfunktion,",
+					"2": "bidra till återhämtning efter fysisk aktivitet,",
+					"3": "stödja normala metaboliska processer,",
+					"4": "bidra till kroppens antioxidantbalans."
+				},
+				"3": {
+					"title": "Tack vare sitt innehåll av naturliga växtämnen förknippas körsbärspasta ofta även med:",
+					"1": "stöd för hjärt- och kärlfunktion,",
+					"2": "bidrag till normal blodcirkulation,",
+					"3": "och stöd för en hälsosam sömn–vaken-rytm."
+				},
+				"4": {
+					"title": "Körsbärspasta:",
+					"1": "innehåller inget tillsatt socker,",
+					"2": "är fri från konserveringsmedel, tillsatt vatten och artificiella tillsatser,",
+					"3": "och passar perfekt in i ett naturligt, växtbaserat och prestationsinriktat näringskoncept."
+				}
+			}
+		},
+		"aronia-paste": {
+			"type": "Liqberry",
+			"title": "Aroniapasta",
+			"text": {
+				"1": "Vår aroniapasta är gjord av 100 % hela aroniabär och bevarar hela bärprofilen inklusive fruktkött, skal och kärnor. Aronia uppskattas för sitt naturligt höga innehåll av växtpolyfenoler, som är brett uppskattade som en del av en balanserad kost.",
+				"2": "Traditionellt inkluderas aronia i kostkoncept med fokus på kardiovaskulär balans och metabolt stöd, inom ramen för en varierad och medveten livsstil.",
+				"3": "Perfekt för dig som uppskattar intensiv bärkaraktär och växtmångfald i vardagskosten – njut ren eller som en del av moderna recept."
+			},
+			"list": {
+				"title": "Aroniapastan:",
+				"1": "innehåller naturligt bioaktiva växtämnen,",
+				"2": "kompletterar en balanserad och medveten kost,",
+				"3": "innehåller inget tillsatt socker, inga konserveringsmedel, inget tillsatt vatten och inga artificiella tillsatser."
+			}
+		}
+	}
+}

@@ -1,0 +1,295 @@
+{
+    "_metaTitle": "Onze Smoothies",
+    "_metaDescription": "Ontdek onze heerlijke smoothies en ondersteun uw actieve levensstijl.",
+    "products": {
+        "title": "Smoothies",
+        "fireSmoothies": {
+            "title": "Fire-Smoothies Collectie",
+            "description": "Onze smoothies zijn verrijkt met krachtige superfoods die hun voedingswaarde en gezondheidsvoordelen aanzienlijk verhogen. Elk ingrediënt wordt zorgvuldig geselecteerd om het algehele welzijn te ondersteunen, lichaamsfuncties te verbeteren en vitaliteit te versterken.",
+            "turmeric": {
+                "name": "Kurkuma Smoothie",
+                "type": "Smoothie",
+                "descriptionTitle": "Beschrijving:",
+                "descriptionText": "Kurkuma staat bekend om zijn ontstekingsremmende en antioxidatieve eigenschappen en is een waardevolle toevoeging aan een gezond dieet. Het wordt verondersteld:",
+                "list": {
+                    "1": "Te helpen bij het voorkomen van de ziekte van Alzheimer.",
+                    "2": "Artritissymptomen te verlichten en de gewrichtsgezondheid te ondersteunen.",
+                    "3": "Het mentale welzijn te ondersteunen door depressieve symptomen te verminderen.",
+                    "4": "Het verouderingsproces te vertragen door cellen te beschermen tegen oxidatieve stress.",
+                    "5": "Een rol te spelen bij kankerpreventie dankzij actieve bestanddelen."
+                }
+            },
+            "acai": {
+                "name": "Acai Smoothie",
+                "type": "Smoothie",
+                "ingredientsTitle": "Ingrediënten:",
+                "ingredients": {
+                    "1": "Aardbei",
+                    "2": "Framboos",
+                    "3": "Havervlokken",
+                    "4": "Banaan",
+                    "5": "Chiazaden",
+                    "6": "Acaibessen"
+                },
+                "descriptionTitle": "Beschrijving:",
+                "descriptionText": "“Acai” is een verfijnde cocktail die frisse tonen van aardbei, framboos en banaan combineert met havervlokken en chiazaden. Acaibessen geven de drank antioxidatieve eigenschappen die het immuunsysteem versterken, de hartgezondheid ondersteunen en cognitieve functies verbeteren."
+            },
+            "spirulina": {
+                "name": "Spirulina Smoothie",
+                "type": "Smoothie",
+                "ingredientsTitle": "Ingrediënten:",
+                "ingredients": {
+                    "1": "Spinazie",
+                    "2": "Banaan",
+                    "3": "Appel",
+                    "4": "Dadels",
+                    "5": "Spirulina"
+                },
+                "descriptionTitle": "Beschrijving:",
+                "descriptionText": "“Spirulina” is een harmonieuze mix van spinazie, banaan en appel, aangevuld met de zoetheid van dadels en de unieke eigenschappen van spirulina. Deze drank is rijk aan voedingsstoffen en bevordert een betere spijsvertering, ontgifting en gezond gewichtsbeheer."
+            },
+            "hemp": {
+                "name": "Hemp Storm Smoothie",
+                "type": "Smoothie",
+                "ingredientsTitle": "Ingrediënten:",
+                "ingredients": {
+                    "1": "Framboos",
+                    "2": "Bosbes",
+                    "3": "Gepelde hennepzaden",
+                    "4": "Chiazaden",
+                    "5": "Banaan",
+                    "6": "Havervlokken"
+                },
+                "descriptionTitle": "Beschrijving:",
+                "descriptionText": "“Hemp Storm” is een voedzame cocktail waarin framboos, bosbes en banaan worden gecombineerd met gezonde hennepzaden, chiazaden en havervlokken. Hennepzaden, rijk aan eiwitten en vetzuren, helpen het immuunsysteem te versterken, de hartgezondheid te ondersteunen en de huidconditie te verbeteren."
+            }
+        },
+        "fireDetox": {
+            "title": "Fire-Detox Collectie",
+            "description": "Onze detoxcocktails zijn samengesteld met krachtige natuurlijke ingrediënten om het lichaam te reinigen, de spijsvertering te ondersteunen en balans te herstellen. Elke mix is ontworpen om energie te verhogen, het metabolisme te stimuleren en het algehele welzijn te bevorderen.",
+            "mega": {
+                "name": "Mega Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Ingrediënten:",
+                "ingredients": {
+                    "1": "Sinaasappel",
+                    "2": "Ananas",
+                    "3": "Kurkuma",
+                    "4": "Kaneel",
+                    "5": "Chiazaden"
+                },
+                "descriptionTitle": "Beschrijving:",
+                "descriptionText": "“Mega Detox” is een krachtige cocktail ontworpen voor een diepe reiniging van het lichaam. Selderij en spinazie, bekend om hun ontgiftende eigenschappen, worden gecombineerd met appel en banaan voor een aangename zoetheid."
+            },
+            "green": {
+                "name": "Green Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Ingrediënten:",
+                "ingredients": {
+                    "1": "Banaan",
+                    "2": "Sinaasappel",
+                    "3": "Spinazie",
+                    "4": "Pompoenpitten",
+                    "5": "Chlorella"
+                },
+                "descriptionTitle": "Beschrijving:",
+                "descriptionText": "“Green Detox” is een voedzame en uitgebalanceerde cocktail die helpt bij het aanvullen van vitamines en mineralen. Banaan en sinaasappel zorgen voor een aangename zoetheid en frisse smaak. Spinazie bevordert de gezondheid, terwijl pompoenpitten en chlorella het welzijn ondersteunen."
+            },
+            "refreshing": {
+                "name": "Refreshing Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Ingrediënten:",
+                "ingredients": {
+                    "1": "Selderij",
+                    "2": "Kiwi",
+                    "3": "Appel",
+                    "4": "Peterselie",
+                    "5": "Chlorella",
+                    "6": "Chiazaden"
+                },
+                "descriptionTitle": "Beschrijving:",
+                "descriptionText": "“Refreshing Detox” is een lichte en verfrissende cocktail die energie geeft. Selderij en peterselie helpen overtollig vocht af te voeren, terwijl kiwi en appel zorgen voor een frisse, lichtzure smaak. Chlorella en chiazaden ondersteunen de gezondheid."
+            },
+            "energy": {
+                "name": "Energy Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Ingrediënten:",
+                "ingredients": {
+                    "1": "Sinaasappel",
+                    "2": "Ananas",
+                    "3": "Kurkuma",
+                    "4": "Kaneel",
+                    "5": "Chiazaden"
+                },
+                "descriptionTitle": "Beschrijving:",
+                "descriptionText": "“Energy Detox” is een heldere en aromatische cocktail die je de hele dag energie geeft. Sinaasappel en ananas versterken het immuunsysteem, terwijl kurkuma en kaneel helpen bij ontgifting en metabolisme. Chiazaden zorgen voor langdurige verzadiging."
+            }
+        },
+        "air-collection": {
+            "title": "Air Collectie",
+            "berry-boost": {
+                "type": "Smoothie",
+                "title": "Berry Boost",
+                "ingredients": {
+                    "title": "Ingrediënten:",
+                    "1": "Banaan",
+                    "2": "Bessen",
+                    "3": "Chiazaden",
+                    "4": "Havervlokken",
+                    "5": "Kokosvlokken"
+                },
+                "benefit": {
+                    "title": "Voordeel:",
+                    "text": "Versterkt de immuniteit, geeft energie en is rijk aan antioxidanten en vezels."
+                }
+            },
+            "green-boost": {
+                "type": "Smoothie",
+                "title": "Green Boost",
+                "ingredients": {
+                    "title": "Ingrediënten:",
+                    "1": "Spinazie",
+                    "2": "Appel",
+                    "3": "Banaan",
+                    "4": "Spirulina",
+                    "5": "Lijnzaad",
+                    "6": "Citroen"
+                },
+                "benefit": {
+                    "title": "Voordeel:",
+                    "text": "Ontgift het lichaam, versterkt het immuunsysteem en levert essentiële vitamines en mineralen."
+                }
+            },
+            "nut-cocoa": {
+                "type": "Smoothie",
+                "title": "Nut-Cocoa Energy",
+                "ingredients": {
+                    "title": "Ingrediënten:",
+                    "1": "Banaan",
+                    "2": "Cacaopoeder",
+                    "3": "Dadels",
+                    "4": "Amandelen",
+                    "5": "Maca",
+                    "6": "Havervlokken"
+                },
+                "benefit": {
+                    "title": "Voordeel:",
+                    "text": "Verbetert de stemming, geeft energie en voedt met gezonde vetten."
+                }
+            },
+            "spiced-banana-boost": {
+                "type": "Smoothie",
+                "title": "Spiced Banana Boost",
+                "ingredients": {
+                    "title": "Ingrediënten:",
+                    "1": "Banaan",
+                    "2": "Appel",
+                    "3": "Havervlokken",
+                    "4": "Kaneel",
+                    "5": "Chiazaden",
+                    "6": "Amandelen"
+                },
+                "benefit": {
+                    "title": "Voordeel:",
+                    "text": "Verwarmt, verzadigt, stabiliseert de bloedsuikerspiegel en ondersteunt de spijsvertering."
+                }
+            },
+            "turmeric-mango-immunoboost": {
+                "type": "Smoothie",
+                "title": "Kurkuma + Mango “ImmunoBoost”",
+                "ingredients": {
+                    "title": "Ingrediënten:",
+                    "1": "Mango",
+                    "2": "Banaan",
+                    "3": "Kurkuma",
+                    "4": "Gember",
+                    "5": "Lijnzaad",
+                    "6": "Haverpoeder"
+                },
+                "benefit": {
+                    "title": "Voordeel:",
+                    "text": "Versterkt de immuniteit, vermindert ontstekingen en geeft een vitamineboost."
+                }
+            },
+            "cocoa-turmeric-antistress": {
+                "type": "Smoothie",
+                "title": "Cacao Kurkuma Antistress",
+                "ingredients": {
+                    "title": "Ingrediënten:",
+                    "1": "Banaan",
+                    "2": "Cacaopoeder",
+                    "3": "Amandelen",
+                    "4": "Kurkuma",
+                    "5": "Dadels",
+                    "6": "Chiazaden"
+                },
+                "benefit": {
+                    "title": "Voordeel:",
+                    "text": "Vermindert stress, levert magnesium en ondersteunt het zenuwstelsel en de slaap."
+                }
+            }
+        },
+        "earthCollection": {
+            "title": "Earth Collectie",
+            "ingredientsTitle": "Ingrediënten:",
+            "benefitTitle": "Voordeel:",
+            "morningEnergy": {
+                "title": "Morning Energy",
+                "alt": "Morning Energy",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Gevriesdroogde banaan",
+                    "Havervlokken",
+                    "Amandelen",
+                    "Chiazaden",
+                    "Cacao",
+                    "Gedroogde kokosmelk",
+                    "Zoetstof"
+                ],
+                "benefit": "Een uitstekende ontbijtoptie – geeft energie en ondersteunt de hersenfunctie."
+            },
+            "immuneShield": {
+                "title": "Immune Shield",
+                "alt": "Immune Shield",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Gevriesdroogde aardbei",
+                    "Havervlokken",
+                    "Walnoten",
+                    "Spirulina",
+                    "Gemberpoeder",
+                    "Gedroogde kokosmelk"
+                ],
+                "benefit": "Ondersteunt het immuunsysteem dankzij vitamine C en antioxidanten."
+            },
+            "fitnessCharge": {
+                "title": "Fitness Charge",
+                "alt": "Fitness Charge",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Gevriesdroogde bosbes",
+                    "Havervlokken",
+                    "Hazelnoten",
+                    "Maca",
+                    "Sesamzaad",
+                    "Cacao"
+                ],
+                "benefit": "Verbetert het uithoudingsvermogen en ondersteunt spierherstel."
+            },
+            "detoxBalance": {
+                "title": "Detox & Balance",
+                "alt": "Detox & Balance",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Gevriesdroogde framboos",
+                    "Havervlokken",
+                    "Lijnzaad",
+                    "Spirulina",
+                    "Matcha",
+                    "Pijnboompitten"
+                ],
+                "benefit": "Reinigt het lichaam en verhoogt de vitaliteit."
+            }
+        }
+    }
+}

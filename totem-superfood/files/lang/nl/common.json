@@ -1,0 +1,35 @@
+{
+	"menu": {
+		"link": {
+			"home": "<span>Home</span>",
+			"about-us": "Over ons",
+			"history": "Geschiedenis",
+			"contact-us": "Contact"
+		},
+		"parent": {
+			"products": "Producten",
+			"retail-equipment": "Winkelapparatuur"
+		}
+	},
+	"submenu": {
+		"link": {
+			"smoothies": "Smoothies",
+			"kombucha": "Kombucha",
+			"fruit-infusion-drinks": "Fruitinfusiedranken",
+			"floor-displays": "Vloerdisplays",
+			"fridges": "Koelkasten"
+		}
+	},
+	"cookies": {
+		"text": "Deze website maakt gebruik van cookies om uw ervaring te verbeteren.",
+		"accept": "Accepteren"
+	},
+	"footer": {
+		"privacy": "Privacybeleid",
+		"legal": "Juridische kennisgeving",
+		"linkedin": "LinkedIn",
+		"email": "info@totem-superfood.com",
+		"backTo": "Terug naar",
+		"top": "bovenaan"
+	}
+}

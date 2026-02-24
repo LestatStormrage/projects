@@ -1,0 +1,152 @@
+{
+    "_metaTitle": "Kombucha",
+    "_metaDescription": "Ontdek onze heerlijke smoothies en ondersteun uw actieve levensstijl.",
+    "kombucha": {
+        "main-title": "Kombucha",
+        "description": "Een legendarische theedrank uit het oude Oosten. SCOBY, een symbiotische cultuur van gist en gunstige bacteriën, fermenteert aromatische thee tot een heerlijke en van nature genezende bruisende drank. In het oude Japan werd kombucha de “Thee van Onsterfelijkheid” genoemd. In Korea wordt het al sinds de oudheid gebruikt voor verjongende schoonheidsbehandelingen, en in China was het de drank van keizers.",
+        "classic-green": {
+            "type": "Kombucha",
+            "title": "Classic Green",
+            "text": {
+                "1": "Natuurlijke ingrediënten: gefilterd water, geconcentreerd appelsap, groene thee, suiker, kombuchacultuur.",
+                "2": "Aanbevolen bewaartemperatuur: +6°C tot +25°C.",
+                "3": "Binnen 48 uur na opening consumeren.",
+                "4": "Bij gevoeligheid voor zuren: verdund of in kleine hoeveelheden drinken."
+            },
+            "list": {
+                "title": "Voedingswaarden per 100 ml:",
+                "1": "Energie: 67 kJ / 16 kcal",
+                "2": "Eiwit – 0,0 g",
+                "3": "Vet – 0,0 g",
+                "4": "Koolhydraten – 4,0 g",
+                "5": "Suikers – 4,0 g"
+            }
+        },
+        "ginger": {
+            "type": "Kombucha",
+            "title": "Ginger",
+            "text": {
+                "1": "Natuurlijke ingrediënten: gefilterd water, geconcentreerd appelsap (20%), groene thee, gember, kurkumaconcentraat, suiker, citroensap, kombuchacultuur.",
+                "2": "Aanbevolen bewaartemperatuur: +6°C tot +25°C.",
+                "3": "Binnen 48 uur na opening consumeren.",
+                "4": "Bij gevoeligheid voor zuren: verdund of in kleine hoeveelheden drinken."
+            },
+            "list": {
+                "title": "Voedingswaarden per 100 ml:",
+                "1": "Energie: 67 kJ / 16 kcal",
+                "2": "Eiwit – 0,0 g",
+                "3": "Vet – 0,0 g",
+                "4": "Koolhydraten – 4,0 g",
+                "5": "Suikers – 4,0 g"
+            }
+        },
+        "hibiscus": {
+            "type": "Kombucha",
+            "title": "hibiscus",
+            "text": {
+                "1": "Natuurlijke ingrediënten: gefilterd water, geconcentreerd appelsap, zwarte thee, groene thee, hibiscusbloemen, suiker, kombuchacultuur.",
+                "2": "Aanbevolen bewaartemperatuur: +6°C tot +25°C.",
+                "3": "Binnen 48 uur na opening consumeren.",
+                "4": "Bij gevoeligheid voor zuren: verdund of in kleine hoeveelheden drinken."
+            },
+            "list": {
+                "title": "Voedingswaarden per 100 ml:",
+                "1": "Energie: 67 kJ / 16 kcal",
+                "2": "Eiwit – 0,0 g",
+                "3": "Vet – 0,0 g",
+                "4": "Koolhydraten – 4,0 g",
+                "5": "Suikers – 4,0 g"
+            }
+        },
+        "jasmine": {
+            "type": "Kombucha",
+            "title": "jasmine",
+            "text": {
+                "1": "Natuurlijke ingrediënten: gefilterd water, geconcentreerd appelsap, groene thee, jasmijnbloemen, suiker, kombuchacultuur.",
+                "2": "Aanbevolen bewaartemperatuur: +6°C tot +25°C.",
+                "3": "Binnen 48 uur na opening consumeren.",
+                "4": "Bij gevoeligheid voor zuren: verdund of in kleine hoeveelheden drinken."
+            },
+            "list": {
+                "title": "Voedingswaarden per 100 ml:",
+                "1": "Energie: 67 kJ / 16 kcal",
+                "2": "Eiwit – 0,0 g",
+                "3": "Vet – 0,0 g",
+                "4": "Koolhydraten – 4,0 g",
+                "5": "Suikers – 4,0 g"
+            }
+        },
+        "lavender": {
+            "type": "Kombucha",
+            "title": "lavender",
+            "text": {
+                "1": "Natuurlijke ingrediënten: gefilterd water, geconcentreerd appelsap (20%), groene thee, clitoriabloemen, zwarte thee, lavendelbloemen, suiker, kombuchacultuur.",
+                "2": "Aanbevolen bewaartemperatuur: +6°C tot +25°C.",
+                "3": "Binnen 48 uur na opening consumeren.",
+                "4": "Bij gevoeligheid voor zuren: verdund of in kleine hoeveelheden drinken."
+            },
+            "list": {
+                "title": "Voedingswaarden per 100 ml:",
+                "1": "Energie: 67 kJ / 16 kcal",
+                "2": "Eiwit – 0,0 g",
+                "3": "Vet – 0,0 g",
+                "4": "Koolhydraten – 4,0 g",
+                "5": "Suikers – 4,0 g"
+            }
+        },
+        "lemongrass": {
+            "type": "Kombucha",
+            "title": "lemongrass",
+            "text": {
+                "1": "Natuurlijke ingrediënten: gefilterd water, geconcentreerd appelsap, zwarte thee, citroengras, suiker, kombuchacultuur.",
+                "2": "Aanbevolen bewaartemperatuur: +6°C tot +25°C.",
+                "3": "Binnen 48 uur na opening consumeren.",
+                "4": "Bij gevoeligheid voor zuren: verdund of in kleine hoeveelheden drinken."
+            },
+            "list": {
+                "title": "Voedingswaarden per 100 ml:",
+                "1": "Energie: 67 kJ / 16 kcal",
+                "2": "Eiwit – 0,0 g",
+                "3": "Vet – 0,0 g",
+                "4": "Koolhydraten – 4,0 g",
+                "5": "Suikers – 4,0 g"
+            }
+        },
+        "passion-fruit": {
+            "type": "Kombucha",
+            "title": "passion fruit",
+            "text": {
+                "1": "Natuurlijke ingrediënten: gefilterd water, geconcentreerd appelsap, groene thee, passievrucht, suiker, citroensap, kombuchacultuur.",
+                "2": "Aanbevolen bewaartemperatuur: +6°C tot +25°C.",
+                "3": "Binnen 48 uur na opening consumeren.",
+                "4": "Bij gevoeligheid voor zuren: verdund of in kleine hoeveelheden drinken."
+            },
+            "list": {
+                "title": "Voedingswaarden per 100 ml:",
+                "1": "Energie: 67 kJ / 16 kcal",
+                "2": "Eiwit – 0,0 g",
+                "3": "Vet – 0,0 g",
+                "4": "Koolhydraten – 4,0 g",
+                "5": "Suikers – 4,0 g"
+            }
+        },
+        "yuzu": {
+            "type": "Kombucha",
+            "title": "yuzu",
+            "text": {
+                "1": "Natuurlijke ingrediënten: gefilterd water, geconcentreerd appelsap, groene thee, yuzusap, suiker, kombuchacultuur.",
+                "2": "Aanbevolen bewaartemperatuur: +6°C tot +25°C.",
+                "3": "Binnen 48 uur na opening consumeren.",
+                "4": "Bij gevoeligheid voor zuren: verdund of in kleine hoeveelheden drinken."
+            },
+            "list": {
+                "title": "Voedingswaarden per 100 ml:",
+                "1": "Energie: 67 kJ / 16 kcal",
+                "2": "Eiwit – 0,0 g",
+                "3": "Vet – 0,0 g",
+                "4": "Koolhydraten – 4,0 g",
+                "5": "Suikers – 4,0 g"
+            }
+        }
+    }
+}

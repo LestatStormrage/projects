@@ -1,0 +1,178 @@
+{
+	"_metaTitle": "Liqberry",
+	"_metaDescription": "LiQberry bærpasta er laget med en innovativ hydro-termo-dynamisk teknologi. Denne metoden for bærbehandling har ingen tilsvarende i verden.",
+	"liqberry": {
+		"header": {
+			"title": "liqberry",
+			"subtitle": "Hva er så unikt med LiQberry?",
+			"text": {
+				"1": "LiQberry bærpasta er laget med en innovativ hydro-termo-dynamisk teknologi. Denne metoden for bærbehandling har ingen tilsvarende i verden.",
+				"2": "Bærene knuses ved hjelp av pulserende trykk. Under denne prosessen brytes frøene opp, slik at innholdet – blåbærolje – frigjøres i pastaen og tas opp av kroppen. Når ferske bær spises i sin naturlige form, passerer frøene gjennom fordøyelsessystemet uten å bli absorbert.",
+				"3": "Produksjonsprosessen foregår uten tilgang på oksygen og uten tilsetning av konserveringsmidler, sukker, vann eller kunstige fargestoffer, ved bruk av lavtemperaturpasteurisering."
+			}
+		},
+		"seeds": {
+			"title": "Innholdet av nyttige stoffer i blåbærfrø",
+			"list": {
+				"1": "Flerumettede fettsyrer Omega-3-6-9",
+				"2": "Fettløselige vitaminer A og E",
+				"3": "Steroler",
+				"4": "Unikt protein, aminosyrer",
+				"5": "Kraftige biologisk aktive stoffer"
+			}
+		},
+		"packaging": {
+			"title": "Tilgjengelig emballasje:",
+			"doypack": {
+				"name": "Doypack",
+				"size": "100g"
+			},
+			"jar": {
+				"name": "Glass",
+				"size": "545g"
+			},
+			"show-button": "Vis"
+		},
+		"blueberry-paste": {
+			"title": "Blåbærpasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Vår blåbærpasta er laget av 100 % hele blåbær og bevarer fruktens naturlige sammensetning i en konsentrert form. Takket være en skånsom behandlingsmetode bevares de verdifulle plantebaserte stoffene som naturlig finnes i blåbær.",
+				"2": "Blåbær er naturlig rike på antioksidanter, som er kjent for sin rolle i å beskytte celler mot oksidativt stress. De inneholder også klorogensyre og antocyaniner, de naturlige pigmentene som gir bærene deres dype farge og som er gjenstand for pågående ernæringsforskning.",
+				"3": "Vår blåbærpasta verdsettes av forbrukere som setter pris på rene ingredienser, åpenhet og naturlige matprodukter. Den kan nytes alene eller brukes i smoothies, yoghurt eller kreative kulinariske anvendelser."
+			},
+			"list": {
+				"title": "Ved å male hele bæret – inkludert fruktkjøtt, skall og frø – bevarer pastaen:",
+				"1": "hele det naturlige bærprofilen,",
+				"2": "integreres enkelt i et balansert og helsefokusert kosthold,",
+				"3": "inneholder ikke tilsatt sukker, ingen konserveringsmidler og ingen kunstige tilsetningsstoffer."
+			}
+		},
+		"raspberry-paste": {
+			"title": "Bringebærpasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Vår bringebærpasta er laget av 100 % hele bringebær og fanger fruktens karakteristiske aroma og naturlige planteforbindelser i en konsentrert form. Skånsom behandling bevarer bringebærets særegne egenskaper, som lenge har vært verdsatt som en del av et balansert kosthold.",
+				"2": "Bringebær inneholder naturlig plantesyrer, polyfenoler og aromatiske forbindelser, som er mye studert innen ernæringsvitenskap. Takket være sin naturlige sammensetning inngår bringebær ofte i bevisste ernæringskonsepter og perioder med økt fysisk eller miljømessig belastning.",
+				"3": "Den rike, fruktige smaken gjør den velegnet å nyte alene, i varme drikker, yoghurt, smoothies eller kreative kulinariske anvendelser."
+			},
+			"list": {
+				"title": "Bringebærpastaen:",
+				"1": "bevarer hele bærprofilen ved å bearbeide fruktkjøtt, skall og frø,",
+				"2": "passer enkelt inn i et helsefokusert daglig kosthold,",
+				"3": "inneholder ikke tilsatt sukker, ingen konserveringsmidler og ingen kunstige tilsetningsstoffer."
+			}
+		},
+		"strawberry-paste": {
+			"title": "Jordbærpasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Vår jordbærpasta er laget av 100 % hele jordbær og bevarer den naturlige balansen av fruktkjøtt, skall og frø. Jordbær verdsettes for sitt naturlige innhold av mineraler, vitaminer og plantebaserte forbindelser, noe som gjør dem til et populært element i et balansert og bevisst kosthold.",
+				"2": "Jordbær inneholder naturlig mineraler som jern, magnesium, kalium, kalsium og sink, sammen med vitamin C, vitamin B5 og folat. De gir også antioksidante planteforbindelser, som kan støtte kroppens naturlige forsvar mot oksidativt stress som en del av en sunn livsstil.",
+				"3": "Den friske, fruktige smaken gjør den ideell å nyte alene, i yoghurt, smoothies eller som ingrediens i kreative kulinariske anvendelser."
+			},
+			"list": {
+				"title": "Jordbærpastaen:",
+				"1": "bevarer hele bærprofilen ved å bearbeide hele frukten,",
+				"2": "passer enkelt inn i en helsefokusert daglig rutine,",
+				"3": "inneholder ikke tilsatt sukker, ingen konserveringsmidler og ingen kunstige tilsetningsstoffer."
+			}
+		},
+		"blackberry-paste": {
+			"title": "Bjørnebærpasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Vår bjørnebærpasta er laget av 100 % hele bjørnebær og bevarer det komplette naturlige bærprofilen inkludert fruktkjøtt, skall og frø. Bjørnebær verdsettes for sitt innhold av vitamin E, polyfenoler og andre plantebaserte forbindelser, noe som gjør dem til et respektert element i et balansert kosthold.",
+				"2": "Vitamin E bidrar til å beskytte celler mot oksidativt stress, mens naturlige planteforbindelser gir bæret sin rike karakter. Som en del av en bevisst livsstil kan bjørnebær bidra til kostholdsvariasjon og nytelse.",
+				"3": "Perfekt å nyte alene, i yoghurt, frokostblandinger, smoothies eller som en premium ingrediens i moderne ernæringskonsepter."
+			},
+			"list": {
+				"title": "Bjørnebærpastaen:",
+				"1": "bevarer hele næringsprofilen ved å bearbeide hele frukten,",
+				"2": "tilbyr en intens og autentisk bærsmak,",
+				"3": "inneholder ikke tilsatt sukker, ingen konserveringsmidler og ingen kunstige tilsetningsstoffer."
+			}
+		},
+		"blackcurrant-paste": {
+			"title": "Solbærpaste",
+			"type": "Liqberry",
+			"text": {
+				"1": "Vår solbærpaste er laget av 100 % hele solbær og bevarer hele det naturlige bærprofilen, inkludert fruktkjøtt, skall og frø. Solbær er verdsatt for sitt høye innhold av vitamin C, polyfenoler og andre gunstige planteforbindelser.",
+				"2": "Disse naturlig forekommende næringsstoffene bidrar til daglig ernæringsbalanse og er høyt verdsatt som en del av et variert og bevisst kosthold. Solbær har lenge vært forbundet med bevisst ernæring og aktive livsstiler.",
+				"3": "Perfekt å nyte alene, med yoghurt eller frokostblandinger, i smoothies eller som en premium ingrediens i funksjonelle matkonsepter."
+			},
+			"list": {
+				"title": "Solbærpasten:",
+				"1": "fanger hele bærspekteret ved å bearbeide hele frukten,",
+				"2": "støtter kostholdsvariasjon med naturlig forekommende planteforbindelser,",
+				"3": "inneholder ikke tilsatt sukker, ingen konserveringsmidler og ingen kunstige tilsetningsstoffer."
+			}
+		},
+		"sea-buckthorn": {
+			"title": "Tindvedpaste",
+			"type": "Liqberry",
+			"text": {
+				"1": "Vår tindvedpaste er laget av 100 % hele tindvedbær og bevarer den naturlige balansen av fruktkjøtt, skall og frø. Tindved er verdsatt for sin naturlig rike sammensetning av vitaminer, mikro- og makronæringsstoffer, noe som gjør den til en populær ingrediens i bevisst og balansert ernæring.",
+				"2": "Et særtrekk ved tindved er dens naturlige innhold av tindvedolje, som inneholder fettløselige planteforbindelser tradisjonelt verdsatt som en del av et variert kosthold.",
+				"3": "Perfekt for å berike daglig ernæring — nyt den alene, i smoothies, frokostboller eller moderne funksjonelle oppskrifter."
+			},
+			"list": {
+				"title": "Tindvedpasten:",
+				"1": "fanger hele bærprofilen, inkludert frøene,",
+				"2": "inneholder naturlig betakaroten, vitamin E og vitamin C,",
+				"3": "inneholder ikke tilsatt sukker, ingen konserveringsmidler, ikke tilsatt vann og ingen kunstige tilsetningsstoffer."
+			}
+		},
+		"cherry-paste": {
+			"type": "Liqberry",
+			"title": "Kirsebærpaste",
+			"text": {
+				"1": "Kirsebærpaste er et 100 % homogenisert fruktprodukt laget av hele kirsebær med fint bearbeidede fruktkomponenter. Den bevarer fruktens naturlige næringsprofil og fungerer som et funksjonelt tillegg til et balansert kosthold."
+			},
+			"list": {
+				"1": {
+					"title": "Kirsebær er naturlig en kilde til:",
+					"1": "polyfenoler og antocyaniner,",
+					"2": "organiske syrer,",
+					"3": "vitaminer (særlig vitamin C og B-vitaminer),",
+					"4": "kalium og andre mineraler,",
+					"5": "kostfiber og pektiner."
+				},
+				"2": {
+					"title": "Som en del av en bevisst ernæringstradisjon er kirsebærpaste tradisjonelt verdsatt for:",
+					"1": "å støtte normal muskel- og leddfunksjon,",
+					"2": "å følge restitusjon etter fysisk aktivitet,",
+					"3": "å støtte normale metabolske prosesser,",
+					"4": "å bidra til kroppens antioksidantbalanse."
+				},
+				"3": {
+					"title": "På grunn av sitt innhold av naturlige planteforbindelser forbindes kirsebærpaste også ofte med:",
+					"1": "støtte for kardiovaskulær funksjon,",
+					"2": "bidrag til normal sirkulasjon,",
+					"3": "og støtte for en sunn søvn–våken-rytme."
+				},
+				"4": {
+					"title": "Kirsebærpaste:",
+					"1": "inneholder ikke tilsatt sukker,",
+					"2": "er fri for konserveringsmidler, tilsatt vann og kunstige tilsetningsstoffer,",
+					"3": "og passer perfekt inn i et naturlig, plantebasert og ytelsesorientert ernæringskonsept."
+				}
+			}
+		},
+		"aronia-paste": {
+			"type": "Liqberry",
+			"title": "Aroniapaste",
+			"text": {
+				"1": "Vår aroniapaste er laget av 100 % hele aroniabær og bevarer hele bærprofilen, inkludert fruktkjøtt, skall og frø. Aronia er verdsatt for sitt naturlig høye innhold av plantepolyfenoler, som er høyt verdsatt som en del av et balansert kosthold.",
+				"2": "Tradisjonelt inngår aronia i ernæringskonsepter med fokus på kardiovaskulær balanse og metabolsk støtte, innenfor rammen av en variert og bevisst livsstil.",
+				"3": "Perfekt for deg som verdsetter intens bærkarakter og plantemangfold i hverdagskosten – nyt den ren eller som del av moderne oppskrifter."
+			},
+			"list": {
+				"title": "Aroniapasten:",
+				"1": "inneholder naturlig plantebaserte bioaktive forbindelser,",
+				"2": "utfyller et balansert og bevisst kosthold,",
+				"3": "inneholder ikke tilsatt sukker, ingen konserveringsmidler, ikke tilsatt vann og ingen kunstige tilsetningsstoffer."
+			}
+		}
+	}
+}

@@ -1,0 +1,79 @@
+{
+	"_metaTitle": "Om oss - Totem Superfood",
+	"_metaDescription": "Lær om Totem Superfoods historie, innovasjon og misjon for å gjøre sunn ernæring tilgjengelig og enkel over hele verden.",
+	"about-us": {
+		"introduction": {
+			"title": "Introduksjon – Hvem vi er",
+			"subtitle": "Fra et personlig oppdrag til en global visjon",
+			"text": "Selv om selskapet offisielt ble grunnlagt i 2025, begynte historien bak produktene våre allerede i 2012 – med én persons dedikasjon til helse, ernæring og et energibalansért liv. Gjennom årene ble funksjonelle smoothier utviklet, beriket med supermat som spirulina, gurkemeie, maca, açaí og chia – og skapte kraftfulle blandinger fulle av vitaminer og ren energi. I 2017 utviklet dette seg til en populær grønn smoothiebar som fikk medieomtale og bygde et sterkt fellesskap av helsebevisste kunder."
+		},
+		"innovation": {
+			"title": "Innovasjonen",
+			"subtitle": "12 års erfaring, ett revolusjonerende produkt",
+			"text": "I 2024 bestemte vi oss for å bringe disse unike produktene ut til et globalt publikum. Etter en Design Sprint tok vi i bruk frysetørking (lyofilisering) – en metode som bevarer næringsverdien i ingrediensene gjennom rask nedfrysing og fjerning av fuktighet. Resultatet? Et holdbart pulver som blir til en fersk smoothie bare ved å tilsette vann – like næringsrik og smakfull som nylaget."
+		},
+		"target": {
+			"title": "Målgruppe",
+			"subtitle": "Vi henvender oss til den moderne, bevisste forbrukeren",
+			"list": {
+				"1": "Travle yrkesaktive og studenter som trenger rask, men sunn ernæring",
+				"2": "Reisende og friluftsentusiaster med begrenset tilgang til ferske måltider",
+				"3": "Helsebevisste personer som verdsetter ekspertanbefalte programmer (f.eks. detox, velværebalanse eller daglig ernæring)"
+			}
+		},
+		"values": {
+			"title": "Verdiene vi står for",
+			"list": {
+				"1": "Helse først: Naturlige, rene, sukkerfrie ingredienser uten tilsetningsstoffer",
+				"2": "Energi og produktivitet: Gir drivkraft til aktive livsstiler med næringsrike blandinger",
+				"3": "Mobilitet og bekvemmelighet: Én pakke = ett måltid. Lett å ta med. Klar på sekunder",
+				"4": "Økologisk ansvar: Bærekraftig produksjon, minimalt med avfall"
+			}
+		},
+		"problems": {
+			"title": "Problemene vi løser",
+			"list": {
+				"1": "Mangel på tid til næringsrike måltider på jobb, reise eller travle dager",
+				"2": "Vanskeligheter med å opprettholde jevn energi og konsentrasjon",
+				"3": "Få praktiske og sunne snack-alternativer",
+				"4": "Tradisjonelle alternativer er enten usunne eller tidkrevende"
+			}
+		},
+		"persona": {
+			"title": "Vår forbrukerprofil",
+			"list": {
+				"1": "Bevisst og selektiv: Bryr seg om ernæring, leser etiketter, unngår sukker og kjemikalier",
+				"2": "Aktiv og stilsikker: Driver med sport, trening og egenomsorg",
+				"3": "Verdibasert: Søker bærekraftige, transparente og fremtidsrettede merker"
+			}
+		},
+		"advantage": {
+			"title": "Hvorfor det fungerer – Fordelene med frysetørking",
+			"list": {
+				"1": "Bevarer 95–98 % av vitaminer og næringsstoffer",
+				"2": "Lett og holdbart – trenger ingen kjøling",
+				"3": "Smaker som ferskt – bare tilsett vann",
+				"4": "Perfekt for ernæring på farten"
+			}
+		},
+		"market": {
+			"title": "Markedsmulighet",
+			"text": "Ifølge statistikk forsøker over 60 % av EUs befolkning aktivt å spise sunt. Etterspørselen etter funksjonelle, bruksklare superfood-produkter øker raskt, spesielt blant urbane og mobile forbrukere."
+		},
+		"marketing": {
+			"title": "Markedsføringsstrategi",
+			"subtitle": "Vi bygger etterspørsel gjennom pull-markedsføring",
+			"list": {
+				"1": "Sosiale medier og historiefortelling",
+				"2": "Samarbeid med helsecoacher og treningseksperter",
+				"3": "Tilbakemeldingssløyfer fra forbrukere for rask tilpasning",
+				"4": "Sterkt fellesskap og lojalitetsprogrammer"
+			}
+		},
+		"partner": {
+			"title": "La oss samarbeide",
+			"text": "Vi tilbyr en skalerbar løsning med en svært motivert kundebase og en produktlinje støttet av mange års forskning og utvikling. Bli med oss i å levere moderne ernæring for en moderne verden. La oss gjøre et sunt liv enkelt – sammen.",
+			"button": "Kontakt oss"
+		}
+	}
+}

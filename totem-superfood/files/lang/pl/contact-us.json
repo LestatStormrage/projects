@@ -1,0 +1,43 @@
+{
+	"_metaTitle": "Skontaktuj się z nami",
+	"_metaDescription": "Skontaktuj się z Totem Superfood. Wypełnij formularz kontaktowy, aby zostać dystrybutorem lub zadać pytanie dotyczące naszych produktów.",
+	"contact-us": {
+		"title": "Skontaktuj się z nami, aby zostać naszym dystrybutorem!",
+		"form": {
+			"title": "Użyj tego formularza, aby wysłać nam wiadomość e-mail",
+			"interest": {
+				"title": "Jestem zainteresowany/a:",
+				"smoothies": "Smoothie",
+				"kombucha": "Kombucha",
+				"fruit-infusion-drinks": "Owocowe napoje infuzyjne"
+			},
+			"salutation": {
+				"label": "Jak powinniśmy się do Ciebie zwracać? *",
+				"mr": "Pan",
+				"mrs": "Pani"
+			},
+			"firstName": {
+				"label": "Imię *:",
+				"placeholder": "Imię"
+			},
+			"lastName": {
+				"label": "Nazwisko *:",
+				"placeholder": "Nazwisko"
+			},
+			"email": {
+				"label": "E-mail *:",
+				"placeholder": "E-mail"
+			},
+			"addInfo": {
+				"label": "Dodatkowe informacje:",
+				"placeholder": "Dodatkowe informacje"
+			},
+			"agreement": {
+				"text": "Wyrażam zgodę na gromadzenie, przetwarzanie lub wykorzystywanie moich danych osobowych zgodnie z",
+				"link": "polityką prywatności"
+			},
+			"required": "* Wymagane",
+			"button": "Wyślij"
+		}
+	}
+}

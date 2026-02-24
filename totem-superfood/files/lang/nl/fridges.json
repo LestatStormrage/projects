@@ -1,0 +1,31 @@
+{
+	"_metaTitle": "Koelkasten",
+	"_metaDescription": "Ontdek ons assortiment professionele koelkasten en geautomatiseerde retailmodules die productmarketing efficiënter en winstgevender maken.",
+	"fridges-page": {
+		"introduction": {
+			"title": "Koelkasten",
+			"description": "Naast onze premium producten bieden wij onze partners aanvullende apparatuur aan die het vermarkten van onze producten eenvoudiger, efficiënter en winstgevender maakt."
+		},
+		"types": {
+			"title": "Soorten koelkasten:",
+			"list": {
+				"1": "Standaard koelkasten",
+				"2": "Geautomatiseerde retailmodules (micromarkten) met geïntegreerd Nayax-betaalsysteem en Dynamic Scale-gewichtssensortechnologie",
+				"3": "Micromarkten met Dynamic Scale-gewichtssensortechnologie (alleen voorraadbeheer)"
+			}
+		},
+		"payment": {
+			"title": "Betaalopties",
+			"items": {
+				"1": {
+					"name": "POS",
+					"text": "Klanten openen de micromarkt met een creditcard of telefoon en worden automatisch afgerekend."
+				},
+				"2": {
+					"name": "Privé-app",
+					"text": "Wij maken een aangepaste app voor u met uw logo en merkkleuren."
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,79 @@
+{
+	"_metaTitle": "O nas - Totem Superfood",
+	"_metaDescription": "Poznaj historię, innowacje i misję Totem Superfood – tworzymy zdrowe odżywianie dostosowane do tempa współczesnego życia.",
+	"about-us": {
+		"introduction": {
+			"title": "Wprowadzenie – Kim jesteśmy",
+			"subtitle": "Od osobistej misji do globalnej wizji",
+			"text": "Choć oficjalnie założona w 2025 roku, historia naszego produktu sięga 2012 roku, kiedy to jedna osoba poświęciła się zdrowiu, odżywianiu i zrównoważonemu stylowi życia. Na przestrzeni lat powstały funkcjonalne przepisy na smoothie, wzbogacone superżywnością taką jak spirulina, kurkuma, maca, açaí i chia — tworząc potężne mieszanki pełne witamin i czystej energii. W 2017 roku pomysł przekształcił się w popularny bar smoothie, który zdobył lokalne uznanie i zbudował społeczność osób dbających o zdrowie."
+		},
+		"innovation": {
+			"title": "Innowacja",
+			"subtitle": "12 lat doświadczenia – jeden rewolucyjny produkt",
+			"text": "W 2024 roku postanowiliśmy udostępnić nasze unikalne produkty globalnej publiczności. Po przeprowadzeniu Design Sprintu zdecydowaliśmy się na zastosowanie liofilizacji – metody, która zachowuje wartości odżywcze składników poprzez szybkie zamrażanie i usuwanie wilgoci. Efekt? Stabilna mieszanka w proszku, która po dodaniu wody zamienia się w świeże smoothie – równie pożywne i pyszne, jak świeżo przygotowane."
+		},
+		"target": {
+			"title": "Grupa docelowa",
+			"subtitle": "Dla nowoczesnego, świadomego konsumenta",
+			"list": {
+				"1": "Zabiegani profesjonaliści i studenci potrzebujący szybkiego, ale zdrowego odżywiania",
+				"2": "Podróżnicy i miłośnicy aktywności na świeżym powietrzu z ograniczonym dostępem do świeżych posiłków",
+				"3": "Osoby skupione na zdrowiu, ceniące programy rekomendowane przez ekspertów (np. detoks, równowaga, codzienne odżywianie)"
+			}
+		},
+		"values": {
+			"title": "Nasze wartości",
+			"list": {
+				"1": "Zdrowie na pierwszym miejscu: Naturalne, czyste składniki bez cukru i dodatków",
+				"2": "Energia i produktywność: Zasilanie aktywnego stylu życia dzięki wysoko odżywczym mieszankom",
+				"3": "Mobilność i wygoda: Jedno opakowanie = jeden posiłek. Łatwe do przenoszenia. Gotowe w kilka sekund",
+				"4": "Odpowiedzialność ekologiczna: Zrównoważona produkcja, minimalna ilość odpadów"
+			}
+		},
+		"problems": {
+			"title": "Problemy, które rozwiązujemy",
+			"list": {
+				"1": "Brak czasu na pożywne posiłki w pracy, podróży lub w ciągu dnia",
+				"2": "Trudność w utrzymaniu stałej energii i koncentracji",
+				"3": "Ograniczone opcje wygodnych i zdrowych przekąsek",
+				"4": "Tradycyjne opcje są niezdrowe lub czasochłonne"
+			}
+		},
+		"persona": {
+			"title": "Nasz typowy klient",
+			"list": {
+				"1": "Świadomy i wymagający: Dba o odżywianie, czyta etykiety, unika cukru i chemii",
+				"2": "Aktywny i stylowy: Uprawia sport, fitness i dba o siebie",
+				"3": "Zgodny z wartościami: Wybiera marki zrównoważone, przejrzyste i nowoczesne"
+			}
+		},
+		"advantage": {
+			"title": "Dlaczego to działa – przewaga liofilizacji",
+			"list": {
+				"1": "Zachowuje 95–98% witamin i składników odżywczych",
+				"2": "Lekki i trwały produkt – nie wymaga chłodzenia",
+				"3": "Smakuje jak świeży – wystarczy dodać wodę",
+				"4": "Idealny do odżywiania w podróży"
+			}
+		},
+		"market": {
+			"title": "Potencjał rynkowy",
+			"text": "Według statystyk ponad 60% populacji UE aktywnie stara się odżywiać zdrowo. Popyt na funkcjonalne, gotowe do użycia produkty superfood szybko rośnie, szczególnie wśród miejskich i mobilnych konsumentów."
+		},
+		"marketing": {
+			"title": "Strategia marketingowa",
+			"subtitle": "Budujemy popyt poprzez marketing przyciągający (pull marketing)",
+			"list": {
+				"1": "Wpływ i opowieści w mediach społecznościowych",
+				"2": "Współpraca z trenerami zdrowia i ekspertami fitness",
+				"3": "Informacja zwrotna od klientów i szybkie dostosowywanie produktów",
+				"4": "Silna społeczność marki i programy lojalnościowe"
+			}
+		},
+		"partner": {
+			"title": "Zostań naszym partnerem",
+			"text": "Oferujemy gotowe do skalowania rozwiązanie z silnie zmotywowaną bazą klientów oraz linią produktów popartą latami badań i rozwoju. Dołącz do nas w dostarczaniu nowoczesnego odżywiania dla nowoczesnego świata. Sprawmy, by zdrowe życie było proste — razem.",
+			"button": "Skontaktuj się z nami"
+		}
+	}
+}

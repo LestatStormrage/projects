@@ -1,0 +1,226 @@
+{
+    "_metaTitle": "Fruktinfusjonsdrikker",
+    "_metaDescription": "Oppdag våre deilige fruktinfusjonsdrikker og støtt en aktiv livsstil.",
+    "yogoda": {
+        "main-title": "Fruktinfusjonsdrikker",
+        "description-1": "Skapt for mennesker som verdsetter naturlige ingredienser, funksjonelle fordeler og maksimal bekvemmelighet i hverdagen. Våre fruktinfusjoner er laget av 100 % naturlige ingredienser: nøye utvalgte bær, frukt, ingefær, honning og krydder. Vi endrer ikke det naturen har skapt. I stedet foredler vi det – gjør det klarere, mer funksjonelt og lettere å integrere i en moderne, dynamisk livsstil. Gjennom skånsom bearbeiding bevarer vi intense smaker, høy næringstetthet og naturlige egenskaper, samtidig som vi sikrer enkel tilberedning. Resultatet er en naturlig, te-lignende drikk som tilpasser seg perfekt til ulike situasjoner, årstider og behov.",
+        "description-2": "Disse fruktinfusjonsdrikkene er bevisst utviklet for å være ekstra praktiske og allsidige:",
+        "bullet-point": {
+            "1": "På kontoret eller hjemme",
+            "2": "På lange reiser og korte turer",
+            "3": "På fly, tog, buss eller i bil",
+            "4": "På festivaler, i bobil eller på camping",
+            "5": "På tur med kano eller kajakk",
+            "6": "På hotell – om morgenen eller kvelden",
+            "7": "Under lange møter, presentasjoner, konferanser eller kurs"
+        },
+        "seasons": {
+            "summer": {
+                "title": "Om sommeren",
+                "text": "Tilsett kaldt vann og nyt en forfriskende, vitaliserende drikk som gir energi og naturlig friskhet."
+            },
+            "winter": {
+                "title": "Om vinteren",
+                "text": "Tilsett varmt vann og nyt en varmende drikk som støtter immunforsvaret og gir ny energi til både kropp og sinn."
+            }
+        },
+        "classic": {
+            "title": "Klassisk"
+        },
+        "immunity": {
+            "title": "Immunitet"
+        },
+        "sugar-free": {
+            "title": "Sukkerfri"
+        },
+        "coctails": {
+            "title": "Cocktails"
+        },
+        "cherry-tea-with-chocolate": {
+            "type": "YOGODA",
+            "name": "Kirsebærte med sjokolade",
+            "description-text-01": "Den første slurken avslører en dyp, fløyelsmyk kakaosmak fra revet sjokolade. Deretter følger en klar kirsebærsyrle som skaper en livlig kontrast. Avslutningsvis kommer en subtil varme fra cayennepepper som fremhever smakene uten å overdøve dem.",
+            "description-text-02": "Ingredienser: kirsebær (hurtigfryste bær), revet kakao (naturlig sjokolade), konsentrert granateplejuice, sukker, glukose-fruktosesirup, cayennepepper."
+        },
+        "tea-with-blueberries-and-lavender": {
+            "type": "YOGODA",
+            "name": "Te med blåbær og lavendel",
+            "description-text-01": "En myk og søt blåbærbase – som nyplukkede skogsbær – gir en lett honningaktig tone. Lavendel tilfører blomsteraktig letthet og en beroligende aroma. Avslutningsvis gir granateplets diskrete syrlighet dybde og eleganse.",
+            "description-text-02": "Ingredienser: blåbær, konsentrert granateplejuice, tørkede lavendelblomster, sukker, glukose-fruktosesirup."
+        },
+        "sea-buckthorn-tea-with-apricot": {
+            "type": "YOGODA",
+            "name": "Havtornte med aprikos",
+            "description-text-01": "Den solrike syrligheten fra havtorn treffer først – frisk, men ikke skarp. Deretter omsluttes den av den fløyelsmyke sødmen fra aprikos, som hjemmelaget syltetøy. Sammen skaper de en naturlig og harmonisk balanse.",
+            "description-text-02": "Ingredienser: havtorn (puré/bær), aprikos (puré), sukker."
+        },
+        "ginger-tea": {
+            "type": "YOGODA",
+            "name": "Ingefærte",
+            "description-text-01": "Skapt av naturen selv! Ingen kunstige tilsetninger – kun ekte honning, frisk lime og kraftig ingefær. Resultatet er en rik smaksbalanse mellom sødme, syrlighet og naturlig bitterhet.",
+            "description-text-02": "Ingredienser: fersk ingefærrot, fersk lime, naturlig honning, sukker."
+        },
+        "cranberry-tea": {
+            "type": "YOGODA",
+            "name": "Tranebærte",
+            "description-text-01": "Te basert på smaken og aromaen av tranebær, som bevarer maksimal næringsverdi. Myntens friskhet og limens syrlighet balanseres av ingefær og honning.",
+            "description-text-02": "Ingredienser: ferske hurtigfryste tranebær, naturlig honning, fersk lime, fersk ingefærrot, tørket anis, tørket mynte, sukker."
+        },
+        "sea-buckthorn-tea": {
+            "type": "YOGODA",
+            "name": "Havtornte",
+            "description-text-01": "En solgyllen drikk – som varme i hver kopp. Havtorn, honning, ingefær, lime og aromatiske krydder skaper en ekte vitaminbombe.",
+            "description-text-02": "Ingredienser: fersk hurtigfryst havtorn, fersk ingefærrot, fersk lime, malt kanel, malt stjerneanis, naturlig honning, sukker."
+        },
+        "raspberry-tea": {
+            "type": "YOGODA",
+            "name": "Bringebærte",
+            "description-text-01": "En smak av sommer året rundt. Søte bringebær, naturlig honning og et hint av ingefær og kanel skaper en nostalgisk og varmende opplevelse.",
+            "description-text-02": "Ingredienser: ferske hurtigfryste bringebær, ferske hurtigfryste solbær, naturlig honning, fersk ingefærrot, malt kanel, sukker."
+        },
+        "currant-tea": {
+            "type": "YOGODA",
+            "name": "Solbærte",
+            "description-text-01": "Minimalt varmebehandlet for maksimal næring. Solbærens dype smak kombineres med lilla basilikum og honning for en rik og harmonisk drikk.",
+            "description-text-02": "Ingredienser: ferske hurtigfryste solbær, naturlig honning, lilla basilikum, sukker."
+        },
+        "matcha-tea-coconut-latte": {
+            "type": "YOGODA",
+            "name": "Matcha te kokoslatte",
+            "description-text-01": "En balansert kombinasjon av japansk matcha og kremet kokos. Forfriskende, beroligende og naturlig energigivende.",
+            "description-text-02": "Ingredienser: drikkevann, sukker, kokosmasse, matcha grønn te, naturlig rosmarinekstrakt (antioksidant)."
+        },
+        "ginger-with-goji-tea": {
+            "type": "YOGODA",
+            "name": "Ingefærte med gojibær",
+            "description-text-01": "En moderne superdrikk med gojibær, acerola og echinacea. Støtter immunforsvaret og gir naturlig energi.",
+            "description-text-02": "Ingredienser: fersk ingefærrot, fersk lime, tørkede gojibær, naturlig honning, echinaceaekstrakt, acerolaekstrakt (vitamin C), sukker."
+        },
+        "ginger-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Ingefærte med gurkemeie",
+            "description-text-01": "En klassiker innen sunn livsstil. Gurkemeie gir gyllen farge og kraftige helsefordeler, balansert med ingefær, honning og sitrus.",
+            "description-text-02": "Ingredienser: fersk ingefærrot, fersk lime, gurkemeie, naturlig honning, sukker."
+        },
+        "raspberry-with-acerola-tea": {
+            "type": "YOGODA",
+            "name": "Bringebærte med acerola",
+            "description-text-01": "Fruktig aroma, mild syrlighet og en lett bittersøt ettersmak. Styrker immunforsvaret og gir en følelse av energi.",
+            "description-text-02": "Ingredienser: ferske hurtigfryste bringebær, naturlig honning, solbær, fersk ingefærrot, echinaceaekstrakt, acerolaekstrakt, sukker."
+        },
+        "raspberry-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Bringebærte med gurkemeie",
+            "description-text-01": "Livlig bringebærsmak støttet av krydret gurkemeie, honning, ingefær og kanel.",
+            "description-text-02": "Ingredienser: ferske hurtigfryste bringebær, solbær, naturlig honning, fersk ingefærrot, gurkemeie, malt kanel, sukker."
+        },
+        "pear-lime-thyme-tea": {
+            "type": "YOGODA",
+            "name": "Pære-, lime- og timiante",
+            "description-text-01": "En delikat søtsyrlig smak med urteaktig aroma. Virker beroligende og støtter kroppens naturlige balanse.",
+            "description-text-02": "Ingredienser: pære, fersk ingefærrot, lime, appelsin, tørkede gojibær, tørket timian, naturlig steviaekstrakt."
+        },
+        "aronia-melanocarpa-cornelian-cherry-chilli-tea": {
+            "type": "YOGODA",
+            "name": "Aronia, kornellkirsebær og chili-te",
+            "description-text-01": "Søtsyrlig, krydret og lett snerpende. Gir energi, støtter fordøyelsen og styrker immunforsvaret.",
+            "description-text-02": "Ingredienser: kornellkirsebærpuré, aronia, naturlig steviaekstrakt, cayennepepper."
+        },
+        "passion-fruit-mango-nutmeg-tea": {
+            "type": "YOGODA",
+            "name": "Pasjonsfrukt-, mango- og muskatte",
+            "description-text-01": "Fruktig og lett syrlig smak med varme kryddertoner. Virker stimulerende og oppkvikkende.",
+            "description-text-02": "Ingredienser: mangopuré, gresskar, pasjonsfruktmasse, appelsin, muskat, naturlig steviaekstrakt."
+        },
+        "currant-tea-2": {
+            "type": "YOGODA",
+            "name": "Solbærte",
+            "description-text-01": "En dyp lilla drikk for enhver stemning. Klassisk solbærsmak med krydret basilikum.",
+            "description-text-02": "Ingredienser: pitah-vann, solbær, tørket lilla basilikum, sitronsyre, sukralose."
+        },
+        "sea-buckthorn-tea-2": {
+            "type": "YOGODA",
+            "name": "Havtornte",
+            "description-text-01": "100 % naturlig flytende te med rik og lett krydret smak. Perfekt både varm og kald.",
+            "description-text-02": "Ingredienser: havtorn, eple, polydextrose (kostfiber), ingefærrot, lime, sitronsyre, malt kanel, malt stjerneanis, sukralose."
+        },
+        "ginger-tea-2": {
+            "type": "YOGODA",
+            "name": "Ingefærte",
+            "description-text-01": "Søt og krydret ingefær med frisk lime. Gir et naturlig energiløft.",
+            "description-text-02": "Ingredienser: drikkevann, ingefærrot, eple, polydextrose (kostfiber), lime, sitronsyre, sukralose."
+        },
+        "raspberry-tea-2": {
+            "type": "YOGODA",
+            "name": "Bringebærte",
+            "description-text-01": "Praktisk pose-te med rik smak og aroma. Nyt varm eller kald.",
+            "description-text-02": "Ingredienser: bringebær, solbær, ingefærrot, sitronsyre, kanel, sukralose."
+        },
+        "bramble": {
+            "type": "YOGODA",
+            "name": "Bramble",
+            "description-text-01": "En moderne klassiker basert på bjørnebær, bringebær og sitrus med krydder.",
+            "description-text-02": "Ingredienser: bringebærjuice, bjørnebær, sukker, sitronsaft, einerbær, koriander, kanel."
+        },
+        "mojito": {
+            "type": "YOGODA",
+            "name": "Mojito",
+            "description-text-01": "Frisk og aromatisk cocktail basert på lime, mynte og sukker.",
+            "description-text-02": "Ingredienser: sukker, lime, mynte."
+        },
+        "peach-bellini": {
+            "type": "YOGODA",
+            "name": "Peach Bellini",
+            "description-text-01": "Delikat fruktcocktail med fersken, bringebær og timian.",
+            "description-text-02": "Ingredienser: fersken, ferskenjuice, sukker, bringebærjuice, timian."
+        },
+        "sea-breeze": {
+            "type": "YOGODA",
+            "name": "Sea Breeze",
+            "description-text-01": "Forfriskende cocktail med tranebær, grapefrukt og sitron.",
+            "description-text-02": "Ingredienser: tranebær, honning, grapefruktjuice, sukker, sitronsaft."
+        },
+        "ginger-lemonade": {
+            "type": "YOGODA",
+            "name": "Ingefærlimonade",
+            "description-text-01": "Kraftig ingefær møter frisk lime i en balansert og oppkvikkende drikk.",
+            "description-text-02": "Ingredienser: fersk ingefærrot, fersk lime, sukker, glukose-fruktosesirup."
+        },
+        "sea-buckthorn-lemonade": {
+            "type": "YOGODA",
+            "name": "Havtornlimonade",
+            "description-text-01": "Søtsyrlig og aromatisk limonade med havtorn, eple og pasjonsfrukt.",
+            "description-text-02": "Ingredienser: havtorn (hurtigfryste bær), eple, pasjonsfruktmasse, sukker."
+        },
+        "mango-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Mango og pasjonsfrukt",
+            "description-text-01": "Saftig mango og frisk pasjonsfrukt balansert med lime.",
+            "description-text-02": "Ingredienser: mangopuré, pasjonsfruktmasse, limejuice, sukker, glukose-fruktosesirup."
+        },
+        "strawberry-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Jordbær og pasjonsfrukt",
+            "description-text-01": "Myke jordbær møter frisk pasjonsfrukt i en livlig kombinasjon.",
+            "description-text-02": "Ingredienser: jordbær (frosne bær og konsentrat), pasjonsfruktmasse, sukker, glukose-fruktosesirup."
+        },
+        "spicy-strawberry": {
+            "type": "YOGODA",
+            "name": "Krydret jordbær",
+            "description-text-01": "Søt jordbærsmak med acai og mild varme fra cayennepepper.",
+            "description-text-02": "Ingredienser: jordbær (hurtigfryste bær og konsentrat), sitronsaft, acaipulver, sukker, cayennepepper."
+        },
+        "spicy-pineapple": {
+            "type": "YOGODA",
+            "name": "Krydret ananas",
+            "description-text-01": "Søt ananas med pasjonsfrukt og en varmende krydret avslutning.",
+            "description-text-02": "Ingredienser: ananas (hermetisert og konsentrert juice), pasjonsfruktmasse, sitronsaft, sukker, cayennepepper."
+        },
+        "red-mulled-wine": {
+            "type": "YOGODA",
+            "name": "Rød gløgg",
+            "description-text-01": "Alkoholfri gløgg med rik krydret smak og varmende aroma.",
+            "description-text-02": "Ingredienser: naturlig honning, kirsebær, konsentrert rød druejuice, appelsin, eple, kardemomme, malt kanel, muskat, nellik, stjerneanis, cayennepepper."
+        }
+    }
+}

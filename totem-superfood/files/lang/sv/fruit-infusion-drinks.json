@@ -1,0 +1,226 @@
+{
+    "_metaTitle": "Fruktinfusionsdrycker",
+    "_metaDescription": "Upptäck våra utsökta fruktinfusionsdrycker och stöd en aktiv livsstil.",
+    "yogoda": {
+        "main-title": "Fruktinfusionsdrycker",
+        "description-1": "Skapad för människor som värdesätter naturliga ingredienser, funktionella fördelar och maximal bekvämlighet i vardagen. Våra fruktinfusioner tillverkas av 100 % naturliga ingredienser: noggrant utvalda bär, frukter, ingefära, honung och kryddor. Vi förändrar inte det som naturen har skapat. Istället förädlar vi det – gör det tydligare, mer funktionellt och lättare att integrera i en modern, dynamisk livsstil. Genom skonsam bearbetning bevarar vi intensiva smaker, hög näringstäthet och naturliga egenskaper, samtidigt som vi säkerställer enkel tillagning. Resultatet är en naturlig, te-liknande dryck som anpassar sig perfekt till olika situationer, årstider och behov.",
+        "description-2": "Dessa fruktinfusionsdrycker är medvetet skapade för att vara exceptionellt bekväma och mångsidiga:",
+        "bullet-point": {
+            "1": "På kontoret eller hemma",
+            "2": "Under långa resor och korta utflykter",
+            "3": "I flygplan, tåg, bussar eller bilar",
+            "4": "På festivaler, i husbilar eller vid camping",
+            "5": "Vid resor med kanot eller kajak",
+            "6": "På hotell – på morgonen eller kvällen",
+            "7": "Under långa möten, presentationer, konferenser eller utbildningar"
+        },
+        "seasons": {
+            "summer": {
+                "title": "På sommaren",
+                "text": "Tillsätt kallt vatten och njut av en uppfriskande, vitaliserande dryck som ger energi och naturlig fräschör."
+            },
+            "winter": {
+                "title": "På vintern",
+                "text": "Tillsätt varmt vatten och njut av en värmande dryck som stödjer immunförsvaret och vitaliserar både kropp och sinne."
+            }
+        },
+        "classic": {
+            "title": "Klassisk"
+        },
+        "immunity": {
+            "title": "Immunitet"
+        },
+        "sugar-free": {
+            "title": "Sockerfri"
+        },
+        "coctails": {
+            "title": "Cocktails"
+        },
+        "cherry-tea-with-chocolate": {
+            "type": "YOGODA",
+            "name": "Körsbärste med choklad",
+            "description-text-01": "Den första klunken avslöjar en djup, sammetslen kakaosmak skapad av riven choklad. Därefter kommer en livlig syrlighet från körsbär som skapar en spännande kontrast. Avslutningsvis tillför cayennepeppar en subtil värme som lyfter varje nyans utan att störa dryckens elegans.",
+            "description-text-02": "Ingredienser: körsbär (snabbfrysta bär), riven kakao (naturlig choklad), koncentrerad granatäppeljuice, socker, glukos-fruktossirap, cayennepeppar."
+        },
+        "tea-with-blueberries-and-lavender": {
+            "type": "YOGODA",
+            "name": "Te med blåbär och lavendel",
+            "description-text-01": "En mjuk och söt bas av blåbär – som nyplockade skogsbär – ger en lätt honungston. Lavendel tillför en blommig lätthet och lugnande doft, vilket skapar en känsla av djup avslappning. En subtil syrlighet från granatäpple rundar av smaken med elegans.",
+            "description-text-02": "Ingredienser: blåbär, koncentrerad granatäppeljuice, torkade lavendelblommor, socker, glukos-fruktossirap."
+        },
+        "sea-buckthorn-tea-with-apricot": {
+            "type": "YOGODA",
+            "name": "Havtornste med aprikos",
+            "description-text-01": "Havtornets soliga syrlighet möter gommen först – frisk och livlig men aldrig skarp. Strax därefter omfamnas den av den mjuka, sammetslena sötman från aprikos, som en sked hemlagad marmelad. Tillsammans skapar de en perfekt balans mellan syra och sötma.",
+            "description-text-02": "Ingredienser: havtorn (puré/bär), aprikos (puré), socker."
+        },
+        "ginger-tea": {
+            "type": "YOGODA",
+            "name": "Ingefärste",
+            "description-text-01": "Moder Natur skapade denna dryck åt dig! Inga konstgjorda tillsatser – bara nyttiga ingredienser: äkta honung, saftig lime och kraftfull ingefära. En ljus och rik smakpalett där ingefäran spelar huvudrollen, balanserad av honungens sötma och limens syrlighet.",
+            "description-text-02": "Ingredienser: färsk ingefärsrot, färsk lime, naturlig honung, socker."
+        },
+        "cranberry-tea": {
+            "type": "YOGODA",
+            "name": "Tranbärste",
+            "description-text-01": "Född ur tranbärets smak och arom bevarar detta te maximalt med näringsämnen. Harmonin mellan mynta och lime kompletteras av ingefärans kryddighet och honungens mjukhet. Ett te som både släcker törsten och ger äkta njutning.",
+            "description-text-02": "Ingredienser: färska snabbfrysta tranbär, naturlig honung, färsk lime, färsk ingefärsrot, torkad anis, torkad mynta, socker."
+        },
+        "sea-buckthorn-tea": {
+            "type": "YOGODA",
+            "name": "Havtornste",
+            "description-text-01": "En dryck i lyckans färg – som solens värme i varje kopp. Havtorn, honung, ingefära, lime och aromatiska kryddor förenas till en sann vitaminbomb med en harmonisk, fyllig smak.",
+            "description-text-02": "Ingredienser: färska snabbfrysta havtornsbär, färsk ingefärsrot, färsk lime, malen kanel, malen stjärnanis, naturlig honung, socker."
+        },
+        "raspberry-tea": {
+            "type": "YOGODA",
+            "name": "Hallonte",
+            "description-text-01": "Snabbt, bekvämt och framför allt – utsökt! Yogoda hallonte är en klunk sommar året runt. Hallonens berusande arom kombineras med honungens naturliga sötma, en lätt bitterhet från ingefära och en varm ton av kanel.",
+            "description-text-02": "Ingredienser: färska snabbfrysta hallon, färska snabbfrysta svarta vinbär, naturlig honung, färsk ingefärsrot, malen kanel, socker."
+        },
+        "currant-tea": {
+            "type": "YOGODA",
+            "name": "Vinbärste",
+            "description-text-01": "Minimal värmebehandling, maximal näring. Vinbärens rika smak förstärks av aromatisk lila basilika och naturlig honung. En djupt mörklila dryck – för alla dagar och sinnesstämningar.",
+            "description-text-02": "Ingredienser: färska snabbfrysta vinbär, naturlig honung, lila basilika, socker."
+        },
+        "matcha-tea-coconut-latte": {
+            "type": "YOGODA",
+            "name": "Matcha te kokoslatte",
+            "description-text-01": "En mästerligt balanserad kombination av japanskt matcha grönt te och krämig kokos. Uppfriskande, lugnande och energigivande – en smakresa till tropiska öar.",
+            "description-text-02": "Ingredienser: dricksvatten, socker, kokospasta, matcha grönt te, naturligt rosmarinextrakt (antioxidant)."
+        },
+        "ginger-with-goji-tea": {
+            "type": "YOGODA",
+            "name": "Ingefära med gojibär",
+            "description-text-01": "En trend inom hälsosam kost! Gojibär, acerola och echinacea kombineras med honung och ingefära för ett te som stärker immunförsvaret och ger ny energi.",
+            "description-text-02": "Ingredienser: färsk ingefärsrot, färsk lime, torkade gojibär, naturlig honung, naturligt extrakt av röd solhatt (echinacea), naturligt acerolaextrakt (vitamin C), socker."
+        },
+        "ginger-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Ingefära med gurkmeja",
+            "description-text-01": "En legend inom hälsosam kost. Gurkmeja ger drycken dess gyllene färg och kraftfulla egenskaper, perfekt balanserad med ingefära, honung och citrus.",
+            "description-text-02": "Ingredienser: färsk ingefärsrot, färsk lime, gurkmeja, naturlig honung, socker."
+        },
+        "raspberry-with-acerola-tea": {
+            "type": "YOGODA",
+            "name": "Hallon med acerola",
+            "description-text-01": "Hallonens fylliga smak, honungens sötma och acerola tillsammans med echinacea skapar ett te med antioxidant och uppiggande effekt.",
+            "description-text-02": "Ingredienser: färska snabbfrysta hallon, naturlig honung, färska svarta vinbär, färsk ingefärsrot, naturligt extrakt av echinacea purpurea, naturligt acerolaextrakt (vitamin C), socker."
+        },
+        "raspberry-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Hallon med gurkmeja",
+            "description-text-01": "Kryddig gurkmeja möter hallonens sommarsmak, honungens sötma och en lätt syrlighet från vinbär – en harmonisk och värmande dryck.",
+            "description-text-02": "Ingredienser: färska snabbfrysta hallon, färska snabbfrysta svarta vinbär, naturlig honung, färsk ingefärsrot, gurkmeja, malen kanel, socker."
+        },
+        "pear-lime-thyme-tea": {
+            "type": "YOGODA",
+            "name": "Päron, lime och timjan",
+            "description-text-01": "En delikat söt-syrlig smak med arom av vildörter. Lugnar nervsystemet och stödjer kroppens naturliga balans.",
+            "description-text-02": "Ingredienser: päron, färsk ingefärsrot, lime, apelsin, torkade gojibär, torkad timjan, naturligt steviaextrakt."
+        },
+        "aronia-melanocarpa-cornelian-cherry-chilli-tea": {
+            "type": "YOGODA",
+            "name": "Aronia, kornellkörsbär & chili",
+            "description-text-01": "En söt-syrlig och lätt kryddig dryck med värmande eftersmak. Tonar muskler och nervsystem samt stärker immunförsvaret.",
+            "description-text-02": "Ingredienser: kornellkörsbärspuré, aronia melanocarpa, naturligt steviaextrakt, cayennepeppar."
+        },
+        "passion-fruit-mango-nutmeg-tea": {
+            "type": "YOGODA",
+            "name": "Passionsfrukt, mango och muskot",
+            "description-text-01": "En livlig fruktig smak med subtila kryddiga toner av muskot. Drycken har en uppiggande och toniserande effekt.",
+            "description-text-02": "Ingredienser: mangopuré, pumpa, passionsfruktspulp, apelsin, muskot, naturligt steviaextrakt."
+        },
+        "currant-tea-2": {
+            "type": "YOGODA",
+            "name": "Vinbärste",
+            "description-text-01": "En djup dryck i mörk lavendelfärg. Klassisk vinbärssmak från barndomen med kryddig basilika som förhöjer aromen.",
+            "description-text-02": "Ingredienser: pitah-vatten, svarta vinbär, torkad lila basilika, surhetsreglerande citronsyra, sötningsmedel sukralos."
+        },
+        "sea-buckthorn-tea-2": {
+            "type": "YOGODA",
+            "name": "Havtornste",
+            "description-text-01": "Flytande havtornste av 100 % naturliga ingredienser. Rik smak, lätt kryddig och uppfriskande – perfekt både varm och kall.",
+            "description-text-02": "Ingredienser: havtorn, äpple, fyllnadsmedel polydextros (kostfiber), ingefärsrot, lime, surhetsreglerande citronsyra, malen kanel, malen stjärnanis, sötningsmedel sukralos."
+        },
+        "ginger-tea-2": {
+            "type": "YOGODA",
+            "name": "Ingefärste",
+            "description-text-01": "Kryddig söt ingefära och syrlig lime – en perfekt dryck för att piggna till eller värma kroppen.",
+            "description-text-02": "Ingredienser: dricksvatten, ingefärsrot, äpple, fyllnadsmedel polydextros (kostfiber), lime, surhetsreglerande citronsyra, sötningsmedel sukralos."
+        },
+        "raspberry-tea-2": {
+            "type": "YOGODA",
+            "name": "Hallonte",
+            "description-text-01": "Naturligt hallonte i portionsförpackning med rik smak och behaglig arom. Kan avnjutas både varm och kall.",
+            "description-text-02": "Ingredienser: hallon, svarta vinbär, ingefärsrot, surhetsreglerande citronsyra, kanel, sötningsmedel sukralos."
+        },
+        "bramble": {
+            "type": "YOGODA",
+            "name": "Bramble",
+            "description-text-01": "En cocktail baserad på björnbär, hallon, citronjuice och kryddor. En modern klassiker med balanserad sötma och syra.",
+            "description-text-02": "Ingredienser: hallonjuice, björnbär, socker, citronjuice, enbär, koriander, kanel."
+        },
+        "mojito": {
+            "type": "YOGODA",
+            "name": "Mojito",
+            "description-text-01": "Baserad på den klassiska kubanska cocktailen med lime, mynta och socker. Uppfriskande och aromatisk.",
+            "description-text-02": "Ingredienser: socker, lime, mynta."
+        },
+        "peach-bellini": {
+            "type": "YOGODA",
+            "name": "Peach Bellini",
+            "description-text-01": "En fruktcocktail med ursprung i Italien, känd för sin mjuka textur och uppfriskande smak.",
+            "description-text-02": "Ingredienser: persika, persikojuice, socker, hallonjuice, timjan."
+        },
+        "sea-breeze": {
+            "type": "YOGODA",
+            "name": "Sea Breeze",
+            "description-text-01": "En uppfriskande dryck med tranbär, grapefrukt och citron, avrundad med honung.",
+            "description-text-02": "Ingredienser: tranbär, honung, grapefruktjuice, socker, citronjuice."
+        },
+        "ginger-lemonade": {
+            "type": "YOGODA",
+            "name": "Ingefärslemonad",
+            "description-text-01": "En intensiv kombination av kryddig ingefära och frisk lime – uppiggande och balanserad.",
+            "description-text-02": "Ingredienser: färsk ingefärsrot, färsk lime, socker, glukos-fruktossirap."
+        },
+        "sea-buckthorn-lemonade": {
+            "type": "YOGODA",
+            "name": "Havtornslemonad",
+            "description-text-01": "En rik söt-syrlig lemonad med havtorn, äpple och en hint av passionsfrukt – lätt honungstonad och mycket uppfriskande.",
+            "description-text-02": "Ingredienser: havtorn (snabbfrysta bär), äpple, passionsfruktspulp, socker."
+        },
+        "mango-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Mango & passionsfrukt",
+            "description-text-01": "Saftig mango möter frisk passionsfrukt och lime i en harmonisk tropisk komposition.",
+            "description-text-02": "Ingredienser: mangopuré, passionsfruktspulp, lime (färsk juice), socker, glukos-fruktossirap."
+        },
+        "strawberry-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Jordgubb & passionsfrukt",
+            "description-text-01": "Mjuka, söta jordgubbar kombineras med frisk passionsfrukt för en livfull och mångdimensionell smak.",
+            "description-text-02": "Ingredienser: jordgubbar (frysta bär och koncentrerad juice), passionsfrukt (pulp), socker, glukos-fruktossirap."
+        },
+        "spicy-strawberry": {
+            "type": "YOGODA",
+            "name": "Kryddig jordgubb",
+            "description-text-01": "Söt jordgubb möter acaibärets bitterhet och cayennepepparns milda hetta – subtilt och uppfriskande.",
+            "description-text-02": "Ingredienser: jordgubbar (snabbfrysta bär och juicekoncentrat), citronjuice, acaibärpulver, socker, cayennepeppar."
+        },
+        "spicy-pineapple": {
+            "type": "YOGODA",
+            "name": "Kryddig ananas",
+            "description-text-01": "Söt ananas, tropisk passionsfrukt och en lätt hetta från cayenne – inspirerad av varma östliga traditioner.",
+            "description-text-02": "Ingredienser: ananas (konserverad och koncentrerad juice), passionsfrukt (pulp), citronjuice, socker, cayennepeppar."
+        },
+        "red-mulled-wine": {
+            "type": "YOGODA",
+            "name": "Rött glögg",
+            "description-text-01": "En alkoholfri version av den klassiska vinterdrycken med varma kryddor och fyllig fruktsmak.",
+            "description-text-02": "Ingredienser: naturlig honung, körsbär, koncentrerad röd druvjuice, apelsin, äpple, kardemumma, malen kanel, muskot, nejlika, stjärnanis, cayennepeppar."
+        }
+    }
+}

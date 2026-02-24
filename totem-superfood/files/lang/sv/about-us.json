@@ -1,0 +1,79 @@
+{
+	"_metaTitle": "Om oss - Totem Superfood",
+	"_metaDescription": "Lär dig om Totem Superfoods historia, innovation och mission att göra hälsosam näring tillgänglig och enkel över hela världen.",
+	"about-us": {
+		"introduction": {
+			"title": "Introduktion – Vem vi är",
+			"subtitle": "Från personlig mission till global vision",
+			"text": "Även om företaget officiellt grundades 2025 började berättelsen om våra produkter redan 2012 med en persons engagemang för hälsa, näring och energibalans. Under åren utvecklades funktionella smoothierecept, förstärkta med superfoods som spirulina, gurkmeja, maca, açaí och chia – vilket skapade kraftfulla blandningar fulla av vitaminer och ren energi. År 2017 utvecklades detta till en populär grön smoothiebar, som fick lokal medieuppmärksamhet och byggde en stark gemenskap av hälsoinriktade konsumenter."
+		},
+		"innovation": {
+			"title": "Innovation",
+			"subtitle": "12 års erfarenhet, en revolutionerande produkt",
+			"text": "År 2024 satte vi oss för att ta dessa unika produkter till en global publik. Efter en design sprint använde vi frystorkning (lyofilisering) – en metod som bevarar ingrediensernas näringsvärde genom snabb nedfrysning och borttagning av fukt. Resultatet? En hållbar pulverblandning som förvandlas till en färsk smoothie med endast vatten – lika näringsrik och god som om den var nygjord."
+		},
+		"target": {
+			"title": "Målgrupp",
+			"subtitle": "Vi riktar oss till den moderna, medvetna konsumenten",
+			"list": {
+				"1": "Upptagna yrkespersoner och studenter som behöver snabb men hälsosam näring",
+				"2": "Resenärer och friluftsälskare med begränsad tillgång till färska måltider",
+				"3": "Hälsoinriktade personer som värderar expertrekommenderade program (t.ex. detox, välmåendebalans eller daglig näring)"
+			}
+		},
+		"values": {
+			"title": "Värderingar vi står för",
+			"list": {
+				"1": "Hälsa först: Naturliga, rena, sockerfria ingredienser utan tillsatser",
+				"2": "Energi & produktivitet: Driver aktiva livsstilar med näringstäta blandningar",
+				"3": "Rörlighet & bekvämlighet: Ett paket = en måltid. Lätt att bära. Redo på sekunder",
+				"4": "Ekologiskt ansvar: Hållbar produktion, minimalt avfall"
+			}
+		},
+		"problems": {
+			"title": "Problem vi löser",
+			"list": {
+				"1": "Brist på tid för näringsrika måltider under arbete, resor eller hektiska dagar",
+				"2": "Svårighet att upprätthålla jämn energi och fokus",
+				"3": "Begränsade alternativ för bekväma och hälsosamma snacks",
+				"4": "Traditionella alternativ är antingen ohälsosamma eller tidskrävande"
+			}
+		},
+		"persona": {
+			"title": "Vår konsumentpersona",
+			"list": {
+				"1": "Medveten och selektiv: Bryr sig om näring, läser etiketter, undviker socker & kemikalier",
+				"2": "Aktiv och stilfull: Engagerad i sport, träning och egenvård",
+				"3": "Värderingsbaserad: Söker hållbara, transparenta och framtidsinriktade varumärken"
+			}
+		},
+		"advantage": {
+			"title": "Varför det fungerar – Fördel med frystorkning",
+			"list": {
+				"1": "Bevarar 95–98% av vitaminer och näringsämnen",
+				"2": "Lätt och långvarig – kräver ingen kylning",
+				"3": "Smakar lika gott som färsk – tillsätt bara vatten",
+				"4": "Perfekt för näring på språng"
+			}
+		},
+		"market": {
+			"title": "Marknadsmöjlighet",
+			"text": "Enligt statistik försöker över 60 % av EU:s befolkning aktivt äta hälsosamt. Efterfrågan på funktionella, färdiga superfood-produkter ökar snabbt, särskilt bland urbana och mobila konsumenter."
+		},
+		"marketing": {
+			"title": "Marknadsföringsstrategi",
+			"subtitle": "Vi skapar efterfrågan genom pull-marknadsföring",
+			"list": {
+				"1": "Sociala medier och storytelling",
+				"2": "Samarbeten med hälsocoacher och fitness-experter",
+				"3": "Feedbackloopar från konsumenter för snabb anpassning",
+				"4": "Stark varumärkesgemenskap & lojalitetsprogram"
+			}
+		},
+		"partner": {
+			"title": "Låt oss samarbeta",
+			"text": "Vi erbjuder en lösning redo att skalas upp med en mycket motiverad kundbas och en produktlinje stödd av års forskning och utveckling. Följ med oss i att leverera modern näring för en modern värld. Låt oss göra hälsosamt leverne enkelt – tillsammans.",
+			"button": "Kontakta oss"
+		}
+	}
+}

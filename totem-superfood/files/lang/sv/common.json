@@ -1,0 +1,35 @@
+{
+	"menu": {
+		"link": {
+			"home": "<span>Hem</span>",
+			"about-us": "Om oss",
+			"history": "Historia",
+			"contact-us": "Kontakta oss"
+		},
+		"parent": {
+			"products": "Produkter",
+			"retail-equipment": "Butiksutrustning"
+		}
+	},
+	"submenu": {
+		"link": {
+			"smoothies": "Smoothies",
+			"kombucha": "Kombucha",
+			"fruit-infusion-drinks": "Fruktinfusionsdrycker",
+			"floor-displays": "Golvdisplayer",
+			"fridges": "Kylskåp"
+		}
+	},
+	"cookies": {
+		"text": "Denna webbplats använder cookies för att förbättra din upplevelse.",
+		"accept": "Acceptera"
+	},
+	"footer": {
+		"privacy": "Integritetspolicy",
+		"legal": "Juridisk information",
+		"linkedin": "LinkedIn",
+		"email": "info@totem-superfood.com",
+		"backTo": "Tillbaka till",
+		"top": "toppen"
+	}
+}

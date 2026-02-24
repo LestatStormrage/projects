@@ -1,0 +1,31 @@
+{
+	"_metaTitle": "Lodówki",
+	"_metaDescription": "Odkryj naszą ofertę profesjonalnych lodówek i zautomatyzowanych modułów sprzedaży, które sprawiają, że marketing produktów jest bardziej efektywny i opłacalny.",
+	"fridges-page": {
+		"introduction": {
+			"title": "Lodówki",
+			"description": "Oprócz naszych produktów premium oferujemy naszym partnerom dodatkowe wyposażenie, które ułatwia, usprawnia i zwiększa rentowność marketingu naszych produktów."
+		},
+		"types": {
+			"title": "Rodzaje lodówek:",
+			"list": {
+				"1": "Standardowe lodówki",
+				"2": "Zautomatyzowane moduły sprzedaży (mikromarkety) z zintegrowanym systemem płatności Nayax i technologią czujników wagi Dynamic Scale",
+				"3": "Mikromarkety z technologią czujników wagi Dynamic Scale (tylko kontrola zapasów)"
+			}
+		},
+		"payment": {
+			"title": "Opcje płatności",
+			"items": {
+				"1": {
+					"name": "POS",
+					"text": "Klienci otwierają mikromarket za pomocą karty kredytowej lub telefonu, a płatność jest pobierana automatycznie."
+				},
+				"2": {
+					"name": "Prywatna aplikacja",
+					"text": "Tworzymy dla Ciebie spersonalizowaną aplikację z Twoim logo i kolorami marki."
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,152 @@
+{
+    "_metaTitle": "Kombucha",
+    "_metaDescription": "Odkryj nasze pyszne smoothie i wspieraj swój aktywny styl życia.",
+    "kombucha": {
+        "main-title": "Kombucha",
+        "description": "Legendarny napój herbaciany ze starożytnego Orientu. SCOBY – symbiotyczna kultura drożdży i pożytecznych bakterii – fermentuje aromatyczną herbatę, tworząc pyszny, naturalnie prozdrowotny napój musujący. W starożytnej Japonii kombucha była nazywana „Herbatą Nieśmiertelności”. W Korei od wieków wykorzystywano ją w odmładzających zabiegach pielęgnacyjnych, a w Chinach była napojem cesarzy.",
+        "classic-green": {
+            "type": "Kombucha",
+            "title": "Classic Green",
+            "text": {
+                "1": "Naturalne składniki: filtrowana woda, zagęszczony sok jabłkowy, zielona herbata, cukier, kultura kombuchy.",
+                "2": "Zalecana temperatura przechowywania: od +6°C do +25°C.",
+                "3": "Spożyć w ciągu 48 godzin od otwarcia.",
+                "4": "W przypadku wrażliwości na kwasowość pić rozcieńczoną lub w małych ilościach."
+            },
+            "list": {
+                "title": "Wartości odżywcze w 100 ml:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Białko – 0,0 g",
+                "3": "Tłuszcz – 0,0 g",
+                "4": "Węglowodany – 4,0 g",
+                "5": "Cukry – 4,0 g"
+            }
+        },
+        "ginger": {
+            "type": "Kombucha",
+            "title": "Imbir",
+            "text": {
+                "1": "Naturalne składniki: filtrowana woda, zagęszczony sok jabłkowy (20%), zielona herbata, imbir, koncentrat kurkumy, cukier, sok z cytryny, kultura kombuchy.",
+                "2": "Zalecana temperatura przechowywania: od +6°C do +25°C.",
+                "3": "Spożyć w ciągu 48 godzin od otwarcia.",
+                "4": "W przypadku wrażliwości na kwasowość pić rozcieńczoną lub w małych ilościach."
+            },
+            "list": {
+                "title": "Wartości odżywcze w 100 ml:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Białko – 0,0 g",
+                "3": "Tłuszcz – 0,0 g",
+                "4": "Węglowodany – 4,0 g",
+                "5": "Cukry – 4,0 g"
+            }
+        },
+        "hibiscus": {
+            "type": "Kombucha",
+            "title": "Hibiskus",
+            "text": {
+                "1": "Naturalne składniki: filtrowana woda, zagęszczony sok jabłkowy, czarna herbata, zielona herbata, kwiaty hibiskusa, cukier, kultura kombuchy.",
+                "2": "Zalecana temperatura przechowywania: od +6°C do +25°C.",
+                "3": "Spożyć w ciągu 48 godzin od otwarcia.",
+                "4": "W przypadku wrażliwości na kwasowość pić rozcieńczoną lub w małych ilościach."
+            },
+            "list": {
+                "title": "Wartości odżywcze w 100 ml:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Białko – 0,0 g",
+                "3": "Tłuszcz – 0,0 g",
+                "4": "Węglowodany – 4,0 g",
+                "5": "Cukry – 4,0 g"
+            }
+        },
+        "jasmine": {
+            "type": "Kombucha",
+            "title": "Jaśmin",
+            "text": {
+                "1": "Naturalne składniki: filtrowana woda, zagęszczony sok jabłkowy, zielona herbata, kwiaty jaśminu, cukier, kultura kombuchy.",
+                "2": "Zalecana temperatura przechowywania: od +6°C do +25°C.",
+                "3": "Spożyć w ciągu 48 godzin od otwarcia.",
+                "4": "W przypadku wrażliwości na kwasowość pić rozcieńczoną lub w małych ilościach."
+            },
+            "list": {
+                "title": "Wartości odżywcze w 100 ml:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Białko – 0,0 g",
+                "3": "Tłuszcz – 0,0 g",
+                "4": "Węglowodany – 4,0 g",
+                "5": "Cukry – 4,0 g"
+            }
+        },
+        "lavender": {
+            "type": "Kombucha",
+            "title": "Lawenda",
+            "text": {
+                "1": "Naturalne składniki: filtrowana woda, zagęszczony sok jabłkowy (20%), zielona herbata, kwiaty klitorii, czarna herbata, kwiaty lawendy, cukier, kultura kombuchy.",
+                "2": "Zalecana temperatura przechowywania: od +6°C do +25°C.",
+                "3": "Spożyć w ciągu 48 godzin od otwarcia.",
+                "4": "W przypadku wrażliwości na kwasowość pić rozcieńczoną lub w małych ilościach."
+            },
+            "list": {
+                "title": "Wartości odżywcze w 100 ml:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Białko – 0,0 g",
+                "3": "Tłuszcz – 0,0 g",
+                "4": "Węglowodany – 4,0 g",
+                "5": "Cukry – 4,0 g"
+            }
+        },
+        "lemongrass": {
+            "type": "Kombucha",
+            "title": "Trawa cytrynowa",
+            "text": {
+                "1": "Naturalne składniki: filtrowana woda, zagęszczony sok jabłkowy, czarna herbata, trawa cytrynowa, cukier, kultura kombuchy.",
+                "2": "Zalecana temperatura przechowywania: od +6°C do +25°C.",
+                "3": "Spożyć w ciągu 48 godzin od otwarcia.",
+                "4": "W przypadku wrażliwości na kwasowość pić rozcieńczoną lub w małych ilościach."
+            },
+            "list": {
+                "title": "Wartości odżywcze w 100 ml:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Białko – 0,0 g",
+                "3": "Tłuszcz – 0,0 g",
+                "4": "Węglowodany – 4,0 g",
+                "5": "Cukry – 4,0 g"
+            }
+        },
+        "passion-fruit": {
+            "type": "Kombucha",
+            "title": "Marakuja",
+            "text": {
+                "1": "Naturalne składniki: filtrowana woda, zagęszczony sok jabłkowy, zielona herbata, marakuja, cukier, sok z cytryny, kultura kombuchy.",
+                "2": "Zalecana temperatura przechowywania: od +6°C do +25°C.",
+                "3": "Spożyć w ciągu 48 godzin od otwarcia.",
+                "4": "W przypadku wrażliwości na kwasowość pić rozcieńczoną lub w małych ilościach."
+            },
+            "list": {
+                "title": "Wartości odżywcze w 100 ml:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Białko – 0,0 g",
+                "3": "Tłuszcz – 0,0 g",
+                "4": "Węglowodany – 4,0 g",
+                "5": "Cukry – 4,0 g"
+            }
+        },
+        "yuzu": {
+            "type": "Kombucha",
+            "title": "Yuzu",
+            "text": {
+                "1": "Naturalne składniki: filtrowana woda, zagęszczony sok jabłkowy, zielona herbata, sok yuzu, cukier, kultura kombuchy.",
+                "2": "Zalecana temperatura przechowywania: od +6°C do +25°C.",
+                "3": "Spożyć w ciągu 48 godzin od otwarcia.",
+                "4": "W przypadku wrażliwości na kwasowość pić rozcieńczoną lub w małych ilościach."
+            },
+            "list": {
+                "title": "Wartości odżywcze w 100 ml:",
+                "1": "Energia: 67 kJ / 16 kcal",
+                "2": "Białko – 0,0 g",
+                "3": "Tłuszcz – 0,0 g",
+                "4": "Węglowodany – 4,0 g",
+                "5": "Cukry – 4,0 g"
+            }
+        }
+    }
+}

@@ -1,0 +1,226 @@
+{
+    "_metaTitle": "Owocowe napoje infuzyjne",
+    "_metaDescription": "Odkryj nasze pyszne owocowe napoje infuzyjne i wesprzyj swój aktywny styl życia.",
+    "yogoda": {
+        "main-title": "Owocowe napoje infuzyjne",
+        "description-1": "Stworzone z myślą o osobach, które cenią naturalne składniki, funkcjonalne korzyści i maksymalną wygodę w codziennym życiu. Nasze napary owocowe powstają w 100% z naturalnych składników: starannie wyselekcjonowanych owoców, jagód, imbiru, miodu i przypraw. Nie zmieniamy tego, co stworzyła natura. Zamiast tego udoskonalamy – czynimy to klarowniejszym, bardziej funkcjonalnym i łatwiejszym do wkomponowania w nowoczesny, dynamiczny styl życia. Dzięki delikatnemu przetwarzaniu zachowujemy intensywne smaki, wysoką gęstość składników odżywczych i naturalne właściwości, jednocześnie zapewniając łatwe przygotowanie. Efektem jest naturalny, herbaciany napój, który doskonale dopasowuje się do różnych sytuacji, pór roku i potrzeb.",
+        "description-2": "Te napoje z naparów owocowych zostały świadomie stworzone, aby były wyjątkowo wygodne i wszechstronne:",
+        "bullet-point": {
+            "1": "W biurze lub w domu",
+            "2": "Podczas długich podróży i krótkich wyjazdów",
+            "3": "W samolotach, pociągach, autobusach lub samochodach",
+            "4": "Na festiwalach, w kamperach lub podczas biwakowania",
+            "5": "Podczas podróży kajakiem lub kanoe",
+            "6": "W hotelach – rano lub wieczorem",
+            "7": "Podczas długich spotkań, prezentacji, konferencji lub szkoleń"
+        },
+        "seasons": {
+            "summer": {
+                "title": "Latem",
+                "text": "Dodaj zimną wodę i ciesz się orzeźwiającym, energetyzującym napojem o naturalnej świeżości."
+            },
+            "winter": {
+                "title": "Zimą",
+                "text": "Dodaj gorącą wodę i ciesz się rozgrzewającym napojem, który wspiera odporność oraz ożywia ciało i umysł."
+            }
+        },
+        "classic": {
+            "title": "Classic"
+        },
+        "immunity": {
+            "title": "Immunity"
+        },
+        "sugar-free": {
+            "title": "Bez cukru"
+        },
+        "coctails": {
+            "title": "Koktajle"
+        },
+        "cherry-tea-with-chocolate": {
+            "type": "YOGODA",
+            "name": "Herbata wiśniowa z czekoladą",
+            "description-text-01": "Pierwszy łyk odsłania głęboki, aksamitny smak kakao pochodzący z tartej czekolady. Następnie pojawia się wyrazista kwasowość wiśni, która nadaje kompozycji soczystości i kontrastu. Całość dopełnia delikatne ciepło pieprzu cayenne, subtelnie podkreślające każdą nutę.",
+            "description-text-02": "Składniki: wiśnie (owoce głęboko mrożone), tarta masa kakaowa (naturalna czekolada), skoncentrowany sok z granatu, cukier, syrop glukozowo-fruktozowy, pieprz cayenne."
+        },
+        "tea-with-blueberries-and-lavender": {
+            "type": "YOGODA",
+            "name": "Herbata z borówkami i lawendą",
+            "description-text-01": "Delikatna, słodka baza borówkowa – jak owoce zerwane prosto z leśnej polany – wnosi lekką miodową nutę. Lawenda dodaje kwiatowej świeżości i kojącego aromatu, wprowadzając uczucie głębokiego relaksu. Subtelna kwasowość granatu elegancko dopełnia całość.",
+            "description-text-02": "Składniki: borówki, skoncentrowany sok z granatu, suszone kwiaty lawendy, cukier, syrop glukozowo-fruktozowy."
+        },
+        "sea-buckthorn-tea-with-apricot": {
+            "type": "YOGODA",
+            "name": "Herbata z rokitnika z morelą",
+            "description-text-01": "Najpierw pojawia się słoneczna kwasowość rokitnika – świeża i wyrazista, lecz nie ostra. Chwilę później otula ją aksamitna słodycz moreli, przypominająca domową konfiturę. Razem tworzą idealną równowagę naturalnej słodyczy i kwasowości.",
+            "description-text-02": "Składniki: rokitnik (puree / owoce), morela (puree), cukier."
+        },
+        "ginger-tea": {
+            "type": "YOGODA",
+            "name": "Herbata imbirowa",
+            "description-text-01": "Napój stworzony przez samą naturę! Bez sztucznych dodatków – tylko prawdziwy miód, soczysta limonka i wyrazisty imbir. Sekret tkwi w idealnej równowadze: słodycz miodu, kwasowość limonki i charakterystyczna ostrość imbiru.",
+            "description-text-02": "Składniki: świeży korzeń imbiru, świeża limonka, naturalny miód, cukier."
+        },
+        "cranberry-tea": {
+            "type": "YOGODA",
+            "name": "Herbata żurawinowa",
+            "description-text-01": "Powstała z intensywnego smaku i aromatu żurawiny, zachowuje maksimum wartości odżywczych. Harmonia mięty i limonki podkreśla pikantność imbiru i miodu. Napój doskonale gasi pragnienie i daje prawdziwą przyjemność.",
+            "description-text-02": "Składniki: świeża żurawina (szybko mrożona), naturalny miód, świeża limonka, świeży imbir, anyż suszony, mięta suszona, cukier."
+        },
+        "sea-buckthorn-tea": {
+            "type": "YOGODA",
+            "name": "Herbata z rokitnika",
+            "description-text-01": "Napój w kolorze szczęścia – prawdziwy antydepresant, promień słońca w każdej filiżance. Rokitnik, miód, imbir, limonka i aromatyczne przyprawy tworzą witaminową bombę o doskonale zbalansowanym smaku.",
+            "description-text-02": "Składniki: świeży rokitnik (szybko mrożony), świeży imbir, świeża limonka, mielony cynamon, mielony anyż gwiazdkowaty, naturalny miód, cukier."
+        },
+        "raspberry-tea": {
+            "type": "YOGODA",
+            "name": "Herbata malinowa",
+            "description-text-01": "Szybka, wygodna i przede wszystkim pyszna. Aromat malin przywołuje wspomnienia dzieciństwa, a naturalna słodycz miodu uzupełniona jest lekką goryczką imbiru i ciepłą nutą cynamonu.",
+            "description-text-02": "Składniki: świeże maliny (szybko mrożone), czarna porzeczka (szybko mrożona), naturalny miód, świeży imbir, mielony cynamon, cukier."
+        },
+        "currant-tea": {
+            "type": "YOGODA",
+            "name": "Herbata porzeczkowa",
+            "description-text-01": "Minimalna obróbka cieplna, maksimum wartości odżywczych. Aromat purpurowej bazylii wzmacnia smak porzeczek, a miód dostarcza cennych mikroelementów. Głęboki, fioletowy kolor na każdą porę dnia.",
+            "description-text-02": "Składniki: świeże porzeczki (szybko mrożone), naturalny miód, purpurowa bazylia, cukier."
+        },
+        "matcha-tea-coconut-latte": {
+            "type": "YOGODA",
+            "name": "Matcha kokosowe latte",
+            "description-text-01": "Perfekcyjnie zbalansowane połączenie japońskiej zielonej herbaty matcha z kremową nutą naturalnego kokosa. Napój orzeźwia, uspokaja i dodaje energii, przenosząc w klimat tropikalnych wysp.",
+            "description-text-02": "Składniki: woda pitna, cukier, pasta kokosowa, zielona herbata matcha, naturalny ekstrakt z rozmarynu (antyoksydant)."
+        },
+        "ginger-with-goji-tea": {
+            "type": "YOGODA",
+            "name": "Herbata imbirowa z goji",
+            "description-text-01": "Trend zdrowego stylu życia! Jagody goji, acerola i echinacea w połączeniu z miodem i imbirem tworzą nowoczesną herbatę wspierającą odporność i metabolizm.",
+            "description-text-02": "Składniki: świeży imbir, świeża limonka, suszone jagody goji, naturalny miód, naturalny ekstrakt z jeżówki purpurowej, naturalny ekstrakt z aceroli (witamina C), cukier."
+        },
+        "ginger-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Herbata imbirowa z kurkumą",
+            "description-text-01": "Legenda zdrowego odżywiania. Kurkuma nadaje napojowi złoty kolor i właściwości prozdrowotne, a imbir, miód i cytrusy tworzą harmonijną, rozgrzewającą kompozycję.",
+            "description-text-02": "Składniki: świeży imbir, świeża limonka, kurkuma, naturalny miód, cukier."
+        },
+        "raspberry-with-acerola-tea": {
+            "type": "YOGODA",
+            "name": "Herbata malinowa z acerolą",
+            "description-text-01": "Naturalna słodycz miodu, intensywny smak malin oraz echinacea i acerola wspierające odporność. Owocowo-jagodowy aromat z delikatną kwasowością i lekkim goryczkowym finiszem.",
+            "description-text-02": "Składniki: świeże maliny (szybko mrożone), naturalny miód, świeża czarna porzeczka, świeży imbir, naturalny ekstrakt z jeżówki purpurowej, naturalny ekstrakt z aceroli (witamina C), cukier."
+        },
+        "raspberry-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Herbata malinowa z kurkumą",
+            "description-text-01": "Pikantne nuty kurkumy doskonale wspierają letni smak malin, słodycz miodu, kwasowość porzeczek, świeżość imbiru i aromat cynamonu.",
+            "description-text-02": "Składniki: świeże maliny (szybko mrożone), czarna porzeczka (szybko mrożona), naturalny miód, świeży imbir, kurkuma, mielony cynamon, cukier."
+        },
+        "pear-lime-thyme-tea": {
+            "type": "YOGODA",
+            "name": "Herbata gruszkowa z limonką i tymiankiem",
+            "description-text-01": "Delikatny, słodko-kwaśny smak z aromatem ziół stepowych. Działa kojąco na układ nerwowy, wspiera pracę wątroby i oczyszczanie organizmu.",
+            "description-text-02": "Składniki: gruszka, świeży imbir, limonka, pomarańcza, suszone jagody goji, suszony tymianek, naturalny ekstrakt stewii."
+        },
+        "aronia-melanocarpa-cornelian-cherry-chilli-tea": {
+            "type": "YOGODA",
+            "name": "Herbata z aronii, derenia i chili",
+            "description-text-01": "Słodko-kwaśny, lekko cierpki smak z rozgrzewającym, pikantnym finiszem. Wspiera układ nerwowy i mięśniowy, poprawia trawienie i odporność.",
+            "description-text-02": "Składniki: puree z derenia, aronia czarnoowocowa, naturalny ekstrakt stewii, pieprz cayenne."
+        },
+        "passion-fruit-mango-nutmeg-tea": {
+            "type": "YOGODA",
+            "name": "Herbata z marakui, mango i gałki muszkatołowej",
+            "description-text-01": "Wyrazisty smak owocowego koktajlu z subtelną, korzenną nutą gałki muszkatołowej. Działa pobudzająco i wzmacnia układ nerwowy.",
+            "description-text-02": "Składniki: puree mango, dynia, miąższ marakui, pomarańcza, gałka muszkatołowa, naturalny ekstrakt stewii."
+        },
+        "currant-tea-2": {
+            "type": "YOGODA",
+            "name": "Herbata porzeczkowa",
+            "description-text-01": "Głęboki napój o lawendowo-fioletowym kolorze. Klasyczny smak czarnej porzeczki wzbogacony aromatyczną bazylią. Doskonały na ciepło i na zimno.",
+            "description-text-02": "Składniki: woda pitna, czarna porzeczka, suszona purpurowa bazylia, regulator kwasowości – kwas cytrynowy, substancja słodząca – sukraloza."
+        },
+        "sea-buckthorn-tea-2": {
+            "type": "YOGODA",
+            "name": "Herbata z rokitnika",
+            "description-text-01": "100% naturalny napój o intensywnym, lekko pikantnym smaku rokitnika. Idealny zarówno na ciepło, jak i na zimno – rozgrzewa zimą i orzeźwia latem.",
+            "description-text-02": "Składniki: rokitnik, jabłko, polidekstroza (błonnik), imbir, limonka, regulator kwasowości – kwas cytrynowy, mielony cynamon, mielony anyż gwiazdkowaty, substancja słodząca – sukraloza."
+        },
+        "ginger-tea-2": {
+            "type": "YOGODA",
+            "name": "Herbata imbirowa",
+            "description-text-01": "Pikantna słodycz imbiru i soczysta kwasowość limonki – idealna receptura na rozgrzanie i energetyczne pobudzenie.",
+            "description-text-02": "Składniki: woda pitna, imbir, jabłko, polidekstroza (błonnik), limonka, regulator kwasowości – kwas cytrynowy, substancja słodząca – sukraloza."
+        },
+        "raspberry-tea-2": {
+            "type": "YOGODA",
+            "name": "Herbata malinowa",
+            "description-text-01": "Naturalna herbata malinowa w saszetkach o intensywnym smaku i aromacie. Można ją pić na ciepło i na zimno. Wygodne, szczelne opakowanie gwarantuje świeżość.",
+            "description-text-02": "Składniki: malina, czarna porzeczka, imbir, regulator kwasowości – kwas cytrynowy, cynamon, substancja słodząca – sukraloza."
+        },
+        "bramble": {
+            "type": "YOGODA",
+            "name": "Bramble",
+            "description-text-01": "Koktajl na bazie jeżyn, malin, soku z cytryny, kolendry i jagód jałowca. Słodko-kwaśny, aromatyczny i doskonale zbalansowany – nowoczesna klasyka.",
+            "description-text-02": "Składniki: sok malinowy, jeżyny, cukier, sok z cytryny, jagody jałowca, kolendra, cynamon."
+        },
+        "mojito": {
+            "type": "YOGODA",
+            "name": "Mojito",
+            "description-text-01": "Na bazie klasycznego kubańskiego koktajlu z limonką, miętą i cukrem. Orzeźwiający i aromatyczny – idealny na upalne dni.",
+            "description-text-02": "Składniki: cukier, limonka, mięta."
+        },
+        "peach-bellini": {
+            "type": "YOGODA",
+            "name": "Peach Bellini",
+            "description-text-01": "Owocowy koktajl inspirowany włoską klasyką. Delikatna konsystencja, świeży smak brzoskwiń i aromatyczny tymianek czynią go idealnym aperitifem.",
+            "description-text-02": "Składniki: brzoskwinia, sok brzoskwiniowy, cukier, sok malinowy, tymianek."
+        },
+        "sea-breeze": {
+            "type": "YOGODA",
+            "name": "Sea Breeze",
+            "description-text-01": "Orzeźwiający koktajl na bazie żurawiny, grejpfruta i cytryny z nutą miodu. Lekki, owocowy i idealny na letnie wieczory.",
+            "description-text-02": "Składniki: żurawina, miód, sok grejpfrutowy, cukier, sok z cytryny."
+        },
+        "ginger-lemonade": {
+            "type": "YOGODA",
+            "name": "Lemoniada imbirowa",
+            "description-text-01": "Wyraziste połączenie pikantnego imbiru i świeżej limonki. Najpierw delikatne ciepło, potem cytrusowa świeżość – naturalnie energetyzująca.",
+            "description-text-02": "Składniki: świeży imbir, świeża limonka, cukier, syrop glukozowo-fruktozowy."
+        },
+        "sea-buckthorn-lemonade": {
+            "type": "YOGODA",
+            "name": "Lemoniada z rokitnika",
+            "description-text-01": "Intensywny, słodko-kwaśny smak rokitnika przechodzi w soczystą słodycz jabłka i delikatną nutę marakui. Lekka, aromatyczna i bardzo orzeźwiająca.",
+            "description-text-02": "Składniki: rokitnik (szybko mrożony), jabłko, miąższ marakui, cukier."
+        },
+        "mango-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Mango i marakuja",
+            "description-text-01": "Soczyste mango otwiera kompozycję głęboką słodyczą, po której następuje orzeźwiająca kwasowość marakui. Limonka subtelnie domyka całość.",
+            "description-text-02": "Składniki: puree mango, miąższ marakui, sok z limonki, cukier, syrop glukozowo-fruktozowy."
+        },
+        "strawberry-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Truskawka i marakuja",
+            "description-text-01": "Słodkie, ogrodowe truskawki spotykają się z egzotyczną świeżością marakui, tworząc wielowymiarowy i żywy smak.",
+            "description-text-02": "Składniki: truskawki (owoce mrożone i sok zagęszczony), miąższ marakui, cukier, syrop glukozowo-fruktozowy."
+        },
+        "spicy-strawberry": {
+            "type": "YOGODA",
+            "name": "Pikantna truskawka",
+            "description-text-01": "Słodycz dojrzałych truskawek przełamana delikatną goryczką acai i łagodnym ciepłem pieprzu cayenne – egzotyczny, rozgrzewający akcent.",
+            "description-text-02": "Składniki: truskawki (szybko mrożone i sok zagęszczony), sok z cytryny, proszek z jagód acai, cukier, pieprz cayenne."
+        },
+        "spicy-pineapple": {
+            "type": "YOGODA",
+            "name": "Pikantny ananas",
+            "description-text-01": "Słodki, intensywny smak ananasa połączony z aromatyczną marakują i subtelną ostrością pieprzu cayenne. Egzotyczny i orzeźwiający.",
+            "description-text-02": "Składniki: ananas (konserwowy i sok zagęszczony), miąższ marakui, sok z cytryny, cukier, pieprz cayenne."
+        },
+        "red-mulled-wine": {
+            "type": "YOGODA",
+            "name": "Czerwone grzane wino",
+            "description-text-01": "Bezalkoholowa wersja klasycznego zimowego napoju. Bogaty smak wiśni, winogron i przypraw tworzy atmosferę ciepła i komfortu.",
+            "description-text-02": "Składniki: naturalny miód, wiśnia, skoncentrowany sok z czerwonych winogron, pomarańcza, jabłko, kardamon, cynamon, gałka muszkatołowa, goździki, anyż gwiazdkowaty, pieprz cayenne."
+        }
+    }
+}

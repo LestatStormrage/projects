@@ -1,0 +1,152 @@
+{
+    "_metaTitle": "Kombucha",
+    "_metaDescription": "Oppdag våre deilige drikker og støtt en aktiv livsstil.",
+    "kombucha": {
+        "main-title": "Kombucha",
+        "description": "En legendarisk tedrikk fra Det gamle Østen. SCOBY – en symbiotisk kultur av gjær og gunstige bakterier – fermenterer aromatisk te og skaper en deilig, naturlig helsefremmende og perlende drikk. I det gamle Japan ble kombucha kalt «Udødelighetens te». I Korea har den vært brukt siden oldtiden i foryngende skjønnhetsbehandlinger, og i Kina var den keisernes drikk.",
+        "classic-green": {
+            "type": "Kombucha",
+            "title": "Klassisk grønn",
+            "text": {
+                "1": "Naturlige ingredienser: filtrert vann, konsentrert eplejuice, grønn te, sukker, kombuchakultur.",
+                "2": "Anbefalt lagringstemperatur: +6 °C til +25 °C.",
+                "3": "Bør konsumeres innen 48 timer etter åpning.",
+                "4": "Ved følsomhet for syre, drikk utblandet eller i små mengder."
+            },
+            "list": {
+                "title": "Næringsverdier per 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Karbohydrater – 4,0 g",
+                "5": "Sukker – 4,0 g"
+            }
+        },
+        "ginger": {
+            "type": "Kombucha",
+            "title": "Ingefær",
+            "text": {
+                "1": "Naturlige ingredienser: filtrert vann, konsentrert eplejuice (20 %), grønn te, ingefær, gurkemeiekonsentrat, sukker, sitronsaft, kombuchakultur.",
+                "2": "Anbefalt lagringstemperatur: +6 °C til +25 °C.",
+                "3": "Bør konsumeres innen 48 timer etter åpning.",
+                "4": "Ved følsomhet for syre, drikk utblandet eller i små mengder."
+            },
+            "list": {
+                "title": "Næringsverdier per 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Karbohydrater – 4,0 g",
+                "5": "Sukker – 4,0 g"
+            }
+        },
+        "hibiscus": {
+            "type": "Kombucha",
+            "title": "Hibiskus",
+            "text": {
+                "1": "Naturlige ingredienser: filtrert vann, konsentrert eplejuice, svart te, grønn te, hibiskusblomster, sukker, kombuchakultur.",
+                "2": "Anbefalt lagringstemperatur: +6 °C til +25 °C.",
+                "3": "Bør konsumeres innen 48 timer etter åpning.",
+                "4": "Ved følsomhet for syre, drikk utblandet eller i små mengder."
+            },
+            "list": {
+                "title": "Næringsverdier per 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Karbohydrater – 4,0 g",
+                "5": "Sukker – 4,0 g"
+            }
+        },
+        "jasmine": {
+            "type": "Kombucha",
+            "title": "Jasmin",
+            "text": {
+                "1": "Naturlige ingredienser: filtrert vann, konsentrert eplejuice, grønn te, jasminblomster, sukker, kombuchakultur.",
+                "2": "Anbefalt lagringstemperatur: +6 °C til +25 °C.",
+                "3": "Bør konsumeres innen 48 timer etter åpning.",
+                "4": "Ved følsomhet for syre, drikk utblandet eller i små mengder."
+            },
+            "list": {
+                "title": "Næringsverdier per 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Karbohydrater – 4,0 g",
+                "5": "Sukker – 4,0 g"
+            }
+        },
+        "lavender": {
+            "type": "Kombucha",
+            "title": "Lavendel",
+            "text": {
+                "1": "Naturlige ingredienser: filtrert vann, konsentrert eplejuice (20 %), grønn te, klitoriablomster, svart te, lavendelblomster, sukker, kombuchakultur.",
+                "2": "Anbefalt lagringstemperatur: +6 °C til +25 °C.",
+                "3": "Bør konsumeres innen 48 timer etter åpning.",
+                "4": "Ved følsomhet for syre, drikk utblandet eller i små mengder."
+            },
+            "list": {
+                "title": "Næringsverdier per 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Karbohydrater – 4,0 g",
+                "5": "Sukker – 4,0 g"
+            }
+        },
+        "lemongrass": {
+            "type": "Kombucha",
+            "title": "Sitrongress",
+            "text": {
+                "1": "Naturlige ingredienser: filtrert vann, konsentrert eplejuice, svart te, sitrongress, sukker, kombuchakultur.",
+                "2": "Anbefalt lagringstemperatur: +6 °C til +25 °C.",
+                "3": "Bør konsumeres innen 48 timer etter åpning.",
+                "4": "Ved følsomhet for syre, drikk utblandet eller i små mengder."
+            },
+            "list": {
+                "title": "Næringsverdier per 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Karbohydrater – 4,0 g",
+                "5": "Sukker – 4,0 g"
+            }
+        },
+        "passion-fruit": {
+            "type": "Kombucha",
+            "title": "Pasjonsfrukt",
+            "text": {
+                "1": "Naturlige ingredienser: filtrert vann, konsentrert eplejuice, grønn te, pasjonsfrukt, sukker, sitronsaft, kombuchakultur.",
+                "2": "Anbefalt lagringstemperatur: +6 °C til +25 °C.",
+                "3": "Bør konsumeres innen 48 timer etter åpning.",
+                "4": "Ved følsomhet for syre, drikk utblandet eller i små mengder."
+            },
+            "list": {
+                "title": "Næringsverdier per 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Karbohydrater – 4,0 g",
+                "5": "Sukker – 4,0 g"
+            }
+        },
+        "yuzu": {
+            "type": "Kombucha",
+            "title": "Yuzu",
+            "text": {
+                "1": "Naturlige ingredienser: filtrert vann, konsentrert eplejuice, grønn te, yuzujuice, sukker, kombuchakultur.",
+                "2": "Anbefalt lagringstemperatur: +6 °C til +25 °C.",
+                "3": "Bør konsumeres innen 48 timer etter åpning.",
+                "4": "Ved følsomhet for syre, drikk utblandet eller i små mengder."
+            },
+            "list": {
+                "title": "Næringsverdier per 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Karbohydrater – 4,0 g",
+                "5": "Sukker – 4,0 g"
+            }
+        }
+    }
+}

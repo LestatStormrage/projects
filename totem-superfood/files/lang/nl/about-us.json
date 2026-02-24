@@ -1,0 +1,79 @@
+{
+	"_metaTitle": "Over ons – Totem Superfood",
+	"_metaDescription": "Ontdek het verhaal, de innovatie en de missie van Totem Superfood om gezonde voeding wereldwijd toegankelijk en moeiteloos te maken.",
+	"about-us": {
+		"introduction": {
+			"title": "Introductie – Wie wij zijn",
+			"subtitle": "Van een persoonlijke missie naar een wereldwijde visie",
+			"text": "Hoewel ons bedrijf officieel werd opgericht in 2025, begon het verhaal van ons product al in 2012 met de toewijding van één persoon aan gezondheid, voeding en een energiebewuste levensstijl. Door de jaren heen werden functionele smoothierecepten ontwikkeld en verrijkt met superfoods zoals spirulina, kurkuma, maca, açaí en chia — krachtige blends vol vitaminen en pure energie. In 2017 groeide dit uit tot een populaire groene smoothiebar, die lokale media-aandacht kreeg en een sterke gemeenschap van gezondheidsbewuste consumenten opbouwde."
+		},
+		"innovation": {
+			"title": "De innovatie",
+			"subtitle": "12 jaar ervaring, één revolutionair product",
+			"text": "In 2024 besloten we deze unieke producten beschikbaar te maken voor een wereldwijd publiek. Na een Design Sprint kozen we voor vriesdrogen (lyofilisatie) — een methode waarbij de voedingswaarde van ingrediënten behouden blijft door snelle bevriezing en het verwijderen van vocht. Het resultaat? Een houdbaar poeder dat met slechts water verandert in een verse smoothie — net zo voedzaam en lekker als vers bereid."
+		},
+		"target": {
+			"title": "Doelgroep",
+			"subtitle": "Wij bedienen de moderne, bewuste consument",
+			"list": {
+				"1": "Drukke professionals en studenten die snelle maar gezonde voeding nodig hebben",
+				"2": "Reizigers en outdoorliefhebbers met beperkte toegang tot verse maaltijden",
+				"3": "Gezondheidsbewuste mensen die waarde hechten aan door experts aanbevolen programma’s (zoals detox, wellnessbalans of dagelijkse voeding)"
+			}
+		},
+		"values": {
+			"title": "Onze kernwaarden",
+			"list": {
+				"1": "Gezondheid eerst: natuurlijke, pure en suikervrije ingrediënten zonder toevoegingen",
+				"2": "Energie & productiviteit: ondersteuning van een actieve levensstijl met voedzame blends",
+				"3": "Mobiliteit & gemak: één verpakking = één maaltijd. Makkelijk mee te nemen. Klaar in seconden",
+				"4": "Ecologische verantwoordelijkheid: duurzame productie en minimale verspilling"
+			}
+		},
+		"problems": {
+			"title": "Problemen die wij oplossen",
+			"list": {
+				"1": "Gebrek aan tijd voor voedzame maaltijden tijdens werk, reizen of drukke dagen",
+				"2": "Moeite om een constant energieniveau en focus te behouden",
+				"3": "Beperkte keuze aan gemakkelijke en gezonde snacks",
+				"4": "Traditionele opties zijn vaak ongezond of tijdrovend"
+			}
+		},
+		"persona": {
+			"title": "Onze consument",
+			"list": {
+				"1": "Bewust en selectief: let op voeding, leest etiketten en vermijdt suiker en chemicaliën",
+				"2": "Actief en stijlbewust: betrokken bij sport, fitness en zelfzorg",
+				"3": "Waarden-gedreven: zoekt duurzame, transparante en vooruitstrevende merken"
+			}
+		},
+		"advantage": {
+			"title": "Waarom het werkt – het voordeel van vriesdrogen",
+			"list": {
+				"1": "Behoudt 95–98% van vitaminen en voedingsstoffen",
+				"2": "Lichtgewicht en lang houdbaar — geen koeling nodig",
+				"3": "Smaakt net zo goed als vers – voeg alleen water toe",
+				"4": "Perfect voor voeding onderweg"
+			}
+		},
+		"market": {
+			"title": "Marktkansen",
+			"text": "Volgens statistieken probeert meer dan 60% van de EU-bevolking actief gezond te eten. De vraag naar functionele, kant-en-klare superfoodproducten groeit snel, vooral onder stedelijke en mobiele consumenten."
+		},
+		"marketing": {
+			"title": "Marketingstrategie",
+			"subtitle": "Wij bouwen vraag op via pullmarketing",
+			"list": {
+				"1": "Invloed en storytelling via sociale media",
+				"2": "Samenwerkingen met gezondheidscoaches en fitnessexperts",
+				"3": "Feedbackloops van consumenten om snel te kunnen bijsturen",
+				"4": "Een sterke merkcommunity en loyaliteitsprogramma’s"
+			}
+		},
+		"partner": {
+			"title": "Samenwerken",
+			"text": "Wij bieden een schaalbare oplossing met een zeer betrokken klantenbasis en een productlijn die wordt ondersteund door jaren van R&D. Sluit je aan bij ons om moderne voeding te leveren voor een moderne wereld. Laten we gezond leven moeiteloos maken — samen.",
+			"button": "Neem contact op"
+		}
+	}
+}

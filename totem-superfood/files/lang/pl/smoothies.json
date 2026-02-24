@@ -1,0 +1,295 @@
+{
+    "_metaTitle": "Smoothie",
+    "_metaDescription": "Odkryj nasze pyszne smoothie i wspieraj swój aktywny styl życia.",
+    "products": {
+        "title": "Smoothie",
+        "fireSmoothies": {
+            "title": "Kolekcja Fire-Smoothies",
+            "description": "Nasze smoothie są wzbogacone potężnymi superfoods, które znacząco zwiększają ich wartość odżywczą i korzyści zdrowotne. Każdy składnik został starannie dobrany, aby wspierać ogólne samopoczucie, poprawiać funkcjonowanie organizmu i zwiększać witalność.",
+            "turmeric": {
+                "name": "Smoothie z kurkumą",
+                "type": "Smoothie",
+                "descriptionTitle": "Opis:",
+                "descriptionText": "Kurkuma jest powszechnie znana ze swoich właściwości przeciwzapalnych i przeciwutleniających, dzięki czemu stanowi doskonały dodatek do zdrowej diety. Uważa się, że:",
+                "list": {
+                    "1": "Pomaga w zapobieganiu chorobie Alzheimera.",
+                    "2": "Łagodzi objawy zapalenia stawów i wspiera zdrowie stawów.",
+                    "3": "Wspiera dobre samopoczucie psychiczne, redukując objawy depresji.",
+                    "4": "Spowalnia proces starzenia, chroniąc komórki przed stresem oksydacyjnym.",
+                    "5": "Odgrywa rolę w profilaktyce nowotworów dzięki swoim aktywnym związkom."
+                }
+            },
+            "acai": {
+                "name": "Smoothie z jagodami acai",
+                "type": "Smoothie",
+                "ingredientsTitle": "Składniki:",
+                "ingredients": {
+                    "1": "Truskawka",
+                    "2": "Malina",
+                    "3": "Płatki owsiane",
+                    "4": "Banan",
+                    "5": "Nasiona chia",
+                    "6": "Jagody acai"
+                },
+                "descriptionTitle": "Opis:",
+                "descriptionText": "“Acai” to wykwintny koktajl, który łączy wyraziste nuty truskawki, maliny i banana z dodatkiem płatków owsianych i nasion chia. Jagody acai nadają napojowi właściwości przeciwutleniające, pomagając wzmocnić układ odpornościowy, utrzymać zdrowe serce i poprawić funkcje poznawcze."
+            },
+            "spirulina": {
+                "name": "Smoothie ze spiruliną",
+                "type": "Smoothie",
+                "ingredientsTitle": "Składniki:",
+                "ingredients": {
+                    "1": "Szpinak",
+                    "2": "Banan",
+                    "3": "Jabłko",
+                    "4": "Daktyle",
+                    "5": "Spirulina"
+                },
+                "descriptionTitle": "Opis:",
+                "descriptionText": "“Spirulina” to harmonijne połączenie szpinaku, banana i jabłka, uzupełnione słodyczą daktyli i wyjątkowymi właściwościami spiruliny. Napój ten jest bogaty w składniki odżywcze i wspomaga trawienie, detoksykację oraz utrzymanie zdrowej masy ciała."
+            },
+            "hemp": {
+                "name": "Smoothie Hemp Storm",
+                "type": "Smoothie",
+                "ingredientsTitle": "Składniki:",
+                "ingredients": {
+                    "1": "Malina",
+                    "2": "Borówka",
+                    "3": "Obłuskane nasiona konopi",
+                    "4": "Nasiona chia",
+                    "5": "Banan",
+                    "6": "Płatki owsiane"
+                },
+                "descriptionTitle": "Opis:",
+                "descriptionText": "“Hemp Storm” to pożywny koktajl, w którym malina, borówka i banan łączą się ze zdrowymi nasionami konopi, chia i płatkami owsianymi. Nasiona konopi, bogate w białko i kwasy tłuszczowe, pomagają wzmocnić układ odpornościowy, wspierają zdrowie serca i poprawiają kondycję skóry."
+            }
+        },
+        "fireDetox": {
+            "title": "Kolekcja Fire-Detox",
+            "description": "Nasze koktajle detox zostały opracowane z wykorzystaniem silnych naturalnych składników, aby oczyścić organizm, wspierać trawienie i przywrócić równowagę. Każda mieszanka została zaprojektowana tak, by zwiększać energię, wspomagać metabolizm i promować ogólne dobre samopoczucie.",
+            "mega": {
+                "name": "Mega Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Składniki:",
+                "ingredients": {
+                    "1": "Pomarańcza",
+                    "2": "Ananas",
+                    "3": "Kurkuma",
+                    "4": "Cynamon",
+                    "5": "Nasiona chia"
+                },
+                "descriptionTitle": "Opis:",
+                "descriptionText": "“Mega Detox” to silny koktajl zaprojektowany do głębokiego oczyszczania organizmu. Seler i szpinak, znane ze swoich właściwości detoksykujących, łączą się z jabłkiem i bananem, nadając napojowi przyjemną słodycz."
+            },
+            "green": {
+                "name": "Green Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Składniki:",
+                "ingredients": {
+                    "1": "Banan",
+                    "2": "Pomarańcza",
+                    "3": "Szpinak",
+                    "4": "Pestki dyni",
+                    "5": "Chlorella"
+                },
+                "descriptionTitle": "Opis:",
+                "descriptionText": "“Green Detox” to pożywny i zrównoważony koktajl, który pomoże uzupełnić zapasy witamin i minerałów. Banan i pomarańcza nadają napojowi przyjemną słodycz i orzeźwiający smak. Szpinak, bogaty w żelazo i inne cenne składniki, wspiera zdrowie. Pestki dyni i chlorella, pełne białka i przeciwutleniaczy, wzmacniają odporność i dobre samopoczucie."
+            },
+            "refreshing": {
+                "name": "Refreshing Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Składniki:",
+                "ingredients": {
+                    "1": "Seler",
+                    "2": "Kiwi",
+                    "3": "Jabłko",
+                    "4": "Pietruszka",
+                    "5": "Chlorella",
+                    "6": "Nasiona chia"
+                },
+                "descriptionTitle": "Opis:",
+                "descriptionText": "“Refreshing Detox” to lekki i orzeźwiający koktajl, który doda Ci energii. Seler i pietruszka, o właściwościach moczopędnych, pomagają usuwać nadmiar płynów z organizmu. Kiwi i jabłko nadają napojowi przyjemną kwaskowatość i świeży smak. Chlorella i nasiona chia, bogate w składniki odżywcze, wspierają zdrowie i dobre samopoczucie."
+            },
+            "energy": {
+                "name": "Energy Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Składniki:",
+                "ingredients": {
+                    "1": "Pomarańcza",
+                    "2": "Ananas",
+                    "3": "Kurkuma",
+                    "4": "Cynamon",
+                    "5": "Nasiona chia"
+                },
+                "descriptionTitle": "Opis:",
+                "descriptionText": "“Energy Detox” to intensywny, aromatyczny koktajl, który doda Ci energii na cały dzień. Pomarańcza i ananas, bogate w witaminę C, wzmacniają odporność i zwiększają witalność. Kurkuma i cynamon, znane ze swoich właściwości przeciwzapalnych, pomagają oczyścić organizm i poprawić metabolizm. Nasiona chia, bogate w błonnik, zapewniają długie uczucie sytości."
+            }
+        },
+        "air-collection": {
+            "title": "Kolekcja Air",
+            "berry-boost": {
+                "type": "Smoothie",
+                "title": "Berry Boost",
+                "ingredients": {
+                    "title": "Składniki:",
+                    "1": "Banan",
+                    "2": "Owoce jagodowe",
+                    "3": "Nasiona chia",
+                    "4": "Płatki owsiane",
+                    "5": "Wiórki kokosowe"
+                },
+                "benefit": {
+                    "title": "Korzyści:",
+                    "text": "Wzmacnia odporność, dodaje energii, bogaty w przeciwutleniacze i błonnik."
+                }
+            },
+            "green-boost": {
+                "type": "Smoothie",
+                "title": "Green Boost",
+                "ingredients": {
+                    "title": "Składniki:",
+                    "1": "Szpinak",
+                    "2": "Jabłko",
+                    "3": "Banan",
+                    "4": "Spirulina",
+                    "5": "Siemię lniane",
+                    "6": "Cytryna"
+                },
+                "benefit": {
+                    "title": "Korzyści:",
+                    "text": "Oczyszcza organizm, wzmacnia odporność i dostarcza niezbędnych witamin oraz minerałów."
+                }
+            },
+            "nut-cocoa": {
+                "type": "Smoothie",
+                "title": "Nut-Cocoa Energy",
+                "ingredients": {
+                    "title": "Składniki:",
+                    "1": "Banan",
+                    "2": "Proszek kakaowy",
+                    "3": "Daktyle",
+                    "4": "Migdały",
+                    "5": "Maca",
+                    "6": "Płatki owsiane"
+                },
+                "benefit": {
+                    "title": "Korzyści:",
+                    "text": "Poprawia nastrój, dodaje energii i odżywia zdrowymi tłuszczami."
+                }
+            },
+            "spiced-banana-boost": {
+                "type": "Smoothie",
+                "title": "Spiced Banana Boost",
+                "ingredients": {
+                    "title": "Składniki:",
+                    "1": "Banan",
+                    "2": "Jabłko",
+                    "3": "Płatki owsiane",
+                    "4": "Cynamon",
+                    "5": "Nasiona chia",
+                    "6": "Migdały"
+                },
+                "benefit": {
+                    "title": "Korzyści:",
+                    "text": "Rozgrzewa, syci, stabilizuje poziom cukru we krwi i wspiera trawienie."
+                }
+            },
+            "turmeric-mango-immunoboost": {
+                "type": "Smoothie",
+                "title": "Kurkuma + Mango “ImmunoBoost”",
+                "ingredients": {
+                    "title": "Składniki:",
+                    "1": "Mango",
+                    "2": "Banan",
+                    "3": "Kurkuma",
+                    "4": "Imbir",
+                    "5": "Siemię lniane",
+                    "6": "Proszek owsiany"
+                },
+                "benefit": {
+                    "title": "Korzyści:",
+                    "text": "Wzmacnia odporność, zmniejsza stany zapalne i dostarcza witaminowego zastrzyku."
+                }
+            },
+            "cocoa-turmeric-antistress": {
+                "type": "Smoothie",
+                "title": "Cocoa Turmeric Antistress",
+                "ingredients": {
+                    "title": "Składniki:",
+                    "1": "Banan",
+                    "2": "Proszek kakaowy",
+                    "3": "Migdały",
+                    "4": "Kurkuma",
+                    "5": "Daktyle",
+                    "6": "Nasiona chia"
+                },
+                "benefit": {
+                    "title": "Korzyści:",
+                    "text": "Łagodzi stres, dostarcza magnezu i wspiera układ nerwowy oraz sen."
+                }
+            }
+        },
+        "earthCollection": {
+            "title": "Kolekcja Earth",
+            "ingredientsTitle": "Składniki:",
+            "benefitTitle": "Korzyści:",
+            "morningEnergy": {
+                "title": "Morning Energy",
+                "alt": "Morning Energy",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Liofilizowany banan",
+                    "Płatki owsiane",
+                    "Migdały",
+                    "Nasiona chia",
+                    "Kakao",
+                    "Suszone mleko kokosowe",
+                    "Słodzik"
+                ],
+                "benefit": "Doskonała opcja na śniadanie – dodaje energii i wspiera pracę mózgu."
+            },
+            "immuneShield": {
+                "title": "Immune Shield",
+                "alt": "Immune Shield",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Liofilizowana truskawka",
+                    "Płatki owsiane",
+                    "Orzechy włoskie",
+                    "Spirulina",
+                    "Proszek imbirowy",
+                    "Suszone mleko kokosowe"
+                ],
+                "benefit": "Wspiera układ odpornościowy dzięki witaminie C i przeciwutleniaczom."
+            },
+            "fitnessCharge": {
+                "title": "Fitness Charge",
+                "alt": "Fitness Charge",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Liofilizowana borówka",
+                    "Płatki owsiane",
+                    "Orzechy laskowe",
+                    "Maca",
+                    "Nasiona sezamu",
+                    "Kakao"
+                ],
+                "benefit": "Zwiększa wytrzymałość i wspomaga regenerację mięśni."
+            },
+            "detoxBalance": {
+                "title": "Detox & Balance",
+                "alt": "Detox & Balance",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Liofilizowana malina",
+                    "Płatki owsiane",
+                    "Siemię lniane",
+                    "Spirulina",
+                    "Matcha",
+                    "Orzeszki piniowe"
+                ],
+                "benefit": "Oczyszcza organizm i zwiększa witalność."
+            }
+        }
+    }
+}

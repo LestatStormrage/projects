@@ -1,0 +1,31 @@
+{
+	"_metaTitle": "Kylskåp",
+	"_metaDescription": "Utforska vårt sortiment av professionella kylskåp och automatiserade försäljningsmoduler som gör produktmarknadsföring mer effektiv och lönsam.",
+	"fridges-page": {
+		"introduction": {
+			"title": "Kylskåp",
+			"description": "Förutom våra premiumprodukter erbjuder vi våra partners kompletterande utrustning som gör marknadsföringen av våra produkter enklare, mer effektiv och mer lönsam."
+		},
+		"types": {
+			"title": "Typer av kylskåp:",
+			"list": {
+				"1": "Vanliga kylskåp",
+				"2": "Automatiserade försäljningsmoduler (mikromarknader) med integrerat Nayax-betalningssystem och Dynamic Scale-viktsensorteknik",
+				"3": "Mikromarknader med Dynamic Scale-viktsensorteknik (endast lagerkontroll)"
+			}
+		},
+		"payment": {
+			"title": "Betalningsalternativ",
+			"items": {
+				"1": {
+					"name": "POS",
+					"text": "Kunder öppnar mikromarknaden med ett kreditkort eller en telefon och debiteras automatiskt."
+				},
+				"2": {
+					"name": "Privat app",
+					"text": "Vi skapar en anpassad app åt dig med din logotyp och dina varumärkesfärger."
+				}
+			}
+		}
+	}
+}

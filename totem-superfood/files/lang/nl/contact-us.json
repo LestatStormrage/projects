@@ -1,0 +1,43 @@
+{
+	"_metaTitle": "Contact",
+	"_metaDescription": "Neem contact op met Totem Superfood. Vul ons contactformulier in om dealer te worden of vragen te stellen over onze producten.",
+	"contact-us": {
+		"title": "Neem contact met ons op om dealer te worden!",
+		"form": {
+			"title": "Gebruik dit formulier om ons een e-mail te sturen",
+			"interest": {
+				"title": "Ik ben geïnteresseerd in:",
+				"smoothies": "Smoothies",
+				"kombucha": "Kombucha",
+				"fruit-infusion-drinks": "Fruitinfusiedranken"
+			},
+			"salutation": {
+				"label": "Hoe mogen wij u aanspreken? *",
+				"mr": "Dhr.",
+				"mrs": "Mevr."
+			},
+			"firstName": {
+				"label": "Voornaam *:",
+				"placeholder": "Voornaam"
+			},
+			"lastName": {
+				"label": "Achternaam *:",
+				"placeholder": "Achternaam"
+			},
+			"email": {
+				"label": "E-mail *:",
+				"placeholder": "E-mail"
+			},
+			"addInfo": {
+				"label": "Aanvullende informatie:",
+				"placeholder": "Aanvullende informatie"
+			},
+			"agreement": {
+				"text": "Ik ga akkoord met het verzamelen, verwerken of gebruiken van mijn persoonsgegevens in overeenstemming met het",
+				"link": "privacybeleid"
+			},
+			"required": "* Verplicht",
+			"button": "Verzenden"
+		}
+	}
+}

@@ -1,0 +1,178 @@
+{
+	"_metaTitle": "Liqberry",
+	"_metaDescription": "Pasta jagodowa LiQberry jest tworzona przy użyciu innowacyjnej technologii hydro-termo-dynamicznej. Ta metoda przetwarzania jagód nie ma odpowiedników na świecie.",
+	"liqberry": {
+		"header": {
+			"title": "liqberry",
+			"subtitle": "Co jest tak wyjątkowego w LiQberry?",
+			"text": {
+				"1": "Pasta jagodowa LiQberry jest tworzona przy użyciu innowacyjnej technologii hydro-termo-dynamicznej. Ta metoda przetwarzania jagód nie ma odpowiedników na świecie.",
+				"2": "Jagody są rozdrabniane przy użyciu pulsującego ciśnienia. Podczas tego procesu nasiona są rozbijane, co pozwala na uwolnienie ich zawartości – oleju jagodowego – do pasty i jego przyswajanie przez organizm. Gdy świeże jagody są spożywane w naturalnej formie, nasiona przechodzą przez układ trawienny bez wchłaniania.",
+				"3": "Proces produkcji odbywa się bez dostępu tlenu i bez dodatku konserwantów, cukru, wody ani sztucznych barwników, z zastosowaniem pasteryzacji w niskiej temperaturze."
+			}
+		},
+		"seeds": {
+			"title": "Zawartość cennych substancji w nasionach borówki",
+			"list": {
+				"1": "Wielonienasycone kwasy tłuszczowe Omega-3-6-9",
+				"2": "Witaminy rozpuszczalne w tłuszczach A i E",
+				"3": "Sterole",
+				"4": "Unikalne białko, aminokwasy",
+				"5": "Silne biologicznie aktywne substancje"
+			}
+		},
+		"packaging": {
+			"title": "Dostępne opakowania:",
+			"doypack": {
+				"name": "Doypack",
+				"size": "100g"
+			},
+			"jar": {
+				"name": "Słoik",
+				"size": "545g"
+			},
+			"show-button": "Pokaż"
+		},
+		"blueberry-paste": {
+			"title": "Pasta borówkowa",
+			"type": "Liqberry",
+			"text": {
+				"1": "Nasza pasta borówkowa powstaje w 100% z całych borówek i zachowuje naturalny skład owoców w skoncentrowanej formie. Dzięki delikatnej metodzie przetwarzania zachowane zostają cenne związki roślinne naturalnie występujące w borówkach.",
+				"2": "Borówki są naturalnie bogate w przeciwutleniacze, które są szeroko znane ze swojej roli w ochronie komórek przed stresem oksydacyjnym. Zawierają także kwas chlorogenowy i antocyjany – naturalne barwniki odpowiedzialne za głęboki kolor owoców i przedmiot badań w naukach o żywieniu.",
+				"3": "Nasza pasta borówkowa jest ceniona przez konsumentów, którzy stawiają na czysty skład, transparentność i naturalne produkty spożywcze. Można ją spożywać samodzielnie lub dodawać do smoothie, jogurtu czy kreatywnych zastosowań kulinarnych."
+			},
+			"list": {
+				"title": "Dzięki zmieleniu całej jagody – w tym miąższu, skórki i nasion – pasta:",
+				"1": "zachowuje pełny naturalny profil owocu,",
+				"2": "łatwo wpisuje się w zbilansowaną, prozdrowotną dietę,",
+				"3": "nie zawiera dodatku cukru, konserwantów ani sztucznych dodatków."
+			}
+		},
+		"raspberry-paste": {
+			"title": "Pasta malinowa",
+			"type": "Liqberry",
+			"text": {
+				"1": "Nasza pasta malinowa powstaje w 100% z całych malin, zachowując charakterystyczny aromat owoców i naturalne związki roślinne w skoncentrowanej formie. Delikatne przetwarzanie zachowuje właściwości malin, które od dawna cenione są jako element zbilansowanej diety.",
+				"2": "Maliny naturalnie zawierają kwasy roślinne, polifenole i związki aromatyczne, które są szeroko badane w naukach o żywieniu. Dzięki naturalnemu składowi maliny często pojawiają się w świadomych koncepcjach żywieniowych oraz w okresach zwiększonego wysiłku fizycznego lub obciążenia środowiskowego.",
+				"3": "Jej bogaty, owocowy smak sprawia, że doskonale nadaje się do spożycia samodzielnie, w ciepłych napojach, jogurcie, smoothie lub kreatywnych zastosowaniach kulinarnych."
+			},
+			"list": {
+				"title": "Pasta malinowa:",
+				"1": "zachowuje pełny profil owocu dzięki przetwarzaniu miąższu, skórki i nasion,",
+				"2": "łatwo wpisuje się w prozdrowotną codzienną dietę,",
+				"3": "nie zawiera dodatku cukru, konserwantów ani sztucznych dodatków."
+			}
+		},
+		"strawberry-paste": {
+			"title": "Pasta truskawkowa",
+			"type": "Liqberry",
+			"text": {
+				"1": "Nasza pasta truskawkowa powstaje w 100% z całych truskawek, zachowując naturalną równowagę miąższu, skórki i nasion. Truskawki cenione są za naturalną zawartość minerałów, witamin i związków roślinnych, co czyni je popularnym elementem zbilansowanej i świadomej diety.",
+				"2": "Truskawki naturalnie zawierają minerały takie jak żelazo, magnez, potas, wapń i cynk, a także witaminę C, witaminę B5 i kwas foliowy. Dostarczają również przeciwutleniaczy roślinnych, które mogą wspierać naturalne mechanizmy obronne organizmu przed stresem oksydacyjnym jako element zdrowego stylu życia.",
+				"3": "Jej świeży, owocowy smak sprawia, że idealnie nadaje się do spożycia samodzielnie, w jogurcie, smoothie lub jako składnik kreatywnych zastosowań kulinarnych."
+			},
+			"list": {
+				"title": "Pasta truskawkowa:",
+				"1": "zachowuje pełny profil owocu dzięki przetwarzaniu całego owocu,",
+				"2": "łatwo wpisuje się w prozdrowotną codzienną rutynę,",
+				"3": "nie zawiera dodatku cukru, konserwantów ani sztucznych dodatków."
+			}
+		},
+		"blackberry-paste": {
+			"title": "Pasta jeżynowa",
+			"type": "Liqberry",
+			"text": {
+				"1": "Nasza pasta jeżynowa powstaje w 100% z całych jeżyn, zachowując pełny naturalny profil owocu, w tym miąższ, skórkę i nasiona. Jeżyny cenione są za zawartość witaminy E, polifenoli i innych związków roślinnych, co czyni je wartościowym elementem zbilansowanej diety.",
+				"2": "Witamina E pomaga chronić komórki przed stresem oksydacyjnym, a naturalne związki roślinne nadają owocom ich bogaty charakter. W ramach świadomego stylu życia jeżyny mogą wspierać różnorodność diety i przyjemność z jedzenia.",
+				"3": "Idealna do spożycia samodzielnie, w jogurcie, płatkach, smoothie lub jako premium składnik nowoczesnych koncepcji żywieniowych."
+			},
+			"list": {
+				"title": "Pasta jeżynowa:",
+				"1": "zachowuje pełny profil odżywczy dzięki przetwarzaniu całego owocu,",
+				"2": "oferuje intensywny, autentyczny smak jagód,",
+				"3": "nie zawiera dodatku cukru, konserwantów ani sztucznych dodatków."
+			}
+		},
+		"blackcurrant-paste": {
+			"title": "Pasta z czarnej porzeczki",
+			"type": "Liqberry",
+			"text": {
+				"1": "Nasza pasta z czarnej porzeczki powstaje w 100% z całych owoców, zachowując pełny naturalny profil jagód, w tym miąższ, skórkę i nasiona. Czarna porzeczka ceniona jest za wysoką zawartość witaminy C, polifenoli i innych korzystnych związków roślinnych.",
+				"2": "Te naturalnie występujące składniki odżywcze wspierają codzienną równowagę żywieniową i są szeroko doceniane jako element różnorodnej i świadomej diety. Czarna porzeczka od dawna kojarzona jest ze świadomym odżywianiem i aktywnym stylem życia.",
+				"3": "Idealna do spożycia samodzielnie, z jogurtem lub płatkami, w smoothie lub jako premium składnik koncepcji żywności funkcjonalnej."
+			},
+			"list": {
+				"title": "Pasta z czarnej porzeczki:",
+				"1": "zachowuje pełne spektrum jagody dzięki przetwarzaniu całego owocu,",
+				"2": "wspiera różnorodność diety dzięki naturalnym związkom roślinnym,",
+				"3": "nie zawiera dodatku cukru, konserwantów ani sztucznych dodatków."
+			}
+		},
+		"sea-buckthorn": {
+			"title": "Pasta z rokitnika",
+			"type": "Liqberry",
+			"text": {
+				"1": "Nasza pasta z rokitnika powstaje w 100% z całych owoców rokitnika, zachowując naturalną równowagę miąższu, skórki i nasion. Rokitnik ceniony jest za naturalnie bogaty skład witamin, mikro- i makroskładników, co czyni go popularnym składnikiem świadomej i zbilansowanej diety.",
+				"2": "Charakterystyczną cechą rokitnika jest naturalna zawartość oleju rokitnikowego, który zawiera rozpuszczalne w tłuszczach związki roślinne tradycyjnie doceniane jako element urozmaiconej diety.",
+				"3": "Idealna do wzbogacenia codziennej diety — do spożycia samodzielnie, w smoothie, miskach śniadaniowych lub nowoczesnych funkcjonalnych przepisach."
+			},
+			"list": {
+				"title": "Pasta z rokitnika:",
+				"1": "zachowuje pełny profil jagody, w tym nasiona,",
+				"2": "naturalnie zawiera beta-karoten, witaminę E i witaminę C,",
+				"3": "nie zawiera dodatku cukru, konserwantów, dodanej wody ani sztucznych dodatków."
+			}
+		},
+		"cherry-paste": {
+			"type": "Liqberry",
+			"title": "Pasta wiśniowa",
+			"text": {
+				"1": "Pasta wiśniowa to w 100% homogenizowany produkt owocowy, wytwarzany z całych wiśni z drobno przetworzonymi składnikami owoców. Zachowuje naturalny profil odżywczy owocu i stanowi funkcjonalne uzupełnienie zbilansowanej diety."
+			},
+			"list": {
+				"1": {
+					"title": "Wiśnie naturalnie stanowią źródło:",
+					"1": "polifenoli i antocyjanów,",
+					"2": "kwasów organicznych,",
+					"3": "witamin (szczególnie witaminy C i witamin z grupy B),",
+					"4": "potasu i innych minerałów,",
+					"5": "błonnika pokarmowego i pektyn."
+				},
+				"2": {
+					"title": "W ramach świadomego podejścia do żywienia pasta wiśniowa jest tradycyjnie ceniona za:",
+					"1": "wspieranie prawidłowego funkcjonowania mięśni i stawów,",
+					"2": "towarzyszenie regeneracji po aktywności fizycznej,",
+					"3": "wspieranie prawidłowych procesów metabolicznych,",
+					"4": "wkład w równowagę antyoksydacyjną organizmu."
+				},
+				"3": {
+					"title": "Ze względu na zawartość naturalnych związków roślinnych pasta wiśniowa jest także powszechnie kojarzona z:",
+					"1": "wspieraniem funkcji układu sercowo-naczyniowego,",
+					"2": "udziałem w prawidłowym krążeniu,",
+					"3": "oraz wspieraniem zdrowego rytmu snu i czuwania."
+				},
+				"4": {
+					"title": "Pasta wiśniowa:",
+					"1": "nie zawiera dodatku cukru,",
+					"2": "jest wolna od konserwantów, dodanej wody i sztucznych dodatków,",
+					"3": "i doskonale wpisuje się w naturalną, roślinną, ukierunkowaną na wydajność koncepcję żywienia."
+				}
+			}
+		},
+		"aronia-paste": {
+			"type": "Liqberry",
+			"title": "Pasta aroniowa",
+			"text": {
+				"1": "Nasza pasta aroniowa powstaje w 100% z całych owoców aronii, zachowując pełny profil jagody, w tym miąższ, skórkę i nasiona. Aronia ceniona jest za naturalnie wysoką zawartość polifenoli roślinnych, które są szeroko doceniane jako element zbilansowanej diety.",
+				"2": "Tradycyjnie aronia pojawia się w koncepcjach żywieniowych ukierunkowanych na równowagę sercowo-naczyniową i wsparcie metabolizmu, w kontekście różnorodnego i świadomego stylu życia.",
+				"3": "Idealna dla osób ceniących intensywny charakter jagód i różnorodność roślin w codziennej diecie — do spożycia samodzielnie lub jako element nowoczesnych przepisów."
+			},
+			"list": {
+				"title": "Pasta aroniowa:",
+				"1": "naturalnie zawiera bioaktywne związki roślinne,",
+				"2": "uzupełnia zbilansowaną i świadomą dietę,",
+				"3": "nie zawiera dodatku cukru, konserwantów, dodanej wody ani sztucznych dodatków."
+			}
+		}
+	}
+}

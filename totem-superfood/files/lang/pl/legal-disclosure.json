@@ -1,0 +1,23 @@
+{
+	"_metaTitle": "Nota prawna",
+	"_metaDescription": "Oficjalne informacje o firmie i dane rejestracyjne Totem Superfood.",
+	"legal-disclosure": {
+		"title": "Nota prawna",
+		"companyName": {
+			"label": "Nazwa firmy:",
+			"value": "T.O.T.E.M. OÜ"
+		},
+		"companyId": {
+			"label": "Numer rejestracyjny firmy:",
+			"value": "17245036, Wydział Rejestracji Sądu Okręgowego w Tartu, 20 maja 2025 r."
+		},
+		"representative": {
+			"label": "Kierownik/przedstawiciel firmy:",
+			"value": "Valerii Dinarin"
+		},
+		"address": {
+			"label": "Adres rejestracyjny firmy:",
+			"value": "Harju maakond, Kuusalu vald, Pudisoo küla, Männimäe/1, 74626, Estonia"
+		}
+	}
+}

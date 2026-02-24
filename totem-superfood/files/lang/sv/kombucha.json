@@ -1,0 +1,152 @@
+{
+    "_metaTitle": "Kombucha",
+    "_metaDescription": "Upptäck våra läckra smoothies och stöd din aktiva livsstil.",
+    "kombucha": {
+        "main-title": "Kombucha",
+        "description": "En legendarisk tedryck från det forntida Orienten. SCOBY – en symbiotisk kultur av jäst och nyttiga bakterier – fermenterar aromatiskt te och skapar en välsmakande, naturligt hälsosam kolsyrad dryck. I det antika Japan kallades kombucha för ”Odödlighetens te”. I Korea har den använts sedan urminnes tider i föryngrande skönhetsbehandlingar, och i Kina var den kejsarnas dryck.",
+        "classic-green": {
+            "type": "Kombucha",
+            "title": "Classic Green",
+            "text": {
+                "1": "Naturliga ingredienser: filtrerat vatten, koncentrerad äppeljuice, grönt te, socker, kombuchakultur.",
+                "2": "Rekommenderad förvaringstemperatur: +6°C till +25°C.",
+                "3": "Konsumeras inom 48 timmar efter öppning.",
+                "4": "Vid känslighet för syra, drick utspädd eller i små mängder."
+            },
+            "list": {
+                "title": "Näringsvärden per 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Kolhydrater – 4,0 g",
+                "5": "Socker – 4,0 g"
+            }
+        },
+        "ginger": {
+            "type": "Kombucha",
+            "title": "Ingefära",
+            "text": {
+                "1": "Naturliga ingredienser: filtrerat vatten, koncentrerad äppeljuice (20 %), grönt te, ingefära, gurkmejekoncentrat, socker, citronsaft, kombuchakultur.",
+                "2": "Rekommenderad förvaringstemperatur: +6°C till +25°C.",
+                "3": "Konsumeras inom 48 timmar efter öppning.",
+                "4": "Vid känslighet för syra, drick utspädd eller i små mängder."
+            },
+            "list": {
+                "title": "Näringsvärden per 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Kolhydrater – 4,0 g",
+                "5": "Socker – 4,0 g"
+            }
+        },
+        "hibiscus": {
+            "type": "Kombucha",
+            "title": "Hibiskus",
+            "text": {
+                "1": "Naturliga ingredienser: filtrerat vatten, koncentrerad äppeljuice, svart te, grönt te, hibiskusblommor, socker, kombuchakultur.",
+                "2": "Rekommenderad förvaringstemperatur: +6°C till +25°C.",
+                "3": "Konsumeras inom 48 timmar efter öppning.",
+                "4": "Vid känslighet för syra, drick utspädd eller i små mängder."
+            },
+            "list": {
+                "title": "Näringsvärden per 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Kolhydrater – 4,0 g",
+                "5": "Socker – 4,0 g"
+            }
+        },
+        "jasmine": {
+            "type": "Kombucha",
+            "title": "Jasmin",
+            "text": {
+                "1": "Naturliga ingredienser: filtrerat vatten, koncentrerad äppeljuice, grönt te, jasminblommor, socker, kombuchakultur.",
+                "2": "Rekommenderad förvaringstemperatur: +6°C till +25°C.",
+                "3": "Konsumeras inom 48 timmar efter öppning.",
+                "4": "Vid känslighet för syra, drick utspädd eller i små mängder."
+            },
+            "list": {
+                "title": "Näringsvärden per 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Kolhydrater – 4,0 g",
+                "5": "Socker – 4,0 g"
+            }
+        },
+        "lavender": {
+            "type": "Kombucha",
+            "title": "Lavendel",
+            "text": {
+                "1": "Naturliga ingredienser: filtrerat vatten, koncentrerad äppeljuice (20 %), grönt te, klitoriablommor, svart te, lavendelblommor, socker, kombuchakultur.",
+                "2": "Rekommenderad förvaringstemperatur: +6°C till +25°C.",
+                "3": "Konsumeras inom 48 timmar efter öppning.",
+                "4": "Vid känslighet för syra, drick utspädd eller i små mängder."
+            },
+            "list": {
+                "title": "Näringsvärden per 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Kolhydrater – 4,0 g",
+                "5": "Socker – 4,0 g"
+            }
+        },
+        "lemongrass": {
+            "type": "Kombucha",
+            "title": "Citrongräs",
+            "text": {
+                "1": "Naturliga ingredienser: filtrerat vatten, koncentrerad äppeljuice, svart te, citrongräs, socker, kombuchakultur.",
+                "2": "Rekommenderad förvaringstemperatur: +6°C till +25°C.",
+                "3": "Konsumeras inom 48 timmar efter öppning.",
+                "4": "Vid känslighet för syra, drick utspädd eller i små mängder."
+            },
+            "list": {
+                "title": "Näringsvärden per 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Kolhydrater – 4,0 g",
+                "5": "Socker – 4,0 g"
+            }
+        },
+        "passion-fruit": {
+            "type": "Kombucha",
+            "title": "Passionsfrukt",
+            "text": {
+                "1": "Naturliga ingredienser: filtrerat vatten, koncentrerad äppeljuice, grönt te, passionsfrukt, socker, citronsaft, kombuchakultur.",
+                "2": "Rekommenderad förvaringstemperatur: +6°C till +25°C.",
+                "3": "Konsumeras inom 48 timmar efter öppning.",
+                "4": "Vid känslighet för syra, drick utspädd eller i små mängder."
+            },
+            "list": {
+                "title": "Näringsvärden per 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Kolhydrater – 4,0 g",
+                "5": "Socker – 4,0 g"
+            }
+        },
+        "yuzu": {
+            "type": "Kombucha",
+            "title": "Yuzu",
+            "text": {
+                "1": "Naturliga ingredienser: filtrerat vatten, koncentrerad äppeljuice, grönt te, yuzujuice, socker, kombuchakultur.",
+                "2": "Rekommenderad förvaringstemperatur: +6°C till +25°C.",
+                "3": "Konsumeras inom 48 timmar efter öppning.",
+                "4": "Vid känslighet för syra, drick utspädd eller i små mängder."
+            },
+            "list": {
+                "title": "Näringsvärden per 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Kolhydrater – 4,0 g",
+                "5": "Socker – 4,0 g"
+            }
+        }
+    }
+}

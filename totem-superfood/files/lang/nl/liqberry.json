@@ -1,0 +1,178 @@
+{
+	"_metaTitle": "Liqberry",
+	"_metaDescription": "LiQberry-bessenpasta wordt gemaakt met een innovatieve hydro-thermo-dynamische technologie. Deze verwerkingsmethode voor bessen heeft geen equivalenten in de wereld.",
+	"liqberry": {
+		"header": {
+			"title": "liqberry",
+			"subtitle": "Wat maakt LiQberry zo uniek?",
+			"text": {
+				"1": "LiQberry-bessenpasta wordt gemaakt met een innovatieve hydro-thermo-dynamische technologie. Deze verwerkingsmethode voor bessen heeft geen equivalenten in de wereld.",
+				"2": "De bessen worden vermalen met pulserende druk. Tijdens dit proces worden de zaden gebroken, waardoor hun inhoud — bosbessenolie — vrijkomt in de pasta en door het lichaam kan worden opgenomen. Wanneer verse bessen in hun natuurlijke vorm worden gegeten, passeren de zaden het spijsverteringsstelsel zonder opgenomen te worden.",
+				"3": "Het productieproces vindt plaats zonder toegang tot zuurstof en zonder toevoeging van conserveermiddelen, suiker, water of kunstmatige kleurstoffen, met behulp van pasteurisatie bij lage temperatuur."
+			}
+		},
+		"seeds": {
+			"title": "De inhoud van nuttige stoffen in bosbessenzaden",
+			"list": {
+				"1": "Meervoudig onverzadigde vetzuren Omega-3-6-9",
+				"2": "Vetoplosbare vitamines A en E",
+				"3": "Sterolen",
+				"4": "Uniek eiwit, aminozuren",
+				"5": "Krachtige biologisch actieve stoffen"
+			}
+		},
+		"packaging": {
+			"title": "Beschikbare verpakkingen:",
+			"doypack": {
+				"name": "Doypack",
+				"size": "100 g"
+			},
+			"jar": {
+				"name": "Pot",
+				"size": "545 g"
+			},
+			"show-button": "Tonen"
+		},
+		"blueberry-paste": {
+			"title": "Bosbessenpasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Onze bosbessenpasta wordt gemaakt van 100% hele bosbessen en behoudt de natuurlijke samenstelling van het fruit in geconcentreerde vorm. Dankzij een zachte verwerkingsmethode blijven de waardevolle plantaardige stoffen die van nature in bosbessen voorkomen behouden.",
+				"2": "Bosbessen zijn van nature rijk aan antioxidanten, die algemeen erkend worden vanwege hun rol bij het beschermen van cellen tegen oxidatieve stress. Ze bevatten ook chlorogeenzuur en anthocyanen, de natuurlijke pigmenten die verantwoordelijk zijn voor de diepe kleur van de bes en onderwerp zijn van lopend voedingsonderzoek.",
+				"3": "Onze bosbessenpasta wordt gewaardeerd door consumenten die waarde hechten aan pure ingrediënten, transparantie en natuurlijke voedingsproducten. Het kan puur worden gegeten of gebruikt in smoothies, yoghurt of creatieve culinaire toepassingen."
+			},
+			"list": {
+				"title": "Door de hele bes te malen — inclusief vruchtvlees, schil en zaden —:",
+				"1": "blijft het volledige natuurlijke bessenprofiel behouden,",
+				"2": "past het gemakkelijk in een evenwichtige, gezondheidsbewuste voeding,",
+				"3": "bevat het geen toegevoegde suiker, geen conserveermiddelen en geen kunstmatige toevoegingen."
+			}
+		},
+		"raspberry-paste": {
+			"title": "Frambozenpasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Onze frambozenpasta wordt geproduceerd van 100% hele frambozen en vangt het karakteristieke aroma en de natuurlijke plantaardige stoffen van het fruit in geconcentreerde vorm. Zachte verwerking behoudt de typische eigenschappen van frambozen, die al lang gewaardeerd worden als onderdeel van een uitgebalanceerd dieet.",
+				"2": "Frambozen bevatten van nature plantenzuren, polyfenolen en aromatische verbindingen, die veel onderzocht worden in de voedingswetenschap. Dankzij hun natuurlijke samenstelling worden frambozen vaak opgenomen in bewuste voedingsconcepten en periodes met verhoogde fysieke of omgevingsbelasting.",
+				"3": "De rijke, fruitige smaak maakt het geschikt om puur te eten, in warme dranken, yoghurt, smoothies of creatieve culinaire toepassingen."
+			},
+			"list": {
+				"title": "De frambozenpasta:",
+				"1": "behoudt het volledige bessenprofiel door verwerking van vruchtvlees, schil en zaden,",
+				"2": "past gemakkelijk in een gezondheidsbewuste dagelijkse voeding,",
+				"3": "bevat geen toegevoegde suiker, geen conserveermiddelen en geen kunstmatige toevoegingen."
+			}
+		},
+		"strawberry-paste": {
+			"title": "Aardbeienpasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Onze aardbeienpasta wordt geproduceerd van 100% hele aardbeien en behoudt de natuurlijke balans van vruchtvlees, schil en zaden. Aardbeien worden gewaardeerd om hun natuurlijke gehalte aan mineralen, vitamines en plantaardige stoffen, waardoor ze een populair onderdeel zijn van een gebalanceerd en bewust dieet.",
+				"2": "Aardbeien bevatten van nature mineralen zoals ijzer, magnesium, kalium, calcium en zink, evenals vitamine C, vitamine B5 en folaat. Ze leveren ook antioxidatieve plantaardige stoffen, die als onderdeel van een gezonde levensstijl de natuurlijke afweer van het lichaam tegen oxidatieve stress kunnen ondersteunen.",
+				"3": "De frisse, fruitige smaak maakt het ideaal om puur te eten, in yoghurt, smoothies of als ingrediënt in creatieve culinaire toepassingen."
+			},
+			"list": {
+				"title": "De aardbeienpasta:",
+				"1": "behoudt het volledige bessenprofiel door verwerking van de hele vrucht,",
+				"2": "past gemakkelijk in een gezondheidsbewuste dagelijkse routine,",
+				"3": "bevat geen toegevoegde suiker, geen conserveermiddelen en geen kunstmatige toevoegingen."
+			}
+		},
+		"blackberry-paste": {
+			"title": "Bramenpasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Onze bramenpasta wordt gemaakt van 100% hele bramen en behoudt het volledige natuurlijke bessenprofiel inclusief vruchtvlees, schil en zaden. Bramen worden gewaardeerd om hun gehalte aan vitamine E, polyfenolen en andere plantaardige stoffen, waardoor ze een gerespecteerd onderdeel zijn van een uitgebalanceerd dieet.",
+				"2": "Vitamine E helpt cellen beschermen tegen oxidatieve stress, terwijl natuurlijk voorkomende plantaardige stoffen bijdragen aan het rijke karakter van de bes. Als onderdeel van een bewuste levensstijl kunnen bramen bijdragen aan voedingsvariatie en genot.",
+				"3": "Perfect om puur te eten, in yoghurt, granen, smoothies of als premium ingrediënt in moderne voedingsconcepten."
+			},
+			"list": {
+				"title": "De bramenpasta:",
+				"1": "vangt het volledige voedingsprofiel door verwerking van de hele vrucht,",
+				"2": "biedt een intense, authentieke bessensmaak,",
+				"3": "bevat geen toegevoegde suiker, geen conserveermiddelen en geen kunstmatige toevoegingen."
+			}
+		},
+		"blackcurrant-paste": {
+			"title": "Zwartebessenpasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Onze zwartebessenpasta wordt gemaakt van 100% hele zwarte bessen en behoudt het volledige natuurlijke bessenprofiel inclusief vruchtvlees, schil en zaden. Zwarte bessen worden gewaardeerd om hun hoge gehalte aan vitamine C, polyfenolen en andere gunstige plantaardige stoffen.",
+				"2": "Deze van nature aanwezige voedingsstoffen dragen bij aan de dagelijkse voedingsbalans en worden breed gewaardeerd als onderdeel van een gevarieerd en bewust dieet. Zwarte bessen worden al lang geassocieerd met bewuste voeding en een actieve levensstijl.",
+				"3": "Perfect om puur te eten, met yoghurt of granen, in smoothies of als premium ingrediënt in functionele voedingsconcepten."
+			},
+			"list": {
+				"title": "De zwartebessenpasta:",
+				"1": "vangt het volledige bessenspectrum door verwerking van de hele vrucht,",
+				"2": "ondersteunt voedingsvariatie met natuurlijk voorkomende plantaardige stoffen,",
+				"3": "bevat geen toegevoegde suiker, geen conserveermiddelen en geen kunstmatige toevoegingen."
+			}
+		},
+		"sea-buckthorn": {
+			"title": "Duindoornpasta",
+			"type": "Liqberry",
+			"text": {
+				"1": "Onze duindoornpasta wordt gemaakt van 100% hele duindoornbessen en behoudt de natuurlijke balans van vruchtvlees, schil en zaden. Duindoorn wordt gewaardeerd om zijn van nature rijke samenstelling van vitamines, micro- en macronutriënten, waardoor het een populair ingrediënt is in bewuste en gebalanceerde voeding.",
+				"2": "Een kenmerkende eigenschap van duindoorn is het natuurlijke gehalte aan duindoornolie, die vetoplosbare plantaardige stoffen bevat die traditioneel gewaardeerd worden als onderdeel van een gevarieerd dieet.",
+				"3": "Perfect om de dagelijkse voeding te verrijken — puur te eten, in smoothies, ontbijtbowls of moderne functionele recepten."
+			},
+			"list": {
+				"title": "De duindoornpasta:",
+				"1": "vangt het volledige bessenprofiel, inclusief de zaden,",
+				"2": "bevat van nature bètacaroteen, vitamine E en vitamine C,",
+				"3": "bevat geen toegevoegde suiker, geen conserveermiddelen, geen toegevoegd water en geen kunstmatige toevoegingen."
+			}
+		},
+		"cherry-paste": {
+			"type": "Liqberry",
+			"title": "Kersenpasta",
+			"text": {
+				"1": "Kersenpasta is een 100% gehomogeniseerd fruitproduct, gemaakt van hele kersen met fijn verwerkte fruitcomponenten. Het behoudt het natuurlijke voedingsprofiel van de vrucht en dient als een functionele aanvulling op een gebalanceerd dieet."
+			},
+			"list": {
+				"1": {
+					"title": "Kersen zijn van nature een bron van:",
+					"1": "polyfenolen en anthocyanen,",
+					"2": "organische zuren,",
+					"3": "vitamines (met name vitamine C en B-vitamines),",
+					"4": "kalium en andere mineralen,",
+					"5": "voedingsvezels en pectines."
+				},
+				"2": {
+					"title": "Als onderdeel van een bewuste voedingsbenadering wordt kersenpasta traditioneel gewaardeerd voor:",
+					"1": "ondersteuning van een normale spier- en gewrichtsfunctie,",
+					"2": "begeleiding van herstel na lichamelijke activiteit,",
+					"3": "ondersteuning van normale stofwisselingsprocessen,",
+					"4": "bijdrage aan de antioxidantenbalans van het lichaam."
+				},
+				"3": {
+					"title": "Vanwege het gehalte aan natuurlijke plantaardige stoffen wordt kersenpasta ook vaak geassocieerd met:",
+					"1": "ondersteuning van de cardiovasculaire functie,",
+					"2": "bijdrage aan een normale bloedsomloop,",
+					"3": "en ondersteuning van een gezond slaap-waakritme."
+				},
+				"4": {
+					"title": "Kersenpasta:",
+					"1": "bevat geen toegevoegde suiker,",
+					"2": "is vrij van conserveermiddelen, toegevoegd water en kunstmatige toevoegingen,",
+					"3": "en past perfect in een natuurlijk, plantaardig en prestatiegericht voedingsconcept."
+				}
+			}
+		},
+		"aronia-paste": {
+			"type": "Liqberry",
+			"title": "Aroniapasta",
+			"text": {
+				"1": "Onze aroniapasta wordt gemaakt van 100% hele aroniabessen en behoudt het volledige bessenprofiel inclusief vruchtvlees, schil en zaden. Aronia wordt gewaardeerd om zijn van nature hoge gehalte aan plantaardige polyfenolen, die breed gewaardeerd worden als onderdeel van een gebalanceerd dieet.",
+				"2": "Traditioneel wordt aronia opgenomen in voedingsconcepten gericht op cardiovasculaire balans en metabole ondersteuning, binnen de context van een gevarieerde en bewuste levensstijl.",
+				"3": "Perfect voor wie waarde hecht aan een intens bessenk karakter en plantaardige diversiteit in de dagelijkse voeding — puur te eten of als onderdeel van moderne recepten."
+			},
+			"list": {
+				"title": "De aroniapasta:",
+				"1": "bevat van nature plantaardige bioactieve stoffen,",
+				"2": "vormt een aanvulling op een gebalanceerd en bewust dieet,",
+				"3": "bevat geen toegevoegde suiker, geen conserveermiddelen, geen toegevoegd water en geen kunstmatige toevoegingen."
+			}
+		}
+	}
+}

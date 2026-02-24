@@ -1,0 +1,43 @@
+{
+	"_metaTitle": "Kontakta oss",
+	"_metaDescription": "Kontakta Totem Superfood. Fyll i vårt kontaktformulär för att bli återförsäljare eller ställa frågor om våra produkter.",
+	"contact-us": {
+		"title": "Kontakta oss för att bli vår återförsäljare!",
+		"form": {
+			"title": "Använd detta formulär för att skicka oss e-post",
+			"interest": {
+				"title": "Jag är intresserad av:",
+				"smoothies": "Smoothies",
+				"kombucha": "Kombucha",
+				"fruit-infusion-drinks": "Fruktinfusionsdrycker"
+			},
+			"salutation": {
+				"label": "Hur ska vi tilltala dig? *",
+				"mr": "Herr",
+				"mrs": "Fru"
+			},
+			"firstName": {
+				"label": "Förnamn *:",
+				"placeholder": "Förnamn"
+			},
+			"lastName": {
+				"label": "Efternamn *:",
+				"placeholder": "Efternamn"
+			},
+			"email": {
+				"label": "E-post *:",
+				"placeholder": "E-post"
+			},
+			"addInfo": {
+				"label": "Ytterligare information:",
+				"placeholder": "Ytterligare information"
+			},
+			"agreement": {
+				"text": "Jag samtycker till insamling, behandling eller användning av mina personuppgifter i enlighet med",
+				"link": "integritetspolicyn"
+			},
+			"required": "* Obligatoriskt",
+			"button": "Skicka"
+		}
+	}
+}
