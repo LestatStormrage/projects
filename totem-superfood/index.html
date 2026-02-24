@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Thejungle-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Norse-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Home Page</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1771234176904"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1771234176904">
+		<link rel="modulepreload" crossorigin="" href="./js/cookies.min.js?v=1771234176904">
+		<link rel="modulepreload" crossorigin="" href="./js/watcher.min.js?v=1771234176904">
+		<link rel="stylesheet" crossorigin="" href="./css/cookies.min.css?v=1771234176904">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1771234176904">
+	</head>
+	<body>
+		<div class="cookie-consent" id="cookieConsent" style="display: none;">
+			<div class="cookie-consent__body">
+				<div class="cookie-consent__text" data-i18n="cookies.text">This website uses cookies to improve your experience.</div>
+				<button class="cookie-consent__button button" id="acceptCookies">
+					<a data-i18n="cookies.accept">Accept</a>
+				</button>
+			</div>
+		</div>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<div class="header__logo">
+						<img src="./assets/img/logo/logo-main.svg" alt="logo">
+					</div>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item menu__item--active">
+									<a href="index" class="menu__link" data-i18n="menu.link.home">
+										<span>Home</span>
+									</a>
+								</li>
+								<li class="menu__item menu__parent">
+									<!-- <div class="menu__category" data-i18n="menu.parent.products">Products</div> -->
+									<div class="menu__parent-body">
+										<input type="checkbox" id="menu-products" class="menu__input">
+										<label class="menu__category" for="menu-products" data-i18n="menu.parent.products">Products</label>
+										<div class="menu__submenu submenu">
+											<div class="submenu__body">
+												<ul class="submenu__list">
+													<li class="submenu__item">
+														<a href="smoothies" class="submenu__link" data-i18n="submenu.link.smoothies">
+															<span>Smoothies</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="kombucha" class="submenu__link" data-i18n="submenu.link.kombucha">
+															<span>Kombucha</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="fruit-infusion-drinks" class="submenu__link" data-i18n="submenu.link.fruit-infusion-drinks">
+															<span>Fruit infusion drinks</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="liqberry" class="submenu__link" data-i18n="submenu.link.liqberry">
+															<span>Liqberry</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="menu__item menu__parent">
+									<div class="menu__parent-body">
+										<input type="checkbox" id="menu-retail-equipment" class="menu__input">
+										<label class="menu__category" for="menu-retail-equipment" data-i18n="menu.parent.retail-equipment">Retail Equipment</label>
+										<!-- <div class="menu__category" data-i18n="menu.parent.retail-equipment">Retail Equipment</div> -->
+										<div class="menu__submenu submenu">
+											<div class="submenu__body">
+												<ul class="submenu__list">
+													<li class="submenu__item">
+														<a href="floor-displays" class="submenu__link" data-i18n="submenu.link.floor-displays">
+															<span>Floor Displays</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="fridges" class="submenu__link" data-i18n="submenu.link.fridges">
+															<span>Fridges</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<!-- {"href": "history","ancor": "History", "i18n": "menu.link.history"}, -->
+								<li class="menu__item">
+									<a href="about-us" class="menu__link" data-i18n="menu.link.about-us">About us</a>
+								</li>
+								<li class="menu__item">
+									<a href="contact-us" class="menu__link" data-i18n="menu.link.contact-us">Contact us</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+					<!-- <div data-fls-dynamic=".menu__body, 1199.98" class="header__settings"> -->
+					<div data-fls-dynamic=".header__container, 1199.98, 0" class="header__settings">
+						<!--
+<div class="header__language-dropdown dropdown" tabindex="0">
+<button id="dropdown-btn"></button>
+<ul class="dropdown-content" id="dropdown-content"></ul>
+</div>
+-->
+						<div class="header__language-dropdown dropdown">
+							<button id="dropdown-btn" type="button"></button>
+							<ul class="dropdown-content" id="dropdown-content"></ul>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="main-page">
+				<section data-fls-prlx-parent="" data-fls-watcher="" data-fls-watcher-once="" class="main-page__top-banner top-banner bg-1">
+					<div class="top-banner__container">
+						<div class="top-banner__media">
+							<picture>
+								<img class="top-banner__mask" alt="totem mask" src="./assets/img/masks/2d/1.webp">
+							</picture>
+							<picture>
+								<img class="top-banner__mask" alt="totem mask" src="./assets/img/masks/2d/2.webp">
+							</picture>
+							<img class="top-banner__logo" src="./assets/img/logo/logo-main.svg" alt="totem logo">
+							<picture>
+								<img class="top-banner__mask" alt="totem mask" src="./assets/img/masks/2d/3.webp">
+							</picture>
+							<picture>
+								<img class="top-banner__mask" alt="totem mask" src="./assets/img/masks/2d/4.webp">
+							</picture>
+						</div>
+						<h1 class="top-banner__title title" data-i18n="top-banner__title">Smart Nutrition. Natural Power. Ancient Roots.</h1>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="main-page__smoothies smoothies">
+					<div class="smoothies__container">
+						<div class="smoothies__content">
+							<div class="smoothies__title" data-i18n="smoothies__title">
+								<span>Support</span>
+								your active
+								<span>lifestyle</span>
+								with our
+								<span>smoothies</span>
+							</div>
+							<div class="smoothies__button-container button-container">
+								<div class="smoothies__button button">
+									<a href="smoothies" data-i18n="smoothies__button">View all</a>
+								</div>
+							</div>
+						</div>
+						<div class="smoothies__image">
+							<picture>
+								<source media="(max-width: 1200px)" srcset="./assets/img/packaging/smoothies-1200.webp" type="image/webp">
+								<img alt="smoothies" src="./assets/img/packaging/smoothies.webp">
+							</picture>
+						</div>
+					</div>
+				</section>
+				<!--
+<section data-fls-watcher data-fls-watcher-once class="superfood-page__packaging packaging">
+<div class="packaging__container">
+<h2 class="packaging__title title title--medium" data-i18n="packaging__title">Totem Custom Packaging</h2>
+<div class="packaging__description" data-i18n="packaging__description">All types of packaging are presented as a concept; each package can contain any of our
+smoothies or detox drinks.</div>
+<ul class="packaging__list">
+<li class="packaging__item"><img src="@img/packaging/3.webp" alt="Image"></li>
+<li class="packaging__item"><img src="@img/packaging/8.webp" alt="Image"></li>
+<li class="packaging__item"><img src="@img/packaging/11.webp" alt="Image"></li>
+<li class="packaging__item"><img src="@img/packaging/9.webp" alt="Image"></li>
+<li class="packaging__item"><img src="@img/packaging/7.webp" alt="Image"></li>
+</ul>
+</div>
+</section>
+-->
+				<section data-fls-watcher="" data-fls-watcher-once="" class="main-page__kombucha kombucha-main-page bg-2">
+					<div class="kombucha-main-page__container">
+						<!-- <h2 class="kombucha-main-page__title title title--big">And check out our kombucha!</h2> -->
+						<div class="kombucha-main-page__header">
+							<!-- <div class="kombucha-main-page__logo"> -->
+							<img class="kombucha-main-page__logo" src="./assets/img/logo/symbol.svg" alt="logo">
+							<!-- </div> -->
+							<figure class="kombucha-main-page__main-image">
+								<picture>
+									<img class="kombucha-main-page__main-image-item is-active" alt="classic green" data-flavor="classic-green" src="./assets/img/products/kombucha/classic-green.webp">
+								</picture>
+								<picture>
+									<img class="kombucha-main-page__main-image-item" alt="ginger" data-flavor="ginger" src="./assets/img/products/kombucha/ginger.webp">
+								</picture>
+								<picture>
+									<img class="kombucha-main-page__main-image-item" alt="hibiscus" data-flavor="hibiscus" src="./assets/img/products/kombucha/hibiscus.webp">
+								</picture>
+								<picture>
+									<img class="kombucha-main-page__main-image-item" alt="jasmine" data-flavor="jasmine" src="./assets/img/products/kombucha/jasmine.webp">
+								</picture>
+								<picture>
+									<img class="kombucha-main-page__main-image-item" alt="lavender" data-flavor="lavender" src="./assets/img/products/kombucha/lavender.webp">
+								</picture>
+								<picture>
+									<img class="kombucha-main-page__main-image-item" alt="lemongrass" data-flavor="lemongrass" src="./assets/img/products/kombucha/lemongrass.webp">
+								</picture>
+								<picture>
+									<img class="kombucha-main-page__main-image-item" alt="passion fruit" data-flavor="passion-fruit" src="./assets/img/products/kombucha/passion-fruit.webp">
+								</picture>
+								<picture>
+									<img class="kombucha-main-page__main-image-item" alt="yuzu" data-flavor="yuzu" src="./assets/img/products/kombucha/yuzu.webp">
+								</picture>
+							</figure>
+							<figure class="kombucha-main-page__name">
+								<picture>
+									<img class="kombucha-main-page__name-item is-active" alt="classic green" data-flavor="classic-green" src="./assets/img/products/kombucha/names/classic-green.webp">
+								</picture>
+								<picture>
+									<img class="kombucha-main-page__name-item" alt="ginger" data-flavor="ginger" src="./assets/img/products/kombucha/names/ginger.webp">
+								</picture>
+								<picture>
+									<img class="kombucha-main-page__name-item" alt="hibiscus" data-flavor="hibiscus" src="./assets/img/products/kombucha/names/hibiscus.webp">
+								</picture>
+								<picture>
+									<img class="kombucha-main-page__name-item" alt="jasmine" data-flavor="jasmine" src="./assets/img/products/kombucha/names/jasmine.webp">
+								</picture>
+								<picture>
+									<img class="kombucha-main-page__name-item" alt="lavender" data-flavor="lavender" src="./assets/img/products/kombucha/names/lavender.webp">
+								</picture>
+								<picture>
+									<img class="kombucha-main-page__name-item" alt="lemongrass" data-flavor="lemongrass" src="./assets/img/products/kombucha/names/lemongrass.webp">
+								</picture>
+								<picture>
+									<img class="kombucha-main-page__name-item" alt="passion fruit" data-flavor="passion-fruit" src="./assets/img/products/kombucha/names/passion-fruit.webp">
+								</picture>
+								<picture>
+									<img class="kombucha-main-page__name-item" alt="yuzu" data-flavor="yuzu" src="./assets/img/products/kombucha/names/yuzu.webp">
+								</picture>
+							</figure>
+						</div>
+						<ul class="kombucha-main-page__gallery gallery-main-page">
+							<li class="gallery-main-page__item is-active" data-flavor="classic-green">
+								<picture>
+									<img class="gallery-main-page__image" alt="classic green" src="./assets/img/products/kombucha/thumbnails/classic-green.webp">
+								</picture>
+							</li>
+							<li class="gallery-main-page__item" data-flavor="ginger">
+								<picture>
+									<img class="gallery-main-page__image" alt="ginger" src="./assets/img/products/kombucha/thumbnails/ginger.webp">
+								</picture>
+							</li>
+							<li class="gallery-main-page__item" data-flavor="hibiscus">
+								<picture>
+									<img class="gallery-main-page__image" alt="hibiscus" src="./assets/img/products/kombucha/thumbnails/hibiscus.webp">
+								</picture>
+							</li>
+							<li class="gallery-main-page__item" data-flavor="jasmine">
+								<picture>
+									<img class="gallery-main-page__image" alt="jasmine" src="./assets/img/products/kombucha/thumbnails/jasmine.webp">
+								</picture>
+							</li>
+							<li class="gallery-main-page__item" data-flavor="lavender">
+								<picture>
+									<img class="gallery-main-page__image" alt="lavender" src="./assets/img/products/kombucha/thumbnails/lavender.webp">
+								</picture>
+							</li>
+							<li class="gallery-main-page__item" data-flavor="lemongrass">
+								<picture>
+									<img class="gallery-main-page__image" alt="lemongrass" src="./assets/img/products/kombucha/thumbnails/lemongrass.webp">
+								</picture>
+							</li>
+							<li class="gallery-main-page__item" data-flavor="passion-fruit">
+								<picture>
+									<img class="gallery-main-page__image" alt="passion fruit" src="./assets/img/products/kombucha/thumbnails/passion-fruit.webp">
+								</picture>
+							</li>
+							<li class="gallery-main-page__item" data-flavor="yuzu">
+								<picture>
+									<img class="gallery-main-page__image" alt="yuzu" src="./assets/img/products/kombucha/thumbnails/yuzu.webp">
+								</picture>
+							</li>
+						</ul>
+						<div class="kombucha-main-page__button-container button-container">
+							<div class="kombucha-main-page__button button">
+								<a href="kombucha" data-i18n="smoothies__button">View all</a>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<ul class="footer__list">
+						<li class="footer__item">
+							<a href="privacy-policy.html" target="_blank" class="footer__link" data-i18n="footer.privacy">Privacy policy</a>
+						</li>
+						<li class="footer__item">
+							<a href="legal-disclosure.html" target="_blank" class="footer__link" data-i18n="footer.legal">Legal Disclosure</a>
+						</li>
+						<li class="footer__item">
+							<a href="https://www.linkedin.com/company/totem-superfood/?viewAsMember=true" target="_blank" class="footer__link" data-i18n="footer.linkedin">LinkedIn</a>
+						</li>
+						<li class="footer__item">
+							<a href="mailto:info@totem-superfood.com" class="footer__link" data-i18n="footer.email">info@totem-superfood.com</a>
+						</li>
+					</ul>
+					<div class="footer__logo">
+						<img src="./assets/img/logo/logo-main.svg" alt="logo">
+					</div>
+					<div class="footer__back-to-top">
+						<span data-i18n="footer.backTo">Back to</span>
+						<div class="button-container button-container--footer">
+							<div id="back-to-top" class="footer__button button">
+								<a data-i18n="footer.top">top</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<picture>
+					<source media="(max-width: 1200px)" srcset="./assets/img/background/1-1200.webp" type="image/webp">
+					<img class="footer__background" alt="bg" src="./assets/img/background/1.webp">
+				</picture>
+			</footer>
+		</div>
+	</body>
+</html>

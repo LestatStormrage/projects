@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Thejungle-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Norse-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Floor Displays</title>
+		<script type="module" crossorigin="" src="./js/common.min.js?v=1771234176902"></script>
+		<script type="module" crossorigin="" src="./js/cookies.min.js?v=1771234176902"></script>
+		<script type="module" crossorigin="" src="./js/watcher.min.js?v=1771234176902"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/cookies.min.css?v=1771234176902">
+		<link rel="stylesheet" crossorigin="" href="./css/floor-displays.min.css?v=1771234176902">
+	</head>
+	<body>
+		<div class="cookie-consent" id="cookieConsent" style="display: none;">
+			<div class="cookie-consent__body">
+				<div class="cookie-consent__text" data-i18n="cookies.text">This website uses cookies to improve your experience.</div>
+				<button class="cookie-consent__button button" id="acceptCookies">
+					<a data-i18n="cookies.accept">Accept</a>
+				</button>
+			</div>
+		</div>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<a class="header__logo" href="index.html">
+						<img class="" src="./assets/img/logo/logo-main.svg" alt="logo">
+					</a>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="index" class="menu__link" data-i18n="menu.link.home">
+										<span>Home</span>
+									</a>
+								</li>
+								<li class="menu__item menu__parent">
+									<!-- <div class="menu__category" data-i18n="menu.parent.products">Products</div> -->
+									<div class="menu__parent-body">
+										<input type="checkbox" id="menu-products" class="menu__input">
+										<label class="menu__category" for="menu-products" data-i18n="menu.parent.products">Products</label>
+										<div class="menu__submenu submenu">
+											<div class="submenu__body">
+												<ul class="submenu__list">
+													<li class="submenu__item">
+														<a href="smoothies" class="submenu__link" data-i18n="submenu.link.smoothies">
+															<span>Smoothies</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="kombucha" class="submenu__link" data-i18n="submenu.link.kombucha">
+															<span>Kombucha</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="fruit-infusion-drinks" class="submenu__link" data-i18n="submenu.link.fruit-infusion-drinks">
+															<span>Fruit infusion drinks</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="liqberry" class="submenu__link" data-i18n="submenu.link.liqberry">
+															<span>Liqberry</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="menu__item menu__parent">
+									<div class="menu__parent-body">
+										<input type="checkbox" id="menu-retail-equipment" class="menu__input">
+										<label class="menu__category" for="menu-retail-equipment" data-i18n="menu.parent.retail-equipment">Retail Equipment</label>
+										<!-- <div class="menu__category" data-i18n="menu.parent.retail-equipment">Retail Equipment</div> -->
+										<div class="menu__submenu submenu">
+											<div class="submenu__body">
+												<ul class="submenu__list">
+													<li class="submenu__item submenu__item--active">
+														<a href="floor-displays" class="submenu__link" data-i18n="submenu.link.floor-displays">
+															<span>Floor Displays</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="fridges" class="submenu__link" data-i18n="submenu.link.fridges">
+															<span>Fridges</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<!-- {"href": "history","ancor": "History", "i18n": "menu.link.history"}, -->
+								<li class="menu__item">
+									<a href="about-us" class="menu__link" data-i18n="menu.link.about-us">About us</a>
+								</li>
+								<li class="menu__item">
+									<a href="contact-us" class="menu__link" data-i18n="menu.link.contact-us">Contact us</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+					<!-- <div data-fls-dynamic=".menu__body, 1199.98" class="header__settings"> -->
+					<div data-fls-dynamic=".header__container, 1199.98, 0" class="header__settings">
+						<!--
+<div class="header__language-dropdown dropdown" tabindex="0">
+<button id="dropdown-btn"></button>
+<ul class="dropdown-content" id="dropdown-content"></ul>
+</div>
+-->
+						<div class="header__language-dropdown dropdown">
+							<button id="dropdown-btn" type="button"></button>
+							<ul class="dropdown-content" id="dropdown-content"></ul>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="floor-displays-page">
+				<section data-fls-watcher="" data-fls-watcher-once="" class="floor-displays__presentation presentation-floor-displays">
+					<div class="presentation-floor-displays__container">
+						<h1 class="presentation-floor-displays__title title title--medium" data-i18n="floor-displays.title">Floor displays</h1>
+						<div class="presentation-floor-displays__body">
+							<div class="presentation-floor-displays__image">
+								<picture>
+									<img class="presentation-floor-displays__image-item" alt="Image" src="./assets/img/shelves/1-01.webp">
+								</picture>
+							</div>
+							<div class="presentation-floor-displays__image">
+								<picture>
+									<img class="presentation-floor-displays__image-item" alt="Image" src="./assets/img/shelves/1-02.webp">
+								</picture>
+							</div>
+							<div class="presentation-floor-displays__image">
+								<picture>
+									<img class="presentation-floor-displays__image-item" alt="Image" src="./assets/img/shelves/1-03.webp">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="floor-displays__presentation presentation-floor-displays">
+					<div class="presentation-floor-displays__container">
+						<div class="presentation-floor-displays__body">
+							<div class="presentation-floor-displays__image">
+								<picture>
+									<img class="presentation-floor-displays__image-item" alt="Image" src="./assets/img/shelves/2-01.webp">
+								</picture>
+							</div>
+							<div class="presentation-floor-displays__image">
+								<picture>
+									<img class="presentation-floor-displays__image-item" alt="Image" src="./assets/img/shelves/2-02.webp">
+								</picture>
+							</div>
+							<div class="presentation-floor-displays__image">
+								<picture>
+									<img class="presentation-floor-displays__image-item" alt="Image" src="./assets/img/shelves/2-03.webp">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="floor-displays__presentation presentation-floor-displays">
+					<div class="presentation-floor-displays__container">
+						<div class="presentation-floor-displays__body">
+							<div class="presentation-floor-displays__image">
+								<picture>
+									<img class="presentation-floor-displays__image-item" alt="Image" src="./assets/img/shelves/3-01.webp">
+								</picture>
+							</div>
+							<div class="presentation-floor-displays__image">
+								<picture>
+									<img class="presentation-floor-displays__image-item" alt="Image" src="./assets/img/shelves/3-02.webp">
+								</picture>
+							</div>
+							<div class="presentation-floor-displays__image">
+								<picture>
+									<img class="presentation-floor-displays__image-item" alt="Image" src="./assets/img/shelves/3-03.webp">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="floor-displays__presentation presentation-floor-displays">
+					<div class="presentation-floor-displays__container">
+						<div class="presentation-floor-displays__body">
+							<div class="presentation-floor-displays__image">
+								<picture>
+									<img class="presentation-floor-displays__image-item" alt="Image" src="./assets/img/shelves/4-01.webp">
+								</picture>
+							</div>
+							<div class="presentation-floor-displays__image">
+								<picture>
+									<img class="presentation-floor-displays__image-item" alt="Image" src="./assets/img/shelves/4-02.webp">
+								</picture>
+							</div>
+							<div class="presentation-floor-displays__image">
+								<picture>
+									<img class="presentation-floor-displays__image-item" alt="Image" src="./assets/img/shelves/4-03.webp">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="floor-displays__presentation presentation-floor-displays">
+					<div class="presentation-floor-displays__container">
+						<div class="presentation-floor-displays__body">
+							<div class="presentation-floor-displays__image">
+								<picture>
+									<img class="presentation-floor-displays__image-item" alt="Image" src="./assets/img/shelves/5-01.webp">
+								</picture>
+							</div>
+							<div class="presentation-floor-displays__image">
+								<picture>
+									<img class="presentation-floor-displays__image-item" alt="Image" src="./assets/img/shelves/5-02.webp">
+								</picture>
+							</div>
+							<div class="presentation-floor-displays__image">
+								<picture>
+									<img class="presentation-floor-displays__image-item" alt="Image" src="./assets/img/shelves/5-03.webp">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="floor-displays__presentation presentation-floor-displays">
+					<div class="presentation-floor-displays__container">
+						<div class="presentation-floor-displays__body">
+							<div class="presentation-floor-displays__image">
+								<picture>
+									<img class="presentation-floor-displays__image-item" alt="Image" src="./assets/img/shelves/6-01.webp">
+								</picture>
+							</div>
+							<div class="presentation-floor-displays__image">
+								<picture>
+									<img class="presentation-floor-displays__image-item" alt="Image" src="./assets/img/shelves/6-02.webp">
+								</picture>
+							</div>
+							<div class="presentation-floor-displays__image">
+								<picture>
+									<img class="presentation-floor-displays__image-item" alt="Image" src="./assets/img/shelves/6-03.webp">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<ul class="footer__list">
+						<li class="footer__item">
+							<a href="privacy-policy.html" target="_blank" class="footer__link" data-i18n="footer.privacy">Privacy policy</a>
+						</li>
+						<li class="footer__item">
+							<a href="legal-disclosure.html" target="_blank" class="footer__link" data-i18n="footer.legal">Legal Disclosure</a>
+						</li>
+						<li class="footer__item">
+							<a href="https://www.linkedin.com/company/totem-superfood/?viewAsMember=true" target="_blank" class="footer__link" data-i18n="footer.linkedin">LinkedIn</a>
+						</li>
+						<li class="footer__item">
+							<a href="mailto:info@totem-superfood.com" class="footer__link" data-i18n="footer.email">info@totem-superfood.com</a>
+						</li>
+					</ul>
+					<div class="footer__logo">
+						<img src="./assets/img/logo/logo-main.svg" alt="logo">
+					</div>
+					<div class="footer__back-to-top">
+						<span data-i18n="footer.backTo">Back to</span>
+						<div class="button-container button-container--footer">
+							<div id="back-to-top" class="footer__button button">
+								<a data-i18n="footer.top">top</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<picture>
+					<source media="(max-width: 1200px)" srcset="./assets/img/background/1-1200.webp" type="image/webp">
+					<img class="footer__background" alt="bg" src="./assets/img/background/1.webp">
+				</picture>
+			</footer>
+		</div>
+	</body>
+</html>

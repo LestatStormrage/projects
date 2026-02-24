@@ -1,0 +1,1297 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Thejungle-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Norse-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Fruit infusion drinks</title>
+		<script type="module" crossorigin="" src="./js/fruit-infusion-drinks.min.js?v=1771234176903"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1771234176903">
+		<link rel="modulepreload" crossorigin="" href="./js/cookies.min.js?v=1771234176903">
+		<link rel="modulepreload" crossorigin="" href="./js/watcher.min.js?v=1771234176903">
+		<link rel="stylesheet" crossorigin="" href="./css/cookies.min.css?v=1771234176903">
+		<link rel="stylesheet" crossorigin="" href="./css/fruit-infusion-drinks.min.css?v=1771234176903">
+	</head>
+	<body>
+		<div class="cookie-consent" id="cookieConsent" style="display: none;">
+			<div class="cookie-consent__body">
+				<div class="cookie-consent__text" data-i18n="cookies.text">This website uses cookies to improve your experience.</div>
+				<button class="cookie-consent__button button" id="acceptCookies">
+					<a data-i18n="cookies.accept">Accept</a>
+				</button>
+			</div>
+		</div>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<a class="header__logo" href="index.html">
+						<img class="" src="./assets/img/logo/logo-main.svg" alt="logo">
+					</a>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="index" class="menu__link" data-i18n="menu.link.home">
+										<span>Home</span>
+									</a>
+								</li>
+								<li class="menu__item menu__parent">
+									<!-- <div class="menu__category" data-i18n="menu.parent.products">Products</div> -->
+									<div class="menu__parent-body">
+										<input type="checkbox" id="menu-products" class="menu__input">
+										<label class="menu__category" for="menu-products" data-i18n="menu.parent.products">Products</label>
+										<div class="menu__submenu submenu">
+											<div class="submenu__body">
+												<ul class="submenu__list">
+													<li class="submenu__item">
+														<a href="smoothies" class="submenu__link" data-i18n="submenu.link.smoothies">
+															<span>Smoothies</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="kombucha" class="submenu__link" data-i18n="submenu.link.kombucha">
+															<span>Kombucha</span>
+														</a>
+													</li>
+													<li class="submenu__item submenu__item--active">
+														<a href="fruit-infusion-drinks" class="submenu__link" data-i18n="submenu.link.fruit-infusion-drinks">
+															<span>Fruit infusion drinks</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="liqberry" class="submenu__link" data-i18n="submenu.link.liqberry">
+															<span>Liqberry</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="menu__item menu__parent">
+									<div class="menu__parent-body">
+										<input type="checkbox" id="menu-retail-equipment" class="menu__input">
+										<label class="menu__category" for="menu-retail-equipment" data-i18n="menu.parent.retail-equipment">Retail Equipment</label>
+										<!-- <div class="menu__category" data-i18n="menu.parent.retail-equipment">Retail Equipment</div> -->
+										<div class="menu__submenu submenu">
+											<div class="submenu__body">
+												<ul class="submenu__list">
+													<li class="submenu__item">
+														<a href="floor-displays" class="submenu__link" data-i18n="submenu.link.floor-displays">
+															<span>Floor Displays</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="fridges" class="submenu__link" data-i18n="submenu.link.fridges">
+															<span>Fridges</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<!-- {"href": "history","ancor": "History", "i18n": "menu.link.history"}, -->
+								<li class="menu__item">
+									<a href="about-us" class="menu__link" data-i18n="menu.link.about-us">About us</a>
+								</li>
+								<li class="menu__item">
+									<a href="contact-us" class="menu__link" data-i18n="menu.link.contact-us">Contact us</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+					<!-- <div data-fls-dynamic=".menu__body, 1199.98" class="header__settings"> -->
+					<div data-fls-dynamic=".header__container, 1199.98, 0" class="header__settings">
+						<!--
+<div class="header__language-dropdown dropdown" tabindex="0">
+<button id="dropdown-btn"></button>
+<ul class="dropdown-content" id="dropdown-content"></ul>
+</div>
+-->
+						<div class="header__language-dropdown dropdown">
+							<button id="dropdown-btn" type="button"></button>
+							<ul class="dropdown-content" id="dropdown-content"></ul>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="products-page">
+				<section class="products-page__header header-products-page">
+					<div class="header-products-page__container">
+						<h1 class="header-products-page__title title" data-i18n="yogoda.main-title">Fruit infusion drinks</h1>
+						<div class="header-products-page__body">
+							<div class="header-products-page__content">
+								<div class="header-products-page__text">
+									<p data-i18n="yogoda.description-1">
+										Created for people who value natural ingredients, functional benefits, and maximum convenience in everyday life.
+							Our fruit infusion blends are made from 100% natural ingredients: carefully selected berries, fruits, ginger, honey, and
+							spices. We do not change what nature has created. Instead, we refine it — making it clearer, more functional, and easier
+							to integrate into a modern, dynamic lifestyle.
+							Through gentle processing, we preserve intense flavors, high nutrient density, and natural properties, while ensuring
+							effortless preparation. The result is a natural, tea-like beverage that adapts perfectly to different situations, seasons,
+							and needs.
+									</p>
+									<p data-i18n="yogoda.description-2">
+										These fruit infusion drinks are intentionally created to be exceptionally convenient and versatile:
+									</p>
+								</div>
+								<ul class="header-products-page__list">
+									<li class="header-products-page__bullet-point" data-i18n="yogoda.bullet-point.1">At the office or home</li>
+									<li class="header-products-page__bullet-point" data-i18n="yogoda.bullet-point.2">During long journeys and short trips</li>
+									<li class="header-products-page__bullet-point" data-i18n="yogoda.bullet-point.3">In airplanes, trains, buses, or cars</li>
+									<li class="header-products-page__bullet-point" data-i18n="yogoda.bullet-point.4">At festivals, in campers, or while camping</li>
+									<li class="header-products-page__bullet-point" data-i18n="yogoda.bullet-point.5">While traveling by canoe or kayak</li>
+									<li class="header-products-page__bullet-point" data-i18n="yogoda.bullet-point.6">In hotels - in the morning or in the evening</li>
+									<li class="header-products-page__bullet-point" data-i18n="yogoda.bullet-point.7">During long meetings, presentations,
+							conferences, or training sessions</li>
+								</ul>
+							</div>
+							<figure class="header-products-page__media">
+								<picture>
+									<img class="header-products-page__image" alt="Image" src="./assets/img/products/yogoda/banner.webp">
+								</picture>
+							</figure>
+						</div>
+						<div class="header-products-page__seasons seasons-product-page">
+							<div class="seasons-product-page__item">
+								<div class="seasons-product-page__title title title--small" data-i18n="yogoda.seasons.summer.title">In summer</div>
+								<div class="seasons-product-page__text" data-i18n="yogoda.seasons.summer.text">
+									Add cold water and enjoy a refreshing, vitalizing drink that boosts energy and brings
+						natural freshness.
+								</div>
+							</div>
+							<div class="seasons-product-page__item">
+								<div class="seasons-product-page__title title title--small" data-i18n="yogoda.seasons.winter.title">In winter</div>
+								<div class="seasons-product-page__text" data-i18n="yogoda.seasons.winter.text">
+									Add hot water and enjoy a warming beverage that supports the immune system and revitalizes
+						both body and mind.
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="products__products-block products-block">
+					<!--
+<div class="products-page__header header-products-page">
+<h1 class="header-products-page__title title title--big" data-i18n="yogoda.main-title">Yogoda</h1>
+<div class="header-products-page__description" data-i18n="yogoda.description">
+We offer a carefully curated selection of high-quality fruit drink blends made from berries, fruits, ginger, honey, and selected
+spices - designed for preparing a natural, tea-like beverage. Our products are made from 100% natural ingredients. We do not alter
+what
+nature has created; instead, we make it clearer, more functional, and suitable for everyday use. Gentle processing preserves intense
+flavors, a high nutrient density, and ease of preparation - ideal for a modern, dynamic lifestyle.
+</div>
+</div>
+-->
+					<div class="products-block__container">
+						<h2 class="products-block__title title title--medium" data-i18n="yogoda.classic.title">Classic</h2>
+						<ul class="products-block__list">
+							<li class="products-block__item product" data-product="cherry-tea-with-chocolate">
+								<div class="product__image">
+									<picture>
+										<img alt="Cherry tea with chocolate" src="./assets/img/products/yogoda/1.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.cherry-tea-with-chocolate.name">Cherry tea with chocolate</h3>
+							</li>
+							<li class="products-block__item product" data-product="tea-with-blueberries-and-lavender">
+								<div class="product__image">
+									<picture>
+										<img alt="Tea with blueberries and lavender" src="./assets/img/products/yogoda/2.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.tea-with-blueberries-and-lavender.name">Tea with blueberries and lavender</h3>
+							</li>
+							<li class="products-block__item product" data-product="sea-buckthorn-tea-with-apricot">
+								<div class="product__image">
+									<picture>
+										<img alt="Sea buckthorn tea with apricot" src="./assets/img/products/yogoda/3.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.sea-buckthorn-tea-with-apricot.name">Sea buckthorn tea with apricot</h3>
+							</li>
+							<li class="products-block__item product" data-product="ginger-tea">
+								<div class="product__image">
+									<picture>
+										<img alt="Ginger tea" src="./assets/img/products/yogoda/4.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.ginger-tea.name">Ginger tea</h3>
+							</li>
+							<li class="products-block__item product" data-product="cranberry-tea">
+								<div class="product__image">
+									<picture>
+										<img alt="cranberry-tea" src="./assets/img/products/yogoda/5.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.cranberry-tea.name">Cranberry tea</h3>
+							</li>
+							<li class="products-block__item product" data-product="sea-buckthorn-tea">
+								<div class="product__image">
+									<picture>
+										<img alt="Sea buckthorn tea" src="./assets/img/products/yogoda/6.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.sea-buckthorn-tea.name">Sea buckthorn tea</h3>
+							</li>
+							<li class="products-block__item product" data-product="raspberry-tea">
+								<div class="product__image">
+									<picture>
+										<img alt="Raspberry tea" src="./assets/img/products/yogoda/7.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.raspberry-tea.name">Raspberry tea</h3>
+							</li>
+							<li class="products-block__item product" data-product="currant-tea">
+								<div class="product__image">
+									<picture>
+										<img alt="Currant tea" src="./assets/img/products/yogoda/8.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.currant-tea.name">Currant tea</h3>
+							</li>
+							<li class="products-block__item product" data-product="matcha-tea-coconut-latte">
+								<div class="product__image">
+									<picture>
+										<img alt="Matcha tea coconut latte" src="./assets/img/products/yogoda/9.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.matcha-tea-coconut-latte.name">Matcha tea coconut latte</h3>
+							</li>
+						</ul>
+						<div class="products-block__popups product-popups">
+							<button class="product-popups__close">✖</button>
+							<ul class="product-popups__body">
+								<li class="product-popup" data-product="cherry-tea-with-chocolate">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Cherry tea with chocolate" src="./assets/img/products/yogoda/1.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.cherry-tea-with-chocolate.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.cherry-tea-with-chocolate.name">Cherry tea with chocolate</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.cherry-tea-with-chocolate.description-text-01">
+												The first sip reveals a deep, velvety cocoa flavor created by the grated chocolate. Next comes a bright cherry
+									sourness that plays on the contrast, making the flavor vibrant and juicy. Finally, there is the subtle warmth of
+									cayenne pepper, which enhances each note without disturbing the delicacy.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.cherry-tea-with-chocolate.description-text-02">
+												Ingredients: cherries (deep-frozen berries), grated cocoa (natural chocolate), concentrated pomegranate juice,
+									sugar, glucose-fructose syrup, cayenne pepper.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="tea-with-blueberries-and-lavender">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Tea with blueberries and lavender" src="./assets/img/products/yogoda/2.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.tea-with-blueberries-and-lavender.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.tea-with-blueberries-and-lavender.name">Tea with blueberries and
+								lavender</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.tea-with-blueberries-and-lavender.description-text-01">
+												A soft, sweet blueberry base - like ripe berries freshly picked from the forest - lends a light honeyed tinge.
+									Lavender brings a floral lightness and soothing fragrance, creating a feeling of deep relaxation. Finally, there
+									is the subtle acidity of pomegranate, which adds sophistication and subtly enhances the delicacy of the flavor
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.tea-with-blueberries-and-lavender.description-text-02">
+												Ingredients: blueberries (berries), concentrated pomegranate juice, dried lavender flowers, sugar,
+									glucose-fructose syrup.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="sea-buckthorn-tea-with-apricot">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Sea buckthorn tea with apricot" src="./assets/img/products/yogoda/3.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.sea-buckthorn-tea-with-apricot.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.sea-buckthorn-tea-with-apricot.name">Sea buckthorn tea with apricot</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.sea-buckthorn-tea-with-apricot.description-text-01">
+												The sunny acidity of sea buckthorn touches the palate first - bright, fresh, but not sharp.
+									Moments later it is embraced by the soft, velvety sweetness of apricot, like a spoonful of
+									homemade jam. Both flavors retain the natural sweetness of the berries, as if they were freshly
+									picked. Together they create the perfect balance of acidity and sweetness - natural, bright and
+									delicious.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.sea-buckthorn-tea-with-apricot.description-text-02">Ingredients: sea buckthorn (puree/berries), apricot (puree), sugar.</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="ginger-tea">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Ginger tea" src="./assets/img/products/yogoda/4.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.ginger-tea.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.ginger-tea.name">Ginger tea</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.ginger-tea.description-text-01">
+												Mrs. Nature herself created this drink for you! No artificial additives - only useful
+									ingredients: real honey, juicy lime and tart ginger. Gentle manufacturing technology plus
+									natural ingredients - the secret is simple, and the result is excellent! Bright and rich
+									palette of flavors. Here the first violin is played by ginger root. But the secret of the
+									drink's popularity is in the perfect balance: the sweetness of honey, the sourness of lime,
+									the bitterness of ginger.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.ginger-tea.description-text-02">Ingredients: fresh ginger root, fresh lime, natural honey, sugar.</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="cranberry-tea">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Cranberry tea" src="./assets/img/products/yogoda/5.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.cranberry-tea.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.cranberry-tea.name">Cranberry tea</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.cranberry-tea.description-text-01">
+												Born from the taste and aroma of cranberries, tea retains the maximum of its nutrients. The
+									harmony of the duo of mint and lime is maintained and develops the spiciness of ginger and
+									honey. This tea not only helps to quench thirst, but also gives real pleasure.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.cranberry-tea.description-text-02">
+												Ingredients: fresh quick-frozen cranberries, natural honey, fresh lime, fresh ginger root,
+									dry anise, dry mint, sugar.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="sea-buckthorn-tea">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Sea buckthorn tea" src="./assets/img/products/yogoda/6.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.sea-buckthorn-tea.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.sea-buckthorn-tea.name">Sea buckthorn tea</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.sea-buckthorn-tea.description-text-01">
+												Happiness color drink - a real antidepressant, the warmth of the sun in each cup. The unique
+									technology of tea preparation is aimed at preserving the natural composition of all
+									ingredients. Sea buckthorn, honey, ginger, lime, cinnamon, star anise - a vitamin bomb!
+									Sea buckthorn berry reveals all its healing power, the freshness of lime is shaded by the
+									oriental hotness of ginger root, and fragrant spices are successfully combined into one
+									harmonious sound.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.sea-buckthorn-tea.description-text-02">
+												Ingredients: fresh quick-frozen sea buckthorn, fresh ginger root, fresh lime, ground
+									cinnamon, ground star anise, natural honey, sugar.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="raspberry-tea">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Raspberry tea" src="./assets/img/products/yogoda/7.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.raspberry-tea.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.raspberry-tea.name">Raspberry tea</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.raspberry-tea.description-text-01">
+												Fast, convenient, and most importantly - delicious! Each of us has childhood memories.
+									Carefree life, fun and sweet raspberries in the garden, right from the bush... Yogoda
+									raspberry tea - a sip of summer all year round! The intoxicating aroma of raspberries in
+									combination with the natural sweetness of honey is perfectly complemented by a light
+									bitterness of ginger and a cozy aroma of cinnamon.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.raspberry-tea.description-text-02">
+												Ingredients: fresh quick-frozen raspberries, fresh quick-frozen black currants, natural
+									honey, fresh ginger root, ground cinnamon, sugar.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="currant-tea">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Currant tea" src="./assets/img/products/yogoda/8.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.currant-tea.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.currant-tea.name">Currant tea</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.currant-tea.description-text-01">
+												Minimum heat treatment, maximum nutrients - berry tea is developed on this principle. Even
+									Tibetan sages praised currants for their tonic properties and rich taste. The aroma of
+									purple basil acts as a hormone of happiness, and honey is an invaluable source of vitamins
+									and trace elements. A drink of deep, dark purple color - for any day and mood!
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.currant-tea.description-text-02">Ingredients: fresh quick-frozen currants, natural honey, purple basil, sugar.</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="matcha-tea-coconut-latte">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Matcha tea coconut latte" src="./assets/img/products/yogoda/9.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.matcha-tea-coconut-latte.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.matcha-tea-coconut-latte.name">Matcha tea coconut latte</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.matcha-tea-coconut-latte.description-text-01">
+												Matcha Tea Coconut Latte is a masterfully balanced combination of traditional Japanese
+									matcha green tea and the creamy taste of natural coconut. Matcha green tea, rich in
+									antioxidants and energizing properties, acquires delicate, slightly sweet tones thanks
+									to notes of coconut. This refreshing drink not only quenches thirst, but also gives a
+									feeling of peace due to its natural composition. The combination of the softness of
+									coconut and the intensity of matcha green tea creates a unique taste experience that
+									immerses you in the atmosphere of tropical islands, bringing joy and vitality with
+									every sip.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.matcha-tea-coconut-latte.description-text-02">
+												Ingredients: drinking water, sugar, coconut paste, matcha green tea, natural rosemary
+									extract antioxidant.
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<button class="product-popups__close">✖</button>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="products__products-block products-block">
+					<div class="products-block__container">
+						<h2 class="products-block__title title title--medium" data-i18n="yogoda.immunity.title">Immunity</h2>
+						<ul class="products-block__list">
+							<li class="products-block__item product" data-product="ginger-with-goji-tea">
+								<div class="product__image">
+									<picture>
+										<img alt="Ginger with goji tea" src="./assets/img/products/yogoda/10.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.ginger-with-goji-tea.name">Ginger with goji tea</h3>
+							</li>
+							<li class="products-block__item product" data-product="ginger-with-turmeric-tea">
+								<div class="product__image">
+									<picture>
+										<img alt="Ginger with turmeric tea" src="./assets/img/products/yogoda/11.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.ginger-with-turmeric-tea.name">Ginger with turmeric tea</h3>
+							</li>
+							<li class="products-block__item product" data-product="raspberry-with-acerola-tea">
+								<div class="product__image">
+									<picture>
+										<img alt="Raspberry with acerola tea" src="./assets/img/products/yogoda/12.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.raspberry-with-acerola-tea.name">Raspberry with acerola tea</h3>
+							</li>
+							<li class="products-block__item product" data-product="raspberry-with-turmeric-tea">
+								<div class="product__image">
+									<picture>
+										<img alt="Raspberry with turmeric tea" src="./assets/img/products/yogoda/13.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.raspberry-with-turmeric-tea.name">Raspberry with turmeric tea</h3>
+							</li>
+						</ul>
+						<div class="products-block__popups product-popups">
+							<button class="product-popups__close">✖</button>
+							<ul class="product-popups__body">
+								<li class="product-popup" data-product="ginger-with-goji-tea">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Ginger with goji tea" src="./assets/img/products/yogoda/10.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.ginger-with-goji-tea.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.ginger-with-goji-tea.name">Ginger with goji tea</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.ginger-with-goji-tea.description-text-01">
+												Trend in the world of healthy eating! Goji berries are a real "must eat" today! And now
+									you can also drink them! Prevention of colds, slowing down the aging process,
+									normalization of metabolism - it's all goji. Add to this drink the legendary extract of
+									acerola and echinacea, natural honey - which is rich in vitamins and trace elements -
+									trust the new generation tea!
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.ginger-with-goji-tea.description-text-02">
+												Ingredients: fresh ginger root, fresh lime, dried goji berries, natural honey, natural
+									echinacea purple root extract, natural acerola extract (vitamin C), sugar.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="ginger-with-turmeric-tea">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Ginger with turmeric tea" src="./assets/img/products/yogoda/11.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.ginger-with-turmeric-tea.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.ginger-with-turmeric-tea.name">Ginger with turmeric tea</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.ginger-with-turmeric-tea.description-text-01">
+												A legend in the world of healthy eating! Turmeric, which has a thousand-year history - a
+									powerful preventive measure, a natural antibiotic, so it has a healing effect. And it
+									gives the drink a pleasant golden color, and the spicy taste of ginger, the sweetness of
+									natural honey and citrus acidity complement the composition of the taste. Benefit,
+									regardless of the season.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.ginger-with-turmeric-tea.description-text-02">Ingredients: fresh ginger root, fresh lime, turmeric, natural honey, sugar.</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="raspberry-with-acerola-tea">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Raspberry with acerola tea" src="./assets/img/products/yogoda/12.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.raspberry-with-acerola-tea.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.raspberry-with-acerola-tea.name">Raspberry with acerola tea</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.raspberry-with-acerola-tea.description-text-01">
+												Natural honey gives natural sweetness, raspberries - richness of taste, and echinacea
+									and acerola - guaranteed strong immunity. Fruity-berry aroma with a light, sour taste and
+									a subtle bitter-sweet aftertaste. It has an antioxidant, restorative and tonic effect.
+									Feel the joy of being healthy and full of energy!
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.raspberry-with-acerola-tea.description-text-02">
+												Ingredients: fresh quick-frozen raspberries, natural honey, fresh black currants fresh,
+									fresh ginger root, natural extract of Echinacea purpurea, natural acerola extract
+									(vitamin C), sugar.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="raspberry-with-turmeric-tea">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Raspberry with turmeric tea" src="./assets/img/products/yogoda/13.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.raspberry-with-turmeric-tea.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.raspberry-with-turmeric-tea.name">Raspberry with turmeric tea</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.raspberry-with-turmeric-tea.description-text-01">
+												The spice of cheerful color carries in itself also life-giving force. Turmeric, a relative
+									of ginger, has no equal in anti-inflammatory and antioxidant properties. Spicy turmeric
+									notes support the lively, summery taste of raspberries, the sweetness of honey, the light
+									sourness of currants, the freshness of ginger and the spice of cinnamon.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.raspberry-with-turmeric-tea.description-text-02">
+												Ingredients: fresh quick-frozen raspberries, fresh quick-frozen black currants, natural
+									honey, fresh ginger root, turmeric, ground cinnamon, sugar.
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<button class="product-popups__close">✖</button>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="products__products-block products-block">
+					<div class="products-block__container">
+						<h2 class="products-block__title title title--medium" data-i18n="yogoda.sugar-free.title">Sugar free</h2>
+						<ul class="products-block__list">
+							<li class="products-block__item product" data-product="pear-lime-thyme-tea">
+								<div class="product__image">
+									<picture>
+										<img alt="Pear, lime, thyme tea" src="./assets/img/products/yogoda/14.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.pear-lime-thyme-tea.name">Pear, lime, thyme tea</h3>
+							</li>
+							<li class="products-block__item product" data-product="aronia-melanocarpa-cornelian-cherry-chilli-tea">
+								<div class="product__image">
+									<picture>
+										<img alt="Aronia melanocarpa, cornelian cherry & chilli tea" src="./assets/img/products/yogoda/15.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.aronia-melanocarpa-cornelian-cherry-chilli-tea.name">Aronia melanocarpa, cornelian cherry & chilli tea</h3>
+							</li>
+							<li class="products-block__item product" data-product="passion-fruit-mango-nutmeg-tea">
+								<div class="product__image">
+									<picture>
+										<img alt="Passion fruit, mango, nutmeg tea" src="./assets/img/products/yogoda/16.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.passion-fruit-mango-nutmeg-tea.name">Passion fruit, mango, nutmeg tea</h3>
+							</li>
+							<li class="products-block__item product" data-product="currant-tea-2">
+								<div class="product__image">
+									<picture>
+										<img alt="Currant tea" src="./assets/img/products/yogoda/17.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.currant-tea-2.name">Currant tea</h3>
+							</li>
+							<li class="products-block__item product" data-product="sea-buckthorn-tea-2">
+								<div class="product__image">
+									<picture>
+										<img alt="Sea buckthorn tea" src="./assets/img/products/yogoda/18.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.sea-buckthorn-tea-2.name">Sea buckthorn tea</h3>
+							</li>
+							<li class="products-block__item product" data-product="ginger-tea-2">
+								<div class="product__image">
+									<picture>
+										<img alt="Ginger tea" src="./assets/img/products/yogoda/19.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.ginger-tea-2.name">Ginger tea</h3>
+							</li>
+							<li class="products-block__item product" data-product="raspberry-tea-2">
+								<div class="product__image">
+									<picture>
+										<img alt="Raspberry tea" src="./assets/img/products/yogoda/20.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.raspberry-tea-2.name">Raspberry tea</h3>
+							</li>
+						</ul>
+						<div class="products-block__popups product-popups">
+							<button class="product-popups__close">✖</button>
+							<ul class="product-popups__body">
+								<li class="product-popup" data-product="pear-lime-thyme-tea">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Pear, lime, thyme tea" src="./assets/img/products/yogoda/14.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.pear-lime-thyme-tea.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.pear-lime-thyme-tea.name">Pear, lime, thyme tea</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.pear-lime-thyme-tea.description-text-01">
+												Delicate, sour-sweet taste with the aroma of steppe weeds. Calms the nervous system,
+									protects against atherosclerosis and reduces the risk of unwanted thrombosis, normalizes
+									liver function and removes toxins.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.pear-lime-thyme-tea.description-text-02">
+												Ingredients: pear, fresh ginger root, lime, orange, dried goji berries, dried thyme,
+									natural stevia extract.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="aronia-melanocarpa-cornelian-cherry-chilli-tea">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Aronia melanocarpa, cornelian cherry & chilli tea" src="./assets/img/products/yogoda/15.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.aronia-melanocarpa-cornelian-cherry-chilli-tea.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.aronia-melanocarpa-cornelian-cherry-chilli-tea.name">Aronia melanocarpa, cornelian cherry & chilli tea</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.aronia-melanocarpa-cornelian-cherry-chilli-tea.description-text-01">
+												The drink has a pleasant aroma, sweet and sour, spicy taste with a light, astringent
+									warming continuation. Tea tones the muscular and nervous system, helps to recover quickly
+									after overload. Regulates the digestive process, activates the liver, has a good effect
+									on the endocrine system, lowers blood pressure and cholesterol, increases immunity.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.aronia-melanocarpa-cornelian-cherry-chilli-tea.description-text-02">
+												Ingredients: cornellian cherry puree, aronia melanocarpa, natural stevia extract, cayenne
+									pepper.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="passion-fruit-mango-nutmeg-tea">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Passion fruit, mango, nutmeg tea" src="./assets/img/products/yogoda/16.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.passion-fruit-mango-nutmeg-tea.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.passion-fruit-mango-nutmeg-tea.name">Passion fruit, mango, nutmeg tea</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.passion-fruit-mango-nutmeg-tea.description-text-01">
+												Tart, attractive taste of a fruit-berry cocktail, combined with subtle spicy notes of
+									nutmeg. The drink has a stimulating and tonic effect, strengthens memory and nervous
+									systems.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.passion-fruit-mango-nutmeg-tea.description-text-02">
+												Ingredients: mango puree, pumpkin, passion fruit pulp, orange, nutmeg, natural stevia
+									extract.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="currant-tea-2">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Currant tea" src="./assets/img/products/yogoda/17.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.currant-tea-2.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.currant-tea-2.name">Currant tea</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.currant-tea-2.description-text-01">
+												A deep drink of dark lavender color for any day and mood! The classic blackcurrant drink
+									comes from childhood. Spicy basil emphasizes the taste and aroma of currants, making them
+									even richer. Hot tea will warm you up, and cold tea will perfectly refresh and quench your
+									thirst in the summer heat.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.currant-tea-2.description-text-02">
+												Ingredients: pitah water, black currant, dried purple basil, acidity regulator citric
+									acid, sweetener sucralose.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="sea-buckthorn-tea-2">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Sea buckthorn tea" src="./assets/img/products/yogoda/18.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.sea-buckthorn-tea-2.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.sea-buckthorn-tea-2.name">Sea buckthorn tea</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.sea-buckthorn-tea-2.description-text-01">
+												Liquid sea buckthorn tea is a 100% natural drink made from natural ingredients. It has a
+									rich sea buckthorn and slightly spicy and tangy taste. The drink can be consumed both hot
+									and cold. In winter, this tea will provide warmth, invigorate and fill you with energy,
+									and in summer it will pleasantly refresh and quench your thirst.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.sea-buckthorn-tea-2.description-text-02">
+												Ingredients: sea buckthorn, apple, filler polydextrose (food fiber), ginger root, lime,
+									acidity regulator citric acid, ground cinnamon, ground star anise, sweetener sucralose.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="ginger-tea-2">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Ginger tea" src="./assets/img/products/yogoda/19.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.ginger-tea-2.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.ginger-tea-2.name">Ginger tea</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.ginger-tea-2.description-text-01">
+												Spicy sweet ginger, juicy sour lime - a great recipe for those who need to cheer up or warm
+									up. A boost of energy in every cup!
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.ginger-tea-2.description-text-02">
+												Ingredients: drinking water, ginger root, apple, filler polydextrose (food fiber), lime,
+									acidity regulator citric acid, sweetener sucralose.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="raspberry-tea-2">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Raspberry tea" src="./assets/img/products/yogoda/20.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.raspberry-tea-2.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.raspberry-tea-2.name">Raspberry tea</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.raspberry-tea-2.description-text-01">
+												Natural raspberry tea in bags has a rich taste and a pleasant aroma. The drink can be
+									consumed both hot and cold. Another advantage is the convenient hermetic packaging, which
+									guarantees freshness. Brewing method: open the doypack and pour the contents into a cup.
+									Then add 200 ml of boiling or cooled water. Stir and let it steep for three minutes, and
+									you're ready to enjoy your raspberry tea.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.raspberry-tea-2.description-text-02">
+												Ingredients: raspberry, black currant, ginger root, acidity regulator citric acid,
+									cinnamon, sweetener sucralose.
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<button class="product-popups__close">✖</button>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="products__products-block products-block">
+					<div class="products-block__container">
+						<h2 class="products-block__title title title--medium" data-i18n="yogoda.coctails.title">Coctails</h2>
+						<ul class="products-block__list">
+							<li class="products-block__item product" data-product="bramble">
+								<div class="product__image">
+									<picture>
+										<img alt="Bramble" src="./assets/img/products/yogoda/21.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.bramble.name">Bramble</h3>
+							</li>
+							<li class="products-block__item product" data-product="mojito">
+								<div class="product__image">
+									<picture>
+										<img alt="Mojito" src="./assets/img/products/yogoda/22.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.mojito.name">Mojito</h3>
+							</li>
+							<li class="products-block__item product" data-product="peach-bellini">
+								<div class="product__image">
+									<picture>
+										<img alt="Peach bellini" src="./assets/img/products/yogoda/23.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.peach-bellini.name">Peach bellini</h3>
+							</li>
+							<li class="products-block__item product" data-product="sea-breeze">
+								<div class="product__image">
+									<picture>
+										<img alt="Sea breeze" src="./assets/img/products/yogoda/24.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.sea-breeze.name">Sea breeze</h3>
+							</li>
+							<li class="products-block__item product" data-product="ginger-lemonade">
+								<div class="product__image">
+									<picture>
+										<img alt="Ginger lemonade" src="./assets/img/products/yogoda/25.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.ginger-lemonade.name">Ginger lemonade</h3>
+							</li>
+							<li class="products-block__item product" data-product="sea-buckthorn-lemonade">
+								<div class="product__image">
+									<picture>
+										<img alt="Sea buckthorn lemonade" src="./assets/img/products/yogoda/26.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.sea-buckthorn-lemonade.name">Sea buckthorn lemonade</h3>
+							</li>
+							<li class="products-block__item product" data-product="mango-passion-fruit">
+								<div class="product__image">
+									<picture>
+										<img alt="Mango & passion fruit" src="./assets/img/products/yogoda/27.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.mango-passion-fruit.name">Mango & passion fruit</h3>
+							</li>
+							<li class="products-block__item product" data-product="strawberry-passion-fruit">
+								<div class="product__image">
+									<picture>
+										<img alt="Strawberry & passion fruit" src="./assets/img/products/yogoda/28.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.strawberry-passion-fruit.name">Strawberry & passion fruit</h3>
+							</li>
+							<li class="products-block__item product" data-product="spicy-strawberry">
+								<div class="product__image">
+									<picture>
+										<img alt="Spicy strawberry" src="./assets/img/products/yogoda/29.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.spicy-strawberry.name">Spicy strawberry</h3>
+							</li>
+							<li class="products-block__item product" data-product="spicy-pineapple">
+								<div class="product__image">
+									<picture>
+										<img alt="Spicy pineapple" src="./assets/img/products/yogoda/30.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.spicy-pineapple.name">Spicy pineapple</h3>
+							</li>
+							<li class="products-block__item product" data-product="red-mulled-wine">
+								<div class="product__image">
+									<picture>
+										<img alt="Red mulled wine" src="./assets/img/products/yogoda/31.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="yogoda.red-mulled-wine.name">Red mulled wine</h3>
+							</li>
+						</ul>
+						<div class="products-block__popups product-popups">
+							<button class="product-popups__close">✖</button>
+							<ul class="product-popups__body">
+								<li class="product-popup" data-product="bramble">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Bramble" src="./assets/img/products/yogoda/21.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.bramble.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.bramble.name">Bramble</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.bramble.description-text-01">
+												A cocktail based on blackberries, raspberries, lemon juice, coriander, juniper berries and
+									sugar. Raspberries add sweetness and a fruity note, lemon juice adds acidity and freshness,
+									juniper berries and coriander add piquancy, and sugar enhances flavors and balances the
+									drink. Bramble cocktail is considered a drink for the whole day, a modern classic.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.bramble.description-text-02">
+												Ingredients: raspberry juice, blackberries, sugar, lemon juice, juniper berries,
+									coriander, cinnamon.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="mojito">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Mojito" src="./assets/img/products/yogoda/22.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.mojito.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.mojito.name">Mojito</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.mojito.description-text-01">
+												It is based on the classic Cuban cocktail, which consists of fresh lime juice, mint and
+									sugar. This drink is known for its refreshing and aromatic flavor palette, perfect for a
+									hot day or as an evening drink. The Mojito cocktail is usually served with ice cubes in a
+									tall glass, garnished with a sprig of mint and lemon.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.mojito.description-text-02">Ingredients: sugar, lime, mint.</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="peach-bellini">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Peach bellini" src="./assets/img/products/yogoda/23.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.peach-bellini.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.peach-bellini.name">Peach bellini</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.peach-bellini.description-text-01">
+												Created on the basis of a fresh fruit cocktail originating from Italy. We prepare it from
+									quality pieces of peaches and peach puree, raspberries, thyme and sugar. This drink is
+									famous for its delicate texture and refreshing taste, ideal for a hot day or as an
+									aperitif. In addition, the cocktail "Peach Bellini" can be tried in combination with other
+									fruit cocktails to create interesting mixes.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.peach-bellini.description-text-02">Ingredients: peach, peach juice, sugar, raspberry juice, thyme.</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="sea-breeze">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Sea breeze" src="./assets/img/products/yogoda/24.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.sea-breeze.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.sea-breeze.name">Sea breeze</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.sea-breeze.description-text-01">
+												A refreshing drink that consists of cranberry juice, grapefruit and lemon juice, and has
+									hints of honey for taste. The cocktail "Sea Breeze" has a light fruity taste with a
+									sourness from grapefruit, which makes it an ideal option for summer evenings or as a
+									refreshing drink for any time of the year. It is often served with ice cubes and tonic for
+									more freshness.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.sea-breeze.description-text-02">Ingredients: cranberries, honey, grapefruit juice, sugar, lemon juice.</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="ginger-lemonade">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Ginger lemonade" src="./assets/img/products/yogoda/25.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.ginger-lemonade.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.ginger-lemonade.name">Ginger lemonade</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.ginger-lemonade.description-text-01">
+												The bright combination of spicy ginger and fresh lime creates a rich and expressive
+									bouquet: first a gentle warmth and spiciness, then a citrus acidity that refreshes and
+									tones. The natural golden color is the result of combining only real ingredients, and the
+									taste is unforgettable. Perfect for both a quiet morning and a dynamic day.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.ginger-lemonade.description-text-02">Ingredients: fresh ginger root, fresh lime, sugar, glucose-fructose syrup.</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="sea-buckthorn-lemonade">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Sea buckthorn lemonade" src="./assets/img/products/yogoda/26.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.sea-buckthorn-lemonade.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.sea-buckthorn-lemonade.name">Sea buckthorn lemonade</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.sea-buckthorn-lemonade.description-text-01">
+												A rich sweet and sour flavor with a bright character. The first accent is the bright,
+									slightly tart acidity of sea buckthorn, as if it had just been plucked from the branch. It
+									stimulates the receptors and immediately transitions into the soft, juicy sweetness of a
+									ripe apple. And in a moment, a delicate trace of passion fruit: tropical and fragrant, this
+									drink is like freshly picked berries from the garden, cooled by a summer breeze. Lightly
+									honeyed, aromatic and very refreshing.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.sea-buckthorn-lemonade.description-text-02">
+												Ingredients: sea buckthorn (quick-frozen berries), apple, passion fruit pulp, sugar.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="mango-passion-fruit">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Mango & passion fruit" src="./assets/img/products/yogoda/27.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.mango-passion-fruit.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.mango-passion-fruit.name">Mango & passion fruit</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.mango-passion-fruit.description-text-01">
+												Ripe, juicy mango opens the flavor with a deep sweetness, as if it had just been plucked
+									from the sun. This is followed by the bright, refreshing acidity of passion fruit, which
+									adds a tropical touch. Lime completes the composition with a delicate citrus touch,
+									emphasizing balance and harmony. The aftertaste is long and juicy, with a slight citrus
+									note.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.mango-passion-fruit.description-text-02">
+												Ingredients: mango puree, passion fruit pulp, lime (fresh juice), sugar,
+									glucose-fructose syrup.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="strawberry-passion-fruit">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Strawberry & passion fruit" src="./assets/img/products/yogoda/28.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.strawberry-passion-fruit.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.strawberry-passion-fruit.name">Strawberry & passion fruit</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.strawberry-passion-fruit.description-text-01">
+												Ripe garden strawberries immediately reveal themselves in a soft, sweet wave — as
+									delicate as a summer evening. Their velvety texture evokes warm memories, and moments
+									later, passion fruit enters the game — bright, fresh, with a slight acidity that adds a
+									tropical flare. Together they create a multi-dimensional, vibrant flavor.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.strawberry-passion-fruit.description-text-02">
+												Ingredients: strawberries (frozen berries and concentrated juice), passion fruit (pulp),
+									sugar, glucose-fructose syrup.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="spicy-strawberry">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Spicy strawberry" src="./assets/img/products/yogoda/29.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.spicy-strawberry.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.spicy-strawberry.name">Spicy strawberry</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.spicy-strawberry.description-text-01">
+												Ripe, fragrant strawberries create a sincere sweetness familiar from childhood. The
+									aftertaste reveals the subtle bitterness of acai and the mild warmth of cayenne pepper —
+									a subtle, spicy echo reminiscent of the oriental tradition of drinks that not only taste
+									good, but also help you better withstand the heat.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.spicy-strawberry.description-text-02">
+												Ingredients: strawberries (quick-frozen berries and juice concentrate), lemon juice,
+									acai berry powder, sugar, cayenne pepper.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="spicy-pineapple">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Spicy pineapple" src="./assets/img/products/yogoda/30.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.spicy-pineapple.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.spicy-pineapple.name">Spicy pineapple</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.spicy-pineapple.description-text-01">
+												The sweet, intense flavor of pineapple brings to mind the markets of Southeast Asia,
+									where the ripe fruit is sliced before our eyes. It is joined by passion fruit — tropical,
+									aromatic, with subtle acidity. The final touch is cayenne pepper. Slightly spicy heat that
+									does not steam, but enhances the flavor and creates an internal cooling effect, as
+									practiced in hot eastern countries.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.spicy-pineapple.description-text-02">
+												Ingredients: pineapple (canned and concentrated juice), passion fruit (pulp), lemon
+									juice, sugar, cayenne pepper.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="red-mulled-wine">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Red mulled wine" src="./assets/img/products/yogoda/31.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="yogoda.red-mulled-wine.type">YOGODA</div>
+										<h3 class="product-popup__title" data-i18n="yogoda.red-mulled-wine.name">Red mulled wine</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="yogoda.red-mulled-wine.description-text-01">
+												Yogoda red mulled wine is a non-alcoholic variation of the classic winter drink, created
+									for those who appreciate a bright, rich taste and natural benefits. It harmoniously
+									combines spicy notes of cinnamon, citrus, nutmeg and cloves, which give an atmosphere of
+									warmth and comfort.
+											</div>
+											<div class="description-product__text" data-i18n="yogoda.red-mulled-wine.description-text-02">
+												Ingredients: natural honey, cherry, concentrated red grape juice, orange, apple,
+									cardamom, ground cinnamon, nutmeg, cloves, star anise, cayenne pepper.
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<button class="product-popups__close">✖</button>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<ul class="footer__list">
+						<li class="footer__item">
+							<a href="privacy-policy.html" target="_blank" class="footer__link" data-i18n="footer.privacy">Privacy policy</a>
+						</li>
+						<li class="footer__item">
+							<a href="legal-disclosure.html" target="_blank" class="footer__link" data-i18n="footer.legal">Legal Disclosure</a>
+						</li>
+						<li class="footer__item">
+							<a href="https://www.linkedin.com/company/totem-superfood/?viewAsMember=true" target="_blank" class="footer__link" data-i18n="footer.linkedin">LinkedIn</a>
+						</li>
+						<li class="footer__item">
+							<a href="mailto:info@totem-superfood.com" class="footer__link" data-i18n="footer.email">info@totem-superfood.com</a>
+						</li>
+					</ul>
+					<div class="footer__logo">
+						<img src="./assets/img/logo/logo-main.svg" alt="logo">
+					</div>
+					<div class="footer__back-to-top">
+						<span data-i18n="footer.backTo">Back to</span>
+						<div class="button-container button-container--footer">
+							<div id="back-to-top" class="footer__button button">
+								<a data-i18n="footer.top">top</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<picture>
+					<source media="(max-width: 1200px)" srcset="./assets/img/background/1-1200.webp" type="image/webp">
+					<img class="footer__background" alt="bg" src="./assets/img/background/1.webp">
+				</picture>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,801 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Thejungle-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Norse-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Liqberry</title>
+		<script type="module" crossorigin="" src="./js/liqberry.min.js?v=1771234176898"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1771234176898">
+		<link rel="modulepreload" crossorigin="" href="./js/cookies.min.js?v=1771234176898">
+		<link rel="modulepreload" crossorigin="" href="./js/watcher.min.js?v=1771234176898">
+		<link rel="stylesheet" crossorigin="" href="./css/cookies.min.css?v=1771234176898">
+		<link rel="stylesheet" crossorigin="" href="./css/liqberry.min.css?v=1771234176898">
+	</head>
+	<body>
+		<div class="cookie-consent" id="cookieConsent" style="display: none;">
+			<div class="cookie-consent__body">
+				<div class="cookie-consent__text" data-i18n="cookies.text">This website uses cookies to improve your experience.</div>
+				<button class="cookie-consent__button button" id="acceptCookies">
+					<a data-i18n="cookies.accept">Accept</a>
+				</button>
+			</div>
+		</div>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<a class="header__logo" href="index.html">
+						<img class="" src="./assets/img/logo/logo-main.svg" alt="logo">
+					</a>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="index" class="menu__link" data-i18n="menu.link.home">
+										<span>Home</span>
+									</a>
+								</li>
+								<li class="menu__item menu__parent">
+									<!-- <div class="menu__category" data-i18n="menu.parent.products">Products</div> -->
+									<div class="menu__parent-body">
+										<input type="checkbox" id="menu-products" class="menu__input">
+										<label class="menu__category" for="menu-products" data-i18n="menu.parent.products">Products</label>
+										<div class="menu__submenu submenu">
+											<div class="submenu__body">
+												<ul class="submenu__list">
+													<li class="submenu__item">
+														<a href="smoothies" class="submenu__link" data-i18n="submenu.link.smoothies">
+															<span>Smoothies</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="kombucha" class="submenu__link" data-i18n="submenu.link.kombucha">
+															<span>Kombucha</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="fruit-infusion-drinks" class="submenu__link" data-i18n="submenu.link.fruit-infusion-drinks">
+															<span>Fruit infusion drinks</span>
+														</a>
+													</li>
+													<li class="submenu__item submenu__item--active">
+														<a href="liqberry" class="submenu__link" data-i18n="submenu.link.liqberry">
+															<span>Liqberry</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="menu__item menu__parent">
+									<div class="menu__parent-body">
+										<input type="checkbox" id="menu-retail-equipment" class="menu__input">
+										<label class="menu__category" for="menu-retail-equipment" data-i18n="menu.parent.retail-equipment">Retail Equipment</label>
+										<!-- <div class="menu__category" data-i18n="menu.parent.retail-equipment">Retail Equipment</div> -->
+										<div class="menu__submenu submenu">
+											<div class="submenu__body">
+												<ul class="submenu__list">
+													<li class="submenu__item">
+														<a href="floor-displays" class="submenu__link" data-i18n="submenu.link.floor-displays">
+															<span>Floor Displays</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="fridges" class="submenu__link" data-i18n="submenu.link.fridges">
+															<span>Fridges</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<!-- {"href": "history","ancor": "History", "i18n": "menu.link.history"}, -->
+								<li class="menu__item">
+									<a href="about-us" class="menu__link" data-i18n="menu.link.about-us">About us</a>
+								</li>
+								<li class="menu__item">
+									<a href="contact-us" class="menu__link" data-i18n="menu.link.contact-us">Contact us</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+					<!-- <div data-fls-dynamic=".menu__body, 1199.98" class="header__settings"> -->
+					<div data-fls-dynamic=".header__container, 1199.98, 0" class="header__settings">
+						<!--
+<div class="header__language-dropdown dropdown" tabindex="0">
+<button id="dropdown-btn"></button>
+<ul class="dropdown-content" id="dropdown-content"></ul>
+</div>
+-->
+						<div class="header__language-dropdown dropdown">
+							<button id="dropdown-btn" type="button"></button>
+							<ul class="dropdown-content" id="dropdown-content"></ul>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="products-page products-page--liqberry">
+				<section class="products-page__header header-products-page">
+					<div class="header-products-page__container">
+						<h1 class="header-products-page__title title title--big" data-i18n="liqberry.header.title">liqberry</h1>
+						<div data-fls-watcher="" data-fls-watcher-once="" class="header-products-page__body">
+							<div class="header-products-page__text">
+								<h4 class="header-products-page__subtitle" data-i18n="liqberry.header.subtitle">What's so unique about LiQberry?</h4>
+								<div class="header-products-page__description">
+									<p data-i18n="liqberry.header.text.1">
+										LiQberry berry paste is created using an innovative hydro-thermo-dynamic technology. This berry
+                            processing
+                            method has no analogues in the world.
+									</p>
+									<p data-i18n="liqberry.header.text.2">
+										The berries are crushed using pulsating pressure. During this process, the seeds are broken, allowing their contents -
+                            blueberry oil - to be released into the paste and absorbed by the body. When fresh berries are consumed in their natural
+                            form,
+                            the seeds pass through the digestive system without being absorbed.
+									</p>
+									<p data-i18n="liqberry.header.text.3">
+										The production process takes place without oxygen access and without the addition of preservatives, sugar, water, or
+                            artificial colorants, using low-temperature pasteurization.
+									</p>
+								</div>
+							</div>
+							<figure class="header-products-page__image">
+								<picture>
+									<img class="header-products-page__picture" alt="berry" src="./assets/img/products/liqberry/berry.webp">
+								</picture>
+							</figure>
+						</div>
+						<div data-fls-watcher="" data-fls-watcher-once="" class="header-products-page__seed liquberry-seed">
+							<h2 class="liquberry-seed__title title title--small" data-i18n="liqberry.seeds.title">The content of useful substances in blueberry seed</h2>
+							<div class="liquberry-seed__body">
+								<figure class="liquberry-seed__image">
+									<picture>
+										<img alt="seed inside" src="./assets/img/products/liqberry/seed.webp">
+									</picture>
+								</figure>
+								<ul class="liquberry-seed__list">
+									<li class="liquberry-seed__item" data-i18n="liqberry.seeds.list.1">Polyunsaturated fatty acids Omega-3-6-9</li>
+									<li class="liquberry-seed__item" data-i18n="liqberry.seeds.list.2">Fat-soluble vitamins A and E</li>
+									<li class="liquberry-seed__item" data-i18n="liqberry.seeds.list.3">Sterols</li>
+									<li class="liquberry-seed__item" data-i18n="liqberry.seeds.list.4">Unique protein, amino acids</li>
+									<li class="liquberry-seed__item" data-i18n="liqberry.seeds.list.5">Powerful biologically active substances</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="products-page__products-block products-block">
+					<div class="products-block__container">
+						<!-- 100g and 545g -->
+						<div class="products-block__packaging packaging-products-page">
+							<h2 class="packaging-products-page__title title title--medium" data-i18n="liqberry.packaging.title">Available packaging:</h2>
+							<div class="packaging-products-page__items">
+								<div class="packaging-products-page__item">
+									<h5 class="packaging-products-page__name title title--small" data-i18n="liqberry.packaging.doypack.name">Doypack</h5>
+									<div class="packaging-products-page__amount" data-i18n="liqberry.packaging.doypack.size">100g</div>
+									<div class="packaging-products-page__picture">
+										<picture>
+											<img class="packaging-products-page__image" alt="Doypack" src="./assets/img/products/liqberry/soft/blueberry-paste.webp">
+										</picture>
+									</div>
+									<div class="packaging-products-page__button button is-active" data-packaging="soft">
+										<div class="button-body" data-i18n="liqberry.packaging.show-button">Show</div>
+									</div>
+								</div>
+								<div class="packaging-products-page__item">
+									<h5 class="packaging-products-page__name title title--small" data-i18n="liqberry.packaging.jar.name">Jar</h5>
+									<div class="packaging-products-page__amount" data-i18n="liqberry.packaging.jar.size">545g</div>
+									<div class="packaging-products-page__picture">
+										<picture>
+											<img class="packaging-products-page__image" alt="jar" src="./assets/img/products/liqberry/jars/blueberry-paste.webp">
+										</picture>
+									</div>
+									<div class="packaging-products-page__button button" data-packaging="jars">
+										<div class="button-body" data-i18n="liqberry.packaging.show-button">Show</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<ul class="products-block__list">
+							<li class="products-block__item product product--liqberry" data-product="blueberry-paste">
+								<div class="product__image-container">
+									<picture>
+										<img class="product__image is-active" data-packaging="soft" alt="Blueberry Paste" src="./assets/img/products/liqberry/soft/blueberry-paste.webp">
+									</picture>
+									<picture>
+										<img class="product__image" data-packaging="jars" alt="Blueberry Paste" src="./assets/img/products/liqberry/jars/blueberry-paste.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="liqberry.blueberry-paste.title">Blueberry Paste</h3>
+							</li>
+							<li class="products-block__item product product--liqberry" data-product="raspberry-paste">
+								<div class="product__image-container">
+									<picture>
+										<img class="product__image is-active" data-packaging="soft" alt="Raspberry Paste" src="./assets/img/products/liqberry/soft/raspberry-paste.webp">
+									</picture>
+									<picture>
+										<img class="product__image" data-packaging="jars" alt="Raspberry Paste" src="./assets/img/products/liqberry/jars/raspberry-paste.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="liqberry.raspberry-paste.title">Raspberry Paste</h3>
+							</li>
+							<li class="products-block__item product product--liqberry" data-product="strawberry-paste">
+								<div class="product__image-container">
+									<picture>
+										<img class="product__image is-active" data-packaging="soft" alt="Strawberry Paste" src="./assets/img/products/liqberry/soft/strawberry-paste.webp">
+									</picture>
+									<picture>
+										<img class="product__image" data-packaging="jars" alt="Strawberry Paste" src="./assets/img/products/liqberry/jars/strawberry-paste.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="liqberry.strawberry-paste.title">Strawberry Paste</h3>
+							</li>
+							<li class="products-block__item product product--liqberry" data-product="blackberry-paste">
+								<div class="product__image-container">
+									<picture>
+										<img class="product__image is-active" data-packaging="soft" alt="Blackberry Paste" src="./assets/img/products/liqberry/soft/blackberry-paste.webp">
+									</picture>
+									<picture>
+										<img class="product__image" data-packaging="jars" alt="Blackberry Paste" src="./assets/img/products/liqberry/jars/blackberry-paste.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="liqberry.blackberry-paste.title">Blackberry Paste</h3>
+							</li>
+							<li class="products-block__item product product--liqberry" data-product="blackcurrant-paste">
+								<div class="product__image-container">
+									<picture>
+										<img class="product__image is-active" data-packaging="soft" alt="Blackcurrant Paste" src="./assets/img/products/liqberry/soft/blackcurrant-paste.webp">
+									</picture>
+									<picture>
+										<img class="product__image" data-packaging="jars" alt="Blackcurrant Paste" src="./assets/img/products/liqberry/jars/blackcurrant-paste.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="liqberry.blackcurrant-paste.title">Blackcurrant Paste</h3>
+							</li>
+							<li class="products-block__item product product--liqberry" data-product="sea-buckthorn">
+								<div class="product__image-container">
+									<picture>
+										<img class="product__image is-active" data-packaging="soft" alt="Sea Buckthorn Paste" src="./assets/img/products/liqberry/soft/sea-buckthorn-paste.webp">
+									</picture>
+									<picture>
+										<img class="product__image" data-packaging="jars" alt="Sea Buckthorn Paste" src="./assets/img/products/liqberry/jars/sea-buckthorn-paste.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="liqberry.sea-buckthorn.title">Sea Buckthorn Paste</h3>
+							</li>
+							<li class="products-block__item product product--liqberry" data-product="cherry-paste">
+								<div class="product__image-container">
+									<picture>
+										<img class="product__image is-active" data-packaging="soft" alt="Cherry Paste" src="./assets/img/products/liqberry/soft/cherry-paste.webp">
+									</picture>
+									<picture>
+										<img class="product__image" data-packaging="jars" alt="Cherry Paste" src="./assets/img/products/liqberry/jars/cherry-paste.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="liqberry.cherry-paste.title">Cherry Paste</h3>
+							</li>
+							<li class="products-block__item product product--liqberry" data-product="aronia-paste">
+								<div class="product__image-container">
+									<picture>
+										<img class="product__image is-active" data-packaging="soft" alt="Aronia Paste" src="./assets/img/products/liqberry/soft/aronia-paste.webp">
+									</picture>
+									<picture>
+										<img class="product__image" data-packaging="jars" alt="Aronia Paste" src="./assets/img/products/liqberry/jars/aronia-paste.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="liqberry.aronia-paste.title">Aronia Paste</h3>
+							</li>
+						</ul>
+						<div class="products-block__popups product-popups">
+							<button class="product-popups__close">✖</button>
+							<ul class="product-popups__body">
+								<li class="product-popup" data-product="blueberry-paste">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image is-active" data-prlx-mouse="" data-packaging="soft" alt="Berry Paste" src="./assets/img/products/liqberry/soft/blueberry-paste.webp">
+											</picture>
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" data-packaging="jars" alt="Berry Paste" src="./assets/img/products/liqberry/jars/blueberry-paste.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="liqberry.blueberry-paste.type">Liqberry</div>
+										<h3 class="product-popup__title" data-i18n="liqberry.blueberry-paste.title">Blueberry Paste - Made from Whole Berries</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="liqberry.blueberry-paste.text.1">
+												Our blueberry paste is made from
+                                    100%
+                                    whole blueberries and preserves the fruit’s natural composition in a concentrated form. Thanks to a gentle
+                                    processing method, the valuable plant-based compounds naturally present in blueberries are retained.
+											</div>
+											<div class="description-product__text" data-i18n="liqberry.blueberry-paste.text.2">
+												Blueberries are naturally rich in
+                                    antioxidants, which are widely recognized for their role in protecting cells from oxidative stress. They also
+                                    contain chlorogenic acid and anthocyanins, the natural pigments responsible for the berry’s deep color and an area
+                                    of ongoing nutritional research.
+											</div>
+											<div class="description-product__title" data-i18n="liqberry.blueberry-paste.list.title">
+												By milling the entire berry –
+                                    including pulp, skins, and seeds, the paste:
+											</div>
+											<div class="product-popup__description-list list-description-product">
+												<ul class="list-description-product__body">
+													<li class="list-description-product__item" data-i18n="liqberry.blueberry-paste.list.1">
+														retains the full
+                                            natural
+                                            berry profile,
+													</li>
+													<li class="list-description-product__item" data-i18n="liqberry.blueberry-paste.list.2">
+														integrates easily into
+                                            a
+                                            balanced, health-conscious diet,
+													</li>
+													<li class="list-description-product__item" data-i18n="liqberry.blueberry-paste.list.3">
+														contains no added
+                                            sugar,
+                                            no preservatives, and no artificial additives.
+													</li>
+												</ul>
+											</div>
+											<div class="description-product__text" data-i18n="liqberry.blueberry-paste.text.3">
+												Our blueberry paste is appreciated
+                                    by
+                                    consumers who value clean ingredients, transparency, and natural food products. It can be enjoyed on its own or
+                                    used in smoothies, yogurt, or creative culinary applications.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="raspberry-paste">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image is-active" data-prlx-mouse="" data-packaging="soft" alt="Raspberry Paste" src="./assets/img/products/liqberry/soft/raspberry-paste.webp">
+											</picture>
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" data-packaging="jars" alt="Raspberry Paste" src="./assets/img/products/liqberry/jars/raspberry-paste.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="liqberry.raspberry-paste.type">Liqberry</div>
+										<h3 class="product-popup__title" data-i18n="liqberry.raspberry-paste.title">Raspberry Paste - Made from Whole Berries</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="liqberry.raspberry-paste.text.1">
+												Our raspberry paste is produced
+                                    from 100% whole raspberries, capturing the fruit’s distinctive aroma and natural plant compounds in a concentrated
+                                    form. Gentle processing preserves the characteristic qualities of raspberries, which have long been valued as part
+                                    of a balanced diet.
+											</div>
+											<div class="description-product__text" data-i18n="liqberry.raspberry-paste.text.2">
+												Raspberries naturally contain plant
+                                    acids, polyphenols, and aromatic compounds, which are widely studied in nutritional science. Thanks to their
+                                    natural composition, raspberries are often included in mindful nutrition concepts and periods of increased
+                                    physical or environmental demands.
+											</div>
+											<div class="description-product__title" data-i18n="liqberry.raspberry-paste.list.title">The raspberry paste:</div>
+											<div class="product-popup__description-list list-description-product">
+												<ul class="list-description-product__body">
+													<li class="list-description-product__item" data-i18n="liqberry.raspberry-paste.list.1">
+														retains the complete
+                                            berry profile by processing pulp, skins, and seeds,
+													</li>
+													<li class="list-description-product__item" data-i18n="liqberry.raspberry-paste.list.2">
+														integrates easily into
+                                            a health-conscious daily diet,
+													</li>
+													<li class="list-description-product__item" data-i18n="liqberry.raspberry-paste.list.3">
+														contains no added
+                                            sugar, no preservatives, and no artificial additives.
+													</li>
+												</ul>
+											</div>
+											<div class="description-product__text" data-i18n="liqberry.raspberry-paste.text.3">
+												Its rich, fruity flavor makes it
+                                    suitable for enjoying on its own, in warm beverages, yogurt, smoothies, or creative culinary applications.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="strawberry-paste">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image is-active" data-prlx-mouse="" data-packaging="soft" alt="Strawberry Paste" src="./assets/img/products/liqberry/soft/strawberry-paste.webp">
+											</picture>
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" data-packaging="jars" alt="Strawberry Paste" src="./assets/img/products/liqberry/jars/strawberry-paste.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="liqberry.strawberry-paste.type">Liqberry</div>
+										<h3 class="product-popup__title" data-i18n="liqberry.strawberry-paste.title">Strawberry Paste - Made from Whole Berries</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="liqberry.strawberry-paste.text.1">
+												Our strawberry paste is produced
+                                    from 100% whole strawberries, preserving the natural balance of fruit pulp, skins, and seeds. Strawberries are
+                                    appreciated for their natural content of minerals, vitamins, and plant-based compounds, making them a popular
+                                    element of a balanced and mindful diet.
+											</div>
+											<div class="description-product__text" data-i18n="liqberry.strawberry-paste.text.2">
+												Strawberries naturally contain
+                                    minerals such as iron, magnesium, potassium, calcium, and zinc, along with vitamin C, vitamin B5, and folate. They
+                                    also provide antioxidant plant compounds, which may support the body’s natural defenses against oxidative stress
+                                    as part of a healthy lifestyle.
+											</div>
+											<div class="description-product__title" data-i18n="liqberry.strawberry-paste.list.title">The strawberry paste:</div>
+											<div class="product-popup__description-list list-description-product">
+												<ul class="list-description-product__body">
+													<li class="list-description-product__item" data-i18n="liqberry.strawberry-paste.list.1">
+														retains the complete
+                                            berry profile by processing the entire fruit,
+													</li>
+													<li class="list-description-product__item" data-i18n="liqberry.strawberry-paste.list.2">
+														fits easily into a
+                                            health-conscious daily routine,
+													</li>
+													<li class="list-description-product__item" data-i18n="liqberry.strawberry-paste.list.3">
+														contains no added
+                                            sugar, no preservatives, and no artificial additives.
+													</li>
+												</ul>
+											</div>
+											<div class="description-product__text" data-i18n="liqberry.strawberry-paste.text.3">
+												Its fresh, fruity taste makes it
+                                    ideal for enjoying on its own, in yogurt, smoothies, or as an ingredient in creative culinary applications.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="blackberry-paste">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image is-active" data-prlx-mouse="" data-packaging="soft" alt="Blackberry Paste" src="./assets/img/products/liqberry/soft/blackberry-paste.webp">
+											</picture>
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" data-packaging="jars" alt="Blackberry Paste" src="./assets/img/products/liqberry/jars/blackberry-paste.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="liqberry.blackberry-paste.type">Liqberry</div>
+										<h3 class="product-popup__title" data-i18n="liqberry.blackberry-paste.title">Blackberry Paste - Made from Whole Berries</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="liqberry.blackberry-paste.text.1">
+												Our blackberry paste is made from
+                                    100% whole blackberries, preserving the complete natural berry profile including pulp, skins, and seeds.
+                                    Blackberries are valued for their content of vitamin E, polyphenols, and other plant-based compounds, making them
+                                    a respected element of a balanced diet.
+											</div>
+											<div class="description-product__text" data-i18n="liqberry.blackberry-paste.text.2">
+												Vitamin E helps protect cells from
+                                    oxidative stress, while naturally occurring plant compounds contribute to the rich character of the berry. As part
+                                    of a mindful lifestyle, blackberries can support dietary diversity and enjoyment.
+											</div>
+											<div class="description-product__title" data-i18n="liqberry.blackberry-paste.list.title">The blackberry paste:</div>
+											<div class="product-popup__description-list list-description-product">
+												<ul class="list-description-product__body">
+													<li class="list-description-product__item" data-i18n="liqberry.blackberry-paste.list.1">
+														captures the full
+                                            nutritional profile by processing the entire fruit,
+													</li>
+													<li class="list-description-product__item" data-i18n="liqberry.blackberry-paste.list.2">
+														offers an intense,
+                                            authentic berry flavor,
+													</li>
+													<li class="list-description-product__item" data-i18n="liqberry.blackberry-paste.list.3">
+														contains no added
+                                            sugar, no preservatives, and no artificial additives.
+													</li>
+												</ul>
+											</div>
+											<div class="description-product__text" data-i18n="liqberry.blackberry-paste.text.3">
+												Perfect enjoyed on its own, in
+                                    yogurt, cereals, smoothies, or as a premium ingredient in modern nutrition concepts.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="blackcurrant-paste">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image is-active" data-prlx-mouse="" data-packaging="soft" alt="Blackberry Paste" src="./assets/img/products/liqberry/soft/blackcurrant-paste.webp">
+											</picture>
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" data-packaging="jars" alt="Blackberry Paste" src="./assets/img/products/liqberry/jars/blackcurrant-paste.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="liqberry.blackcurrant-paste.type">Liqberry</div>
+										<h3 class="product-popup__title" data-i18n="liqberry.blackcurrant-paste.title">Blackcurrant Paste - Made from Whole
+                                Berries</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="liqberry.blackcurrant-paste.text.1">
+												Our blackcurrant paste is made
+                                    from 100% whole blackcurrants, preserving the complete natural berry profile including pulp, skins, and seeds.
+                                    Blackcurrants are valued for their high content of vitamin C, polyphenols, and other beneficial plant compounds.
+											</div>
+											<div class="description-product__text" data-i18n="liqberry.blackcurrant-paste.text.2">
+												These naturally occurring
+                                    nutrients contribute to daily nutritional balance and are widely appreciated as part of a diverse and conscious
+                                    diet. Blackcurrants have long been associated with mindful nutrition and active lifestyles.
+											</div>
+											<div class="description-product__title" data-i18n="liqberry.blackcurrant-paste.list.title">The blackcurrant paste:</div>
+											<div class="product-popup__description-list list-description-product">
+												<ul class="list-description-product__body">
+													<li class="list-description-product__item" data-i18n="liqberry.blackcurrant-paste.list.1">
+														captures the full
+                                            berry spectrum by processing the entire fruit,
+													</li>
+													<li class="list-description-product__item" data-i18n="liqberry.blackcurrant-paste.list.2">
+														supports dietary
+                                            variety with naturally occurring plant compounds,
+													</li>
+													<li class="list-description-product__item" data-i18n="liqberry.blackcurrant-paste.list.3">
+														contains no added
+                                            sugar, no preservatives, and no artificial additives.
+													</li>
+												</ul>
+											</div>
+											<div class="description-product__text" data-i18n="liqberry.blackcurrant-paste.text.3">
+												Perfect enjoyed on its own, with
+                                    yogurt or cereals, in smoothies, or as a premium ingredient in functional food concepts.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="sea-buckthorn">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image is-active" data-prlx-mouse="" data-packaging="soft" alt="Sea Buckthorn Paste" src="./assets/img/products/liqberry/soft/sea-buckthorn-paste.webp">
+											</picture>
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" data-packaging="jars" alt="Sea Buckthorn Paste" src="./assets/img/products/liqberry/jars/sea-buckthorn-paste.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="liqberry.sea-buckthorn.type">Liqberry</div>
+										<h3 class="product-popup__title" data-i18n="liqberry.sea-buckthorn.title">Sea Buckthorn Paste - Made from Whole
+                                Berries</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="liqberry.sea-buckthorn.text.1">
+												Our sea buckthorn paste is made from
+                                    100% whole sea buckthorn berries, preserving the natural balance of pulp, skins, and seeds. Sea buckthorn is
+                                    valued for its naturally rich composition of vitamins, micro- and macronutrients, making it a popular ingredient
+                                    in conscious and balanced nutrition.
+											</div>
+											<div class="description-product__text" data-i18n="liqberry.sea-buckthorn.text.2">
+												A distinctive feature of sea
+                                    buckthorn is its natural content of sea buckthorn oil, which contains fat-soluble plant compounds traditionally
+                                    appreciated as part of a varied diet.
+											</div>
+											<div class="description-product__title" data-i18n="liqberry.sea-buckthorn.list.title">The sea buckthorn paste:</div>
+											<div class="product-popup__description-list list-description-product">
+												<ul class="list-description-product__body">
+													<li class="list-description-product__item" data-i18n="liqberry.sea-buckthorn.list.1">
+														captures the complete
+                                            berry profile, including the seeds,
+													</li>
+													<li class="list-description-product__item" data-i18n="liqberry.sea-buckthorn.list.2">
+														naturally contains
+                                            beta-carotene, vitamin E, and vitamin C,
+													</li>
+													<li class="list-description-product__item" data-i18n="liqberry.sea-buckthorn.list.3">
+														contains no added sugar,
+                                            no preservatives, no added water, and no artificial additives.
+													</li>
+												</ul>
+											</div>
+											<div class="description-product__text" data-i18n="liqberry.sea-buckthorn.text.3">
+												Perfect for enriching daily nutrition
+                                    — enjoyed on its own, in smoothies, breakfast bowls, or modern functional recipes.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="cherry-paste">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image is-active" data-prlx-mouse="" data-packaging="soft" alt="Cherry Paste" src="./assets/img/products/liqberry/soft/cherry-paste.webp">
+											</picture>
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" data-packaging="jars" alt="Cherry Paste" src="./assets/img/products/liqberry/jars/cherry-paste.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="liqberry.cherry-paste.type">Liqberry</div>
+										<h3 class="product-popup__title" data-i18n="liqberry.cherry-paste.title">Cherry Paste</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="liqberry.cherry-paste.text.1">
+												Cherry paste is a 100% homogenized
+                                    fruit product, made from whole cherries with finely processed fruit components. It preserves the fruit’s natural
+                                    nutritional profile and serves as a functional addition to a balanced diet.
+											</div>
+											<div class="description-product__title" data-i18n="liqberry.cherry-paste.list.1.title">Cherries are naturally a source
+                                    of:</div>
+											<div class="product-popup__description-list list-description-product">
+												<ul class="list-description-product__body">
+													<li class="list-description-product__item" data-i18n="liqberry.cherry-paste.list.1.1">polyphenols and
+                                            anthocyanins,</li>
+													<li class="list-description-product__item" data-i18n="liqberry.cherry-paste.list.1.2">organic acids,</li>
+													<li class="list-description-product__item" data-i18n="liqberry.cherry-paste.list.1.3">
+														vitamins (particularly
+                                            vitamin C and B-group vitamins),
+													</li>
+													<li class="list-description-product__item" data-i18n="liqberry.cherry-paste.list.1.4">potassium and other
+                                            minerals,</li>
+													<li class="list-description-product__item" data-i18n="liqberry.cherry-paste.list.1.5">dietary fiber and
+                                            pectins.</li>
+												</ul>
+											</div>
+											<div class="description-product__title" data-i18n="liqberry.cherry-paste.list.2.title">
+												As part of a conscious
+                                    nutrition approach, cherry paste is traditionally valued for:
+											</div>
+											<div class="product-popup__description-list list-description-product">
+												<ul class="list-description-product__body">
+													<li class="list-description-product__item" data-i18n="liqberry.cherry-paste.list.2.1">
+														supporting normal muscle
+                                            and joint function,
+													</li>
+													<li class="list-description-product__item" data-i18n="liqberry.cherry-paste.list.2.2">
+														accompanying recovery
+                                            after physical activity,
+													</li>
+													<li class="list-description-product__item" data-i18n="liqberry.cherry-paste.list.2.3">
+														supporting normal
+                                            metabolic processes,
+													</li>
+													<li class="list-description-product__item" data-i18n="liqberry.cherry-paste.list.2.4">
+														contributing to the
+                                            body’s antioxidant balance.
+													</li>
+												</ul>
+											</div>
+											<div class="description-product__title" data-i18n="liqberry.cherry-paste.list.3.title">
+												Due to its content of natural
+                                    plant compounds, cherry paste is also commonly associated with:
+											</div>
+											<div class="product-popup__description-list list-description-product">
+												<ul class="list-description-product__body">
+													<li class="list-description-product__item" data-i18n="liqberry.cherry-paste.list.3.1">support of
+                                            cardiovascular function,</li>
+													<li class="list-description-product__item" data-i18n="liqberry.cherry-paste.list.3.2">contribution to normal
+                                            circulation,</li>
+													<li class="list-description-product__item" data-i18n="liqberry.cherry-paste.list.3.3">
+														and support of a healthy
+                                            sleep–wake rhythm.
+													</li>
+												</ul>
+											</div>
+											<div class="description-product__title" data-i18n="liqberry.cherry-paste.list.4.title">Cherry paste:</div>
+											<div class="product-popup__description-list list-description-product">
+												<ul class="list-description-product__body">
+													<li class="list-description-product__item" data-i18n="liqberry.cherry-paste.list.4.1">contains no added sugar,</li>
+													<li class="list-description-product__item" data-i18n="liqberry.cherry-paste.list.4.2">
+														is free from
+                                            preservatives, added water, and artificial additives,
+													</li>
+													<li class="list-description-product__item" data-i18n="liqberry.cherry-paste.list.4.3">
+														and fits perfectly into
+                                            a natural, plant-based, performance-oriented nutrition concept.
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="aronia-paste">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image is-active" data-prlx-mouse="" data-packaging="soft" alt="Aronia Paste" src="./assets/img/products/liqberry/soft/aronia-paste.webp">
+											</picture>
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" data-packaging="jars" alt="Aronia Paste" src="./assets/img/products/liqberry/jars/aronia-paste.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="liqberry.aronia-paste.type">Liqberry</div>
+										<h3 class="product-popup__title" data-i18n="liqberry.aronia-paste.title">Aronia Paste – Made from Whole Berries</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="liqberry.aronia-paste.text.1">
+												Our aronia paste is made from 100%
+                                    whole aronia berries, preserving the complete berry profile including pulp, skins, and seeds. Aronia is valued for
+                                    its naturally high content of plant polyphenols, which are widely appreciated as part of a balanced diet.
+											</div>
+											<div class="description-product__text" data-i18n="liqberry.aronia-paste.text.2">
+												Traditionally, aronia is included in
+                                    nutrition concepts focused on cardiovascular balance and metabolic support, within the context of a varied and
+                                    conscious lifestyle.
+											</div>
+											<div class="description-product__title" data-i18n="liqberry.aronia-paste.list.title">The aronia paste:</div>
+											<div class="product-popup__description-list list-description-product">
+												<ul class="list-description-product__body">
+													<li class="list-description-product__item" data-i18n="liqberry.aronia-paste.list.1">
+														naturally contains
+                                            plant-based bioactive compounds,
+													</li>
+													<li class="list-description-product__item" data-i18n="liqberry.aronia-paste.list.2">
+														complements a balanced and
+                                            mindful diet,
+													</li>
+													<li class="list-description-product__item" data-i18n="liqberry.aronia-paste.list.3">
+														contains no added sugar,
+                                            no preservatives, no added water, and no artificial additives.
+													</li>
+												</ul>
+											</div>
+											<div class="description-product__text" data-i18n="liqberry.aronia-paste.text.3">
+												Perfect for those who value intense
+                                    berry character and plant diversity in everyday nutrition - enjoyed pure or as part of modern recipes.
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<button class="product-popups__close">✖</button>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<ul class="footer__list">
+						<li class="footer__item">
+							<a href="privacy-policy.html" target="_blank" class="footer__link" data-i18n="footer.privacy">Privacy policy</a>
+						</li>
+						<li class="footer__item">
+							<a href="legal-disclosure.html" target="_blank" class="footer__link" data-i18n="footer.legal">Legal Disclosure</a>
+						</li>
+						<li class="footer__item">
+							<a href="https://www.linkedin.com/company/totem-superfood/?viewAsMember=true" target="_blank" class="footer__link" data-i18n="footer.linkedin">LinkedIn</a>
+						</li>
+						<li class="footer__item">
+							<a href="mailto:info@totem-superfood.com" class="footer__link" data-i18n="footer.email">info@totem-superfood.com</a>
+						</li>
+					</ul>
+					<div class="footer__logo">
+						<img src="./assets/img/logo/logo-main.svg" alt="logo">
+					</div>
+					<div class="footer__back-to-top">
+						<span data-i18n="footer.backTo">Back to</span>
+						<div class="button-container button-container--footer">
+							<div id="back-to-top" class="footer__button button">
+								<a data-i18n="footer.top">top</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<picture>
+					<source media="(max-width: 1200px)" srcset="./assets/img/background/1-1200.webp" type="image/webp">
+					<img class="footer__background" alt="bg" src="./assets/img/background/1.webp">
+				</picture>
+			</footer>
+		</div>
+	</body>
+</html>

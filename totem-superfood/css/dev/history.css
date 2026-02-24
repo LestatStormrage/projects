@@ -1,0 +1,411 @@
+.company-history__container {
+  display: flex;
+  flex-direction: column;
+}
+.company-history__content {
+  position: relative;
+  display: flex;
+  gap: 4.375rem;
+}
+.company-history__text {
+  position: relative;
+  flex-basis: 50%;
+  z-index: 2;
+  transition: color 0.6s;
+  line-height: 1.5;
+}
+.company-history__text p {
+  transform: translate(-50%, 0);
+  opacity: 0;
+}
+.--watcher-view .company-history__text p:nth-child(1n) {
+  transition: transform 1s 0.15s, opacity 1s 0.15s;
+}
+.--watcher-view .company-history__text p:nth-child(2n) {
+  transition: transform 1s 0.3s, opacity 1s 0.3s;
+}
+.--watcher-view .company-history__text p:nth-child(3n) {
+  transition: transform 1s 0.45s, opacity 1s 0.45s;
+}
+.--watcher-view .company-history__text p:nth-child(4n) {
+  transition: transform 1s 0.6s, opacity 1s 0.6s;
+}
+.--watcher-view .company-history__text p:nth-child(5n) {
+  transition: transform 1s 0.75s, opacity 1s 0.75s;
+}
+.--watcher-view .company-history__text p:nth-child(6n) {
+  transition: transform 1s 0.9s, opacity 1s 0.9s;
+}
+.--watcher-view .company-history__text p:nth-child(7n) {
+  transition: transform 1s 1.05s, opacity 1s 1.05s;
+}
+.--watcher-view .company-history__text p:nth-child(8n) {
+  transition: transform 1s 1.2s, opacity 1s 1.2s;
+}
+.--watcher-view .company-history__text p:nth-child(9n) {
+  transition: transform 1s 1.35s, opacity 1s 1.35s;
+}
+.--watcher-view .company-history__text p:nth-child(10n) {
+  transition: transform 1s 1.5s, opacity 1s 1.5s;
+}
+.--watcher-view .company-history__text p:nth-child(11n) {
+  transition: transform 1s 1.65s, opacity 1s 1.65s;
+}
+.--watcher-view .company-history__text p:nth-child(12n) {
+  transition: transform 1s 1.8s, opacity 1s 1.8s;
+}
+.--watcher-view .company-history__text p:nth-child(13n) {
+  transition: transform 1s 1.95s, opacity 1s 1.95s;
+}
+.--watcher-view .company-history__text p:nth-child(14n) {
+  transition: transform 1s 2.1s, opacity 1s 2.1s;
+}
+.--watcher-view .company-history__text p:nth-child(15n) {
+  transition: transform 1s 2.25s, opacity 1s 2.25s;
+}
+.--watcher-view .company-history__text p:nth-child(16n) {
+  transition: transform 1s 2.4s, opacity 1s 2.4s;
+}
+.--watcher-view .company-history__text p:nth-child(17n) {
+  transition: transform 1s 2.55s, opacity 1s 2.55s;
+}
+.--watcher-view .company-history__text p:nth-child(18n) {
+  transition: transform 1s 2.7s, opacity 1s 2.7s;
+}
+.--watcher-view .company-history__text p:nth-child(19n) {
+  transition: transform 1s 2.85s, opacity 1s 2.85s;
+}
+.--watcher-view .company-history__text p:nth-child(20n) {
+  transition: transform 1s 3s, opacity 1s 3s;
+}
+.--watcher-view .company-history__text p:nth-child(21n) {
+  transition: transform 1s 3.15s, opacity 1s 3.15s;
+}
+.--watcher-view .company-history__text p:nth-child(22n) {
+  transition: transform 1s 3.3s, opacity 1s 3.3s;
+}
+.--watcher-view .company-history__text p:nth-child(23n) {
+  transition: transform 1s 3.45s, opacity 1s 3.45s;
+}
+.--watcher-view .company-history__text p:nth-child(24n) {
+  transition: transform 1s 3.6s, opacity 1s 3.6s;
+}
+.--watcher-view .company-history__text p:nth-child(25n) {
+  transition: transform 1s 3.75s, opacity 1s 3.75s;
+}
+.--watcher-view .company-history__text p:nth-child(26n) {
+  transition: transform 1s 3.9s, opacity 1s 3.9s;
+}
+.--watcher-view .company-history__text p:nth-child(27n) {
+  transition: transform 1s 4.05s, opacity 1s 4.05s;
+}
+.--watcher-view .company-history__text p:nth-child(28n) {
+  transition: transform 1s 4.2s, opacity 1s 4.2s;
+}
+.--watcher-view .company-history__text p:nth-child(29n) {
+  transition: transform 1s 4.35s, opacity 1s 4.35s;
+}
+.--watcher-view .company-history__text p:nth-child(30n) {
+  transition: transform 1s 4.5s, opacity 1s 4.5s;
+}
+.--watcher-view .company-history__text p:nth-child(31n) {
+  transition: transform 1s 4.65s, opacity 1s 4.65s;
+}
+.--watcher-view .company-history__text p:nth-child(32n) {
+  transition: transform 1s 4.8s, opacity 1s 4.8s;
+}
+.--watcher-view .company-history__text p:nth-child(33n) {
+  transition: transform 1s 4.95s, opacity 1s 4.95s;
+}
+.--watcher-view .company-history__text p:nth-child(34n) {
+  transition: transform 1s 5.1s, opacity 1s 5.1s;
+}
+.--watcher-view .company-history__text p:nth-child(35n) {
+  transition: transform 1s 5.25s, opacity 1s 5.25s;
+}
+.--watcher-view .company-history__text p:nth-child(36n) {
+  transition: transform 1s 5.4s, opacity 1s 5.4s;
+}
+.--watcher-view .company-history__text p:nth-child(37n) {
+  transition: transform 1s 5.55s, opacity 1s 5.55s;
+}
+.--watcher-view .company-history__text p:nth-child(38n) {
+  transition: transform 1s 5.7s, opacity 1s 5.7s;
+}
+.--watcher-view .company-history__text p:nth-child(39n) {
+  transition: transform 1s 5.85s, opacity 1s 5.85s;
+}
+.--watcher-view .company-history__text p:nth-child(40n) {
+  transition: transform 1s 6s, opacity 1s 6s;
+}
+.--watcher-view .company-history__text p:nth-child(41n) {
+  transition: transform 1s 6.15s, opacity 1s 6.15s;
+}
+.--watcher-view .company-history__text p:nth-child(42n) {
+  transition: transform 1s 6.3s, opacity 1s 6.3s;
+}
+.--watcher-view .company-history__text p:nth-child(43n) {
+  transition: transform 1s 6.45s, opacity 1s 6.45s;
+}
+.--watcher-view .company-history__text p:nth-child(44n) {
+  transition: transform 1s 6.6s, opacity 1s 6.6s;
+}
+.--watcher-view .company-history__text p:nth-child(45n) {
+  transition: transform 1s 6.75s, opacity 1s 6.75s;
+}
+.--watcher-view .company-history__text p:nth-child(46n) {
+  transition: transform 1s 6.9s, opacity 1s 6.9s;
+}
+.--watcher-view .company-history__text p:nth-child(47n) {
+  transition: transform 1s 7.05s, opacity 1s 7.05s;
+}
+.--watcher-view .company-history__text p:nth-child(48n) {
+  transition: transform 1s 7.2s, opacity 1s 7.2s;
+}
+.--watcher-view .company-history__text p:nth-child(49n) {
+  transition: transform 1s 7.35s, opacity 1s 7.35s;
+}
+.--watcher-view .company-history__text p:nth-child(50n) {
+  transition: transform 1s 7.5s, opacity 1s 7.5s;
+}
+.--watcher-view .company-history__text p:nth-child(51n) {
+  transition: transform 1s 7.65s, opacity 1s 7.65s;
+}
+.--watcher-view .company-history__text p:nth-child(52n) {
+  transition: transform 1s 7.8s, opacity 1s 7.8s;
+}
+.--watcher-view .company-history__text p:nth-child(53n) {
+  transition: transform 1s 7.95s, opacity 1s 7.95s;
+}
+.--watcher-view .company-history__text p:nth-child(54n) {
+  transition: transform 1s 8.1s, opacity 1s 8.1s;
+}
+.--watcher-view .company-history__text p:nth-child(55n) {
+  transition: transform 1s 8.25s, opacity 1s 8.25s;
+}
+.--watcher-view .company-history__text p:nth-child(56n) {
+  transition: transform 1s 8.4s, opacity 1s 8.4s;
+}
+.--watcher-view .company-history__text p:nth-child(57n) {
+  transition: transform 1s 8.55s, opacity 1s 8.55s;
+}
+.--watcher-view .company-history__text p:nth-child(58n) {
+  transition: transform 1s 8.7s, opacity 1s 8.7s;
+}
+.--watcher-view .company-history__text p:nth-child(59n) {
+  transition: transform 1s 8.85s, opacity 1s 8.85s;
+}
+.--watcher-view .company-history__text p:nth-child(60n) {
+  transition: transform 1s 9s, opacity 1s 9s;
+}
+.--watcher-view .company-history__text p:nth-child(61n) {
+  transition: transform 1s 9.15s, opacity 1s 9.15s;
+}
+.--watcher-view .company-history__text p:nth-child(62n) {
+  transition: transform 1s 9.3s, opacity 1s 9.3s;
+}
+.--watcher-view .company-history__text p:nth-child(63n) {
+  transition: transform 1s 9.45s, opacity 1s 9.45s;
+}
+.--watcher-view .company-history__text p:nth-child(64n) {
+  transition: transform 1s 9.6s, opacity 1s 9.6s;
+}
+.--watcher-view .company-history__text p:nth-child(65n) {
+  transition: transform 1s 9.75s, opacity 1s 9.75s;
+}
+.--watcher-view .company-history__text p:nth-child(66n) {
+  transition: transform 1s 9.9s, opacity 1s 9.9s;
+}
+.--watcher-view .company-history__text p:nth-child(67n) {
+  transition: transform 1s 10.05s, opacity 1s 10.05s;
+}
+.--watcher-view .company-history__text p:nth-child(68n) {
+  transition: transform 1s 10.2s, opacity 1s 10.2s;
+}
+.--watcher-view .company-history__text p:nth-child(69n) {
+  transition: transform 1s 10.35s, opacity 1s 10.35s;
+}
+.--watcher-view .company-history__text p:nth-child(70n) {
+  transition: transform 1s 10.5s, opacity 1s 10.5s;
+}
+.--watcher-view .company-history__text p:nth-child(71n) {
+  transition: transform 1s 10.65s, opacity 1s 10.65s;
+}
+.--watcher-view .company-history__text p:nth-child(72n) {
+  transition: transform 1s 10.8s, opacity 1s 10.8s;
+}
+.--watcher-view .company-history__text p:nth-child(73n) {
+  transition: transform 1s 10.95s, opacity 1s 10.95s;
+}
+.--watcher-view .company-history__text p:nth-child(74n) {
+  transition: transform 1s 11.1s, opacity 1s 11.1s;
+}
+.--watcher-view .company-history__text p:nth-child(75n) {
+  transition: transform 1s 11.25s, opacity 1s 11.25s;
+}
+.--watcher-view .company-history__text p:nth-child(76n) {
+  transition: transform 1s 11.4s, opacity 1s 11.4s;
+}
+.--watcher-view .company-history__text p:nth-child(77n) {
+  transition: transform 1s 11.55s, opacity 1s 11.55s;
+}
+.--watcher-view .company-history__text p:nth-child(78n) {
+  transition: transform 1s 11.7s, opacity 1s 11.7s;
+}
+.--watcher-view .company-history__text p:nth-child(79n) {
+  transition: transform 1s 11.85s, opacity 1s 11.85s;
+}
+.--watcher-view .company-history__text p:nth-child(80n) {
+  transition: transform 1s 12s, opacity 1s 12s;
+}
+.--watcher-view .company-history__text p:nth-child(81n) {
+  transition: transform 1s 12.15s, opacity 1s 12.15s;
+}
+.--watcher-view .company-history__text p:nth-child(82n) {
+  transition: transform 1s 12.3s, opacity 1s 12.3s;
+}
+.--watcher-view .company-history__text p:nth-child(83n) {
+  transition: transform 1s 12.45s, opacity 1s 12.45s;
+}
+.--watcher-view .company-history__text p:nth-child(84n) {
+  transition: transform 1s 12.6s, opacity 1s 12.6s;
+}
+.--watcher-view .company-history__text p:nth-child(85n) {
+  transition: transform 1s 12.75s, opacity 1s 12.75s;
+}
+.--watcher-view .company-history__text p:nth-child(86n) {
+  transition: transform 1s 12.9s, opacity 1s 12.9s;
+}
+.--watcher-view .company-history__text p:nth-child(87n) {
+  transition: transform 1s 13.05s, opacity 1s 13.05s;
+}
+.--watcher-view .company-history__text p:nth-child(88n) {
+  transition: transform 1s 13.2s, opacity 1s 13.2s;
+}
+.--watcher-view .company-history__text p:nth-child(89n) {
+  transition: transform 1s 13.35s, opacity 1s 13.35s;
+}
+.--watcher-view .company-history__text p:nth-child(90n) {
+  transition: transform 1s 13.5s, opacity 1s 13.5s;
+}
+.--watcher-view .company-history__text p:nth-child(91n) {
+  transition: transform 1s 13.65s, opacity 1s 13.65s;
+}
+.--watcher-view .company-history__text p:nth-child(92n) {
+  transition: transform 1s 13.8s, opacity 1s 13.8s;
+}
+.--watcher-view .company-history__text p:nth-child(93n) {
+  transition: transform 1s 13.95s, opacity 1s 13.95s;
+}
+.--watcher-view .company-history__text p:nth-child(94n) {
+  transition: transform 1s 14.1s, opacity 1s 14.1s;
+}
+.--watcher-view .company-history__text p:nth-child(95n) {
+  transition: transform 1s 14.25s, opacity 1s 14.25s;
+}
+.--watcher-view .company-history__text p:nth-child(96n) {
+  transition: transform 1s 14.4s, opacity 1s 14.4s;
+}
+.--watcher-view .company-history__text p:nth-child(97n) {
+  transition: transform 1s 14.55s, opacity 1s 14.55s;
+}
+.--watcher-view .company-history__text p:nth-child(98n) {
+  transition: transform 1s 14.7s, opacity 1s 14.7s;
+}
+.--watcher-view .company-history__text p:nth-child(99n) {
+  transition: transform 1s 14.85s, opacity 1s 14.85s;
+}
+.--watcher-view .company-history__text p:nth-child(100n) {
+  transition: transform 1s 15s, opacity 1s 15s;
+}
+.--watcher-view .company-history__text p {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.company-history__images-container {
+  opacity: 0;
+  transform: translate(50%, 0);
+  transition: transform 1s, opacity 1s;
+}
+.--watcher-view .company-history__images-container {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.company-history__images {
+  z-index: 1;
+  flex-basis: 50%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  max-inline-size: 100%;
+  align-self: flex-start;
+  position: sticky;
+}
+.company-history__images > * {
+  grid-row: 1;
+  grid-column: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+@keyframes fade-in-out {
+  0%, 50% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@media (max-width: 47.99875em) {
+  .company-history__content {
+    flex-direction: column;
+  }
+}
+@media (max-width: 20em) {
+  .company-history {
+    padding-block: 6.25rem;
+  }
+  .company-history__container {
+    gap: 1.25rem;
+  }
+  .company-history__text {
+    font-size: 1rem;
+  }
+  .company-history__text p:not(:last-child) {
+    margin-block-end: 1.25rem;
+  }
+}
+@media (min-width: 20em) and (max-width: 121.875em) {
+  .company-history {
+    padding-block: clamp( 6.25rem , 5.02300613496875rem  +  6.1349693252vw , 12.5rem );
+  }
+  .company-history__container {
+    gap: clamp( 1.25rem , 0.6365030674875rem  +  3.0674846626vw , 4.375rem );
+  }
+  .company-history__text {
+    font-size: clamp( 1rem , 0.9263803681rem  +  0.3680981595vw , 1.375rem );
+  }
+  .company-history__text p:not(:last-child) {
+    margin-block-end: clamp( 1.25rem , 0.88190184049375rem  +  1.8404907975vw , 3.125rem );
+  }
+}
+@media (min-width: 47.99875em) {
+  .company-history__images {
+    top: 6.25rem;
+    padding-block-start: 3.125rem;
+  }
+}
+@media (min-width: 121.875em) {
+  .company-history {
+    padding-block: 12.5rem;
+  }
+  .company-history__container {
+    gap: 4.375rem;
+  }
+  .company-history__text {
+    font-size: 1.375rem;
+  }
+  .company-history__text p:not(:last-child) {
+    margin-block-end: 3.125rem;
+  }
+}

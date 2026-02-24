@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Thejungle-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Norse-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Contact us</title>
+		<script type="module" crossorigin="" src="./js/contact-us.min.js?v=1771234176904"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1771234176904">
+		<link rel="modulepreload" crossorigin="" href="./js/cookies.min.js?v=1771234176904">
+		<link rel="modulepreload" crossorigin="" href="./js/watcher.min.js?v=1771234176904">
+		<link rel="stylesheet" crossorigin="" href="./css/cookies.min.css?v=1771234176904">
+		<link rel="stylesheet" crossorigin="" href="./css/contact-us.min.css?v=1771234176904">
+	</head>
+	<body>
+		<div class="cookie-consent" id="cookieConsent" style="display: none;">
+			<div class="cookie-consent__body">
+				<div class="cookie-consent__text" data-i18n="cookies.text">This website uses cookies to improve your experience.</div>
+				<button class="cookie-consent__button button" id="acceptCookies">
+					<a data-i18n="cookies.accept">Accept</a>
+				</button>
+			</div>
+		</div>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<a class="header__logo" href="index.html">
+						<img class="" src="./assets/img/logo/logo-main.svg" alt="logo">
+					</a>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="index" class="menu__link" data-i18n="menu.link.home">
+										<span>Home</span>
+									</a>
+								</li>
+								<li class="menu__item menu__parent">
+									<!-- <div class="menu__category" data-i18n="menu.parent.products">Products</div> -->
+									<div class="menu__parent-body">
+										<input type="checkbox" id="menu-products" class="menu__input">
+										<label class="menu__category" for="menu-products" data-i18n="menu.parent.products">Products</label>
+										<div class="menu__submenu submenu">
+											<div class="submenu__body">
+												<ul class="submenu__list">
+													<li class="submenu__item">
+														<a href="smoothies" class="submenu__link" data-i18n="submenu.link.smoothies">
+															<span>Smoothies</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="kombucha" class="submenu__link" data-i18n="submenu.link.kombucha">
+															<span>Kombucha</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="fruit-infusion-drinks" class="submenu__link" data-i18n="submenu.link.fruit-infusion-drinks">
+															<span>Fruit infusion drinks</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="liqberry" class="submenu__link" data-i18n="submenu.link.liqberry">
+															<span>Liqberry</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="menu__item menu__parent">
+									<div class="menu__parent-body">
+										<input type="checkbox" id="menu-retail-equipment" class="menu__input">
+										<label class="menu__category" for="menu-retail-equipment" data-i18n="menu.parent.retail-equipment">Retail Equipment</label>
+										<!-- <div class="menu__category" data-i18n="menu.parent.retail-equipment">Retail Equipment</div> -->
+										<div class="menu__submenu submenu">
+											<div class="submenu__body">
+												<ul class="submenu__list">
+													<li class="submenu__item">
+														<a href="floor-displays" class="submenu__link" data-i18n="submenu.link.floor-displays">
+															<span>Floor Displays</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="fridges" class="submenu__link" data-i18n="submenu.link.fridges">
+															<span>Fridges</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<!-- {"href": "history","ancor": "History", "i18n": "menu.link.history"}, -->
+								<li class="menu__item">
+									<a href="about-us" class="menu__link" data-i18n="menu.link.about-us">About us</a>
+								</li>
+								<li class="menu__item menu__item--active">
+									<a href="contact-us" class="menu__link" data-i18n="menu.link.contact-us">Contact us</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+					<!-- <div data-fls-dynamic=".menu__body, 1199.98" class="header__settings"> -->
+					<div data-fls-dynamic=".header__container, 1199.98, 0" class="header__settings">
+						<!--
+<div class="header__language-dropdown dropdown" tabindex="0">
+<button id="dropdown-btn"></button>
+<ul class="dropdown-content" id="dropdown-content"></ul>
+</div>
+-->
+						<div class="header__language-dropdown dropdown">
+							<button id="dropdown-btn" type="button"></button>
+							<ul class="dropdown-content" id="dropdown-content"></ul>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="contact-us-page">
+				<section data-fls-watcher="" data-fls-watcher-once="" class="contact-us-page__contact-us contact-us">
+					<div class="contact-us__container">
+						<h1 class="contact-us__title title title--big" data-i18n="contact-us.title">Contact us to become our dealer!</h1>
+						<div class="contact-us__form">
+							<form id="form" class="contact-us__body" action="files/sendmail/sendmail.php" method="POST">
+								<h2 class="contact-us__title title title--medium" data-i18n="contact-us.form.title">Use this form to send us email</h2>
+								<div class="contact-us__interest interest-contact-us">
+									<div class="interest-contact-us__title" data-i18n="contact-us.form.interest.title">I'm interested in:</div>
+									<div class="interest-contact-us__body">
+										<div class="interest-contact-us__checkbox">
+											<input id="interestSmoothies" data-error="Error" class="interest-contact-us__input" type="checkbox" value="1" name="interest-smoothies">
+											<label for="interestSmoothies" class="interest-contact-us__label" data-i18n="contact-us.form.interest.smoothies">Smoothies</label>
+										</div>
+										<div class="interest-contact-us__checkbox">
+											<input id="interestKombucha" data-error="Error" class="interest-contact-us__input" type="checkbox" value="1" name="interest-kombucha">
+											<label for="interestKombucha" class="interest-contact-us__label" data-i18n="contact-us.form.interest.kombucha">Kombucha</label>
+										</div>
+										<div class="interest-contact-us__checkbox">
+											<input id="interestFruitInfusionDrinks" data-error="Error" class="interest-contact-us__input" type="checkbox" value="1" name="interest-fruit-infusion-drinks">
+											<label for="interestFruitInfusionDrinks" class="interest-contact-us__label" data-i18n="contact-us.form.interest.fruit-infusion-drinks">Fruit infusion
+									drinks</label>
+										</div>
+										<div class="interest-contact-us__checkbox">
+											<input id="interestLiqberry" data-error="Error" class="interest-contact-us__input" type="checkbox" value="1" name="interest-liqberry">
+											<label for="interestLiqberry" class="interest-contact-us__label" data-i18n="contact-us.form.interest.liqberry">LIQberry</label>
+										</div>
+									</div>
+								</div>
+								<div class="contact-us__item contact-us__item--select">
+									<div class="contact-us__label" data-i18n="contact-us.form.salutation.label">How should we address you? *</div>
+									<select class="contact-us__select _req" name="anrede" data-fls-select="" data-fls-select-modif="form">
+										<option value="">...</option>
+										<option value="1" data-i18n="contact-us.form.salutation.mr">Mr.</option>
+										<option value="2" data-i18n="contact-us.form.salutation.mrs">Mrs.</option>
+									</select>
+								</div>
+								<div class="contact-us__item">
+									<label for="contactUsFirstName" class="contact-us__label" data-i18n="contact-us.form.firstName.label">First name *:</label>
+									<input data-fls-input="" id="contactUsFirstName" autocomplete="on" type="text" name="firstName" data-error="Error" placeholder="First name" data-i18n-placeholder="contact-us.form.firstName.placeholder" class="contact-us__input input _req">
+								</div>
+								<div class="contact-us__item">
+									<label for="contactUsLastName" class="contact-us__label" data-i18n="contact-us.form.lastName.label">Last name *:</label>
+									<input id="contactUsLastName" autocomplete="on" type="text" name="lastName" data-error="Error" placeholder="Last name" data-i18n-placeholder="contact-us.form.lastName.placeholder" class="contact-us__input input _req">
+								</div>
+								<div class="contact-us__item">
+									<label for="contactUsEmail" class="contact-us__label" data-i18n="contact-us.form.email.label">E-mail *:</label>
+									<input id="contactUsEmail" autocomplete="on" type="text" name="email" data-error="Error" placeholder="E-mail" data-i18n-placeholder="contact-us.form.email.placeholder" class="contact-us__input input _req _email">
+								</div>
+								<div class="contact-us__item">
+									<label for="contactUsAddInfo" class="contact-us__label" data-i18n="contact-us.form.addInfo.label">Additional information:</label>
+									<textarea id="contactUsAddInfo" autocomplete="off" name="addInfo" placeholder="Additional information" data-i18n-placeholder="contact-us.form.addInfo.placeholder" data-error="Error" class="contact-us__input input"></textarea>
+								</div>
+								<div class="contact-us__item">
+									<div class="contact-us__checkbox checkbox-contact-us">
+										<input id="contactUsAgreement" data-error="Error" class="checkbox-contact-us__input input _req" type="checkbox" value="1" name="agreement">
+										<label for="contactUsAgreement" class="checkbox-contact-us__label">
+											<div class="checkbox-contact-us__text">
+												<span data-i18n="contact-us.form.agreement.text">
+													I consent to the collection, processing or use of my personal data in accordance with the
+												</span>
+												<span>
+													<a href="privacy-policy.html" data-i18n="contact-us.form.agreement.link">privacy policy</a>
+													. *
+												</span>
+											</div>
+										</label>
+									</div>
+								</div>
+								<div class="contact-us__required">
+									<p data-i18n="contact-us.form.required">* Required</p>
+								</div>
+								<div class="contact-us__button-container button-container">
+									<button type="submit" class="contact-us__button button">
+										<a data-i18n="contact-us.form.button">Send</a>
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<ul class="footer__list">
+						<li class="footer__item">
+							<a href="privacy-policy.html" target="_blank" class="footer__link" data-i18n="footer.privacy">Privacy policy</a>
+						</li>
+						<li class="footer__item">
+							<a href="legal-disclosure.html" target="_blank" class="footer__link" data-i18n="footer.legal">Legal Disclosure</a>
+						</li>
+						<li class="footer__item">
+							<a href="https://www.linkedin.com/company/totem-superfood/?viewAsMember=true" target="_blank" class="footer__link" data-i18n="footer.linkedin">LinkedIn</a>
+						</li>
+						<li class="footer__item">
+							<a href="mailto:info@totem-superfood.com" class="footer__link" data-i18n="footer.email">info@totem-superfood.com</a>
+						</li>
+					</ul>
+					<div class="footer__logo">
+						<img src="./assets/img/logo/logo-main.svg" alt="logo">
+					</div>
+					<div class="footer__back-to-top">
+						<span data-i18n="footer.backTo">Back to</span>
+						<div class="button-container button-container--footer">
+							<div id="back-to-top" class="footer__button button">
+								<a data-i18n="footer.top">top</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<picture>
+					<source media="(max-width: 1200px)" srcset="./assets/img/background/1-1200.webp" type="image/webp">
+					<img class="footer__background" alt="bg" src="./assets/img/background/1.webp">
+				</picture>
+			</footer>
+		</div>
+	</body>
+</html>

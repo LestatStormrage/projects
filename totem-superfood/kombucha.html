@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Thejungle-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Norse-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Kombucha</title>
+		<script type="module" crossorigin="" src="./js/kombucha.min.js?v=1771234176901"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1771234176901">
+		<link rel="modulepreload" crossorigin="" href="./js/cookies.min.js?v=1771234176901">
+		<link rel="modulepreload" crossorigin="" href="./js/watcher.min.js?v=1771234176901">
+		<link rel="stylesheet" crossorigin="" href="./css/cookies.min.css?v=1771234176901">
+		<link rel="stylesheet" crossorigin="" href="./css/kombucha.min.css?v=1771234176901">
+	</head>
+	<body>
+		<div class="cookie-consent" id="cookieConsent" style="display: none;">
+			<div class="cookie-consent__body">
+				<div class="cookie-consent__text" data-i18n="cookies.text">This website uses cookies to improve your experience.</div>
+				<button class="cookie-consent__button button" id="acceptCookies">
+					<a data-i18n="cookies.accept">Accept</a>
+				</button>
+			</div>
+		</div>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<a class="header__logo" href="index.html">
+						<img class="" src="./assets/img/logo/logo-main.svg" alt="logo">
+					</a>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="index" class="menu__link" data-i18n="menu.link.home">
+										<span>Home</span>
+									</a>
+								</li>
+								<li class="menu__item menu__parent">
+									<!-- <div class="menu__category" data-i18n="menu.parent.products">Products</div> -->
+									<div class="menu__parent-body">
+										<input type="checkbox" id="menu-products" class="menu__input">
+										<label class="menu__category" for="menu-products" data-i18n="menu.parent.products">Products</label>
+										<div class="menu__submenu submenu">
+											<div class="submenu__body">
+												<ul class="submenu__list">
+													<li class="submenu__item">
+														<a href="smoothies" class="submenu__link" data-i18n="submenu.link.smoothies">
+															<span>Smoothies</span>
+														</a>
+													</li>
+													<li class="submenu__item submenu__item--active">
+														<a href="kombucha" class="submenu__link" data-i18n="submenu.link.kombucha">
+															<span>Kombucha</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="fruit-infusion-drinks" class="submenu__link" data-i18n="submenu.link.fruit-infusion-drinks">
+															<span>Fruit infusion drinks</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="liqberry" class="submenu__link" data-i18n="submenu.link.liqberry">
+															<span>Liqberry</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="menu__item menu__parent">
+									<div class="menu__parent-body">
+										<input type="checkbox" id="menu-retail-equipment" class="menu__input">
+										<label class="menu__category" for="menu-retail-equipment" data-i18n="menu.parent.retail-equipment">Retail Equipment</label>
+										<!-- <div class="menu__category" data-i18n="menu.parent.retail-equipment">Retail Equipment</div> -->
+										<div class="menu__submenu submenu">
+											<div class="submenu__body">
+												<ul class="submenu__list">
+													<li class="submenu__item">
+														<a href="floor-displays" class="submenu__link" data-i18n="submenu.link.floor-displays">
+															<span>Floor Displays</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="fridges" class="submenu__link" data-i18n="submenu.link.fridges">
+															<span>Fridges</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<!-- {"href": "history","ancor": "History", "i18n": "menu.link.history"}, -->
+								<li class="menu__item">
+									<a href="about-us" class="menu__link" data-i18n="menu.link.about-us">About us</a>
+								</li>
+								<li class="menu__item">
+									<a href="contact-us" class="menu__link" data-i18n="menu.link.contact-us">Contact us</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+					<!-- <div data-fls-dynamic=".menu__body, 1199.98" class="header__settings"> -->
+					<div data-fls-dynamic=".header__container, 1199.98, 0" class="header__settings">
+						<!--
+<div class="header__language-dropdown dropdown" tabindex="0">
+<button id="dropdown-btn"></button>
+<ul class="dropdown-content" id="dropdown-content"></ul>
+</div>
+-->
+						<div class="header__language-dropdown dropdown">
+							<button id="dropdown-btn" type="button"></button>
+							<ul class="dropdown-content" id="dropdown-content"></ul>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="products-page">
+				<section data-fls-watcher="" data-fls-watcher-once="" class="products-page__products-block products-block">
+					<h1 class="products-page__title title title--big" data-i18n="kombucha.main-title">Kombucha</h1>
+					<div class="products-block__container">
+						<!-- <h2 class="products-block__title title title--medium" data-i18n="kombucha.title">Kombucha</h2> -->
+						<div class="products-block__description" data-i18n="kombucha.description">
+							A legendary tea drink from the ancient Orient. SCOBY, a
+				symbiotic culture of yeast and
+				beneficial bacteria, ferments aromatic tea to create a delicious and naturally healing sparkling beverage.
+				In ancient Japan, kombucha was called the “Tea of Immortality.” In Korea, it has been used since antiquity for rejuvenating
+				beauty treatments, and in China, it was the drink of emperors.
+						</div>
+						<ul class="products-block__list">
+							<li class="products-block__item products-block__item--classic-green product product--kombucha" data-product="classic-green">
+								<div class="product__image">
+									<picture>
+										<img alt="Classic Green" src="./assets/img/products/kombucha/classic-green.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="kombucha.classic-green.title">Classic Green</h3>
+							</li>
+							<li class="products-block__item products-block__item--ginger product product--kombucha" data-product="ginger">
+								<div class="product__image">
+									<picture>
+										<img alt="Ginger" src="./assets/img/products/kombucha/ginger.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="kombucha.ginger.title">Ginger</h3>
+							</li>
+							<li class="products-block__item products-block__item--hibiscus product product--kombucha" data-product="hibiscus">
+								<div class="product__image">
+									<picture>
+										<img alt="Hibiscus" src="./assets/img/products/kombucha/hibiscus.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="kombucha.hibiscus.title">Hibiscus</h3>
+							</li>
+							<li class="products-block__item products-block__item--jasmine product product--kombucha" data-product="jasmine">
+								<div class="product__image">
+									<picture>
+										<img alt="Jasmine" src="./assets/img/products/kombucha/jasmine.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="kombucha.jasmine.title">Jasmine</h3>
+							</li>
+							<li class="products-block__item products-block__item--lavender product product--kombucha" data-product="lavender">
+								<div class="product__image">
+									<picture>
+										<img alt="Lavender" src="./assets/img/products/kombucha/lavender.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="kombucha.lavender.title">Lavender</h3>
+							</li>
+							<li class="products-block__item products-block__item--lemongrass product product--kombucha" data-product="lemongrass">
+								<div class="product__image">
+									<picture>
+										<img alt="Lemongrass" src="./assets/img/products/kombucha/lemongrass.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="kombucha.lemongrass.title">Lemongrass</h3>
+							</li>
+							<li class="products-block__item products-block__item--passion-fruit product product--kombucha" data-product="passion-fruit">
+								<div class="product__image">
+									<picture>
+										<img alt="Passion Fruit" src="./assets/img/products/kombucha/passion-fruit.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="kombucha.passion-fruit.title">Passion Fruit</h3>
+							</li>
+							<li class="products-block__item products-block__item--yuzu product product--kombucha" data-product="yuzu">
+								<div class="product__image">
+									<picture>
+										<img alt="Yuzu" src="./assets/img/products/kombucha/yuzu.webp">
+									</picture>
+								</div>
+								<h3 class="product__title" data-i18n="kombucha.yuzu.title">Yuzu</h3>
+							</li>
+						</ul>
+						<div class="products-block__popups product-popups">
+							<button class="product-popups__close">✖</button>
+							<ul class="product-popups__body">
+								<li class="product-popup" data-product="classic-green">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Classic Green" src="./assets/img/products/kombucha/classic-green.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="kombucha.classic-green.type">Kombucha</div>
+										<h3 class="product-popup__title" data-i18n="kombucha.classic-green.title">Classic Green</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="kombucha.classic-green.text.1">
+												Natural ingredients: filtered water,
+									concentrated apple juice, green tea,
+									sugar, kombucha culture.
+											</div>
+											<div class="description-product__title" data-i18n="kombucha.classic-green.list.title">Nutritional values per 100 ml:</div>
+											<div class="product-popup__description-list list-description-product">
+												<ul class="list-description-product__body">
+													<li class="list-description-product__item" data-i18n="kombucha.classic-green.list.1">Energy: 67 kJ / 16 kcal</li>
+													<li class="list-description-product__item" data-i18n="kombucha.classic-green.list.2">Protein - 0.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.classic-green.list.3">Fat - 0.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.classic-green.list.4">Carbohydrates - 4.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.classic-green.list.5">Sugar - 4.0 g</li>
+												</ul>
+											</div>
+											<div class="description-product__text" data-i18n="kombucha.classic-green.text.2">Recommended storage temperature: +6°C
+									to +25°C.</div>
+											<div class="description-product__text" data-i18n="kombucha.classic-green.text.3">Consume within 48 hours after
+									opening.</div>
+											<div class="description-product__text" data-i18n="kombucha.classic-green.text.4">If sensitive to acidity, drink
+									diluted or in small doses.</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="ginger">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="Ginger" src="./assets/img/products/kombucha/ginger.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="kombucha.ginger.type">Kombucha</div>
+										<h3 class="product-popup__title" data-i18n="kombucha.ginger.title">Ginger</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="kombucha.ginger.text.1">
+												Natural ingredients: filtered water,
+									concentrated apple juice (20%), green tea, ginger, turmeric concentrate, sugar, lemon juice, kombucha culture.
+											</div>
+											<div class="description-product__title" data-i18n="kombucha.ginger.list.title">Nutritional values per 100 ml:</div>
+											<div class="product-popup__description-list list-description-product">
+												<ul class="list-description-product__body">
+													<li class="list-description-product__item" data-i18n="kombucha.ginger.list.1">Energy: 67 kJ / 16 kcal</li>
+													<li class="list-description-product__item" data-i18n="kombucha.ginger.list.2">Protein - 0.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.ginger.list.3">Fat - 0.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.ginger.list.4">Carbohydrates - 4.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.ginger.list.5">Sugar - 4.0 g</li>
+												</ul>
+											</div>
+											<div class="description-product__text" data-i18n="kombucha.ginger.text.2">Recommended storage temperature: +5°C to
+									+25°C.</div>
+											<div class="description-product__text" data-i18n="kombucha.ginger.text.3">Consume within 48 hours after opening.</div>
+											<div class="description-product__text" data-i18n="kombucha.ginger.text.4">If sensitive to acidity, drink diluted or in
+									small doses.</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="hibiscus">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="hibiscus" src="./assets/img/products/kombucha/hibiscus.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="kombucha.hibiscus.type">Kombucha</div>
+										<h3 class="product-popup__title" data-i18n="kombucha.hibiscus.title">hibiscus</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="kombucha.hibiscus.text.1">
+												Natural ingredients: filtered water,
+									concentrated apple juice, black tea, green tea, hibiscus flowers, sugar, kombucha culture.
+											</div>
+											<div class="description-product__title" data-i18n="kombucha.hibiscus.list.title">Nutritional values per 100 ml:</div>
+											<div class="product-popup__description-list list-description-product">
+												<ul class="list-description-product__body">
+													<li class="list-description-product__item" data-i18n="kombucha.hibiscus.list.1">Energy: 67 kJ / 16 kcal</li>
+													<li class="list-description-product__item" data-i18n="kombucha.hibiscus.list.2">Protein - 0.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.hibiscus.list.3">Fat - 0.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.hibiscus.list.4">Carbohydrates - 4.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.hibiscus.list.5">Sugar - 4.0 g</li>
+												</ul>
+											</div>
+											<div class="description-product__text" data-i18n="kombucha.hibiscus.text.2">Recommended storage temperature: +5°C to
+									+25°C.</div>
+											<div class="description-product__text" data-i18n="kombucha.hibiscus.text.3">Consume within 48 hours after opening.</div>
+											<div class="description-product__text" data-i18n="kombucha.hibiscus.text.4">If sensitive to acidity, drink diluted or
+									in small doses.</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="jasmine">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="jasmine" src="./assets/img/products/kombucha/jasmine.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="kombucha.jasmine.type">Kombucha</div>
+										<h3 class="product-popup__title" data-i18n="kombucha.jasmine.title">jasmine</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="kombucha.jasmine.text.1">
+												Natural ingredients: filtered water,
+									concentrated apple juice, green tea, jasmine flowers, sugar, kombucha culture.
+											</div>
+											<div class="description-product__title" data-i18n="kombucha.jasmine.list.title">Nutritional values per 100 ml:</div>
+											<div class="product-popup__description-list list-description-product">
+												<ul class="list-description-product__body">
+													<li class="list-description-product__item" data-i18n="kombucha.jasmine.list.1">Energy: 67 kJ / 16 kcal</li>
+													<li class="list-description-product__item" data-i18n="kombucha.jasmine.list.2">Protein - 0.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.jasmine.list.3">Fat - 0.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.jasmine.list.4">Carbohydrates - 4.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.jasmine.list.5">Sugar - 4.0 g</li>
+												</ul>
+											</div>
+											<div class="description-product__text" data-i18n="kombucha.jasmine.text.2">Recommended storage temperature: +6°C to
+									+25°C.</div>
+											<div class="description-product__text" data-i18n="kombucha.jasmine.text.3">Consume within 48 hours after opening.</div>
+											<div class="description-product__text" data-i18n="kombucha.jasmine.text.4">If sensitive to acidity, drink diluted or
+									in small doses.</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="lavender">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="lavender" src="./assets/img/products/kombucha/lavender.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="kombucha.lavender.type">Kombucha</div>
+										<h3 class="product-popup__title" data-i18n="kombucha.lavender.title">lavender</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="kombucha.lavender.text.1">
+												Natural ingredients: filtered water,
+									concentrated apple juice (20%), green tea, clitoria flowers, black tea, lavender flowers, sugar, kombucha culture.
+											</div>
+											<div class="description-product__title" data-i18n="kombucha.lavender.list.title">Nutritional values per 100 ml:</div>
+											<div class="product-popup__description-list list-description-product">
+												<ul class="list-description-product__body">
+													<li class="list-description-product__item" data-i18n="kombucha.lavender.list.1">Energy: 67 kJ / 16 kcal</li>
+													<li class="list-description-product__item" data-i18n="kombucha.lavender.list.2">Protein - 0.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.lavender.list.3">Fat - 0.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.lavender.list.4">Carbohydrates - 4.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.lavender.list.5">Sugar - 4.0 g</li>
+												</ul>
+											</div>
+											<div class="description-product__text" data-i18n="kombucha.lavender.text.2">Recommended storage temperature: +6°C to
+									+25°C.</div>
+											<div class="description-product__text" data-i18n="kombucha.lavender.text.3">Consume within 48 hours after opening.</div>
+											<div class="description-product__text" data-i18n="kombucha.lavender.text.4">If sensitive to acidity, drink diluted or
+									in small doses.</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="lemongrass">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="lemongrass" src="./assets/img/products/kombucha/lemongrass.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="kombucha.lemongrass.type">Kombucha</div>
+										<h3 class="product-popup__title" data-i18n="kombucha.lemongrass.title">lemongrass</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="kombucha.lemongrass.text.1">
+												Natural ingredients: filtered water,
+									concentrated apple juice, black tea, lemongrass, sugar, kombucha culture.
+											</div>
+											<div class="description-product__title" data-i18n="kombucha.lemongrass.list.title">Nutritional values per 100 ml:</div>
+											<div class="product-popup__description-list list-description-product">
+												<ul class="list-description-product__body">
+													<li class="list-description-product__item" data-i18n="kombucha.lemongrass.list.1">Energy: 67 kJ / 16 kcal</li>
+													<li class="list-description-product__item" data-i18n="kombucha.lemongrass.list.2">Protein - 0.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.lemongrass.list.3">Fat - 0.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.lemongrass.list.4">Carbohydrates - 4.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.lemongrass.list.5">Sugar - 4.0 g</li>
+												</ul>
+											</div>
+											<div class="description-product__text" data-i18n="kombucha.lemongrass.text.2">Recommended storage temperature: +6°C to
+									+25°C.</div>
+											<div class="description-product__text" data-i18n="kombucha.lemongrass.text.3">Consume within 48 hours after opening.</div>
+											<div class="description-product__text" data-i18n="kombucha.lemongrass.text.4">If sensitive to acidity, drink diluted
+									or
+									in small doses.</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="passion-fruit">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="passion fruit" src="./assets/img/products/kombucha/passion-fruit.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="kombucha.passion-fruit.type">Kombucha</div>
+										<h3 class="product-popup__title" data-i18n="kombucha.passion-fruit.title">passion fruit</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="kombucha.passion-fruit.text.1">
+												Natural ingredients: filtered water,
+									concentrated apple juice, green tea, passion fruit, sugar, lemon juice, kombucha culture.
+											</div>
+											<div class="description-product__title" data-i18n="kombucha.passion-fruit.list.title">Nutritional values per 100 ml:</div>
+											<div class="product-popup__description-list list-description-product">
+												<ul class="list-description-product__body">
+													<li class="list-description-product__item" data-i18n="kombucha.passion-fruit.list.1">Energy: 67 kJ / 16 kcal</li>
+													<li class="list-description-product__item" data-i18n="kombucha.passion-fruit.list.2">Protein - 0.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.passion-fruit.list.3">Fat - 0.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.passion-fruit.list.4">Carbohydrates - 4.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.passion-fruit.list.5">Sugar - 4.0 g</li>
+												</ul>
+											</div>
+											<div class="description-product__text" data-i18n="kombucha.passion-fruit.text.2">Recommended storage temperature: +6°C
+									to
+									+25°C.</div>
+											<div class="description-product__text" data-i18n="kombucha.passion-fruit.text.3">Consume within 48 hours after
+									opening.</div>
+											<div class="description-product__text" data-i18n="kombucha.passion-fruit.text.4">
+												If sensitive to acidity, drink
+									diluted
+									or
+									in small doses.
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product-popup" data-product="yuzu">
+									<div class="product-popup__media">
+										<div class="product-popup__image-container">
+											<picture>
+												<img class="product-popup__image" data-prlx-mouse="" alt="passion fruit" src="./assets/img/products/kombucha/yuzu.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="product-popup__content">
+										<div class="product-popup__type" data-i18n="kombucha.yuzu.type">Kombucha</div>
+										<h3 class="product-popup__title" data-i18n="kombucha.yuzu.title">passion fruit</h3>
+										<div class="product-popup__description description-product">
+											<div class="description-product__text" data-i18n="kombucha.yuzu.text.1">
+												Natural ingredients: filtered water,
+									concentrated apple juice, green tea, yuzu juice, sugar, kombucha culture.
+											</div>
+											<div class="description-product__title" data-i18n="kombucha.yuzu.list.title">Nutritional values per 100 ml:</div>
+											<div class="product-popup__description-list list-description-product">
+												<ul class="list-description-product__body">
+													<li class="list-description-product__item" data-i18n="kombucha.yuzu.list.1">Energy: 67 kJ / 16 kcal</li>
+													<li class="list-description-product__item" data-i18n="kombucha.yuzu.list.2">Protein - 0.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.yuzu.list.3">Fat - 0.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.yuzu.list.4">Carbohydrates - 4.0 g</li>
+													<li class="list-description-product__item" data-i18n="kombucha.yuzu.list.5">Sugar - 4.0 g</li>
+												</ul>
+											</div>
+											<div class="description-product__text" data-i18n="kombucha.yuzu.text.2">Recommended storage temperature: +6°C
+									to
+									+25°C.</div>
+											<div class="description-product__text" data-i18n="kombucha.yuzu.text.3">Consume within 48 hours after
+									opening.</div>
+											<div class="description-product__text" data-i18n="kombucha.yuzu.text.4">
+												If sensitive to acidity, drink
+									diluted
+									or
+									in small doses.
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<button class="product-popups__close">✖</button>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<ul class="footer__list">
+						<li class="footer__item">
+							<a href="privacy-policy.html" target="_blank" class="footer__link" data-i18n="footer.privacy">Privacy policy</a>
+						</li>
+						<li class="footer__item">
+							<a href="legal-disclosure.html" target="_blank" class="footer__link" data-i18n="footer.legal">Legal Disclosure</a>
+						</li>
+						<li class="footer__item">
+							<a href="https://www.linkedin.com/company/totem-superfood/?viewAsMember=true" target="_blank" class="footer__link" data-i18n="footer.linkedin">LinkedIn</a>
+						</li>
+						<li class="footer__item">
+							<a href="mailto:info@totem-superfood.com" class="footer__link" data-i18n="footer.email">info@totem-superfood.com</a>
+						</li>
+					</ul>
+					<div class="footer__logo">
+						<img src="./assets/img/logo/logo-main.svg" alt="logo">
+					</div>
+					<div class="footer__back-to-top">
+						<span data-i18n="footer.backTo">Back to</span>
+						<div class="button-container button-container--footer">
+							<div id="back-to-top" class="footer__button button">
+								<a data-i18n="footer.top">top</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<picture>
+					<source media="(max-width: 1200px)" srcset="./assets/img/background/1-1200.webp" type="image/webp">
+					<img class="footer__background" alt="bg" src="./assets/img/background/1.webp">
+				</picture>
+			</footer>
+		</div>
+	</body>
+</html>

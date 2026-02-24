@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Thejungle-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Norse-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>About us</title>
+		<script type="module" crossorigin="" src="./js/common.min.js?v=1771234176905"></script>
+		<script type="module" crossorigin="" src="./js/cookies.min.js?v=1771234176905"></script>
+		<script type="module" crossorigin="" src="./js/watcher.min.js?v=1771234176905"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/cookies.min.css?v=1771234176905">
+		<link rel="stylesheet" crossorigin="" href="./css/about-us.min.css?v=1771234176905">
+	</head>
+	<body>
+		<div class="cookie-consent" id="cookieConsent" style="display: none;">
+			<div class="cookie-consent__body">
+				<div class="cookie-consent__text" data-i18n="cookies.text">This website uses cookies to improve your experience.</div>
+				<button class="cookie-consent__button button" id="acceptCookies">
+					<a data-i18n="cookies.accept">Accept</a>
+				</button>
+			</div>
+		</div>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<a class="header__logo" href="index.html">
+						<img class="" src="./assets/img/logo/logo-main.svg" alt="logo">
+					</a>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="index" class="menu__link" data-i18n="menu.link.home">
+										<span>Home</span>
+									</a>
+								</li>
+								<li class="menu__item menu__parent">
+									<!-- <div class="menu__category" data-i18n="menu.parent.products">Products</div> -->
+									<div class="menu__parent-body">
+										<input type="checkbox" id="menu-products" class="menu__input">
+										<label class="menu__category" for="menu-products" data-i18n="menu.parent.products">Products</label>
+										<div class="menu__submenu submenu">
+											<div class="submenu__body">
+												<ul class="submenu__list">
+													<li class="submenu__item">
+														<a href="smoothies" class="submenu__link" data-i18n="submenu.link.smoothies">
+															<span>Smoothies</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="kombucha" class="submenu__link" data-i18n="submenu.link.kombucha">
+															<span>Kombucha</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="fruit-infusion-drinks" class="submenu__link" data-i18n="submenu.link.fruit-infusion-drinks">
+															<span>Fruit infusion drinks</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="liqberry" class="submenu__link" data-i18n="submenu.link.liqberry">
+															<span>Liqberry</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="menu__item menu__parent">
+									<div class="menu__parent-body">
+										<input type="checkbox" id="menu-retail-equipment" class="menu__input">
+										<label class="menu__category" for="menu-retail-equipment" data-i18n="menu.parent.retail-equipment">Retail Equipment</label>
+										<!-- <div class="menu__category" data-i18n="menu.parent.retail-equipment">Retail Equipment</div> -->
+										<div class="menu__submenu submenu">
+											<div class="submenu__body">
+												<ul class="submenu__list">
+													<li class="submenu__item">
+														<a href="floor-displays" class="submenu__link" data-i18n="submenu.link.floor-displays">
+															<span>Floor Displays</span>
+														</a>
+													</li>
+													<li class="submenu__item">
+														<a href="fridges" class="submenu__link" data-i18n="submenu.link.fridges">
+															<span>Fridges</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<!-- {"href": "history","ancor": "History", "i18n": "menu.link.history"}, -->
+								<li class="menu__item menu__item--active">
+									<a href="about-us" class="menu__link" data-i18n="menu.link.about-us">About us</a>
+								</li>
+								<li class="menu__item">
+									<a href="contact-us" class="menu__link" data-i18n="menu.link.contact-us">Contact us</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+					<!-- <div data-fls-dynamic=".menu__body, 1199.98" class="header__settings"> -->
+					<div data-fls-dynamic=".header__container, 1199.98, 0" class="header__settings">
+						<!--
+<div class="header__language-dropdown dropdown" tabindex="0">
+<button id="dropdown-btn"></button>
+<ul class="dropdown-content" id="dropdown-content"></ul>
+</div>
+-->
+						<div class="header__language-dropdown dropdown">
+							<button id="dropdown-btn" type="button"></button>
+							<ul class="dropdown-content" id="dropdown-content"></ul>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="about-page">
+				<div class="about-page__presentation presentation">
+					<section class="presentation__about-us about-us" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.1">
+						<div class="about-us__container">
+							<div class="about-us__body">
+								<h1 class="about-us__title title title--big" data-i18n="about-us.introduction.title">Introduction – Who We Are</h1>
+								<h3 class="about-us__subtitle title title--small" data-i18n="about-us.introduction.subtitle">From a Personal Mission to a Global Vision</h3>
+								<div class="about-us__text" data-i18n="about-us.introduction.text">
+									Although officially founded in 2025, our product’s story began in 2012 with one person’s dedication to health, nutrition, and energy-balanced living. Over the years, functional smoothie recipes were developed, enhanced with superfoods like spirulina, turmeric, maca, açaí, and chia — creating powerful blends full of vitamins and clean energy. By 2017, this evolved into a popular green smoothie bar, gaining local media attention and building a strong community of health-conscious consumers.
+								</div>
+							</div>
+							<div class="about-us__media">
+								<picture>
+									<source media="(max-width: 1200px)" srcset="./assets/img/about-us/1-1200.webp" type="image/webp">
+									<img class="about-us__image about-us__image--round" alt="A_kitchen_counter_with_fresh_ingredients_like_bananas" src="./assets/img/about-us/1.webp">
+								</picture>
+							</div>
+						</div>
+					</section>
+					<section class="presentation__about-us about-us" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.1">
+						<div class="about-us__container">
+							<div class="about-us__body">
+								<h2 class="about-us__title title title--medium" data-i18n="about-us.innovation.title">The Innovation</h2>
+								<h3 class="about-us__subtitle title title--small" data-i18n="about-us.innovation.subtitle">12 Years of Experience, One Revolutionary Product</h3>
+								<div class="about-us__text" data-i18n="about-us.innovation.text">
+									In 2024, we set out to bring these unique products to a global audience. After a Design Sprint, we embraced freeze-drying (lyophilization) — a method that preserves the nutritional value of ingredients through quick freezing and moisture removal. The result? A shelf-stable powder blend that transforms into a fresh smoothie with just water — as nutritious and delicious as if freshly made.
+								</div>
+							</div>
+							<div class="about-us__media">
+								<picture>
+									<source media="(max-width: 1200px)" srcset="./assets/img/about-us/2-1200.webp" type="image/webp">
+									<img class="about-us__image about-us__image--round" alt="Step_by_step_infographic_showing_freeze_drying_process" src="./assets/img/about-us/2.webp">
+								</picture>
+							</div>
+						</div>
+					</section>
+					<section class="presentation__about-us about-us" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.1">
+						<div class="about-us__container">
+							<div class="about-us__body">
+								<h2 class="about-us__title title title--medium" data-i18n="about-us.target.title">Target Audience</h2>
+								<h3 class="about-us__subtitle title title--small" data-i18n="about-us.target.subtitle">We Serve the Modern, Conscious Consumer</h3>
+								<ul class="about-us__list list-about-us">
+									<li class="list-about-us__item" data-i18n="about-us.target.list.1">Busy professionals & students needing fast yet healthy nutrition</li>
+									<li class="list-about-us__item" data-i18n="about-us.target.list.2">Travelers & outdoor enthusiasts with limited access to fresh meals</li>
+									<li class="list-about-us__item" data-i18n="about-us.target.list.3">
+										Health-focused individuals who value expert-recommended programs (e.g., detox, wellness balance, or daily nutrition)
+									</li>
+								</ul>
+							</div>
+							<div class="about-us__media about-us__media--target-audience">
+								<picture>
+									<img class="about-us__image about-us__image--round about-us__image--target-audience" alt="Female_backpacker_sitting_on_a_rock" src="./assets/img/about-us/3.webp">
+								</picture>
+								<picture>
+									<img class="about-us__image about-us__image--round about-us__image--target-audience" alt="Young_urban_professional_drinking_smoothie" src="./assets/img/about-us/4.webp">
+								</picture>
+							</div>
+						</div>
+					</section>
+					<section class="presentation__about-us about-us about-us--values" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.1">
+						<div class="about-us__container about-us__container--values">
+							<div class="about-us__body">
+								<h2 class="about-us__title title title--medium" data-i18n="about-us.values.title">Values We Stand For</h2>
+								<ul class="about-us__list list-about-us">
+									<li class="list-about-us__item" data-i18n="about-us.values.list.1">Health First: Natural, clean, sugar-free ingredients without additives</li>
+									<li class="list-about-us__item" data-i18n="about-us.values.list.2">Energy & Productivity: Fueling active lifestyles with high-nutrition blends</li>
+									<li class="list-about-us__item" data-i18n="about-us.values.list.3">Mobility & Convenience: One pack = one meal. Easy to carry. Ready in seconds</li>
+									<li class="list-about-us__item" data-i18n="about-us.values.list.4">Ecological Responsibility: Sustainable production, minimal waste</li>
+								</ul>
+							</div>
+							<div class="about-us__media about-us__media--values">
+								<picture>
+									<img class="about-us__image about-us__image--values" alt="totem superfood product" src="./assets/img/about-us/5.webp">
+								</picture>
+								<picture>
+									<img class="about-us__image about-us__image--values" alt="totem superfood product" src="./assets/img/about-us/7.webp">
+								</picture>
+							</div>
+						</div>
+					</section>
+					<section class="presentation__about-us about-us" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.1">
+						<div class="about-us__container">
+							<div class="about-us__body">
+								<h2 class="about-us__title title title--medium" data-i18n="about-us.problems.title">Problems We Solve</h2>
+								<ul class="about-us__list list-about-us">
+									<li class="list-about-us__item" data-i18n="about-us.problems.list.1">Lack of time for nutritious meals during work, travel, or busy days</li>
+									<li class="list-about-us__item" data-i18n="about-us.problems.list.2">Difficulty maintaining consistent energy and focus</li>
+									<li class="list-about-us__item" data-i18n="about-us.problems.list.3">Limited options for convenient and healthy snacks</li>
+									<li class="list-about-us__item" data-i18n="about-us.problems.list.4">Traditional options are either unhealthy or time-consuming</li>
+								</ul>
+							</div>
+							<div class="about-us__media about-us__media--problems">
+								<picture>
+									<source media="(max-width: 1200px)" srcset="./assets/img/about-us/8-1200.webp" type="image/webp">
+									<img class="about-us__image about-us__image--round" alt="" src="./assets/img/about-us/8.webp">
+								</picture>
+							</div>
+						</div>
+					</section>
+					<section class="presentation__about-us about-us" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.1">
+						<div class="about-us__container">
+							<div class="about-us__body">
+								<h2 class="about-us__title title title--medium" data-i18n="about-us.persona.title">Our Consumer Persona</h2>
+								<ul class="about-us__list list-about-us">
+									<li class="list-about-us__item" data-i18n="about-us.persona.list.1">
+										Conscious and selective: Cares about nutrition, reads labels, avoids sugar & chemicals
+									</li>
+									<li class="list-about-us__item" data-i18n="about-us.persona.list.2">Active and stylish: Engaged in sports, fitness, and self-care</li>
+									<li class="list-about-us__item" data-i18n="about-us.persona.list.3">Values-aligned: Seeks sustainable, transparent, and forward-thinking brands</li>
+								</ul>
+							</div>
+							<div class="about-us__media">
+								<picture>
+									<source media="(max-width: 1200px)" srcset="./assets/img/about-us/9-1200.webp" type="image/webp">
+									<img class="about-us__image about-us__image--round" alt="" src="./assets/img/about-us/9.webp">
+								</picture>
+							</div>
+						</div>
+					</section>
+					<section class="presentation__about-us about-us" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.1">
+						<div class="about-us__container">
+							<div class="about-us__body">
+								<h2 class="about-us__title title title--medium" data-i18n="about-us.advantage.title">Why It Works – Freeze-Drying Advantage</h2>
+								<ul class="about-us__list list-about-us">
+									<li class="list-about-us__item" data-i18n="about-us.advantage.list.1">Preserves 95–98% of vitamins and nutrients</li>
+									<li class="list-about-us__item" data-i18n="about-us.advantage.list.2">Lightweight and long-lasting — no refrigeration needed</li>
+									<li class="list-about-us__item" data-i18n="about-us.advantage.list.3">Tastes as good as fresh – just add water</li>
+									<li class="list-about-us__item" data-i18n="about-us.advantage.list.4">Perfect for on-the-go nutrition</li>
+								</ul>
+							</div>
+							<div class="about-us__media about-us__media--problems">
+								<picture>
+									<source media="(max-width: 1200px)" srcset="./assets/img/about-us/10-1200.webp" type="image/webp">
+									<img class="about-us__image about-us__image--round" alt="" src="./assets/img/about-us/10.webp">
+								</picture>
+							</div>
+						</div>
+					</section>
+					<section class="presentation__about-us about-us about-us--market" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.1">
+						<div class="about-us__container about-us__container--market">
+							<div class="about-us__body about-us__body--market">
+								<h2 class="about-us__title title title--medium" data-i18n="about-us.market.title">Market Opportunity</h2>
+								<div class="about-us__text about-us__text--market" data-i18n="about-us.market.text">
+									According to statistics, over 60% of the EU population actively tries to eat healthily. The demand for functional, ready-to-use superfood products is growing rapidly, especially among urban and mobile consumers.
+								</div>
+							</div>
+							<div class="about-us__media about-us__media--market">
+								<picture>
+									<img class="about-us__image" alt="totem superfood cups" src="./assets/img/about-us/tot-uni.webp">
+								</picture>
+							</div>
+						</div>
+					</section>
+					<section class="presentation__about-us about-us about-us--marketing" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.1">
+						<div class="about-us__container about-us__container--marketing">
+							<div class="about-us__body">
+								<h2 class="about-us__title title title--medium" data-i18n="about-us.marketing.title">Marketing Strategy</h2>
+								<h3 class="about-us__subtitle title title--small" data-i18n="about-us.marketing.subtitle">We build demand through pull marketing</h3>
+								<ul class="about-us__list list-about-us">
+									<li class="list-about-us__item" data-i18n="about-us.marketing.list.1">Social media influence & storytelling</li>
+									<li class="list-about-us__item" data-i18n="about-us.marketing.list.2">Collaborations with health coaches and fitness experts</li>
+									<li class="list-about-us__item" data-i18n="about-us.marketing.list.3">Consumer feedback loops to rapidly adapt</li>
+									<li class="list-about-us__item" data-i18n="about-us.marketing.list.4">Strong brand community & loyalty programs</li>
+								</ul>
+							</div>
+							<div class="about-us__media about-us__media--marketing">
+								<picture>
+									<img class="about-us__image about-us__image--marketing" alt="detox-collection" src="./assets/img/about-us/12.webp">
+								</picture>
+								<picture>
+									<source media="(max-width: 1200px)" srcset="./assets/img/about-us/13-1200.webp" type="image/webp">
+									<img class="about-us__image about-us__image--marketing" alt="kurk-sachet" src="./assets/img/about-us/13.webp">
+								</picture>
+							</div>
+						</div>
+					</section>
+				</div>
+				<section class="about-page__partner partner" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.1">
+					<div class="partner__container">
+						<div class="partner__body">
+							<h2 class="partner__title title title--medium" data-i18n="about-us.partner.title">Let’s Partner</h2>
+							<div class="partner__text" data-i18n="about-us.partner.text">
+								We offer a ready-to-scale solution with a highly motivated customer base and a product line backed by years of R&D. Join us in delivering modern nutrition for a modern world. Let’s make healthy living effortless — together.
+							</div>
+							<div class="button-container">
+								<div class="partner__button button">
+									<a href="contact-us.html" data-i18n="about-us.partner.button">Contact us</a>
+								</div>
+							</div>
+							<div class="partner__images">
+								<picture>
+									<img class="partner__image" alt="totem superfood products" src="./assets/img/about-us/14.webp">
+								</picture>
+								<picture>
+									<img class="partner__image" alt="totem superfood products" src="./assets/img/about-us/15.webp">
+								</picture>
+							</div>
+						</div>
+						<div class="partner__media">
+							<picture>
+								<source media="(max-width: 1200px)" srcset="./assets/img/about-us/19-1200.webp" type="image/webp">
+								<img class="partner__decor" alt="cap, t-shirt and can" src="./assets/img/about-us/19.webp">
+							</picture>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<ul class="footer__list">
+						<li class="footer__item">
+							<a href="privacy-policy.html" target="_blank" class="footer__link" data-i18n="footer.privacy">Privacy policy</a>
+						</li>
+						<li class="footer__item">
+							<a href="legal-disclosure.html" target="_blank" class="footer__link" data-i18n="footer.legal">Legal Disclosure</a>
+						</li>
+						<li class="footer__item">
+							<a href="https://www.linkedin.com/company/totem-superfood/?viewAsMember=true" target="_blank" class="footer__link" data-i18n="footer.linkedin">LinkedIn</a>
+						</li>
+						<li class="footer__item">
+							<a href="mailto:info@totem-superfood.com" class="footer__link" data-i18n="footer.email">info@totem-superfood.com</a>
+						</li>
+					</ul>
+					<div class="footer__logo">
+						<img src="./assets/img/logo/logo-main.svg" alt="logo">
+					</div>
+					<div class="footer__back-to-top">
+						<span data-i18n="footer.backTo">Back to</span>
+						<div class="button-container button-container--footer">
+							<div id="back-to-top" class="footer__button button">
+								<a data-i18n="footer.top">top</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<picture>
+					<source media="(max-width: 1200px)" srcset="./assets/img/background/1-1200.webp" type="image/webp">
+					<img class="footer__background" alt="bg" src="./assets/img/background/1.webp">
+				</picture>
+			</footer>
+		</div>
+	</body>
+</html>
