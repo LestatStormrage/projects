@@ -1,0 +1,43 @@
+{
+	"_metaTitle": "Kontakt os",
+	"_metaDescription": "Kom i kontakt med Totem Superfood. Udfyld vores kontaktformular for at blive forhandler eller stille spørgsmål om vores produkter.",
+	"contact-us": {
+		"title": "Kontakt os for at blive forhandler!",
+		"form": {
+			"title": "Brug denne formular til at sende os en e-mail",
+			"interest" :{
+				"title": "Jeg er interesseret i:",
+				"smoothies": "Smoothies",
+				"kombucha": "Kombucha",
+				"fruit-infusion-drinks": "Frugtinfusionsdrikke"
+			},
+			"salutation": {
+				"label": "Hvordan skal vi tiltale dig? *",
+				"mr": "Hr.",
+				"mrs": "Fr."
+			},
+			"firstName": {
+				"label": "Fornavn *:",
+				"placeholder": "Fornavn"
+			},
+			"lastName": {
+				"label": "Efternavn *:",
+				"placeholder": "Efternavn"
+			},
+			"email": {
+				"label": "E-mail *:",
+				"placeholder": "E-mail"
+			},
+			"addInfo": {
+				"label": "Yderligere information:",
+				"placeholder": "Yderligere information"
+			},
+			"agreement": {
+				"text": "Jeg giver samtykke til indsamling, behandling eller brug af mine personlige data i overensstemmelse med",
+				"link": "fortrolighedspolitikken"
+			},
+			"required": "* Påkrævet",
+			"button": "Send"
+		}
+	}
+}

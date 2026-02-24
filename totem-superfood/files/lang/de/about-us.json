@@ -1,0 +1,79 @@
+{
+	"_metaTitle": "Über uns - Totem Superfood",
+	"_metaDescription": "Erfahren Sie mehr über die Geschichte, Innovation und Mission von Totem Superfood, gesunde Ernährung weltweit zugänglich und mühelos zu machen.",
+	"about-us": {
+		"introduction": {
+			"title": "Einführung – Wer wir sind",
+			"subtitle": "Von einer persönlichen Mission zu einer globalen Vision",
+			"text": "Obwohl offiziell im Jahr 2025 gegründet, begann die Geschichte unseres Produkts bereits 2012 mit dem Engagement einer Person für Gesundheit, Ernährung und ein energieausgeglichenes Leben. Im Laufe der Jahre wurden funktionelle Smoothie-Rezepte entwickelt und mit Superfoods wie Spirulina, Kurkuma, Maca, Açaí und Chiasamen verfeinert – es entstanden kraftvolle Mischungen voller Vitamine und reiner Energie. Bis 2017 entwickelte sich daraus eine beliebte Green-Smoothie-Bar, die lokale Medienaufmerksamkeit erlangte und eine starke Gemeinschaft gesundheitsbewusster Verbraucher aufbaute."
+		},
+		"innovation": {
+			"title": "Die Innovation",
+			"subtitle": "12 Jahre Erfahrung – ein revolutionäres Produkt",
+			"text": "Im Jahr 2024 setzten wir uns das Ziel, diese einzigartigen Produkte einem globalen Publikum zugänglich zu machen. Nach einem Design Sprint entschieden wir uns für Gefriertrocknung (Lyophilisation) – eine Methode, die den Nährwert der Zutaten durch schnelles Einfrieren und Entzug von Feuchtigkeit erhält. Das Ergebnis? Eine haltbare Pulvermischung, die sich mit Wasser in einen frischen Smoothie verwandelt – genauso nahrhaft und lecker wie frisch zubereitet."
+		},
+		"target": {
+			"title": "Zielgruppe",
+			"subtitle": "Wir bedienen den modernen, bewussten Verbraucher",
+			"list": {
+				"1": "Vielbeschäftigte Berufstätige und Studierende, die schnelle und dennoch gesunde Ernährung benötigen",
+				"2": "Reisende und Outdoor-Enthusiasten mit eingeschränktem Zugang zu frischen Mahlzeiten",
+				"3": "Gesundheitsbewusste Menschen, die wert auf von Experten empfohlene Programme legen (z. B. Detox, Wellness-Balance oder tägliche Ernährung)"
+			}
+		},
+		"values": {
+			"title": "Unsere Werte",
+			"list": {
+				"1": "Gesundheit an erster Stelle: Natürliche, reine, zuckerfreie Zutaten ohne Zusatzstoffe",
+				"2": "Energie & Produktivität: Ernährung für aktive Lebensstile mit nährstoffreichen Mischungen",
+				"3": "Mobilität & Komfort: Eine Packung = eine Mahlzeit. Einfach zu transportieren. In Sekunden zubereitet",
+				"4": "Ökologische Verantwortung: Nachhaltige Produktion, minimaler Abfall"
+			}
+		},
+		"problems": {
+			"title": "Probleme, die wir lösen",
+			"list": {
+				"1": "Mangel an Zeit für nahrhafte Mahlzeiten während der Arbeit, auf Reisen oder an hektischen Tagen",
+				"2": "Schwierigkeit, konstante Energie und Konzentration aufrechtzuerhalten",
+				"3": "Begrenzte Auswahl an bequemen und gesunden Snacks",
+				"4": "Traditionelle Optionen sind entweder ungesund oder zeitaufwendig"
+			}
+		},
+		"persona": {
+			"title": "Unsere Verbraucher-Persona",
+			"list": {
+				"1": "Bewusst und wählerisch: Achten auf Ernährung, lesen Etiketten, vermeiden Zucker und Chemikalien",
+				"2": "Aktiv und stilbewusst: Engagiert in Sport, Fitness und Selbstfürsorge",
+				"3": "Werteorientiert: Suchen nachhaltige, transparente und zukunftsorientierte Marken"
+			}
+		},
+		"advantage": {
+			"title": "Warum es funktioniert – Der Vorteil der Gefriertrocknung",
+			"list": {
+				"1": "Erhält 95–98 % der Vitamine und Nährstoffe",
+				"2": "Leicht und lange haltbar – keine Kühlung erforderlich",
+				"3": "Schmeckt wie frisch – einfach Wasser hinzufügen",
+				"4": "Perfekt für Ernährung unterwegs"
+			}
+		},
+		"market": {
+			"title": "Marktchance",
+			"text": "Laut Statistiken bemühen sich über 60 % der EU-Bevölkerung aktiv um eine gesunde Ernährung. Die Nachfrage nach funktionellen, gebrauchsfertigen Superfood-Produkten wächst rasant, insbesondere bei urbanen und mobilen Verbraucherinnen und Verbrauchern."
+		},
+		"marketing": {
+			"title": "Marketingstrategie",
+			"subtitle": "Wir schaffen Nachfrage durch Pull-Marketing",
+			"list": {
+				"1": "Social-Media-Einfluss & Storytelling",
+				"2": "Zusammenarbeit mit Gesundheitscoaches und Fitnessexperten",
+				"3": "Kundenfeedback-Schleifen zur schnellen Anpassung",
+				"4": "Starke Marken-Community & Treueprogramme"
+			}
+		},
+		"partner": {
+			"title": "Lassen Sie uns zusammenarbeiten",
+			"text": "Wir bieten eine skalierbare Lösung mit einer hochmotivierten Kundenbasis und einer Produktlinie, die auf jahrelanger Forschung und Entwicklung basiert. Schließen Sie sich uns an, um moderne Ernährung für eine moderne Welt zu liefern. Lassen Sie uns gemeinsam gesundes Leben mühelos machen.",
+			"button": "Kontaktieren Sie uns"
+		}
+	}
+}

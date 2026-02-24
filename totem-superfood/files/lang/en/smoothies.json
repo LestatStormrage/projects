@@ -1,0 +1,295 @@
+{
+    "_metaTitle": "Our Smoothies",
+    "_metaDescription": "Discover our delicious smoothies and support your active lifestyle.",
+    "products": {
+        "title": "Smoothies",
+        "fireSmoothies": {
+            "title": "Fire-Smoothies Collection",
+            "description": "Our smoothies are enriched with powerful superfoods, significantly boosting their nutritional value and health benefits. Each ingredient is carefully selected to support overall well-being, improve body functions, and enhance vitality.",
+            "turmeric": {
+                "name": "Turmeric Smoothie",
+                "type": "Smoothie",
+                "descriptionTitle": "Description:",
+                "descriptionText": "Turmeric is widely known for its anti-inflammatory and antioxidant properties, making it a great addition to a healthy diet. It is believed to:",
+                "list": {
+                    "1": "Help in preventing Alzheimer’s disease.",
+                    "2": "Alleviate arthritis symptoms and aid in joint health.",
+                    "3": "Support mental well-being by reducing symptoms of depression.",
+                    "4": "Slow down the aging process by protecting cells from oxidative stress.",
+                    "5": "Play a role in cancer prevention due to its active compounds."
+                }
+            },
+            "acai": {
+                "name": "Acai Smoothie",
+                "type": "Smoothie",
+                "ingredientsTitle": "Ingredients:",
+                "ingredients": {
+                    "1": "Strawberry",
+                    "2": "Raspberry",
+                    "3": "Rolled oats",
+                    "4": "Banana",
+                    "5": "Chia seeds",
+                    "6": "Acai berries"
+                },
+                "descriptionTitle": "Description:",
+                "descriptionText": "“Acai” is an exquisite cocktail that combines bright notes of strawberry, raspberry, and banana with the addition of rolled oats and chia seeds. Acai berries give the drink antioxidant properties, helping to strengthen the immune system, maintain heart health and improve cognitive functions."
+            },
+            "spirulina": {
+                "name": "Spirulina Smoothie",
+                "type": "Smoothie",
+                "ingredientsTitle": "Ingredients:",
+                "ingredients": {
+                    "1": "Spinach",
+                    "2": "Banana",
+                    "3": "Apple",
+                    "4": "Dates",
+                    "5": "Spirulina"
+                },
+                "descriptionTitle": "Description:",
+                "descriptionText": "“Spirulina” is a harmonious blend of spinach, banana, and apple, complemented by the sweetness of dates and the unique properties of spirulina. This drink is high in nutrients and promotes improved digestion, detoxification, and healthy weight maintenance."
+            },
+            "hemp": {
+                "name": "Hemp Storm Smoothie",
+                "type": "Smoothie",
+                "ingredientsTitle": "Ingredients:",
+                "ingredients": {
+                    "1": "Raspberry",
+                    "2": "Blueberry",
+                    "3": "Hulled hemp seeds",
+                    "4": "Chia seeds",
+                    "5": "Banana",
+                    "6": "Rolled oats"
+                },
+                "descriptionTitle": "Description:",
+                "descriptionText": "“Hemp Storm” is a nutritious cocktail in which raspberry, blueberry and banana are supplemented with healthy hemp seeds, chia seeds and rolled oats. Hemp seeds, rich in protein and fatty acids, help to strengthen the immune system, maintain heart health and improve skin condition."
+            }
+        },
+        "fireDetox": {
+            "title": "Fire-Detox Collection",
+            "description": "Our detox cocktails are formulated with powerful natural ingredients to cleanse the body, support digestion, and restore balance. Each blend is designed to boost energy, enhance metabolism, and promote overall well-being.",
+            "mega": {
+                "name": "Mega Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Ingredients:",
+                "ingredients": {
+                    "1": "Orange",
+                    "2": "Pineapple",
+                    "3": "Turmeric",
+                    "4": "Cinnamon",
+                    "5": "Chia seeds"
+                },
+                "descriptionTitle": "Description:",
+                "descriptionText": "“Mega Detox” is a powerful cocktail designed for deep cleansing of the body. Celery and spinach, known for their detoxifying properties, are combined with apple and banana to give the drink a pleasant sweetness."
+            },
+            "green": {
+                "name": "Green Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Ingredients:",
+                "ingredients": {
+                    "1": "Banana",
+                    "2": "Orange",
+                    "3": "Spinach",
+                    "4": "Pumpkin seeds",
+                    "5": "Chlorella"
+                },
+                "descriptionTitle": "Description:",
+                "descriptionText": "“Green Detox” is a nutritious and balanced cocktail that will help you replenish your supply of vitamins and minerals. Banana and orange give the drink a pleasant sweetness and refreshing taste. Spinach, rich in iron and other beneficial substances, promotes health. Pumpkin seeds and chlorella, rich in protein and antioxidants, support health and well-being."
+            },
+            "refreshing": {
+                "name": "Refreshing Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Ingredients:",
+                "ingredients": {
+                    "1": "Celery",
+                    "2": "Kiwi",
+                    "3": "Apple",
+                    "4": "Parsley",
+                    "5": "Chlorella",
+                    "6": "Chia seeds"
+                },
+                "descriptionTitle": "Description:",
+                "descriptionText": "“Refreshing Detox” is a light and invigorating cocktail that will help you feel energized. Celery and parsley, which have diuretic properties, help to remove excess fluid from the body. Kiwi and apple give the drink a pleasant sourness and refreshing taste. Chlorella and chia seeds, rich in nutrients, support health and well-being."
+            },
+            "energy": {
+                "name": "Energy Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Ingredients:",
+                "ingredients": {
+                    "1": "Orange",
+                    "2": "Pineapple",
+                    "3": "Turmeric",
+                    "4": "Cinnamon",
+                    "5": "Chia seeds"
+                },
+                "descriptionTitle": "Description:",
+                "descriptionText": "“Energy Detox” is a bright and aromatic cocktail that will energize you for the whole day. Orange and pineapple, rich in vitamin C, strengthen the immune system and increase tone. Turmeric and cinnamon, known for their anti-inflammatory properties, help cleanse the body and improve metabolism. Chia seeds, rich in fiber, provide a long feeling of satiety."
+            }
+        },
+        "air-collection": {
+            "title": "Air Collection",
+            "berry-boost": {
+                "type": "Smoothie",
+                "title": "Berry Boost",
+                "ingredients": {
+                    "title": "Ingredients:",
+                    "1": "Banana",
+                    "2": "Berries",
+                    "3": "Chia seeds",
+                    "4": "Rolled oats",
+                    "5": "Coconut flakes"
+                },
+                "benefit": {
+                    "title": "Benefit:",
+                    "text": "Boosts immunity, energizes, rich in antioxidants and fiber."
+                }
+            },
+            "green-boost": {
+                "type": "Smoothie",
+                "title": "Green Boost",
+                "ingredients": {
+                    "title": "Ingredients:",
+                    "1": "Spinach",
+                    "2": "Apple",
+                    "3": "Banana",
+                    "4": "Spirulina",
+                    "5": "Flax seeds",
+                    "6": "Lemon"
+                },
+                "benefit": {
+                    "title": "Benefit:",
+                    "text": "Detoxifies the body, strengthens the immune system, and provides essential vitamins and minerals."
+                }
+            },
+            "nut-cocoa": {
+                "type": "Smoothie",
+                "title": "Nut-Cocoa Energy",
+                "ingredients": {
+                    "title": "Ingredients:",
+                    "1": "Banana",
+                    "2": "Cocoa powder",
+                    "3": "Dates",
+                    "4": "Almonds",
+                    "5": "Maca",
+                    "6": "Rolled oats"
+                },
+                "benefit": {
+                    "title": "Benefit:",
+                    "text": "Lifts mood, energizes, and nourishes with healthy fats."
+                }
+            },
+            "spiced-banana-boost": {
+                "type": "Smoothie",
+                "title": "Spiced Banana Boost",
+                "ingredients": {
+                    "title": "Ingredients:",
+                    "1": "Banana",
+                    "2": "Apple",
+                    "3": "Rolled oats",
+                    "4": "Cinnamon",
+                    "5": "Chia seeds",
+                    "6": "Almonds"
+                },
+                "benefit": {
+                    "title": "Benefit:",
+                    "text": "Warms, satisfies, stabilizes blood sugar, and supports digestion."
+                }
+            },
+            "turmeric-mango-immunoboost": {
+                "type": "Smoothie",
+                "title": "Turmeric + Mango “ImmunoBoost”",
+                "ingredients": {
+                    "title": "Ingredients:",
+                    "1": "Mango",
+                    "2": "Banana",
+                    "3": "Turmeric",
+                    "4": "Ginger",
+                    "5": "Flax seeds",
+                    "6": "Oat powder"
+                },
+                "benefit": {
+                    "title": "Benefit:",
+                    "text": "Strengthens immunity, reduces inflammation, and delivers a vitamin boost."
+                }
+            },
+            "cocoa-turmeric-antistress": {
+                "type": "Smoothie",
+                "title": "Cocoa Turmeric Antistress",
+                "ingredients": {
+                    "title": "Ingredients:",
+                    "1": "Banana",
+                    "2": "Cocoa powder",
+                    "3": "Almonds",
+                    "4": "Turmeric",
+                    "5": "Dates",
+                    "6": "Chia seeds"
+                },
+                "benefit": {
+                    "title": "Benefit:",
+                    "text": "Relieves stress, provides magnesium, and supports the nervous system and sleep."
+                }
+            }
+        },
+        "earthCollection": {
+            "title": "Earth Collection",
+            "ingredientsTitle": "Ingredients:",
+            "benefitTitle": "Benefit:",
+            "morningEnergy": {
+                "title": "Morning Energy",
+                "alt": "Morning Energy",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Freeze-dried banana",
+                    "Rolled oats",
+                    "Almonds",
+                    "Chia seeds",
+                    "Cocoa",
+                    "Dry coconut milk",
+                    "Sweetener"
+                ],
+                "benefit": "A great breakfast option – energizes and supports brain function."
+            },
+            "immuneShield": {
+                "title": "Immune Shield",
+                "alt": "Immune Shield",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Freeze-dried strawberry",
+                    "Rolled oats",
+                    "Walnuts",
+                    "Spirulina",
+                    "Powdered ginger",
+                    "Dry coconut milk"
+                ],
+                "benefit": "Immune system support thanks to vitamin C and antioxidants."
+            },
+            "fitnessCharge": {
+                "title": "Fitness Charge",
+                "alt": "Fitness Charge",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Freeze-dried blueberry",
+                    "Rolled oats",
+                    "Hazelnuts",
+                    "Maca",
+                    "Sesame seeds",
+                    "Cocoa"
+                ],
+                "benefit": "Improves endurance and aids muscle recovery."
+            },
+            "detoxBalance": {
+                "title": "Detox & Balance",
+                "alt": "Detox & Balance",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Freeze-dried raspberry",
+                    "Rolled oats",
+                    "Flax seeds",
+                    "Spirulina",
+                    "Matcha",
+                    "Pine nuts"
+                ],
+                "benefit": "Cleanses the body and boosts vitality."
+            }
+        }
+    }
+}

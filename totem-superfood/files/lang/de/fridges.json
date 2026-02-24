@@ -1,0 +1,31 @@
+{
+	"_metaTitle": "Kühlschränke",
+	"_metaDescription": "Entdecken Sie unser Sortiment an professionellen Kühlschränken und automatisierten Verkaufsmodulen, die das Produktmarketing effizienter und rentabler machen.",
+	"fridges-page": {
+		"introduction": {
+			"title": "Kühlschränke",
+			"description": "Zusätzlich zu unseren Premium-Produkten bieten wir unseren Partnern ergänzende Geräte an, die das Marketing unserer Produkte einfacher, effizienter und profitabler machen."
+		},
+		"types": {
+			"title": "Kühlschranktypen:",
+			"list": {
+				"1": "Standardkühlschränke",
+				"2": "Automatisierte Verkaufsautomaten (Mikromärkte) mit integriertem Nayax-Zahlungssystem und Dynamic Scale Gewichtssensortechnologie",
+				"3": "Mikromärkte mit Dynamic Scale Gewichtssensortechnologie (nur Bestandskontrolle)"
+			}
+		},
+		"payment": {
+			"title": "Zahlungsoptionen",
+			"items": {
+				"1": {
+					"name": "POS",
+					"text": "Kunden öffnen den Mikromarkt mit einer Kreditkarte oder einem Telefon, die Zahlung erfolgt automatisch."
+				},
+				"2": {
+					"name": "Private App",
+					"text": "Wir erstellen eine maßgeschneiderte App für Sie mit Ihrem Logo und Ihren Markenfarben."
+				}
+			}
+		}
+	}
+}

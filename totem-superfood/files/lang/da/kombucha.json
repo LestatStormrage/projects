@@ -1,0 +1,152 @@
+{
+    "_metaTitle": "Kombucha",
+    "_metaDescription": "Opdag vores lækre smoothies og støt din aktive livsstil.",
+    "kombucha": {
+        "main-title": "Kombucha",
+        "description": "En legendarisk tedrik fra det gamle Orienten. SCOBY – en symbiotisk kultur af gær og gavnlige bakterier – fermenterer aromatisk te og skaber en velsmagende og naturligt helende, perlende drik. I det gamle Japan blev kombucha kaldt \"Udødelighedens te\". I Korea har den været brugt siden oldtiden til foryngende skønhedsbehandlinger, og i Kina var den kejsernes drik.",
+        "classic-green": {
+            "type": "Kombucha",
+            "title": "Classic Green",
+            "text": {
+                "1": "Naturlige ingredienser: filtreret vand, koncentreret æblejuice, grøn te, sukker, kombuchakultur.",
+                "2": "Anbefalet opbevaringstemperatur: +6 °C til +25 °C.",
+                "3": "Bør indtages inden for 48 timer efter åbning.",
+                "4": "Ved følsomhed over for syre anbefales fortynding eller indtag i små mængder."
+            },
+            "list": {
+                "title": "Næringsindhold pr. 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fedt – 0,0 g",
+                "4": "Kulhydrater – 4,0 g",
+                "5": "Sukker – 4,0 g"
+            }
+        },
+        "ginger": {
+            "type": "Kombucha",
+            "title": "Ingefær",
+            "text": {
+                "1": "Naturlige ingredienser: filtreret vand, koncentreret æblejuice (20 %), grøn te, ingefær, gurkemejekoncentrat, sukker, citronsaft, kombuchakultur.",
+                "2": "Anbefalet opbevaringstemperatur: +6 °C til +25 °C.",
+                "3": "Bør indtages inden for 48 timer efter åbning.",
+                "4": "Ved følsomhed over for syre anbefales fortynding eller indtag i små mængder."
+            },
+            "list": {
+                "title": "Næringsindhold pr. 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fedt – 0,0 g",
+                "4": "Kulhydrater – 4,0 g",
+                "5": "Sukker – 4,0 g"
+            }
+        },
+        "hibiscus": {
+            "type": "Kombucha",
+            "title": "Hibiscus",
+            "text": {
+                "1": "Naturlige ingredienser: filtreret vand, koncentreret æblejuice, sort te, grøn te, hibiscusblomster, sukker, kombuchakultur.",
+                "2": "Anbefalet opbevaringstemperatur: +6 °C til +25 °C.",
+                "3": "Bør indtages inden for 48 timer efter åbning.",
+                "4": "Ved følsomhed over for syre anbefales fortynding eller indtag i små mængder."
+            },
+            "list": {
+                "title": "Næringsindhold pr. 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fedt – 0,0 g",
+                "4": "Kulhydrater – 4,0 g",
+                "5": "Sukker – 4,0 g"
+            }
+        },
+        "jasmine": {
+            "type": "Kombucha",
+            "title": "Jasmin",
+            "text": {
+                "1": "Naturlige ingredienser: filtreret vand, koncentreret æblejuice, grøn te, jasminblomster, sukker, kombuchakultur.",
+                "2": "Anbefalet opbevaringstemperatur: +6 °C til +25 °C.",
+                "3": "Bør indtages inden for 48 timer efter åbning.",
+                "4": "Ved følsomhed over for syre anbefales fortynding eller indtag i små mængder."
+            },
+            "list": {
+                "title": "Næringsindhold pr. 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fedt – 0,0 g",
+                "4": "Kulhydrater – 4,0 g",
+                "5": "Sukker – 4,0 g"
+            }
+        },
+        "lavender": {
+            "type": "Kombucha",
+            "title": "Lavendel",
+            "text": {
+                "1": "Naturlige ingredienser: filtreret vand, koncentreret æblejuice (20 %), grøn te, clitoria-blomster, sort te, lavendelblomster, sukker, kombuchakultur.",
+                "2": "Anbefalet opbevaringstemperatur: +6 °C til +25 °C.",
+                "3": "Bør indtages inden for 48 timer efter åbning.",
+                "4": "Ved følsomhed over for syre anbefales fortynding eller indtag i små mængder."
+            },
+            "list": {
+                "title": "Næringsindhold pr. 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fedt – 0,0 g",
+                "4": "Kulhydrater – 4,0 g",
+                "5": "Sukker – 4,0 g"
+            }
+        },
+        "lemongrass": {
+            "type": "Kombucha",
+            "title": "Citrongræs",
+            "text": {
+                "1": "Naturlige ingredienser: filtreret vand, koncentreret æblejuice, sort te, citrongræs, sukker, kombuchakultur.",
+                "2": "Anbefalet opbevaringstemperatur: +6 °C til +25 °C.",
+                "3": "Bør indtages inden for 48 timer efter åbning.",
+                "4": "Ved følsomhed over for syre anbefales fortynding eller indtag i små mængder."
+            },
+            "list": {
+                "title": "Næringsindhold pr. 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fedt – 0,0 g",
+                "4": "Kulhydrater – 4,0 g",
+                "5": "Sukker – 4,0 g"
+            }
+        },
+        "passion-fruit": {
+            "type": "Kombucha",
+            "title": "Passionsfrugt",
+            "text": {
+                "1": "Naturlige ingredienser: filtreret vand, koncentreret æblejuice, grøn te, passionsfrugt, sukker, citronsaft, kombuchakultur.",
+                "2": "Anbefalet opbevaringstemperatur: +6 °C til +25 °C.",
+                "3": "Bør indtages inden for 48 timer efter åbning.",
+                "4": "Ved følsomhed over for syre anbefales fortynding eller indtag i små mængder."
+            },
+            "list": {
+                "title": "Næringsindhold pr. 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fedt – 0,0 g",
+                "4": "Kulhydrater – 4,0 g",
+                "5": "Sukker – 4,0 g"
+            }
+        },
+        "yuzu": {
+            "type": "Kombucha",
+            "title": "Yuzu",
+            "text": {
+                "1": "Naturlige ingredienser: filtreret vand, koncentreret æblejuice, grøn te, yuzujuice, sukker, kombuchakultur.",
+                "2": "Anbefalet opbevaringstemperatur: +6 °C til +25 °C.",
+                "3": "Bør indtages inden for 48 timer efter åbning.",
+                "4": "Ved følsomhed over for syre anbefales fortynding eller indtag i små mængder."
+            },
+            "list": {
+                "title": "Næringsindhold pr. 100 ml:",
+                "1": "Energi: 67 kJ / 16 kcal",
+                "2": "Protein – 0,0 g",
+                "3": "Fedt – 0,0 g",
+                "4": "Kulhydrater – 4,0 g",
+                "5": "Sukker – 4,0 g"
+            }
+        }
+    }
+}

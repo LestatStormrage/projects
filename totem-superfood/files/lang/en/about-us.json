@@ -1,0 +1,79 @@
+{
+	"_metaTitle": "About Us - Totem Superfood",
+	"_metaDescription": "Learn about Totem Superfood’s story, innovation, and mission to make healthy nutrition accessible and effortless worldwide.",
+	"about-us": {
+		"introduction": {
+			"title": "Introduction – Who We Are",
+			"subtitle": "From a Personal Mission to a Global Vision",
+			"text": "Although officially founded in 2025, our product’s story began in 2012 with one person’s dedication to health, nutrition, and energy-balanced living. Over the years, functional smoothie recipes were developed, enhanced with superfoods like spirulina, turmeric, maca, açaí, and chia — creating powerful blends full of vitamins and clean energy. By 2017, this evolved into a popular green smoothie bar, gaining local media attention and building a strong community of health-conscious consumers."
+		},
+		"innovation": {
+			"title": "The Innovation",
+			"subtitle": "12 Years of Experience, One Revolutionary Product",
+			"text": "In 2024, we set out to bring these unique products to a global audience. After a Design Sprint, we embraced freeze-drying (lyophilization) — a method that preserves the nutritional value of ingredients through quick freezing and moisture removal. The result? A shelf-stable powder blend that transforms into a fresh smoothie with just water — as nutritious and delicious as if freshly made."
+		},
+		"target": {
+			"title": "Target Audience",
+			"subtitle": "We Serve the Modern, Conscious Consumer",
+			"list": {
+				"1": "Busy professionals & students needing fast yet healthy nutrition",
+				"2": "Travelers & outdoor enthusiasts with limited access to fresh meals",
+				"3": "Health-focused individuals who value expert-recommended programs (e.g., detox, wellness balance, or daily nutrition)"
+			}
+		},
+		"values": {
+			"title": "Values We Stand For",
+			"list": {
+				"1": "Health First: Natural, clean, sugar-free ingredients without additives",
+				"2": "Energy & Productivity: Fueling active lifestyles with high-nutrition blends",
+				"3": "Mobility & Convenience: One pack = one meal. Easy to carry. Ready in seconds",
+				"4": "Ecological Responsibility: Sustainable production, minimal waste"
+			}
+		},
+		"problems": {
+			"title": "Problems We Solve",
+			"list": {
+				"1": "Lack of time for nutritious meals during work, travel, or busy days",
+				"2": "Difficulty maintaining consistent energy and focus",
+				"3": "Limited options for convenient and healthy snacks",
+				"4": "Traditional options are either unhealthy or time-consuming"
+			}
+		},
+		"persona": {
+			"title": "Our Consumer Persona",
+			"list": {
+				"1": "Conscious and selective: Cares about nutrition, reads labels, avoids sugar & chemicals",
+				"2": "Active and stylish: Engaged in sports, fitness, and self-care",
+				"3": "Values-aligned: Seeks sustainable, transparent, and forward-thinking brands"
+			}
+		},
+		"advantage": {
+			"title": "Why It Works – Freeze-Drying Advantage",
+			"list": {
+				"1": "Preserves 95–98% of vitamins and nutrients",
+				"2": "Lightweight and long-lasting — no refrigeration needed",
+				"3": "Tastes as good as fresh – just add water",
+				"4": "Perfect for on-the-go nutrition"
+			}
+		},
+		"market": {
+			"title": "Market Opportunity",
+			"text": "According to statistics, over 60% of the EU population actively tries to eat healthily. The demand for functional, ready-to-use superfood products is growing rapidly, especially among urban and mobile consumers."
+		},
+		"marketing": {
+			"title": "Marketing Strategy",
+			"subtitle": "We build demand through pull marketing",
+			"list": {
+				"1": "Social media influence & storytelling",
+				"2": "Collaborations with health coaches and fitness experts",
+				"3": "Consumer feedback loops to rapidly adapt",
+				"4": "Strong brand community & loyalty programs"
+			}
+		},
+		"partner": {
+			"title": "Let’s Partner",
+			"text": "We offer a ready-to-scale solution with a highly motivated customer base and a product line backed by years of R&D. Join us in delivering modern nutrition for a modern world. Let’s make healthy living effortless — together.",
+			"button": "Contact us"
+		}
+	}
+}

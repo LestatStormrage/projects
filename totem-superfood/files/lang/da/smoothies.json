@@ -1,0 +1,295 @@
+{
+    "_metaTitle": "Smoothies",
+    "_metaDescription": "Opdag vores lækre smoothies og støt din aktive livsstil.",
+    "products": {
+        "title": "Smoothies",
+        "fireSmoothies": {
+            "title": "Fire-Smoothies Kollektion",
+            "description": "Vores smoothies er beriget med kraftfulde superfoods, hvilket markant øger deres ernæringsværdi og sundhedsmæssige fordele. Hver ingrediens er nøje udvalgt for at støtte generel velvære, forbedre kropsfunktioner og øge vitalitet.",
+            "turmeric": {
+                "name": "Gurkemeje Smoothie",
+                "type": "Smoothie",
+                "descriptionTitle": "Beskrivelse:",
+                "descriptionText": "Gurkemeje er kendt for sine antiinflammatoriske og antioxidante egenskaber, hvilket gør det til et fremragende supplement til en sund kost. Det menes at:",
+                "list": {
+                    "1": "Hjælpe med at forebygge Alzheimers sygdom.",
+                    "2": "Lindre ledsmerter og støtte ledhelse.",
+                    "3": "Støtte mental velvære ved at reducere depressive symptomer.",
+                    "4": "Sænke aldringsprocessen ved at beskytte celler mod oxidativ stress.",
+                    "5": "Spille en rolle i kræftforebyggelse takket være dets aktive forbindelser."
+                }
+            },
+            "acai": {
+                "name": "Acai Smoothie",
+                "type": "Smoothie",
+                "ingredientsTitle": "Ingredienser:",
+                "ingredients": {
+                    "1": "Jordbær",
+                    "2": "Hindbær",
+                    "3": "Havregryn",
+                    "4": "Banan",
+                    "5": "Chiafrø",
+                    "6": "Acai-bær"
+                },
+                "descriptionTitle": "Beskrivelse:",
+                "descriptionText": "“Acai” er en udsøgt cocktail, der kombinerer lyse noter af jordbær, hindbær og banan med tilsætning af havregryn og chiafrø. Acai-bær giver drikken antioxidante egenskaber, som hjælper med at styrke immunforsvaret, vedligeholde hjertesundhed og forbedre kognitive funktioner."
+            },
+            "spirulina": {
+                "name": "Spirulina Smoothie",
+                "type": "Smoothie",
+                "ingredientsTitle": "Ingredienser:",
+                "ingredients": {
+                    "1": "Spinat",
+                    "2": "Banan",
+                    "3": "Æble",
+                    "4": "Daddel",
+                    "5": "Spirulina"
+                },
+                "descriptionTitle": "Beskrivelse:",
+                "descriptionText": "“Spirulina” er en harmonisk blanding af spinat, banan og æble, suppleret med sødmen fra dadler og de unikke egenskaber fra spirulina. Denne drik er næringsrig og fremmer forbedret fordøjelse, afgiftning og sund vægtkontrol."
+            },
+            "hemp": {
+                "name": "Hamp Storm Smoothie",
+                "type": "Smoothie",
+                "ingredientsTitle": "Ingredienser:",
+                "ingredients": {
+                    "1": "Hindbær",
+                    "2": "Blåbær",
+                    "3": "Skallede hampefrø",
+                    "4": "Chiafrø",
+                    "5": "Banan",
+                    "6": "Havregryn"
+                },
+                "descriptionTitle": "Beskrivelse:",
+                "descriptionText": "“Hamp Storm” er en næringsrig cocktail, hvor hindbær, blåbær og banan suppleres med sunde hampefrø, chiafrø og havregryn. Hampefrø, rige på protein og fedtsyrer, hjælper med at styrke immunforsvaret, vedligeholde hjertesundhed og forbedre hudens tilstand."
+            }
+        },
+        "fireDetox": {
+            "title": "Fire-Detox Kollektion",
+            "description": "Vores detox-cocktails er sammensat med kraftfulde naturlige ingredienser for at rense kroppen, støtte fordøjelsen og genoprette balance. Hver blanding er designet til at øge energi, forbedre stofskiftet og fremme generel velvære.",
+            "mega": {
+                "name": "Mega Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Ingredienser:",
+                "ingredients": {
+                    "1": "Appelsin",
+                    "2": "Ananas",
+                    "3": "Gurkemeje",
+                    "4": "Kanel",
+                    "5": "Chiafrø"
+                },
+                "descriptionTitle": "Beskrivelse:",
+                "descriptionText": "“Mega Detox” er en kraftfuld cocktail designet til dybdegående rensning af kroppen. Selleri og spinat, kendt for deres detox-egenskaber, kombineres med æble og banan for at give drikken en behagelig sødme."
+            },
+            "green": {
+                "name": "Green Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Ingredienser:",
+                "ingredients": {
+                    "1": "Banan",
+                    "2": "Appelsin",
+                    "3": "Spinat",
+                    "4": "Græskarkerner",
+                    "5": "Chlorella"
+                },
+                "descriptionTitle": "Beskrivelse:",
+                "descriptionText": "“Green Detox” er en næringsrig og balanceret cocktail, der hjælper dig med at genopfylde dit lager af vitaminer og mineraler. Banan og appelsin giver drikken en behagelig sødme og forfriskende smag. Spinat, rig på jern og andre gavnlige stoffer, fremmer sundhed. Græskarkerner og chlorella, rige på protein og antioxidanter, støtter sundhed og velvære."
+            },
+            "refreshing": {
+                "name": "Refreshing Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Ingredienser:",
+                "ingredients": {
+                    "1": "Selleri",
+                    "2": "Kiwi",
+                    "3": "Æble",
+                    "4": "Persille",
+                    "5": "Chlorella",
+                    "6": "Chiafrø"
+                },
+                "descriptionTitle": "Beskrivelse:",
+                "descriptionText": "“Refreshing Detox” er en let og opkvikkende cocktail, der hjælper dig med at føle dig energisk. Selleri og persille, som har vanddrivende egenskaber, hjælper med at fjerne overskydende væske fra kroppen. Kiwi og æble giver drikken en behagelig syrlighed og frisk smag. Chlorella og chiafrø, rige på næringsstoffer, understøtter sundhed og velvære."
+            },
+            "energy": {
+                "name": "Energy Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Ingredienser:",
+                "ingredients": {
+                    "1": "Appelsin",
+                    "2": "Ananas",
+                    "3": "Gurkemeje",
+                    "4": "Kanel",
+                    "5": "Chiafrø"
+                },
+                "descriptionTitle": "Beskrivelse:",
+                "descriptionText": "“Energy Detox” er en lys og aromatisk cocktail, der giver dig energi hele dagen. Appelsin og ananas, rige på C-vitamin, styrker immunforsvaret og øger energi. Gurkemeje og kanel, kendt for deres antiinflammatoriske egenskaber, hjælper med at rense kroppen og forbedre stofskiftet. Chiafrø, rige på fibre, giver en langvarig mæthedsfornemmelse."
+            }
+        },
+        "air-collection": {
+            "title": "Air Kollektion",
+            "berry-boost": {
+                "type": "Smoothie",
+                "title": "Berry Boost",
+                "ingredients": {
+                    "title": "Ingredienser:",
+                    "1": "Banan",
+                    "2": "Bær",
+                    "3": "Chiafrø",
+                    "4": "Havregryn",
+                    "5": "Kokosflager"
+                },
+                "benefit": {
+                    "title": "Fordel:",
+                    "text": "Styrker immunitet, giver energi, rig på antioxidanter og fibre."
+                }
+            },
+            "green-boost": {
+                "type": "Smoothie",
+                "title": "Green Boost",
+                "ingredients": {
+                    "title": "Ingredienser:",
+                    "1": "Spinat",
+                    "2": "Æble",
+                    "3": "Banan",
+                    "4": "Spirulina",
+                    "5": "Hørfrø",
+                    "6": "Citron"
+                },
+                "benefit": {
+                    "title": "Fordel:",
+                    "text": "Afgifter kroppen, styrker immunforsvaret og leverer essentielle vitaminer og mineraler."
+                }
+            },
+            "nut-cocoa": {
+                "type": "Smoothie",
+                "title": "Nut-Cocoa Energy",
+                "ingredients": {
+                    "title": "Ingredienser:",
+                    "1": "Banan",
+                    "2": "Kakaopulver",
+                    "3": "Daddel",
+                    "4": "Mandler",
+                    "5": "Maca",
+                    "6": "Havregryn"
+                },
+                "benefit": {
+                    "title": "Fordel:",
+                    "text": "Løfter humør, giver energi og nærer med sunde fedtstoffer."
+                }
+            },
+            "spiced-banana-boost": {
+                "type": "Smoothie",
+                "title": "Spiced Banana Boost",
+                "ingredients": {
+                    "title": "Ingredienser:",
+                    "1": "Banan",
+                    "2": "Æble",
+                    "3": "Havregryn",
+                    "4": "Kanel",
+                    "5": "Chiafrø",
+                    "6": "Mandler"
+                },
+                "benefit": {
+                    "title": "Fordel:",
+                    "text": "Varmer, tilfredsstiller, stabiliserer blodsukker og understøtter fordøjelsen."
+                }
+            },
+            "turmeric-mango-immunoboost": {
+                "type": "Smoothie",
+                "title": "Gurkemeje + Mango “ImmunoBoost”",
+                "ingredients": {
+                    "title": "Ingredienser:",
+                    "1": "Mango",
+                    "2": "Banan",
+                    "3": "Gurkemeje",
+                    "4": "Ingefær",
+                    "5": "Hørfrø",
+                    "6": "Havregrynspulver"
+                },
+                "benefit": {
+                    "title": "Fordel:",
+                    "text": "Styrker immunforsvaret, reducerer inflammation og giver et vitaminboost."
+                }
+            },
+            "cocoa-turmeric-antistress": {
+                "type": "Smoothie",
+                "title": "Cocoa Turmeric Antistress",
+                "ingredients": {
+                    "title": "Ingredienser:",
+                    "1": "Banan",
+                    "2": "Kakaopulver",
+                    "3": "Mandler",
+                    "4": "Gurkemeje",
+                    "5": "Daddel",
+                    "6": "Chiafrø"
+                },
+                "benefit": {
+                    "title": "Fordel:",
+                    "text": "Reducerer stress, tilføjer magnesium og understøtter nervesystem og søvn."
+                }
+            }
+        },
+        "earthCollection": {
+            "title": "Earth Kollektion",
+            "ingredientsTitle": "Ingredienser:",
+            "benefitTitle": "Fordel:",
+            "morningEnergy": {
+                "title": "Morning Energy",
+                "alt": "Morning Energy",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Frysetørret banan",
+                    "Havregryn",
+                    "Mandler",
+                    "Chiafrø",
+                    "Kakao",
+                    "Tørret kokosmælk",
+                    "Sødestof"
+                ],
+                "benefit": "Et fantastisk morgenmadsvalg – giver energi og støtter hjernefunktionen."
+            },
+            "immuneShield": {
+                "title": "Immune Shield",
+                "alt": "Immune Shield",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Frysetørret jordbær",
+                    "Havregryn",
+                    "Valnødder",
+                    "Spirulina",
+                    "Ingefærpulver",
+                    "Tørret kokosmælk"
+                ],
+                "benefit": "Støtte til immunsystemet takket være C-vitamin og antioxidanter."
+            },
+            "fitnessCharge": {
+                "title": "Fitness Charge",
+                "alt": "Fitness Charge",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Frysetørret blåbær",
+                    "Havregryn",
+                    "Hasselnødder",
+                    "Maca",
+                    "Sesamfrø",
+                    "Kakao"
+                ],
+                "benefit": "Forbedrer udholdenhed og hjælper muskelrestitution."
+            },
+            "detoxBalance": {
+                "title": "Detox & Balance",
+                "alt": "Detox & Balance",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Frysetørret hindbær",
+                    "Havregryn",
+                    "Hørfrø",
+                    "Spirulina",
+                    "Matcha",
+                    "Pinjekerner"
+                ],
+                "benefit": "Renser kroppen og øger vitalitet."
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+	"_metaTitle": "Kontakt",
+	"_metaDescription": "Kontaktieren Sie Totem Superfood. Füllen Sie unser Kontaktformular aus, um Händler zu werden oder Fragen zu unseren Produkten zu stellen.",
+	"contact-us": {
+		"title": "Kontaktieren Sie uns, um unser Händler zu werden!",
+		"form": {
+			"title": "Verwenden Sie dieses Formular, um uns eine E-Mail zu senden",
+			"interest" :{
+				"title": "Ich interessiere mich für:",
+				"smoothies": "Smoothies",
+				"kombucha": "Kombucha",
+				"fruit-infusion-drinks": "Fruchtinfusionsgetränke"
+			},
+			"salutation": {
+				"label": "Wie sollen wir Sie ansprechen? *",
+				"mr": "Herr",
+				"mrs": "Frau"
+			},
+			"firstName": {
+				"label": "Vorname *:",
+				"placeholder": "Vorname"
+			},
+			"lastName": {
+				"label": "Nachname *:",
+				"placeholder": "Nachname"
+			},
+			"email": {
+				"label": "E-Mail *:",
+				"placeholder": "E-Mail"
+			},
+			"addInfo": {
+				"label": "Zusätzliche Informationen:",
+				"placeholder": "Zusätzliche Informationen"
+			},
+			"agreement": {
+				"text": "Ich stimme der Erhebung, Verarbeitung und Nutzung meiner personenbezogenen Daten gemäß der",
+				"link": "Datenschutzerklärung"
+			},
+			"required": "* Erforderlich",
+			"button": "Senden"
+		}
+	}
+}

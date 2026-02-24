@@ -1,0 +1,152 @@
+{
+    "_metaTitle": "Kombucha",
+    "_metaDescription": "Discover our delicious smoothies and support your active lifestyle.",
+    "kombucha": {
+        "main-title": "Kombucha",
+        "description": "A legendary tea drink from the ancient Orient. SCOBY, a symbiotic culture of yeast and beneficial bacteria, ferments aromatic tea to create a delicious and naturally healing sparkling beverage. In ancient Japan, kombucha was called the “Tea of Immortality.” In Korea, it has been used since antiquity for rejuvenating beauty treatments, and in China, it was the drink of emperors.",
+        "classic-green": {
+            "type": "Kombucha",
+            "title": "Classic Green",
+            "text": {
+                "1": "Natural ingredients: filtered water, concentrated apple juice, green tea, sugar, kombucha culture.",
+                "2": "Recommended storage temperature: +6°C to +25°C.",
+                "3": "Consume within 48 hours after opening.",
+                "4": "If sensitive to acidity, drink diluted or in small doses."
+            },
+            "list": {
+                "title": "Nutritional values per 100 ml:",
+                "1": "Energy: 67 kJ / 16 kcal",
+                "2": "Protein – 0.0 g",
+                "3": "Fat – 0.0 g",
+                "4": "Carbohydrates – 4.0 g",
+                "5": "Sugar – 4.0 g"
+            }
+        },
+        "ginger": {
+            "type": "Kombucha",
+            "title": "Ginger",
+            "text": {
+                "1": "Natural ingredients: filtered water, concentrated apple juice (20%), green tea, ginger, turmeric concentrate, sugar, lemon juice, kombucha culture.",
+                "2": "Recommended storage temperature: +6°C to +25°C.",
+                "3": "Consume within 48 hours after opening.",
+                "4": "If sensitive to acidity, drink diluted or in small doses."
+            },
+            "list": {
+                "title": "Nutritional values per 100 ml:",
+                "1": "Energy: 67 kJ / 16 kcal",
+                "2": "Protein – 0.0 g",
+                "3": "Fat – 0.0 g",
+                "4": "Carbohydrates – 4.0 g",
+                "5": "Sugar – 4.0 g"
+            }
+        },
+        "hibiscus": {
+            "type": "Kombucha",
+            "title": "hibiscus",
+            "text": {
+                "1": "Natural ingredients: filtered water, concentrated apple juice, black tea, green tea, hibiscus flowers, sugar, kombucha culture.",
+                "2": "Recommended storage temperature: +6°C to +25°C.",
+                "3": "Consume within 48 hours after opening.",
+                "4": "If sensitive to acidity, drink diluted or in small doses."
+            },
+            "list": {
+                "title": "Nutritional values per 100 ml:",
+                "1": "Energy: 67 kJ / 16 kcal",
+                "2": "Protein – 0.0 g",
+                "3": "Fat – 0.0 g",
+                "4": "Carbohydrates – 4.0 g",
+                "5": "Sugar – 4.0 g"
+            }
+        },
+        "jasmine": {
+            "type": "Kombucha",
+            "title": "jasmine",
+            "text": {
+                "1": "Natural ingredients: filtered water, concentrated apple juice, green tea, jasmine flowers, sugar, kombucha culture.",
+                "2": "Recommended storage temperature: +6°C to +25°C.",
+                "3": "Consume within 48 hours after opening.",
+                "4": "If sensitive to acidity, drink diluted or in small doses."
+            },
+            "list": {
+                "title": "Nutritional values per 100 ml:",
+                "1": "Energy: 67 kJ / 16 kcal",
+                "2": "Protein – 0.0 g",
+                "3": "Fat – 0.0 g",
+                "4": "Carbohydrates – 4.0 g",
+                "5": "Sugar – 4.0 g"
+            }
+        },
+        "lavender": {
+            "type": "Kombucha",
+            "title": "lavender",
+            "text": {
+                "1": "Natural ingredients: filtered water, concentrated apple juice (20%), green tea, clitoria flowers, black tea, lavender flowers, sugar, kombucha culture.",
+                "2": "Recommended storage temperature: +6°C to +25°C.",
+                "3": "Consume within 48 hours after opening.",
+                "4": "If sensitive to acidity, drink diluted or in small doses."
+            },
+            "list": {
+                "title": "Nutritional values per 100 ml:",
+                "1": "Energy: 67 kJ / 16 kcal",
+                "2": "Protein – 0.0 g",
+                "3": "Fat – 0.0 g",
+                "4": "Carbohydrates – 4.0 g",
+                "5": "Sugar – 4.0 g"
+            }
+        },
+        "lemongrass": {
+            "type": "Kombucha",
+            "title": "lemongrass",
+            "text": {
+                "1": "Natural ingredients: filtered water, concentrated apple juice, black tea, lemongrass, sugar, kombucha culture.",
+                "2": "Recommended storage temperature: +6°C to +25°C.",
+                "3": "Consume within 48 hours after opening.",
+                "4": "If sensitive to acidity, drink diluted or in small doses."
+            },
+            "list": {
+                "title": "Nutritional values per 100 ml:",
+                "1": "Energy: 67 kJ / 16 kcal",
+                "2": "Protein – 0.0 g",
+                "3": "Fat – 0.0 g",
+                "4": "Carbohydrates – 4.0 g",
+                "5": "Sugar – 4.0 g"
+            }
+        },
+        "passion-fruit": {
+            "type": "Kombucha",
+            "title": "passion fruit",
+            "text": {
+                "1": "Natural ingredients: filtered water, concentrated apple juice, green tea, passion fruit, sugar, lemon juice, kombucha culture.",
+                "2": "Recommended storage temperature: +6°C to +25°C.",
+                "3": "Consume within 48 hours after opening.",
+                "4": "If sensitive to acidity, drink diluted or in small doses."
+            },
+            "list": {
+                "title": "Nutritional values per 100 ml:",
+                "1": "Energy: 67 kJ / 16 kcal",
+                "2": "Protein – 0.0 g",
+                "3": "Fat – 0.0 g",
+                "4": "Carbohydrates – 4.0 g",
+                "5": "Sugar – 4.0 g"
+            }
+        },
+        "yuzu": {
+            "type": "Kombucha",
+            "title": "yuzu",
+            "text": {
+                "1": "Natural ingredients: filtered water, concentrated apple juice, green tea, yuzu juice, sugar, kombucha culture.",
+                "2": "Recommended storage temperature: +6°C to +25°C.",
+                "3": "Consume within 48 hours after opening.",
+                "4": "If sensitive to acidity, drink diluted or in small doses."
+            },
+            "list": {
+                "title": "Nutritional values per 100 ml:",
+                "1": "Energy: 67 kJ / 16 kcal",
+                "2": "Protein – 0.0 g",
+                "3": "Fat – 0.0 g",
+                "4": "Carbohydrates – 4.0 g",
+                "5": "Sugar – 4.0 g"
+            }
+        }
+    }
+}   

@@ -1,0 +1,226 @@
+{
+    "_metaTitle": "Fruchtinfusionsgetränke",
+    "_metaDescription": "Entdecken Sie unsere köstlichen Fruchtinfusionsgetränke und unterstützen Sie Ihren aktiven Lebensstil.",
+    "yogoda": {
+        "main-title": "Fruchtinfusionsgetränke",
+        "description-1": "Entwickelt für Menschen, die natürliche Zutaten, funktionale Vorteile und maximale Alltagstauglichkeit schätzen. Unsere Fruchtinfusionen bestehen zu 100 % aus natürlichen Zutaten: sorgfältig ausgewählten Beeren, Früchten, Ingwer, Honig und Gewürzen. Wir verändern nicht, was die Natur geschaffen hat. Stattdessen verfeinern wir es – machen es klarer, funktionaler und leichter in einen modernen, dynamischen Lebensstil integrierbar. Durch schonende Verarbeitung bewahren wir intensive Aromen, eine hohe Nährstoffdichte und natürliche Eigenschaften und gewährleisten gleichzeitig eine mühelose Zubereitung. Das Ergebnis ist ein natürliches, teeähnliches Getränk, das sich perfekt an unterschiedliche Situationen, Jahreszeiten und Bedürfnisse anpasst.",
+        "description-2": "Diese Fruchtinfusionsgetränke wurden bewusst so entwickelt, dass sie außergewöhnlich praktisch und vielseitig sind:",
+        "bullet-point": {
+            "1": "Im Büro oder zu Hause",
+            "2": "Auf langen Reisen und kurzen Ausflügen",
+            "3": "Im Flugzeug, Zug, Bus oder Auto",
+            "4": "Auf Festivals, im Camper oder beim Camping",
+            "5": "Auf Reisen mit dem Kanu oder Kajak",
+            "6": "In Hotels – morgens oder abends",
+            "7": "Während langer Meetings, Präsentationen, Konferenzen oder Schulungen"
+        },
+        "seasons": {
+            "summer": {
+                "title": "Im Sommer",
+                "text": "Kaltes Wasser hinzufügen und ein erfrischendes, vitalisierendes Getränk genießen, das Energie spendet und natürliche Frische bringt."
+            },
+            "winter": {
+                "title": "Im Winter",
+                "text": "Heißes Wasser hinzufügen und ein wärmendes Getränk genießen, das das Immunsystem unterstützt und Körper und Geist belebt."
+            }
+        },
+        "classic": {
+            "title": "Klassisch"
+        },
+        "immunity": {
+            "title": "Immunsystem"
+        },
+        "sugar-free": {
+            "title": "Zuckerfrei"
+        },
+        "coctails": {
+            "title": "Cocktails"
+        },
+        "cherry-tea-with-chocolate": {
+            "type": "YOGODA",
+            "name": "Kirschtee mit Schokolade",
+            "description-text-01": "Der erste Schluck offenbart einen tiefen, samtigen Kakaogeschmack, der durch geriebene Schokolade entsteht. Darauf folgt eine lebendige Kirschsäure, die mit dem Kontrast spielt und den Geschmack saftig macht. Zum Abschluss zeigt sich die feine Wärme des Cayennepfeffers, die jede Note unterstreicht, ohne die Zartheit zu stören.",
+            "description-text-02": "Zutaten: Kirschen (tiefgefrorene Beeren), geriebener Kakao (natürliche Schokolade), konzentrierter Granatapfelsaft, Zucker, Glukose-Fruktose-Sirup, Cayennepfeffer."
+        },
+        "tea-with-blueberries-and-lavender": {
+            "type": "YOGODA",
+            "name": "Tee mit Heidelbeeren und Lavendel",
+            "description-text-01": "Eine weiche, süße Heidelbeerbasis – wie reife Beeren frisch aus dem Wald – verleiht eine feine Honignote. Lavendel bringt florale Leichtigkeit und einen beruhigenden Duft, der ein Gefühl tiefer Entspannung erzeugt. Abgerundet wird das Aroma durch die dezente Säure des Granatapfels, die dem Geschmack Eleganz verleiht.",
+            "description-text-02": "Zutaten: Heidelbeeren, konzentrierter Granatapfelsaft, getrocknete Lavendelblüten, Zucker, Glukose-Fruktose-Sirup."
+        },
+        "sea-buckthorn-tea-with-apricot": {
+            "type": "YOGODA",
+            "name": "Sanddorntee mit Aprikose",
+            "description-text-01": "Die sonnige Säure des Sanddorns berührt zuerst den Gaumen – frisch, lebendig, aber nicht scharf. Kurz darauf wird sie von der weichen, samtigen Süße der Aprikose umhüllt, wie ein Löffel hausgemachter Marmelade. Gemeinsam schaffen sie eine perfekte Balance aus Süße und Säure.",
+            "description-text-02": "Zutaten: Sanddorn (Püree/Beeren), Aprikose (Püree), Zucker."
+        },
+        "ginger-tea": {
+            "type": "YOGODA",
+            "name": "Ingwertee",
+            "description-text-01": "Frau Natur selbst hat dieses Getränk geschaffen! Keine künstlichen Zusätze – nur wertvolle Zutaten: echter Honig, saftige Limette und kräftiger Ingwer. Sanfte Verarbeitung und natürliche Inhaltsstoffe sorgen für ein intensives, ausgewogenes Geschmackserlebnis.",
+            "description-text-02": "Zutaten: frische Ingwerwurzel, frische Limette, natürlicher Honig, Zucker."
+        },
+        "cranberry-tea": {
+            "type": "YOGODA",
+            "name": "Cranberrytee",
+            "description-text-01": "Dieser Tee, geboren aus Geschmack und Aroma der Cranberry, bewahrt ein Maximum an Nährstoffen. Die Harmonie von Minze und Limette unterstreicht die Würze von Ingwer und Honig und sorgt für ein erfrischendes Geschmackserlebnis.",
+            "description-text-02": "Zutaten: frische schnellgefrorene Cranberries, natürlicher Honig, frische Limette, frische Ingwerwurzel, getrockneter Anis, getrocknete Minze, Zucker."
+        },
+        "sea-buckthorn-tea": {
+            "type": "YOGODA",
+            "name": "Sanddorntee",
+            "description-text-01": "Ein Getränk in der Farbe des Glücks – die Wärme der Sonne in jeder Tasse. Sanddorn, Honig, Ingwer, Limette, Zimt und Sternanis ergeben eine wahre Vitaminbombe mit harmonischem, ausgewogenem Geschmack.",
+            "description-text-02": "Zutaten: frischer schnellgefrorener Sanddorn, frische Ingwerwurzel, frische Limette, gemahlener Zimt, gemahlener Sternanis, natürlicher Honig, Zucker."
+        },
+        "raspberry-tea": {
+            "type": "YOGODA",
+            "name": "Himbeertee",
+            "description-text-01": "Schnell, praktisch und vor allem köstlich! Der Duft sonnengereifter Himbeeren verbindet sich mit der natürlichen Süße von Honig, ergänzt durch eine leichte Ingwerschärfe und warmes Zimtaroma.",
+            "description-text-02": "Zutaten: frische schnellgefrorene Himbeeren, frische schnellgefrorene schwarze Johannisbeeren, natürlicher Honig, frische Ingwerwurzel, gemahlener Zimt, Zucker."
+        },
+        "currant-tea": {
+            "type": "YOGODA",
+            "name": "Johannisbeertee",
+            "description-text-01": "Minimale Wärmebehandlung, maximale Nährstoffe. Schwarze Johannisbeeren, lila Basilikum und Honig ergeben ein tiefviolettes Getränk für jede Stimmung.",
+            "description-text-02": "Zutaten: frische schnellgefrorene Johannisbeeren, natürlicher Honig, violetter Basilikum, Zucker."
+        },
+        "matcha-tea-coconut-latte": {
+            "type": "YOGODA",
+            "name": "Matcha-Tee Kokos Latte",
+            "description-text-01": "Eine perfekt ausbalancierte Kombination aus japanischem Matcha-Grüntee und cremiger Kokosnote. Belebend, erfrischend und gleichzeitig beruhigend – ein einzigartiges Geschmackserlebnis.",
+            "description-text-02": "Zutaten: Trinkwasser, Zucker, Kokospaste, Matcha-Grüntee, natürlicher Rosmarinextrakt (Antioxidans)."
+        },
+        "ginger-with-goji-tea": {
+            "type": "YOGODA",
+            "name": "Ingwertee mit Goji",
+            "description-text-01": "Ein Trend der gesunden Ernährung! Goji-Beeren, Acerola- und Echinacea-Extrakte sowie Honig machen diesen Tee zu einem modernen Immun-Booster.",
+            "description-text-02": "Zutaten: frische Ingwerwurzel, frische Limette, getrocknete Goji-Beeren, natürlicher Honig, natürlicher Echinacea-Wurzelextrakt, natürlicher Acerola-Extrakt (Vitamin C), Zucker."
+        },
+        "ginger-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Ingwertee mit Kurkuma",
+            "description-text-01": "Kurkuma mit jahrtausendealter Tradition verleiht diesem Tee eine goldene Farbe und starke antioxidative Eigenschaften.",
+            "description-text-02": "Zutaten: frische Ingwerwurzel, frische Limette, Kurkuma, natürlicher Honig, Zucker."
+        },
+        "raspberry-with-acerola-tea": {
+            "type": "YOGODA",
+            "name": "Himbeertee mit Acerola",
+            "description-text-01": "Himbeeren, Honig, Acerola und Echinacea sorgen für fruchtigen Geschmack und natürliche Stärkung.",
+            "description-text-02": "Zutaten: frische schnellgefrorene Himbeeren, natürlicher Honig, frische schwarze Johannisbeeren, frische Ingwerwurzel, natürlicher Echinacea-Extrakt, natürlicher Acerola-Extrakt (Vitamin C), Zucker."
+        },
+        "raspberry-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Himbeertee mit Kurkuma",
+            "description-text-01": "Fruchtige Himbeeren treffen auf würzige Kurkuma-Noten, ergänzt durch Ingwer, Johannisbeeren und Zimt.",
+            "description-text-02": "Zutaten: frische schnellgefrorene Himbeeren, frische schnellgefrorene schwarze Johannisbeeren, natürlicher Honig, frische Ingwerwurzel, Kurkuma, gemahlener Zimt, Zucker."
+        },
+        "pear-lime-thyme-tea": {
+            "type": "YOGODA",
+            "name": "Birnen-, Limetten- & Thymiantee",
+            "description-text-01": "Ein zarter süß-säuerlicher Geschmack mit Kräuteraromen, der beruhigt und den Körper unterstützt.",
+            "description-text-02": "Zutaten: Birne, frische Ingwerwurzel, Limette, Orange, getrocknete Goji-Beeren, getrockneter Thymian, natürlicher Stevia-Extrakt."
+        },
+        "aronia-melanocarpa-cornelian-cherry-chilli-tea": {
+            "type": "YOGODA",
+            "name": "Aronia-, Kornelkirschen- & Chili-Tee",
+            "description-text-01": "Süß-säuerlich, leicht herb und wärmend – ein tonisierendes Getränk für Körper und Geist.",
+            "description-text-02": "Zutaten: Kornelkirschenpüree, Aronia melanocarpa, natürlicher Stevia-Extrakt, Cayennepfeffer."
+        },
+        "passion-fruit-mango-nutmeg-tea": {
+            "type": "YOGODA",
+            "name": "Maracuja-, Mango- & Muskatnuss-Tee",
+            "description-text-01": "Ein fruchtig-herber Cocktail mit feinen Muskatnoten und belebender Wirkung.",
+            "description-text-02": "Zutaten: Mangopüree, Kürbis, Maracujamark, Orange, Muskatnuss, natürlicher Stevia-Extrakt."
+        },
+        "currant-tea-2": {
+            "type": "YOGODA",
+            "name": "Johannisbeertee",
+            "description-text-01": "Ein tiefviolettes Getränk für jede Stimmung – warm wohltuend, kalt erfrischend.",
+            "description-text-02": "Zutaten: Trinkwasser, schwarze Johannisbeeren, getrockneter violetter Basilikum, Säureregulator Zitronensäure, Süßungsmittel Sucralose."
+        },
+        "sea-buckthorn-tea-2": {
+            "type": "YOGODA",
+            "name": "Sanddorntee",
+            "description-text-01": "100 % natürlich, intensiv im Geschmack – heiß belebend, kalt erfrischend.",
+            "description-text-02": "Zutaten: Sanddorn, Apfel, Polydextrose (Ballaststoff), Ingwerwurzel, Limette, Säureregulator Zitronensäure, gemahlener Zimt, gemahlener Sternanis, Süßungsmittel Sucralose."
+        },
+        "ginger-tea-2": {
+            "type": "YOGODA",
+            "name": "Ingwertee",
+            "description-text-01": "Wärmender Ingwer und frische Limette – Energie in jeder Tasse.",
+            "description-text-02": "Zutaten: Trinkwasser, Ingwerwurzel, Apfel, Polydextrose (Ballaststoff), Limette, Säureregulator Zitronensäure, Süßungsmittel Sucralose."
+        },
+        "raspberry-tea-2": {
+            "type": "YOGODA",
+            "name": "Himbeertee",
+            "description-text-01": "Aromatischer Himbeertee im praktischen Beutel – heiß oder kalt ein Genuss.",
+            "description-text-02": "Zutaten: Himbeeren, schwarze Johannisbeeren, Ingwerwurzel, Säureregulator Zitronensäure, Zimt, Süßungsmittel Sucralose."
+        },
+        "bramble": {
+            "type": "YOGODA",
+            "name": "Bramble",
+            "description-text-01": "Ein moderner Klassiker aus Brombeeren, Himbeeren und Gewürzen – ausgewogen und ganztägig genießbar.",
+            "description-text-02": "Zutaten: Himbeersaft, Brombeeren, Zucker, Zitronensaft, Wacholderbeeren, Koriander, Zimt."
+        },
+        "mojito": {
+            "type": "YOGODA",
+            "name": "Mojito",
+            "description-text-01": "Ein erfrischender Klassiker aus Limette, Minze und Zucker – perfekt für warme Tage.",
+            "description-text-02": "Zutaten: Zucker, Limette, Minze."
+        },
+        "peach-bellini": {
+            "type": "YOGODA",
+            "name": "Pfirsich Bellini",
+            "description-text-01": "Ein italienisch inspirierter Fruchtcocktail mit zarter Textur und erfrischendem Geschmack.",
+            "description-text-02": "Zutaten: Pfirsich, Pfirsichsaft, Zucker, Himbeersaft, Thymian."
+        },
+        "sea-breeze": {
+            "type": "YOGODA",
+            "name": "Sea Breeze",
+            "description-text-01": "Fruchtig-frisch mit Cranberry, Grapefruit und einem Hauch Honig.",
+            "description-text-02": "Zutaten: Cranberries, Honig, Grapefruitsaft, Zucker, Zitronensaft."
+        },
+        "ginger-lemonade": {
+            "type": "YOGODA",
+            "name": "Ingwerlimonade",
+            "description-text-01": "Würziger Ingwer trifft auf frische Limette – belebend und erfrischend.",
+            "description-text-02": "Zutaten: frische Ingwerwurzel, frische Limette, Zucker, Glukose-Fruktose-Sirup."
+        },
+        "sea-buckthorn-lemonade": {
+            "type": "YOGODA",
+            "name": "Sanddornlimonade",
+            "description-text-01": "Süß-säuerlich, fruchtig und erfrischend mit Apfel und Maracuja.",
+            "description-text-02": "Zutaten: Sanddorn (schnellgefrorene Beeren), Apfel, Maracujamark, Zucker."
+        },
+        "mango-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Mango & Maracuja",
+            "description-text-01": "Saftige Mango trifft auf frische Maracuja und einen Hauch Limette.",
+            "description-text-02": "Zutaten: Mangopüree, Maracujamark, Limette (frischer Saft), Zucker, Glukose-Fruktose-Sirup."
+        },
+        "strawberry-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Erdbeere & Maracuja",
+            "description-text-01": "Süße Erdbeeren und lebendige Maracuja ergeben ein harmonisches Geschmackserlebnis.",
+            "description-text-02": "Zutaten: Erdbeeren (gefroren und als Konzentrat), Maracuja (Mark), Zucker, Glukose-Fruktose-Sirup."
+        },
+        "spicy-strawberry": {
+            "type": "YOGODA",
+            "name": "Würzige Erdbeere",
+            "description-text-01": "Süße Erdbeeren mit feiner Acai-Bitterkeit und milder Chiliwärme.",
+            "description-text-02": "Zutaten: Erdbeeren (schnellgefroren und als Saftkonzentrat), Zitronensaft, Acai-Beerenpulver, Zucker, Cayennepfeffer."
+        },
+        "spicy-pineapple": {
+            "type": "YOGODA",
+            "name": "Würzige Ananas",
+            "description-text-01": "Intensive Ananas, exotische Maracuja und eine feine Chili-Schärfe.",
+            "description-text-02": "Zutaten: Ananas (konserviert und als Saftkonzentrat), Maracuja (Mark), Zitronensaft, Zucker, Cayennepfeffer."
+        },
+        "red-mulled-wine": {
+            "type": "YOGODA",
+            "name": "Roter Glühwein",
+            "description-text-01": "Ein alkoholfreier Winterklassiker mit Gewürzen, Zitrusfrüchten und wohliger Wärme.",
+            "description-text-02": "Zutaten: natürlicher Honig, Kirsche, konzentrierter roter Traubensaft, Orange, Apfel, Kardamom, gemahlener Zimt, Muskatnuss, Nelken, Sternanis, Cayennepfeffer."
+        }
+    }
+}

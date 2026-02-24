@@ -1,0 +1,178 @@
+{
+	"_metaTitle": "Liqberry",
+	"_metaDescription": "LiQberry berry paste is created using an innovative hydro-thermo-dynamic technology. This berry processing method has no analogues in the world.",
+	"liqberry": {
+		"header": {
+			"title": "liqberry",
+			"subtitle": "What's so unique about LiQberry?",
+			"text": {
+				"1": "LiQberry berry paste is created using an innovative hydro-thermo-dynamic technology. This berry processing method has no analogues in the world.",
+				"2": "The berries are crushed using pulsating pressure. During this process, the seeds are broken, allowing their contents - blueberry oil - to be released into the paste and absorbed by the body. When fresh berries are consumed in their natural form, the seeds pass through the digestive system without being absorbed.",
+				"3": "The production process takes place without oxygen access and without the addition of preservatives, sugar, water, or artificial colorants, using low-temperature pasteurization."
+			}
+		},
+		"seeds": {
+			"title": "The content of useful substances in blueberry seed",
+			"list": {
+				"1": "Polyunsaturated fatty acids Omega-3-6-9",
+				"2": "Fat-soluble vitamins A and E",
+				"3": "Sterols",
+				"4": "Unique protein, amino acids",
+				"5": "Powerful biologically active substances"
+			}
+		},
+		"packaging": {
+			"title": "Available packaging:",
+			"doypack": {
+				"name": "Doypack",
+				"size": "100g"
+			},
+			"jar": {
+				"name": "Jar",
+				"size": "545g"
+			},
+			"show-button": "Show"
+		},
+		"blueberry-paste": {
+			"title": "Blueberry Paste",
+			"type": "Liqberry",
+			"text": {
+				"1": "Our blueberry paste is made from 100% whole blueberries and preserves the fruit’s natural composition in a concentrated form. Thanks to a gentle processing method, the valuable plant-based compounds naturally present in blueberries are retained.",
+				"2": "Blueberries are naturally rich in antioxidants, which are widely recognized for their role in protecting cells from oxidative stress. They also contain chlorogenic acid and anthocyanins, the natural pigments responsible for the berry’s deep color and an area of ongoing nutritional research.",
+				"3": "Our blueberry paste is appreciated by consumers who value clean ingredients, transparency, and natural food products. It can be enjoyed on its own or used in smoothies, yogurt, or creative culinary applications."
+			},
+			"list": {
+				"title": "By milling the entire berry – including pulp, skins, and seeds, the paste:",
+				"1": "retains the full natural berry profile,",
+				"2": "integrates easily into a balanced, health-conscious diet,",
+				"3": "contains no added sugar, no preservatives, and no artificial additives."
+			}
+		},
+		"raspberry-paste": {
+			"title": "Raspberry Paste",
+			"type": "Liqberry",
+			"text": {
+				"1": "Our raspberry paste is produced from 100% whole raspberries, capturing the fruit’s distinctive aroma and natural plant compounds in a concentrated form. Gentle processing preserves the characteristic qualities of raspberries, which have long been valued as part of a balanced diet.",
+				"2": "Raspberries naturally contain plant acids, polyphenols, and aromatic compounds, which are widely studied in nutritional science. Thanks to their natural composition, raspberries are often included in mindful nutrition concepts and periods of increased physical or environmental demands.",
+				"3": "Its rich, fruity flavor makes it suitable for enjoying on its own, in warm beverages, yogurt, smoothies, or creative culinary applications."
+			},
+			"list": {
+				"title": "The raspberry paste:",
+				"1": "retains the complete berry profile by processing pulp, skins, and seeds,",
+				"2": "integrates easily into a health-conscious daily diet,",
+				"3": "contains no added sugar, no preservatives, and no artificial additives."
+			}
+		},
+		"strawberry-paste": {
+			"title": "Strawberry Paste",
+			"type": "Liqberry",
+			"text": {
+				"1": "Our strawberry paste is produced from 100% whole strawberries, preserving the natural balance of fruit pulp, skins, and seeds. Strawberries are appreciated for their natural content of minerals, vitamins, and plant-based compounds, making them a popular element of a balanced and mindful diet.",
+				"2": "Strawberries naturally contain minerals such as iron, magnesium, potassium, calcium, and zinc, along with vitamin C, vitamin B5, and folate. They also provide antioxidant plant compounds, which may support the body’s natural defenses against oxidative stress as part of a healthy lifestyle.",
+				"3": "Its fresh, fruity taste makes it ideal for enjoying on its own, in yogurt, smoothies, or as an ingredient in creative culinary applications."
+			},
+			"list": {
+				"title": "The strawberry paste:",
+				"1": "retains the complete berry profile by processing the entire fruit,",
+				"2": "fits easily into a health-conscious daily routine,",
+				"3": "contains no added sugar, no preservatives, and no artificial additives."
+			}
+		},
+		"blackberry-paste": {
+			"title": "Blackberry Paste",
+			"type": "Liqberry",
+			"text": {
+				"1": "Our blackberry paste is made from 100% whole blackberries, preserving the complete natural berry profile including pulp, skins, and seeds. Blackberries are valued for their content of vitamin E, polyphenols, and other plant-based compounds, making them a respected element of a balanced diet.",
+				"2": "Vitamin E helps protect cells from oxidative stress, while naturally occurring plant compounds contribute to the rich character of the berry. As part of a mindful lifestyle, blackberries can support dietary diversity and enjoyment.",
+				"3": "Perfect enjoyed on its own, in yogurt, cereals, smoothies, or as a premium ingredient in modern nutrition concepts."
+			},
+			"list": {
+				"title": "The blackberry paste:",
+				"1": "captures the full nutritional profile by processing the entire fruit,",
+				"2": "offers an intense, authentic berry flavor,",
+				"3": "contains no added sugar, no preservatives, and no artificial additives."
+			}
+		},
+		"blackcurrant-paste": {
+			"title": "Blackcurrant Paste",
+			"type": "Liqberry",
+			"text": {
+				"1": "Our blackcurrant paste is made from 100% whole blackcurrants, preserving the complete natural berry profile including pulp, skins, and seeds. Blackcurrants are valued for their high content of vitamin C, polyphenols, and other beneficial plant compounds.",
+				"2": "These naturally occurring nutrients contribute to daily nutritional balance and are widely appreciated as part of a diverse and conscious diet. Blackcurrants have long been associated with mindful nutrition and active lifestyles.",
+				"3": "Perfect enjoyed on its own, with yogurt or cereals, in smoothies, or as a premium ingredient in functional food concepts."
+			},
+			"list": {
+				"title": "The blackcurrant paste:",
+				"1": "captures the full berry spectrum by processing the entire fruit,",
+				"2": "supports dietary variety with naturally occurring plant compounds,",
+				"3": "contains no added sugar, no preservatives, and no artificial additives."
+			}
+		},
+		"sea-buckthorn": {
+			"title": "Sea Buckthorn Paste",
+			"type": "Liqberry",
+			"text": {
+				"1": "Our sea buckthorn paste is made from 100% whole sea buckthorn berries, preserving the natural balance of pulp, skins, and seeds. Sea buckthorn is valued for its naturally rich composition of vitamins, micro- and macronutrients, making it a popular ingredient in conscious and balanced nutrition.",
+				"2": "A distinctive feature of sea buckthorn is its natural content of sea buckthorn oil, which contains fat-soluble plant compounds traditionally appreciated as part of a varied diet.",
+				"3": "Perfect for enriching daily nutrition — enjoyed on its own, in smoothies, breakfast bowls, or modern functional recipes."
+			},
+			"list": {
+				"title": "The sea buckthorn paste:",
+				"1": "captures the complete berry profile, including the seeds,",
+				"2": "naturally contains beta-carotene, vitamin E, and vitamin C,",
+				"3": "contains no added sugar, no preservatives, no added water, and no artificial additives."
+			}
+		},
+		"cherry-paste": {
+			"type": "Liqberry",
+			"title": "Cherry Paste",
+			"text": {
+				"1": "Cherry paste is a 100% homogenized fruit product, made from whole cherries with finely processed fruit components. It preserves the fruit’s natural nutritional profile and serves as a functional addition to a balanced diet."
+			},
+			"list": {
+				"1": {
+					"title": "Cherries are naturally a source of:",
+					"1": "polyphenols and anthocyanins,",
+					"2": "organic acids,",
+					"3": "vitamins (particularly vitamin C and B-group vitamins),",
+					"4": "potassium and other minerals,",
+					"5": "dietary fiber and pectins."
+				},
+				"2": {
+					"title": "As part of a conscious nutrition approach, cherry paste is traditionally valued for:",
+					"1": "supporting normal muscle and joint function,",
+					"2": "accompanying recovery after physical activity,",
+					"3": "supporting normal metabolic processes,",
+					"4": "contributing to the body’s antioxidant balance."
+				},
+				"3": {
+					"title": "Due to its content of natural plant compounds, cherry paste is also commonly associated with:",
+					"1": "support of cardiovascular function,",
+					"2": "contribution to normal circulation,",
+					"3": "and support of a healthy sleep–wake rhythm."
+				},
+				"4": {
+					"title": "Cherry paste:",
+					"1": "contains no added sugar,",
+					"2": "is free from preservatives, added water, and artificial additives,",
+					"3": "and fits perfectly into a natural, plant-based, performance-oriented nutrition concept."
+				}
+			}
+		},
+		"aronia-paste": {
+			"type": "Liqberry",
+			"title": "Aronia Paste",
+			"text": {
+				"1": "Our aronia paste is made from 100% whole aronia berries, preserving the complete berry profile including pulp, skins, and seeds. Aronia is valued for its naturally high content of plant polyphenols, which are widely appreciated as part of a balanced diet.",
+				"2": "Traditionally, aronia is included in nutrition concepts focused on cardiovascular balance and metabolic support, within the context of a varied and conscious lifestyle.",
+				"3": "Perfect for those who value intense berry character and plant diversity in everyday nutrition - enjoyed pure or as part of modern recipes."
+			},
+			"list": {
+				"title": "The aronia paste:",
+				"1": "naturally contains plant-based bioactive compounds,",
+				"2": "complements a balanced and mindful diet,",
+				"3": "contains no added sugar, no preservatives, no added water, and no artificial additives."
+			}
+		}
+	}
+}

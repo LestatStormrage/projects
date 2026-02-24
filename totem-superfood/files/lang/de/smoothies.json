@@ -1,0 +1,295 @@
+{
+    "_metaTitle": "Smoothies",
+    "_metaDescription": "Entdecken Sie unsere köstlichen Smoothies und unterstützen Sie Ihren aktiven Lebensstil.",
+    "products": {
+        "title": "Smoothies",
+        "fireSmoothies": {
+            "title": "Fire-Smoothies Kollektion",
+            "description": "Unsere Smoothies sind mit kraftvollen Superfoods angereichert, die ihren Nährwert und ihre gesundheitlichen Vorteile erheblich steigern. Jede Zutat wird sorgfältig ausgewählt, um das allgemeine Wohlbefinden zu fördern, die Körperfunktionen zu verbessern und die Vitalität zu steigern.",
+            "turmeric": {
+                "name": "Kurkuma-Smoothie",
+                "type": "Smoothie",
+                "descriptionTitle": "Beschreibung:",
+                "descriptionText": "Kurkuma ist weithin bekannt für seine entzündungshemmenden und antioxidativen Eigenschaften und eine hervorragende Ergänzung zu einer gesunden Ernährung. Es wird angenommen, dass es:",
+                "list": {
+                    "1": "Hilft, Alzheimer vorzubeugen.",
+                    "2": "Arthritis-Symptome lindert und die Gelenkgesundheit unterstützt.",
+                    "3": "Das geistige Wohlbefinden verbessert, indem es Symptome von Depressionen reduziert.",
+                    "4": "Den Alterungsprozess verlangsamt, indem es Zellen vor oxidativem Stress schützt.",
+                    "5": "Eine Rolle bei der Krebsprävention spielt, dank seiner aktiven Verbindungen."
+                }
+            },
+            "acai": {
+                "name": "Açaí-Smoothie",
+                "type": "Smoothie",
+                "ingredientsTitle": "Zutaten:",
+                "ingredients": {
+                    "1": "Erdbeere",
+                    "2": "Himbeere",
+                    "3": "Haferflocken",
+                    "4": "Banane",
+                    "5": "Chiasamen",
+                    "6": "Açaí-Beeren"
+                },
+                "descriptionTitle": "Beschreibung:",
+                "descriptionText": "„Açaí“ ist ein exquisiter Cocktail, der die frischen Noten von Erdbeere, Himbeere und Banane mit Haferflocken und Chiasamen kombiniert. Açaí-Beeren verleihen dem Getränk antioxidative Eigenschaften, die das Immunsystem stärken, die Herzgesundheit fördern und die kognitiven Funktionen verbessern."
+            },
+            "spirulina": {
+                "name": "Spirulina-Smoothie",
+                "type": "Smoothie",
+                "ingredientsTitle": "Zutaten:",
+                "ingredients": {
+                    "1": "Spinat",
+                    "2": "Banane",
+                    "3": "Apfel",
+                    "4": "Datteln",
+                    "5": "Spirulina"
+                },
+                "descriptionTitle": "Beschreibung:",
+                "descriptionText": "„Spirulina“ ist eine harmonische Mischung aus Spinat, Banane und Apfel, ergänzt durch die Süße von Datteln und die einzigartigen Eigenschaften von Spirulina. Dieses Getränk ist reich an Nährstoffen und fördert die Verdauung, Entgiftung und ein gesundes Körpergewicht."
+            },
+            "hemp": {
+                "name": "Hanf-Sturm Smoothie",
+                "type": "Smoothie",
+                "ingredientsTitle": "Zutaten:",
+                "ingredients": {
+                    "1": "Himbeere",
+                    "2": "Blaubeere",
+                    "3": "Geschälte Hanfsamen",
+                    "4": "Chiasamen",
+                    "5": "Banane",
+                    "6": "Haferflocken"
+                },
+                "descriptionTitle": "Beschreibung:",
+                "descriptionText": "„Hanf-Sturm“ ist ein nahrhafter Cocktail, in dem Himbeere, Blaubeere und Banane mit gesunden Hanfsamen, Chiasamen und Haferflocken kombiniert werden. Hanfsamen, reich an Eiweiß und Fettsäuren, helfen, das Immunsystem zu stärken, die Herzgesundheit zu unterstützen und die Haut zu verbessern."
+            }
+        },
+        "fireDetox": {
+            "title": "Fire-Detox Kollektion",
+            "description": "Unsere Detox-Cocktails werden mit kraftvollen natürlichen Zutaten hergestellt, um den Körper zu reinigen, die Verdauung zu unterstützen und das Gleichgewicht wiederherzustellen. Jede Mischung ist darauf ausgelegt, Energie zu steigern, den Stoffwechsel zu fördern und das allgemeine Wohlbefinden zu unterstützen.",
+            "mega": {
+                "name": "Mega Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Zutaten:",
+                "ingredients": {
+                    "1": "Orange",
+                    "2": "Ananas",
+                    "3": "Kurkuma",
+                    "4": "Zimt",
+                    "5": "Chiasamen"
+                },
+                "descriptionTitle": "Beschreibung:",
+                "descriptionText": "„Mega Detox“ ist ein kraftvoller Cocktail zur intensiven Reinigung des Körpers. Sellerie und Spinat, bekannt für ihre entgiftenden Eigenschaften, werden mit Apfel und Banane kombiniert, um dem Getränk eine angenehme Süße zu verleihen."
+            },
+            "green": {
+                "name": "Green Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Zutaten:",
+                "ingredients": {
+                    "1": "Banane",
+                    "2": "Orange",
+                    "3": "Spinat",
+                    "4": "Kürbiskerne",
+                    "5": "Chlorella"
+                },
+                "descriptionTitle": "Beschreibung:",
+                "descriptionText": "„Green Detox“ ist ein nahrhafter und ausgewogener Cocktail, der hilft, den Vorrat an Vitaminen und Mineralstoffen wieder aufzufüllen. Banane und Orange verleihen dem Getränk eine angenehme Süße und Frische. Spinat, reich an Eisen und anderen Nährstoffen, fördert die Gesundheit. Kürbiskerne und Chlorella, reich an Eiweiß und Antioxidantien, unterstützen Wohlbefinden und Vitalität."
+            },
+            "refreshing": {
+                "name": "Refreshing Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Zutaten:",
+                "ingredients": {
+                    "1": "Sellerie",
+                    "2": "Kiwi",
+                    "3": "Apfel",
+                    "4": "Petersilie",
+                    "5": "Chlorella",
+                    "6": "Chiasamen"
+                },
+                "descriptionTitle": "Beschreibung:",
+                "descriptionText": "„Refreshing Detox“ ist ein leichtes und belebendes Getränk, das hilft, neue Energie zu tanken. Sellerie und Petersilie mit ihren harntreibenden Eigenschaften helfen, überschüssige Flüssigkeit aus dem Körper zu entfernen. Kiwi und Apfel verleihen dem Getränk eine angenehme Säure und Frische. Chlorella und Chiasamen, reich an Nährstoffen, fördern Gesundheit und Wohlbefinden."
+            },
+            "energy": {
+                "name": "Energy Detox",
+                "type": "Detox",
+                "ingredientsTitle": "Zutaten:",
+                "ingredients": {
+                    "1": "Orange",
+                    "2": "Ananas",
+                    "3": "Kurkuma",
+                    "4": "Zimt",
+                    "5": "Chiasamen"
+                },
+                "descriptionTitle": "Beschreibung:",
+                "descriptionText": "„Energy Detox“ ist ein helles und aromatisches Getränk, das Ihnen Energie für den ganzen Tag verleiht. Orange und Ananas, reich an Vitamin C, stärken das Immunsystem und steigern die Vitalität. Kurkuma und Zimt, bekannt für ihre entzündungshemmenden Eigenschaften, helfen, den Körper zu reinigen und den Stoffwechsel zu verbessern. Chiasamen, reich an Ballaststoffen, sorgen für ein langanhaltendes Sättigungsgefühl."
+            }
+        },
+        "air-collection": {
+            "title": "Air Kollektion",
+            "berry-boost": {
+                "type": "Smoothie",
+                "title": "Berry Boost",
+                "ingredients": {
+                    "title": "Zutaten:",
+                    "1": "Banane",
+                    "2": "Beeren",
+                    "3": "Chiasamen",
+                    "4": "Haferflocken",
+                    "5": "Kokosraspeln"
+                },
+                "benefit": {
+                    "title": "Vorteil:",
+                    "text": "Stärkt das Immunsystem, spendet Energie, reich an Antioxidantien und Ballaststoffen."
+                }
+            },
+            "green-boost": {
+                "type": "Smoothie",
+                "title": "Green Boost",
+                "ingredients": {
+                    "title": "Zutaten:",
+                    "1": "Spinat",
+                    "2": "Apfel",
+                    "3": "Banane",
+                    "4": "Spirulina",
+                    "5": "Leinsamen",
+                    "6": "Zitrone"
+                },
+                "benefit": {
+                    "title": "Vorteil:",
+                    "text": "Entgiftet den Körper, stärkt das Immunsystem und liefert essentielle Vitamine und Mineralstoffe."
+                }
+            },
+            "nut-cocoa": {
+                "type": "Smoothie",
+                "title": "Nuss-Kakao Energie",
+                "ingredients": {
+                    "title": "Zutaten:",
+                    "1": "Banane",
+                    "2": "Kakaopulver",
+                    "3": "Datteln",
+                    "4": "Mandeln",
+                    "5": "Maca",
+                    "6": "Haferflocken"
+                },
+                "benefit": {
+                    "title": "Vorteil:",
+                    "text": "Hebt die Stimmung, spendet Energie und liefert gesunde Fette."
+                }
+            },
+            "spiced-banana-boost": {
+                "type": "Smoothie",
+                "title": "Gewürzter Bananen-Boost",
+                "ingredients": {
+                    "title": "Zutaten:",
+                    "1": "Banane",
+                    "2": "Apfel",
+                    "3": "Haferflocken",
+                    "4": "Zimt",
+                    "5": "Chiasamen",
+                    "6": "Mandeln"
+                },
+                "benefit": {
+                    "title": "Vorteil:",
+                    "text": "Wärmt, sättigt, stabilisiert den Blutzucker und unterstützt die Verdauung."
+                }
+            },
+            "turmeric-mango-immunoboost": {
+                "type": "Smoothie",
+                "title": "Kurkuma + Mango „ImmunoBoost“",
+                "ingredients": {
+                    "title": "Zutaten:",
+                    "1": "Mango",
+                    "2": "Banane",
+                    "3": "Kurkuma",
+                    "4": "Ingwer",
+                    "5": "Leinsamen",
+                    "6": "Haferpulver"
+                },
+                "benefit": {
+                    "title": "Vorteil:",
+                    "text": "Stärkt das Immunsystem, reduziert Entzündungen und liefert einen Vitamin-Kick."
+                }
+            },
+            "cocoa-turmeric-antistress": {
+                "type": "Smoothie",
+                "title": "Kakao-Kurkuma Antistress",
+                "ingredients": {
+                    "title": "Zutaten:",
+                    "1": "Banane",
+                    "2": "Kakaopulver",
+                    "3": "Mandeln",
+                    "4": "Kurkuma",
+                    "5": "Datteln",
+                    "6": "Chiasamen"
+                },
+                "benefit": {
+                    "title": "Vorteil:",
+                    "text": "Reduziert Stress, liefert Magnesium und unterstützt das Nervensystem sowie den Schlaf."
+                }
+            }
+        },
+        "earthCollection": {
+            "title": "Earth Kollektion",
+            "ingredientsTitle": "Zutaten:",
+            "benefitTitle": "Vorteil:",
+            "morningEnergy": {
+                "title": "Morning Energy",
+                "alt": "Morning Energy",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Gefriertrocknete Banane",
+                    "Haferflocken",
+                    "Mandeln",
+                    "Chiasamen",
+                    "Kakao",
+                    "Trockenes Kokosmilchpulver",
+                    "Süßstoff"
+                ],
+                "benefit": "Eine großartige Frühstücksoption – spendet Energie und unterstützt die Gehirnfunktion."
+            },
+            "immuneShield": {
+                "title": "Immune Shield",
+                "alt": "Immune Shield",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Gefriertrocknete Erdbeere",
+                    "Haferflocken",
+                    "Walnüsse",
+                    "Spirulina",
+                    "Ingwerpulver",
+                    "Trockenes Kokosmilchpulver"
+                ],
+                "benefit": "Unterstützt das Immunsystem dank Vitamin C und Antioxidantien."
+            },
+            "fitnessCharge": {
+                "title": "Fitness Charge",
+                "alt": "Fitness Charge",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Gefriertrocknete Blaubeere",
+                    "Haferflocken",
+                    "Haselnüsse",
+                    "Maca",
+                    "Sesamsamen",
+                    "Kakao"
+                ],
+                "benefit": "Verbessert die Ausdauer und unterstützt die Muskelregeneration."
+            },
+            "detoxBalance": {
+                "title": "Detox & Balance",
+                "alt": "Detox & Balance",
+                "type": "Smoothie",
+                "ingredients": [
+                    "Gefriertrocknete Himbeere",
+                    "Haferflocken",
+                    "Leinsamen",
+                    "Spirulina",
+                    "Matcha",
+                    "Pinienkerne"
+                ],
+                "benefit": "Reinigt den Körper und steigert die Vitalität."
+            }
+        }
+    }
+}

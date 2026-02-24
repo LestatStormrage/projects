@@ -1,0 +1,152 @@
+{
+    "_metaTitle": "Kombucha",
+    "_metaDescription": "Entdecken Sie unsere köstlichen Smoothies und unterstützen Sie Ihren aktiven Lebensstil.",
+    "kombucha": {
+        "main-title": "Kombucha",
+        "description": "Ein legendäres Teegetränk aus dem alten Orient. SCOBY, eine symbiotische Kultur aus Hefe und nützlichen Bakterien, fermentiert aromatischen Tee zu einem köstlichen und natürlich heilenden, prickelnden Getränk. Im alten Japan wurde Kombucha als der „Tee der Unsterblichkeit“ bezeichnet. In Korea wird er seit der Antike für verjüngende Schönheitsbehandlungen verwendet, und in China war er das Getränk der Kaiser.",
+        "classic-green": {
+            "type": "Kombucha",
+            "title": "Classic Green",
+            "text": {
+                "1": "Natürliche Zutaten: gefiltertes Wasser, konzentrierter Apfelsaft, grüner Tee, Zucker, Kombucha-Kultur.",
+                "2": "Empfohlene Lagertemperatur: +6°C bis +25°C.",
+                "3": "Innerhalb von 48 Stunden nach dem Öffnen verzehren.",
+                "4": "Bei Empfindlichkeit gegenüber Säure verdünnt oder in kleinen Mengen trinken."
+            },
+            "list": {
+                "title": "Nährwerte pro 100 ml:",
+                "1": "Energie: 67 kJ / 16 kcal",
+                "2": "Eiweiß – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Kohlenhydrate – 4,0 g",
+                "5": "Zucker – 4,0 g"
+            }
+        },
+        "ginger": {
+            "type": "Kombucha",
+            "title": "Ingwer",
+            "text": {
+                "1": "Natürliche Zutaten: gefiltertes Wasser, konzentrierter Apfelsaft (20 %), grüner Tee, Ingwer, Kurkumakonzentrat, Zucker, Zitronensaft, Kombucha-Kultur.",
+                "2": "Empfohlene Lagertemperatur: +6°C bis +25°C.",
+                "3": "Innerhalb von 48 Stunden nach dem Öffnen verzehren.",
+                "4": "Bei Empfindlichkeit gegenüber Säure verdünnt oder in kleinen Mengen trinken."
+            },
+            "list": {
+                "title": "Nährwerte pro 100 ml:",
+                "1": "Energie: 67 kJ / 16 kcal",
+                "2": "Eiweiß – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Kohlenhydrate – 4,0 g",
+                "5": "Zucker – 4,0 g"
+            }
+        },
+        "hibiscus": {
+            "type": "Kombucha",
+            "title": "Hibiskus",
+            "text": {
+                "1": "Natürliche Zutaten: gefiltertes Wasser, konzentrierter Apfelsaft, schwarzer Tee, grüner Tee, Hibiskusblüten, Zucker, Kombucha-Kultur.",
+                "2": "Empfohlene Lagertemperatur: +6°C bis +25°C.",
+                "3": "Innerhalb von 48 Stunden nach dem Öffnen verzehren.",
+                "4": "Bei Empfindlichkeit gegenüber Säure verdünnt oder in kleinen Mengen trinken."
+            },
+            "list": {
+                "title": "Nährwerte pro 100 ml:",
+                "1": "Energie: 67 kJ / 16 kcal",
+                "2": "Eiweiß – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Kohlenhydrate – 4,0 g",
+                "5": "Zucker – 4,0 g"
+            }
+        },
+        "jasmine": {
+            "type": "Kombucha",
+            "title": "Jasmin",
+            "text": {
+                "1": "Natürliche Zutaten: gefiltertes Wasser, konzentrierter Apfelsaft, grüner Tee, Jasminblüten, Zucker, Kombucha-Kultur.",
+                "2": "Empfohlene Lagertemperatur: +6°C bis +25°C.",
+                "3": "Innerhalb von 48 Stunden nach dem Öffnen verzehren.",
+                "4": "Bei Empfindlichkeit gegenüber Säure verdünnt oder in kleinen Mengen trinken."
+            },
+            "list": {
+                "title": "Nährwerte pro 100 ml:",
+                "1": "Energie: 67 kJ / 16 kcal",
+                "2": "Eiweiß – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Kohlenhydrate – 4,0 g",
+                "5": "Zucker – 4,0 g"
+            }
+        },
+        "lavender": {
+            "type": "Kombucha",
+            "title": "Lavendel",
+            "text": {
+                "1": "Natürliche Zutaten: gefiltertes Wasser, konzentrierter Apfelsaft (20 %), grüner Tee, Clitoria-Blüten, schwarzer Tee, Lavendelblüten, Zucker, Kombucha-Kultur.",
+                "2": "Empfohlene Lagertemperatur: +6°C bis +25°C.",
+                "3": "Innerhalb von 48 Stunden nach dem Öffnen verzehren.",
+                "4": "Bei Empfindlichkeit gegenüber Säure verdünnt oder in kleinen Mengen trinken."
+            },
+            "list": {
+                "title": "Nährwerte pro 100 ml:",
+                "1": "Energie: 67 kJ / 16 kcal",
+                "2": "Eiweiß – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Kohlenhydrate – 4,0 g",
+                "5": "Zucker – 4,0 g"
+            }
+        },
+        "lemongrass": {
+            "type": "Kombucha",
+            "title": "Zitronengras",
+            "text": {
+                "1": "Natürliche Zutaten: gefiltertes Wasser, konzentrierter Apfelsaft, schwarzer Tee, Zitronengras, Zucker, Kombucha-Kultur.",
+                "2": "Empfohlene Lagertemperatur: +6°C bis +25°C.",
+                "3": "Innerhalb von 48 Stunden nach dem Öffnen verzehren.",
+                "4": "Bei Empfindlichkeit gegenüber Säure verdünnt oder in kleinen Mengen trinken."
+            },
+            "list": {
+                "title": "Nährwerte pro 100 ml:",
+                "1": "Energie: 67 kJ / 16 kcal",
+                "2": "Eiweiß – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Kohlenhydrate – 4,0 g",
+                "5": "Zucker – 4,0 g"
+            }
+        },
+        "passion-fruit": {
+            "type": "Kombucha",
+            "title": "Passionsfrucht",
+            "text": {
+                "1": "Natürliche Zutaten: gefiltertes Wasser, konzentrierter Apfelsaft, grüner Tee, Passionsfrucht, Zucker, Zitronensaft, Kombucha-Kultur.",
+                "2": "Empfohlene Lagertemperatur: +6°C bis +25°C.",
+                "3": "Innerhalb von 48 Stunden nach dem Öffnen verzehren.",
+                "4": "Bei Empfindlichkeit gegenüber Säure verdünnt oder in kleinen Mengen trinken."
+            },
+            "list": {
+                "title": "Nährwerte pro 100 ml:",
+                "1": "Energie: 67 kJ / 16 kcal",
+                "2": "Eiweiß – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Kohlenhydrate – 4,0 g",
+                "5": "Zucker – 4,0 g"
+            }
+        },
+        "yuzu": {
+            "type": "Kombucha",
+            "title": "Yuzu",
+            "text": {
+                "1": "Natürliche Zutaten: gefiltertes Wasser, konzentrierter Apfelsaft, grüner Tee, Yuzu-Saft, Zucker, Kombucha-Kultur.",
+                "2": "Empfohlene Lagertemperatur: +6°C bis +25°C.",
+                "3": "Innerhalb von 48 Stunden nach dem Öffnen verzehren.",
+                "4": "Bei Empfindlichkeit gegenüber Säure verdünnt oder in kleinen Mengen trinken."
+            },
+            "list": {
+                "title": "Nährwerte pro 100 ml:",
+                "1": "Energie: 67 kJ / 16 kcal",
+                "2": "Eiweiß – 0,0 g",
+                "3": "Fett – 0,0 g",
+                "4": "Kohlenhydrate – 4,0 g",
+                "5": "Zucker – 4,0 g"
+            }
+        }
+    }
+}

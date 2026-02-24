@@ -1,0 +1,31 @@
+{
+	"_metaTitle": "Fridges",
+	"_metaDescription": "Explore our range of professional fridges and automated retail modules that make product marketing more efficient and profitable.",
+	"fridges-page": {
+		"introduction": {
+			"title": "Fridges",
+			"description": "In addition to our premium products, we offer our partners complementary equipment that makes marketing our products easier, more efficient, and more profitable."
+		},
+		"types": {
+			"title": "Fridge types:",
+			"list": {
+				"1": "Regular fridges",
+				"2": "Automated retail modules (micromarkets) with integrated Nayax payment system and Dynamic Scale weight-sensor technology",
+				"3": "Micromarkets with Dynamic Scale weight-sensor technology (inventory control only)"
+			}
+		},
+		"payment": {
+			"title": "Payment options",
+			"items": {
+				"1": {
+					"name": "POS",
+					"text": "Customers open the micromarket with a credit card or phone, they are charged automatically."
+				},
+				"2": {
+					"name": "Private app",
+					"text": "We make a custom app for you with your logo and brand colours."
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"_metaTitle": "Contact Us",
+	"_metaDescription": "Get in touch with Totem Superfood. Fill out our contact form to become a dealer or ask questions about our products.",
+	"contact-us": {
+		"title": "Contact us to become our dealer!",
+		"form": {
+			"title": "Use this form to send us email",
+			"interest" :{
+				"title": "I am interested in:",
+				"smoothies": "Smoothies",
+				"kombucha": "Kombucha",
+				"fruit-infusion-drinks": "Fruit infusion drinks"
+			},
+			"salutation": {
+				"label": "How should we address you? *",
+				"mr": "Mr.",
+				"mrs": "Mrs."
+			},
+			"firstName": {
+				"label": "First name *:",
+				"placeholder": "First name"
+			},
+			"lastName": {
+				"label": "Last name *:",
+				"placeholder": "Last name"
+			},
+			"email": {
+				"label": "E-mail *:",
+				"placeholder": "E-mail"
+			},
+			"addInfo": {
+				"label": "Additional information:",
+				"placeholder": "Additional information"
+			},
+			"agreement": {
+				"text": "I consent to the collection, processing or use of my personal data in accordance with the",
+				"link": "privacy policy"
+			},
+			"required": "* Required",
+			"button": "Send"
+		}
+	}
+}

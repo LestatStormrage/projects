@@ -1,0 +1,79 @@
+{
+	"_metaTitle": "Om os - Totem Superfood",
+	"_metaDescription": "Lær om Totem Superfoods historie, innovation og mission for at gøre sund ernæring tilgængelig og nem over hele verden.",
+	"about-us": {
+		"introduction": {
+			"title": "Introduktion – Hvem er vi",
+			"subtitle": "Fra en personlig mission til en global vision",
+			"text": "Selvom virksomheden officielt blev grundlagt i 2025, begyndte produktets historie i 2012 med én persons dedikation til sundhed, ernæring og et energibalanceret liv. Gennem årene blev funktionelle smoothieopskrifter udviklet og forbedret med superfoods som spirulina, gurkemeje, maca, açaí og chia — hvilket skabte kraftfulde blandinger fulde af vitaminer og ren energi. I 2017 udviklede dette sig til en populær grøn smoothiebar, der fik lokal medieopmærksomhed og opbyggede et stærkt fællesskab af sundhedsbevidste forbrugere."
+		},
+		"innovation": {
+			"title": "Innovation",
+			"subtitle": "12 års erfaring – ét revolutionerende produkt",
+			"text": "I 2024 satte vi os for at bringe disse unikke produkter ud til et globalt publikum. Efter et Design Sprint valgte vi frysetørring (lyofilisering) — en metode, der bevarer ingrediensernes næringsværdi ved hurtig nedfrysning og fjernelse af fugt. Resultatet? En holdbar pulverblanding, der bliver til en frisk smoothie blot med vand — lige så nærende og lækker som frisklavet."
+		},
+		"target": {
+			"title": "Målgruppe",
+			"subtitle": "Vi henvender os til den moderne, bevidste forbruger",
+			"list": {
+				"1": "Travle professionelle og studerende, der har brug for hurtig, men sund ernæring",
+				"2": "Rejsende og udendørsentusiaster med begrænset adgang til friske måltider",
+				"3": "Sundhedsbevidste personer, der værdsætter ekspertanbefalede programmer (f.eks. detox, wellness balance eller daglig ernæring)"
+			}
+		},
+		"values": {
+			"title": "Værdier, vi står for",
+			"list": {
+				"1": "Sundhed først: Naturlige, rene, sukkerfri ingredienser uden tilsætningsstoffer",
+				"2": "Energi og produktivitet: Støtter en aktiv livsstil med næringsrige blandinger",
+				"3": "Mobilitet og bekvemmelighed: Én pakke = ét måltid. Let at tage med. Klar på få sekunder",
+				"4": "Økologisk ansvarlighed: Bæredygtig produktion og minimal affald"
+			}
+		},
+		"problems": {
+			"title": "Problemer, vi løser",
+			"list": {
+				"1": "Mangel på tid til næringsrige måltider under arbejde, rejse eller travle dage",
+				"2": "Svært ved at opretholde konstant energi og fokus",
+				"3": "Få muligheder for bekvemme og sunde snacks",
+				"4": "Traditionelle alternativer er enten usunde eller tidskrævende"
+			}
+		},
+		"persona": {
+			"title": "Vores forbrugerprofil",
+			"list": {
+				"1": "Bevidst og selektiv: Går op i ernæring, læser etiketter, undgår sukker og kemikalier",
+				"2": "Aktiv og stilbevidst: Dyrker sport, fitness og egenomsorg",
+				"3": "Værdidrevet: Søger bæredygtige, gennemsigtige og fremsynede brands"
+			}
+		},
+		"advantage": {
+			"title": "Hvorfor det virker – Fordelene ved frysetørring",
+			"list": {
+				"1": "Bevarer 95–98 % af vitaminer og næringsstoffer",
+				"2": "Let og holdbar — kræver ingen køling",
+				"3": "Smager som frisk — tilsæt blot vand",
+				"4": "Perfekt til ernæring på farten"
+			}
+		},
+		"market": {
+			"title": "Markedsmulighed",
+			"text": "Ifølge statistikker forsøger over 60 % af EU’s befolkning aktivt at spise sundt. Efterspørgslen efter funktionelle, klar-til-brug superfood-produkter vokser hurtigt, især blandt urbane og mobile forbrugere."
+		},
+		"marketing": {
+			"title": "Markedsføringsstrategi",
+			"subtitle": "Vi skaber efterspørgsel gennem pull-markedsføring",
+			"list": {
+				"1": "Sociale medier og storytelling",
+				"2": "Samarbejder med sundhedscoaches og fitnesseksperter",
+				"3": "Forbrugerfeedback for hurtig tilpasning",
+				"4": "Stærkt brandfællesskab og loyalitetsprogrammer"
+			}
+		},
+		"partner": {
+			"title": "Lad os samarbejde",
+			"text": "Vi tilbyder en skalérbar løsning med en stærkt motiveret kundebase og en produktlinje støttet af mange års forskning og udvikling. Vær med til at levere moderne ernæring til en moderne verden. Lad os sammen gøre sund livsstil nemt.",
+			"button": "Kontakt os"
+		}
+	}
+}

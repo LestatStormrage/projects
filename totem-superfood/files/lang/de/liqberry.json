@@ -1,0 +1,178 @@
+{
+	"_metaTitle": "Liqberry",
+	"_metaDescription": "Die LiQberry-Beerenpaste wird mithilfe einer innovativen hydro-thermo-dynamischen Technologie hergestellt. Diese Methode der Beerenverarbeitung ist weltweit einzigartig.",
+	"liqberry": {
+		"header": {
+			"title": "liqberry",
+			"subtitle": "Was macht LiQberry so einzigartig?",
+			"text": {
+				"1": "Die LiQberry-Beerenpaste wird mithilfe einer innovativen hydro-thermo-dynamischen Technologie hergestellt. Diese Methode der Beerenverarbeitung ist weltweit einzigartig.",
+				"2": "Die Beeren werden mit pulsierendem Druck zerkleinert. Dabei werden die Kerne aufgebrochen, sodass ihr Inhalt – Heidelbeeröl – in die Paste gelangt und vom Körper aufgenommen werden kann. Beim Verzehr frischer Beeren passieren die Kerne den Verdauungstrakt meist unverarbeitet.",
+				"3": "Der Herstellungsprozess erfolgt ohne Sauerstoffzufuhr und ohne Zusatz von Konservierungsstoffen, Zucker, Wasser oder künstlichen Farbstoffen – unter Anwendung einer Niedrigtemperatur-Pasteurisierung."
+			}
+		},
+		"seeds": {
+			"title": "Der Gehalt wertvoller Inhaltsstoffe im Heidelbeerkern",
+			"list": {
+				"1": "Mehrfach ungesättigte Fettsäuren Omega-3-6-9",
+				"2": "Fettlösliche Vitamine A und E",
+				"3": "Sterole",
+				"4": "Einzigartiges Protein, Aminosäuren",
+				"5": "Stark biologisch aktive Substanzen"
+			}
+		},
+		"packaging": {
+			"title": "Verfügbare Verpackungen:",
+			"doypack": {
+				"name": "Doypack",
+				"size": "100g"
+			},
+			"jar": {
+				"name": "Glas",
+				"size": "545g"
+			},
+			"show-button": "Anzeigen"
+		},
+		"blueberry-paste": {
+			"title": "Heidelbeerpaste",
+			"type": "Liqberry",
+			"text": {
+				"1": "Unsere Heidelbeerpaste wird aus 100 % ganzen Heidelbeeren hergestellt und bewahrt die natürliche Zusammensetzung der Frucht in konzentrierter Form. Dank eines schonenden Verarbeitungsverfahrens bleiben die wertvollen pflanzlichen Inhaltsstoffe erhalten.",
+				"2": "Heidelbeeren sind von Natur aus reich an Antioxidantien, die für ihre Rolle beim Schutz der Zellen vor oxidativem Stress bekannt sind. Sie enthalten außerdem Chlorogensäure und Anthocyane – natürliche Pigmente, die für die tiefe Farbe der Beeren verantwortlich sind.",
+				"3": "Unsere Heidelbeerpaste wird von Verbrauchern geschätzt, die Wert auf natürliche Zutaten und Transparenz legen. Sie kann pur genossen oder in Smoothies, Joghurt oder kreativen Rezepten verwendet werden."
+			},
+			"list": {
+				"title": "Durch die Verarbeitung der ganzen Beere – inklusive Fruchtfleisch, Schale und Kerne –:",
+				"1": "bleibt das vollständige natürliche Beerenprofil erhalten,",
+				"2": "lässt sich die Paste leicht in eine ausgewogene Ernährung integrieren,",
+				"3": "enthält sie keinen zugesetzten Zucker, keine Konservierungsstoffe und keine künstlichen Zusätze."
+			}
+		},
+		"raspberry-paste": {
+			"title": "Himbeerpaste",
+			"type": "Liqberry",
+			"text": {
+				"1": "Unsere Himbeerpaste wird aus 100 % ganzen Himbeeren hergestellt und bewahrt das charakteristische Aroma sowie natürliche Pflanzenstoffe in konzentrierter Form. Die schonende Verarbeitung erhält die typischen Eigenschaften der Frucht.",
+				"2": "Himbeeren enthalten natürliche Fruchtsäuren, Polyphenole und aromatische Verbindungen, die in der Ernährungswissenschaft intensiv untersucht werden. Aufgrund ihrer Zusammensetzung sind sie häufig Bestandteil bewusster Ernährungskonzepte.",
+				"3": "Der intensive, fruchtige Geschmack eignet sich ideal zum puren Genuss, in warmen Getränken, Joghurt, Smoothies oder kreativen Rezepten."
+			},
+			"list": {
+				"title": "Die Himbeerpaste:",
+				"1": "bewahrt das vollständige Beerenprofil durch Verarbeitung von Fruchtfleisch, Schale und Kernen,",
+				"2": "lässt sich leicht in eine gesundheitsbewusste Ernährung integrieren,",
+				"3": "enthält keinen zugesetzten Zucker, keine Konservierungsstoffe und keine künstlichen Zusätze."
+			}
+		},
+		"strawberry-paste": {
+			"title": "Erdbeerpaste",
+			"type": "Liqberry",
+			"text": {
+				"1": "Unsere Erdbeerpaste wird aus 100 % ganzen Erdbeeren hergestellt und bewahrt das natürliche Gleichgewicht von Fruchtfleisch, Schale und Kernen. Erdbeeren werden für ihren Gehalt an Mineralstoffen, Vitaminen und sekundären Pflanzenstoffen geschätzt.",
+				"2": "Erdbeeren enthalten Mineralstoffe wie Eisen, Magnesium, Kalium, Calcium und Zink sowie Vitamin C, Vitamin B5 und Folsäure. Außerdem liefern sie antioxidative Pflanzenstoffe.",
+				"3": "Der frische, fruchtige Geschmack eignet sich ideal zum puren Genuss, in Joghurt, Smoothies oder kreativen Rezepten."
+			},
+			"list": {
+				"title": "Die Erdbeerpaste:",
+				"1": "bewahrt das vollständige Fruchtprofil durch Verarbeitung der ganzen Beere,",
+				"2": "passt ideal in eine bewusste Ernährung,",
+				"3": "enthält keinen zugesetzten Zucker, keine Konservierungsstoffe und keine künstlichen Zusätze."
+			}
+		},
+		"blackberry-paste": {
+			"title": "Brombeerpaste",
+			"type": "Liqberry",
+			"text": {
+				"1": "Unsere Brombeerpaste wird aus 100 % ganzen Brombeeren hergestellt und bewahrt das vollständige natürliche Beerenprofil inklusive Fruchtfleisch, Schale und Kernen.",
+				"2": "Brombeeren enthalten Vitamin E und Polyphenole. Vitamin E trägt zum Schutz der Zellen vor oxidativem Stress bei.",
+				"3": "Ideal pur, in Joghurt, Müsli, Smoothies oder als Premium-Zutat moderner Ernährungskonzepte."
+			},
+			"list": {
+				"title": "Die Brombeerpaste:",
+				"1": "bewahrt das vollständige Nährstoffprofil durch Verarbeitung der ganzen Frucht,",
+				"2": "bietet einen intensiven, authentischen Beerengeschmack,",
+				"3": "enthält keinen zugesetzten Zucker, keine Konservierungsstoffe und keine künstlichen Zusätze."
+			}
+		},
+		"blackcurrant-paste": {
+			"title": "Schwarze-Johannisbeer-Paste",
+			"type": "Liqberry",
+			"text": {
+				"1": "Unsere schwarze Johannisbeer-Paste wird aus 100 % ganzen Beeren hergestellt und bewahrt das vollständige natürliche Beerenprofil.",
+				"2": "Schwarze Johannisbeeren sind reich an Vitamin C und Polyphenolen und werden häufig mit bewusster Ernährung assoziiert.",
+				"3": "Ideal pur, mit Joghurt oder Müsli, in Smoothies oder als Premium-Zutat funktioneller Lebensmittel."
+			},
+			"list": {
+				"title": "Die Johannisbeerpaste:",
+				"1": "bewahrt das vollständige Beerenprofil,",
+				"2": "unterstützt eine abwechslungsreiche Ernährung,",
+				"3": "enthält keinen zugesetzten Zucker, keine Konservierungsstoffe und keine künstlichen Zusätze."
+			}
+		},
+		"sea-buckthorn": {
+			"title": "Sanddornpaste",
+			"type": "Liqberry",
+			"text": {
+				"1": "Unsere Sanddornpaste wird aus 100 % ganzen Sanddornbeeren hergestellt und bewahrt das natürliche Gleichgewicht der Fruchtbestandteile.",
+				"2": "Ein besonderes Merkmal ist der natürliche Gehalt an Sanddornöl mit fettlöslichen Pflanzenstoffen.",
+				"3": "Ideal zur Ergänzung der täglichen Ernährung – pur, in Smoothies oder Bowls."
+			},
+			"list": {
+				"title": "Die Sanddornpaste:",
+				"1": "bewahrt das vollständige Beerenprofil einschließlich der Kerne,",
+				"2": "enthält natürlicherweise Beta-Carotin, Vitamin E und Vitamin C,",
+				"3": "ohne zugesetzten Zucker, Konservierungsstoffe oder künstliche Zusätze."
+			}
+		},
+		"cherry-paste": {
+			"type": "Liqberry",
+			"title": "Kirschpaste",
+			"text": {
+				"1": "Kirschpaste ist ein zu 100 % homogenisiertes Fruchtprodukt aus ganzen Kirschen. Sie bewahrt das natürliche Nährstoffprofil der Frucht."
+			},
+			"list": {
+				"1": {
+					"title": "Kirschen sind eine natürliche Quelle für:",
+					"1": "Polyphenole und Anthocyane,",
+					"2": "organische Säuren,",
+					"3": "Vitamine (insbesondere Vitamin C und B-Vitamine),",
+					"4": "Kalium und andere Mineralstoffe,",
+					"5": "Ballaststoffe und Pektine."
+				},
+				"2": {
+					"title": "Traditionell geschätzt für:",
+					"1": "Unterstützung der Muskelfunktion,",
+					"2": "Begleitung der Regeneration nach körperlicher Aktivität,",
+					"3": "Unterstützung des Stoffwechsels,",
+					"4": "Beitrag zum antioxidativen Gleichgewicht."
+				},
+				"3": {
+					"title": "Wird häufig assoziiert mit:",
+					"1": "Unterstützung der Herz-Kreislauf-Funktion,",
+					"2": "normaler Durchblutung,",
+					"3": "einem gesunden Schlaf-Wach-Rhythmus."
+				},
+				"4": {
+					"title": "Kirschpaste:",
+					"1": "ohne zugesetzten Zucker,",
+					"2": "frei von Konservierungsstoffen und künstlichen Zusätzen,",
+					"3": "ideal für pflanzenbasierte Ernährungskonzepte."
+				}
+			}
+		},
+		"aronia-paste": {
+			"type": "Liqberry",
+			"title": "Aroniapaste",
+			"text": {
+				"1": "Unsere Aroniapaste wird aus 100 % ganzen Aroniabeeren hergestellt und bewahrt das vollständige Beerenprofil.",
+				"2": "Aronia ist reich an Polyphenolen und wird traditionell in bewusster Ernährung verwendet.",
+				"3": "Ideal für alle, die intensiven Beerengeschmack schätzen."
+			},
+			"list": {
+				"title": "Die Aroniapaste:",
+				"1": "enthält natürliche bioaktive Pflanzenstoffe,",
+				"2": "ergänzt eine ausgewogene Ernährung,",
+				"3": "ohne zugesetzten Zucker, Konservierungsstoffe oder künstliche Zusätze."
+			}
+		}
+	}
+}

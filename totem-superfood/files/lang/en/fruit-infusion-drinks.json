@@ -1,0 +1,226 @@
+{
+    "_metaTitle": "Fruit infusion drinks",
+    "_metaDescription": "Discover our delicious fruit infusion drinks and support your active lifestyle.",
+    "yogoda": {
+        "main-title": "Fruit infusion drinks",
+        "description-1": "Created for people who value natural ingredients, functional benefits, and maximum convenience in everyday life. Our fruit infusion blends are made from 100% natural ingredients: carefully selected berries, fruits, ginger, honey, and spices. We do not change what nature has created. Instead, we refine it — making it clearer, more functional, and easier to integrate into a modern, dynamic lifestyle. Through gentle processing, we preserve intense flavors, high nutrient density, and natural properties, while ensuring effortless preparation. The result is a natural, tea-like beverage that adapts perfectly to different situations, seasons, and needs.",
+        "description-2": "These fruit infusion drinks are intentionally created to be exceptionally convenient and versatile:",
+        "bullet-point": {
+            "1": "At the office or home",
+            "2": "During long journeys and short trips",
+            "3": "In airplanes, trains, buses, or cars",
+            "4": "At festivals, in campers, or while camping",
+            "5": "While traveling by canoe or kayak",
+            "6": "In hotels – in the morning or in the evening",
+            "7": "During long meetings, presentations, conferences, or training sessions"
+        },
+        "seasons": {
+            "summer": {
+                "title": "In summer",
+                "text": "Add cold water and enjoy a refreshing, vitalizing drink that boosts energy and brings natural freshness."
+            },
+            "winter": {
+                "title": "In winter",
+                "text": "Add hot water and enjoy a warming beverage that supports the immune system and revitalizes both body and mind."
+            }
+        },
+        "classic": {
+            "title": "Classic"
+        },
+        "immunity": {
+            "title": "Immunity"
+        },
+        "sugar-free": {
+            "title": "Sugar free"
+        },
+        "coctails": {
+            "title": "Coctails"
+        },
+        "cherry-tea-with-chocolate": {
+            "type": "YOGODA",
+            "name": "Cherry tea with chocolate",
+            "description-text-01": "The first sip reveals a deep, velvety cocoa flavor created by the grated chocolate. Next comes a bright cherry sourness that plays on the contrast, making the flavor vibrant and juicy. Finally, there is the subtle warmth of cayenne pepper, which enhances each note without disturbing the delicacy.",
+            "description-text-02": "Ingredients: cherries (deep-frozen berries), grated cocoa (natural chocolate), concentrated pomegranate juice, sugar, glucose-fructose syrup, cayenne pepper."
+        },
+        "tea-with-blueberries-and-lavender": {
+            "type": "YOGODA",
+            "name": "Tea with blueberries and lavender",
+            "description-text-01": "A soft, sweet blueberry base - like ripe berries freshly picked from the forest - lends a light honeyed tinge. Lavender brings a floral lightness and soothing fragrance, creating a feeling of deep relaxation. Finally, there is the subtle acidity of pomegranate, which adds sophistication and subtly enhances the delicacy of the flavor.",
+            "description-text-02": "Ingredients: blueberries (berries), concentrated pomegranate juice, dried lavender flowers, sugar, glucose-fructose syrup."
+        },
+        "sea-buckthorn-tea-with-apricot": {
+            "type": "YOGODA",
+            "name": "Sea buckthorn tea with apricot",
+            "description-text-01": "The sunny acidity of sea buckthorn touches the palate first - bright, fresh, but not sharp. Moments later it is embraced by the soft, velvety sweetness of apricot, like a spoonful of homemade jam. Both flavors retain the natural sweetness of the berries, as if they were freshly picked. Together they create the perfect balance of acidity and sweetness - natural, bright and delicious.",
+            "description-text-02": "Ingredients: sea buckthorn (puree/berries), apricot (puree), sugar."
+        },
+        "ginger-tea": {
+            "type": "YOGODA",
+            "name": "Ginger tea",
+            "description-text-01": "Mrs. Nature herself created this drink for you! No artificial additives - only useful ingredients: real honey, juicy lime and tart ginger. Gentle manufacturing technology plus natural ingredients - the secret is simple, and the result is excellent! Bright and rich palette of flavors. Here the first violin is played by ginger root. But the secret of the drink's popularity is in the perfect balance: the sweetness of honey, the sourness of lime, the bitterness of ginger.",
+            "description-text-02": "Ingredients: fresh ginger root, fresh lime, natural honey, sugar."
+        },
+        "cranberry-tea": {
+            "type": "YOGODA",
+            "name": "Cranberry tea",
+            "description-text-01": "Born from the taste and aroma of cranberries, tea retains the maximum of its nutrients. The harmony of the duo of mint and lime is maintained and develops the spiciness of ginger and honey. This tea not only helps to quench thirst, but also gives real pleasure.",
+            "description-text-02": "Ingredients: fresh quick-frozen cranberries, natural honey, fresh lime, fresh ginger root, dry anise, dry mint, sugar."
+        },
+        "sea-buckthorn-tea": {
+            "type": "YOGODA",
+            "name": "Sea buckthorn tea",
+            "description-text-01": "Happiness color drink - a real antidepressant, the warmth of the sun in each cup. The unique technology of tea preparation is aimed at preserving the natural composition of all ingredients. Sea buckthorn, honey, ginger, lime, cinnamon, star anise - a vitamin bomb! Sea buckthorn berry reveals all its healing power, the freshness of lime is shaded by the oriental hotness of ginger root, and fragrant spices are successfully combined into one harmonious sound.",
+            "description-text-02": "Ingredients: fresh quick-frozen sea buckthorn, fresh ginger root, fresh lime, ground cinnamon, ground star anise, natural honey, sugar."
+        },
+        "raspberry-tea": {
+            "type": "YOGODA",
+            "name": "Raspberry tea",
+            "description-text-01": "Fast, convenient, and most importantly - delicious! Each of us has childhood memories. Carefree life, fun and sweet raspberries in the garden, right from the bush... Yogoda raspberry tea - a sip of summer all year round! The intoxicating aroma of raspberries in combination with the natural sweetness of honey is perfectly complemented by a light bitterness of ginger and a cozy aroma of cinnamon.",
+            "description-text-02": "Ingredients: fresh quick-frozen raspberries, fresh quick-frozen black currants, natural honey, fresh ginger root, ground cinnamon, sugar."
+        },
+        "currant-tea": {
+            "type": "YOGODA",
+            "name": "Currant tea",
+            "description-text-01": "Minimum heat treatment, maximum nutrients - berry tea is developed on this principle. Even Tibetan sages praised currants for their tonic properties and rich taste. The aroma of purple basil acts as a hormone of happiness, and honey is an invaluable source of vitamins and trace elements. A drink of deep, dark purple color - for any day and mood!",
+            "description-text-02": "Ingredients: fresh quick-frozen currants, natural honey, purple basil, sugar."
+        },
+        "matcha-tea-coconut-latte": {
+            "type": "YOGODA",
+            "name": "Matcha tea coconut latte",
+            "description-text-01": "Matcha Tea Coconut Latte is a masterfully balanced combination of traditional Japanese matcha green tea and the creamy taste of natural coconut. Matcha green tea, rich in antioxidants and energizing properties, acquires delicate, slightly sweet tones thanks to notes of coconut. This refreshing drink not only quenches thirst, but also gives a feeling of peace due to its natural composition. The combination of the softness of coconut and the intensity of matcha green tea creates a unique taste experience that immerses you in the atmosphere of tropical islands, bringing joy and vitality with every sip.",
+            "description-text-02": "Ingredients: drinking water, sugar, coconut paste, matcha green tea, natural rosemary extract antioxidant."
+        },
+        "ginger-with-goji-tea": {
+            "type": "YOGODA",
+            "name": "Ginger with goji tea",
+            "description-text-01": "Trend in the world of healthy eating! Goji berries are a real \"must eat\" today! And now you can also drink them! Prevention of colds, slowing down the aging process, normalization of metabolism - it's all goji. Add to this drink the legendary extract of acerola and echinacea, natural honey - which is rich in vitamins and trace elements - trust the new generation tea!",
+            "description-text-02": "Ingredients: fresh ginger root, fresh lime, dried goji berries, natural honey, natural echinacea purple root extract, natural acerola extract (vitamin C), sugar."
+        },
+        "ginger-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Ginger with turmeric tea",
+            "description-text-01": "A legend in the world of healthy eating! Turmeric, which has a thousand-year history - a powerful preventive measure, a natural antibiotic, so it has a healing effect. And it gives the drink a pleasant golden color, and the spicy taste of ginger, the sweetness of natural honey and citrus acidity complement the composition of the taste. Benefit, regardless of the season.",
+            "description-text-02": "Ingredients: fresh ginger root, fresh lime, turmeric, natural honey, sugar."
+        },
+        "raspberry-with-acerola-tea": {
+            "type": "YOGODA",
+            "name": "Raspberry with acerola tea",
+            "description-text-01": "Natural honey gives natural sweetness, raspberries - richness of taste, and echinacea and acerola - guaranteed strong immunity. Fruity-berry aroma with a light, sour taste and a subtle bitter-sweet aftertaste. It has an antioxidant, restorative and tonic effect. Feel the joy of being healthy and full of energy!",
+            "description-text-02": "Ingredients: fresh quick-frozen raspberries, natural honey, fresh black currants, fresh ginger root, natural extract of Echinacea purpurea, natural acerola extract (vitamin C), sugar."
+        },
+        "raspberry-with-turmeric-tea": {
+            "type": "YOGODA",
+            "name": "Raspberry with turmeric tea",
+            "description-text-01": "The spice of cheerful color carries in itself also life-giving force. Turmeric, a relative of ginger, has no equal in anti-inflammatory and antioxidant properties. Spicy turmeric notes support the lively, summery taste of raspberries, the sweetness of honey, the light sourness of currants, the freshness of ginger and the spice of cinnamon.",
+            "description-text-02": "Ingredients: fresh quick-frozen raspberries, fresh quick-frozen black currants, natural honey, fresh ginger root, turmeric, ground cinnamon, sugar."
+        },
+        "pear-lime-thyme-tea": {
+            "type": "YOGODA",
+            "name": "Pear, lime, thyme tea",
+            "description-text-01": "Delicate, sour-sweet taste with the aroma of steppe weeds. Calms the nervous system, protects against atherosclerosis and reduces the risk of unwanted thrombosis, normalizes liver function and removes toxins.",
+            "description-text-02": "Ingredients: pear, fresh ginger root, lime, orange, dried goji berries, dried thyme, natural stevia extract."
+        },
+        "aronia-melanocarpa-cornelian-cherry-chilli-tea": {
+            "type": "YOGODA",
+            "name": "Aronia melanocarpa, cornelian cherry & chilli tea",
+            "description-text-01": "The drink has a pleasant aroma, sweet and sour, spicy taste with a light, astringent warming continuation. Tea tones the muscular and nervous system, helps to recover quickly after overload. Regulates the digestive process, activates the liver, has a good effect on the endocrine system, lowers blood pressure and cholesterol, increases immunity.",
+            "description-text-02": "Ingredients: cornellian cherry puree, aronia melanocarpa, natural stevia extract, cayenne pepper."
+        },
+        "passion-fruit-mango-nutmeg-tea": {
+            "type": "YOGODA",
+            "name": "Passion fruit, mango, nutmeg tea",
+            "description-text-01": "Tart, attractive taste of a fruit-berry cocktail, combined with subtle spicy notes of nutmeg. The drink has a stimulating and tonic effect, strengthens memory and nervous systems.",
+            "description-text-02": "Ingredients: mango puree, pumpkin, passion fruit pulp, orange, nutmeg, natural stevia extract."
+        },
+        "currant-tea-2": {
+            "type": "YOGODA",
+            "name": "Currant tea",
+            "description-text-01": "A deep drink of dark lavender color for any day and mood! The classic blackcurrant drink comes from childhood. Spicy basil emphasizes the taste and aroma of currants, making them even richer. Hot tea will warm you up, and cold tea will perfectly refresh and quench your thirst in the summer heat.",
+            "description-text-02": "Ingredients: pitah water, black currant, dried purple basil, acidity regulator citric acid, sweetener sucralose."
+        },
+        "sea-buckthorn-tea-2": {
+            "type": "YOGODA",
+            "name": "Sea buckthorn tea",
+            "description-text-01": "Liquid sea buckthorn tea is a 100% natural drink made from natural ingredients. It has a rich sea buckthorn and slightly spicy and tangy taste. The drink can be consumed both hot and cold. In winter, this tea will provide warmth, invigorate and fill you with energy, and in summer it will pleasantly refresh and quench your thirst.",
+            "description-text-02": "Ingredients: sea buckthorn, apple, filler polydextrose (food fiber), ginger root, lime, acidity regulator citric acid, ground cinnamon, ground star anise, sweetener sucralose."
+        },
+        "ginger-tea-2": {
+            "type": "YOGODA",
+            "name": "Ginger tea",
+            "description-text-01": "Spicy sweet ginger, juicy sour lime - a great recipe for those who need to cheer up or warm up. A boost of energy in every cup!",
+            "description-text-02": "Ingredients: drinking water, ginger root, apple, filler polydextrose (food fiber), lime, acidity regulator citric acid, sweetener sucralose."
+        },
+        "raspberry-tea-2": {
+            "type": "YOGODA",
+            "name": "Raspberry tea",
+            "description-text-01": "Natural raspberry tea in bags has a rich taste and a pleasant aroma. The drink can be consumed both hot and cold. Another advantage is the convenient hermetic packaging, which guarantees freshness. Brewing method: open the doypack and pour the contents into a cup. Then add 200 ml of boiling or cooled water. Stir and let it steep for three minutes, and you're ready to enjoy your raspberry tea.",
+            "description-text-02": "Ingredients: raspberry, black currant, ginger root, acidity regulator citric acid, cinnamon, sweetener sucralose."
+        },
+        "bramble": {
+            "type": "YOGODA",
+            "name": "Bramble",
+            "description-text-01": "A cocktail based on blackberries, raspberries, lemon juice, coriander, juniper berries and sugar. Raspberries add sweetness and a fruity note, lemon juice adds acidity and freshness, juniper berries and coriander add piquancy, and sugar enhances flavors and balances the drink. Bramble cocktail is considered a drink for the whole day, a modern classic.",
+            "description-text-02": "Ingredients: raspberry juice, blackberries, sugar, lemon juice, juniper berries, coriander, cinnamon."
+        },
+        "mojito": {
+            "type": "YOGODA",
+            "name": "Mojito",
+            "description-text-01": "It is based on the classic Cuban cocktail, which consists of fresh lime juice, mint and sugar. This drink is known for its refreshing and aromatic flavor palette, perfect for a hot day or as an evening drink. The Mojito cocktail is usually served with ice cubes in a tall glass, garnished with a sprig of mint and lemon.",
+            "description-text-02": "Ingredients: sugar, lime, mint."
+        },
+        "peach-bellini": {
+            "type": "YOGODA",
+            "name": "Peach bellini",
+            "description-text-01": "Created on the basis of a fresh fruit cocktail originating from Italy. We prepare it from quality pieces of peaches and peach puree, raspberries, thyme and sugar. This drink is famous for its delicate texture and refreshing taste, ideal for a hot day or as an aperitif. In addition, the cocktail \"Peach Bellini\" can be tried in combination with other fruit cocktails to create interesting mixes.",
+            "description-text-02": "Ingredients: peach, peach juice, sugar, raspberry juice, thyme."
+        },
+        "sea-breeze": {
+            "type": "YOGODA",
+            "name": "Sea breeze",
+            "description-text-01": "A refreshing drink that consists of cranberry juice, grapefruit and lemon juice, and has hints of honey for taste. The cocktail \"Sea Breeze\" has a light fruity taste with a sourness from grapefruit, which makes it an ideal option for summer evenings or as a refreshing drink for any time of the year. It is often served with ice cubes and tonic for more freshness.",
+            "description-text-02": "Ingredients: cranberries, honey, grapefruit juice, sugar, lemon juice."
+        },
+        "ginger-lemonade": {
+            "type": "YOGODA",
+            "name": "Ginger lemonade",
+            "description-text-01": "The bright combination of spicy ginger and fresh lime creates a rich and expressive bouquet: first a gentle warmth and spiciness, then a citrus acidity that refreshes and tones. The natural golden color is the result of combining only real ingredients, and the taste is unforgettable. Perfect for both a quiet morning and a dynamic day.",
+            "description-text-02": "Ingredients: fresh ginger root, fresh lime, sugar, glucose-fructose syrup."
+        },
+        "sea-buckthorn-lemonade": {
+            "type": "YOGODA",
+            "name": "Sea buckthorn lemonade",
+            "description-text-01": "A rich sweet and sour flavor with a bright character. The first accent is the bright, slightly tart acidity of sea buckthorn, as if it had just been plucked from the branch. It stimulates the receptors and immediately transitions into the soft, juicy sweetness of a ripe apple. And in a moment, a delicate trace of passion fruit: tropical and fragrant, this drink is like freshly picked berries from the garden, cooled by a summer breeze. Lightly honeyed, aromatic and very refreshing.",
+            "description-text-02": "Ingredients: sea buckthorn (quick-frozen berries), apple, passion fruit pulp, sugar."
+        },
+        "mango-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Mango & passion fruit",
+            "description-text-01": "Ripe, juicy mango opens the flavor with a deep sweetness, as if it had just been plucked from the sun. This is followed by the bright, refreshing acidity of passion fruit, which adds a tropical touch. Lime completes the composition with a delicate citrus touch, emphasizing balance and harmony. The aftertaste is long and juicy, with a slight citrus note.",
+            "description-text-02": "Ingredients: mango puree, passion fruit pulp, lime (fresh juice), sugar, glucose-fructose syrup."
+        },
+        "strawberry-passion-fruit": {
+            "type": "YOGODA",
+            "name": "Strawberry & passion fruit",
+            "description-text-01": "Ripe garden strawberries immediately reveal themselves in a soft, sweet wave — as delicate as a summer evening. Their velvety texture evokes warm memories, and moments later, passion fruit enters the game — bright, fresh, with a slight acidity that adds a tropical flare. Together they create a multi-dimensional, vibrant flavor.",
+            "description-text-02": "Ingredients: strawberries (frozen berries and concentrated juice), passion fruit (pulp), sugar, glucose-fructose syrup."
+        },
+        "spicy-strawberry": {
+            "type": "YOGODA",
+            "name": "Spicy strawberry",
+            "description-text-01": "Ripe, fragrant strawberries create a sincere sweetness familiar from childhood. The aftertaste reveals the subtle bitterness of acai and the mild warmth of cayenne pepper — a subtle, spicy echo reminiscent of the oriental tradition of drinks that not only taste good, but also help you better withstand the heat.",
+            "description-text-02": "Ingredients: strawberries (quick-frozen berries and juice concentrate), lemon juice, acai berry powder, sugar, cayenne pepper."
+        },
+        "spicy-pineapple": {
+            "type": "YOGODA",
+            "name": "Spicy pineapple",
+            "description-text-01": "The sweet, intense flavor of pineapple brings to mind the markets of Southeast Asia, where the ripe fruit is sliced before our eyes. It is joined by passion fruit — tropical, aromatic, with subtle acidity. The final touch is cayenne pepper. Slightly spicy heat that does not steam, but enhances the flavor and creates an internal cooling effect, as practiced in hot eastern countries.",
+            "description-text-02": "Ingredients: pineapple (canned and concentrated juice), passion fruit (pulp), lemon juice, sugar, cayenne pepper."
+        },
+        "red-mulled-wine": {
+            "type": "YOGODA",
+            "name": "Red mulled wine",
+            "description-text-01": "Yogoda red mulled wine is a non-alcoholic variation of the classic winter drink, created for those who appreciate a bright, rich taste and natural benefits. It harmoniously combines spicy notes of cinnamon, citrus, nutmeg and cloves, which give an atmosphere of warmth and comfort.",
+            "description-text-02": "Ingredients: natural honey, cherry, concentrated red grape juice, orange, apple, cardamom, ground cinnamon, nutmeg, cloves, star anise, cayenne pepper."
+        }
+    }
+}
