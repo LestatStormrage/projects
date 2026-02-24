@@ -1,0 +1,474 @@
+<!doctype html>
+<html data-fls-darklite="" lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Morpheus.woff2" as="font" type="font/woff2" defer>
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Home Page</title>
+		<script defer src="./js/app.min.js?v=1771950303880"></script>
+		<link rel="stylesheet" defer href="./css/app.min.css?v=1771950303880">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link menu__link--active">Home</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">About</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Blog</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Contacts</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+					<div data-fls-darklite-set="" data-fls-dynamic=".menu__body, 991.98, 1" class="header__theme-switcher">
+						<div class="moon"></div>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<div data-fls-index="" class="page page-home">
+					<!--
+<section data-fls-parallax-parent class="page__hero hero">
+<div class="hero__background">
+<div class="hero__image hero__image--dark"></div>
+<div class="hero__image hero__image--light"></div>
+</div>
+<div data-fls-mouse data-fls-mouse-dxr data-fls-mouse-dyr data-fls-mouse-cx="500" data-fls-mouse-cy="1000" class="hero__layer hero__layer--1">
+<div data-fls-parallax data-fls-parallax-coefficient="4" class="hero__grass hero__grass--01"></div>
+</div>
+<div class="">
+<div class="hero__layer hero__layer--2 hero__tree hero__tree-01 hero__tree-01--light"></div>
+<div class="hero__layer hero__layer--2 hero__tree hero__tree-01 hero__tree-01--dark"></div>
+</div>
+<div class="">
+<div class="hero__layer hero__layer--3 hero__tree hero__tree-02 hero__tree-02--light"></div>
+<div class="hero__layer hero__layer--3 hero__tree hero__tree-02 hero__tree-02--dark"></div>
+</div>
+<div data-fls-mouse data-fls-mouse-dxr data-fls-mouse-dyr data-fls-mouse-cx="100" data-fls-mouse-cy="100" class="hero__layer hero__layer--6">
+<div data-fls-parallax data-fls-parallax-coefficient="3" class="hero__layer hero__leaves hero__leaves--01"></div>
+</div>
+<div data-fls-mouse data-fls-mouse-dxr data-fls-mouse-dyr data-fls-mouse-cx="100" data-fls-mouse-cy="100" class="hero__layer hero__layer--7">
+<div data-fls-parallax data-fls-parallax-coefficient="3" class="hero__layer hero__leaves hero__leaves--02"></div>
+</div>
+<div class="hero__fireflies hero__layer--fireflies">
+<div class="fireflies firefly--1"></div>
+<div class="fireflies firefly--2"></div>
+<div class="fireflies firefly--3"></div>
+</div>
+<div class="hero__title-box">
+<h1 data-fls-parallax data-fls-parallax-coefficient="7" class="hero__title">Loremipsumdolor</h1>
+</div>
+</section>
+-->
+					<section class="page__hero hero">
+						<div data-hero-parallax="" data-hero-parallax-speed="-5" class="hero__background hero__layer">
+							<div class="hero__image hero__image--dark"></div>
+							<div class="hero__image hero__image--light"></div>
+						</div>
+						<div data-fls-mouse="" data-fls-mouse-dxr="" data-fls-mouse-dyr="" data-fls-mouse-cx="500" data-fls-mouse-cy="1000" class="hero__layer hero__layer--1">
+							<div data-hero-parallax="" data-hero-parallax-speed="-50" class="hero__grass hero__grass--01"></div>
+						</div>
+						<div data-hero-parallax="" data-hero-parallax-speed="-7" class="hero__layer hero__layer--2">
+							<div class="hero__tree hero__tree-01 hero__tree-01--light"></div>
+							<div class="hero__tree hero__tree-01 hero__tree-01--dark"></div>
+						</div>
+						<div data-hero-parallax="" data-hero-parallax-speed="-7" class="hero__layer hero__layer--3">
+							<div class="hero__tree hero__tree-02 hero__tree-02--light"></div>
+							<div class="hero__tree hero__tree-02 hero__tree-02--dark"></div>
+						</div>
+						<div data-hero-parallax="" data-hero-parallax-speed="-7" class="hero__layer hero__layer--4">
+							<div class="hero__tree hero__tree-03 hero__tree-03--light"></div>
+							<div class="hero__tree hero__tree-03 hero__tree-03--dark"></div>
+						</div>
+						<div data-fls-mouse="" data-fls-mouse-dxr="" data-fls-mouse-dyr="" data-fls-mouse-cx="100" data-fls-mouse-cy="100" class="hero__layer hero__layer--5">
+							<div data-hero-parallax="" data-hero-parallax-speed="-30" class="hero__layer hero__leaves hero__leaves--01"></div>
+						</div>
+						<div data-fls-mouse="" data-fls-mouse-dxr="" data-fls-mouse-dyr="" data-fls-mouse-cx="100" data-fls-mouse-cy="100" class="hero__layer hero__layer--6">
+							<div data-hero-parallax="" data-hero-parallax-speed="-35" class="hero__layer hero__leaves hero__leaves--02"></div>
+						</div>
+						<div class="hero__fireflies hero__layer--fireflies hero__layer hero__layer--7">
+							<div data-hero-parallax="" data-hero-parallax-speed="-25" class="fireflies firefly--1"></div>
+							<div data-hero-parallax="" data-hero-parallax-speed="-30" class="fireflies firefly--2"></div>
+							<div data-hero-parallax="" data-hero-parallax-speed="-7" class="fireflies firefly--3"></div>
+						</div>
+						<div class="hero__title-box hero__layer hero__layer--8">
+							<h1 data-hero-parallax="" data-hero-parallax-speed="-20" class="hero__title">Loremipsumdolor</h1>
+						</div>
+					</section>
+					<section class="page__about about">
+						<div class="about__image">
+							<img data-fls-mouse="" data-fls-mouse-dxr="" data-fls-mouse-dyr="" data-fls-mouse-cx="1500" data-fls-mouse-cy="1500" alt="bushes" src="./assets/img/hero/dark/bushes.webp">
+						</div>
+						<div class="about__body">
+							<div class="about__container">
+								<div class="about__text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repudiandae provident aliquid est corrupti accusamus? Vero
+                    ex, sint iste non laudantium repellendus voluptatum voluptates sed ipsam. Reiciendis, officiis doloribus similique molestias
+                    exercitationem tempora nihil cum perferendis tenetur ex ut at repellat provident adipisci doloremque itaque harum nam maiores
+                    tempore? Voluptatibus cupiditate harum asperiores minus assumenda illum ab deserunt impedit, veniam officiis magni obcaecati animi
+                    voluptas possimus vero vel! Modi labore voluptatem nisi explicabo a autem totam. Aspernatur deleniti nemo accusamus, illo, nam
+                    molestias recusandae assumenda, natus repellat quibusdam eum? Quidem facilis officia cumque adipisci rem tempora ullam vero sint
+                    assumenda, nobis ipsum omnis tempore. Iste ea excepturi sequi doloribus qui at quos porro impedit vero hic cupiditate veniam
+                    eligendi laudantium fuga facere ab, nesciunt officiis blanditiis suscipit sit aliquid pariatur consequuntur. Ullam dolorum laborum
+                    aliquam error culpa molestiae, rem quis accusantium consequatur corporis eum eos earum doloribus nemo aperiam alias minima iure.
+                    Non dolorem velit reiciendis aut quis veniam sequi atque quae mollitia molestiae accusamus eius necessitatibus accusantium
+                    tempore, sapiente quam nulla dolor laborum minima quidem maiores tenetur itaque et? Animi eveniet laborum, eaque ut debitis
+                    repellat numquam, temporibus nam illum autem minus quod commodi eos earum labore voluptates sapiente sequi ratione voluptas quam,
+                    minima nostrum repudiandae? Possimus neque illum minus, omnis accusantium reprehenderit. Vero non aspernatur voluptate odit,
+                    consequuntur sequi ex hic explicabo repudiandae voluptatem alias doloribus ducimus reiciendis cumque iste molestias! Eveniet
+                    dolores quam provident eaque! Deserunt eum minus consequatur rerum obcaecati quia optio corporis, dolore nesciunt temporibus rem
+                    mollitia molestiae repellendus, qui assumenda vel nisi ex aut amet impedit odio. Tenetur voluptatibus error numquam quibusdam
+                    veniam sequi deleniti inventore? Laborum numquam, architecto et totam exercitationem distinctio ut est deserunt provident deleniti
+                    iure aliquid laboriosam, doloribus iste expedita, accusantium a perferendis in! Consectetur adipisci eligendi dicta doloremque! Ut
+                    veniam ab quisquam totam incidunt doloremque, soluta atque! Voluptates alias fugit placeat enim eos numquam dolore excepturi
+                    provident ab autem ex necessitatibus culpa recusandae consequuntur similique maxime ipsum deserunt quas, nobis sed quis omnis
+                    quos. Natus iste maxime, repudiandae excepturi repellendus officiis dolorem eaque maiores assumenda odit rem asperiores
+                    necessitatibus quos hic. Perspiciatis deleniti facilis temporibus vel corrupti tenetur, quas ut maxime magni incidunt possimus
+                    architecto sequi natus, fugiat recusandae excepturi nisi aliquam velit rerum! Iste consequuntur impedit magnam quidem, aperiam
+                    nobis odit enim mollitia. Obcaecati esse incidunt nulla cum, voluptatum maiores magnam rerum blanditiis. Ex veritatis odio
+                    sapiente voluptates. Molestias ullam placeat quae voluptatibus. Doloremque cum aliquid eum! Laborum provident modi voluptatem
+                    fugiat. Consequatur molestiae vel eaque provident iste veritatis voluptate adipisci et dolor nam tempora similique eum placeat
+                    cupiditate eveniet temporibus fuga, veniam perferendis corrupti ea, architecto quam ducimus dolorem magnam.
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="page__projects projects">
+						<div class="projects__container">
+							<div class="projects__background">
+								<img data-hero-parallax="" data-hero-parallax-speed="7" class="projects__floor" alt="Image" src="./assets/img/projects/stone-bg.webp">
+							</div>
+							<h1 class="projects__title">My projects</h1>
+							<div data-hero-parallax="" data-hero-parallax-speed="3" class="projects__body">
+								<figure data-fls-parallax-parent="" class="projects__table">
+									<img class="projects__table-image" alt="Image" src="./assets/img/projects/table.webp">
+									<div data-fls-parallax="" data-fls-parallax-coefficient="-30" class="projects__table-shadow"></div>
+									<figure data-fls-parallax-parent="" class="projects__scrolls">
+										<img class="projects__scrolls-image" alt="scrolls" src="./assets/img/projects/scrolls.webp">
+									</figure>
+								</figure>
+								<div class="projects__inner">
+									<div class="projects__decor">
+										<figure data-fls-parallax-parent="" class="projects__lantern">
+											<img data-fls-parallax="" data-fls-parallax-coefficient="40" data-fls-parallax-min="-10" class="projects__lantern-image projects__lantern-image--top" alt="Image" src="./assets/img/projects/lantern-top.webp">
+											<img class="projects__lantern-image projects__lantern-image--bottom" alt="Image" src="./assets/img/projects/lantern-bottom.webp">
+										</figure>
+										<figure data-fls-parallax-parent="" class="projects__quill">
+											<img class="projects__quill-image" alt="quill" src="./assets/img/projects/quill.webp">
+										</figure>
+									</div>
+									<div class="projects__list list-projects">
+										<div class="list-projects__full projects-list-full">
+											<div class="projects-list-full__item project">
+												<div class="project__magic"></div>
+												<a class="project__body" target="_blank" href="https://lestatstormrage.github.io/projects/arik/">
+													<figure class="project__picture">
+														<img class="project__image" alt="project arik" src="./assets/img/projects/projects/arik.webp">
+													</figure>
+													<div class="project__name">Arik</div>
+												</a>
+											</div>
+											<div class="projects-list-full__item project">
+												<a class="project__body" target="_blank" href="https://totem-superfood.com/">
+													<figure class="project__picture">
+														<img class="project__image" alt="project Totem sSuperfood" src="./assets/img/projects/projects/totem-superfood.webp">
+													</figure>
+													<div class="project__name">Totem Superfood</div>
+												</a>
+											</div>
+											<div class="projects-list-full__item project">
+												<a class="project__body" target="_blank" href="">
+													<figure class="project__picture">
+														<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+													</figure>
+													<div class="project__name">project lorem</div>
+												</a>
+											</div>
+											<div class="projects-list-full__item project">
+												<a class="project__body" target="_blank" href="">
+													<figure class="project__picture">
+														<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+													</figure>
+													<div class="project__name">project lorem</div>
+												</a>
+											</div>
+											<div class="projects-list-full__item project">
+												<a class="project__body" target="_blank" href="">
+													<figure class="project__picture">
+														<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+													</figure>
+													<div class="project__name">project lorem</div>
+												</a>
+											</div>
+											<div class="projects-list-full__item project">
+												<a class="project__body" target="_blank" href="">
+													<figure class="project__picture">
+														<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+													</figure>
+													<div class="project__name">project lorem</div>
+												</a>
+											</div>
+											<div class="projects-list-full__item project">
+												<a class="project__body" target="_blank" href="">
+													<figure class="project__picture">
+														<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+													</figure>
+													<div class="project__name">project lorem</div>
+												</a>
+											</div>
+											<div class="projects-list-full__item project">
+												<a class="project__body" target="_blank" href="">
+													<figure class="project__picture">
+														<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+													</figure>
+													<div class="project__name">project lorem</div>
+												</a>
+											</div>
+										</div>
+										<div class="list-projects__compact projects-list-compact">
+											<div class="projects-list-compact__body">
+												<!-- Оболонка слайдера -->
+												<div data-fls-slider="" class="projects-list-compact__slider swiper">
+													<!-- Частина слайдера, що рухається -->
+													<div class="projects-list-compact__wrapper swiper-wrapper">
+														<!-- Слайд -->
+														<div class="projects-list-compact__slide swiper-slide project">
+															<a class="project__body" href="">
+																<figure class="project__picture">
+																	<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+																</figure>
+																<div class="project__name">project lorem</div>
+															</a>
+														</div>
+														<div class="projects-list-compact__slide swiper-slide project">
+															<a class="project__body" href="">
+																<figure class="project__picture">
+																	<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+																</figure>
+																<div class="project__name">project lorem</div>
+															</a>
+														</div>
+														<div class="projects-list-compact__slide swiper-slide project">
+															<a class="project__body" href="">
+																<figure class="project__picture">
+																	<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+																</figure>
+																<div class="project__name">project lorem</div>
+															</a>
+														</div>
+														<div class="projects-list-compact__slide swiper-slide project">
+															<a class="project__body" href="">
+																<figure class="project__picture">
+																	<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+																</figure>
+																<div class="project__name">project ipsum</div>
+															</a>
+														</div>
+														<div class="projects-list-compact__slide swiper-slide project">
+															<a class="project__body" href="">
+																<figure class="project__picture">
+																	<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+																</figure>
+																<div class="project__name">project dolor</div>
+															</a>
+														</div>
+													</div>
+													<!-- Якщо потрібна пагінація -->
+													<!-- <div class="swiper-pagination"></div> -->
+													<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+													<!-- Якщо потрібен скролбар -->
+													<!-- <div class="swiper-scrollbar"></div> -->
+												</div>
+											</div>
+										</div>
+										<button type="button" class="swiper-prev"></button>
+										<button type="button" class="swiper-next"></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="page__projects projects">
+						<div class="projects__container">
+							<div class="projects__background">
+								<img data-hero-parallax="" data-hero-parallax-speed="7" class="projects__floor" alt="Image" src="./assets/img/projects/stone-bg.webp">
+							</div>
+							<h1 class="projects__title">My projects</h1>
+							<div data-hero-parallax="" data-hero-parallax-speed="3" class="projects__body">
+								<figure data-fls-parallax-parent="" class="projects__table">
+									<img class="projects__table-image" alt="Image" src="./assets/img/projects/table.webp">
+									<div data-fls-parallax="" data-fls-parallax-coefficient="-30" class="projects__table-shadow"></div>
+								</figure>
+								<figure data-fls-parallax-parent="" class="projects__lantern">
+									<!-- <img class="projects__light-image" src="@img/projects/light.png" alt="Image"> -->
+									<img data-fls-parallax="" data-fls-parallax-coefficient="40" data-fls-parallax-min="-10" class="projects__lantern-image projects__lantern-image--top" alt="Image" src="./assets/img/projects/lantern-top.webp">
+									<img class="projects__lantern-image projects__lantern-image--bottom" alt="Image" src="./assets/img/projects/lantern-bottom.webp">
+								</figure>
+								<div class="projects__list">
+									<div class="projects__item project">
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, quam eum. Suscipit recusandae accusamus sint,
+                        perspiciatis
+                        laboriosam minus consectetur sapiente, aut eligendi magnam expedita amet eos, voluptate impedit molestiae commodi in sed.
+                        Rem
+                        voluptatibus dolore quis atque assumenda, nihil exercitationem veniam? Tenetur quae sint nam quia culpa natus provident,
+                        voluptatem nesciunt? Itaque tenetur veritatis asperiores officiis tempore neque dicta, minus magni exercitationem, odit
+                        ipsum!
+                        Distinctio minima amet, doloremque dignissimos veritatis earum, itaque aliquid aspernatur odio possimus obcaecati error
+                        fugit
+                        atque sed odit beatae vitae ullam voluptatum sunt! Libero tempore deserunt sit et velit quaerat explicabo aut repellat
+                        iste
+                        facilis eligendi quod deleniti maiores corporis incidunt, repellendus nulla consequuntur numquam voluptas ad nemo id
+                        cumque
+                        fuga? Expedita consequatur molestiae error, aliquam ipsum dolores est laboriosam atque velit maiores nemo voluptatum ex
+                        illum
+                        id. Itaque enim in voluptate harum magnam labore, qui ratione eveniet nobis, perferendis voluptatibus quam quia officiis
+                        quasi
+                        impedit et dignissimos iusto eius id cumque delectus, dolor animi expedita error? A, dolore iste? Et accusantium quasi
+                        esse
+                        soluta, totam reiciendis dolores temporibus corporis non unde a nesciunt recusandae veniam beatae necessitatibus. Tenetur,
+                        dignissimos id quae atque esse consectetur laborum nihil deserunt nulla provident, molestias perferendis odio, culpa modi
+                        voluptates quod soluta ratione maiores amet similique aliquid reiciendis ipsam. Atque ea numquam, ipsa nihil repellat
+                        deleniti
+                        hic. Modi illo sapiente ullam laborum, commodi doloremque voluptates ipsum, obcaecati voluptate sequi iusto hic atque amet
+                        impedit rerum? Adipisci nisi quidem repudiandae officia beatae sed facere eveniet? Earum placeat aut quos excepturi
+                        aperiam
+                        velit expedita fugiat modi, perferendis voluptates laudantium deserunt quod iste nemo saepe sit aliquam corrupti
+                        voluptatum
+                        alias repellat minima! Illum, iure? Nisi corrupti necessitatibus, minima, soluta rerum nulla possimus, distinctio
+                        accusantium
+                        reiciendis ipsum quia officiis alias accusamus cumque quidem in beatae tempore aut id tenetur ab omnis. Officiis,
+                        consequatur
+                        qui?
+									</div>
+									<div class="projects__item project">
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, quam eum. Suscipit recusandae accusamus sint,
+                        perspiciatis
+                        laboriosam minus consectetur sapiente, aut eligendi magnam expedita amet eos, voluptate impedit molestiae commodi in sed.
+                        Rem
+                        voluptatibus dolore quis atque assumenda, nihil exercitationem veniam? Tenetur quae sint nam quia culpa natus provident,
+                        voluptatem nesciunt? Itaque tenetur veritatis asperiores officiis tempore neque dicta, minus magni exercitationem, odit
+                        ipsum!
+                        Distinctio minima amet, doloremque dignissimos veritatis earum, itaque aliquid aspernatur odio possimus obcaecati error
+                        fugit
+                        atque sed odit beatae vitae ullam voluptatum sunt! Libero tempore deserunt sit et velit quaerat explicabo aut repellat
+                        iste
+                        facilis eligendi quod deleniti maiores corporis incidunt, repellendus nulla consequuntur numquam voluptas ad nemo id
+                        cumque
+                        fuga? Expedita consequatur molestiae error, aliquam ipsum dolores est laboriosam atque velit maiores nemo voluptatum ex
+                        illum
+                        id. Itaque enim in voluptate harum magnam labore, qui ratione eveniet nobis, perferendis voluptatibus quam quia officiis
+                        quasi
+                        impedit et dignissimos iusto eius id cumque delectus, dolor animi expedita error? A, dolore iste? Et accusantium quasi
+                        esse
+                        soluta, totam reiciendis dolores temporibus corporis non unde a nesciunt recusandae veniam beatae necessitatibus. Tenetur,
+                        dignissimos id quae atque esse consectetur laborum nihil deserunt nulla provident, molestias perferendis odio, culpa modi
+                        voluptates quod soluta ratione maiores amet similique aliquid reiciendis ipsam. Atque ea numquam, ipsa nihil repellat
+                        deleniti
+                        hic. Modi illo sapiente ullam laborum, commodi doloremque voluptates ipsum, obcaecati voluptate sequi iusto hic atque amet
+                        impedit rerum? Adipisci nisi quidem repudiandae officia beatae sed facere eveniet? Earum placeat aut quos excepturi
+                        aperiam
+                        velit expedita fugiat modi, perferendis voluptates laudantium deserunt quod iste nemo saepe sit aliquam corrupti
+                        voluptatum
+                        alias repellat minima! Illum, iure? Nisi corrupti necessitatibus, minima, soluta rerum nulla possimus, distinctio
+                        accusantium
+                        reiciendis ipsum quia officiis alias accusamus cumque quidem in beatae tempore aut id tenetur ab omnis. Officiis,
+                        consequatur
+                        qui?
+									</div>
+									<div class="projects__item project">
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, quam eum. Suscipit recusandae accusamus sint,
+                        perspiciatis
+                        laboriosam minus consectetur sapiente, aut eligendi magnam expedita amet eos, voluptate impedit molestiae commodi in sed.
+                        Rem
+                        voluptatibus dolore quis atque assumenda, nihil exercitationem veniam? Tenetur quae sint nam quia culpa natus provident,
+                        voluptatem nesciunt? Itaque tenetur veritatis asperiores officiis tempore neque dicta, minus magni exercitationem, odit
+                        ipsum!
+                        Distinctio minima amet, doloremque dignissimos veritatis earum, itaque aliquid aspernatur odio possimus obcaecati error
+                        fugit
+                        atque sed odit beatae vitae ullam voluptatum sunt! Libero tempore deserunt sit et velit quaerat explicabo aut repellat
+                        iste
+                        facilis eligendi quod deleniti maiores corporis incidunt, repellendus nulla consequuntur numquam voluptas ad nemo id
+                        cumque
+                        fuga? Expedita consequatur molestiae error, aliquam ipsum dolores est laboriosam atque velit maiores nemo voluptatum ex
+                        illum
+                        id. Itaque enim in voluptate harum magnam labore, qui ratione eveniet nobis, perferendis voluptatibus quam quia officiis
+                        quasi
+                        impedit et dignissimos iusto eius id cumque delectus, dolor animi expedita error? A, dolore iste? Et accusantium quasi
+                        esse
+                        soluta, totam reiciendis dolores temporibus corporis non unde a nesciunt recusandae veniam beatae necessitatibus. Tenetur,
+                        dignissimos id quae atque esse consectetur laborum nihil deserunt nulla provident, molestias perferendis odio, culpa modi
+                        voluptates quod soluta ratione maiores amet similique aliquid reiciendis ipsam. Atque ea numquam, ipsa nihil repellat
+                        deleniti
+                        hic. Modi illo sapiente ullam laborum, commodi doloremque voluptates ipsum, obcaecati voluptate sequi iusto hic atque amet
+                        impedit rerum? Adipisci nisi quidem repudiandae officia beatae sed facere eveniet? Earum placeat aut quos excepturi
+                        aperiam
+                        velit expedita fugiat modi, perferendis voluptates laudantium deserunt quod iste nemo saepe sit aliquam corrupti
+                        voluptatum
+                        alias repellat minima! Illum, iure? Nisi corrupti necessitatibus, minima, soluta rerum nulla possimus, distinctio
+                        accusantium
+                        reiciendis ipsum quia officiis alias accusamus cumque quidem in beatae tempore aut id tenetur ab omnis. Officiis,
+                        consequatur
+                        qui?
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!--
+<section class="page__contact contact">
+<div class="contact__container">
+<div class="contact__bg">
+<img src="@img/projects/table.jpg" alt="table background">
+</div>
+<div class="contact__body">
+<div class="contact__form form-contact">
+<form data-fls-form="ajax" data-fls-form-popup="popup" method="POST" action="php/sendmail/index.php" class="form-contact__body">
+<div class="form-contact__line">
+<label class="form-contact__label" for="name">Name</label>
+<input data-fls-input data-fls-form-errtext="Name required" required type="text" name="name" placeholder="Name"
+class="form-contact__input">
+</div>
+<div class="form-contact__line">
+<label class="form-contact__label" for="email">Email</label>
+<input data-fls-input data-fls-form-errtext="Email error" required type="email" name="email" placeholder="Email"
+class="form-contact__input">
+</div>
+<div class="form-contact__line">
+<label class="form-contact__label" for="message">Message</label>
+<textarea data-fls-input autocomplete="off" name="message" placeholder="Message" class="form-contact__input"></textarea>
+</div>
+<button type="submit" class="form-contact__button button button--inverted">send</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+-->
+				</div>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container"></div>
+			</footer>
+		</div>
+	</body>
+</html>
