@@ -7,42 +7,79 @@
 		<link rel="preload" href="./assets/fonts/DarnassianRunes.woff2" as="font" type="font/woff2" defer>
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Home Page</title>
-		<script defer src="./js/app.min.js?v=1771971569588"></script>
-		<link rel="stylesheet" defer href="./css/app.min.css?v=1771971569588">
+		<script defer src="./js/app.min.js?v=1773046444815"></script>
+		<link rel="stylesheet" defer href="./css/app.min.css?v=1773046444815">
 	</head>
 	<body>
 		<div class="wrapper">
 			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<figure class="header__background">
+					<img class="header__background-image" alt="wood bg" src="./assets/img/wood-01.webp">
+				</figure>
 				<div class="header__container">
-					<div class="header__menu menu">
-						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
-							<span></span>
-						</button>
-						<nav class="menu__body">
-							<ul class="menu__list">
-								<li class="menu__item">
-									<a href="#" class="menu__link menu__link--active">Home</a>
-								</li>
-								<li class="menu__item">
-									<a href="#" class="menu__link">About</a>
-								</li>
-								<li class="menu__item">
-									<a href="#" class="menu__link">Blog</a>
-								</li>
-								<li class="menu__item">
-									<a href="#" class="menu__link">Contacts</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-					<!--
+					<figure class="header__decor">
+						<img class="header__decor-image header__decor-image--big" alt="ornament" src="./assets/img/header-decor.webp">
+						<img class="header__decor-image header__decor-image--small" alt="ornament" src="./assets/img/header-decor-small.webp">
+					</figure>
+					<div class="header__body">
+						<div class="header__logo">
+							<img class="header__logo-image" src="assets/img/logo/logo-wide-white.png" alt="logo">
+						</div>
+						<!-- <include src="@components/layout/menu/menu.html" locals='{"active":"Home"}'></include> -->
+						<div class="header__menu menu">
+							<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+								<span></span>
+							</button>
+							<nav class="menu__body">
+								<div class="menu__block">
+									<ul class="menu__list">
+										<li class="menu__item">
+											<a href="#" class="menu__link" data-fls-scrollto=".about">
+												<span class="menu__link-decor">a</span>
+												About
+												<span class="menu__link-decor">w</span>
+											</a>
+										</li>
+										<li class="menu__item">
+											<a href="#" class="menu__link" data-fls-scrollto=".projects">
+												<span class="menu__link-decor">d</span>
+												Projects
+												<span class="menu__link-decor">b</span>
+											</a>
+										</li>
+										<li class="menu__item">
+											<a href="#" class="menu__link" data-fls-scrollto=".pricing">
+												<span class="menu__link-decor">n</span>
+												Pricing
+												<span class="menu__link-decor">j</span>
+											</a>
+										</li>
+										<li class="menu__item">
+											<a href="#" class="menu__link" data-fls-scrollto=".contact">
+												<span class="menu__link-decor">o</span>
+												Contact
+												<span class="menu__link-decor">i</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+						<!--
 <fetch url="@components/layout/menu/menu.json">
 <each loop='item in response'>
 </each>
 </fetch>
 -->
-					<div data-fls-darklite-set="" data-fls-dynamic=".menu__body, 991.98, 1" class="header__theme-switcher">
-						<div class="moon"></div>
+						<div class="header__settings" data-fls-dynamic=".header__body, 991.98, 0">
+							<div class="header__language-dropdown dropdown">
+								<button id="dropdown-btn" type="button"></button>
+								<ul class="dropdown-content" id="dropdown-content"></ul>
+							</div>
+							<div data-fls-darklite-set="" data-fls-dynamic=".menu__block, 991.98, 1" class="header__theme-switcher">
+								<div class="moon"></div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</header>
@@ -152,8 +189,8 @@
 						</div>
 					</section>
 					<section class="page__about about">
-						<div class="about__image">
-							<img data-fls-mouse="" data-fls-mouse-dxr="" data-fls-mouse-dyr="" data-fls-mouse-cx="1500" data-fls-mouse-cy="1500" alt="bushes" src="./assets/img/hero/dark/bushes.webp">
+						<div class="about__top-decor">
+							<img class="about__top-decor-image" data-fls-mouse="" data-fls-mouse-dxr="" data-fls-mouse-dyr="" data-fls-mouse-cx="1500" data-fls-mouse-cy="1500" alt="bushes" src="./assets/img/hero/dark/bushes.webp">
 						</div>
 						<div class="about__body">
 							<div class="about__container">
@@ -220,6 +257,7 @@
 												<a class="project__body" target="_blank" href="https://lestatstormrage.github.io/projects/arik/">
 													<figure class="project__picture">
 														<img class="project__image" alt="project arik" src="./assets/img/projects/projects/arik.webp">
+														<video class="project__preview" src="./assets/img/projects/projects/arik.webm" muted loop playsinline="" preload="metadata"></video>
 													</figure>
 													<div class="project__name">Arik</div>
 												</a>
@@ -227,7 +265,7 @@
 											<div class="projects-list-full__item project">
 												<a class="project__body" target="_blank" href="https://totem-superfood.com/">
 													<figure class="project__picture">
-														<img class="project__image" alt="project Totem sSuperfood" src="./assets/img/projects/projects/totem-superfood.webp">
+														<img class="project__image" alt="project Totem Superfood" src="./assets/img/projects/projects/totem-superfood.webp">
 													</figure>
 													<div class="project__name">Totem Superfood</div>
 												</a>
@@ -235,41 +273,46 @@
 											<div class="projects-list-full__item project">
 												<a class="project__body" target="_blank" href="">
 													<figure class="project__picture">
-														<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+														<img class="project__image" alt="project Merlins" src="./assets/img/projects/projects/merlins.webp">
+														<video class="project__preview" src="./assets/img/projects/projects/merlins.webm" muted loop playsinline="" preload="metadata"></video>
 													</figure>
-													<div class="project__name">project lorem</div>
+													<div class="project__name">Merlins</div>
 												</a>
 											</div>
 											<div class="projects-list-full__item project">
 												<a class="project__body" target="_blank" href="">
 													<figure class="project__picture">
-														<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+														<img class="project__image" alt="project Coffee" src="./assets/img/projects/projects/coffee.webp">
+														<video class="project__preview" src="./assets/img/projects/projects/coffee.webm" muted loop playsinline="" preload="metadata"></video>
 													</figure>
-													<div class="project__name">project lorem</div>
+													<div class="project__name">Coffee</div>
 												</a>
 											</div>
 											<div class="projects-list-full__item project">
 												<a class="project__body" target="_blank" href="">
 													<figure class="project__picture">
-														<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+														<img class="project__image" alt="project Totem Pass" src="./assets/img/projects/projects/totem-pass.webp">
+														<video class="project__preview" src="./assets/img/projects/projects/totem-pass.webm" muted loop playsinline="" preload="metadata"></video>
 													</figure>
-													<div class="project__name">project lorem</div>
+													<div class="project__name">Totem Pass</div>
+												</a>
+											</div>
+											<div class="projects-list-full__item project">
+												<a class="project__body" target="_blank" href="https://fyk-kombucha.com/">
+													<figure class="project__picture">
+														<img class="project__image" alt="project Forever Young Kombucha" src="./assets/img/projects/projects/forever-young-kombucha.webp">
+														<video class="project__preview" src="./assets/img/projects/projects/forever-young-kombucha.webm" muted loop playsinline="" preload="metadata"></video>
+													</figure>
+													<div class="project__name">Forever Young Kombucha</div>
 												</a>
 											</div>
 											<div class="projects-list-full__item project">
 												<a class="project__body" target="_blank" href="">
 													<figure class="project__picture">
-														<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+														<!-- <video class="project__image" src="@img/projects/projects/forever-young-kombucha.webm"></video> -->
+														<img class="project__image" alt="project Totem Biz" src="./assets/img/projects/projects/totem-biz.webp">
 													</figure>
-													<div class="project__name">project lorem</div>
-												</a>
-											</div>
-											<div class="projects-list-full__item project">
-												<a class="project__body" target="_blank" href="">
-													<figure class="project__picture">
-														<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
-													</figure>
-													<div class="project__name">project lorem</div>
+													<div class="project__name">Totem Biz</div>
 												</a>
 											</div>
 											<div class="projects-list-full__item project">
@@ -344,37 +387,78 @@
 							</div>
 						</div>
 					</section>
+					<section class="page__pricing pricing">
+						<div class="pricing__body">
+							<div class="pricing__container">
+								<div class="pricing__text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repudiandae provident aliquid est corrupti accusamus? Vero
+                    ex, sint iste non laudantium repellendus voluptatum voluptates sed ipsam. Reiciendis, officiis doloribus similique molestias
+                    exercitationem tempora nihil cum perferendis tenetur ex ut at repellat provident adipisci doloremque itaque harum nam maiores
+                    tempore? Voluptatibus cupiditate harum asperiores minus assumenda illum ab deserunt impedit, veniam officiis magni obcaecati animi
+                    voluptas possimus vero vel! Modi labore voluptatem nisi explicabo a autem totam. Aspernatur deleniti nemo accusamus, illo, nam
+                    molestias recusandae assumenda, natus repellat quibusdam eum? Quidem facilis officia cumque adipisci rem tempora ullam vero sint
+                    assumenda, nobis ipsum omnis tempore. Iste ea excepturi sequi doloribus qui at quos porro impedit vero hic cupiditate veniam
+                    eligendi laudantium fuga facere ab, nesciunt officiis blanditiis suscipit sit aliquid pariatur consequuntur. Ullam dolorum laborum
+                    aliquam error culpa molestiae, rem quis accusantium consequatur corporis eum eos earum doloribus nemo aperiam alias minima iure.
+                    Non dolorem velit reiciendis aut quis veniam sequi atque quae mollitia molestiae accusamus eius necessitatibus accusantium
+                    tempore, sapiente quam nulla dolor laborum minima quidem maiores tenetur itaque et? Animi eveniet laborum, eaque ut debitis
+                    repellat numquam, temporibus nam illum autem minus quod commodi eos earum labore voluptates sapiente sequi ratione voluptas quam,
+                    minima nostrum repudiandae? Possimus neque illum minus, omnis accusantium reprehenderit. Vero non aspernatur voluptate odit,
+                    consequuntur sequi ex hic explicabo repudiandae voluptatem alias doloribus ducimus reiciendis cumque iste molestias! Eveniet
+                    dolores quam provident eaque! Deserunt eum minus consequatur rerum obcaecati quia optio corporis, dolore nesciunt temporibus rem
+                    mollitia molestiae repellendus, qui assumenda vel nisi ex aut amet impedit odio. Tenetur voluptatibus error numquam quibusdam
+                    veniam sequi deleniti inventore? Laborum numquam, architecto et totam exercitationem distinctio ut est deserunt provident deleniti
+                    iure aliquid laboriosam, doloribus iste expedita, accusantium a perferendis in! Consectetur adipisci eligendi dicta doloremque! Ut
+                    veniam ab quisquam totam incidunt doloremque, soluta atque! Voluptates alias fugit placeat enim eos numquam dolore excepturi
+                    provident ab autem ex necessitatibus culpa recusandae consequuntur similique maxime ipsum deserunt quas, nobis sed quis omnis
+                    quos. Natus iste maxime, repudiandae excepturi repellendus officiis dolorem eaque maiores assumenda odit rem asperiores
+                    necessitatibus quos hic. Perspiciatis deleniti facilis temporibus vel corrupti tenetur, quas ut maxime magni incidunt possimus
+                    architecto sequi natus, fugiat recusandae excepturi nisi aliquam velit rerum! Iste consequuntur impedit magnam quidem, aperiam
+                    nobis odit enim mollitia. Obcaecati esse incidunt nulla cum, voluptatum maiores magnam rerum blanditiis. Ex veritatis odio
+                    sapiente voluptates. Molestias ullam placeat quae voluptatibus. Doloremque cum aliquid eum! Laborum provident modi voluptatem
+                    fugiat. Consequatur molestiae vel eaque provident iste veritatis voluptate adipisci et dolor nam tempora similique eum placeat
+                    cupiditate eveniet temporibus fuga, veniam perferendis corrupti ea, architecto quam ducimus dolorem magnam.
+								</div>
+							</div>
+						</div>
+					</section>
 					<section class="page__contact contact">
 						<div class="contact__container">
 							<div class="contact__bg">
-								<img alt="table background" src="./assets/img/projects/table.webp">
+								<img class="contact__bg-image" alt="table background" src="./assets/img/projects/table.webp">
 							</div>
-							<div class="contact__body">
-								<div class="contact__form form-contact">
-									<h2 class="contact__title">Let's talk!</h2>
-									<form data-fls-form="ajax" data-fls-form-popup="popup" method="POST" action="php/sendmail/index.php" class="form-contact__body">
-										<div class="form-contact__column">
-											<div class="form-contact__line">
-												<label class="form-contact__label" for="name">Name</label>
-												<input id="name" data-fls-input="" data-fls-form-errtext="Name required" required type="text" name="name" placeholder="Name" class="input form-contact__input">
+							<div class="contact__content">
+								<div class="contact__body">
+									<div class="contact__form form-contact">
+										<h2 data-fls-dynamic=".contact__container, 768, 0" class="contact__title">Let's talk!</h2>
+										<form data-fls-form="ajax" data-fls-form-popup="popup" method="POST" action="php/sendmail/index.php" class="form-contact__body">
+											<div class="form-contact__column">
+												<div class="form-contact__line">
+													<label class="form-contact__label" for="name">Name</label>
+													<input id="name" data-fls-input="" data-fls-form-errtext="Name required" required type="text" name="name" placeholder="Name" class="input form-contact__input">
+												</div>
+												<div class="form-contact__line">
+													<label class="form-contact__label" for="email">Email</label>
+													<input id="email" data-fls-input="" data-fls-form-errtext="Email error" required type="email" name="email" placeholder="Email" class="input form-contact__input">
+												</div>
 											</div>
-											<div class="form-contact__line">
-												<label class="form-contact__label" for="email">Email</label>
-												<input id="email" data-fls-input="" data-fls-form-errtext="Email error" required type="email" name="email" placeholder="Email" class="input form-contact__input">
+											<div class="form-contact__column">
+												<div class="form-contact__line form-contact__line--textarea">
+													<label class="form-contact__label" for="message">Message</label>
+													<textarea id="message" data-fls-input="" autocomplete="off" name="message" placeholder="Message" class="input form-contact__input"></textarea>
+												</div>
+												<button data-fls-button="" type="submit" class="form-contact__button button">
+													<span class="button__decor">w</span>
+													send
+													<span class="button__decor">a</span>
+												</button>
 											</div>
-										</div>
-										<div class="form-contact__column">
-											<div class="form-contact__line form-contact__line--textarea">
-												<label class="form-contact__label" for="message">Message</label>
-												<textarea id="message" data-fls-input="" autocomplete="off" name="message" placeholder="Message" class="input form-contact__input"></textarea>
-											</div>
-											<button data-fls-button="" type="submit" class="form-contact__button button">
-												<span class="button__decor">w</span>
-												send
-												<span class="button__decor">a</span>
-											</button>
-										</div>
-									</form>
+										</form>
+									</div>
+								</div>
+								<div class="contact__decor">
+									<img class="contact__decor-image contact__decor-image--feather" alt="feather" src="./assets/img/contact/feather.webp">
+									<img class="contact__decor-image contact__decor-image--ink" alt="ink bottle" src="./assets/img/contact/ink-bottle.webp">
 								</div>
 							</div>
 						</div>
