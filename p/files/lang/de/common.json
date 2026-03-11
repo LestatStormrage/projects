@@ -1,0 +1,10 @@
+{
+    "menu": {
+        "link": {
+            "about": "Über mich",
+            "projects": "Projekte",
+            "pricing": "Preise",
+            "contact": "Kontakt"
+        }
+    }
+}

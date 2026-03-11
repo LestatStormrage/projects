@@ -7,14 +7,14 @@
 		<link rel="preload" href="./assets/fonts/DarnassianRunes.woff2" as="font" type="font/woff2" defer>
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Home Page</title>
-		<script defer src="./js/app.min.js?v=1773046444815"></script>
-		<link rel="stylesheet" defer href="./css/app.min.css?v=1773046444815">
+		<script defer src="./js/app.min.js?v=1773215243615"></script>
+		<link rel="stylesheet" defer href="./css/app.min.css?v=1773215243615">
 	</head>
 	<body>
 		<div class="wrapper">
 			<header data-fls-header="" data-fls-header-scroll="" class="header">
 				<figure class="header__background">
-					<img class="header__background-image" alt="wood bg" src="./assets/img/wood-01.webp">
+					<img class="header__background-image" alt="wood bg" src="./assets/img/textures/wood-01.webp">
 				</figure>
 				<div class="header__container">
 					<figure class="header__decor">
@@ -23,7 +23,8 @@
 					</figure>
 					<div class="header__body">
 						<div class="header__logo">
-							<img class="header__logo-image" src="assets/img/logo/logo-wide-white.png" alt="logo">
+							<!-- <img class="header__logo-image" src="@img/logo/logo-wide-white.png" alt="logo"> -->
+							<img class="header__logo-image" alt="logo" src="./assets/img/placeholder.webp">
 						</div>
 						<!-- <include src="@components/layout/menu/menu.html" locals='{"active":"Home"}'></include> -->
 						<div class="header__menu menu">
@@ -36,28 +37,28 @@
 										<li class="menu__item">
 											<a href="#" class="menu__link" data-fls-scrollto=".about">
 												<span class="menu__link-decor">a</span>
-												About
+												<span data-i18n="menu.link.about">About</span>
 												<span class="menu__link-decor">w</span>
 											</a>
 										</li>
 										<li class="menu__item">
 											<a href="#" class="menu__link" data-fls-scrollto=".projects">
 												<span class="menu__link-decor">d</span>
-												Projects
+												<span data-i18n="menu.link.projects">Projects</span>
 												<span class="menu__link-decor">b</span>
 											</a>
 										</li>
 										<li class="menu__item">
 											<a href="#" class="menu__link" data-fls-scrollto=".pricing">
 												<span class="menu__link-decor">n</span>
-												Pricing
+												<span data-i18n="menu.link.pricing">Pricing</span>
 												<span class="menu__link-decor">j</span>
 											</a>
 										</li>
 										<li class="menu__item">
 											<a href="#" class="menu__link" data-fls-scrollto=".contact">
 												<span class="menu__link-decor">o</span>
-												Contact
+												<span data-i18n="menu.link.contact">Contact</span>
 												<span class="menu__link-decor">i</span>
 											</a>
 										</li>
@@ -73,8 +74,10 @@
 -->
 						<div class="header__settings" data-fls-dynamic=".header__body, 991.98, 0">
 							<div class="header__language-dropdown dropdown">
-								<button id="dropdown-btn" type="button"></button>
-								<ul class="dropdown-content" id="dropdown-content"></ul>
+								<div class="dropdown__button-wrapper">
+									<button class="dropdown__button" id="dropdown-btn" type="button"></button>
+								</div>
+								<ul class="dropdown__content" id="dropdown-content"></ul>
 							</div>
 							<div data-fls-darklite-set="" data-fls-dynamic=".menu__block, 991.98, 1" class="header__theme-switcher">
 								<div class="moon"></div>
@@ -150,7 +153,10 @@
 							<div data-hero-parallax="" data-hero-parallax-speed="-7" class="fireflies firefly--3"></div>
 						</div>
 						<div class="hero__title-box hero__layer hero__layer--8">
-							<h1 data-hero-parallax="" data-hero-parallax-speed="-20" class="hero__title">Loremipsumdolor</h1>
+							<h1 data-hero-parallax="" data-hero-parallax-speed="-20" class="hero__title">
+								123456
+								<span class="hero__title-secondary">web</span>
+							</h1>
 						</div>
 					</section>
 					<section class="page__hero hero hero--mobile">
@@ -185,7 +191,10 @@
 							<div data-hero-parallax="" data-hero-parallax-speed="-7" class="fireflies firefly--3"></div>
 						</div>
 						<div class="hero__title-box hero__layer hero__layer--8">
-							<h1 data-hero-parallax="" data-hero-parallax-speed="-20" class="hero__title">Loremipsumdolor</h1>
+							<h1 data-hero-parallax="" data-hero-parallax-speed="-20" class="hero__title">
+								123456
+								<span class="hero__title-secondary">web</span>
+							</h1>
 						</div>
 					</section>
 					<section class="page__about about">
@@ -318,7 +327,7 @@
 											<div class="projects-list-full__item project">
 												<a class="project__body" target="_blank" href="">
 													<figure class="project__picture">
-														<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+														<img class="project__image" alt="Image" src="./assets/img/placeholder.webp">
 													</figure>
 													<div class="project__name">project lorem</div>
 												</a>
@@ -334,7 +343,7 @@
 														<div class="projects-list-compact__slide swiper-slide project">
 															<a class="project__body" href="">
 																<figure class="project__picture">
-																	<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+																	<img class="project__image" alt="Image" src="./assets/img/placeholder.webp">
 																</figure>
 																<div class="project__name">project lorem</div>
 															</a>
@@ -342,7 +351,7 @@
 														<div class="projects-list-compact__slide swiper-slide project">
 															<a class="project__body" href="">
 																<figure class="project__picture">
-																	<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+																	<img class="project__image" alt="Image" src="./assets/img/placeholder.webp">
 																</figure>
 																<div class="project__name">project lorem</div>
 															</a>
@@ -350,7 +359,7 @@
 														<div class="projects-list-compact__slide swiper-slide project">
 															<a class="project__body" href="">
 																<figure class="project__picture">
-																	<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+																	<img class="project__image" alt="Image" src="./assets/img/placeholder.webp">
 																</figure>
 																<div class="project__name">project lorem</div>
 															</a>
@@ -358,7 +367,7 @@
 														<div class="projects-list-compact__slide swiper-slide project">
 															<a class="project__body" href="">
 																<figure class="project__picture">
-																	<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+																	<img class="project__image" alt="Image" src="./assets/img/placeholder.webp">
 																</figure>
 																<div class="project__name">project ipsum</div>
 															</a>
@@ -366,7 +375,7 @@
 														<div class="projects-list-compact__slide swiper-slide project">
 															<a class="project__body" href="">
 																<figure class="project__picture">
-																	<img class="project__image" alt="Image" src="./assets/img/projects/projects/placeholder.webp">
+																	<img class="project__image" alt="Image" src="./assets/img/placeholder.webp">
 																</figure>
 																<div class="project__name">project dolor</div>
 															</a>

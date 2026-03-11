@@ -5352,7 +5352,7 @@ function initSliders() {
       // spaceBetween: 0,
       //autoHeight: true,
       speed: 800,
-      slidesPerView: 1,
+      slidesPerView: 1.5,
       parallax: true,
       loop: false,
       keyboard: {
@@ -5418,7 +5418,7 @@ function initSliders() {
       // Брейкпоінти
       breakpoints: {
         640: {
-          slidesPerView: 2
+          // slidesPerView: 2,
           // spaceBetween: 0,
           // autoHeight: true,
         }
