@@ -1371,7 +1371,7 @@ html[data-fls-darklite-dark] .contact__body {
   box-shadow: 0rem -0.375rem rgb(27, 0, 0);
 }
 .--header-scroll .dropdown__content li:active {
-  filter: brightness(1.7);
+  filter: brightness(1.7) !important;
 }
 .dropdown__content li img {
   inline-size: 1.75rem;
