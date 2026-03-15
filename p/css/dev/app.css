@@ -84,7 +84,7 @@ html {
   --bgColor: #000;
   --bgColor-transparent: rgba(0, 0, 0, 0.98);
   --secondaryColor: #000;
-  --titleFontFamily: Cinzel Decorative, serif;
+  --titleFontFamily: Cinzel, serif;
   --secondaryFontFamily: Morpheus, serif;
   --runesFontFamily: DarnassianRunes;
 }
@@ -193,7 +193,7 @@ input:-webkit-autofill:focus {
   --bgColor: #000;
   --bgColor-transparent: rgba(0, 0, 0, 0.98);
   --secondaryColor: #000;
-  --titleFontFamily: Cinzel Decorative, serif;
+  --titleFontFamily: Cinzel, serif;
   --secondaryFontFamily: Morpheus, serif;
   --runesFontFamily: DarnassianRunes;
 }
@@ -1065,6 +1065,9 @@ html[data-fls-darklite-dark] .projects__scrolls-image {
 }
 .contact__container {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .contact__bg {
   position: absolute;
@@ -1101,6 +1104,9 @@ html[data-fls-darklite-dark] .projects__scrolls-image {
 }
 .contact__title {
   text-align: center;
+}
+.contact__title-box-mobile {
+  display: none;
 }
 .contact__body {
   margin: 0 auto;
@@ -1164,7 +1170,7 @@ html[data-fls-darklite-dark] .contact__body {
   --bgColor: #000;
   --bgColor-transparent: rgba(0, 0, 0, 0.98);
   --secondaryColor: #000;
-  --titleFontFamily: Cinzel Decorative, serif;
+  --titleFontFamily: Cinzel, serif;
   --secondaryFontFamily: Morpheus, serif;
   --runesFontFamily: DarnassianRunes;
 }
@@ -1263,7 +1269,7 @@ html[data-fls-darklite-dark] .contact__body {
   --bgColor: #000;
   --bgColor-transparent: rgba(0, 0, 0, 0.98);
   --secondaryColor: #000;
-  --titleFontFamily: Cinzel Decorative, serif;
+  --titleFontFamily: Cinzel, serif;
   --secondaryFontFamily: Morpheus, serif;
   --runesFontFamily: DarnassianRunes;
 }
@@ -1338,7 +1344,7 @@ html[data-fls-darklite-dark] .contact__body {
   --bgColor: #000;
   --bgColor-transparent: rgba(0, 0, 0, 0.98);
   --secondaryColor: #000;
-  --titleFontFamily: Cinzel Decorative, serif;
+  --titleFontFamily: Cinzel, serif;
   --secondaryFontFamily: Morpheus, serif;
   --runesFontFamily: DarnassianRunes;
 }
@@ -1730,7 +1736,7 @@ html[data-fls-darklite-dark] .contact__body {
   --bgColor: #000;
   --bgColor-transparent: rgba(0, 0, 0, 0.98);
   --secondaryColor: #000;
-  --titleFontFamily: Cinzel Decorative, serif;
+  --titleFontFamily: Cinzel, serif;
   --secondaryFontFamily: Morpheus, serif;
   --runesFontFamily: DarnassianRunes;
 }
@@ -1758,7 +1764,7 @@ html[data-fls-darklite-dark] .contact__body {
   --bgColor: #000;
   --bgColor-transparent: rgba(0, 0, 0, 0.98);
   --secondaryColor: #000;
-  --titleFontFamily: Cinzel Decorative, serif;
+  --titleFontFamily: Cinzel, serif;
   --secondaryFontFamily: Morpheus, serif;
   --runesFontFamily: DarnassianRunes;
 }
@@ -1771,7 +1777,7 @@ html[data-fls-darklite-dark] .contact__body {
   --bgColor: #000;
   --bgColor-transparent: rgba(0, 0, 0, 0.98);
   --secondaryColor: #000;
-  --titleFontFamily: Cinzel Decorative, serif;
+  --titleFontFamily: Cinzel, serif;
   --secondaryFontFamily: Morpheus, serif;
   --runesFontFamily: DarnassianRunes;
 }
@@ -1829,7 +1835,7 @@ textarea.input {
   --bgColor: #000;
   --bgColor-transparent: rgba(0, 0, 0, 0.98);
   --secondaryColor: #000;
-  --titleFontFamily: Cinzel Decorative, serif;
+  --titleFontFamily: Cinzel, serif;
   --secondaryFontFamily: Morpheus, serif;
   --runesFontFamily: DarnassianRunes;
 }
@@ -1842,7 +1848,7 @@ textarea.input {
   --bgColor: #000;
   --bgColor-transparent: rgba(0, 0, 0, 0.98);
   --secondaryColor: #000;
-  --titleFontFamily: Cinzel Decorative, serif;
+  --titleFontFamily: Cinzel, serif;
   --secondaryFontFamily: Morpheus, serif;
   --runesFontFamily: DarnassianRunes;
 }
@@ -1872,7 +1878,7 @@ textarea.input {
   --bgColor: #000;
   --bgColor-transparent: rgba(0, 0, 0, 0.98);
   --secondaryColor: #000;
-  --titleFontFamily: Cinzel Decorative, serif;
+  --titleFontFamily: Cinzel, serif;
   --secondaryFontFamily: Morpheus, serif;
   --runesFontFamily: DarnassianRunes;
 }
@@ -1885,7 +1891,7 @@ textarea.input {
   --bgColor: #000;
   --bgColor-transparent: rgba(0, 0, 0, 0.98);
   --secondaryColor: #000;
-  --titleFontFamily: Cinzel Decorative, serif;
+  --titleFontFamily: Cinzel, serif;
   --secondaryFontFamily: Morpheus, serif;
   --runesFontFamily: DarnassianRunes;
 }
@@ -1905,7 +1911,7 @@ html[data-fls-darklite-dark] {
   --bgColor: #000;
   --bgColor-transparent: rgba(0, 0, 0, 0.98);
   --secondaryColor: #000;
-  --titleFontFamily: Cinzel Decorative, serif;
+  --titleFontFamily: Cinzel, serif;
   --secondaryFontFamily: Morpheus, serif;
   --runesFontFamily: DarnassianRunes;
 }
@@ -1947,6 +1953,7 @@ html[data-fls-darklite-dark] {
   .projects__body {
     padding-top: 3.125rem;
     padding-bottom: 6.25rem;
+    max-width: 90%;
   }
   .projects__inner {
     display: grid;
@@ -2126,6 +2133,12 @@ html[data-fls-darklite-dark] {
   .contact__decor {
     display: none;
   }
+  .contact__title {
+    display: none;
+  }
+  .contact__title-box-mobile {
+    display: inline-flex;
+  }
   .contact__body {
     transform: translate(-10%, 0);
     width: 250%;
@@ -2273,6 +2286,9 @@ html[data-fls-darklite-dark] {
   }
   .contact__title {
     font-size: 2rem;
+  }
+  .contact__title-mobile {
+    font-size: 1.5rem;
   }
   .form-contact__line textarea {
     height: 6.25rem;
@@ -2459,6 +2475,9 @@ html[data-fls-darklite-dark] {
   }
   .contact__title {
     font-size: clamp( 2rem , 1.8rem  +  1vw , 3rem );
+  }
+  .contact__title-mobile {
+    font-size: clamp( 1.5rem , 1.2rem  +  1.5vw , 3rem );
   }
   .form-contact__line textarea {
     height: clamp( 6.25rem , 3.75rem  +  12.5vw , 18.75rem );
@@ -2733,6 +2752,9 @@ html[data-fls-darklite-dark] {
     margin-bottom: 3.125rem;
   }
   .contact__title {
+    font-size: 3rem;
+  }
+  .contact__title-mobile {
     font-size: 3rem;
   }
   .form-contact__line textarea {
