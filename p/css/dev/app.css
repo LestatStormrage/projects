@@ -852,7 +852,7 @@ html[data-fls-darklite-dark] .projects__scrolls-image {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 3;
+  z-index: 2;
 }
 .pricing::after {
   content: "";
@@ -869,7 +869,7 @@ html[data-fls-darklite-dark] .projects__scrolls-image {
   position: absolute;
   top: 0;
   left: 0;
-  width: 105vw;
+  width: 105%;
   height: 105%;
   pointer-events: none;
 }
@@ -2251,6 +2251,9 @@ html[data-fls-darklite-dark] {
   .pricing {
     padding-bottom: 6.25rem;
   }
+  .pricing__container {
+    padding-top: 6.25rem;
+  }
   .pricing__title-box {
     margin-bottom: 2.5rem;
   }
@@ -2436,6 +2439,9 @@ html[data-fls-darklite-dark] {
   }
   .pricing {
     padding-bottom: clamp( 6.25rem , 3.75rem  +  12.5vw , 18.75rem );
+  }
+  .pricing__container {
+    padding-top: clamp( 6.25rem , 5rem  +  6.25vw , 12.5rem );
   }
   .pricing__title-box {
     margin-bottom: clamp( 2.5rem , 1.75rem  +  3.75vw , 6.25rem );
@@ -2711,6 +2717,9 @@ html[data-fls-darklite-dark] {
   }
   .pricing {
     padding-bottom: 18.75rem;
+  }
+  .pricing__container {
+    padding-top: 12.5rem;
   }
   .pricing__title-box {
     margin-bottom: 6.25rem;
