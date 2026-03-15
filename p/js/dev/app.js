@@ -27,27 +27,6 @@
     fetch(link.href, fetchOpts);
   }
 })();
-(() => {
-  const layers = document.querySelectorAll("[data-hero-parallax]");
-  if (!layers.length) return;
-  let latestScrollY = window.scrollY;
-  let ticking = false;
-  const update2 = () => {
-    layers.forEach((layer) => {
-      const speed = parseFloat(layer.dataset.heroParallaxSpeed) || 0;
-      const translateY = latestScrollY * (speed / 100);
-      layer.style.transform = `translate3d(0, ${translateY}px, 0)`;
-    });
-    ticking = false;
-  };
-  window.addEventListener("scroll", () => {
-    latestScrollY = window.scrollY;
-    if (!ticking) {
-      window.requestAnimationFrame(update2);
-      ticking = true;
-    }
-  });
-})();
 const fireflyGroups = [
   {
     selector: ".firefly--1",
@@ -6004,7 +5983,7 @@ Parallax.Each = class {
           break;
       }
     }
-    this.value += (this.offset - this.value) / this.smooth;
+    this.value = this.offset;
     this.animationID = window.requestAnimationFrame(this.animation);
     this.elements.forEach((el) => {
       const parameters = {
