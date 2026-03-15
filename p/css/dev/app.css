@@ -291,8 +291,8 @@ input:-webkit-autofill:focus {
 }
 .hero__layer--1 {
   z-index: 12;
-  top: 50%;
-  left: -5%;
+  top: 50lvh;
+  left: -5vw;
   width: 110vw;
   height: 100lvh;
 }
@@ -319,18 +319,18 @@ input:-webkit-autofill:focus {
 }
 .hero__layer--5 {
   z-index: 13;
-  top: 20%;
-  right: -5%;
-  width: 35%;
+  top: 20lvh;
+  right: -5vw;
+  width: 35vw;
 }
 .hero__layer--5 {
   aspect-ratio: 1/1;
 }
 .hero__layer--6 {
   z-index: 13;
-  top: 10%;
-  left: -15%;
-  width: 45%;
+  top: 10lvh;
+  left: -15vw;
+  width: 45vw;
 }
 .hero__layer--6 {
   aspect-ratio: 26/15;
@@ -394,8 +394,8 @@ input:-webkit-autofill:focus {
 .hero__fireflies {
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100lvh;
   pointer-events: none;
   overflow: hidden;
 }
@@ -2123,12 +2123,12 @@ html[data-fls-darklite-dark] {
     display: block;
   }
   .hero__layer--5 {
-    top: 30%;
-    width: 45%;
+    top: 30lvh;
+    width: 45vw;
   }
   .hero__layer--6 {
-    top: 20%;
-    width: 60%;
+    top: 20lvh;
+    width: 60vw;
   }
   .contact__decor {
     display: none;
