@@ -1,3 +1,8 @@
 {
-
+    "projects": {
+        "title": "Meine Projekte"
+    },
+    "pricing": {
+        "title": "Preise"
+    }
 }

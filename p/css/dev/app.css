@@ -128,12 +128,16 @@ input:-webkit-autofill:focus {
 }
 .title-box {
   display: inline-flex;
+  padding-block: 1.875rem;
+  padding-inline: 0.9375rem;
   position: relative;
+  background: url("../assets/img/decor/title-bg.webp") 50% 45%/60% 80% no-repeat;
+  filter: drop-shadow(0rem 0rem 0.9375rem #000);
 }
 .title-box::before {
   content: "";
   position: absolute;
-  bottom: 130%;
+  bottom: 95%;
   left: 50%;
   transform: translate(-50%, 0);
 }
@@ -151,6 +155,7 @@ input:-webkit-autofill:focus {
   text-shadow: 0rem 0rem 0.25rem #000;
   display: flex;
   align-items: center;
+  white-space: nowrap;
 }
 .title::before {
   content: "";
@@ -172,6 +177,14 @@ input:-webkit-autofill:focus {
   background: url("../assets/img/decor/title-decor.webp") 0 0/contain no-repeat;
   filter: drop-shadow(0 0 0.125rem #000);
   pointer-events: none;
+}
+.divider {
+  width: 100%;
+}
+.divider {
+  background: #000;
+  position: relative;
+  z-index: 20;
 }html {
   --mainColor: #02010a;
   --mainColor-subtle: rgba(2, 1, 10, 0.6);
@@ -880,6 +893,7 @@ html[data-fls-darklite-dark] .projects__scrolls-image {
   color: #fff;
 }
 .pricing__tiers {
+  width: 95%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -892,7 +906,7 @@ html[data-fls-darklite-dark] .projects__scrolls-image {
   top: -0.3125rem;
   left: 51%;
   transform: translate(-50%, 0rem);
-  width: 105%;
+  width: 110%;
 }
 .tier-pricing::before {
   z-index: 3;
@@ -906,7 +920,7 @@ html[data-fls-darklite-dark] .projects__scrolls-image {
   position: absolute;
   z-index: 1;
   width: 5%;
-  height: 115%;
+  height: 135%;
   top: 0;
   left: 50%;
   transform: translate(-50%, 0);
@@ -1010,6 +1024,9 @@ html[data-fls-darklite-dark] .projects__scrolls-image {
   border-top: 0.0625rem dashed #fff;
   border-left: 0.0625rem dashed #fff;
   border-right: 0.0625rem dashed #fff;
+}
+.tier-pricing__body {
+  text-align: center;
 }
 
 @keyframes flag-sway {
@@ -2133,6 +2150,12 @@ html[data-fls-darklite-dark] {
   }
 }
 
+@media (max-width: 29.99875em){
+  .projects-list-compact__slider {
+    padding-bottom: 0.625rem;
+  }
+}
+
 @media (width <= 20em){
   .title-box::before {
     width: 1.875rem;
@@ -2142,6 +2165,9 @@ html[data-fls-darklite-dark] {
   }
   .title::after {
     margin-left: -6.25rem;
+  }
+  .divider {
+    padding-bottom: 6.25rem;
   }
   .page__projects {
     padding-bottom: 6.25rem;
@@ -2188,6 +2214,9 @@ html[data-fls-darklite-dark] {
   .projects__background::after {
     height: 3.125rem;
   }
+  .projects__title-box {
+    margin-bottom: 1.875rem;
+  }
   .projects__title {
     font-size: 1.5rem;
   }
@@ -2232,6 +2261,9 @@ html[data-fls-darklite-dark] {
   }
   .tier-pricing__body {
     padding-inline: 0.9375rem;
+  }
+  .tier-pricing__body {
+    font-size: 2.25rem;
   }
   .contact__container {
     padding-block: 2.5rem;
@@ -2320,6 +2352,9 @@ html[data-fls-darklite-dark] {
   .title::after {
     margin-left: clamp( -6.25rem , -6.875rem  +  3.125vw , -3.125rem );
   }
+  .divider {
+    padding-bottom: clamp( 6.25rem , 5rem  +  6.25vw , 12.5rem );
+  }
   .page__projects {
     padding-bottom: clamp( 6.25rem , 5rem  +  6.25vw , 12.5rem );
   }
@@ -2365,6 +2400,9 @@ html[data-fls-darklite-dark] {
   .projects__background::after {
     height: clamp( 3.125rem , 2.5rem  +  3.125vw , 6.25rem );
   }
+  .projects__title-box {
+    margin-bottom: clamp( 1.875rem , 1.625rem  +  1.25vw , 3.125rem );
+  }
   .projects__title {
     font-size: clamp( 1.5rem , 1.2rem  +  1.5vw , 3rem );
   }
@@ -2409,6 +2447,9 @@ html[data-fls-darklite-dark] {
   }
   .tier-pricing__body {
     padding-inline: clamp( 0.9375rem , 0.75rem  +  0.9375vw , 1.875rem );
+  }
+  .tier-pricing__body {
+    font-size: clamp( 2.25rem , 2.05rem  +  1vw , 3.25rem );
   }
   .contact__container {
     padding-block: clamp( 2.5rem , 1.75rem  +  3.75vw , 6.25rem );
@@ -2586,6 +2627,9 @@ html[data-fls-darklite-dark] {
   .title::after {
     margin-left: -3.125rem;
   }
+  .divider {
+    padding-bottom: 12.5rem;
+  }
   .page__projects {
     padding-bottom: 12.5rem;
   }
@@ -2631,6 +2675,9 @@ html[data-fls-darklite-dark] {
   .projects__background::after {
     height: 6.25rem;
   }
+  .projects__title-box {
+    margin-bottom: 3.125rem;
+  }
   .projects__title {
     font-size: 3rem;
   }
@@ -2675,6 +2722,9 @@ html[data-fls-darklite-dark] {
   }
   .tier-pricing__body {
     padding-inline: 1.875rem;
+  }
+  .tier-pricing__body {
+    font-size: 3.25rem;
   }
   .contact__container {
     padding-block: 6.25rem;

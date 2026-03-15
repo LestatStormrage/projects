@@ -1,3 +1,8 @@
 {
-
+    "projects": {
+        "title": "Мої проєкти"
+    },
+    "pricing": {
+        "title": "Ціни"
+    }
 }
