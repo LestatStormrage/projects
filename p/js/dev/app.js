@@ -6097,12 +6097,7 @@ function darkliteInit() {
     console.log(timeFrom);
     userTheme = getHours() >= timeFrom && getHours() <= timeTo ? "dark" : "light";
   } else {
-    if (window.matchMedia) {
-      userTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-    }
-    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
-      !saveUserTheme ? changeTheme() : null;
-    });
+    userTheme = "dark";
   }
   const themeButton = document.querySelector("[data-fls-darklite-set]");
   const resetButton = document.querySelector("[data-fls-darklite-reset]");
