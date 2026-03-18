@@ -602,6 +602,9 @@ html[data-fls-darklite-dark] .hero__tree-03--dark {
   scale: 1.35;
   pointer-events: none;
 }
+.projects__floor--mobile {
+  display: none;
+}
 .projects__title-box {
   position: relative;
   z-index: 10;
