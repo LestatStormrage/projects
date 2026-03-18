@@ -885,6 +885,8 @@ html[data-fls-darklite-dark] .projects__scrolls-image {
   left: 0;
   width: 105%;
   height: 105%;
+}
+.pricing__background {
   pointer-events: none;
   display: grid;
 }
@@ -2339,6 +2341,10 @@ html[data-fls-darklite-dark] {
   }
   .projects__floor--mobile {
     display: block;
+  }
+  .pricing__background {
+    width: 100%;
+    height: 100%;
   }
   .pricing__background--desktop {
     display: none;
