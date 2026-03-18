@@ -55,6 +55,33 @@ const fireflyGroups = [
     hueShift: 40,
     colorSpeed: 6e3,
     glow: [2e3, 4e3]
+  },
+  {
+    selector: ".firefly--4",
+    amount: 5,
+    size: [5, 15],
+    speed: [6e3, 12e3],
+    hueShift: 40,
+    colorSpeed: 6e3,
+    glow: [2e3, 4e3]
+  },
+  {
+    selector: ".firefly--5",
+    amount: 10,
+    size: [4, 8],
+    speed: [6e3, 12e3],
+    hueShift: 40,
+    colorSpeed: 6e3,
+    glow: [2e3, 4e3]
+  },
+  {
+    selector: ".firefly--6",
+    amount: 4,
+    size: [4, 8],
+    speed: [25e3, 35e3],
+    hueShift: 40,
+    colorSpeed: 6e3,
+    glow: [2e3, 4e3]
   }
 ];
 fireflyGroups.forEach((group) => {
@@ -5961,7 +5988,7 @@ Parallax.Each = class {
   animationFrame() {
     const topToWindow = this.parent.getBoundingClientRect().top;
     const heightParent = this.parent.offsetHeight;
-    const heightWindow = window.innerHeight;
+    const heightWindow = document.documentElement.clientHeight;
     const positionParent = {
       top: topToWindow - heightWindow,
       bottom: topToWindow + heightParent
@@ -5998,11 +6025,6 @@ Parallax.Each = class {
     });
   }
   parameters(el, parameters) {
-    if (parameters.axis == "v") {
-      el.style.transform = `translate3D(0, ${(parameters.direction * (this.value / parameters.coefficient)).toFixed(2)}px,0) ${parameters.additionalProperties}`;
-    } else if (parameters.axis == "h") {
-      el.style.transform = `translate3D(${(parameters.direction * (this.value / parameters.coefficient)).toFixed(2)}px,0,0) ${parameters.additionalProperties}`;
-    }
     let translateValue = parameters.direction * (this.value / parameters.coefficient);
     if (parameters.min !== null) {
       translateValue = Math.max(parameters.min, translateValue);

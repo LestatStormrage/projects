@@ -5,10 +5,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="preload" href="./assets/fonts/Morpheus.woff2" as="font" type="font/woff2" defer>
 		<link rel="preload" href="./assets/fonts/DarnassianRunes.woff2" as="font" type="font/woff2" defer>
+		<link rel="preload" href="./assets/fonts/Cinzel.woff2" as="font" type="font/woff2" defer>
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Home Page</title>
-		<script defer src="./js/app.min.js?v=1773585503217"></script>
-		<link rel="stylesheet" defer href="./css/app.min.css?v=1773585503217">
+		<script defer src="./js/app.min.js?v=1773872446389"></script>
+		<link rel="stylesheet" defer href="./css/app.min.css?v=1773872446389">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -205,13 +206,14 @@
 					<section data-fls-parallax-parent="" class="page__projects projects">
 						<div class="projects__container">
 							<div class="projects__background">
-								<img data-fls-parallax="" data-fls-parallax-coefficient="-15" class="projects__floor" alt="Image" src="./assets/img/projects/stone-bg.webp">
+								<img data-fls-parallax="" data-fls-parallax-coefficient="-15" class="projects__floor projects__floor--desktop" alt="stone background" src="./assets/img/textures/stone-bg.webp">
+								<img class="projects__floor projects__floor projects__floor--mobile" alt="stone background" src="./assets/img/textures/stone-bg.webp">
 							</div>
 							<div data-fls-parallax="" data-fls-parallax-coefficient="-25" class="projects__body">
 								<figure data-fls-parallax-parent="" class="projects__table">
 									<img class="projects__table-image" alt="Image" src="./assets/img/projects/table.webp">
 									<div data-fls-parallax="" data-fls-parallax-coefficient="-30" class="projects__table-shadow"></div>
-									<figure data-fls-parallax-parent="" class="projects__scrolls">
+									<figure class="projects__scrolls">
 										<img class="projects__scrolls-image" alt="scrolls" src="./assets/img/projects/scrolls.webp">
 									</figure>
 								</figure>
@@ -391,59 +393,140 @@
 					</section>
 					<section data-fls-parallax-parent="" class="page__pricing pricing">
 						<figure data-fls-parallax="" data-fls-parallax-coefficient="-2" class="pricing__background">
-							<img class="pricing__background-image" alt="forest background" src="./assets/img/pricing/forest.webp">
+							<img class="pricing__background-image pricing__background-image--dark" alt="dark forest background" src="./assets/img/pricing/forest-dark.webp">
+							<img class="pricing__background-image pricing__background-image--light" alt="lightforest background" src="./assets/img/pricing/forest-light.webp">
 						</figure>
+						<div class="pricing__fireflies pricing__fireflies--1 firefly--4"></div>
+						<div class="pricing__fireflies pricing__fireflies--2 firefly--5"></div>
+						<div class="pricing__fireflies pricing__fireflies--3 firefly--6"></div>
 						<div class="pricing__body">
 							<div class="pricing__container">
 								<div class="pricing__title-box title-box">
 									<h2 class="pricing__title title" data-i18n="pricing.title">Pricing</h2>
 								</div>
+								<div class="pricing__description description-pricing">
+									<figure class="description-pricing__background">
+										<img class="description-pricing__background-image" alt="fabric background" src="./assets/img/textures/banner-fabric.webp">
+									</figure>
+									<div class="description-pricing__description">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestias
+                        corporis
+                        debitis quis, quam et sint! Laborum a voluptate delectus nulla eveniet quae error aperiam voluptatibus? Quasi quibusdam vel
+                        inventore suscipit nobis repudiandae voluptatibus qui itaque rerum a facere porro ipsum, voluptatum sequi error architecto
+                        facilis voluptate? Molestias unde magnam quo eaque adipisci, eligendi eius veniam rerum nam repellat.
+									</div>
+								</div>
 								<div class="pricing__tiers">
 									<div class="pricing__tier tier-pricing">
 										<div class="tier-pricing__inner">
 											<div class="tier-pricing__body">
-												1
-												<br>
-												1
-												<br>
-												1
-												<br>
-												1
-												<br>
-												1
+												<h5 class="tier-pricing__name">Small Website</h5>
+												<div class="tier-pricing__price">1€</div>
+												<div class="tier-pricing__description">
+													<div class="tier-pricing__description-text">
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ea
+                                        labore inventore culpa at cupiditate impedit et dolore soluta nisi!
+													</div>
+													<div class="tier-pricing__list-title">Includes:</div>
+													<ul class="tier-pricing__list">
+														<li class="tier-pricing__list-item">123</li>
+														<li class="tier-pricing__list-item">234</li>
+														<li class="tier-pricing__list-item">345</li>
+														<li class="tier-pricing__list-item">456</li>
+													</ul>
+												</div>
 											</div>
 										</div>
 									</div>
 									<div class="pricing__tier tier-pricing">
 										<div class="tier-pricing__inner">
 											<div class="tier-pricing__body">
-												2
-												<br>
-												2
-												<br>
-												2
-												<br>
-												2
-												<br>
-												2
+												<div class="tier-pricing__label">most popular</div>
+												<h5 class="tier-pricing__name">Small Website</h5>
+												<div class="tier-pricing__price">2€</div>
+												<div class="tier-pricing__description">
+													<div class="tier-pricing__description-text">
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ea
+                                        labore inventore culpa at cupiditate impedit et dolore soluta nisi!
+													</div>
+													<div class="tier-pricing__list-title">Includes:</div>
+													<ul class="tier-pricing__list">
+														<li class="tier-pricing__list-item">123</li>
+														<li class="tier-pricing__list-item">234</li>
+														<li class="tier-pricing__list-item">345</li>
+														<li class="tier-pricing__list-item">456</li>
+													</ul>
+												</div>
 											</div>
 										</div>
 									</div>
 									<div class="pricing__tier tier-pricing">
 										<div class="tier-pricing__inner">
 											<div class="tier-pricing__body">
-												3
-												<br>
-												3
-												<br>
-												3
-												<br>
-												3
-												<br>
-												3
+												<h5 class="tier-pricing__name">Small Website</h5>
+												<div class="tier-pricing__price">3€</div>
+												<div class="tier-pricing__description">
+													<div class="tier-pricing__description-text">
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ea
+                                        labore inventore culpa at cupiditate impedit et dolore soluta nisi!
+													</div>
+													<div class="tier-pricing__list-title">Includes:</div>
+													<ul class="tier-pricing__list">
+														<li class="tier-pricing__list-item">123</li>
+														<li class="tier-pricing__list-item">234</li>
+														<li class="tier-pricing__list-item">345</li>
+														<li class="tier-pricing__list-item">456</li>
+													</ul>
+												</div>
 											</div>
 										</div>
 									</div>
+								</div>
+								<div class="pricing__modules modules-pricing">
+									<figure class="modules-pricing__background">
+										<img class="modules-pricing__background-image" alt="fabric background" src="./assets/img/textures/banner-fabric.webp">
+									</figure>
+									<h4 class="modules-pricing__title">Additional modules</h4>
+									<div class="modules-pricing__description">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestias corporis
+                        debitis quis, quam et sint! Laborum a voluptate delectus nulla eveniet quae error aperiam voluptatibus? Quasi quibusdam vel
+                        inventore suscipit nobis repudiandae voluptatibus qui itaque rerum a facere porro ipsum, voluptatum sequi error architecto
+                        facilis voluptate? Molestias unde magnam quo eaque adipisci, eligendi eius veniam rerum nam repellat.
+									</div>
+									<ul class="modules-pricing__body">
+										<li class="modules-pricing__module module-pricing">
+											<div class="module-pricing__name">Additional page</div>
+											<div class="module-pricing__price">120€</div>
+										</li>
+										<li class="modules-pricing__module module-pricing">
+											<div class="module-pricing__name">Multilingual support</div>
+											<div class="module-pricing__price">500€</div>
+										</li>
+										<li class="modules-pricing__module module-pricing">
+											<div class="module-pricing__name">Dark / light mode</div>
+											<div class="module-pricing__price">200€</div>
+										</li>
+										<li class="modules-pricing__module module-pricing">
+											<div class="module-pricing__name">lorem</div>
+											<div class="module-pricing__price">100€</div>
+										</li>
+										<li class="modules-pricing__module module-pricing">
+											<div class="module-pricing__name">lorem</div>
+											<div class="module-pricing__price">100€</div>
+										</li>
+										<li class="modules-pricing__module module-pricing">
+											<div class="module-pricing__name">lorem</div>
+											<div class="module-pricing__price">100€</div>
+										</li>
+										<li class="modules-pricing__module module-pricing">
+											<div class="module-pricing__name">lorem</div>
+											<div class="module-pricing__price">100€</div>
+										</li>
+										<li class="modules-pricing__module module-pricing">
+											<div class="module-pricing__name">lorem</div>
+											<div class="module-pricing__price">100€</div>
+										</li>
+									</ul>
 								</div>
 							</div>
 						</div>
