@@ -2340,6 +2340,7 @@ html[data-fls-darklite-dark] {
     display: block;
   }
   .pricing__background {
+    top: 0;
     width: 100%;
     height: 100%;
   }
