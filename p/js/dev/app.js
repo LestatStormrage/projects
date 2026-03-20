@@ -5525,14 +5525,32 @@ const gotoBlock = (targetBlock, noHeader = false, speed = 500, offsetTop = 0) =>
   }
 };
 function menuInit() {
+  console.log("Menu JS loaded");
   document.addEventListener("click", function(e) {
-    if (bodyLockStatus && e.target.closest("[data-fls-menu]")) {
+    const burger = e.target.closest("[data-fls-menu]");
+    console.log("Click event detected", burger);
+    if (bodyLockStatus && burger) {
+      const menuOpen = document.documentElement.hasAttribute("data-fls-menu-open");
+      if (!menuOpen) {
+        history.pushState({ flsMenuOpen: true }, "");
+      }
       bodyLockToggle();
       document.documentElement.toggleAttribute("data-fls-menu-open");
     }
   });
+  window.addEventListener("popstate", function(e) {
+    if (document.documentElement.hasAttribute("data-fls-menu-open")) {
+      history.pushState(null, "");
+      document.documentElement.removeAttribute("data-fls-menu-open");
+      bodyLockToggle();
+    }
+  });
 }
-document.querySelector("[data-fls-menu]") ? window.addEventListener("load", menuInit) : null;
+window.addEventListener("DOMContentLoaded", () => {
+  if (document.querySelector("[data-fls-menu]")) {
+    menuInit();
+  }
+});
 document.addEventListener("DOMContentLoaded", function() {
   const html = document.documentElement;
   const button = document.querySelector(".header__theme-switcher");
