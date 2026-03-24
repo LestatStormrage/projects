@@ -503,10 +503,217 @@ html[data-fls-darklite-dark] .hero__tree-03--dark {
 }
 .about__body {
   background-color: var(--bgColor);
+  position: relative;
+}
+.about__body::before {
+  content: "";
+  background: url("../assets/img/textures/wall-horizontal.webp") 0 0/auto 6.25rem repeat-x;
+  width: 100%;
+  height: 6.25rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  pointer-events: none;
+}
+.about__body::after {
+  content: "";
+  background: url("../assets/img/textures/wall-horizontal.webp") 0 0/auto 6.25rem repeat-x;
+  width: 100%;
+  height: 6.25rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleY(-1);
+  z-index: 3;
+  pointer-events: none;
+}
+.about__background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.about__background-image {
+  width: 100%;
+  height: 100%;
+  background: url("../assets/img/textures/wallpaper.svg") 0 0/contain repeat;
+  filter: brightness(0.4);
+}
+.about__container {
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  gap: 2.5rem;
+  position: relative;
+  z-index: 2;
+}
+.about__window {
+  display: grid;
+  align-self: start;
+  overflow: hidden;
+  position: relative;
+  top: 12.5rem;
+}
+.about__window > * {
+  grid-area: 1/1;
+}
+.about__window-image {
+  position: relative;
+  z-index: 2;
+}
+.about__forest {
+  position: absolute;
+  z-index: 1;
+  display: grid;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 85%;
+  overflow: hidden;
+}
+.about__forest > * {
+  grid-area: 1/1;
+}
+.about__forest-image {
+  height: 110%;
+  object-position: 80% 50%;
+  object-fit: cover;
+  transition: opacity 0.5s;
+}
+.about__forest-image--dark {
+  opacity: 0;
+  transition-delay: 0.12s;
+}
+[data-fls-darklite-dark] .about__forest-image--dark {
+  transition-delay: 0s;
+  opacity: 1;
+}
+.about__forest-image--light {
+  opacity: 0;
+  transition-delay: 0.12s;
+}
+[data-fls-darklite-light] .about__forest-image--light {
+  transition-delay: 0s;
+  opacity: 1;
+}
+.about__content {
+  background: url("../assets/img/textures/banner-fabric.webp") 0 0/contain repeat;
+  padding-top: 9.375rem;
+  border-radius: 0rem 0rem 12.5rem 12.5rem;
+  padding-bottom: 6.25rem;
+  margin-bottom: 6.25rem;
+  position: relative;
+  z-index: 2;
+  outline-offset: -0.625rem;
+  outline: 0.0625rem dashed #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .about__text {
   color: #fff;
-  padding-block: 12.5rem;
+}
+.about__text {
+  padding: 2.5rem;
+}
+.media-about {
+  position: relative;
+  perspective: 62.5rem;
+  perspective-origin: center;
+}
+.media-about__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../assets/img/textures/stone-fireplace-wall.webp") 0 0/cover repeat;
+  transform-style: preserve-3d;
+}
+.media-about__background::before {
+  content: "";
+  height: 100%;
+  width: 20%;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  background: url("../assets/img/textures/stone-fireplace-wall.webp") 0 0/cover repeat;
+  transform-origin: right center;
+  transform: rotateY(-60deg);
+  filter: brightness(0.8);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.4);
+}
+.media-about__background::after {
+  content: "";
+  height: 100%;
+  width: 20%;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background: url("../assets/img/textures/stone-fireplace-wall.webp") 0 0/cover repeat;
+  transform-origin: left center;
+  transform: rotateY(60deg);
+  filter: brightness(0.8);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.4);
+}
+.media-about__fireplace {
+  transition: box-shadow 0.5s;
+}
+[data-fls-darklite-light] .media-about__fireplace {
+  box-shadow: inset -0.125rem 0rem 9.375rem 0.1875rem rgba(190, 129, 26, 0.1);
+}
+[data-fls-darklite-dark] .media-about__fireplace {
+  box-shadow: inset -0.125rem 0rem 9.375rem 0.1875rem rgba(190, 129, 26, 0.21);
+}
+.media-about__fireplace {
+  position: absolute;
+  bottom: 6.25rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: url("../assets/img/decor/fireplace.webp") 50% 50%/contain no-repeat;
+  width: 70%;
+  aspect-ratio: 610/496;
+  overflow: hidden;
+  display: grid;
+}
+.media-about__fireplace > * {
+  grid-area: 1/1;
+}
+.media-about__fire {
+  position: absolute;
+  bottom: 22%;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent), linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-composite: intersect;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent), linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
+  mask-composite: intersect;
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 65%;
+  height: 100%;
+  object-fit: cover;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  transition: opacity 0.5s;
+}
+.media-about__fire--big {
+  opacity: 0;
+}
+[data-fls-darklite-dark] .media-about__fire--big {
+  opacity: 1;
+}
+.media-about__fire--small {
+  width: 50%;
+  height: 50%;
+  opacity: 0;
+}
+[data-fls-darklite-light] .media-about__fire--small {
+  opacity: 1;
 }
 
 .projects {
@@ -855,7 +1062,7 @@ html[data-fls-darklite-dark] .projects__quill-image {
 }
 .pricing::before {
   content: "";
-  background: url("../assets/img/textures/wall-horizontal.webp") 0 0/contain repeat-x;
+  background: url("../assets/img/textures/wall-horizontal.webp") 0 0/auto 6.25rem repeat-x;
   width: 100%;
   height: 18.75rem;
   position: absolute;
@@ -866,7 +1073,7 @@ html[data-fls-darklite-dark] .projects__quill-image {
 }
 .pricing::after {
   content: "";
-  background: url("../assets/img/textures/wall-horizontal.webp") 0 0/contain repeat-x;
+  background: url("../assets/img/textures/wall-horizontal.webp") 0 0/auto 6.25rem repeat-x;
   width: 100%;
   height: 18.75rem;
   position: absolute;
@@ -2441,6 +2648,12 @@ html[data-fls-darklite-dark] {
   .hero__title-secondary {
     padding-left: 1.875rem;
   }
+  .about__title {
+    font-size: 1.5rem;
+  }
+  .about__text {
+    font-size: 0.875rem;
+  }
   .projects__container {
     padding-top: 6.25rem;
   }
@@ -2701,6 +2914,12 @@ html[data-fls-darklite-dark] {
   }
   .hero__title-secondary {
     padding-left: clamp( 1.875rem , 1.625rem  +  1.25vw , 3.125rem );
+  }
+  .about__title {
+    font-size: clamp( 1.5rem , 1.2rem  +  1.5vw , 3rem );
+  }
+  .about__text {
+    font-size: clamp( 0.875rem , 0.8rem  +  0.375vw , 1.25rem );
   }
   .projects__container {
     padding-top: clamp( 6.25rem , 5rem  +  6.25vw , 12.5rem );
@@ -3078,6 +3297,12 @@ html[data-fls-darklite-dark] {
   }
   .hero__title-secondary {
     padding-left: 3.125rem;
+  }
+  .about__title {
+    font-size: 3rem;
+  }
+  .about__text {
+    font-size: 1.25rem;
   }
   .projects__container {
     padding-top: 12.5rem;
