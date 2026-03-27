@@ -538,8 +538,9 @@ html[data-fls-darklite-dark] .hero__tree-03--dark {
 .about__background-image {
   width: 100%;
   height: 100%;
-  background: url("../assets/img/textures/wallpaper.svg") 0 0/contain repeat;
-  filter: brightness(0.4);
+  background: url("../assets/img/textures/wall-1.webp") 0 0/contain repeat;
+  filter: brightness(0.2);
+  transition: filter 0.5s;
 }
 .about__container {
   display: grid;
@@ -562,6 +563,8 @@ html[data-fls-darklite-dark] .hero__tree-03--dark {
 .about__window-image {
   position: relative;
   z-index: 2;
+  filter: brightness(0.4);
+  transition: filter 0.5s;
 }
 .about__forest {
   position: absolute;
@@ -638,6 +641,7 @@ html[data-fls-darklite-dark] .hero__tree-03--dark {
   width: 100%;
   height: 100%;
   background: url("../assets/img/textures/stone-fireplace-wall.webp") 0 0/cover repeat;
+  box-shadow: 0 0 5rem rgb(0, 0, 0);
   transform-style: preserve-3d;
 }
 .media-about__background::before {
@@ -651,7 +655,7 @@ html[data-fls-darklite-dark] .hero__tree-03--dark {
   transform-origin: right center;
   transform: rotateY(-60deg);
   filter: brightness(0.8);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.4);
+  box-shadow: -0.625rem 0 5rem rgb(0, 0, 0);
 }
 .media-about__background::after {
   content: "";
@@ -664,15 +668,32 @@ html[data-fls-darklite-dark] .hero__tree-03--dark {
   transform-origin: left center;
   transform: rotateY(60deg);
   filter: brightness(0.8);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.4);
+  box-shadow: 0.625rem 0 5rem rgb(0, 0, 0);
 }
-.media-about__portrait {
+.media-about__photo {
   position: relative;
   z-index: 2;
   width: 60%;
-  display: flex;
+  display: grid;
   justify-content: center;
-  align-items: flex-start;
+  justify-items: center;
+  align-items: center;
+}
+.media-about__photo > * {
+  grid-area: 1/1;
+}
+.media-about__portrait-frame {
+  position: relative;
+  z-index: 2;
+}
+.media-about__portrait {
+  width: 90%;
+  height: 90%;
+}
+.media-about__portrait-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .media-about__fireplace {
   transition: box-shadow 0.5s;
@@ -681,7 +702,7 @@ html[data-fls-darklite-dark] .hero__tree-03--dark {
   box-shadow: inset -0.125rem 0rem 9.375rem 0.1875rem rgba(190, 129, 26, 0.1);
 }
 [data-fls-darklite-dark] .media-about__fireplace {
-  box-shadow: inset -0.125rem 0rem 9.375rem 0.1875rem rgba(190, 129, 26, 0.21);
+  box-shadow: inset -0.125rem 0rem 9.375rem 0.1875rem rgba(145, 93, 4, 0.37);
 }
 .media-about__fireplace {
   background: url("../assets/img/decor/fireplace.webp") 50% 50%/contain no-repeat;
@@ -730,6 +751,19 @@ html[data-fls-darklite-dark] .hero__tree-03--dark {
 }
 [data-fls-darklite-light] .media-about__fire--small {
   opacity: 1;
+}
+
+html[data-fls-darklite-light] .about__background-image {
+  filter: brightness(0.4);
+}
+html[data-fls-darklite-light] .about__window-image {
+  filter: brightness(0.8);
+}
+html[data-fls-darklite-dark] .about__background-image {
+  filter: brightness(0.2);
+}
+html[data-fls-darklite-dark] .about__window-image {
+  filter: brightness(0.4);
 }
 
 .projects {
@@ -3249,7 +3283,7 @@ html[data-fls-darklite-dark] {
   .about__content {
     margin-bottom: 6.25rem;
   }
-  .media-about__portrait {
+  .media-about__photo {
     padding-top: 12.5rem;
   }
   .projects__inner {
