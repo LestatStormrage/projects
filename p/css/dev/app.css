@@ -186,7 +186,7 @@ input:-webkit-autofill:focus {
 .divider {
   background: #000;
   position: relative;
-  z-index: 20;
+  z-index: 50;
 }html {
   --mainColor: #02010a;
   --mainColor-subtle: rgba(2, 1, 10, 0.6);
@@ -219,7 +219,7 @@ input:-webkit-autofill:focus {
 .page__pricing {
   background-color: #000;
   position: relative;
-  z-index: 40;
+  z-index: 39;
   overflow: hidden;
 }
 .page__contact {
@@ -736,9 +736,11 @@ html[data-fls-darklite-dark] .hero__tree-03--dark {
   object-fit: cover;
   mix-blend-mode: screen;
   pointer-events: none;
-  transition: opacity 0.5s;
+  transition: opacity 1.5s, width 1.5s, height 1.5s;
 }
 .media-about__fire--big {
+  width: 65%;
+  height: 100%;
   opacity: 0;
 }
 [data-fls-darklite-dark] .media-about__fire--big {
@@ -1134,11 +1136,23 @@ html[data-fls-darklite-dark] .projects__quill-image {
   pointer-events: none;
 }
 .pricing__background {
-  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 0;
+  transition: opacity 0.05s;
+}
+.--watcher-view .pricing__background {
+  visibility: visible;
+  opacity: 1;
+}
+.pricing__background {
   top: -2%;
   left: 0;
-  width: 105%;
-  height: 105%;
+  width: 105vw;
+  height: 115lvh;
 }
 .pricing__background {
   pointer-events: none;
@@ -1257,7 +1271,7 @@ html[data-fls-darklite-dark] .projects__quill-image {
   outline: 0.0625rem dashed #fff;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  background: url("../assets/img/textures/banner-fabric.webp") 0 0/contain repeat;
   transition: filter 0.5s;
   border-radius: 6.25rem;
   pointer-events: none;
@@ -1403,7 +1417,7 @@ html[data-fls-darklite-dark] .projects__quill-image {
   outline: 0.0625rem dashed #fff;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  background: url("../assets/img/textures/banner-fabric.webp") 0 0/contain repeat;
   transition: filter 0.5s;
   border-radius: 6.25rem;
   pointer-events: none;
