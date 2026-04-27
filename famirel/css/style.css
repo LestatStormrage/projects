@@ -511,7 +511,7 @@ textarea.input {
   z-index: 50;
   flex-direction: row;
   width: 100vw;
-  height: 100svh;
+  height: 100dvh;
   gap: 0;
   background-color: var(--background)
 }
@@ -756,7 +756,7 @@ textarea.input {
   outline: 0
 }
 .contact-us__input:focus {
-  box-shadow: 0 0 .3125rem var(--secondary)
+  box-shadow: 0 0 .3125rem var(--red)
 }
 .contact-us__input._error {
   box-shadow: 0 0 1.5625rem var(--red)
@@ -772,6 +772,9 @@ textarea.input {
 }
 .contact-us__button:active::after {
   background-color: var(--primary)
+}
+.select_form._error {
+  box-shadow: 0 0 1.5625rem var(--red)
 }
 .checkbox-contact-us__input {
   display: none
