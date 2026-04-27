@@ -354,7 +354,7 @@ html {
     height: calc(100% + 0.9375rem);
   }
   .item-process:nth-child(even) {
-    padding-right: 0rem;
+    padding-right: 0rem !important;
   }
   .item-process {
     padding-block: 0.9375rem;
